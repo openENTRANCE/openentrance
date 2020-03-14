@@ -29,3 +29,9 @@ serves as a discussion platform for extending the lists of terms.
 *We invite other modelling teams to contribute and join the discussion,
 hoping to facilitate increased cooperation across research projects
 on (European) energy and climate policy!*
+
+## Funding acknowledgement
+
+<img src="./_static/EU-logo-300x201.jpg" width="80" height="54" align="right" alt="EU logo" />
+This project has received funding from the European Union’s Horizon 2020 research
+and innovation programme under grant agreement No. 835896.
