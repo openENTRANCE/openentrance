@@ -59,6 +59,8 @@ the openENTRANCE project to accomodate data at a subannual temporal resolution.*
 
 ### Recommended usage of this data format
 
+<img src="./_static/pyam-logo.png" width="133" height="100" align="right" alt="pyam logo" />
+
 The Python package **pyam** was developed to facilitate working with timeseries
 data conforming to this structure. Features include validation of values,
 aggregation and downscaling of data, and import/export with various file formats
