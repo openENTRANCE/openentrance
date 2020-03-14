@@ -13,3 +13,19 @@ Copyright 2020 openENTRANCE consortium
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
    limitations under the License.
+
+## Aim and scope of this repository
+
+The [Horizon 2020 openENTRANCE project](https://openentrance.eu) aims at
+developing, using and disseminating an open, transparent and integrated
+modelling platform for assessing low-carbon transition pathways in Europe.
+A key requirement for an effective linking of models and consistent analysis is
+a common "nomenclature", i.e., shared lists of variables, regions and units
+used across the entire project.
+
+This repository makes available the nomenclature used within the consortium and
+serves as a discussion platform for extending the lists of terms.
+
+*We invite other modelling teams to contribute and join the discussion,
+hoping to facilitate increased cooperation across research projects
+on (European) energy and climate policy!*
