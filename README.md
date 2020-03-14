@@ -32,6 +32,8 @@ on (European) energy and climate policy!*
 
 ## Data format structure
 
+<img src="./_static/open_entrance-logo.png" width="202" height="129" align="right" alt="openENTRANCE logo" />
+
 The openENTRANCE project uses a **common data format** based on a template
 developed by the [Integrated Assessment Modeling Consortium (IAMC)](http://www.globalchange.umd.edu/iamc/)
 and already in use in many model comparison projects at the global and national
