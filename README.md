@@ -16,6 +16,8 @@ Copyright 2020 openENTRANCE consortium
 
 ## Aim and scope of this repository
 
+<img src="./_static/open_entrance-logo.png" width="202" height="129" align="right" alt="openENTRANCE logo" />
+
 The [Horizon 2020 openENTRANCE project](https://openentrance.eu) aims at
 developing, using and disseminating an open, transparent and integrated
 modelling platform for assessing low-carbon transition pathways in Europe.
@@ -31,8 +33,6 @@ hoping to facilitate increased cooperation across research projects
 on (European) energy and climate policy!*
 
 ## Data format structure
-
-<img src="./_static/open_entrance-logo.png" width="202" height="129" align="right" alt="openENTRANCE logo" />
 
 The openENTRANCE project uses a **common data format** based on a template
 developed by the [Integrated Assessment Modeling Consortium (IAMC)](http://www.globalchange.umd.edu/iamc/)
