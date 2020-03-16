@@ -5,8 +5,7 @@ pathway or case study analysis. It is recommended to use descriptive language
 without abbreviations, unless they are intuitive to a general audience.
 
 Scenario names should use capitalised terms separated by a space.
-Names that specifically use work package or case study names are
-discouraged.
+Names that specifically use work package or case study names are discouraged.
 
 Example:
 
