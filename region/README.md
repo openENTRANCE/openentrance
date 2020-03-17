@@ -6,7 +6,9 @@ The list of regions is grouped into several levels of spatial detail:
 
  - regions: World, various definitions of Europe and the EU,
    groupings of several countries
- - **countries**: see [countries.yaml](countries.yaml)
+ - **countries** ([countries.yaml](countries.yaml)):
+   Each country in this list includes the ISO2 and ISO3 codes as an attribute
+   as well as a flag on EU membership and (optional) a list of synonyms.
  - sub-country areas following the 
    [NUTS 2021 classification](https://ec.europa.eu/eurostat/web/nuts/background)
    used by Eurostat (which itself comprises three levels of spatial
