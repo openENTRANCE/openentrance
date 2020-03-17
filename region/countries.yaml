@@ -1,0 +1,231 @@
+# This file was created using the script `utils/write-countries.py`
+# DO NOT ALTER THIS FILE MANUALLY!
+
+# List of countries
+
+Albania:
+   iso2: 'AL'
+   iso3: 'ALB'
+   eu_member: False
+
+Andorra:
+   iso2: 'AD'
+   iso3: 'AND'
+   eu_member: False
+
+Austria:
+   iso2: 'AT'
+   iso3: 'AUT'
+   eu_member: True
+
+Belarus:
+   iso2: 'BY'
+   iso3: 'BLR'
+   eu_member: False
+
+Belgium:
+   iso2: 'BE'
+   iso3: 'BEL'
+   eu_member: True
+
+Bosnia and Herzegovina:
+   iso2: 'BA'
+   iso3: 'BIH'
+   eu_member: False
+
+Bulgaria:
+   iso2: 'BG'
+   iso3: 'BGR'
+   eu_member: True
+
+Croatia:
+   iso2: 'HR'
+   iso3: 'HRV'
+   eu_member: True
+
+Cyprus:
+   iso2: 'CY'
+   iso3: 'CYP'
+   eu_member: True
+
+Czech Republic:
+   iso2: 'CZ'
+   iso3: 'CZE'
+   eu_member: True
+
+Denmark:
+   iso2: 'DK'
+   iso3: 'DNK'
+   eu_member: True
+
+Estonia:
+   iso2: 'EE'
+   iso3: 'EST'
+   eu_member: True
+
+Finland:
+   iso2: 'FI'
+   iso3: 'FIN'
+   eu_member: True
+
+France:
+   iso2: 'FR'
+   iso3: 'FRA'
+   eu_member: True
+
+Germany:
+   iso2: 'DE'
+   iso3: 'DEU'
+   eu_member: True
+
+Gibraltar:
+   iso2: 'GI'
+   iso3: 'GIB'
+   eu_member: False
+
+Greece:
+   iso2: 'GR'
+   iso3: 'GRC'
+   eu_member: True
+
+Hungary:
+   iso2: 'HU'
+   iso3: 'HUN'
+   eu_member: True
+
+Iceland:
+   iso2: 'IS'
+   iso3: 'ISL'
+   eu_member: False
+
+Ireland:
+   iso2: 'IE'
+   iso3: 'IRL'
+   eu_member: True
+
+Italy:
+   iso2: 'IT'
+   iso3: 'ITA'
+   eu_member: True
+
+Latvia:
+   iso2: 'LV'
+   iso3: 'LVA'
+   eu_member: True
+
+Liechtenstein:
+   iso2: 'LI'
+   iso3: 'LIE'
+   eu_member: False
+
+Lithuania:
+   iso2: 'LT'
+   iso3: 'LTU'
+   eu_member: True
+
+Luxembourg:
+   iso2: 'LU'
+   iso3: 'LUX'
+   eu_member: True
+
+Malta:
+   iso2: 'MT'
+   iso3: 'MLT'
+   eu_member: True
+
+Moldova:
+   iso2: 'MD'
+   iso3: 'MDA'
+   eu_member: False
+
+Monaco:
+   iso2: 'MC'
+   iso3: 'MCO'
+   eu_member: False
+
+Montenegro:
+   iso2: 'ME'
+   iso3: 'MNE'
+   eu_member: False
+
+Norway:
+   iso2: 'NO'
+   iso3: 'NOR'
+   eu_member: False
+
+Poland:
+   iso2: 'PL'
+   iso3: 'POL'
+   eu_member: True
+
+Portugal:
+   iso2: 'PT'
+   iso3: 'PRT'
+   eu_member: True
+
+North Macedonia:
+   iso2: 'MK'
+   iso3: 'MKD'
+   eu_member: False
+
+Romania:
+   iso2: 'RO'
+   iso3: 'ROU'
+   eu_member: True
+
+Russia:
+   iso2: 'RU'
+   iso3: 'RUS'
+   eu_member: False
+
+Serbia:
+   iso2: 'RS'
+   iso3: 'SRB'
+   eu_member: False
+
+Slovakia:
+   iso2: 'SK'
+   iso3: 'SVK'
+   eu_member: True
+
+Slovenia:
+   iso2: 'SI'
+   iso3: 'SVN'
+   eu_member: True
+
+Spain:
+   iso2: 'ES'
+   iso3: 'ESP'
+   eu_member: True
+
+Sweden:
+   iso2: 'SE'
+   iso3: 'SWE'
+   eu_member: True
+
+Switzerland:
+   iso2: 'CH'
+   iso3: 'CHE'
+   eu_member: False
+
+The Netherlands:
+   iso2: 'NL'
+   iso3: 'NLD'
+   eu_member: True
+   synonyms: ['Netherlands']
+
+Turkey:
+   iso2: 'TR'
+   iso3: 'TUR'
+   eu_member: False
+
+Ukraine:
+   iso2: 'UA'
+   iso3: 'UKR'
+   eu_member: False
+
+United Kingdom:
+   iso2: 'GB'
+   iso3: 'GBR'
+   eu_member: False
+   synonyms: ['Great Britain']
