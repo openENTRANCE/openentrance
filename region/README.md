@@ -1,12 +1,12 @@
 # Guidelines for region names
 
-The **region** column in the data format should use one of the terms defined
-in [regions.yaml](regions.yaml). The list of regions is grouped into several
-levels of spatial detail:
+The **region** column in the data format specifies the spatial scope
+of the timeseries data.
+The list of regions is grouped into several levels of spatial detail:
 
  - regions: World, various definitions of Europe and the EU,
    groupings of several countries
- - countries
+ - **countries**: see [countries.yaml](countries.yaml)
  - sub-country areas following the 
    [NUTS 2021 classification](https://ec.europa.eu/eurostat/web/nuts/background)
    used by Eurostat (which itself comprises three levels of spatial
