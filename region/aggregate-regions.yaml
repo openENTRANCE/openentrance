@@ -34,4 +34,7 @@ EU27:
    HU + IE + IT + LV + LT + LU + MT + PL + PT + RO + SK + SI + ES + SE + NL'
    notes: 'membership as of February 1, 2020'
 
+EU27 (excl. Malta & Cyprus):
+   definition: 'EU27 excluding CY + MT'
+
 # add more definitions of `EU*` above this line
