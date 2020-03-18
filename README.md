@@ -46,8 +46,8 @@ industry or the building stock.
 
 In the data format, every timeseries is described by six dimensions (codes):
 
-1.	Model
-2.	Scenario
+1.	Model - [more information](model)
+2.	Scenario - [more information](scenario)
 3.	Region
 4.	Variable
 5.	Unit
