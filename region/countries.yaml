@@ -108,6 +108,11 @@ Italy:
    iso3: 'ITA'
    eu_member: True
 
+Kosovo:
+   iso2: 'XK'
+   iso3: 'XKX'
+   eu_member: False
+
 Latvia:
    iso2: 'LV'
    iso3: 'LVA'
@@ -148,6 +153,11 @@ Montenegro:
    iso3: 'MNE'
    eu_member: False
 
+North Macedonia:
+   iso2: 'MK'
+   iso3: 'MKD'
+   eu_member: False
+
 Norway:
    iso2: 'NO'
    iso3: 'NOR'
@@ -162,11 +172,6 @@ Portugal:
    iso2: 'PT'
    iso3: 'PRT'
    eu_member: True
-
-North Macedonia:
-   iso2: 'MK'
-   iso3: 'MKD'
-   eu_member: False
 
 Romania:
    iso2: 'RO'
