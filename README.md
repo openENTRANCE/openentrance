@@ -48,7 +48,7 @@ In the data format, every timeseries is described by six dimensions (codes):
 
 1.	Model - [more information](model)
 2.	Scenario - [more information](scenario)
-3.	Region
+3.	Region - [more information](region)
 4.	Variable
 5.	Unit
 6.	Subannual (optional, default 'Year')<sup>[1]</sup>

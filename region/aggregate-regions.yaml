@@ -1,0 +1,40 @@
+# List of aggregate-regions
+
+# refer to `countries.yaml` for the mapping of ISO2 codes to country names
+
+# generic definition of Europe
+
+Europe:
+   definition: 'any of the aggregate-regions `Europe (*)`'
+   notes: 'the definition used by a model must be specified
+   in the model documentation'
+
+Europe (excl. Turkey):
+   definition: 'EU27 + EFTA + AL + BA + BY + ME + MK + UA + UK + RS + XK'
+
+Europe (incl. Turkey):
+   definition: 'EU27 + EFTA + AL + BA + BY + ME + MK + UA + UK + RS + TR + XK'
+
+# add more defintion of `Europe (*)` above this line
+
+EFTA:
+   definition: 'IS + LI + NO + CH'
+   notes: 'European Free Trade Association'
+   source: 'https://en.wikipedia.org/wiki/European_Free_Trade_Association'
+
+# generic definition of the EU
+
+European Union:
+   definition: 'any of the aggregate-regions `EU*`'
+   notes: 'the definition used by a model must be specified
+   in the model documentation'
+
+EU27:
+   definition: 'AT + BE + BG + HR + CY + CZ + DK + EE + FI + FR + DE + GR +
+   HU + IE + IT + LV + LT + LU + MT + PL + PT + RO + SK + SI + ES + SE + NL'
+   notes: 'membership as of February 1, 2020'
+
+EU27 (excl. Malta & Cyprus):
+   definition: 'EU27 excluding CY + MT'
+
+# add more definitions of `EU*` above this line

@@ -1,6 +1,9 @@
 # compatibility with Mac OS
 *.DS_Store
 
+# config files for editor
+.idea/*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
