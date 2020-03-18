@@ -42,6 +42,21 @@ as well as a flag on EU membership and (optional) a list of synonyms.
 
 See [countries.yaml](countries.yaml) for the codelist.
 
+#### Example for using this codelist
+
+The code snippet (Python) below shows how to obtain the list of countries
+and a mapping of ISO2-codes to the common country names.
+
+```python
+import yaml
+with open('countries.yaml', 'r') as stream:
+    country_mapping = yaml.load(stream, Loader=yaml.FullLoader)
+
+list_of_countries = list(country_mapping.keys())
+iso2_mapping = dict([(country_mapping[c]['iso2'], c)
+                     for c in country_mapping.keys()])
+```
+
 ### Sub-country areas
 
 The disaggregation of countries follow the 
