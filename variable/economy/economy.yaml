@@ -1,0 +1,198 @@
+# List of variables related to economic activity and societal drivers
+
+Consumption:
+   description: Total consumption of all goods, by all consumers in a region
+   unit: billion US$2010/yr
+
+Discount rate|Buildings:
+   description: Discount rate for investments into residential and commercial
+                buildings
+   unit: %
+
+Discount rate|Economy:
+   description: Economy-wide discount rate (real interest rate of capital)
+   unit: %
+
+Discount rate|Electricity:
+   description: Discount rate for investments in the electricity sector
+   unit: %
+
+Discount rate|Energy Supply:
+   description: Discount rate for investments in energy supply sector
+   unit: %
+
+Discount rate|Industry:
+   description: Discount rate for investments in installations in the
+                industry sector
+   unit: %
+
+Discount rate|Mobility:
+   description: Discount rate for investments into mobility (e.g. vehicles;
+                not including transport infrastructure)
+   unit: %
+
+Discount rate|Social:
+   description: Social discount rate (should be reported if different from
+                capital interest rate and used in the model to discount future
+                costs and revenues)
+   unit: %
+
+Discount rate|Transport Infrastructure:
+   description: Discount rate for investments into transport infrastructure
+                (roads, railways, ports, airports, waterways etc.)
+   unit: %
+
+GDP|MER:
+   description: GDP at market exchange rate
+   unit: billion US$2010/yr
+
+GDP|PPP:
+   description: GDP at purchasing power parity
+   unit: billion US$2010/yr
+
+Policy Cost|Additional Total Energy System Cost:
+   description: Additional energy system cost associated with the policy
+   unit: billion US$2010/yr
+
+Policy Cost|Area under MAC Curve:
+   description: Total costs of the policy, i.e. the area under the Marginal
+                Abatement Cost (MAC) curve
+   unit: billion US$2010/yr
+
+Policy Cost|Consumption Loss:
+   description: Consumption loss in a policy scenario compared to the
+                corresponding baseline (losses should be reported as negative
+                numbers)
+   unit: billion US$2010/yr
+
+Policy Cost|GDP Loss:
+   description: GDP loss in a policy scenario compared to the corresponding
+                baseline (losses should be reported as negative numbers)
+   unit: billion US$2010/yr
+
+Policy Cost|Other:
+   description: Any other indicator of policy cost (e.g., compensated
+                variation)
+   unit: billion US$2010/yr
+
+Population:
+   description: Total population
+   unit: million
+
+Population|Risk of Hunger:
+   description: Population at risk of hunger, calculated by multipling total
+                population and prevalence of undernourishment which is computed
+                from a probability distribution of daily dietary energy
+                consumption and minimum dietary energy requirement.
+   unit: Million
+
+Population|Rural:
+   description: Total population living in rural areas
+   unit: million
+
+Population|Urban:
+   description: Total population living in urban areas
+   unit: million
+
+Population|Urban|Share:
+   description: Share of population living in urban areas
+   unit: %
+
+Price|Carbon:
+   description: Price of carbon (for regional aggregrates the weighted price of
+                carbon by subregion should be used)
+   unit: US$2010/t CO2
+
+Price|Final Energy|Residential|Electricity:
+   description: Electricity price at the final level in the residential sector.
+                Prices should include the effect of carbon prices.
+   unit: US$2010/GJ
+
+Price|Final Energy|Residential|Gases|Natural Gas:
+   description: Natural gas price at the final level in the residential sector.
+                Prices should include the effect of carbon prices.
+   unit: US$2010/GJ
+
+Price|Final Energy|Residential|Liquids|Biomass:
+   description: Biofuel price at the final level in the residential sector.
+                Prices should include the effect of carbon prices.
+   unit: US$2010/GJ
+
+Price|Final Energy|Residential|Liquids|Oil:
+   description: Light fuel oil price at the final level in the residential
+                sector. Prices should include the effect of carbon prices.
+   unit: US$2010/GJ
+
+Price|Final Energy|Residential|Solids|Biomass:
+   description: Biomass price at the final level in the residential sector.
+                Prices should include the effect of carbon prices.
+   unit: US$2010/GJ
+
+Price|Final Energy|Residential|Solids|Coal:
+   description: Coal price at the final level in the residential sector. Prices
+                should include the effect of carbon prices.
+   unit: US$2010/GJ
+
+Price|Primary Energy|Biomass:
+   description: Biomass producer price
+   unit: US$2010/GJ
+
+Price|Primary Energy|Coal:
+   description: Coal price at the primary level (i.e. the spot price at the
+                global or regional market)
+   unit: US$2010/GJ
+
+Price|Primary Energy|Gas:
+   description: Natural gas price at the primary level (i.e. the spot price at
+                the global or regional market)
+   unit: US$2010/GJ
+
+Price|Primary Energy|Oil:
+   description: Crude oil price at the primary level (i.e. the spot price at
+                the global or regional market)
+   unit: US$2010/GJ
+
+Price|Secondary Energy|Electricity:
+   description: Electricity price at the secondary level, i.e. for large scale
+                consumers (e.g. aluminum production).  Prices should include
+                the effect of carbon prices.
+   unit: US$2010/GJ
+
+Price|Secondary Energy|Gases|Natural Gas:
+   description: Natural gas price at the secondary level, i.e. for large scale
+                consumers (e.g. gas power plant). Prices should include the
+                effect of carbon prices.
+   unit: US$2010/GJ
+
+Price|Secondary Energy|Hydrogen:
+   description: Hydrogen price at the secondary level. Prices should include
+                the effect of carbon prices
+   unit: US$2010/GJ
+
+Price|Secondary Energy|Liquids:
+   description: Liquid fuel price at the secondary level, i.e. petrol, diesel,
+                or weighted average
+   unit: US$2010/GJ
+
+Price|Secondary Energy|Liquids|Biomass:
+   description: Biofuel price at the secondary level, i.e. for biofuel
+                consumers
+   unit: US$2010/GJ
+
+Price|Secondary Energy|Liquids|Oil:
+   description: Light fuel oil price at the secondary level, i.e. for large
+                scale consumers (e.g. oil power plant). Prices should include
+                the effect of carbon prices.
+   unit: US$2010/GJ
+
+Price|Secondary Energy|Solids|Biomass:
+   description: Biomass price at the secondary level, i.e. for large scale
+                consumers (e.g. biomass power plant). Prices should include the
+                effect of carbon prices.
+   unit: US$2010/GJ
+
+Price|Secondary Energy|Solids|Coal:
+   description: Coal price at the secondary level, i.e. for large scale
+                consumers (e.g. coal power plant). Prices should include the
+                effect of carbon prices.
+   unit: US$2010/GJ
