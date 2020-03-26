@@ -8,7 +8,7 @@ countries = pd.read_csv('countries.csv', header=None)
 
 # open file and write header
 file = open('../countries.yaml', 'w')
-file.writelines(f'# This file was created using the script `utils/{this}`\n')
+file.writelines(f'# This file was created using the script `data/{this}`\n')
 
 file.write('# DO NOT ALTER THIS FILE MANUALLY!\n\n')
 file.write('# List of countries\n')
