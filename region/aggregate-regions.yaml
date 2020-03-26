@@ -16,7 +16,7 @@ Europe (incl. Turkey):
    definition: 'EU27 + EFTA + AL + BA + BY + ME + MK + UA + UK + RS + TR + XK'
 
 Pan-Europe:
-   definition: 'EU27 (excl. Malta & Cyprus) +CH + BA + ME + RS + MK + AL + NO + UK'
+   definition: 'EU27 (excl. Malta & Cyprus) + AL + BA + CH + ME + MK + NO + RS + UK'
    source: definition of the pan-european electricity system used in e-highways2050 and plan4res
    
 # add more defintion of `Europe (*)` above this line
