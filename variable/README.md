@@ -110,3 +110,17 @@ and societal drivers such as population.
 - `Policy Cost`
 
 [More information](economy)
+
+## Definition of units
+
+The list of variables (codelists) defined in the `yaml`-files in the subfolders
+contain an attribute `unit`, which specifies the recommended unit for
+this indicator.
+
+*It is currently still under discussion whether the recommended unit
+should be interpreted as mandatory.*
+
+For unit conversion as part of the pre- or postprocessing in the model workflow,
+the Python package **pyam** provides an intuitive and low-level interface;
+see [this tutorial](https://pyam-iamc.readthedocs.io/en/stable/tutorials/unit_conversion.html)
+for more information.
