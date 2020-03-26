@@ -63,6 +63,13 @@ The disaggregation of countries follow the
 [NUTS 2021 classification](https://ec.europa.eu/eurostat/web/nuts/background)
 used by Eurostat.
 
+Other sub-country disaggregations, provided that they can be described as aggregations of NUTS1,2 or 3 regions, example:
+- ehighway2050 clusters : we have a definition of each cluster as an aggregation of a list of NUTS3 regions
+- agregation of ehighway2050 clusters such as:
+    Northern Italy = 52_IT + 53_IT
+    Southern Italy = 54_IT+55_IT+56_IT+98_IT
+    with Northern Italy + Southern Italy = IT
+
 *To be added at a later stage*
 
 ### Classification at a more detailed level (municipality, district, etc.)
