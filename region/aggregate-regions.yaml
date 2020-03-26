@@ -18,6 +18,7 @@ Europe (incl. Turkey):
 Pan-Europe:
    definition: 'EU27 (excl. Malta & Cyprus) + AL + BA + CH + ME + MK + NO + RS + UK'
    source: definition of the pan-european electricity system used in e-highways2050 and plan4res
+   notes: in ehighway2050, Liechtenstein (LI) is neglected ; Kosovo (XK) is seen as included in Serbia (RS)
    
 # add more defintion of `Europe (*)` above this line
 
@@ -29,6 +30,7 @@ EFTA:
 Balkans:
    definition: 'AL + BA + BG + GR + HR + ME + MK + RO + RS + SI'
    source: plan4res public dataset (D4.5)
+   notes: includes also Kosovo (XK) as it is 'included' within Serbia (RS) (meaning energy capacity/depands of Kosovo are included in serbian data
    
 Scandinavia:
    definition: 'DK + FI + NO + SE'
