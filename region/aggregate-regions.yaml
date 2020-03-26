@@ -34,8 +34,8 @@ Scandinavia:
    definition: 'DK + FI + NO + SE'
    source: plan4res public dataset (D4.5)
    
-BALTIC:
-   definition: 'EE+LT+LV'
+Baltics:
+   definition: 'EE + LT + LV'
    source: plan4res public dataset (D4.5)
    
 # generic definition of the EU
