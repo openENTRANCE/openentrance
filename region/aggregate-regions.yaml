@@ -30,8 +30,8 @@ BALKAN:
    definition: 'SI+RO+HR+BA+ME+RS+BG+MK+GR+AL'
    source: plan4res public dataset (D4.5)
    
-SCAND:
-   definition: 'DK+FI+NO+SE'
+Scandinavia:
+   definition: 'DK + FI + NO + SE'
    source: plan4res public dataset (D4.5)
    
 BALTIC:
