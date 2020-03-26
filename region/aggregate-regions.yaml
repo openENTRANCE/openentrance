@@ -26,8 +26,8 @@ EFTA:
    notes: 'European Free Trade Association'
    source: 'https://en.wikipedia.org/wiki/European_Free_Trade_Association'
 
-BALKAN:
-   definition: 'SI+RO+HR+BA+ME+RS+BG+MK+GR+AL'
+Balkans:
+   definition: 'AL + BA + BG + GR + HR + ME + MK + RO + RS + SI'
    source: plan4res public dataset (D4.5)
    
 Scandinavia:
