@@ -1,0 +1,561 @@
+AR5 climate diagnostics|Concentration|CO2|FAIR|MED,concentration of atmospheric CO2 as computed by the FAIR model,ppm
+AR5 climate diagnostics|Concentration|CO2|MAGICC6|MED,concentration of atmospheric CO2 as computed by the MAGICC6 model,ppm
+AR5 climate diagnostics|Forcing|Aerosol|Direct|MAGICC6|MED,median forcing attributed to direct aerosol emissions as computed by the MAGICC6 model,W/m2
+AR5 climate diagnostics|Forcing|Aerosol|MAGICC6|MED,median forcing attributed to aerosol emissions as computed by the MAGICC6 model,W/m2
+AR5 climate diagnostics|Forcing|Aerosol|Total|FAIR|MED,median forcing attributed to aerosol emissions as computed by the FAIR model,W/m2
+AR5 climate diagnostics|Forcing|Aerosol|Total|MAGICC6|MED,median forcing attributed to aerosol emissions as computed by the MAGICC6 model,W/m2
+AR5 climate diagnostics|Forcing|CH4|FAIR|MED,median forcing attributed to CH4 emissions as computed by the FAIR model,W/m2
+AR5 climate diagnostics|Forcing|CH4|MAGICC6|MED,median forcing attributed to CH4 emissions as computed by the MAGICC6 model,W/m2
+AR5 climate diagnostics|Forcing|CO2|FAIR|MED,median forcing attributed to CO2 emissions as computed by the FAIR model,W/m2
+AR5 climate diagnostics|Forcing|CO2|MAGICC6|MED,median forcing attributed to CO2 emissions as computed by the MAGICC6 model,W/m2
+AR5 climate diagnostics|Forcing|F-Gases|MAGICC6|MED,median forcing attributed to F-gases as computed by the MAGICC6 model,W/m2
+AR5 climate diagnostics|Forcing|FAIR|MED,median forcing attributed as computed by the FAIR model,W/m2
+AR5 climate diagnostics|Forcing|Kyoto Gases|MAGICC6|MED,median forcing attributed to aggregate Kyoto greenhouse gases as computed by the MAGICC6 model,W/m2
+AR5 climate diagnostics|Forcing|MAGICC6|MED,median forcing attributed as computed by the MAGICC6 model,W/m2
+AR5 climate diagnostics|Forcing|Montreal Protocol (orig.) gases|MAGICC6|MED,median forcing attributed to aggregate Montreal Protocol gases as computed by the MAGICC6 model,W/m2
+AR5 climate diagnostics|Forcing|N2O|FAIR|MED,median forcing attributed to N2O emissions as computed by the FAIR model,W/m2
+AR5 climate diagnostics|Forcing|N2O|MAGICC6|MED,median forcing attributed to N2O emissions as computed by the MAGICC6 model,W/m2
+AR5 climate diagnostics|Forcing|OtherGHGs|FAIR|MED,median forcing attributed to otgher greenhouse gas emissions as computed by the FAIR model,W/m2
+AR5 climate diagnostics|Forcing|Tropospheric Ozone|FAIR|MED,median forcing attributed to tropospheric ozone as computed by the FAIR model,W/m2
+AR5 climate diagnostics|Forcing|Tropospheric Ozone|MAGICC6|MED,median forcing attributed to tropospheric ozone as computed by the MAGICC6 model,W/m2
+AR5 climate diagnostics|Temperature|Exceedance Probability|1.0 °C|FAIR,probability of being above the temperature threshold in a given year as computed by the FAIR model,
+AR5 climate diagnostics|Temperature|Exceedance Probability|1.0 °C|MAGICC6,probability of being above the temperature threshold in a given year as computed by the MAGICC6 model,
+AR5 climate diagnostics|Temperature|Exceedance Probability|1.5 °C|FAIR,probability of being above the temperature threshold in a given year as computed by the FAIR model,
+AR5 climate diagnostics|Temperature|Exceedance Probability|1.5 °C|MAGICC6,probability of being above the temperature threshold in a given year as computed by the MAGICC6 model,
+AR5 climate diagnostics|Temperature|Exceedance Probability|2.0 °C|FAIR,probability of being above the temperature threshold in a given year as computed by the FAIR model,
+AR5 climate diagnostics|Temperature|Exceedance Probability|2.0 °C|MAGICC6,probability of being above the temperature threshold in a given year as computed by the MAGICC6 model,
+AR5 climate diagnostics|Temperature|Exceedance Probability|2.5 °C|FAIR,probability of being above the temperature threshold in a given year as computed by the FAIR model,
+AR5 climate diagnostics|Temperature|Exceedance Probability|2.5 °C|MAGICC6,probability of being above the temperature threshold in a given year as computed by the MAGICC6 mode,
+AR5 climate diagnostics|Temperature|Exceedance Probability|3.0 °C|FAIR,probability of being above the temperature threshold in a given year as computed by the FAIR model,
+AR5 climate diagnostics|Temperature|Exceedance Probability|3.0 °C|MAGICC6,probability of being above the temperature threshold in a given year as computed by the MAGICC6 model,
+AR5 climate diagnostics|Temperature|Exceedance Probability|3.5 °C|FAIR,probability of being above the temperature threshold in a given year as computed by the FAIR model,
+AR5 climate diagnostics|Temperature|Exceedance Probability|3.5 °C|MAGICC6,probability of being above the temperature threshold in a given year as computed by the MAGICC6 model,
+AR5 climate diagnostics|Temperature|Exceedance Probability|4.0 °C|FAIR,probability of being above the temperature threshold in a given year as computed by the FAIR model,
+AR5 climate diagnostics|Temperature|Exceedance Probability|4.0 °C|MAGICC6,probability of being above the temperature threshold in a given year as computed by the MAGICC6 model,
+AR5 climate diagnostics|Temperature|Global Mean|FAIR|Expected value,expected global mean surface temperature as computed by the FAIR model,°C
+AR5 climate diagnostics|Temperature|Global Mean|FAIR|Expected value|Non CO2,expected global mean surface temperature as computed by the FAIR model attributed to non-CO2 emissions,°C
+AR5 climate diagnostics|Temperature|Global Mean|FAIR|MED,median global mean surface temperature as computed by the FAIR model,°C
+AR5 climate diagnostics|Temperature|Global Mean|FAIR|MED|Non CO2,median global mean surface temperature as computed by the FAIR model attributed to non-CO2 emissions,°C
+AR5 climate diagnostics|Temperature|Global Mean|FAIR|P5,5th percentile of global mean surface temperature as computed by the FAIR model,°C
+AR5 climate diagnostics|Temperature|Global Mean|FAIR|P5|Non CO2,5th percentile of global mean surface temperature as computed by the FAIR model attributed to non-CO2 emissions,°C
+AR5 climate diagnostics|Temperature|Global Mean|FAIR|P66,66th percentile of global mean surface temperature as computed by the FAIR model,°C
+AR5 climate diagnostics|Temperature|Global Mean|FAIR|P66|Non CO2,66th percentile of global mean surface temperature as computed by the FAIR model attributed to non-CO2 emissions,°C
+AR5 climate diagnostics|Temperature|Global Mean|FAIR|P90,90th percentile of global mean surface temperature as computed by the FAIR model,°C
+AR5 climate diagnostics|Temperature|Global Mean|FAIR|P90|Non CO2,90th percentile of global mean surface temperature as computed by the FAIR model attributed to non-CO2 emissions,°C
+AR5 climate diagnostics|Temperature|Global Mean|FAIR|P95,95th percentile of global mean surface temperature as computed by the FAIR model,°C
+AR5 climate diagnostics|Temperature|Global Mean|FAIR|P95|Non CO2,95th percentile of global mean surface temperature as computed by the FAIR model attributed to non-CO2 emissions,°C
+AR5 climate diagnostics|Temperature|Global Mean|MAGICC6|Expected value,expected global mean surface temperature as computed by the MAGICC6 model,°C
+AR5 climate diagnostics|Temperature|Global Mean|MAGICC6|Expected value|Non CO2,expected global mean surface temperature as computed by the MAGICC6 model attributed to non-CO2 emissions,°C
+AR5 climate diagnostics|Temperature|Global Mean|MAGICC6|MED,median global mean surface temperature as computed by the MAGICC6 model,°C
+AR5 climate diagnostics|Temperature|Global Mean|MAGICC6|P5,5th percentile of global mean surface temperature as computed by the MAGICC6 model,°C
+AR5 climate diagnostics|Temperature|Global Mean|MAGICC6|P66,66th percentile of global mean surface temperature as computed by the MAGICC6 model,°C
+AR5 climate diagnostics|Temperature|Global Mean|MAGICC6|P90,90th percentile of global mean surface temperature as computed by the MAGICC6 model,°C
+AR5 climate diagnostics|Temperature|Global Mean|MAGICC6|P95,95th percentile of global mean surface temperature as computed by the MAGICC6 model,°C
+Agricultural Demand,"total demand for food, non-food and feed products (crops and livestock) and bioenergy crops (1st & 2nd generation)",million t DM/yr
+Agricultural Demand|Crops,"total demand for food, non-food and feed crops and bioenergy crops (1st & 2nd generation)",million t DM/yr
+Agricultural Demand|Crops|Energy,demand for modern primary energy crops (1st and 2nd generation),million t DM/yr
+Agricultural Demand|Crops|Feed,total demand for feed crops,million t DM/yr
+Agricultural Demand|Crops|Food,total demand for food crops,million t DM/yr
+Agricultural Demand|Crops|Other,total demand for other crops,million t DM/yr
+Agricultural Demand|Livestock,total demand for livestock,million t DM/yr
+Agricultural Demand|Livestock|Food,total demand for food livestock,million t DM/yr
+Agricultural Demand|Livestock|Other,total demand for other livestock,million t DM/yr
+Agricultural Production,"total production of food, non-food and feed products (crops and livestock) and bioenergy crops (1st & 2nd generation)",million t DM/yr
+Agricultural Production|Energy,total bioenergy-related agricultural production (including waste and residues),million t DM/yr
+Agricultural Production|Energy|Crops,production for modern primary energy crops (1st and 2nd generation),million t DM/yr
+Agricultural Production|Energy|Residues,production of agricultural residues for modern bioenergy production,million t DM/yr
+Agricultural Production|Non-Energy,"total production for food, non-food and feed products (crops and livestock)",million t DM/yr
+Agricultural Production|Non-Energy|Crops,"total production for food, non-food and feed products (crops)",million t DM/yr
+Agricultural Production|Non-Energy|Livestock,total production for livestock products,million t DM/yr
+Capacity|Electricity,total installed electricity generation capacity,GW
+Capacity|Electricity|Biomass,total installed electricity generation capacity of biomass power plants,GW
+Capacity|Electricity|Coal,total installed electricity generation capacity of coal power plants,GW
+Capacity|Electricity|Gas,total installed electricity generation capacity of gas power plants,GW
+Capacity|Electricity|Geothermal,total installed electricity generation capacity of geothermal power plants,GW
+Capacity|Electricity|Hydro,total installed electricity generation capacity of hydro power plants,GW
+Capacity|Electricity|Nuclear,total installed electricity generation capacity of nuclear power plants,GW
+Capacity|Electricity|Ocean,total installed electricity generation capacity of ocean power plants,GW
+Capacity|Electricity|Oil,total installed electricity generation capacity of oil power plants,GW
+Capacity|Electricity|Other,total installed electricity generation capacity of other power plants,GW
+Capacity|Electricity|Solar,total installed electricity generation capacity of solar power installations,GW
+Capacity|Electricity|Solar|CSP,total installed electricity generation capacity of CSP plants,GW
+Capacity|Electricity|Solar|PV,total installed electricity generation capacity of PV installations,GW
+Capacity|Electricity|Wind,total installed electricity generation capacity of wind power installations,GW
+Capacity|Electricity|Wind|Offshore,total installed electricity generation capacity of offshore wind power installations,GW
+Capacity|Electricity|Wind|Onshore,total installed electricity generation capacity of onshore wind power installations,GW
+Capital Cost|Electricity|Biomass|w/ CCS,capital cost of a new biomass power plant with CCS,US$2010/kW
+Capital Cost|Electricity|Biomass|w/o CCS,capital cost of a new biomass power plant w/o CCS,US$2010/kW
+Capital Cost|Electricity|Coal|w/ CCS,capital cost of a new coal power plant with CCS,US$2010/kW
+Capital Cost|Electricity|Coal|w/o CCS,capital cost of a new coal power plant w/o CCS,US$2010/kW
+Capital Cost|Electricity|Gas|w/ CCS,capital cost of a new gas power plant with CCS,US$2010/kW
+Capital Cost|Electricity|Gas|w/o CCS,capital cost of a new gas power plant w/o CCS,US$2010/kW
+Capital Cost|Electricity|Geothermal,capital cost of a new geothermal power plant,US$2010/kW
+Capital Cost|Electricity|Hydro,capital cost of a new hydropower plant,US$2010/kW
+Capital Cost|Electricity|Nuclear,capital cost of a new nuclear power plants,US$2010/kW
+Capital Cost|Electricity|Solar|CSP,capital cost of a new concentrated solar power plant,US$2010/kW
+Capital Cost|Electricity|Solar|PV,capital cost of a new solar PV units,US$2010/kW
+Capital Cost|Electricity|Wind|Offshore,capital cost of a new offshore wind power plants,US$2010/kW
+Capital Cost|Electricity|Wind|Onshore,capital cost of a new onshore wind power plants,US$2010/kW
+Capital Cost|Gases|Biomass|w/o CCS,capital cost of a new biomass to gas plant w/o CCS,US$2010/kW
+Capital Cost|Gases|Coal|w/o CCS,capital cost of a new coal to gas plant w/o CCS,US$2010/kW
+Capital Cost|Hydrogen|Biomass|w/ CCS,capital cost of a new biomass to hydrogen plant with CCS,US$2010/kW
+Capital Cost|Hydrogen|Biomass|w/o CCS,capital cost of a new biomass to hydrogen plant w/o CCS,US$2010/kW
+Capital Cost|Hydrogen|Coal|w/ CCS,capital cost of a new coal to hydrogen plant with CCS,US$2010/kW
+Capital Cost|Hydrogen|Coal|w/o CCS,capital cost of a new coal to hydrogen plant w/o CCS,US$2010/kW
+Capital Cost|Hydrogen|Electricity,capital cost of a new hydrogen-by-electrolysis plant,US$2010/kW
+Capital Cost|Hydrogen|Gas|w/ CCS,capital cost of a new gas to hydrogen plant with CCS,US$2010/kW
+Capital Cost|Hydrogen|Gas|w/o CCS,capital cost of a new gas to hydrogen plant w/o CCS,US$2010/kW
+Capital Cost|Liquids|Biomass|w/ CCS,capital cost of a new biomass to liquids plant with CCS,US$2010/kW
+Capital Cost|Liquids|Biomass|w/o CCS,capital cost of a new biomass to liquids plant w/o CCS,US$2010/kW
+Capital Cost|Liquids|Coal|w/ CCS,capital cost of a new coal to liquids plant with CCS,US$2010/kW
+Capital Cost|Liquids|Coal|w/o CCS,capital cost of a new coal to liquids plant w/o CCS,US$2010/kW
+Capital Cost|Liquids|Oil,capital cost of a new oil refining plant,US$2010/kW
+Carbon Sequestration|CCS,"total carbon dioxide emissions captured and stored in geological deposits (e.g. in depleted oil and gas fields, unmined coal seams, saline aquifers) and the deep ocean, stored amounts should be reported as positive numbers",Mt CO2/yr
+Carbon Sequestration|CCS|Biomass,"total carbon dioxide emissions captured from bioenergy use and stored in geological deposits (e.g. in depleted oil and gas fields, unmined coal seams, saline aquifers) and the deep ocean, stored amounts should be reported as positive numbers",Mt CO2/yr
+Carbon Sequestration|CCS|Biomass|Energy,"total carbon dioxide emissions captured from bioenergy use and stored in geological deposits (e.g. in depleted oil and gas fields, unmined coal seams, saline aquifers) and the deep ocean, stored amounts should be reported as positive numbers",Mt CO2/yr
+Carbon Sequestration|CCS|Biomass|Energy|Demand|Industry,"total carbon dioxide emissions captured from bioenergy use in industry (IPCC category 1A2) and stored in geological deposits (e.g. in depleted oil and gas fields, unmined coal seams, saline aquifers) and the deep ocean, stored amounts should be reported as positive numbers",Mt CO2/yr
+Carbon Sequestration|CCS|Biomass|Energy|Supply,"total carbon dioxide emissions captured from bioenergy use and stored in geological deposits (e.g. in depleted oil and gas fields, unmined coal seams, saline aquifers) and the deep ocean, stored amounts should be reported as positive numbers",Mt CO2/yr
+Carbon Sequestration|CCS|Biomass|Energy|Supply|Electricity,"total carbon dioxide emissions captured from bioenergy use in electricity production (part of IPCC category 1A1a) and stored in geological deposits (e.g. in depleted oil and gas fields, unmined coal seams, saline aquifers) and the deep ocean, stored amounts should be reported as positive numbers",Mt CO2/yr
+Carbon Sequestration|CCS|Biomass|Energy|Supply|Gases,"total carbon dioxide emissions captured from bioenergy use in gaseous fuel production, excl. hydrogen (part of IPCC category 1A) and stored in geological deposits (e.g. in depleted oil and gas fields, unmined coal seams, saline aquifers) and the deep ocean, stored amounts should be reported as positive numbers",Mt CO2/yr
+Carbon Sequestration|CCS|Biomass|Energy|Supply|Hydrogen,"total carbon dioxide emissions captured from bioenergy use in hydrogen production (part of IPCC category 1A) and stored in geological deposits (e.g. in depleted oil and gas fields, unmined coal seams, saline aquifers) and the deep ocean, stored amounts should be reported as positive numbers",Mt CO2/yr
+Carbon Sequestration|CCS|Biomass|Energy|Supply|Liquids,"total carbon dioxide emissions captured from bioenergy use in liquid fuel production (part of IPCC category 1A) and stored in geological deposits (e.g. in depleted oil and gas fields, unmined coal seams, saline aquifers) and the deep ocean, stored amounts should be reported as positive numbers",Mt CO2/yr
+Carbon Sequestration|CCS|Biomass|Energy|Supply|Other,"total carbon dioxide emissions captured from bioenergy use in other energy supply (part of IPCC category 1A) and stored in geological deposits (e.g. in depleted oil and gas fields, unmined coal seams, saline aquifers) and the deep ocean, stored amounts should be reported as positive numbers",Mt CO2/yr
+Carbon Sequestration|CCS|Biomass|Industrial Processes,"total carbon dioxide emissions captured from industrial processes from biomass (e.g., cement production, but not from fossil fuel burning) use and stored in geological deposits (e.g. in depleted oil and gas fields, unmined coal seams, saline aquifers) and the deep ocean, stored amounts should be reported as positive numbers",Mt CO2/yr
+Carbon Sequestration|CCS|Fossil,"total carbon dioxide emissions captured from fossil fuel use and stored in geological deposits (e.g. in depleted oil and gas fields, unmined coal seams, saline aquifers) and the deep ocean, stored amounts should be reported as positive numbers",Mt CO2/yr
+Carbon Sequestration|CCS|Fossil|Energy,"total carbon dioxide emissions captured from fossil fuel use and stored in geological deposits (e.g. in depleted oil and gas fields, unmined coal seams, saline aquifers) and the deep ocean, stored amounts should be reported as positive numbers",Mt CO2/yr
+Carbon Sequestration|CCS|Fossil|Energy|Demand|Industry,"total carbon dioxide emissions captured from fossil fuel use in industry (IPCC category 1A2) and stored in geological deposits (e.g. in depleted oil and gas fields, unmined coal seams, saline aquifers) and the deep ocean, stored amounts should be reported as positive numbers",Mt CO2/yr
+Carbon Sequestration|CCS|Fossil|Energy|Supply,"total carbon dioxide emissions captured from fossil fuel use in energy supply (IPCC category 1A) and stored in geological deposits (e.g. in depleted oil and gas fields, unmined coal seams, saline aquifers) and the deep ocean, stored amounts should be reported as positive numbers",Mt CO2/yr
+Carbon Sequestration|CCS|Fossil|Energy|Supply|Electricity,"total carbon dioxide emissions captured from fossil fuel use in electricity production (part of IPCC category 1A1a) and stored in geological deposits (e.g. in depleted oil and gas fields, unmined coal seams, saline aquifers) and the deep ocean, stored amounts should be reported as positive numbers",Mt CO2/yr
+Carbon Sequestration|CCS|Fossil|Energy|Supply|Gases,"total carbon dioxide emissions captured from fossil fuel use in gaseous fuel production, excl. hydrogen (part of IPCC category 1A) and stored in geological deposits (e.g. in depleted oil and gas fields, unmined coal seams, saline aquifers) and the deep ocean, stored amounts should be reported as positive numbers",Mt CO2/yr
+Carbon Sequestration|CCS|Fossil|Energy|Supply|Hydrogen,"total carbon dioxide emissions captured from fossil fuel use in hydrogen production (part of IPCC category 1A) and stored in geological deposits (e.g. in depleted oil and gas fields, unmined coal seams, saline aquifers) and the deep ocean, stored amounts should be reported as positive numbers",Mt CO2/yr
+Carbon Sequestration|CCS|Fossil|Energy|Supply|Liquids,"total carbon dioxide emissions captured from fossil fuel use in liquid fuel production (part of IPCC category 1A) and stored in geological deposits (e.g. in depleted oil and gas fields, unmined coal seams, saline aquifers) and the deep ocean, stored amounts should be reported as positive numbers",Mt CO2/yr
+Carbon Sequestration|CCS|Fossil|Energy|Supply|Other,"total carbon dioxide emissions captured from fossil fuel use in other energy supply (part of IPCC category 1A) and stored in geological deposits (e.g. in depleted oil and gas fields, unmined coal seams, saline aquifers) and the deep ocean, stored amounts should be reported as positive numbers",Mt CO2/yr
+Carbon Sequestration|CCS|Fossil|Industrial Processes,"total carbon dioxide emissions captured from industrial processes from fossil fuels (e.g., cement production, but not from fossil fuel burning) use and stored in geological deposits (e.g. in depleted oil and gas fields, unmined coal seams, saline aquifers) and the deep ocean, stored amounts should be reported as positive numbers",Mt CO2/yr
+Carbon Sequestration|Direct Air Capture,total carbon dioxide sequestered through direct air capture,Mt CO2/yr
+Carbon Sequestration|Enhanced Weathering,total carbon dioxide sequestered through enhanced weathering,Mt CO2/yr
+Carbon Sequestration|Land Use,"total carbon dioxide sequestered through land-based sinks (e.g., afforestation, soil carbon enhancement, biochar)",Mt CO2/yr
+Carbon Sequestration|Land Use|Afforestation,total carbon dioxide sequestered through afforestation,Mt CO2/yr
+Carbon Sequestration|Land Use|Biochar,total carbon dioxide sequestered through biochar,Mt CO2/yr
+Carbon Sequestration|Land Use|Soil Carbon Management,total carbon dioxide sequestered through soil carbon management techniques,Mt CO2/yr
+Concentration|CH4,atmospheric concentration of methane as reported by the modeling framework,ppb
+Concentration|CO2,atmospheric concentration of carbon dioxide as reported by the modeling framework,ppm
+Concentration|N2O,atmospheric concentration of nitrous oxide as reported by the modeling framework,ppb
+Consumption,"total consumption of all goods, by all consumers in a region",billion US$2010/yr
+Cumulative Capacity|Electricity|Biomass,cumulative installed capacity (since 2005) of biomass power plants,GW
+Cumulative Capacity|Electricity|Biomass|w/ CCS,cumulative installed capacity (since 2005) of biomass power plants with CCS,GW
+Cumulative Capacity|Electricity|Biomass|w/o CCS,cumulative installed capacity (since 2005) of biomass power plants without CCS,GW
+Cumulative Capacity|Electricity|Coal,cumulative installed capacity (since 2005) of coal power plants,GW
+Cumulative Capacity|Electricity|Coal|w/ CCS,cumulative installed capacity (since 2005) of coal power plants with CCS,GW
+Cumulative Capacity|Electricity|Coal|w/o CCS,cumulative installed capacity (since 2005) of coal power plants without CCS,GW
+Cumulative Capacity|Electricity|Gas,cumulative installed capacity (since 2005) of gas power plants,GW
+Cumulative Capacity|Electricity|Gas|w/ CCS,cumulative installed capacity (since 2005) of gas power plants without CCS,GW
+Cumulative Capacity|Electricity|Gas|w/o CCS,cumulative installed capacity (since 2005) of gas power plants with CCS,GW
+Cumulative Capacity|Electricity|Geothermal,cumulative installed capacity (since 2005) of geothermal power plants,GW
+Cumulative Capacity|Electricity|Hydro,cumulative installed capacity (since 2005) of hydro power plants,GW
+Cumulative Capacity|Electricity|Nuclear,cumulative installed capacity (since 2005) of nuclear power plants,GW
+Cumulative Capacity|Electricity|Ocean,cumulative installed capacity (since 2005) of ocean power plants,GW
+Cumulative Capacity|Electricity|Oil,cumulative installed capacity (since 2005) of oil power plants,GW
+Cumulative Capacity|Electricity|Other,cumulative installed capacity (since 2005) of other power plants,GW
+Cumulative Capacity|Electricity|Solar,cumulative installed capacity (since 2005) of solar power installations,GW
+Cumulative Capacity|Electricity|Solar|CSP,cumulative installed capacity (since 2005) of CSP plants,GW
+Cumulative Capacity|Electricity|Solar|PV,cumulative installed capacity (since 2005) of PV installations,GW
+Cumulative Capacity|Electricity|Wind,cumulative installed capacity (since 2005) of wind power installations,GW
+Cumulative Capacity|Electricity|Wind|Offshore,cumulative installed capacity (since 2005) of offshore wind power installations,GW
+Cumulative Capacity|Electricity|Wind|Onshore,cumulative installed capacity (since 2005) of onshore wind power installations,GW
+Discount rate|Buildings,Discount rate for investments into residential and commercial buildings,%
+Discount rate|Economy,Economy wide discount rate: real interest rate of capital,%
+Discount rate|Electricity,Discount rate for investments in electricity sector,%
+Discount rate|Energy Supply,Discount rate for investments in energy supply sector,%
+Discount rate|Industry,Discount rate for investments into industrial installations in industry sector,%
+Discount rate|Mobility,Discount rate for investments into mobility (e.g. vehicles; not including transport infrastructure),%
+Discount rate|Social,Social discount rate (should be reported if different from capital interest rate and used in the model to discount future costs and revenues),%
+Discount rate|Transport Infrastructure,"Discount rate for investments into transport infrastructure (roads, railways, ports, airports, waterways etc.)",%
+Emissions|BC,total black carbon emissions,Mt BC/yr
+Emissions|BC|AFOLU,"black carbon emissions from agriculture, forestry and other land use (IPCC category 3)",Mt BC/yr
+Emissions|BC|Energy,"black carbon emissions from energy use on supply and demand side, including fugitive emissions from fuels (IPCC category 1A, 1B)",Mt BC/yr
+Emissions|BC|Energy|Demand|Industry,black carbon emissions from fuel combustion in industry (IPCC category 1A2),Mt BC/yr
+Emissions|BC|Energy|Demand|Residential and Commercial,"black carbon emissions from fuel combustion in residential, commercial, institutional sectors and agriculture (IPCC category 1A4a, 1A4b)",Mt BC/yr
+Emissions|BC|Energy|Demand|Transportation,"black carbon emissions from fuel combustion in transportation sector (IPCC category 1A3), excluding pipeline emissions (IPCC category 1A3ei)",Mt BC/yr
+Emissions|BC|Energy|Supply,"black carbon emissions from fuel combustion and fugitive emissions from fuels: electricity and heat production and distribution (IPCC category 1A1a), other energy conversion (e.g. refineries, synfuel production, solid fuel processing, IPCC category 1Ab, 1Ac), incl. pipeline transportation (IPCC category 1A3ei), fugitive emissions from fuels (IPCC category 1B) and emissions from carbon dioxide transport and storage (IPCC category 1C)",Mt BC/yr
+Emissions|BC|Other,black carbon emissions from other sources,Mt BC/yr
+Emissions|CH4,total CH4 emissions,Mt CH4/yr
+Emissions|CH4|AFOLU,"CH4 emissions from agriculture, forestry and other land use (IPCC category 3)",Mt CH4/yr
+Emissions|CH4|Energy,"CH4 emissions from energy use on supply and demand side, including fugitive emissions from fuels (IPCC category 1A, 1B)",Mt CH4/yr
+Emissions|CH4|Energy|Demand|Industry,CH4 emissions from fuel combustion in industry (IPCC category 1A2),Mt CH4/yr
+Emissions|CH4|Energy|Demand|Residential and Commercial,"CH4 emissions from fuel combustion in residential, commercial, institutional sectors (IPCC category 1A4a, 1A4b)",Mt CH4/yr
+Emissions|CH4|Energy|Demand|Transportation,"CH4 emissions from fuel combustion in transportation sector (IPCC category 1A3), excluding pipeline emissions (IPCC category 1A3ei)",Mt CH4/yr
+Emissions|CH4|Energy|Supply,"CH4 emissions from fuel combustion and fugitive emissions from fuels: electricity and heat production and distribution (IPCC category 1A1a), other energy conversion (e.g. refineries, synfuel production, solid fuel processing, IPCC category 1Ab, 1Ac), incl. pipeline transportation (IPCC category 1A3ei), fugitive emissions from fuels (IPCC category 1B) and emissions from carbon dioxide transport and storage (IPCC category 1C)",Mt CH4/yr
+Emissions|CH4|Other,CH4 emissions from other sources,Mt CH4/yr
+Emissions|CO,total CO emissions,Mt CO/yr
+Emissions|CO2,total CO2 emissions (not including CCS),Mt CO2/yr
+Emissions|CO2|AFOLU,"CO2 emissions from agriculture, forestry and other land use (IPCC category 3)",Mt CO2/yr
+Emissions|CO2|Energy,"CO2 emissions from energy use on supply and demand side (IPCC category 1A, 1B)",Mt CO2/yr
+Emissions|CO2|Energy and Industrial Processes,"CO2 emissions from energy use on supply and demand side (IPCC category 1A, 1B) and from industrial processes (IPCC categories 2A, B, C, E)",Mt CO2/yr
+Emissions|CO2|Energy|Demand,"CO2 emissions from fuel combustion in industry (IPCC category 1A2), residential, commercial, institutional sectors and agriculture, forestry, fishing (AFOFI) (IPCC category 1A4a, 1A4b, 1A4c), and transportation sector (IPCC category 1A3), excluding pipeline emissions (IPCC category 1A3ei)",Mt CO2/yr
+Emissions|CO2|Energy|Demand|AFOFI,"CO2 emissions from fuel combustion in agriculture, forestry, fishing (AFOFI) (IPCC category 1A4c)",Mt CO2/yr
+Emissions|CO2|Energy|Demand|Industry,CO2 emissions from fuel combustion in industry (IPCC category 1A2),Mt CO2/yr
+Emissions|CO2|Energy|Demand|Other Sector,CO2 emissions from fuel combustion in other energy supply sectors,Mt CO2/yr
+Emissions|CO2|Energy|Demand|Residential and Commercial,"CO2 emissions from fuel combustion in residential, commercial, institutional sectors (IPCC category 1A4a, 1A4b)",Mt CO2/yr
+Emissions|CO2|Energy|Demand|Transportation,"CO2 emissions from fuel combustion in transportation sector (IPCC category 1A3), excluding pipeline emissions (IPCC category 1A3ei)",Mt CO2/yr
+Emissions|CO2|Energy|Supply,"CO2 emissions from fuel combustion and fugitive emissions from fuels: electricity and heat production and distribution (IPCC category 1A1a), other energy conversion (e.g. refineries, synfuel production, solid fuel processing, IPCC category 1Ab, 1Ac), incl. pipeline transportation (IPCC category 1A3ei), fugitive emissions from fuels (IPCC category 1B) and emissions from carbon dioxide transport and storage (IPCC category 1C)",Mt CO2/yr
+Emissions|CO2|Energy|Supply|Electricity,CO2 emissions from electricity and CHP production and distribution (IPCC category 1A1ai and 1A1aii),Mt CO2/yr
+Emissions|CO2|Energy|Supply|Gases,"CO2 emissions from fuel combustion and fugitive emissions from fuels: gaseous fuel extraction and processing (e.g. natural gas extraction production, IPCC category 1B2b, parts of 1A1cii)",Mt CO2/yr
+Emissions|CO2|Energy|Supply|Heat,CO2 emissions from heat production and distribution (IPCC category 1A1aiii),Mt CO2/yr
+Emissions|CO2|Energy|Supply|Liquids,"CO2 emissions from fuel combustion and fugitive emissions from fuels: liquid fuel extraction and processing (e.g. oil production, refineries, synfuel production, IPCC category 1A1b, parts of 1A1cii, 1B2a)",Mt CO2/yr
+Emissions|CO2|Energy|Supply|Other Sector,CO2 emissions from fuel combustion in other energy supply sectors,Mt CO2/yr
+Emissions|CO2|Energy|Supply|Solids,"CO2 emissions from fuel combustion and fugitive emissions from fuels: solid fuel extraction and processing (IPCC category 1A1ci, parts of 1A1cii, 1B1)",Mt CO2/yr
+Emissions|CO2|Industrial Processes,"CO2 emissions from industrial processes (IPCC categories 2A, B, C, E)",Mt CO2/yr
+Emissions|CO2|Other,CO2 emissions from other sources,Mt CO2/yr
+Emissions|CO|AFOLU,Land Use based carbon monoxide emissions,Mt CO/yr
+Emissions|CO|Energy,"carbon monoxide emissions from energy use on supply and demand side, including fugitive emissions from fuels (IPCC category 1A, 1B)",Mt CO/yr
+Emissions|CO|Energy|Demand|Industry,carbon monoxide emissions from Combustion in industry (IPCC 1A2) and industrial processes (IPCC 2C1-2C5),Mt CO/yr
+Emissions|CO|Energy|Demand|Residential and Commercial,"carbon monoxide emissions from Combustion in Residential and Commercial/Institutional Sectors (IPCC 1A4A, 1A4B)",Mt CO/yr
+Emissions|CO|Energy|Demand|Transportation,carbon monoxide emissions from Combustion in Transportation Sector (IPCC category 1A3),Mt CO/yr
+Emissions|CO|Energy|Supply,"carbon monoxide emissions from Extraction and Distribution of Fossil Fuels (including fugitive emissions, IPCC category 1B); Electricity production and distribution, district heating and other energy conversion (e.g. refineries, synfuel production)",Mt CO/yr
+Emissions|CO|Other,carbon monoxide emissions from other energy end-use sectors that do not fit to any other category,Mt CO/yr
+Emissions|F-Gases,"total F-gas emissions, including sulfur hexafluoride (SF6), hydrofluorocarbons (HFCs), perfluorocarbons (PFCs) (preferably use 100-year GWPs from AR4 for aggregation of different F-gases)",Mt CO2-equiv/yr
+Emissions|HFC,"total emissions of hydrofluorocarbons (HFCs), provided as aggregate HFC134a-equivalents",kt HFC134a-equiv/yr
+Emissions|HFC|HFC125,total emissions of HFC125,kt HFC125/yr
+Emissions|HFC|HFC134a,total emissions of HFC134a,kt HFC134a/yr
+Emissions|HFC|HFC143a,total emissions of HFC143a,kt HFC143a/yr
+Emissions|HFC|HFC227ea,total emissions of HFC227ea,kt HFC227ea/yr
+Emissions|HFC|HFC23,total emissions of HFC23,kt HFC23/yr
+Emissions|HFC|HFC245fa,total emissions of HFC245fa,kt HFC245fa/yr
+Emissions|HFC|HFC32,total emissions of HFC32,kt HFC32/yr
+Emissions|HFC|HFC43-10,total emissions of HFC343-10,kt HFC43-10/yr
+Emissions|Kyoto Gases,"total Kyoto GHG emissions, including CO2, CH4, N2O and F-gases (preferably use 100-year GWPs from AR4 for aggregation of different gases)",Mt CO2-equiv/yr
+Emissions|Kyoto Gases (AR4-GWP100),"total Kyoto GHG emissions, including CO2, CH4, N2O and F-gases (based on 100-year GWPs from AR4 for aggregation of different gases)",Mt CO2-equiv/yr
+Emissions|Kyoto Gases (AR5-GWP100),"total Kyoto GHG emissions, including CO2, CH4, N2O and F-gases (based on 100-year GWPs from AR5 for aggregation of different gases)",Mt CO2-equiv/yr
+Emissions|Kyoto Gases (SAR-GWP100),"total Kyoto GHG emissions, including CO2, CH4, N2O and F-gases (based on 100-year GWPs from SAR for aggregation of different gases)",Mt CO2-equiv/yr
+Emissions|N2O,total N2O emissions,kt N2O/yr
+Emissions|N2O|AFOLU,"N2O emissions from agriculture, forestry and other land use (IPCC category 3)",kt N2O/yr
+Emissions|N2O|Energy,"N2O emissions from energy use on supply and demand side, including fugitive emissions from fuels (IPCC category 1A, 1B)",kt N2O/yr
+Emissions|N2O|Other,N2O emissions from other sources,kt N2O/yr
+Emissions|NH3,total ammonium (NH3) emissions,Mt NH3/yr
+Emissions|NH3|AFOLU,land use based ammonia Emissions,Mt NH3/yr
+Emissions|NH3|Energy,"ammonia emissions from energy use on supply and demand side, including fugitive emissions from fuels (IPCC category 1A, 1B)",Mt NH3/yr
+Emissions|NH3|Energy|Demand|Industry,ammonia Emissions from Combustion in industry (IPCC 1A2) and industrial processes (IPCC 2C1-2C5),Mt NH3/yr
+Emissions|NH3|Energy|Demand|Residential and Commercial,"ammonia Emissions from Combustion in Residential and Commercial/Institutional Sectors (IPCC 1A4A, 1A4B)",Mt NH3/yr
+Emissions|NH3|Energy|Demand|Transportation,ammonia Emissions from Combustion in Transportation Sector (IPCC category 1A3),Mt NH3/yr
+Emissions|NH3|Energy|Supply,"ammonia Emissions from Extraction and Distribution of Fossil Fuels (including fugitive Emissions, IPCC category 1B); Electricity production and distribution, district heating and other energy conversion (e.g. refineries, synfuel production)",Mt NH3/yr
+Emissions|NH3|Other,ammonia Emissions from other energy end-use sectors that do not fit to any other category,Mt NH3/yr
+Emissions|NOx,total NOx emissions,Mt NO2/yr
+Emissions|NOx|AFOLU,"NOx emissions from agriculture, forestry and other land use (IPCC category 3)",Mt NO2/yr
+Emissions|NOx|Energy,"NOx emissions from energy use on supply and demand side, including fugitive emissions from fuels (IPCC category 1A, 1B)",Mt NO2/yr
+Emissions|NOx|Energy|Demand|Industry,NOx emissions from fuel combustion in industry (IPCC category 1A2),Mt NO2/yr
+Emissions|NOx|Energy|Demand|Residential and Commercial,"NOx emissions from fuel combustion in residential, commercial, institutional sectors (IPCC category 1A4a, 1A4b)",Mt NO2/yr
+Emissions|NOx|Energy|Demand|Transportation,"NOx emissions from fuel combustion in transportation sector (IPCC category 1A3), excluding pipeline emissions (IPCC category 1A3ei)",Mt NO2/yr
+Emissions|NOx|Energy|Supply,"NOx emissions from fuel combustion and fugitive emissions from fuels: electricity and heat production and distribution (IPCC category 1A1a), other energy conversion (e.g. refineries, synfuel production, solid fuel processing, IPCC category 1Ab, 1Ac), incl. pipeline transportation (IPCC category 1A3ei), fugitive emissions from fuels (IPCC category 1B) and emissions from carbon dioxide transport and storage (IPCC category 1C)",Mt NO2/yr
+Emissions|NOx|Other,NOx emissions from other sources,Mt NO2/yr
+Emissions|OC,total organic carbon emissions,Mt OC/yr
+Emissions|OC|AFOLU,"organic carbon emissions from agriculture, forestry and other land use (IPCC category 3)",Mt OC/yr
+Emissions|OC|Energy,"organic carbon emissions from energy use on supply and demand side, including fugitive emissions from fuels (IPCC category 1A, 1B)",Mt OC/yr
+Emissions|OC|Energy|Demand|Industry,organic carbon emissions from fuel combustion in industry (IPCC category 1A2),Mt OC/yr
+Emissions|OC|Energy|Demand|Residential and Commercial,"organic carbon emissions from fuel combustion in residential, commercial, institutional sectors (IPCC category 1A4a, 1A4b)",Mt OC/yr
+Emissions|OC|Energy|Demand|Transportation,"organic carbon emissions from fuel combustion in transportation sector (IPCC category 1A3), excluding pipeline emissions (IPCC category 1A3ei)",Mt OC/yr
+Emissions|OC|Energy|Supply,"organic carbon emissions from fuel combustion and fugitive emissions from fuels: electricity and heat production and distribution (IPCC category 1A1a), other energy conversion (e.g. refineries, synfuel production, solid fuel prorganic carbonessing, IPCC category 1Ab, 1Ac), incl. pipeline transportation (IPCC category 1A3ei), fugitive emissions from fuels (IPCC category 1B) and emissions from carbon dioxide transport and storage (IPCC category 1C)",Mt OC/yr
+Emissions|OC|Other,organic carbon emissions from other sources,Mt OC/yr
+Emissions|PFC,"total emissions of perfluorocarbons (PFCs), provided as aggregate CF4-equivalents",kt CF4-equiv/yr
+Emissions|PFC|C2F6,total emissions of C2F6,kt C2F6/yr
+Emissions|PFC|C6F14,total emissions of CF6F14,kt C6F14/yr
+Emissions|PFC|CF4,total emissions of CF4,kt CF4/yr
+Emissions|SF6,total emissions of sulfur hexafluoride (SF6),kt SF6/yr
+Emissions|Sulfur,total sulfur (SO2) emissions,Mt SO2/yr
+Emissions|Sulfur|AFOLU,"sulfur emissions from agriculture, forestry and other land use (IPCC category 3)",Mt SO2/yr
+Emissions|Sulfur|Energy,"sulfur emissions from energy use on supply and demand side, including fugitive emissions from fuels (IPCC category 1A, 1B)",Mt SO2/yr
+Emissions|Sulfur|Energy|Demand|Industry,sulfur emissions from fuel combustion in industry (IPCC category 1A2),Mt SO2/yr
+Emissions|Sulfur|Energy|Demand|Residential and Commercial,"sulfur emissions from fuel combustion in residential, commercial, institutional sectors (IPCC category 1A4a, 1A4b)",Mt SO2/yr
+Emissions|Sulfur|Energy|Demand|Transportation,"sulfur emissions from fuel combustion in transportation sector (IPCC category 1A3), excluding pipeline emissions (IPCC category 1A3ei)",Mt SO2/yr
+Emissions|Sulfur|Energy|Supply,"sulfur emissions from fuel combustion and fugitive emissions from fuels: electricity and heat production and distribution (IPCC category 1A1a), other energy conversion (e.g. refineries, synfuel production, solid fuel processing, IPCC category 1Ab, 1Ac), incl. pipeline transportation (IPCC category 1A3ei), fugitive emissions from fuels (IPCC category 1B) and emissions from carbon dioxide transport and storage (IPCC category 1C)",Mt SO2/yr
+Emissions|Sulfur|Other,sulfur emissions from other sources,Mt SO2/yr
+Emissions|VOC,total volatile organic compound (VOC) emissions,Mt VOC/yr
+Emissions|VOC|AFOLU,land use based volatile organic compounds Emissions,Mt VOC/yr
+Emissions|VOC|Energy,"volatile organic compounds emissions from energy use on supply and demand side, including fugitive emissions from fuels (IPCC category 1A, 1B)",Mt VOC/yr
+Emissions|VOC|Energy|Demand|Industry,volatile organic compounds Emissions from Combustion in industry (IPCC 1A2) and industrial processes (IPCC 2C1-2C5),Mt VOC/yr
+Emissions|VOC|Energy|Demand|Residential and Commercial,"volatile organic compounds Emissions from Combustion in Residential and Commercial/Institutional Sectors (IPCC 1A4A, 1A4B)",Mt VOC/yr
+Emissions|VOC|Energy|Demand|Transportation,volatile organic compounds Emissions from Combustion in Transportation Sector (IPCC category 1A3),Mt VOC/yr
+Emissions|VOC|Energy|Supply,"volatile organic compounds Emissions from Extraction and Distribution of Fossil Fuels (including fugitive Emissions, IPCC category 1B); Electricity production and distribution, district heating and other energy conversion (e.g. refineries, synfuel production)",Mt VOC/yr
+Emissions|VOC|Other,volatile organic compounds Emissions from other energy end-use sectors that do not fit to any other category,Mt VOC/yr
+Energy Service|Transportation|Freight,annual demand for energy services related to freight transportation,bn tkm/yr
+Energy Service|Transportation|Freight|Aviation,annual demand for energy services related to freight transportation in aviation,bn tkm/yr
+Energy Service|Transportation|Freight|Navigation,annual demand for energy services related to freight transportation in navigation,bn tkm/yr
+Energy Service|Transportation|Freight|Railways,annual demand for energy services related to freight transportation in railways,bn tkm/yr
+Energy Service|Transportation|Freight|Road,annual demand for energy services related to freight transportation on roads,bn tkm/yr
+Energy Service|Transportation|Passenger,annual demand for energy services related to passenger transportation,bn pkm/yr
+Energy Service|Transportation|Passenger|Aviation,annual demand for energy services related to passenger transportation in aviation,bn pkm/yr
+Energy Service|Transportation|Passenger|Railways,annual demand for energy services related to passenger transportation in railways,bn pkm/yr
+Energy Service|Transportation|Passenger|Road,annual demand for energy services related to passenger transportation on roads,bn pkm/yr
+Final Energy,"total final energy consumption by all end-use sectors and all fuels, excluding transmission/distribution losses",EJ/yr
+Final Energy|Electricity,"final energy consumption of electricity (including on-site solar PV), excluding transmission/distribution losses",EJ/yr
+Final Energy|Fossil,final energy consumption from fossil fuels,EJ/yr
+Final Energy|Gases,"final energy consumption of gases (natural gas, biogas, coal-gas), excluding transmission/distribution losses",EJ/yr
+Final Energy|Geothermal,"final energy consumption of geothermal energy (e.g., from decentralized or small-scale geothermal heating systems) excluding geothermal heat pumps",EJ/yr
+Final Energy|Heat,"final energy consumption of heat (e.g., district heat, process heat, warm water), excluding transmission/distribution losses, excluding direct geothermal and solar heating",EJ/yr
+Final Energy|Hydrogen,"final energy consumption of hydrogen, excluding transmission/distribution losses",EJ/yr
+Final Energy|Industry,"final energy consumed by the industrial sector, including feedstocks, including agriculture and fishing",EJ/yr
+Final Energy|Industry|Electricity,"final energy consumption by the industrial sector of electricity (including on-site solar PV), excluding transmission/distribution losses",EJ/yr
+Final Energy|Industry|Fossil,final energy consumption by the industrial sector of fossil fuels,EJ/yr
+Final Energy|Industry|Gases,"final energy consumption by the industrial sector of gases (natural gas, biogas, coal-gas), excluding transmission/distribution losses",EJ/yr
+Final Energy|Industry|Geothermal,final energy consumption by the industrial sector of geothermal energy,EJ/yr
+Final Energy|Industry|Heat,"final energy consumption by the industrial sector of heat (e.g., district heat, process heat, solar heating and warm water), excluding transmission/distribution losses",EJ/yr
+Final Energy|Industry|Hydrogen,final energy consumption by the industrial sector of hydrogen,EJ/yr
+Final Energy|Industry|Liquids,"final energy consumption by the industrial sector of refined liquids (conventional & unconventional oil, biofuels, coal-to-liquids, gas-to-liquids)",EJ/yr
+Final Energy|Industry|Other,final energy consumption by the industrial sector of other sources that do not fit to any other category,EJ/yr
+Final Energy|Industry|Solar,final energy consumption by the industrial sector of solar energy,EJ/yr
+Final Energy|Industry|Solids,final energy solid fuel consumption by the industrial sector (including coal and solid biomass),EJ/yr
+Final Energy|Industry|Solids|Biomass,final energy consumption by the industry sector of solid biomass,EJ/yr
+Final Energy|Industry|Solids|Coal,final energy consumption by the industry sector of coal,EJ/yr
+Final Energy|Liquids,"final energy consumption of refined liquids (conventional & unconventional oil, biofuels, coal-to-liquids, gas-to-liquids)",EJ/yr
+Final Energy|Non-Energy Use,final energy consumption by the non-combustion processes,EJ/yr
+Final Energy|Non-Energy Use|Biomass,final energy consumption of biomass by the non-combustion processes,EJ/yr
+Final Energy|Non-Energy Use|Coal,final energy consumption of coal by the non-combustion processes,EJ/yr
+Final Energy|Non-Energy Use|Fossil,final energy consumption of fossil fuels by the non-combustion processes,EJ/yr
+Final Energy|Non-Energy Use|Gas,final energy consumption of gas by the non-combustion processes,EJ/yr
+Final Energy|Non-Energy Use|Oil,final energy consumption of oil by the non-combustion processes,EJ/yr
+Final Energy|Residential and Commercial,final energy consumed in the residential & commercial sector,EJ/yr
+Final Energy|Residential and Commercial|Electricity,"final energy consumption by the residential & commercial sector of electricity (including on-site solar PV), excluding transmission/distribution losses",EJ/yr
+Final Energy|Residential and Commercial|Fossil,final energy consumption by the residential & commercial sector of fossil fuels,EJ/yr
+Final Energy|Residential and Commercial|Gases,"final energy consumption by the residential & commercial sector of gases (natural gas, biogas, coal-gas), excluding transmission/distribution losses",EJ/yr
+Final Energy|Residential and Commercial|Geothermal,final energy consumption by the residential & commercial sector of geothermal energy,EJ/yr
+Final Energy|Residential and Commercial|Heat,"final energy consumption by the residential & commercial sector of heat (e.g., district heat, process heat, solar heating and warm water), excluding transmission/distribution losses",EJ/yr
+Final Energy|Residential and Commercial|Hydrogen,final energy consumption by the residential & commercial sector of hydrogen,EJ/yr
+Final Energy|Residential and Commercial|Liquids,"final energy consumption by the residential & commercial sector of refined liquids (conventional & unconventional oil, biofuels, coal-to-liquids, gas-to-liquids)",EJ/yr
+Final Energy|Residential and Commercial|Other,final energy consumption by the residential & commercial sector of other sources that do not fit to any other category,EJ/yr
+Final Energy|Residential and Commercial|Solar,final energy consumption by the residential & commercial sector of solar energy,EJ/yr
+Final Energy|Residential and Commercial|Solids,final energy solid fuel consumption by the residential & commercial sector (including coal and solid biomass),EJ/yr
+Final Energy|Residential and Commercial|Solids|Biomass,final energy consumption by the residential & commercial sector of solid biomass (modern and traditional),EJ/yr
+Final Energy|Residential and Commercial|Solids|Coal,final energy coal consumption by the residential & commercial sector,EJ/yr
+Final Energy|Solar,"final energy consumption of solar energy (e.g., from roof-top solar hot water collector systems)",EJ/yr
+Final Energy|Solids,final energy solid fuel consumption (including coal and solid biomass),EJ/yr
+Final Energy|Solids|Biomass,"final energy consumption of solid biomass (modern and traditional), excluding final energy consumption of bioliquids which are reported in the liquids category",EJ/yr
+Final Energy|Solids|Biomass|Traditional,final energy consumption of traditional biomass,EJ/yr
+Final Energy|Solids|Coal,final energy coal consumption,EJ/yr
+Final Energy|Transportation,"final energy consumed in the transportation sector, including bunker fuels, excluding pipelines",EJ/yr
+Final Energy|Transportation|Electricity,"final energy consumption by the transportation sector of electricity (including on-site solar PV), excluding transmission/distribution losses",EJ/yr
+Final Energy|Transportation|Fossil,final energy consumption by the transportation sector of fossil fuels,EJ/yr
+Final Energy|Transportation|Freight,final energy consumed for freight transportation,EJ/yr
+Final Energy|Transportation|Gases,"final energy consumption by the transportation sector of gases (natural gas, biogas, coal-gas), excluding transmission/distribution losses",EJ/yr
+Final Energy|Transportation|Hydrogen,final energy consumption by the transportation sector of hydrogen,EJ/yr
+Final Energy|Transportation|Liquids,"final energy consumption by the transportation sector of refined liquids (conventional & unconventional oil, biofuels, coal-to-liquids, gas-to-liquids)",EJ/yr
+Final Energy|Transportation|Liquids|Biomass,final energy consumption by the transportation sector of liquid biofuels,EJ/yr
+Final Energy|Transportation|Liquids|Oil,final energy consumption by the transportation sector of liquid oil products (from conventional & unconventional oil),EJ/yr
+Food Demand,"all food demand in calories (conversion factor: 1 kcal = 4,1868 kJ)",kcal/cap/day
+Food Demand|Crops,crop related food demand in calories,kcal/cap/day
+Food Demand|Livestock,livestock related food demand in calories,kcal/cap/day
+Food Energy Supply,total calory food demand,EJ/yr
+Food Energy Supply|Livestock,calory food demand from livestock products,EJ/yr
+Forcing,"radiative forcing from all greenhouse gases and forcing agents, including contributions from albedo change, nitrate, and mineral dust",W/m2
+Forcing|Aerosol,total radiative forcing from aerosols,W/m2
+Forcing|Aerosol|BC,total radiative forcing from black carbon,W/m2
+Forcing|Aerosol|Black and Organic Carbon,total radiative forcing from black and organic carbon,W/m2
+Forcing|Aerosol|Cloud Indirect,total radiative forcing from indirect effects of aerosols on clouds,W/m2
+Forcing|Aerosol|OC,total radiative forcing from organic carbon,W/m2
+Forcing|Aerosol|Other,total radiative forcing from aerosols not covered in the other categories (including aerosols from biomass burning),W/m2
+Forcing|Aerosol|Sulfate Direct,total radiative forcing from direct sufate effects,W/m2
+Forcing|Albedo Change and Mineral Dust,total radiative forcing from albedo change and mineral dust,W/m2
+Forcing|CH4,total radiative forcing from CH4,W/m2
+Forcing|CO2,total radiative forcing from CO2,W/m2
+Forcing|F-Gases,total radiative forcing from F-gases,W/m2
+Forcing|Kyoto Gases,"radiative forcing of the six Kyoto gases (CO2, CH4, N2O, SF6, HFCs, PFCs)",W/m2
+Forcing|Montreal Gases,total radiative forcing from Montreal gases,W/m2
+Forcing|N2O,total radiative forcing from N2O,W/m2
+Forcing|Other,total radiative forcing from factors not covered in other categories (including stratospheric ozone and stratospheric water vapor),W/m2
+Forcing|Tropospheric Ozone,total radiative forcing from tropospheric ozone,W/m2
+GDP|MER,GDP at market exchange rate,billion US$2010/yr
+GDP|PPP,GDP at purchasing power parity,billion US$2010/yr
+Investment|Energy Efficiency,investments into the efficiency-increasing components of energy demand technologies,billion US$2010/yr
+Investment|Energy Supply,investments into the energy supply system,billion US$2010/yr
+Investment|Energy Supply|CO2 Transport and Storage,investment in CO2 transport and storage (note that investment in the capturing equipment should be included along with the power plant technology),billion US$2010/yr
+Investment|Energy Supply|Electricity,investments into electricity generation and supply (including electricity storage and transmission & distribution),billion US$2010/yr
+Investment|Energy Supply|Electricity|Biomass,"investments in new power generation for the specified power plant category. If the model features several sub-categories, the total investments should be reported. For plants equipped with CCS, the investment in the capturing equipment should be included but not the one on transport and storage.",billion US$2010/yr
+Investment|Energy Supply|Electricity|Biomass|w/ CCS,"investments in new power generation for the specified power plant category. If the model features several sub-categories, the total investments should be reported. For plants equipped with CCS, the investment in the capturing equipment should be included but not the one on transport and storage.",billion US$2010/yr
+Investment|Energy Supply|Electricity|Biomass|w/o CCS,"investments in new power generation for the specified power plant category. If the model features several sub-categories, the total investments should be reported. For plants equipped with CCS, the investment in the capturing equipment should be included but not the one on transport and storage.",billion US$2010/yr
+Investment|Energy Supply|Electricity|Coal,"investments in new power generation for the specified power plant category. If the model features several sub-categories, the total investments should be reported. For plants equipped with CCS, the investment in the capturing equipment should be included but not the one on transport and storage.",billion US$2010/yr
+Investment|Energy Supply|Electricity|Coal|w/ CCS,"investments in new power generation for the specified power plant category. If the model features several sub-categories, the total investments should be reported. For plants equipped with CCS, the investment in the capturing equipment should be included but not the one on transport and storage.",billion US$2010/yr
+Investment|Energy Supply|Electricity|Coal|w/o CCS,"investments in new power generation for the specified power plant category. If the model features several sub-categories, the total investments should be reported. For plants equipped with CCS, the investment in the capturing equipment should be included but not the one on transport and storage.",billion US$2010/yr
+Investment|Energy Supply|Electricity|Electricity Storage,"investments in electricity storage technologies (e.g., batteries, compressed air storage reservoirs, etc.)",billion US$2010/yr
+Investment|Energy Supply|Electricity|Fossil,"investments in new power generation for the specified power plant category. If the model features several sub-categories, the total investments should be reported. For plants equipped with CCS, the investment in the capturing equipment should be included but not the one on transport and storage.",billion US$2010/yr
+Investment|Energy Supply|Electricity|Gas,"investments in new power generation for the specified power plant category. If the model features several sub-categories, the total investments should be reported. For plants equipped with CCS, the investment in the capturing equipment should be included but not the one on transport and storage.",billion US$2010/yr
+Investment|Energy Supply|Electricity|Gas|w/ CCS,"investments in new power generation for the specified power plant category. If the model features several sub-categories, the total investments should be reported. For plants equipped with CCS, the investment in the capturing equipment should be included but not the one on transport and storage.",billion US$2010/yr
+Investment|Energy Supply|Electricity|Gas|w/o CCS,"investments in new power generation for the specified power plant category. If the model features several sub-categories, the total investments should be reported. For plants equipped with CCS, the investment in the capturing equipment should be included but not the one on transport and storage.",billion US$2010/yr
+Investment|Energy Supply|Electricity|Geothermal,"investments in new power generation for the specified power plant category. If the model features several sub-categories, the total investments should be reported. For plants equipped with CCS, the investment in the capturing equipment should be included but not the one on transport and storage.",billion US$2010/yr
+Investment|Energy Supply|Electricity|Hydro,"investments in new power generation for the specified power plant category. If the model features several sub-categories, the total investments should be reported. For plants equipped with CCS, the investment in the capturing equipment should be included but not the one on transport and storage.",billion US$2010/yr
+Investment|Energy Supply|Electricity|Non-Biomass Renewables,"investments in new power generation for the specified power plant category. If the model features several sub-categories, the total investments should be reported. For plants equipped with CCS, the investment in the capturing equipment should be included but not the one on transport and storage.",billion US$2010/yr
+Investment|Energy Supply|Electricity|Non-fossil,"investments in new power generation for the specified power plant category. If the model features several sub-categories, the total investments should be reported. For plants equipped with CCS, the investment in the capturing equipment should be included but not the one on transport and storage.",billion US$2010/yr
+Investment|Energy Supply|Electricity|Nuclear,"investments in new power generation for the specified power plant category. If the model features several sub-categories, the total investments should be reported. For plants equipped with CCS, the investment in the capturing equipment should be included but not the one on transport and storage.",billion US$2010/yr
+Investment|Energy Supply|Electricity|Ocean,"investments in new power generation for the specified power plant category. If the model features several sub-categories, the total investments should be reported. For plants equipped with CCS, the investment in the capturing equipment should be included but not the one on transport and storage.",billion US$2010/yr
+Investment|Energy Supply|Electricity|Oil,"investments in new power generation for the specified power plant category. If the model features several sub-categories, the total investments should be reported. For plants equipped with CCS, the investment in the capturing equipment should be included but not the one on transport and storage.",billion US$2010/yr
+Investment|Energy Supply|Electricity|Oil|w/ CCS,"investments in new power generation for the specified power plant category. If the model features several sub-categories, the total investments should be reported. For plants equipped with CCS, the investment in the capturing equipment should be included but not the one on transport and storage.",billion US$2010/yr
+Investment|Energy Supply|Electricity|Oil|w/o CCS,"investments in new power generation for the specified power plant category. If the model features several sub-categories, the total investments should be reported. For plants equipped with CCS, the investment in the capturing equipment should be included but not the one on transport and storage.",billion US$2010/yr
+Investment|Energy Supply|Electricity|Other,"investments in new power generation for the specified power plant category. If the model features several sub-categories, the total investments should be reported. For plants equipped with CCS, the investment in the capturing equipment should be included but not the one on transport and storage.",billion US$2010/yr
+Investment|Energy Supply|Electricity|Solar,"investments in new power generation for the specified power plant category. If the model features several sub-categories, the total investments should be reported. For plants equipped with CCS, the investment in the capturing equipment should be included but not the one on transport and storage.",billion US$2010/yr
+Investment|Energy Supply|Electricity|Transmission and Distribution,investments in transmission and distribution of power generation,billion US$2010/yr
+Investment|Energy Supply|Electricity|Wind,"investments in new power generation for the specified power plant category. If the model features several sub-categories, the total investments should be reported. For plants equipped with CCS, the investment in the capturing equipment should be included but not the one on transport and storage.",billion US$2010/yr
+Investment|Energy Supply|Extraction|Coal,"investments for extraction and conversion of coal. These should include mining, shipping and ports",billion US$2010/yr
+Investment|Energy Supply|Extraction|Fossil,investments for all types of fossil extraction,billion US$2010/yr
+Investment|Energy Supply|Extraction|Gas,"investments for extraction and conversion of natural gas. These should include upstream, LNG chain and transmission and distribution",billion US$2010/yr
+Investment|Energy Supply|Extraction|Oil,"investments for extraction and conversion of oil. These should include upstream, transport and refining",billion US$2010/yr
+Investment|Energy Supply|Heat,investments in heat generation facilities,billion US$2010/yr
+Investment|Energy Supply|Hydrogen,investments for the production of hydrogen,billion US$2010/yr
+Investment|Energy Supply|Hydrogen|Fossil,"investments for the production of hydrogen from fossil fuels. For plants equipped with CCS, the investment in the capturing equipment should be included but not the one on transport and storage.",billion US$2010/yr
+Investment|Energy Supply|Hydrogen|Other,"investments for the production of hydrogen from biomass. For plants equipped with CCS, the investment in the capturing equipment should be included but not the one on transport and storage.",billion US$2010/yr
+Investment|Energy Supply|Liquids,"investments for the production of liquid fuels. For plants equipped with CCS, the investment in the capturing equipment should be included but not the one on transport and storage.",billion US$2010/yr
+Investment|Energy Supply|Liquids|Biomass,"investments for the production of biofuels. These should not include the costs of the feedstock. For plants equipped with CCS, the investment in the capturing equipment should be included but not the one on transport and storage.",billion US$2010/yr
+Investment|Energy Supply|Liquids|Coal and Gas,"investments for the production of fossil-based synfuels (coal and gas). For plants equipped with CCS, the investment in the capturing equipment should be included but not the one on transport and storage.",billion US$2010/yr
+Investment|Energy Supply|Liquids|Oil,"investments for the production of fossil fuels from oil refineries For plants equipped with CCS, the investment in the capturing equipment should be included but not the one on transport and storage.",billion US$2010/yr
+Land Cover,total land cover,million ha
+Land Cover|Built-up Area,total built-up land associated with human settlement,million ha
+Land Cover|Cropland,"total arable land, i.e. land in non-forest bioenergy crop, food, and feed/fodder crops, as well as other arable land (cultivated area)",million ha
+Land Cover|Cropland|Cereals,"land dedicated to cereal crops: wheat, rice and coarse grains (maize, corn, millet, sorghum, barley, oats, rye)",million ha
+Land Cover|Cropland|Energy Crops,"land dedicated to 2nd generation energy crops. (e.g., switchgrass, miscanthus, fast-growing wood species)",million ha
+Land Cover|Cropland|Irrigated,"irrigated arable land, i.e. land in non-forest bioenergy crop, food, and feed/fodder crops, as well as other arable land (cultivated area)",million ha
+Land Cover|Forest,managed and unmanaged forest area,million ha
+Land Cover|Forest|Afforestation and Reforestation,area with afforestation and reforestation,million ha
+Land Cover|Forest|Managed,"managed forests producing commercial wood supply for timber or energy (note: woody energy crops reported under ""energy crops"")",million ha
+Land Cover|Forest|Natural Forest,"undisturbed natural forests, modified natural forests and regrown secondary forests",million ha
+Land Cover|Other Arable Land,"other arable land that is unmanaged (e.g., grassland, savannah, shrubland), excluding unmanaged forests that are arable",million ha
+Land Cover|Other Land,"other land cover that does not fit into any other category (e.g., rock, ice, desert, water)",million ha
+Land Cover|Other Natural Land,other natural arable and non-arable land excluding forest,million ha
+Land Cover|Pasture,"pasture land. All categories of pasture land - not only high quality rangeland. Based on FAO definition of ""permanent meadows and pastures""",million ha
+Policy Cost|Additional Total Energy System Cost,additional energy system cost associated with the policy,billion US$2010/yr
+Policy Cost|Area under MAC Curve,"total costs of the policy, i.e. the area under the Marginal Abatement Cost (MAC) curve",billion US$2010/yr
+Policy Cost|Consumption Loss,consumption loss in a policy scenario compared to the corresponding baseline (losses should be reported as negative numbers),billion US$2010/yr
+Policy Cost|GDP Loss,GDP loss in a policy scenario compared to the corresponding baseline (losses should be reported as negative numbers),billion US$2010/yr
+Policy Cost|Other,"any other indicator of policy cost (e.g., compensated variation)",billion US$2010/yr
+Population,total population,million
+Population|Risk of Hunger,"population at risk of hunger, calculated by multipling total population and prevalence of undernourishment which is computed from a probability distribution of daily dietary energy consumption and minimum dietary energy requirement.",Million
+Population|Rural,total population living in rural areas,million
+Population|Urban,total population living in urban areas,million
+Population|Urban|Share,share of population living in urban areas,%
+Price|Agriculture|Corn|Index,price index of corn (Index,2010 = 1)
+Price|Agriculture|Livestock|Index,weighted average price index of livestock (Index,2010 = 1)
+Price|Agriculture|Non-Energy Crops and Livestock|Index,weighted average price index of non-energy crops and livestock products (Index,2010 = 1)
+Price|Agriculture|Non-Energy Crops|Index,weighted average price index of non-energy crops (Index,2010 = 1)
+Price|Agriculture|Soybean|Index,price index of soybean (Index,2010 = 1)
+Price|Agriculture|Wheat|Index,price index of wheat (Index,2010 = 1)
+Price|Carbon,price of carbon (for regional aggregrates the weighted price of carbon by subregion should be used),US$2010/t CO2
+Price|Final Energy|Residential|Electricity,electricity price at the final level in the residential sector. Prices should include the effect of carbon prices.,US$2010/GJ
+Price|Final Energy|Residential|Gases|Natural Gas,natural gas price at the final level in the residential sector. Prices should include the effect of carbon prices.,US$2010/GJ
+Price|Final Energy|Residential|Liquids|Biomass,biofuel price at the final level in the residential sector. Prices should include the effect of carbon prices.,US$2010/GJ
+Price|Final Energy|Residential|Liquids|Oil,light fuel oil price at the final level in the residential sector. Prices should include the effect of carbon prices.,US$2010/GJ
+Price|Final Energy|Residential|Solids|Biomass,biomass price at the final level in the residential sector. Prices should include the effect of carbon prices.,US$2010/GJ
+Price|Final Energy|Residential|Solids|Coal,coal price at the final level in the residential sector. Prices should include the effect of carbon prices.,US$2010/GJ
+Price|Primary Energy|Biomass,biomass producer price,US$2010/GJ
+Price|Primary Energy|Coal,coal price at the primary level (i.e. the spot price at the global or regional market),US$2010/GJ
+Price|Primary Energy|Gas,natural gas price at the primary level (i.e. the spot price at the global or regional market),US$2010/GJ
+Price|Primary Energy|Oil,crude oil price at the primary level (i.e. the spot price at the global or regional market),US$2010/GJ
+Price|Secondary Energy|Electricity,"electricity price at the secondary level, i.e. for large scale consumers (e.g. aluminum production).  Prices should include the effect of carbon prices.",US$2010/GJ
+Price|Secondary Energy|Gases|Natural Gas,"natural gas price at the secondary level, i.e. for large scale consumers (e.g. gas power plant). Prices should include the effect of carbon prices.",US$2010/GJ
+Price|Secondary Energy|Hydrogen,hydrogen price at the secondary level. Prices should include the effect of carbon prices,US$2010/GJ
+Price|Secondary Energy|Liquids,"liquid fuel price at the secondary level, i.e. petrol, diesel, or weighted average",US$2010/GJ
+Price|Secondary Energy|Liquids|Biomass,"biofuel price at the secondary level, i.e. for biofuel consumers",US$2010/GJ
+Price|Secondary Energy|Liquids|Oil,"light fuel oil price at the secondary level, i.e. for large scale consumers (e.g. oil power plant). Prices should include the effect of carbon prices.",US$2010/GJ
+Price|Secondary Energy|Solids|Biomass,"biomass price at the secondary level, i.e. for large scale consumers (e.g. biomass power plant). Prices should include the effect of carbon prices.",US$2010/GJ
+Price|Secondary Energy|Solids|Coal,"coal price at the secondary level, i.e. for large scale consumers (e.g. coal power plant). Prices should include the effect of carbon prices.",US$2010/GJ
+Primary Energy,total primary energy consumption (direct equivalent),EJ/yr
+Primary Energy|Biomass,"primary energy consumption of purpose-grown bioenergy crops, crop and forestry residue bioenergy, municipal solid waste bioenergy, traditional biomass",EJ/yr
+Primary Energy|Biomass|Electricity,"primary energy input to electricity generation of purpose-grown bioenergy crops, crop and forestry residue bioenergy, municipal solid waste bioenergy, traditional biomass",EJ/yr
+Primary Energy|Biomass|Electricity|w/ CCS,"purpose-grown bioenergy crops, crop and forestry residue bioenergy, municipal solid waste bioenergy, traditional biomass primary energy input to electricity generation used in combination with CCS",EJ/yr
+Primary Energy|Biomass|Electricity|w/o CCS,"purpose-grown bioenergy crops, crop and forestry residue bioenergy, municipal solid waste bioenergy, traditional biomass primary energy input to electricity generation without CCS",EJ/yr
+Primary Energy|Biomass|Modern,"modern biomass primary energy consumption, including purpose-grown bioenergy crops, crop and forestry residue bioenergy and municipal solid waste bioenergy",EJ/yr
+Primary Energy|Biomass|Modern|w/ CCS,"purpose-grown bioenergy crops, crop and forestry residue bioenergy, municipal solid waste bioenergy, traditional biomass primary energy consumption used in combination with CCS",EJ/yr
+Primary Energy|Biomass|Modern|w/o CCS,"purpose-grown bioenergy crops, crop and forestry residue bioenergy, municipal solid waste bioenergy, traditional biomass primary energy consumption without CCS",EJ/yr
+Primary Energy|Biomass|Traditional,traditional biomass primary energy consumption,EJ/yr
+Primary Energy|Coal,coal primary energy consumption,EJ/yr
+Primary Energy|Coal|Electricity,coal primary energy input to electricity generation,EJ/yr
+Primary Energy|Coal|Electricity|w/ CCS,coal primary energy input to electricity generation used in combination with CCS,EJ/yr
+Primary Energy|Coal|Electricity|w/o CCS,coal primary energy input to electricity generation without CCS,EJ/yr
+Primary Energy|Coal|w/ CCS,coal primary energy consumption used in combination with CCS,EJ/yr
+Primary Energy|Coal|w/o CCS,coal primary energy consumption without CCS,EJ/yr
+Primary Energy|Fossil,"coal, gas, conventional and unconventional oil primary energy consumption",EJ/yr
+Primary Energy|Fossil|w/ CCS,"coal, gas, conventional and unconventional oil primary energy consumption used in combination with CCS",EJ/yr
+Primary Energy|Fossil|w/o CCS,"coal, gas, conventional and unconventional oil primary energy consumption without CCS",EJ/yr
+Primary Energy|Gas,gas primary energy consumption,EJ/yr
+Primary Energy|Gas|Electricity,gas primary energy input to electricity generation,EJ/yr
+Primary Energy|Gas|Electricity|w/ CCS,gas primary energy input to electricity generation used in combination with CCS,EJ/yr
+Primary Energy|Gas|Electricity|w/o CCS,gas primary energy input to electricity generation without CCS,EJ/yr
+Primary Energy|Gas|w/ CCS,gas primary energy consumption used in combination with CCS,EJ/yr
+Primary Energy|Gas|w/o CCS,gas primary energy consumption without CCS,EJ/yr
+Primary Energy|Geothermal,primary energy consumption from geothermal,EJ/yr
+Primary Energy|Hydro,primary energy consumption from hydro electricity (direct equivalent),EJ/yr
+Primary Energy|Non-Biomass Renewables,"non-biomass renewable primary energy consumption (direct equivalent, includes hydro electricity, wind electricity, geothermal electricity and heat, solar electricity and heat and hydrogen, ocean energy)",EJ/yr
+Primary Energy|Nuclear,"nuclear primary energy consumption (direct equivalent, includes electricity, heat and hydrogen production from nuclear energy)",EJ/yr
+Primary Energy|Ocean,primary energy consumption from ocean (direct equivalent),EJ/yr
+Primary Energy|Oil,conventional & unconventional oil primary energy consumption,EJ/yr
+Primary Energy|Oil|w/ CCS,conventional & unconventional oil primary energy consumption used in combination with CCS,EJ/yr
+Primary Energy|Oil|w/o CCS,conventional & unconventional oil primary energy consumption without CCS,EJ/yr
+Primary Energy|Other,total other primary energy consumption,EJ/yr
+Primary Energy|Secondary Energy Trade,"trade in secondary energy carriers that cannot be unambiguoulsy mapped to one of the existing primary energy categories (e.g. electricity, hydrogen, fossil synfuels, negative means net exports)",EJ/yr
+Primary Energy|Solar,primary energy consumption from solar energy,EJ/yr
+Primary Energy|Wind,primary energy consumption from wind energy,EJ/yr
+Secondary Energy|Electricity,total net electricity production,EJ/yr
+Secondary Energy|Electricity|Biomass,"net electricity production from municipal solid waste, purpose-grown biomass, crop residues, forest industry waste, biogas",EJ/yr
+Secondary Energy|Electricity|Biomass|w/ CCS,"net electricity production from municipal solid waste, purpose-grown biomass, crop residues, forest industry waste with a CO2 capture component",EJ/yr
+Secondary Energy|Electricity|Biomass|w/o CCS,"net electricity production from municipal solid waste, purpose-grown biomass, crop residues, forest industry waste with freely vented CO2 emissions",EJ/yr
+Secondary Energy|Electricity|Coal,net electricity production from coal,EJ/yr
+Secondary Energy|Electricity|Coal|w/ CCS,net electricity production from coal with a CO2 capture component,EJ/yr
+Secondary Energy|Electricity|Coal|w/o CCS,net electricity production from coal with freely vented CO2 emissions,EJ/yr
+Secondary Energy|Electricity|Fossil,net electricity production from fossil fuels,EJ/yr
+Secondary Energy|Electricity|Gas,net electricity production from natural gas,EJ/yr
+Secondary Energy|Electricity|Gas|w/ CCS,net electricity production from natural gas with a CO2 capture component,EJ/yr
+Secondary Energy|Electricity|Gas|w/o CCS,net electricity production from natural gas with freely vented CO2 emissions,EJ/yr
+Secondary Energy|Electricity|Geothermal,"net electricity production from all sources of geothermal energy (e.g., hydrothermal, enhanced geothermal systems)",EJ/yr
+Secondary Energy|Electricity|Hydro,net hydroelectric production,EJ/yr
+Secondary Energy|Electricity|Non-Biomass Renewables,"net electricity production from hydro, wind, solar, geothermal, ocean, and other renewable sources (excluding bioenergy). This is a summary category for all the non-biomass renewables.",EJ/yr
+Secondary Energy|Electricity|Nuclear,net electricity production from nuclear energy,EJ/yr
+Secondary Energy|Electricity|Ocean,net electricity production from ocean energy,EJ/yr
+Secondary Energy|Electricity|Oil,net electricity production from refined liquid oil products,EJ/yr
+Secondary Energy|Electricity|Oil|w/ CCS,net electricity production from refined liquids with a CO2 capture component,EJ/yr
+Secondary Energy|Electricity|Oil|w/o CCS,net electricity production from refined liquids with freely vented CO2 emissions,EJ/yr
+Secondary Energy|Electricity|Other,net electricity production from other sources,EJ/yr
+Secondary Energy|Electricity|Solar,"net electricity production from all sources of solar energy (e.g., PV and concentrating solar power)",EJ/yr
+Secondary Energy|Electricity|Solar|CSP,net electricity production from concentrating solar power (CSP),EJ/yr
+Secondary Energy|Electricity|Solar|PV,net electricity production from solar photovoltaics (PV),EJ/yr
+Secondary Energy|Electricity|Wind,net electricity production from wind energy (on- and offshore),EJ/yr
+Secondary Energy|Electricity|Wind|Offshore,net electricity production from offshore wind energy,EJ/yr
+Secondary Energy|Electricity|Wind|Onshore,net electricity production from onshore wind energy,EJ/yr
+Secondary Energy|Gases,"total production of gaseous fuels, including natural gas",EJ/yr
+Secondary Energy|Gases|Biomass,total production of biogas,EJ/yr
+Secondary Energy|Gases|Coal,total production of coal gas from coal gasification,EJ/yr
+Secondary Energy|Gases|Natural Gas,total production of natural gas,EJ/yr
+Secondary Energy|Heat,total centralized heat generation,EJ/yr
+Secondary Energy|Heat|Geothermal,centralized heat generation from geothermal energy EXCLUDING geothermal heat pumps,EJ/yr
+Secondary Energy|Hydrogen,total hydrogen production,EJ/yr
+Secondary Energy|Hydrogen|Biomass,hydrogen production from biomass,EJ/yr
+Secondary Energy|Hydrogen|Biomass|w/ CCS,hydrogen production from biomass with a CO2 capture component,EJ/yr
+Secondary Energy|Hydrogen|Biomass|w/o CCS,hydrogen production from biomass with freely vented CO2 emissions,EJ/yr
+Secondary Energy|Hydrogen|Electricity,hydrogen production from electricity via electrolysis,EJ/yr
+Secondary Energy|Hydrogen|Fossil,hydrogen production from fossil fuels,EJ/yr
+Secondary Energy|Hydrogen|Fossil|w/ CCS,hydrogen production from fossil fuels with a CO2 capture component,EJ/yr
+Secondary Energy|Hydrogen|Fossil|w/o CCS,hydrogen production from fossil fuels with freely vented CO2 emissions,EJ/yr
+Secondary Energy|Liquids,"total production of refined liquid fuels from all energy sources (incl. oil products, synthetic fossil fuels from gas and coal, biofuels)",EJ/yr
+Secondary Energy|Liquids|Biomass,total liquid biofuels production,EJ/yr
+Secondary Energy|Liquids|Biomass|w/ CCS,total liquid biofuels production with CCS,EJ/yr
+Secondary Energy|Liquids|Biomass|w/o CCS,total liquid biofuels production without CCS,EJ/yr
+Secondary Energy|Liquids|Coal,total production of fossil liquid synfuels from coal-to-liquids (CTL) technologies,EJ/yr
+Secondary Energy|Liquids|Coal|w/ CCS,total production of fossil liquid synfuels from coal-to-liquids (CTL) technologies with CCS,EJ/yr
+Secondary Energy|Liquids|Coal|w/o CCS,total production of fossil liquid synfuels from coal-to-liquids (CTL) technologies without CCS,EJ/yr
+Secondary Energy|Liquids|Gas,total production of fossil liquid synfuels from gas-to-liquids (GTL) technologies,EJ/yr
+Secondary Energy|Liquids|Gas|w/ CCS,total production of fossil liquid synfuels from gas-to-liquids (GTL) technologies with CCS,EJ/yr
+Secondary Energy|Liquids|Gas|w/o CCS,total production of fossil liquid synfuels from gas-to-liquids (GTL) technologies without CCS,EJ/yr
+Secondary Energy|Liquids|Oil,"total production of liquid fuels from petroleum, including both conventional and unconventional sources",EJ/yr
+Secondary Energy|Solids,"solid secondary energy carriers (e.g., briquettes, coke, wood chips, wood pellets)",EJ/yr
+Subsidies|Energy|Fossil,fossil fuel subsidies,billion US$2010/yr
+Temperature|Global Mean,change in global mean temperature relative to pre-industrial,°C
+Trade|Primary Energy|Biomass|Volume,"net exports of solid, unprocessed biomass, at the global level these should add up to the trade losses only",EJ/yr
+Trade|Primary Energy|Coal|Volume,"net exports of coal, at the global level these should add up to the trade losses only",EJ/yr
+Trade|Primary Energy|Gas|Volume,"net exports of natural gas, at the global level these should add up to the trade losses only",EJ/yr
+Trade|Primary Energy|Oil|Volume,"net exports of crude oil, at the global level these should add up to the trade losses only",EJ/yr
+Trade|Secondary Energy|Electricity|Volume,"net exports of electricity, at the global level these should add up to the trade losses only",EJ/yr
+Trade|Secondary Energy|Liquids|Biomass|Volume,"net exports of liquid biofuels, at the global level these should add up to the trade losses only (for those models that are able to split solid and liquid bioenergy)",EJ/yr
+Value Added|Commercial,value added by commercial activity,billion US$2010/yr
+Value Added|Industry,value added by industry,billion US$2010/yr
+Water Consumption,total water consumption,km3/yr
+Water Consumption|Electricity,total water consumption for net electricity production,km3/yr
+Water Consumption|Extraction,total water consumption for extraction,km3/yr
+Water Consumption|Industrial Water,water consumption for the industrial sector,km3/yr
+Water Consumption|Irrigation,water consumption for irrigation,km3/yr
+Water Withdrawal,total water withdrawal,km3/yr
+Water Withdrawal|Electricity,total water withdrawals for net electricity production,km3/yr
+Water Withdrawal|Extraction,total water withdrawal for extraction,km3/yr
+Water Withdrawal|Industrial Water,water withdrawals for the industrial sector (manufacturing sector if also reporting energy sector water use),km3/yr

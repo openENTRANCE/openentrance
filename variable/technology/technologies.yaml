@@ -1,0 +1,462 @@
+# List of variables related to (energy) technologies
+
+Capacity|Electricity:
+   description: Total installed electricity generation capacity
+   unit: GW
+
+Capacity|Electricity|Biomass:
+   description: Total installed electricity generation capacity of biomass
+                power plants
+   unit: GW
+
+Capacity|Electricity|Coal:
+   description: Total installed electricity generation capacity of coal power
+                plants
+   unit: GW
+
+Capacity|Electricity|Gas:
+   description: Total installed electricity generation capacity of gas power
+                plants
+   unit: GW
+
+Capacity|Electricity|Geothermal:
+   description: Total installed electricity generation capacity of geothermal
+                power plants
+   unit: GW
+
+Capacity|Electricity|Hydro:
+   description: Total installed electricity generation capacity of hydro power
+                plants
+   unit: GW
+
+Capacity|Electricity|Nuclear:
+   description: Total installed electricity generation capacity of nuclear
+                power plants
+   unit: GW
+
+Capacity|Electricity|Ocean:
+   description: Total installed electricity generation capacity of ocean power
+                plants
+   unit: GW
+
+Capacity|Electricity|Oil:
+   description: Total installed electricity generation capacity of oil power
+                plants
+   unit: GW
+
+Capacity|Electricity|Other:
+   description: Total installed electricity generation capacity of other power
+                plants
+   unit: GW
+
+Capacity|Electricity|Solar:
+   description: Total installed electricity generation capacity of solar power
+                installations
+   unit: GW
+
+Capacity|Electricity|Solar|CSP:
+   description: Total installed electricity generation capacity of CSP plants
+   unit: GW
+
+Capacity|Electricity|Solar|PV:
+   description: Total installed electricity generation capacity of PV
+                installations
+   unit: GW
+
+Capacity|Electricity|Wind:
+   description: Total installed electricity generation capacity of wind power
+                installations
+   unit: GW
+
+Capacity|Electricity|Wind|Offshore:
+   description: Total installed electricity generation capacity of offshore
+                wind power installations
+   unit: GW
+
+Capacity|Electricity|Wind|Onshore:
+   description: Total installed electricity generation capacity of onshore wind
+                power installations
+   unit: GW
+
+Capital Cost|Electricity|Biomass|w/ CCS:
+   description: Capital cost of a new biomass power plant with CCS
+   unit: US$2010/kW
+
+Capital Cost|Electricity|Biomass|w/o CCS:
+   description: Capital cost of a new biomass power plant w/o CCS
+   unit: US$2010/kW
+
+Capital Cost|Electricity|Coal|w/ CCS:
+   description: Capital cost of a new coal power plant with CCS
+   unit: US$2010/kW
+
+Capital Cost|Electricity|Coal|w/o CCS:
+   description: Capital cost of a new coal power plant w/o CCS
+   unit: US$2010/kW
+
+Capital Cost|Electricity|Gas|w/ CCS:
+   description: Capital cost of a new gas power plant with CCS
+   unit: US$2010/kW
+
+Capital Cost|Electricity|Gas|w/o CCS:
+   description: Capital cost of a new gas power plant w/o CCS
+   unit: US$2010/kW
+
+Capital Cost|Electricity|Geothermal:
+   description: Capital cost of a new geothermal power plant
+   unit: US$2010/kW
+
+Capital Cost|Electricity|Hydro:
+   description: Capital cost of a new hydropower plant
+   unit: US$2010/kW
+
+Capital Cost|Electricity|Nuclear:
+   description: Capital cost of a new nuclear power plants
+   unit: US$2010/kW
+
+Capital Cost|Electricity|Solar|CSP:
+   description: Capital cost of a new concentrated solar power plant
+   unit: US$2010/kW
+
+Capital Cost|Electricity|Solar|PV:
+   description: Capital cost of a new solar PV units
+   unit: US$2010/kW
+
+Capital Cost|Electricity|Wind|Offshore:
+   description: Capital cost of a new offshore wind power plants
+   unit: US$2010/kW
+
+Capital Cost|Electricity|Wind|Onshore:
+   description: Capital cost of a new onshore wind power plants
+   unit: US$2010/kW
+
+Capital Cost|Gases|Biomass|w/o CCS:
+   description: Capital cost of a new biomass to gas plant w/o CCS
+   unit: US$2010/kW
+
+Capital Cost|Gases|Coal|w/o CCS:
+   description: Capital cost of a new coal to gas plant w/o CCS
+   unit: US$2010/kW
+
+Capital Cost|Hydrogen|Biomass|w/ CCS:
+   description: Capital cost of a new biomass to hydrogen plant with CCS
+   unit: US$2010/kW
+
+Capital Cost|Hydrogen|Biomass|w/o CCS:
+   description: Capital cost of a new biomass to hydrogen plant w/o CCS
+   unit: US$2010/kW
+
+Capital Cost|Hydrogen|Coal|w/ CCS:
+   description: Capital cost of a new coal to hydrogen plant with CCS
+   unit: US$2010/kW
+
+Capital Cost|Hydrogen|Coal|w/o CCS:
+   description: Capital cost of a new coal to hydrogen plant w/o CCS
+   unit: US$2010/kW
+
+Capital Cost|Hydrogen|Electricity:
+   description: Capital cost of a new hydrogen-by-electrolysis plant
+   unit: US$2010/kW
+
+Capital Cost|Hydrogen|Gas|w/ CCS:
+   description: Capital cost of a new gas to hydrogen plant with CCS
+   unit: US$2010/kW
+
+Capital Cost|Hydrogen|Gas|w/o CCS:
+   description: Capital cost of a new gas to hydrogen plant w/o CCS
+   unit: US$2010/kW
+
+Capital Cost|Liquids|Biomass|w/ CCS:
+   description: Capital cost of a new biomass to liquids plant with CCS
+   unit: US$2010/kW
+
+Capital Cost|Liquids|Biomass|w/o CCS:
+   description: Capital cost of a new biomass to liquids plant w/o CCS
+   unit: US$2010/kW
+
+Capital Cost|Liquids|Coal|w/ CCS:
+   description: Capital cost of a new coal to liquids plant with CCS
+   unit: US$2010/kW
+
+Capital Cost|Liquids|Coal|w/o CCS:
+   description: Capital cost of a new coal to liquids plant w/o CCS
+   unit: US$2010/kW
+
+Capital Cost|Liquids|Oil:
+   description: Capital cost of a new oil refining plant
+   unit: US$2010/kW
+
+Investment|Energy Efficiency:
+   description: Investments into the efficiency-increasing components of energy
+                demand technologies
+   unit: billion US$2010/yr
+
+Investment|Energy Supply:
+   description: Investments into the energy supply system
+   unit: billion US$2010/yr
+
+Investment|Energy Supply|CO2 Transport and Storage:
+   description: Investment in CO2 transport and storage (note that investment
+                in the capturing equipment should be included along with the
+                power plant technology)
+   unit: billion US$2010/yr
+
+Investment|Energy Supply|Electricity:
+   description: Investments into electricity generation and supply (including
+                electricity storage and transmission & distribution)
+   unit: billion US$2010/yr
+
+Investment|Energy Supply|Electricity|Biomass:
+   description: Investments in new power generation for the specified power
+                plant category. If the model features several sub-categories,
+                the total investments should be reported. For plants equipped
+                with CCS, the investment in the capturing equipment should be
+                included but not the one on transport and storage.
+   unit: billion US$2010/yr
+
+Investment|Energy Supply|Electricity|Biomass|w/ CCS:
+   description: Investments in new power generation for the specified power
+                plant category. If the model features several sub-categories,
+                the total investments should be reported. For plants equipped
+                with CCS, the investment in the capturing equipment should be
+                included but not the one on transport and storage.
+   unit: billion US$2010/yr
+
+Investment|Energy Supply|Electricity|Biomass|w/o CCS:
+   description: Investments in new power generation for the specified power
+                plant category. If the model features several sub-categories,
+                the total investments should be reported. For plants equipped
+                with CCS, the investment in the capturing equipment should be
+                included but not the one on transport and storage.
+   unit: billion US$2010/yr
+
+Investment|Energy Supply|Electricity|Coal:
+   description: Investments in new power generation for the specified power
+                plant category. If the model features several sub-categories,
+                the total investments should be reported. For plants equipped
+                with CCS, the investment in the capturing equipment should be
+                included but not the one on transport and storage.
+   unit: billion US$2010/yr
+
+Investment|Energy Supply|Electricity|Coal|w/ CCS:
+   description: Investments in new power generation for the specified power
+                plant category. If the model features several sub-categories,
+                the total investments should be reported. For plants equipped
+                with CCS, the investment in the capturing equipment should be
+                included but not the one on transport and storage.
+   unit: billion US$2010/yr
+
+Investment|Energy Supply|Electricity|Coal|w/o CCS:
+   description: Investments in new power generation for the specified power
+                plant category. If the model features several sub-categories,
+                the total investments should be reported. For plants equipped
+                with CCS, the investment in the capturing equipment should be
+                included but not the one on transport and storage.
+   unit: billion US$2010/yr
+
+Investment|Energy Supply|Electricity|Electricity Storage:
+   description: Investments in electricity storage technologies (e.g.,
+                batteries, compressed air storage reservoirs, etc.)
+   unit: billion US$2010/yr
+
+Investment|Energy Supply|Electricity|Fossil:
+   description: Investments in new power generation for the specified power
+                plant category. If the model features several sub-categories,
+                the total investments should be reported. For plants equipped
+                with CCS, the investment in the capturing equipment should be
+                included but not the one on transport and storage.
+   unit: billion US$2010/yr
+
+Investment|Energy Supply|Electricity|Gas:
+   description: Investments in new power generation for the specified power
+                plant category. If the model features several sub-categories,
+                the total investments should be reported. For plants equipped
+                with CCS, the investment in the capturing equipment should be
+                included but not the one on transport and storage.
+   unit: billion US$2010/yr
+
+Investment|Energy Supply|Electricity|Gas|w/ CCS:
+   description: Investments in new power generation for the specified power
+                plant category. If the model features several sub-categories,
+                the total investments should be reported. For plants equipped
+                with CCS, the investment in the capturing equipment should be
+                included but not the one on transport and storage.
+   unit: billion US$2010/yr
+
+Investment|Energy Supply|Electricity|Gas|w/o CCS:
+   description: Investments in new power generation for the specified power
+                plant category. If the model features several sub-categories,
+                the total investments should be reported. For plants equipped
+                with CCS, the investment in the capturing equipment should be
+                included but not the one on transport and storage.
+   unit: billion US$2010/yr
+
+Investment|Energy Supply|Electricity|Geothermal:
+   description: Investments in new power generation for the specified power
+                plant category. If the model features several sub-categories,
+                the total investments should be reported. For plants equipped
+                with CCS, the investment in the capturing equipment should be
+                included but not the one on transport and storage.
+   unit: billion US$2010/yr
+
+Investment|Energy Supply|Electricity|Hydro:
+   description: Investments in new power generation for the specified power
+                plant category. If the model features several sub-categories,
+                the total investments should be reported. For plants equipped
+                with CCS, the investment in the capturing equipment should be
+                included but not the one on transport and storage.
+   unit: billion US$2010/yr
+
+Investment|Energy Supply|Electricity|Non-Biomass Renewables:
+   description: Investments in new power generation for the specified power
+                plant category. If the model features several sub-categories,
+                the total investments should be reported. For plants equipped
+                with CCS, the investment in the capturing equipment should be
+                included but not the one on transport and storage.
+   unit: billion US$2010/yr
+
+Investment|Energy Supply|Electricity|Non-fossil:
+   description: Investments in new power generation for the specified power
+                plant category. If the model features several sub-categories,
+                the total investments should be reported. For plants equipped
+                with CCS, the investment in the capturing equipment should be
+                included but not the one on transport and storage.
+   unit: billion US$2010/yr
+
+Investment|Energy Supply|Electricity|Nuclear:
+   description: Investments in new power generation for the specified power
+                plant category. If the model features several sub-categories,
+                the total investments should be reported. For plants equipped
+                with CCS, the investment in the capturing equipment should be
+                included but not the one on transport and storage.
+   unit: billion US$2010/yr
+
+Investment|Energy Supply|Electricity|Ocean:
+   description: Investments in new power generation for the specified power
+                plant category. If the model features several sub-categories,
+                the total investments should be reported. For plants equipped
+                with CCS, the investment in the capturing equipment should be
+                included but not the one on transport and storage.
+   unit: billion US$2010/yr
+
+Investment|Energy Supply|Electricity|Oil:
+   description: Investments in new power generation for the specified power
+                plant category. If the model features several sub-categories,
+                the total investments should be reported. For plants equipped
+                with CCS, the investment in the capturing equipment should be
+                included but not the one on transport and storage.
+   unit: billion US$2010/yr
+
+Investment|Energy Supply|Electricity|Oil|w/ CCS:
+   description: Investments in new power generation for the specified power
+                plant category. If the model features several sub-categories,
+                the total investments should be reported. For plants equipped
+                with CCS, the investment in the capturing equipment should be
+                included but not the one on transport and storage.
+   unit: billion US$2010/yr
+
+Investment|Energy Supply|Electricity|Oil|w/o CCS:
+   description: Investments in new power generation for the specified power
+                plant category. If the model features several sub-categories,
+                the total investments should be reported. For plants equipped
+                with CCS, the investment in the capturing equipment should be
+                included but not the one on transport and storage.
+   unit: billion US$2010/yr
+
+Investment|Energy Supply|Electricity|Other:
+   description: Investments in new power generation for the specified power
+                plant category. If the model features several sub-categories,
+                the total investments should be reported. For plants equipped
+                with CCS, the investment in the capturing equipment should be
+                included but not the one on transport and storage.
+   unit: billion US$2010/yr
+
+Investment|Energy Supply|Electricity|Solar:
+   description: Investments in new power generation for the specified power
+                plant category. If the model features several sub-categories,
+                the total investments should be reported. For plants equipped
+                with CCS, the investment in the capturing equipment should be
+                included but not the one on transport and storage.
+   unit: billion US$2010/yr
+
+Investment|Energy Supply|Electricity|Transmission and Distribution:
+   description: Investments in transmission and distribution of power
+                generation
+   unit: billion US$2010/yr
+
+Investment|Energy Supply|Electricity|Wind:
+   description: Investments in new power generation for the specified power
+                plant category. If the model features several sub-categories,
+                the total investments should be reported. For plants equipped
+                with CCS, the investment in the capturing equipment should be
+                included but not the one on transport and storage.
+   unit: billion US$2010/yr
+
+Investment|Energy Supply|Extraction|Coal:
+   description: Investments for extraction and conversion of coal. These should
+                include mining, shipping and ports
+   unit: billion US$2010/yr
+
+Investment|Energy Supply|Extraction|Fossil:
+   description: Investments for all types of fossil extraction
+   unit: billion US$2010/yr
+
+Investment|Energy Supply|Extraction|Gas:
+   description: Investments for extraction and conversion of natural gas. These
+                should include upstream, LNG chain and transmission and
+                distribution
+   unit: billion US$2010/yr
+
+Investment|Energy Supply|Extraction|Oil:
+   description: Investments for extraction and conversion of oil. These should
+                include upstream, transport and refining
+   unit: billion US$2010/yr
+
+Investment|Energy Supply|Heat:
+   description: Investments in heat generation facilities
+   unit: billion US$2010/yr
+
+Investment|Energy Supply|Hydrogen:
+   description: Investments for the production of hydrogen
+   unit: billion US$2010/yr
+
+Investment|Energy Supply|Hydrogen|Fossil:
+   description: Investments for the production of hydrogen from fossil fuels.
+                For plants equipped with CCS, the investment in the capturing
+                equipment should be included but not the one on transport and
+                storage.
+   unit: billion US$2010/yr
+
+Investment|Energy Supply|Hydrogen|Other:
+   description: Investments for the production of hydrogen from biomass. For
+                plants equipped with CCS, the investment in the capturing
+                equipment should be included but not the one on transport and
+                storage.
+   unit: billion US$2010/yr
+
+Investment|Energy Supply|Liquids:
+   description: Investments for the production of liquid fuels. For plants
+                equipped with CCS, the investment in the capturing equipment
+                should be included but not the one on transport and storage.
+   unit: billion US$2010/yr
+
+Investment|Energy Supply|Liquids|Biomass:
+   description: Investments for the production of biofuels. These should not
+                include the costs of the feedstock. For plants equipped with
+                CCS, the investment in the capturing equipment should be
+                included but not the one on transport and storage.
+   unit: billion US$2010/yr
+
+Investment|Energy Supply|Liquids|Coal and Gas:
+   description: Investments for the production of fossil-based synfuels (coal
+                and gas). For plants equipped with CCS, the investment in the
+                capturing equipment should be included but not the one on
+                transport and storage.
+   unit: billion US$2010/yr
+
+Investment|Energy Supply|Liquids|Oil:
+   description: Investments for the production of fossil fuels from oil
+                refineries For plants equipped with CCS, the investment in the
+                capturing equipment should be included but not the one on
+                transport and storage.
+   unit: billion US$2010/yr
