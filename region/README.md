@@ -39,13 +39,17 @@ See [aggregate-regions.yaml](aggregate-regions.yaml) for the codelist.
 
 Each country in this list includes the ISO2 and ISO3 codes as an attribute
 as well as a flag on EU membership and (optional) a list of synonyms.
+The list also includes the alternatives to the *ISO 3166-1 alpha-2 standard*
+used by the [European Commission](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2)
+(`iso2_alt`).
 
 See [countries.yaml](countries.yaml) for the codelist.
 
 #### Example for using this codelist
 
 The code snippet (Python) below shows how to obtain the list of countries
-and a mapping of ISO2-codes to the common country names.
+and a mapping of ISO2-codes (including alternatives)
+to the common country names.
 
 ```python
 import yaml
@@ -53,8 +57,12 @@ with open('countries.yaml', 'r') as stream:
     country_mapping = yaml.load(stream, Loader=yaml.FullLoader)
 
 list_of_countries = list(country_mapping.keys())
-iso2_mapping = dict([(country_mapping[c]['iso2'], c)
-                     for c in country_mapping.keys()])
+iso2_mapping = dict(
+    [(country_mapping[c]['iso2'], c) for c in country_mapping]
+    # add alternative iso2 codes used by the European Commission to the mapping
+    + [(country_mapping[c]['iso2_alt'], c) for c in country_mapping
+       if 'iso2_alt' in country_mapping[c]]
+)
 ```
 
 ### Sub-country areas
