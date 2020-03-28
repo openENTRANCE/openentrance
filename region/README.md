@@ -44,6 +44,8 @@ used by the [European Commission](https://en.wikipedia.org/wiki/ISO_3166-1_alpha
 (`iso2_alt`).
 
 See [countries.yaml](countries.yaml) for the codelist.
+The source data and script to generate the codelist are available
+in the [data](data) folder.
 
 #### Example for using this codelist
 
@@ -65,11 +67,26 @@ iso2_mapping = dict(
 )
 ```
 
-### Sub-country areas
+### Sub-country areas following the 'Nomenclature of Territorial Units for Statistics' (NUTS)
 
-The disaggregation of countries follow the 
+One set of disaggregation of countries follows the 
 [NUTS 2021 classification](https://ec.europa.eu/eurostat/web/nuts/background)
 used by Eurostat.
+
+ - Major socio-economic regions: [nuts1.yaml](nuts1.yaml)
+ - Basic regions for the application of regional policies: [nuts2.yaml](nuts2.yaml)
+ - Small regions for specific diagnoses: [nuts3.yaml](nuts3.yaml)
+
+Each file includes the mapping of the NUTS-x code to the country name
+(as defined in [countries.yaml](countries.yaml))
+and the "parent" region(s) for NUTS-2 and NUTS-3 areas.
+
+The script to generate the codelist is available in the [data](data) folder.
+The source file `NUTS2016-NUTS2021.xlsx` can be downloaded from the
+[NUTS 2021 classification](https://ec.europa.eu/eurostat/web/nuts/background)
+website (last download March 27, 2020, per [@erikfilias](https://github.com/erikfilias)).
+
+### Other sub-country area classification
 
 *To be added at a later stage*
 
