@@ -85,6 +85,7 @@ Gibraltar:
 
 Greece:
    iso2: 'GR'
+   iso2_alt: 'EL' # the European Commission uses alternative ISO2 codes
    iso3: 'GRC'
    eu_member: True
 
@@ -231,6 +232,7 @@ Ukraine:
 
 United Kingdom:
    iso2: 'GB'
+   iso2_alt: 'UK' # the European Commission uses alternative ISO2 codes
    iso3: 'GBR'
    eu_member: False
    synonyms: ['Great Britain']
