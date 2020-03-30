@@ -91,7 +91,18 @@ website (last download March 27, 2020, per [@erikfilias](https://github.com/erik
 #### Example for using this codelist
 
 The code snippet (Python) below shows how to obtain a recursive dictionary
-from the NUTS-3 codelist.
+along the NUTS classification from the NUTS-3 codelist, i.e.,
+
+```
+hierarchy = {
+    <country>: {
+        <nuts1>: {
+            <nuts2>: [<list of nuts3>],
+            ... },
+        ... },
+   ... },
+}
+```
 
 ```python
 # load NUTS-3 codelist from file
