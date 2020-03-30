@@ -88,6 +88,35 @@ The source file `NUTS2016-NUTS2021.xlsx` can be downloaded from the
 [NUTS 2021 classification](https://ec.europa.eu/eurostat/web/nuts/background)
 website (last download March 27, 2020, per [@erikfilias](https://github.com/erikfilias)).
 
+#### Example for using this codelist
+
+The code snippet (Python) below shows how to obtain a recursive dictionary
+from the NUTS-3 codelist.
+
+```python
+# load NUTS-3 codelist from file
+import yaml
+with open(f'nuts3.yaml', 'r') as stream:
+    nuts3_codelist = yaml.load(stream, Loader=yaml.FullLoader)
+
+# auxiliary function to add key-value to object and return
+def add_to(mapping, key, value):
+    if key not in mapping:
+        mapping[key] = value
+    elif isinstance(value, list):
+        mapping[key] += value
+    return mapping[key]
+
+hierarchy = dict()
+
+# iterate over NUTS-3 codelist and recursively add items to the hierarchy dict
+for n3, mapping in nuts3_codelist.items():
+    country, n1, n2 = mapping['country'], mapping['nuts1'], mapping['nuts2']
+    country_dict = add_to(hierarchy, country, {n1: dict()})
+    n1_dict = add_to(country_dict, n1, {n2: list()})
+    add_to(n1_dict, n2, [n3])
+```
+
 ### Other sub-country area classification
 
 *To be added at a later stage*
