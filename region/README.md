@@ -54,16 +54,18 @@ and a mapping of ISO2-codes (including alternatives)
 to the common country names.
 
 ```python
+# load countries codelist from file
 import yaml
 with open('countries.yaml', 'r') as stream:
-    country_mapping = yaml.load(stream, Loader=yaml.FullLoader)
+    country_codelist = yaml.load(stream, Loader=yaml.FullLoader)
 
-list_of_countries = list(country_mapping.keys())
+# translate codelist to list and mapping (dictionary)
+list_of_countries = list(country_codelist)
 iso2_mapping = dict(
-    [(country_mapping[c]['iso2'], c) for c in country_mapping]
+    [(country_codelist[c]['iso2'], c) for c in country_codelist]
     # add alternative iso2 codes used by the European Commission to the mapping
-    + [(country_mapping[c]['iso2_alt'], c) for c in country_mapping
-       if 'iso2_alt' in country_mapping[c]]
+    + [(country_codelist[c]['iso2_alt'], c) for c in country_codelist
+       if 'iso2_alt' in country_codelist[c]]
 )
 ```
 
