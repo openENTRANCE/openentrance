@@ -44,6 +44,8 @@ used by the [European Commission](https://en.wikipedia.org/wiki/ISO_3166-1_alpha
 (`iso2_alt`).
 
 See [countries.yaml](countries.yaml) for the codelist.
+The source data and script to generate the codelist are available
+in the [data](data) folder.
 
 #### Example for using this codelist
 
@@ -52,24 +54,81 @@ and a mapping of ISO2-codes (including alternatives)
 to the common country names.
 
 ```python
+# load countries codelist from file
 import yaml
 with open('countries.yaml', 'r') as stream:
-    country_mapping = yaml.load(stream, Loader=yaml.FullLoader)
+    country_codelist = yaml.load(stream, Loader=yaml.FullLoader)
 
-list_of_countries = list(country_mapping.keys())
+# translate codelist to list and mapping (dictionary)
+list_of_countries = list(country_codelist)
 iso2_mapping = dict(
-    [(country_mapping[c]['iso2'], c) for c in country_mapping]
+    [(country_codelist[c]['iso2'], c) for c in country_codelist]
     # add alternative iso2 codes used by the European Commission to the mapping
-    + [(country_mapping[c]['iso2_alt'], c) for c in country_mapping
-       if 'iso2_alt' in country_mapping[c]]
+    + [(country_codelist[c]['iso2_alt'], c) for c in country_codelist
+       if 'iso2_alt' in country_codelist[c]]
 )
 ```
 
-### Sub-country areas
+### Sub-country areas following the 'Nomenclature of Territorial Units for Statistics' (NUTS)
 
-The disaggregation of countries follow the 
+One set of disaggregation of countries follows the 
 [NUTS 2021 classification](https://ec.europa.eu/eurostat/web/nuts/background)
 used by Eurostat.
+
+ - Major socio-economic regions: [nuts1.yaml](nuts1.yaml)
+ - Basic regions for the application of regional policies: [nuts2.yaml](nuts2.yaml)
+ - Small regions for specific diagnoses: [nuts3.yaml](nuts3.yaml)
+
+Each file includes the mapping of the NUTS-x code to the country name
+(as defined in [countries.yaml](countries.yaml))
+and the "parent" region(s) for NUTS-2 and NUTS-3 areas.
+
+The script to generate the codelist is available in the [data](data) folder.
+The source file `NUTS2016-NUTS2021.xlsx` can be downloaded from the
+[NUTS 2021 classification](https://ec.europa.eu/eurostat/web/nuts/background)
+website (last download March 27, 2020, per [@erikfilias](https://github.com/erikfilias)).
+
+#### Example for using this codelist
+
+The code snippet (Python) below shows how to obtain a recursive dictionary
+along the NUTS classification from the NUTS-3 codelist, i.e.,
+
+```
+hierarchy = {
+    <country>: {
+        <nuts1>: {
+            <nuts2>: [<list of nuts3>],
+            ... },
+        ... },
+   ... },
+}
+```
+
+```python
+# load NUTS-3 codelist from file
+import yaml
+with open(f'nuts3.yaml', 'r') as stream:
+    nuts3_codelist = yaml.load(stream, Loader=yaml.FullLoader)
+
+# auxiliary function to add key-value to object and return
+def add_to(mapping, key, value):
+    if key not in mapping:
+        mapping[key] = value
+    elif isinstance(value, list):
+        mapping[key] += value
+    return mapping[key]
+
+hierarchy = dict()
+
+# iterate over NUTS-3 codelist and recursively add items to the hierarchy dict
+for n3, mapping in nuts3_codelist.items():
+    country, n1, n2 = mapping['country'], mapping['nuts1'], mapping['nuts2']
+    country_dict = add_to(hierarchy, country, {n1: dict()})
+    n1_dict = add_to(country_dict, n1, {n2: list()})
+    add_to(n1_dict, n2, [n3])
+```
+
+### Other sub-country area classification
 
 *To be added at a later stage*
 
