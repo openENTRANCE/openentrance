@@ -1,7 +1,7 @@
 # List of months
 
 January:
-   duration: 31. / 365
+   duration: 31 / 365
 
 February:
    duration: 28 / 365
