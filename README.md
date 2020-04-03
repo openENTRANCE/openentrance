@@ -66,7 +66,8 @@ The resulting table can be either shown as
 | MESSAGE   | CD-LINKS 400 | World      | Primary Energy | EJ/y     | Year          |    462.5 |    500.7 |      ... |
 | ...       | ...          | ...        | ...            | ...      | ...           |      ... |      ... |      ... |
 
-###### Data via the [IAMC 1.5°C scenario explorer](https://data.ene.iiasa.ac.at/iamc-1.5c-explorer), showing a scenario from the [CD-LINKS](https://www.cd-links.org) project.
+<sup>Data via the [IAMC 1.5°C scenario explorer](https://data.ene.iiasa.ac.at/iamc-1.5c-explorer),
+    showing a scenario from the [CD-LINKS](https://www.cd-links.org) project.</sup>
 
 [1] *The index 'Subannual' is an extension of the original format introduced by
 the openENTRANCE project to accomodate data at a subannual temporal resolution.*
