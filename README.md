@@ -51,13 +51,11 @@ In the data format, every timeseries is described by six dimensions (codes):
 3.	Region - [more information](region)
 4.	Variable - [more information](variable)
 5.	Unit - see the section on [variables](variable) for details
-6.	Subannual (optional, default 'Year')<sup>[1][2]</sup>
+6.	Subannual (optional, default 'Year')<sup>[1]</sup> -
+    [more information](subannual)
 
 [1] *The index 'Subannual' is an extension of the original format introduced by
 the openENTRANCE project to accomodate data at a subannual temporal resolution.*
-
-[2] *A detailed description of this dimensions and the shared terms
-(i.e., codelists) will be added soon!**
 
 ### Recommended usage of this data format
 
