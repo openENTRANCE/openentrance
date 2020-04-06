@@ -54,6 +54,21 @@ In the data format, every timeseries is described by six dimensions (codes):
 6.	Subannual (optional, default 'Year')<sup>[1]</sup> -
     [more information](subannual)
 
+In addition to these six dimensions, every timeseries is described by
+a set of **year-value** pairs.
+
+The resulting table can be either shown as
+- **wide format** (see example below, with *years* as columns), or
+- **long format** (two columns *year*  and *value*).
+
+| **model** | **scenario** | **region** | **variable**   | **unit** | **subannual** | **2005** | **2010** | **2015** |
+|-----------|--------------|------------|----------------|----------|---------------|---------:|---------:|---------:|
+| MESSAGE   | CD-LINKS 400 | World      | Primary Energy | EJ/y     | Year          |    462.5 |    500.7 |      ... |
+| ...       | ...          | ...        | ...            | ...      | ...           |      ... |      ... |      ... |
+
+<sup>Data via the [IAMC 1.5°C scenario explorer](https://data.ene.iiasa.ac.at/iamc-1.5c-explorer),
+    showing a scenario from the [CD-LINKS](https://www.cd-links.org) project.</sup>
+
 [1] *The index 'Subannual' is an extension of the original format introduced by
 the openENTRANCE project to accomodate data at a subannual temporal resolution.*
 
