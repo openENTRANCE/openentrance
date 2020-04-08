@@ -273,3 +273,31 @@ Final Energy|Transportation|Liquids|Oil:
    description: Final energy consumption by the transportation sector of liquid
                 oil products (from conventional & unconventional oil)
    unit: EJ/yr
+
+Final Energy|Electricity|Cooling:
+   description: Final electricity consumption for cooling, 
+                source - electricity produced by all primary sources
+                use - cooling
+                sector - all
+   unit: GWh
+   
+Final Energy|Electricity|Heat:
+   description: Final electricity consumption for heating, 
+                source - electricity produced by all primary sources
+                use - heating
+                sector - all
+   unit: GWh
+   
+ Final Energy|Electricity|Transportation:
+   description: Final electricity consumption for electric-transport(including e-cars, e-trucks), 
+                source - electricity produced by all primary sources
+                use - transportation
+                sector - all
+   unit: GWh
+  
+ Final Energy|Electricity|Other (excl. Heat, Cooling, Transport):
+   description: Final electricity consumption for non heating, non cooling, non e-transport uses, 
+                source - electricity produced by all primary sources
+                use - all excluding heating, cooling, transportation
+                sector - all
+   unit: GWh
