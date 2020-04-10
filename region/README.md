@@ -74,8 +74,6 @@ iso2_mapping = dict(
 One set of disaggregation of countries follows the 
 [NUTS 2021 classification](https://ec.europa.eu/eurostat/web/nuts/background)
 used by Eurostat.
-
-<<<<<<< HEAD
  - Major socio-economic regions: [nuts1.yaml](nuts1.yaml)
  - Basic regions for the application of regional policies: [nuts2.yaml](nuts2.yaml)
  - Small regions for specific diagnoses: [nuts3.yaml](nuts3.yaml)
