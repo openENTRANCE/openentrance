@@ -12,7 +12,7 @@
 
 # e-highway clusters were used in the plan4res project (www.plan4res.eu) to create its public dataset
 # we will describe here only the clusters that are used in plan4res public dataset, which are those
-# describing france, germany and itajy. For the rest of europe, country or regional aggregation is used in plan4res
+# describing France, Germany and Italy. For the rest of europe, country or regional aggregation is used in plan4res
 # they are defined as an aggregation of a list of NUTS3 regions
 
 # ehighway clusters France
