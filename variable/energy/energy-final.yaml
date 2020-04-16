@@ -78,10 +78,8 @@ Final Energy|Industry|Hydrogen:
    unit: EJ/yr
 
 Final Energy|Industry|Liquids:
-   description: Final energy consumption by the industrial sector of refined
-                liquids (conventional & unconventional oil, biofuels,
-                coal-to-liquids, gas-to-liquids)
-   # ambiguous: is it industries that produce liquids (and thus need energy to produce it) or that consume liquids as an energy source
+   description: consumption of refined liquids (conventional & unconventional oil, biofuels,
+                coal-to-liquids, gas-to-liquids)by the industrial sector 
    unit: EJ/yr
 
 Final Energy|Industry|Other:
