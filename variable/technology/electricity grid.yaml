@@ -1,0 +1,25 @@
+# List of variables related to the electricity grid
+
+Frequency Containment Reserve Demand|Electricity|Grid:
+   description: demand in frequency containment reserve (FCR)            
+   unit: MW
+   
+Automatic Frequency Restoration Reserve Demand|Electricity|Grid:
+   description: demand in automatic frequency restoration reserve (AFRR)             
+   unit: MW
+   
+Inertia Demand|Electricity|Grid:
+   description: demand in inertia            
+   unit: second
+   
+Maximum Flow|Electricity|Grid
+   description: maximum flow of an interconnection between 2 regions
+   unit: MW
+   
+Minimum Flow|Electricity|Grid
+   description: minimum flow of an interconnection between 2 regions
+   unit: MW
+   
+Impedance|Electricity|Grid
+   description: impedance of an interconnection between 2 regions
+   unit: S
