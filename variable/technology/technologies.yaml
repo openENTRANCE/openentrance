@@ -509,6 +509,32 @@ Investment|Energy Supply|Liquids|Oil:
                 transport and storage.
    unit: billion US$2010/yr
 
+Number Units|Electricity|Biomass|Traditionnal:
+   description: Number of units of kind "Traditionnal Biomass power plant "
+                biomass from local and pre-existing 
+                resources mostly waste :domestic and agricultural waste, forest residues. 
+   unit: 
+     
+Number Units|Electricity|Biomass|New and imported:
+   description: Number of units of kind "new biomass power plant "
+                biomass from dedicated energy crops and biomass imports. 
+   unit: 
+   
+Number Units|Electricity|Nuclear:
+   description: Number of units of kind "nuclear power plant "
+   unit: 
+   
+Number Units|Electricity|Gas|OCGT:
+   description: Number of units of kind "Open Cycle Gas Turbine power plant" 
+   unit: 
+   
+Number Units|Electricity|Gas|Coal:
+   description: Number of units of kind "coal power plant "
+   unit: 
+   
+Number Units|Electricity|Lignite:
+   description: Number of units of kind "Lignite power plant "
+   unit: 
 Maximum Active power|Electricity|Biomass|Traditionnal:
    description: Maximum active power of one typical Traditionnal Biomass power plant 
                 biomass from local and pre-existing 
@@ -696,4 +722,151 @@ Mean Outage Duration|Electricity|Gas|Coal:
    
 Mean Outage Duration|Electricity|Lignite:
    description: Mean duration of outages for a typical Lignite power plant 
+   unit: %
+   
+CO2 Emmissions|Electricity|Biomass|Traditionnal:
+   description: CO2 emmissions of a typical Traditionnal Biomass power plant 
+                biomass from local and pre-existing 
+                resources mostly waste :domestic and agricultural waste, forest residues. 
+   unit: tons/MWh
+     
+CO2 Emmissions|Electricity|Biomass|New and imported :
+   description: CO2 emmissions of a typical new biomass power plant 
+                biomass from dedicated energy crops and biomass imports. 
+   unit: tons/MWh
+   
+CO2 Emmissions|Electricity|Nuclear:
+   description: CO2 emmissions of a typical nuclear power plant 
+   unit: tons/MWh
+   
+CO2 Emmissions|Electricity|Gas|OCGT:
+   description: CO2 emmissions of a typical Open Cycle Gas Turbine power plant 
+   unit: tons/MWh
+   
+CO2 Emmissions|Electricity|Gas|Coal:
+   description: CO2 emmissions of a typical coal power plant 
+   unit: tons/MWh
+   
+CO2 Emmissions|Electricity|Lignite:
+   description: CO2 emmissions of a typical Lignite power plant 
+   unit: tons/MWh
+
+Variable Cost|Electricity|Biomass|Traditionnal:
+   description: variable cost of a typical Traditionnal Biomass power plant 
+                biomass from local and pre-existing 
+                resources mostly waste :domestic and agricultural waste, forest residues. 
+   unit: €/MWh
+     
+Variable Cost|Electricity|Biomass|New and imported :
+   description: variable cost of a typical new biomass power plant 
+                biomass from dedicated energy crops and biomass imports. 
+   unit: €/MWh
+   
+Variable Cost|Electricity|Nuclear:
+   description: variable cost of a typical nuclear power plant 
+   unit: €/MWh
+   
+Variable Cost|Electricity|Gas|OCGT:
+   description: variable cost of a typical Open Cycle Gas Turbine power plant 
+   unit: €/MWh
+   
+Variable Cost|Electricity|Gas|Coal:
+   description: variable cost of a typical coal power plant 
+   unit: €/MWh
+   
+Variable Cost|Electricity|Lignite:
+   description: variable cost of a typical Lignite power plant 
+   unit: €/MWh
+   
+Inertia|Electricity|Biomass|Traditionnal:
+   description: inertia privided to the system when started by a typical Traditionnal Biomass power plant 
+                biomass from local and pre-existing 
+                resources mostly waste :domestic and agricultural waste, forest residues. 
+   unit: second
+     
+Inertia|Electricity|Biomass|New and imported :
+   description: inertia privided to the system when started by a typical new biomass power plant 
+                biomass from dedicated energy crops and biomass imports. 
+   unit: second
+   
+Inertia|Electricity|Nuclear:
+   description: inertia privided to the system when started by a typical nuclear power plant 
+   unit: second
+   
+Inertia|Electricity|Gas|OCGT:
+   description: inertia privided to the system when started by a typical Open Cycle Gas Turbine power plant 
+   unit: second
+   
+Inertia|Electricity|Gas|Coal:
+   description: inertia privided to the system when started by a typical coal power plant 
+   unit: second
+   
+Inertia|Electricity|Lignite:
+   description: inertia privided to the system when started by a typical Lignite power plant 
+   unit: second
+   
+Rate Primary|Electricity|Biomass|Traditionnal:
+   description: Percentage of the Maximum Active Power that can be devoted to primary ancillary service
+                for a typical Traditionnal Biomass power plant 
+                biomass from local and pre-existing 
+                resources mostly waste :domestic and agricultural waste, forest residues. 
+   unit: %
+     
+Rate Primary|Electricity|Biomass|New and imported :
+   description: Percentage of the Maximum Active Power that can be devoted to primary ancillary service
+                for a typical new biomass power plant 
+                biomass from dedicated energy crops and biomass imports. 
+   unit: %
+   
+Rate Primary|Electricity|Nuclear:
+   description: Percentage of the Maximum Active Power that can be devoted to primary ancillary service
+                for a typical nuclear power plant 
+   unit: %
+   
+Rate Primary|Electricity|Gas|OCGT:
+   description: Percentage of the Maximum Active Power that can be devoted to primary ancillary service
+                for a typical Open Cycle Gas Turbine power plant 
+   unit: %
+   
+Rate Primary|Electricity|Gas|Coal:
+   description: Percentage of the Maximum Active Power that can be devoted to primary ancillary service
+                for a typical coal power plant 
+   unit: %
+   
+Rate Primary|Electricity|Lignite:
+   description: Percentage of the Maximum Active Power that can be devoted to primary ancillary service
+                for a typical Lignite power plant 
+   unit: %
+
+Rate Secondary|Electricity|Biomass|Traditionnal:
+   description: Percentage of the Maximum Active Power that can be devoted to Secondary ancillary service
+                for a typical Traditionnal Biomass power plant 
+                biomass from local and pre-existing 
+                resources mostly waste :domestic and agricultural waste, forest residues. 
+   unit: %
+     
+Rate Secondary|Electricity|Biomass|New and imported :
+   description: Percentage of the Maximum Active Power that can be devoted to Secondary ancillary service
+                for a typical new biomass power plant 
+                biomass from dedicated energy crops and biomass imports. 
+   unit: %
+   
+Rate Secondary|Electricity|Nuclear:
+   description: Percentage of the Maximum Active Power that can be devoted to Secondary ancillary service
+                for a typical nuclear power plant 
+   unit: %
+   
+Rate Secondary|Electricity|Gas|OCGT:
+   description: Percentage of the Maximum Active Power that can be devoted to Secondary ancillary service
+                for a typical Open Cycle Gas Turbine power plant 
+   unit: %
+   
+Rate Secondary|Electricity|Gas|Coal:
+   description: Percentage of the Maximum Active Power that can be devoted to Secondary ancillary service
+                for a typical coal power plant 
+   unit: %
+   
+Rate Secondary|Electricity|Lignite:
+   description: Percentage of the Maximum Active Power that can be devoted to Secondary ancillary service
+                for a typical Lignite power plant 
    unit: %
