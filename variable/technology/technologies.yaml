@@ -76,7 +76,21 @@ Capacity|Electricity|Hydro:
    description: Total installed electricity generation capacity of hydro power
                 plants
    unit: GW
+   
+Capacity|Electricity|Hydro|Reservoir:
+   description: Total installed electricity generation capacity of hydro power plants with 
+                reservoirs with seasonal storage potential
+   unit: GW
 
+Capacity|Electricity|Hydro|Pumped Storage:
+   description: Total installed electricity generation capacity of hydro power plants with 
+                pumped storage
+   unit: GW
+   
+Capacity|Electricity|Hydro|Run of River:
+   description: Total installed electricity generation capacity of run-of-river hydro power plants 
+   unit: GW
+   
 Capacity|Electricity|Nuclear:
    description: Total installed electricity generation capacity of nuclear
                 power plants
@@ -509,6 +523,8 @@ Investment|Energy Supply|Liquids|Oil:
                 transport and storage.
    unit: billion US$2010/yr
 
+# description of thermal power plants 
+
 Number Units|Electricity|Biomass|Traditionnal:
    description: Number of units of kind "Traditionnal Biomass power plant "
                 biomass from local and pre-existing 
@@ -805,68 +821,271 @@ Inertia|Electricity|Lignite:
    description: inertia privided to the system when started by a typical Lignite power plant 
    unit: second
    
-Rate Primary|Electricity|Biomass|Traditionnal:
-   description: Percentage of the Maximum Active Power that can be devoted to primary ancillary service
+Rate Frequency Containment Reserve|Electricity|Biomass|Traditionnal:
+   description: Percentage of the Maximum Active Power that can be devoted to Frequency Containment Reserve
                 for a typical Traditionnal Biomass power plant 
                 biomass from local and pre-existing 
                 resources mostly waste :domestic and agricultural waste, forest residues. 
    unit: %
      
-Rate Primary|Electricity|Biomass|New and imported :
-   description: Percentage of the Maximum Active Power that can be devoted to primary ancillary service
+Rate Frequency Containment Reserve|Electricity|Biomass|New and imported :
+   description: Percentage of the Maximum Active Power that can be devoted to Frequency Containment Reserve
                 for a typical new biomass power plant 
                 biomass from dedicated energy crops and biomass imports. 
    unit: %
    
-Rate Primary|Electricity|Nuclear:
-   description: Percentage of the Maximum Active Power that can be devoted to primary ancillary service
+Rate Frequency Containment Reserve|Electricity|Nuclear:
+   description: Percentage of the Maximum Active Power that can be devoted to Frequency Containment Reserve
                 for a typical nuclear power plant 
    unit: %
    
-Rate Primary|Electricity|Gas|OCGT:
-   description: Percentage of the Maximum Active Power that can be devoted to primary ancillary service
+Rate Frequency Containment Reserve|Electricity|Gas|OCGT:
+   description: Percentage of the Maximum Active Power that can be devoted to Frequency Containment Reserve
                 for a typical Open Cycle Gas Turbine power plant 
    unit: %
    
-Rate Primary|Electricity|Gas|Coal:
-   description: Percentage of the Maximum Active Power that can be devoted to primary ancillary service
+Rate Frequency Containment Reserve|Electricity|Gas|Coal:
+   description: Percentage of the Maximum Active Power that can be devoted to Frequency Containment Reserve
                 for a typical coal power plant 
    unit: %
    
-Rate Primary|Electricity|Lignite:
-   description: Percentage of the Maximum Active Power that can be devoted to primary ancillary service
+Rate Frequency Containment Reserve|Electricity|Lignite:
+   description: Percentage of the Maximum Active Power that can be devoted to Frequency Containment Reserve
                 for a typical Lignite power plant 
    unit: %
 
-Rate Secondary|Electricity|Biomass|Traditionnal:
-   description: Percentage of the Maximum Active Power that can be devoted to Secondary ancillary service
+Rate Automatic Frequency Restoration Reserve|Electricity|Biomass|Traditionnal:
+   description: Percentage of the Maximum Active Power that can be devoted to Automatic Frequency Restoration Reserve
                 for a typical Traditionnal Biomass power plant 
                 biomass from local and pre-existing 
                 resources mostly waste :domestic and agricultural waste, forest residues. 
    unit: %
      
-Rate Secondary|Electricity|Biomass|New and imported :
-   description: Percentage of the Maximum Active Power that can be devoted to Secondary ancillary service
+Rate Automatic Frequency Restoration Reserve|Electricity|Biomass|New and imported :
+   description: Percentage of the Maximum Active Power that can be devoted to Automatic Frequency Restoration Reserve
                 for a typical new biomass power plant 
                 biomass from dedicated energy crops and biomass imports. 
    unit: %
    
-Rate Secondary|Electricity|Nuclear:
-   description: Percentage of the Maximum Active Power that can be devoted to Secondary ancillary service
+Rate Automatic Frequency Restoration Reserve|Electricity|Nuclear:
+   description: Percentage of the Maximum Active Power that can be devoted to Automatic Frequency Restoration Reserve
                 for a typical nuclear power plant 
    unit: %
    
-Rate Secondary|Electricity|Gas|OCGT:
-   description: Percentage of the Maximum Active Power that can be devoted to Secondary ancillary service
+Rate Automatic Frequency Restoration Reserve|Electricity|Gas|OCGT:
+   description: Percentage of the Maximum Active Power that can be devoted to Automatic Frequency Restoration Reserve
                 for a typical Open Cycle Gas Turbine power plant 
    unit: %
    
-Rate Secondary|Electricity|Gas|Coal:
-   description: Percentage of the Maximum Active Power that can be devoted to Secondary ancillary service
+Rate Automatic Frequency Restoration Reserve|Electricity|Gas|Coal:
+   description: Percentage of the Maximum Active Power that can be devoted to Automatic Frequency Restoration Reserve
                 for a typical coal power plant 
    unit: %
    
-Rate Secondary|Electricity|Lignite:
-   description: Percentage of the Maximum Active Power that can be devoted to Secondary ancillary service
+Rate Automatic Frequency Restoration Reserve|Electricity|Lignite:
+   description: Percentage of the Maximum Active Power that can be devoted to Automatic Frequency Restoration Reserve
                 for a typical Lignite power plant 
+   unit: %
+
+# description of simple hydrosystems - reservoir hydro
+# this describes systems composed of one reservoir and one plant (with potential pumping capacity) that are used for seasonal storage
+Number Units|Electricity|Hydro|Reservoir:
+   description: Number of units of kind "simple Hydro reservoir "
+   unit: 
+   
+Maximum Active power|Electricity|Hydro|reservoir:
+   description: Maximum active power of one typical "simple Hydro reservoir " unit
+   unit: MW
+   
+Minimum Active power|Electricity|Hydro|Reservoir:
+   description: Minimum active power of one typical "simple Hydro reservoir " unit
+   unit: MW
+   
+Maximum Storage|Electricity|Hydro|reservoir:
+   description: Maximum volume of a reservoir expressed in energy
+   unit: MWh
+   
+Minimum Storage|Electricity|Hydro|Reservoir:
+   description: Minimum volume of a reservoir expressed in energy
+   unit: MWh
+
+Pumping Efficiency|Electricity|Hydro|Reservoir:
+   description: efficiency of pumping for a reservoir power plant
+   unit: %
+   
+Inertia|Electricity|Hydro|Reservoir:
+   description: inertia provided to the system by a typical "simple Hydro reservoir " unit 
+   unit: second
+   
+Inflows|Electricity|Hydro|Reservoir:
+   description: hydraulic inflows to a reservoir expressed in energy
+   unit: MWh
+   
+Inflows|Electricity|Hydro|Reservoir|Profile:
+   description: Time serie of hydraulic inflows to a reservoir expressed in energy
+   unit: MWh
+   
+# description of simple hydrosystems -  pumped storage
+# this describes systems composed of one small reservoir and one plant with  pumping capacity that are used for short-term storage (eg week or day)
+Number Units|Electricity|Hydro|Pumped Storage:
+   description: Number of units of kind "Pumped Storage "
+   unit: 
+   
+Maximum Active power|Electricity|Hydro|Pumped Storage:
+   description: Maximum active power of one  "Pumped Storage " unit
+   unit: MW
+   
+Minimum Active power|Electricity|Hydro|Pumped Storage:
+   description: Minimum active power of one  "Pumped Storage" unit
+   unit: MW
+   
+Maximum Storage|Electricity|Hydro|Pumped Storage:
+   description: Maximum volume of a Pumped Storage expressed in energy
+   unit: MWh
+   
+Minimum Storage|Electricity|Hydro|Pumped Storage:
+   description: Minimum volume of a Pumped Storage expressed in energy
+   unit: MWh
+
+Pumping Efficiency|Electricity|Hydro|Pumped Storage:
+   description: efficiency of pumping for a Pumped Storage
+   unit: %
+   
+Inertia|Electricity|Hydro|Pumped Storage:
+   description: inertia provided to the system by a Pumped Storage unit 
+   unit: second
+   
+Rate Frequency Containment Reserve|Electricity|Hydro|Pumped Storage:
+   description: Percentage of the Maximum Active Power that can be devoted to Frequency Containment Reserve
+                for a Pumped Storage unit
+   unit: %
+   
+Rate Automatic Frequency Restoration Reserve|Electricity|Hydro|Reservoir:
+   description: Percentage of the Maximum Active Power that can be devoted to Automatic Frequency Restoration Reserve
+                for a Pumped Storage unit 
+   unit: %
+
+# description of simple hydrosystems -  run of river
+# this describes systems composed of one run of river plant (without storage)
+Number Units|Electricity|Hydro|Run of River:
+   description: Number of units of kind "Run of River"
+   unit: 
+   
+Maximum Active power|Electricity|Hydro|Run of River:
+   description: Maximum active power of one  "Run of River" unit
+   unit: MW
+   
+LoadFactor|Electricity|Hydro|Run of River|Profile:
+   description: Timeserie of hourly loadfactors for  "Run of River"
+   unit: %
+   
+Minimum Active power|Electricity|Hydro|Run of River:
+   description: Minimum active power of one  "Run of River" unit
+   unit: MW
+   
+Inertia|Electricity|Hydro|Reservoir:
+   description: inertia provided to the system by a typical "simple Hydro reservoir " unit 
+   unit: second
+   
+Rate Frequency Containment Reserve|Electricity|Hydro|Reservoir:
+   description: Percentage of the Maximum Active Power that can be devoted to Frequency Containment Reserve
+                for a typical "simple Hydro reservoir " unit
+   unit: %
+   
+Rate Automatic Frequency Restoration Reserve|Electricity|Hydro|Reservoir:
+   description: Percentage of the Maximum Active Power that can be devoted to Automatic Frequency Restoration Reserve
+                for a typical "simple Hydro reservoir " unit 
+   unit: %
+   
+# description of PV power plants
+Number Units|Electricity|Solar:
+   description: Number of units of kind Photovoltaic power plant
+   unit: 
+   
+Maximum Active power|Electricity|Solar:
+   description: Maximum active power of one Photovoltaic power plant
+   unit: MW
+   
+LoadFactor|Electricity|Solar|Profile:
+   description: Timeserie of hourly loadfactors for Photovoltaic power plants
+   unit: %
+   
+Minimum Active power|Electricity|Solar:
+   description: Minimum active power of one Photovoltaic power plant
+   unit: MW
+   
+Inertia|Electricity|Solar:
+   description: inertia provided to the system by a Photovoltaic power plant
+   unit: second
+   
+Rate Frequency Containment Reserve|Electricity|Solar:
+   description: Percentage of the Maximum Active Power that can be devoted to Frequency Containment Reserve
+                for a Photovoltaic power plant
+   unit: %
+   
+Rate Automatic Frequency Restoration Reserve|Electricity|Solar:
+   description: Percentage of the Maximum Active Power that can be devoted to Automatic Frequency Restoration Reserve
+                for a Photovoltaic power plant
+   unit: %
+   
+# description of Wind Onshore power plants
+Number Units|Electricity|Wind|OnShore:
+   description: Number of units of kind Wind Onshore power plant
+   unit: 
+   
+Maximum Active power|Electricity|Wind|OnShore:
+   description: Maximum active power of one Wind Onshore power plant
+   unit: MW
+
+LoadFactor|Electricity|Wind|OnShore|Profile:
+   description: Timeserie of hourly loadfactors for Onshore Windpower
+   unit: %
+   
+Minimum Active power|Electricity|Wind|OnShore:
+   description: Minimum active power of one Wind Onshore power plant
+   unit: MW
+   
+Inertia|Electricity|Wind|OnShore:
+   description: inertia provided to the system by a Wind Onshore power plant
+   unit: second
+   
+Rate Frequency Containment Reserve|Electricity|Wind|OnShore:
+   description: Percentage of the Maximum Active Power that can be devoted to Frequency Containment Reserve
+                for a Wind Onshore power plant
+   unit: %
+   
+Rate Automatic Frequency Restoration Reserve|Electricity|Wind|OnShore:
+   description: Percentage of the Maximum Active Power that can be devoted to Automatic Frequency Restoration Reserve
+                for a Wind Onshore power plant
+   unit: %
+   
+# description of Wind Offshore power plants
+Number Units|Electricity|Wind|OffShore:
+   description: Number of units of kind Wind OffShore power plant
+   unit: 
+   
+Maximum Active power|Electricity|Wind|OffShore:
+   description: Maximum active power of one Wind OffShore power plant
+   unit: MW
+
+LoadFactor|Electricity|Wind|OffShore|Profile:
+   description: Timeserie of hourly loadfactors for Offshore Windpower
+   unit: %
+   
+Minimum Active power|Electricity|Wind|OffShore:
+   description: Minimum active power of one Wind OffShore power plant
+   unit: MW
+   
+Inertia|Electricity|Wind|OffShore:
+   description: inertia provided to the system by a Wind OffShore power plant
+   unit: second
+   
+Rate Frequency Containment Reserve|Electricity|Wind|OffShore:
+   description: Percentage of the Maximum Active Power that can be devoted to Frequency Containment Reserve
+                for a Wind OffShore power plant
+   unit: %
+   
+Rate Automatic Frequency Restoration Reserve|Electricity|Wind|OffShore:
+   description: Percentage of the Maximum Active Power that can be devoted to Automatic Frequency Restoration Reserve
+                for a Wind OffShore power plant
    unit: %
