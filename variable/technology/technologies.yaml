@@ -8,15 +8,63 @@ Capacity|Electricity|Biomass:
    description: Total installed electricity generation capacity of biomass
                 power plants
    unit: GW
+   
+Capacity|Electricity|Biomass|Traditionnal:
+   description: Total installed electricity generation capacity of traditionnal biomass power plant
+                Traditionnal biomass is biomass coming from local and pre-existing 
+                resources mostly waste (domestic and agricultural waste, forest residues). 
+                This biomass is assumed to be cheap but with a limited poten-tial
+   unit: GW
+     
+ Capacity|Electricity|Biomass|New and imported:
+   description: Total installed electricity generation capacity of new biomass power plants 
+                New biomass is biomass coming from dedicated energy crops and biomass imports. 
+                Thus, biomass 2 is assumed to have a very high potential but higher cost.
+   unit: GW
 
 Capacity|Electricity|Coal:
    description: Total installed electricity generation capacity of coal power
                 plants
    unit: GW
 
+Capacity|Electricity|Coal|w/ CCS:
+   description: Total installed electricity generation capacity of coal power
+                plants with CCS
+   unit: GW
+   
+Capacity|Electricity|Coal|w/o CCS:
+   description: Total installed electricity generation capacity of coal power
+                plants without CCS
+   unit: GW
+   
+Capacity|Electricity|Lignite|w/o CCS:
+   description: Total installed electricity generation capacity of Lignite power
+                plants without CCS
+   unit: GW
+
+Capacity|Electricity|Lignite:
+   description: Total installed electricity generation capacity of Lignite power
+                plants
+   unit: GW
+   
 Capacity|Electricity|Gas:
    description: Total installed electricity generation capacity of gas power
                 plants
+   unit: GW
+
+Capacity|Electricity|Gas|OCGT:
+   description: Total installed electricity generation capacity of Open Cycle Gas Turbines
+                plants
+   unit: GW
+
+Capacity|Electricity|Gas|CCGT:
+   description: Total installed electricity generation capacity of Combined Cycle Gas Turbines
+                plants
+   unit: GW
+
+Capacity|Electricity|Gas|CCGT|w/o CCS:
+   description: Total installed electricity generation capacity of Combined Cycle Gas Turbines
+                plants without CCS
    unit: GW
 
 Capacity|Electricity|Geothermal:
@@ -460,3 +508,192 @@ Investment|Energy Supply|Liquids|Oil:
                 capturing equipment should be included but not the one on
                 transport and storage.
    unit: billion US$2010/yr
+
+Maximum Active power|Electricity|Biomass|Traditionnal:
+   description: Maximum active power of one typical Traditionnal Biomass power plant 
+                biomass from local and pre-existing 
+                resources mostly waste :domestic and agricultural waste, forest residues. 
+   unit: MW
+     
+Maximum Active power|Electricity|Biomass|New and imported:
+   description: Maximum active power of one typical new biomass power plant 
+                biomass from dedicated energy crops and biomass imports. 
+   unit: MW
+   
+Maximum Active power|Electricity|Nuclear:
+   description: Maximum active power of one typical nuclear power plant 
+   unit: MW
+   
+Maximum Active power|Electricity|Gas|OCGT:
+   description: Maximum active power of one typical Open Cycle Gas Turbine power plant 
+   unit: MW
+   
+Maximum Active power|Electricity|Gas|Coal:
+   description: Maximum active power of one typical coal power plant 
+   unit: MW
+   
+Maximum Active power|Electricity|Lignite:
+   description: Maximum active power of one typical Lignite power plant 
+   unit: MW
+   
+Minimum Active power|Electricity|Biomass|Traditionnal:
+   description: Minimum active power of one typical Traditionnal Biomass power plant 
+                biomass from local and pre-existing 
+                resources mostly waste :domestic and agricultural waste, forest residues. 
+   unit: MW
+     
+Minimum Active power|Electricity|Biomass|New and imported :
+   description: Minimum active power of one typical new biomass power plant 
+                biomass from dedicated energy crops and biomass imports. 
+   unit: MW
+   
+Minimum Active power|Electricity|Nuclear:
+   description: Minimum active power of one typical nuclear power plant 
+   unit: MW
+   
+Minimum Active power|Electricity|Gas|OCGT:
+   description: Minimum active power of one typical Open Cycle Gas Turbine power plant 
+   unit: MW
+   
+Minimum Active power|Electricity|Gas|Coal:
+   description: Minimum active power of one typical coal power plant 
+   unit: MW
+   
+Minimum Active power|Electricity|Lignite:
+   description: Minimum active power of one typical Lignite power plant 
+   unit: MW
+   
+Minimum On Duration|Electricity|Biomass|Traditionnal:
+   description: Minimum duration that the unit has to stay on when started, for one typical Traditionnal Biomass power plant 
+                biomass from local and pre-existing 
+                resources mostly waste :domestic and agricultural waste, forest residues. 
+   unit: hour
+     
+Minimum On Duration|Electricity|Biomass|New and imported :
+   description: Minimum duration that the unit has to stay on when started, for one typical new biomass power plant 
+                biomass from dedicated energy crops and biomass imports. 
+   unit: hour
+   
+Minimum On Duration|Electricity|Nuclear:
+   description: Minimum duration that the unit has to stay on when started, for one typical nuclear power plant 
+   unit: hour
+   
+Minimum On Duration|Electricity|Gas|OCGT:
+   description: Minimum duration that the unit has to stay on when started, for one typical Open Cycle Gas Turbine power plant 
+   unit: hour
+   
+Minimum On Duration|Electricity|Gas|Coal:
+   description: Minimum duration that the unit has to stay on when started, for one typical coal power plant 
+   unit: hour
+   
+Minimum On Duration|Electricity|Lignite:
+   description: Minimum duration that the unit has to stay on when started, for one typical Lignite power plant 
+   unit: hour
+      
+Minimum Off Duration|Electricity|Biomass|Traditionnal:
+   description: Minimum duration that the unit has to stay off when shut-down, for one typical Traditionnal Biomass power plant 
+                biomass from local and pre-existing 
+                resources mostly waste :domestic and agricultural waste, forest residues. 
+   unit: hour
+     
+Minimum Off Duration|Electricity|Biomass|New and imported :
+   description: Minimum duration that the unit has to stay off when shut-down, for one typical new biomass power plant 
+                biomass from dedicated energy crops and biomass imports. 
+   unit: hour
+   
+Minimum Off Duration|Electricity|Nuclear:
+   description: Minimum duration that the unit has to stay off when shut-down, for one typical nuclear power plant 
+   unit: hour
+   
+Minimum Off Duration|Electricity|Gas|OCGT:
+   description: Minimum duration that the unit has to stay off when shut-down, for one typical Open Cycle Gas Turbine power plant 
+   unit: hour
+   
+Minimum Off Duration|Electricity|Gas|Coal:
+   description: Minimum duration that the unit has to stay off when shut-down, for one typical coal power plant 
+   unit: hour
+   
+Minimum Off Duration|Electricity|Lignite:
+   description: Minimum duration that the unit has to stay off when shut-down, for one typical Lignite power plant 
+   unit: hour
+   
+Forced Outage Rate|Electricity|Biomass|Traditionnal:
+   description: Unavailability Rate due to failures of typical Traditionnal Biomass power plant 
+                biomass from local and pre-existing 
+                resources mostly waste :domestic and agricultural waste, forest residues. 
+   unit: %
+     
+Forced Outage Rate|Electricity|Biomass|New and imported :
+   description: Unavailability Rate due to failures of typical new biomass power plant 
+                biomass from dedicated energy crops and biomass imports. 
+   unit: %
+   
+Forced Outage Rate|Electricity|Nuclear:
+   description: Unavailability Rate due to failures of typical nuclear power plant 
+   unit: %
+   
+Forced Outage Rate|Electricity|Gas|OCGT:
+   description: Unavailability Rate due to failures of typical Open Cycle Gas Turbine power plant 
+   unit: %
+   
+Forced Outage Rate|Electricity|Gas|Coal:
+   description: Unavailability Rate due to failures of typical coal power plant 
+   unit: %
+   
+Forced Outage Rate|Electricity|Lignite:
+   description: Unavailability Rate due to failures of typical Lignite power plant 
+   unit: %
+   
+Planned Outage Rate|Electricity|Biomass|Traditionnal:
+   description: Unavailability Rate due to maintenance of typical Traditionnal Biomass power plant 
+                biomass from local and pre-existing 
+                resources mostly waste :domestic and agricultural waste, forest residues. 
+   unit: %
+     
+Planned Outage Rate|Electricity|Biomass|New and imported :
+   description: Unavailability Rate due to maintenance of typical new biomass power plant 
+                biomass from dedicated energy crops and biomass imports. 
+   unit: %
+   
+Planned Outage Rate|Electricity|Nuclear:
+   description: Unavailability Rate due to maintenance of typical nuclear power plant 
+   unit: %
+   
+Planned Outage Rate|Electricity|Gas|OCGT:
+   description: Unavailability Rate due to maintenance of typical Open Cycle Gas Turbine power plant 
+   unit: %
+   
+Planned Outage Rate|Electricity|Gas|Coal:
+   description: Unavailability Rate due to maintenance of typical coal power plant 
+   unit: %
+   
+Planned Outage Rate|Electricity|Lignite:
+   description: Unavailability Rate due to maintenance of typical Lignite power plant 
+   unit: %
+   
+Mean Outage Duration|Electricity|Biomass|Traditionnal:
+   description: Mean duration of outages for a typical Traditionnal Biomass power plant 
+                biomass from local and pre-existing 
+                resources mostly waste :domestic and agricultural waste, forest residues. 
+   unit: %
+     
+Mean Outage Duration|Electricity|Biomass|New and imported :
+   description: Mean duration of outages for a typical new biomass power plant 
+                biomass from dedicated energy crops and biomass imports. 
+   unit: %
+   
+Mean Outage Duration|Electricity|Nuclear:
+   description: Mean duration of outages for a typical nuclear power plant 
+   unit: %
+   
+Mean Outage Duration|Electricity|Gas|OCGT:
+   description: Mean duration of outages for a typical Open Cycle Gas Turbine power plant 
+   unit: %
+   
+Mean Outage Duration|Electricity|Gas|Coal:
+   description: Mean duration of outages for a typical coal power plant 
+   unit: %
+   
+Mean Outage Duration|Electricity|Lignite:
+   description: Mean duration of outages for a typical Lignite power plant 
+   unit: %
