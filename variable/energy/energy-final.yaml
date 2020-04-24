@@ -1,275 +1,471 @@
 # List of variables related to energy
+# sector describe the end-users (who uses the energy) ; 
+#        can be industrials, commercial, residential
+# energy use describe the uses of energy (what is used that energy for); 
+#        can be transportation, heating, cooling, industrial process, losses, other 
+# energy source describe the source of energy (which energy is used); 
+#        as we are describing final energy, it can be electricity, fossil, liquid, solid, coal, biomass, solar...
+#        meaning eg coal directly burnt for heating 
+#        uses of 'energy sources' for producing electricity are not accounted here
 
 Final Energy:
    description: Total final energy consumption by all end-use sectors and all
                 fuels, excluding transmission/distribution losses
+   sector: all end-users
+   energy use: all excl. losses
+   energy source: all   
    unit: EJ/yr
 
 Final Energy|Electricity:
    description: Final energy consumption of electricity (including on-site
                 solar pv), excluding transmission/distribution losses
+   energy source: electricity
+   sector: all end-users
+   energy use: all excl. losses
    unit: EJ/yr
 
 Final Energy|Fossil:
    description: Final energy consumption from fossil fuels
+   energy source: fossil fuels
+   sector: all end-users
+   energy use: all excl. losses
    unit: EJ/yr
 
 Final Energy|Gases:
    description: Final energy consumption of gases (natural gas, biogas,
-                coal-gas), excluding transmission/distribution losses
+                coal-gas), excluding transmission/distribution losses    
+   energy source: all gases 
+   sector: all end-users
+   energy use: all excl. losses
    unit: EJ/yr
 
 Final Energy|Geothermal:
    description: Final energy consumption of geothermal energy (e.g., from
                 decentralized or small-scale geothermal heating systems)
                 excluding geothermal heat pumps
+   energy source: geothermal 
+   sector: all end-users
+   energy use: heating
    unit: EJ/yr
 
 Final Energy|Heat:
-   description: Final energy consumption of heat (e.g., district heat, process
+   description: inal energy consumption of heat (e.g., district heat, process
                 heat, warm water), excluding transmission/distribution losses,
                 excluding direct geothermal and solar heating
+   energy source: all 
+   sector: all end-users
+   energy use: heating
    unit: EJ/yr
 
 Final Energy|Hydrogen:
    description: Final energy consumption of hydrogen, excluding
                 transmission/distribution losses
+   energy source: hydrogen 
+   sector: all end-users
+   energy use: all excl. losses             
    unit: EJ/yr
 
 Final Energy|Industry:
    description: Final energy consumed by the industrial sector, including
                 feedstocks, including agriculture and fishing
+   energy source: all 
+   sector: industry
+   energy use: all excl. losses                 
    unit: EJ/yr
 
 Final Energy|Industry|Electricity:
    description: Final energy consumption by the industrial sector of
                 electricity (including on-site solar pv), excluding
                 transmission/distribution losses
+   energy source: electricity 
+   sector: industry
+   energy use: all excl. losses                 
    unit: EJ/yr
 
 Final Energy|Industry|Fossil:
    description: Final energy consumption by the industrial sector of fossil
                 fuels
+   energy source: fossil fuels 
+   sector: industry
+   energy use: all excl. losses              
    unit: EJ/yr
 
 Final Energy|Industry|Gases:
    description: Final energy consumption by the industrial sector of gases
                 (natural gas, biogas, coal-gas), excluding
                 transmission/distribution losses
+   energy source: all gases
+   sector: industry
+   energy use: all excl. losses              
    unit: EJ/yr
 
 Final Energy|Industry|Geothermal:
    description: Final energy consumption by the industrial sector of geothermal
                 energy
+   energy source: geothermal
+   sector: industry
+   energy use: all excl. losses              
    unit: EJ/yr
 
 Final Energy|Industry|Heat:
    description: Final energy consumption by the industrial sector of heat
                 (e.g., district heat, process heat, solar heating and warm
-                water), excluding transmission/distribution losses
+                water), excluding transmission/distribution losses   
+   energy source: all
+   sector: industry
+   energy use: heating             
    unit: EJ/yr
 
 Final Energy|Industry|Hydrogen:
-   description: Final energy consumption by the industrial sector of hydrogen
+   description: consumption of hydrogen by the industrial sector 
+   energy source: hydrogen
+   sector: industry
+   energy use: all excl. losses                   
    unit: EJ/yr
-
+   
 Final Energy|Industry|Liquids:
-   description: Final energy consumption by the industrial sector of refined
-                liquids (conventional & unconventional oil, biofuels,
-                coal-to-liquids, gas-to-liquids)
+   description: consumption of refined liquids (conventional & unconventional oil, biofuels,
+                coal-to-liquids, gas-to-liquids)by the industrial sector 
+   energy source: liquids
+   sector: industry
+   energy use: all excl. losses                   
    unit: EJ/yr
 
 Final Energy|Industry|Other:
    description: Final energy consumption by the industrial sector of other
                 sources that do not fit to any other category
+   energy source: all, excl. electricity, fossil fuels, solids, liquids, gases, hydrogen, geothermal, solar
+   sector: industry
+   energy use: all excl. losses                   
    unit: EJ/yr
 
 Final Energy|Industry|Solar:
    description: Final energy consumption by the industrial sector of solar
                 energy
+   energy source: solar
+   sector: industry
+   energy use: all excl. losses                   
    unit: EJ/yr
 
 Final Energy|Industry|Solids:
-   description: Final energy solid fuel consumption by the industrial sector
-                (including coal and solid biomass)
-   unit: EJ/yr
+   description: Final energy solid fuel consumption, excluding transmission/distribution losses
+   energy source: solids, incl. coal, biomass
+   sector: industry
+   energy use: all excl. losses                   
+   unit: EJ/yr            
 
 Final Energy|Industry|Solids|Biomass:
    description: Final energy consumption by the industry sector of solid
                 biomass
-   unit: EJ/yr
+   energy source: solid biomass
+   sector: industry
+   energy use: all excl. losses                   
+   unit: EJ/yr     
 
 Final Energy|Industry|Solids|Coal:
    description: Final energy consumption by the industry sector of coal
-   unit: EJ/yr
+   energy source: coal
+   sector: industry
+   energy use: all excl. losses                   
+   unit: EJ/yr     
 
 Final Energy|Liquids:
    description: Final energy consumption of refined liquids (conventional &
                 unconventional oil, biofuels, coal-to-liquids, gas-to-liquids)
-   unit: EJ/yr
+   energy source: liquids
+   sector: all
+   energy use: all excl. losses                   
+   unit: EJ/yr   
 
 Final Energy|Non-Energy Use:
    description: Final energy consumption by the non-combustion processes
-   unit: EJ/yr
+   energy source: all
+   sector: all
+   energy use: none                  
+   unit: EJ/yr 
 
 Final Energy|Non-Energy Use|Biomass:
    description: Final energy consumption of biomass by the non-combustion
                 processes
-   unit: EJ/yr
+   energy source: biomass
+   sector: all
+   energy use: none                  
+   unit: EJ/yr 
 
 Final Energy|Non-Energy Use|Coal:
    description: Final energy consumption of coal by the non-combustion
                 processes
-   unit: EJ/yr
+   energy source: coal
+   sector: all
+   energy use: none                  
+   unit: EJ/yr 
 
 Final Energy|Non-Energy Use|Fossil:
    description: Final energy consumption of fossil fuels by the non-combustion
                 processes
-   unit: EJ/yr
+   energy source: fossil
+   sector: all
+   energy use: none                  
+   unit: EJ/yr 
 
 Final Energy|Non-Energy Use|Gas:
    description: Final energy consumption of gas by the non-combustion processes
-   unit: EJ/yr
+   energy source: gases
+   sector: all
+   energy use: none                  
+   unit: EJ/yr 
 
 Final Energy|Non-Energy Use|Oil:
    description: Final energy consumption of oil by the non-combustion processes
-   unit: EJ/yr
+   energy source: oil
+   sector: all
+   energy use: none                  
+   unit: EJ/yr 
 
 Final Energy|Residential and Commercial:
    description: Final energy consumed in the residential & commercial sector
-   unit: EJ/yr
+   energy source: all
+   sector: Residential and Commercial
+   energy use: all excl. losses                  
+   unit: EJ/yr 
 
 Final Energy|Residential and Commercial|Electricity:
    description: Final energy consumption by the residential & commercial sector
                 of electricity (including on-site solar pv), excluding
                 transmission/distribution losses
-   unit: EJ/yr
+   energy source: electricity
+   sector: Residential and Commercial
+   energy use: all excl. losses                  
+   unit: EJ/yr 
 
 Final Energy|Residential and Commercial|Fossil:
    description: Final energy consumption by the residential & commercial sector
                 of fossil fuels
-   unit: EJ/yr
+   energy source: fossil
+   sector: Residential and Commercial
+   energy use: all excl. losses                  
+   unit: EJ/yr 
 
 Final Energy|Residential and Commercial|Gases:
    description: Final energy consumption by the residential & commercial sector
                 of gases (natural gas, biogas, coal-gas), excluding
                 transmission/distribution losses
-   unit: EJ/yr
+   energy source: gases
+   sector: Residential and Commercial
+   energy use: all excl. losses                  
+   unit: EJ/yr 
 
 Final Energy|Residential and Commercial|Geothermal:
    description: Final energy consumption by the residential & commercial sector
                 of geothermal energy
-   unit: EJ/yr
+   energy source: geothermal
+   sector: Residential and Commercial
+   energy use: all excl. losses                  
+   unit: EJ/yr 
 
 Final Energy|Residential and Commercial|Heat:
    description: Final energy consumption by the residential & commercial sector
                 of heat (e.g., district heat, process heat, solar heating and
                 warm water), excluding transmission/distribution losses
-   unit: EJ/yr
+   energy source: all
+   sector: Residential and Commercial
+   energy use: heating                
+   unit: EJ/yr 
 
 Final Energy|Residential and Commercial|Hydrogen:
    description: Final energy consumption by the residential & commercial sector
                 of hydrogen
-   unit: EJ/yr
+   energy source: hydrogen
+   sector: Residential and Commercial
+   energy use: all excl. losses                  
+   unit: EJ/yr 
 
 Final Energy|Residential and Commercial|Liquids:
    description: Final energy consumption by the residential & commercial sector
                 of refined liquids (conventional & unconventional oil,
                 biofuels, coal-to-liquids, gas-to-liquids)
-   unit: EJ/yr
+   energy source: liquids
+   sector: Residential and Commercial
+   energy use: all excl. losses                  
+   unit: EJ/yr 
 
 Final Energy|Residential and Commercial|Other:
    description: Final energy consumption by the residential & commercial sector
                 of other sources that do not fit to any other category
-   unit: EJ/yr
+   energy source: all, excl. electricity, fossil fuels, solids, liquids, gases, hydrogen, geothermal, solar
+   sector: Residential and Commercial
+   energy use: all excl. losses                  
+   unit: EJ/yr 
 
 Final Energy|Residential and Commercial|Solar:
    description: Final energy consumption by the residential & commercial sector
                 of solar energy
-   unit: EJ/yr
+   energy source: solar
+   sector: Residential and Commercial
+   energy use: all excl. losses                  
+   unit: EJ/yr 
 
 Final Energy|Residential and Commercial|Solids:
    description: Final energy solid fuel consumption by the residential &
                 commercial sector (including coal and solid biomass)
-   unit: EJ/yr
+   energy source: solids
+   sector: Residential and Commercial
+   energy use: all excl. losses                  
+   unit: EJ/yr 
 
 Final Energy|Residential and Commercial|Solids|Biomass:
    description: Final energy consumption by the residential & commercial sector
                 of solid biomass (modern and traditional)
-   unit: EJ/yr
+   energy source: biomass
+   sector: Residential and Commercial
+   energy use: all excl. losses                  
+   unit: EJ/yr 
 
 Final Energy|Residential and Commercial|Solids|Coal:
    description: Final energy coal consumption by the residential & commercial
                 sector
-   unit: EJ/yr
+   energy source: coal
+   sector: Residential and Commercial
+   energy use: all excl. losses                  
+   unit: EJ/yr 
 
 Final Energy|Solar:
    description: Final energy consumption of solar energy (e.g., from roof-top
                 solar hot water collector systems)
-   unit: EJ/yr
-
+   energy source: solar
+   sector: all
+   energy use: all excl. losses                  
+   unit: EJ/yr 
+   
 Final Energy|Solids:
    description: Final energy solid fuel consumption (including coal and solid
                 biomass)
-   unit: EJ/yr
+   energy source: solids
+   sector: all
+   energy use: all excl. losses                  
+   unit: EJ/yr 
 
 Final Energy|Solids|Biomass:
    description: Final energy consumption of solid biomass (modern and
                 traditional), excluding final energy consumption of bioliquids
                 which are reported in the liquids category
-   unit: EJ/yr
-
+   energy source: biomass
+   sector: all
+   energy use: all excl. losses                  
+   unit: EJ/yr 
+   
 Final Energy|Solids|Biomass|Traditional:
    description: Final energy consumption of traditional biomass
-   unit: EJ/yr
-
+   energy source: traditional biomass
+   sector: all
+   energy use: all excl. losses                  
+   unit: EJ/yr 
+   
 Final Energy|Solids|Coal:
    description: Final energy coal consumption
-   unit: EJ/yr
-
+   energy source: coal
+   sector: all
+   energy use: all excl. losses                  
+   unit: EJ/yr 
+   
 Final Energy|Transportation:
    description: Final energy consumed in the transportation sector, including
                 bunker fuels, excluding pipelines
-   unit: EJ/yr
-
+   energy source: all
+   sector: all
+   energy use: transportation                  
+   unit: EJ/yr 
+   
 Final Energy|Transportation|Electricity:
    description: Final energy consumption by the transportation sector of
                 electricity (including on-site solar pv), excluding
                 transmission/distribution losses
-   unit: EJ/yr
-
+   energy source: electricity
+   sector: all
+   energy use: transportation               
+   unit: EJ/yr 
+   
 Final Energy|Transportation|Fossil:
    description: Final energy consumption by the transportation sector of fossil
                 fuels
-   unit: EJ/yr
+   energy source: fossil
+   sector: all
+   energy use: freight transportation               
+   unit: EJ/yr 
 
 Final Energy|Transportation|Freight:
    description: Final energy consumed for freight transportation
-   unit: EJ/yr
+   energy source: all
+   sector: all
+   energy use: freight transportation               
+   unit: EJ/yr 
 
 Final Energy|Transportation|Gases:
    description: Final energy consumption by the transportation sector of gases
                 (natural gas, biogas, coal-gas), excluding
                 transmission/distribution losses
-   unit: EJ/yr
+   energy source: gases
+   sector: all
+   energy use: transportation               
+   unit: EJ/yr 
 
 Final Energy|Transportation|Hydrogen:
    description: Final energy consumption by the transportation sector of
                 hydrogen
+   energy source: hydrogen
+   sector: all
+   energy use: transportation               
    unit: EJ/yr
 
 Final Energy|Transportation|Liquids:
    description: Final energy consumption by the transportation sector of
                 refined liquids (conventional & unconventional oil, biofuels,
                 coal-to-liquids, gas-to-liquids)
+   energy source: liquids
+   sector: all
+   energy use: transportation               
    unit: EJ/yr
 
 Final Energy|Transportation|Liquids|Biomass:
    description: Final energy consumption by the transportation sector of liquid
                 biofuels
+   energy source: biofuels
+   sector: all
+   energy use: transportation               
    unit: EJ/yr
 
 Final Energy|Transportation|Liquids|Oil:
    description: Final energy consumption by the transportation sector of liquid
                 oil products (from conventional & unconventional oil)
+   energy source: oil
+   sector: all
+   energy use: transportation               
    unit: EJ/yr
+
+Final Energy|Electricity|Cooling:
+   description: Final electricity consumption for cooling, 
+   energy source: electricity
+   sector: all
+   energy use: cooling               
+   unit: GWh/yr
+   
+Final Energy|Electricity|Heat:
+   description: Final electricity consumption for heating, 
+   energy source: electricity
+   sector: all
+   energy use: heating               
+   unit: GWh/yr
+   
+ Final Energy|Electricity|Transportation:
+   description: Final electricity consumption for electric-transport(including e-cars, e-trucks), 
+   energy source: electricity
+   sector: all
+   energy use: transportation               
+   unit: GWh/yr
+  
+ Final Energy|Electricity|Other (excl. Heat, Cooling, Transport):
+   description: Final electricity consumption for non heating, non cooling, non e-transport uses, 
+   energy source: electricity
+   sector: all
+   energy use: all excl.heating, cooling, transportation               
+   unit: GWh/yr

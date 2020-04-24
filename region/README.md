@@ -74,7 +74,6 @@ iso2_mapping = dict(
 One set of disaggregation of countries follows the 
 [NUTS 2021 classification](https://ec.europa.eu/eurostat/web/nuts/background)
 used by Eurostat.
-
  - Major socio-economic regions: [nuts1.yaml](nuts1.yaml)
  - Basic regions for the application of regional policies: [nuts2.yaml](nuts2.yaml)
  - Small regions for specific diagnoses: [nuts3.yaml](nuts3.yaml)
@@ -129,8 +128,7 @@ for n3, mapping in nuts3_codelist.items():
 ```
 
 ### Other sub-country area classification
-
-*To be added at a later stage*
+=======
 
 Other sub-country disaggregations, provided that they can be described as aggregations of NUTS1,2 or 3 regions, example:
 - ehighway2050 clusters : we have a definition of each cluster as an aggregation of a list of NUTS3 regions
