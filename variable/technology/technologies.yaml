@@ -525,30 +525,30 @@ Investment|Energy Supply|Liquids|Oil:
 
 # description of thermal power plants 
 
-Number Units|Electricity|Biomass|Traditional:
-   description: Number of units of kind "Traditionnal Biomass power plant "
+Number of Units|Electricity|Biomass|Traditional:
+   description: number of units of kind "Traditionnal Biomass power plant "
                 biomass from local and pre-existing 
                 resources mostly waste :domestic and agricultural waste, forest residues. 
    unit: 
      
-Number Units|Electricity|Biomass|New and imported:
+Number of Units|Electricity|Biomass|New and imported:
    description: Number of units of kind "new biomass power plant "
                 biomass from dedicated energy crops and biomass imports. 
    unit: 
    
-Number Units|Electricity|Nuclear:
+Number of Units|Electricity|Nuclear:
    description: Number of units of kind "nuclear power plant "
    unit: 
    
-Number Units|Electricity|Gas|OCGT:
+Number of Units|Electricity|Gas|OCGT:
    description: Number of units of kind "Open Cycle Gas Turbine power plant" 
    unit: 
    
-Number Units|Electricity|Gas|Coal:
+Number of Units|Electricity|Gas|Coal:
    description: Number of units of kind "coal power plant "
    unit: 
    
-Number Units|Electricity|Lignite:
+Number of Units|Electricity|Lignite:
    description: Number of units of kind "Lignite power plant "
    unit: 
 Maximum Active power|Electricity|Biomass|Traditionnal:
@@ -889,7 +889,7 @@ Rate Automatic Frequency Restoration Reserve|Electricity|Lignite:
 
 # description of simple hydrosystems - reservoir hydro
 # this describes systems composed of one reservoir and one plant (with potential pumping capacity) that are used for seasonal storage
-Number Units|Electricity|Hydro|Reservoir:
+Number of Units|Electricity|Hydro|Reservoir:
    description: Number of units of kind "simple Hydro reservoir "
    unit: 
    
@@ -927,7 +927,7 @@ Inflows|Electricity|Hydro|Reservoir|Profile:
    
 # description of simple hydrosystems -  pumped storage
 # this describes systems composed of one small reservoir and one plant with  pumping capacity that are used for short-term storage (eg week or day)
-Number Units|Electricity|Hydro|Pumped Storage:
+Number of Units|Electricity|Hydro|Pumped Storage:
    description: Number of units of kind "Pumped Storage "
    unit: 
    
@@ -967,7 +967,7 @@ Rate Automatic Frequency Restoration Reserve|Electricity|Hydro|Reservoir:
 
 # description of simple hydrosystems -  run of river
 # this describes systems composed of one run of river plant (without storage)
-Number Units|Electricity|Hydro|Run of River:
+Number of Units|Electricity|Hydro|Run of River:
    description: Number of units of kind "Run of River"
    unit: 
    
@@ -998,7 +998,7 @@ Rate Automatic Frequency Restoration Reserve|Electricity|Hydro|Reservoir:
    unit: %
    
 # description of PV power plants
-Number Units|Electricity|Solar:
+Number of Units|Electricity|Solar:
    description: Number of units of kind Photovoltaic power plant
    unit: 
    
@@ -1029,7 +1029,7 @@ Rate Automatic Frequency Restoration Reserve|Electricity|Solar:
    unit: %
    
 # description of Wind Onshore power plants
-Number Units|Electricity|Wind|OnShore:
+Number of Units|Electricity|Wind|OnShore:
    description: Number of units of kind Wind Onshore power plant
    unit: 
    
@@ -1060,7 +1060,7 @@ Rate Automatic Frequency Restoration Reserve|Electricity|Wind|OnShore:
    unit: %
    
 # description of Wind Offshore power plants
-Number Units|Electricity|Wind|OffShore:
+Number of Units|Electricity|Wind|OffShore:
    description: Number of units of kind Wind OffShore power plant
    unit: 
    
