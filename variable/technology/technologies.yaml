@@ -525,7 +525,7 @@ Investment|Energy Supply|Liquids|Oil:
 
 # description of thermal power plants 
 
-Number Units|Electricity|Biomass|Traditionnal:
+Number Units|Electricity|Biomass|Traditional:
    description: Number of units of kind "Traditionnal Biomass power plant "
                 biomass from local and pre-existing 
                 resources mostly waste :domestic and agricultural waste, forest residues. 
