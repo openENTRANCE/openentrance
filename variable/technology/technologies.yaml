@@ -87,7 +87,7 @@ Capacity|Electricity|Hydro|Pumped Storage:
                 pumped storage
    unit: GW
    
-Capacity|Electricity|Hydro|Run of River:
+Capacity|Electricity|Hydro|Run-of-River:
    description: Total installed electricity generation capacity of run-of-river hydro power plants 
    unit: GW
    
