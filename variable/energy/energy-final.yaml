@@ -275,36 +275,41 @@ Final Energy|Transportation|Liquids|Oil:
    unit: EJ/yr
 
 Final Energy|Electricity|Profile:
-   description: Time series of Final electricity consumption, 
+   description: Time series of Final electricity consumption profiles. Those profiles, if hourly, when multiplied by a yearly energy 
+   give hourly energy.
    energy source: electricity
    sector: all
    energy use: cooling               
-   unit: MWh
+   unit: %
 
 Final Energy|Electricity|Cooling|Profile:
-   description: Time series of Final electricity consumption for cooling, 
+   description: Time series of Final electricity consumption for cooling. Those profiles, if hourly, when multiplied by a yearly energy 
+   give hourly energy.
    energy source: electricity
    sector: all
    energy use: cooling               
-   unit: MWh
+   unit: %
    
 Final Energy|Electricity|Heat|Profile:
-   description: Time series of Final electricity consumption for heating, 
+   description: Time series of Final electricity consumption for heating. Those profiles, if hourly, when multiplied by a yearly energy 
+   give hourly energy. 
    energy source: electricity
    sector: all
    energy use: heating               
-   unit: MWh
+   unit: %
    
  Final Energy|Electricity|Transportation|Profile:
-   description: Time series of Final electricity consumption for electric-transport(including e-cars, e-trucks), 
+   description: Time series of Final electricity consumption for electric-transport(including e-cars, e-trucks). Those profiles, 
+   if hourly, when multiplied by a yearly energy give hourly energy. 
    energy source: electricity
    sector: all
    energy use: transportation               
-   unit: MWh
+   unit: %
   
  Final Energy|Electricity|Other (excl. Heat, Cooling, Transport)|Profile:
-   description: Time series of Final electricity consumption for non heating, non cooling, non e-transport uses, 
+   description: Time series of Final electricity consumption for non heating, non cooling, non e-transport uses. Those profiles, 
+   if hourly, when multiplied by a yearly energy give hourly energy. 
    energy source: electricity
    sector: all
    energy use: all excl.heating, cooling, transportation               
-   unit: MWh
+   unit: %
