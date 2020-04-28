@@ -31,8 +31,9 @@ See [energy-secondary.yaml](energy-secondary.yaml) for the full codelist.
 ## Final Energy
 
 This group includes any fuel or energy carrier at the point of consumption.
-The sub-categories of this group can be separated into a by-dimension
-and a by-sector dimension.
+The sub-categories of this group can be separated into a by-source (eg type of fuel), 
+a by-sector dimension (sector= users, eg industry, commercial, residential) 
+and a by-uses dimension (uses=transportation, heating, industrial process...)
 
 The hierarchy of variables in this group should follow this style:
 
