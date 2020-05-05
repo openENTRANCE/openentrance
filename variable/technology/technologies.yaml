@@ -248,6 +248,30 @@ Capital Cost|Liquids|Oil:
    description: Capital cost of a new oil refining plant
    unit: US$2010/kW
 
+Constant Variable Cost|Electricity|Coal:
+   description: Constant term (intercept) of the heat rate straight line. Cost of the power generation unit who belongs to the specified power
+                plant category.
+   unit: Mcal/h
+
+Constant Variable Cost|Electricity|Gas:
+   description: Constant term (intercept) of the heat rate straight line. Cost of the power generation unit who belongs to the specified power
+                plant category.
+   unit: Mcal/h
+
+Constant Variable Cost|Electricity|Nuclear:
+   description: Constant term (intercept) of the heat rate straight line. Cost of the power generation unit who belongs to the specified power
+                plant category.
+   unit: Mcal/h
+
+Constant Variable Cost|Electricity|Oil:
+   description: Constant term (intercept) of the heat rate straight line. Cost of the power generation unit who belongs to the specified power
+                plant category.
+   unit: Mcal/h
+
+Energy Charge|Electricity|Energy Storage System:
+   description: Energy charge by ESS for each load level
+   unit:  TWh
+
 Energy Not Serve Cost|Electricity:
    description: Cost of energy not served. Cost of load curtailment. Value of Lost Load (VoLL)
    unit:  €/MWh
@@ -255,6 +279,30 @@ Energy Not Serve Cost|Electricity:
 Energy Not Serve|Electricity:
    description: Energy not served by node
    unit:  GWh
+
+Fuel Cost|Electricity|Coal:
+   description: Fuel cost of the power generation unit who belongs to the specified power
+                plant category.
+   unit: €/Mcal
+
+Fuel Cost|Electricity|Gas:
+   description: Fuel cost of the power generation unit who belongs to the specified power
+                plant category.
+   unit: €/Mcal
+
+Fuel Cost|Electricity|Nuclear:
+   description: Fuel cost of the power generation unit who belongs to the specified power
+                plant category.
+   unit: €/Mcal
+
+Fuel Cost|Electricity|Oil:
+   description: Fuel cost of the power generation unit who belongs to the specified power
+                plant category.
+   unit: €/Mcal
+
+Initial Storage|Electricity|Energy Storage System:
+   description: Initial energy stored in the energy storage system (ESS that includes hydro, battery, etc.) unit.
+   unit: TWh
 
 Investment|Energy Efficiency:
    description: Investments into the efficiency-increasing components of energy
@@ -1098,11 +1146,297 @@ Rate Automatic Frequency Restoration Reserve|Electricity|Wind|OffShore:
                 for a Wind OffShore power plant
    unit: %
 
+Linear Variable Cost|Electricity|Coal:
+   description: Linear term (slope) of the heat rate straight line. Cost of the power generation unit who belongs to the specified power
+                plant category.
+   unit: Mcal/GWh
+
+Linear Variable Cost|Electricity|Gas:
+   description: Linear term (slope) of the heat rate straight line. Cost of the power generation unit who belongs to the specified power
+                plant category.
+   unit: Mcal/GWh
+
+Linear Variable Cost|Electricity|Nuclear:
+   description: Linear term (slope) of the heat rate straight line. Cost of the power generation unit who belongs to the specified power
+                plant category.
+   unit: Mcal/GWh
+
+Linear Variable Cost|Electricity|Oil:
+   description: Linear term (slope) of the heat rate straight line. Cost of the power generation unit who belongs to the specified power
+                plant category.
+   unit: Mcal/GWh
+
+Maximum Charge|Electricity|Energy Storage System:
+   description: Maximum charge when storing energy the energy storage system unit.
+   unit: MW
+
+Maximum Storage|Electricity|Energy Storage System:
+   description: Maximum energy that can be stored by the energy storage system unit.
+   unit: TWh
+
+Minimum Storage|Electricity|Energy Storage System:
+   description: Minimum energy that can be stored by the energy storage system unit.
+   unit: TWh
+
+Minimum Down Time|Electricity:
+   description: Minimum downtime of the power generation unit.
+   unit: h
+
+Minimum Down Time|Electricity|Coal:
+   description: Minimum downtime of the power generation unit who belongs to the specified power
+                plant category.
+   unit: h
+
+Minimum Down Time|Electricity|Gas:
+   description: Minimum downtime of the power generation unit who belongs to the specified power
+                plant category.
+   unit: h
+
+Minimum Down Time|Electricity|Nuclear:
+   description: Minimum downtime of the power generation unit who belongs to the specified power
+                plant category.
+   unit: h
+
+Minimum Down Time|Electricity|Oil:
+   description: Minimum downtime of the power generation unit who belongs to the specified power
+                plant category.
+   unit: h
+
+Minimum Up Time|Electricity:
+   description: Minimum uptime of the power generation unit.
+   unit: h
+
+Minimum Up Time|Electricity|Coal:
+   description: Minimum uptime of the power generation unit who belongs to the specified power
+                plant category.
+   unit: h
+
+Minimum Up Time|Electricity|Gas:
+   description: Minimum uptime of the power generation unit who belongs to the specified power
+                plant category.
+   unit: h
+
+Minimum Up Time|Electricity|Nuclear:
+   description: Minimum uptime of the power generation unit who belongs to the specified power
+                plant category.
+   unit: h
+
+Minimum Up Time|Electricity|Oil:
+   description: Minimum uptime of the power generation unit who belongs to the specified power
+                plant category.
+   unit: h
+
+Minimum Up Time|Electricity|Gas:
+   description: Minimum uptime of the power generation unit who belongs to the specified power
+                plant category.
+   unit: h
+
+Minimum Up Time|Electricity|Nuclear:
+   description: Minimum uptime of the power generation unit who belongs to the specified power
+                plant category.
+   unit: h
+
+Minimum Up Time|Electricity|Oil:
+   description: Minimum uptime of the power generation unit who belongs to the specified power
+                plant category.
+   unit: h
+
+Operating Reserve Down|Electricity:
+   description: Operating reserve down of the system for each load level
+   unit: GW
+
+Operating Reserve Down|Electricity|Coal:
+   description: Operating reserve down of a power generation unit who belongs to the specified power
+                plant category
+   unit: TWh
+
+Operating Reserve Down|Electricity|Gas:
+   description: Operating reserve down of a power generation unit who belongs to the specified power
+                plant category
+   unit: TWh
+
+Operating Reserve Down|Electricity|Nuclear:
+   description: Operating reserve down of a power generation unit who belongs to the specified power
+                plant category
+   unit: TWh
+
+Operating Reserve Down|Electricity|Oil:
+   description: Operating reserve down of a power generation unit who belongs to the specified power
+                plant category
+   unit: TWh
+
 Operating Reserve Up|Electricity:
    description: Operating reserve up of the system in each load level
    unit: GW
 
-Operating Reserve Down|Electricity:
-   description: Operating reserve up of the system in each load level
+Operating Reserve Up|Electricity|Coal:
+   description: Operating reserve up of a power generation unit who belongs to the specified power
+                plant category
+   unit: TWh
+
+Operating Reserve Up|Electricity|Gas:
+   description: Operating reserve up of a power generation unit who belongs to the specified power
+                plant category
+   unit: TWh
+
+Operating Reserve Up|Electricity|Nuclear:
+   description: Operating reserve up of a power generation unit who belongs to the specified power
+                plant category
+   unit: TWh
+
+Operating Reserve Up|Electricity|Oil:
+   description: Operating reserve up of a power generation unit who belongs to the specified power
+                plant category
+   unit: TWh
+
+Operation and Maintenance Variable Cost|Electricity|Coal:
+   description: Operation and maintenance cost of the power generation unit who belongs to the specified power
+                plant category.
+   unit: €/MWh
+
+Operation and Maintenance Variable Cost|Electricity|Gas:
+   description: Operation and maintenance cost of the power generation unit who belongs to the specified power
+                plant category.
+   unit: €/MWh
+
+Operation and Maintenance Variable Cost|Electricity|Nuclear:
+   description: Operation and maintenance cost of the power generation unit who belongs to the specified power
+                plant category.
+   unit: €/MWh
+
+Operation and Maintenance Variable Cost|Electricity|Oil:
+   description: Operation and maintenance cost of the power generation unit who belongs to the specified power
+                plant category.
+   unit: €/MWh
+
+Output Energy of the Second Block|Electricity|Coal:
+   description: Generator output of the second block (i.e., above the minimum load)
    unit: GW
 
+Output Energy of the Second Block|Electricity|Energy System Storage:
+   description: Generator output of the second block (i.e., above the minimum load)
+   unit: GW
+
+Output Energy of the Second Block|Electricity|Gas:
+   description: Generator output of the second block (i.e., above the minimum load)
+   unit: GW
+
+Output Energy of the Second Block|Electricity|Hydro:
+   description: Generator output of the second block (i.e., above the minimum load)
+   unit: GW
+
+Output Energy of the Second Block|Electricity|Nuclear:
+   description: Generator output of the second block (i.e., above the minimum load)
+   unit: GW
+
+Output Energy of the Second Block|Electricity|Oil:
+   description: Generator output of the second block (i.e., above the minimum load)
+   unit: GW
+
+Output Energy of the Second Block|Electricity|Wind:
+   description: Generator output of the second block (i.e., above the minimum load)
+   unit: GW
+
+Output Energy of the Second Block|Electricity|Solar:
+   description: Generator output of the second block (i.e., above the minimum load)
+   unit: GW
+
+Ramp Up|Electricity:
+   description: Upward ramp limit of the power generation unit
+   unit: GW/h
+
+Ramp Up|Electricity|Coal:
+   description: Upward ramp limit of the power generation unit who belongs to the specified power
+                plant category.
+   unit: GW/h
+
+Ramp Up|Electricity|Gas:
+   description: Upward ramp limit of the power generation unit who belongs to the specified power
+                plant category.
+   unit: GW/h
+
+Ramp Up|Electricity|Nuclear:
+   description: Upward ramp limit of the power generation unit who belongs to the specified power
+                plant category.
+   unit: GW/h
+
+Ramp Up|Electricity|Oil:
+   description: Upward ramp limit of the power generation unit who belongs to the specified power
+                plant category.
+   unit: GW/h
+
+Ramp Down|Electricity:
+   description: Downward ramp limit of the power generation unit
+   unit: GW/h
+
+Ramp Down|Electricity|Coal:
+   description: Downward ramp limit of the power generation unit who belongs to the specified power
+                plant category.
+   unit: GW/h
+
+Ramp Down|Electricity|Gas:
+   description: Downward ramp limit of the power generation unit who belongs to the specified power
+                plant category.
+   unit: GW/h
+
+Ramp Down|Electricity|Nuclear:
+   description: Downward ramp limit of the power generation unit who belongs to the specified power
+                plant category.
+   unit: GW/h
+
+Ramp Down|Electricity|Oil:
+   description: Downward ramp limit of the power generation unit who belongs to the specified power
+                plant category.
+   unit: GW/h
+
+Shut Down Cost|Electricity|Coal:
+   description: Shutdown heat cost per power generation unit who belongs to the specified power
+                plant category.
+   unit: Mcal
+
+Shut Down Cost|Electricity|Gas:
+   description: Shutdown heat cost per power generation unit who belongs to the specified power
+                plant category.
+   unit: Mcal
+
+Shut Down Cost|Electricity|Nuclear:
+   description: Shutdown heat cost per power generation unit who belongs to the specified power
+                plant category.
+   unit: Mcal
+
+Shut Down Cost|Electricity|Oil:
+   description: Shutdown heat cost per power generation unit who belongs to the specified power
+                plant category.
+   unit: Mcal
+
+Spillage|Electricity|Energy Storage System:
+   description: Energy spillage by ESS
+   unit:  TWh
+
+Start Up Cost|Electricity|Coal:
+   description: Startup heat cost per power generation unit who belongs to the specified power
+                plant category.
+   unit: Mcal
+
+Start Up Cost|Electricity|Gas:
+   description: Startup heat cost per power generation unit who belongs to the specified power
+                plant category.
+   unit: Mcal
+
+Start Up Cost|Electricity|Nuclear:
+   description: Startup heat cost per power generation unit who belongs to the specified power
+                plant category.
+   unit: Mcal
+
+Start Up Cost|Electricity|Oil:
+   description: Startup heat cost per power generation unit who belongs to the specified power
+                plant category.
+   unit: Mcal
+
+Storage Type|Electricity|Energy Storage System:
+   description: Storage type (daily, weekly, monthly, etc.) for energy storage system (ESS) that includes hydro, battery, etc.
+   unit: Daily/Weekly/Monthly
+
+Stored Energy Inventory|Electricity|Energy Storage System:
+   description: State of the stored enegy by ESS
+   unit:  TWh
