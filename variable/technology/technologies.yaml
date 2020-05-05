@@ -248,6 +248,14 @@ Capital Cost|Liquids|Oil:
    description: Capital cost of a new oil refining plant
    unit: US$2010/kW
 
+Energy Not Serve Cost|Electricity:
+   description: Cost of energy not served. Cost of load curtailment. Value of Lost Load (VoLL)
+   unit:  €/MWh
+
+Energy Not Serve|Electricity:
+   description: Energy not served by node
+   unit:  GWh
+
 Investment|Energy Efficiency:
    description: Investments into the efficiency-increasing components of energy
                 demand technologies
@@ -1089,3 +1097,12 @@ Rate Automatic Frequency Restoration Reserve|Electricity|Wind|OffShore:
    description: Percentage of the Maximum Active Power that can be devoted to Automatic Frequency Restoration Reserve
                 for a Wind OffShore power plant
    unit: %
+
+Operating Reserve Up|Electricity:
+   description: Operating reserve up of the system in each load level
+   unit: GW
+
+Operating Reserve Down|Electricity:
+   description: Operating reserve up of the system in each load level
+   unit: GW
+
