@@ -1,4 +1,7 @@
 # List of variables related to (energy) technologies
+Active Power Flow|Electricity|Transmission|Line:
+   description: Active power flow through a line
+   unit: GW
 
 Capacity|Electricity:
    description: Total installed electricity generation capacity
@@ -280,6 +283,14 @@ Energy Not Serve|Electricity:
    description: Energy not served by node
    unit:  GWh
 
+Fixed Investment Cost|Electricity|Transmission|Line:
+   description: Overnight investment (capital) cost in transmission lines of the power network
+   unit: M€
+
+Fixed Charge Rate|Electricity|Transmission|Line:
+   description: Fixed charge rate to annualize the overnight investment cost
+   unit: p.u.
+
 Fuel Cost|Electricity|Coal:
    description: Fuel cost of the power generation unit who belongs to the specified power
                 plant category.
@@ -303,6 +314,10 @@ Fuel Cost|Electricity|Oil:
 Initial Storage|Electricity|Energy Storage System:
    description: Initial energy stored in the energy storage system (ESS that includes hydro, battery, etc.) unit.
    unit: TWh
+
+Investment|Electricity|Transmission:
+   description: Investments in transmission of the power network
+   unit: M€
 
 Investment|Energy Efficiency:
    description: Investments into the efficiency-increasing components of energy
@@ -1146,6 +1161,14 @@ Rate Automatic Frequency Restoration Reserve|Electricity|Wind|OffShore:
                 for a Wind OffShore power plant
    unit: %
 
+Line Type|Electricity|Transmission|Line:
+   description: Line type: alternating current (AC) and direct current (DC)
+   unit: [AC,DC]
+
+Line Losses|Electricity|Transmission|Line:
+   description: Half ohmic losses of a line
+   unit: GW
+
 Linear Variable Cost|Electricity|Coal:
    description: Linear term (slope) of the heat rate straight line. Cost of the power generation unit who belongs to the specified power
                 plant category.
@@ -1165,6 +1188,10 @@ Linear Variable Cost|Electricity|Oil:
    description: Linear term (slope) of the heat rate straight line. Cost of the power generation unit who belongs to the specified power
                 plant category.
    unit: Mcal/GWh
+
+Loss Factor|Electricity|Transmission|Line:
+   description: Transmission losses equal to the line flow times this factor
+   unit: p.u.
 
 Maximum Charge|Electricity|Energy Storage System:
    description: Maximum charge when storing energy the energy storage system unit.
@@ -1389,6 +1416,14 @@ Ramp Down|Electricity|Oil:
                 plant category.
    unit: GW/h
 
+Reactance|Electricity|Transmission|Line:
+   description: Reactance. Lines need to have a reactance different from 0 in the case of a DC cable or a transportation modeling for an AC cable
+   unit: p.u.
+
+Security Factor|Electricity|Transmission|Line:
+   description: Security factor to consider approximately N-1 contingencies. NTC = TTC x SecurityFactor
+   unit: p.u.
+
 Shut Down Cost|Electricity|Coal:
    description: Shutdown heat cost per power generation unit who belongs to the specified power
                 plant category.
@@ -1440,3 +1475,11 @@ Storage Type|Electricity|Energy Storage System:
 Stored Energy Inventory|Electricity|Energy Storage System:
    description: State of the stored enegy by ESS
    unit:  TWh
+
+Transfer Capacity|Electricity|Transmission|Line:
+   description: Total transfer capacity (TTC). (maximum permissible thermal load)
+   unit: GW
+
+Voltage Angle|Electricity:
+   description: Voltage angle of a node
+   unit: Rad
