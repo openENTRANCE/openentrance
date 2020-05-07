@@ -456,16 +456,56 @@ Final Energy|Electricity|Heat:
    energy use: heating               
    unit: GWh/yr
    
- Final Energy|Electricity|Transportation:
+Final Energy|Electricity|Transportation:
    description: Final electricity consumption for electric-transport(including e-cars, e-trucks), 
    energy source: electricity
    sector: all
    energy use: transportation               
    unit: GWh/yr
   
- Final Energy|Electricity|Other (excl. Heat, Cooling, Transport):
+Final Energy|Electricity|Other (excl. Heat, Cooling, Transport):
    description: Final electricity consumption for non heating, non cooling, non e-transport uses, 
    energy source: electricity
    sector: all
    energy use: all excl.heating, cooling, transportation               
    unit: GWh/yr
+
+Final Energy|Electricity|Profile:
+   description: Time series of Final electricity consumption profiles. 
+   note: Those coefficients, if hourly, when multiplied by a yearly energy give hourly energy profiles.
+   energy source: electricity
+   sector: all
+   energy use: cooling               
+   unit: 
+
+Final Energy|Electricity|Cooling|Profile:
+   description: Time series of Final electricity consumption profiles for cooling. 
+   note: Those coefficients, if hourly, when multiplied by a yearly energy give hourly energy profiles.
+   energy source: electricity
+   sector: all
+   energy use: cooling               
+   unit: 
+   
+Final Energy|Electricity|Heat|Profile:
+   description: Time series of Final electricity consumption profiles for heating. 
+   note: Those coefficients, if hourly, when multiplied by a yearly energy give hourly energy. 
+   energy source: electricity
+   sector: all
+   energy use: heating               
+   unit: 
+   
+Final Energy|Electricity|Transportation|Profile:
+   description: Time series of Final electricity consumption profiles for electric-transport(including e-cars, e-trucks). 
+   note: Those coefficients, if hourly, when multiplied by a yearly energy give hourly energy. 
+   energy source: electricity
+   sector: all
+   energy use: transportation               
+   unit: 
+  
+Final Energy|Electricity|Other (excl. Heat, Cooling, Transport)|Profile:
+   description: Time series of Final electricity consumption profile for non heating, non cooling, non e-transport uses. 
+   note: Those coefficients, if hourly, when multiplied by a yearly energy give hourly energy. 
+   energy source: electricity
+   sector: all
+   energy use: all excl.heating, cooling, transportation               
+   unit: 
