@@ -1,25 +1,83 @@
 # List of variables related to the electricity grid
+# description of variables related to electricity demand
+ Cost of Demand-not-served|Electricity:
+   description: Cost of demand-not-served. Cost of load curtailment. Value of Lost Load (VoLL)
+   unit:  €/MWh
+
+Demand-not-served|Electricity:
+   description: Demand-not-served by spatial node
+   unit:  GWh
 
 Network|Electricity|Demand|Reserve|Frequency Containment:
-   description: demand in frequency containment reserve (FCR)            
+   description: demand in frequency containment reserve (FCR)
    unit: MW
-   
+
 Network|Electricity|Demand|Reserve|Automatic Frequency Restoration:
-   description: demand in automatic frequency restoration reserve (AFRR)             
+   description: demand in automatic frequency restoration reserve (AFRR)
    unit: MW
-   
+
 Network|Electricity|Demand|Inertia:
-   description: demand in inertia            
+   description: demand in inertia
    unit: second
-   
-Maximum Flow|Electricity|Grid:
-   description: maximum flow of an interconnection between 2 regions
-   unit: MW
-   
-Minimum Flow|Electricity|Grid:
-   description: minimum flow of an interconnection between 2 regions
-   unit: MW
-   
+
+# description of variables related to transmission lines
+Active Power Flow|Electricity|Transmission|Line:
+   description: Active power flow through a line
+   unit: GW
+
+Capacity|Electricity|Transmission|Line:
+   description: Total transfer capacity (TTC). (maximum permissible thermal load)
+   unit: GW
+
 Impedance|Electricity|Grid:
    description: impedance of an interconnection between 2 regions
    unit: S
+
+Investment|Electricity|Transmission:
+   description: Investments in transmission of the power network
+   unit: billion US$2010/yr
+
+Investment|Electricity|Transmission|Line:
+   description: Overnight investment (capital) cost in transmission lines of the power network
+   unit: billion US$2010/yr
+
+Fixed Charge Rate|Electricity|Transmission|Line:
+   description: Fixed charge rate to annualize the overnight investment cost. The Fixed Charge Rate (FCR) is the percentage of the total investment cost that is required over the project life per year to cover the minimal annual revenue requirements.
+   unit: no unit
+
+Line Type|Electricity|Transmission|Line:
+   description: Line type: alternating current (AC) and direct current (DC)
+   unit: [AC,DC]
+
+Line Losses|Electricity|Transmission|Line:
+   description: Half ohmic losses of a line
+   unit: GW
+
+Loss Factor|Electricity|Transmission|Line:
+   description: Transmission losses equal to the line flow times this factor
+   unit: no unit
+
+Maximum Flow|Electricity|Grid:
+   description: maximum flow of an interconnection between 2 regions
+   unit: MW
+
+Minimum Flow|Electricity|Grid:
+   description: minimum flow of an interconnection between 2 regions
+   unit: MW
+
+Operating Reserve Down|Electricity:
+   description: Operating reserve down of the system for each load level
+   unit: GW
+
+Reactance|Electricity|Transmission|Line:
+   description: Reactance. Lines need to have a reactance different from 0 in the case of a DC cable or a transportation modeling for an AC cable
+   unit: no unit
+
+Security Factor|Electricity|Transmission|Line:
+   description: Security factor to consider approximately N-1 contingencies. NTC = TTC x SecurityFactor
+
+   unit: no unit
+
+Voltage Angle|Electricity:
+   description: Voltage angle of a node
+   unit: Rad
