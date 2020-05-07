@@ -456,14 +456,14 @@ Final Energy|Electricity|Heat:
    energy use: heating               
    unit: GWh/yr
    
- Final Energy|Electricity|Transportation:
+Final Energy|Electricity|Transportation:
    description: Final electricity consumption for electric-transport(including e-cars, e-trucks), 
    energy source: electricity
    sector: all
    energy use: transportation               
    unit: GWh/yr
   
- Final Energy|Electricity|Other (excl. Heat, Cooling, Transport):
+Final Energy|Electricity|Other (excl. Heat, Cooling, Transport):
    description: Final electricity consumption for non heating, non cooling, non e-transport uses, 
    energy source: electricity
    sector: all
@@ -494,7 +494,7 @@ Final Energy|Electricity|Heat|Profile:
    energy use: heating               
    unit: 
    
- Final Energy|Electricity|Transportation|Profile:
+Final Energy|Electricity|Transportation|Profile:
    description: Time series of Final electricity consumption profiles for electric-transport(including e-cars, e-trucks). 
    note: Those coefficients, if hourly, when multiplied by a yearly energy give hourly energy. 
    energy source: electricity
@@ -502,7 +502,7 @@ Final Energy|Electricity|Heat|Profile:
    energy use: transportation               
    unit: 
   
- Final Energy|Electricity|Other (excl. Heat, Cooling, Transport)|Profile:
+Final Energy|Electricity|Other (excl. Heat, Cooling, Transport)|Profile:
    description: Time series of Final electricity consumption profile for non heating, non cooling, non e-transport uses. 
    note: Those coefficients, if hourly, when multiplied by a yearly energy give hourly energy. 
    energy source: electricity
