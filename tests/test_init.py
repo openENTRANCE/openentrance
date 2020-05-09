@@ -12,8 +12,8 @@ def test_parse_yaml_files():
             with open(file, 'r') as stream:
                 yaml.safe_load(stream)
         except (yaml.scanner.ScannerError, yaml.parser.ParserError) as e:
-            lst.append(file)
+            lst.append(f'{file}')
             print(f"Error parsing file `{file}`\n{e}\n")
 
-    # tests fails if any file cannot be parsed
+    # tests fails if any file cannot be parsed, show list of these files
     assert not lst
