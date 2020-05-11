@@ -1,44 +1,44 @@
 # List of variables related to power plants
 # Variables related to the production cost of a power plant
 # Note that:
-# linear   term variable cost   [€/GWh] = Linear Variable Cost [Mcal/GWh] * Price|Primary Energy [€/Mcal] + Operation and Maintenance Variable Cost [€/MWh] * 1e-3
-# constant term variable cost   [€/h]   = Variable Cost (Intercept) [Mcal/h] * Price|Primary Energy [€/Mcal]
-Variable Cost (Intercept)|Electricity|Coal:
+# linear   term cost   [€/GWh] = Linear Var Cost [Mcal/GWh] * Price|Primary Energy [€/Mcal] + Operation and Maintenance Variable Cost [€/MWh] * 1e-3
+# constant term cost   [€/h]   = Constant Var Cost [Mcal/h] * Price|Primary Energy [€/Mcal]
+Constant Var Cost|Electricity|Coal:
    description: Constant term (intercept) of the heat rate straight line. Cost of the power generation unit who belongs to the specified power
                 plant category. It refers to the unit commitment variable of each power plant per unit time.
    unit: Mcal/h
 
-Variable Cost (Intercept)|Electricity|Gas:
+Constant Var Cost|Electricity|Gas:
    description: Constant term (intercept) of the heat rate straight line. Cost of the power generation unit who belongs to the specified power
                 plant category. It refers to the unit commitment variable of each power plant per unit time.
    unit: Mcal/h
 
-Variable Cost (Intercept)|Electricity|Nuclear:
+Constant Var Cost|Electricity|Nuclear:
    description: Constant term (intercept) of the heat rate straight line. Cost of the power generation unit who belongs to the specified power
                 plant category. It refers to the unit commitment variable of each power plant per unit time.
    unit: Mcal/h
 
-Variable Cost (Intercept)|Electricity|Oil:
+Constant Var Cost|Electricity|Oil:
    description: Constant term (intercept) of the heat rate straight line. Cost of the power generation unit who belongs to the specified power
                 plant category. It refers to the unit commitment variable of each power plant per unit time.
    unit: Mcal/h
 
-Variable Cost (Slope)|Electricity|Coal:
+Linear Var Cost|Electricity|Coal:
    description: Linear term (slope) of the heat rate straight line. Cost of the power generation unit who belongs to the specified power
                 plant category. It refers to the production cost of each energy unit (GWh, MWh,etc.).
    unit: Mcal/GWh
 
-Variable Cost (Slope)|Electricity|Gas:
+Linear Var Cost|Electricity|Gas:
    description: Linear term (slope) of the heat rate straight line. Cost of the power generation unit who belongs to the specified power
                 plant category. It refers to the production cost of each energy unit (GWh, MWh,etc.).
    unit: Mcal/GWh
 
-Variable Cost (Slope)|Electricity|Nuclear:
+Linear Var Cost|Electricity|Nuclear:
    description: Linear term (slope) of the heat rate straight line. Cost of the power generation unit who belongs to the specified power
                 plant category. It refers to the production cost of each energy unit (GWh, MWh,etc.).
    unit: Mcal/GWh
 
-Variable Cost (Slope)|Electricity|Oil:
+Linear Var Cost|Electricity|Oil:
    description: Linear term (slope) of the heat rate straight line. Cost of the power generation unit who belongs to the specified power
                 plant category. It refers to the production cost of each energy unit (GWh, MWh,etc.).
    unit: Mcal/GWh
@@ -156,7 +156,7 @@ Number of Units|Electricity|Coal:
 Number of Units|Electricity|Lignite:
    description: Number of units of kind "Lignite power plant "
    unit:
-      
+
 Maximum Active Power|Electricity|Biomass|Traditionnal:
    description: Maximum active power of one typical Traditionnal Biomass power plant
                 biomass from local and pre-existing
@@ -521,10 +521,6 @@ Maximum Ramping|Downwards|Electricity|Oil:
 
 # description of simple hydrosystems - reservoir hydro
 # this describes systems composed of one reservoir and one plant (with potential pumping capacity) that are used for seasonal storage
-Output Energy of the Second Block|Electricity|Hydro:
-   description: Generator output of the second block (i.e., above the minimum load)
-   unit: GW
-
 Number of Units|Electricity|Hydro|Reservoir:
    description: Number of units of kind "simple Hydro reservoir "
    unit:
@@ -634,8 +630,8 @@ Rate Automatic Frequency Restoration Reserve|Electricity|Hydro|Reservoir:
    unit: %
 
 # description of Energy Storage Systems
-Energy Charge Ratio|Electricity|Energy Storage System:
-   description: Energy charge ratio of an energy storage system
+Maximu Energy Charge|Electricity|Energy Storage System:
+   description: This is the upper bound that energy storage system could charge energy at time "t".
    unit: TWh
 
 Initial Storage Level|Electricity|Energy Storage System:
@@ -653,10 +649,6 @@ Maximum Storage|Electricity|Energy Storage System:
 Minimum Storage|Electricity|Energy Storage System:
    description: Minimum energy that can be stored by the energy storage system unit.
    unit: TWh
-
-Output Energy of the Second Block|Electricity|Energy System Storage:
-   description: Generator output of the second block (i.e., above the minimum load)
-   unit: GW
 
 Spillage|Electricity|Energy Storage System:
    description: Energy spillage that could not be stored by an energy storage system (ESS). Several energy models include spillage variables related to renewable energy production; however, another way is to include a spillage variable to the ESS unit since it is the last sink of the power network.
@@ -690,10 +682,6 @@ Minimum Active power|Electricity|Solar:
 Inertia|Electricity|Solar:
    description: inertia provided to the system by a Photovoltaic power plant
    unit: second
-
-Output Energy of the Second Block|Electricity|Solar:
-   description: Generator output of the second block (i.e., above the minimum load)
-   unit: GW
 
 Rate Frequency Containment Reserve|Electricity|Solar:
    description: Percentage of the Maximum Active Power that can be devoted to Frequency Containment Reserve
@@ -737,10 +725,6 @@ Rate Automatic Frequency Restoration Reserve|Electricity|Wind|OnShore:
    unit: %
 
 # description of Wind Offshore power plants
-Output Energy of the Second Block|Electricity|Wind:
-   description: Generator output of the second block (i.e., above the minimum load)
-   unit: GW
-
 Number of Units|Electricity|Wind|OffShore:
    description: Number of units of kind Wind OffShore power plant
    unit:

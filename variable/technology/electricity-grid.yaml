@@ -5,7 +5,7 @@
    unit:  €/MWh
 
 Demand-not-served|Electricity:
-   description: Demand-not-served by spatial node
+   description: Demand-not-server per region (i.e. aggregate-regions, countries, nuts1, nuts2, nuts3, or nodes).
    unit:  GWh
 
 Network|Electricity|Demand|Reserve|Frequency Containment:
