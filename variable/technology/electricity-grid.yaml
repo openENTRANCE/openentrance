@@ -30,7 +30,7 @@ Capacity|Electricity|Transmission|Line:
    unit: GW
 
 Impedance|Electricity|Grid:
-   description: impedance of an interconnection between 2 regions
+   description: Impedance of an interconnection between 2 regions
    unit: S
 
 Investment|Electricity|Transmission:
