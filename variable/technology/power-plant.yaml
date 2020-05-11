@@ -5,60 +5,60 @@
 # constant term variable cost   [€/h]   = Variable Cost (Intercept) [Mcal/h] * Price|Primary Energy [€/Mcal]
 Variable Cost (Intercept)|Electricity|Coal:
    description: Constant term (intercept) of the heat rate straight line. Cost of the power generation unit who belongs to the specified power
-                plant category.
+                plant category. It refers to the unit commitment variable of each power plant per unit time.
    unit: Mcal/h
 
 Variable Cost (Intercept)|Electricity|Gas:
    description: Constant term (intercept) of the heat rate straight line. Cost of the power generation unit who belongs to the specified power
-                plant category.
+                plant category. It refers to the unit commitment variable of each power plant per unit time.
    unit: Mcal/h
 
 Variable Cost (Intercept)|Electricity|Nuclear:
    description: Constant term (intercept) of the heat rate straight line. Cost of the power generation unit who belongs to the specified power
-                plant category.
+                plant category. It refers to the unit commitment variable of each power plant per unit time.
    unit: Mcal/h
 
 Variable Cost (Intercept)|Electricity|Oil:
    description: Constant term (intercept) of the heat rate straight line. Cost of the power generation unit who belongs to the specified power
-                plant category.
+                plant category. It refers to the unit commitment variable of each power plant per unit time.
    unit: Mcal/h
 
 Variable Cost (Slope)|Electricity|Coal:
    description: Linear term (slope) of the heat rate straight line. Cost of the power generation unit who belongs to the specified power
-                plant category.
+                plant category. It refers to the production cost of each energy unit (GWh, MWh,etc.).
    unit: Mcal/GWh
 
 Variable Cost (Slope)|Electricity|Gas:
    description: Linear term (slope) of the heat rate straight line. Cost of the power generation unit who belongs to the specified power
-                plant category.
+                plant category. It refers to the production cost of each energy unit (GWh, MWh,etc.).
    unit: Mcal/GWh
 
 Variable Cost (Slope)|Electricity|Nuclear:
    description: Linear term (slope) of the heat rate straight line. Cost of the power generation unit who belongs to the specified power
-                plant category.
+                plant category. It refers to the production cost of each energy unit (GWh, MWh,etc.).
    unit: Mcal/GWh
 
 Variable Cost (Slope)|Electricity|Oil:
    description: Linear term (slope) of the heat rate straight line. Cost of the power generation unit who belongs to the specified power
-                plant category.
+                plant category. It refers to the production cost of each energy unit (GWh, MWh,etc.).
    unit: Mcal/GWh
 
-Operation and Maintenance Variable Cost|Electricity|Coal:
+Operation and Maintenance Cost|Electricity|Coal:
    description: Operation and maintenance cost of the power generation unit who belongs to the specified power
                 plant category.
    unit: €/MWh
 
-Operation and Maintenance Variable Cost|Electricity|Gas:
+Operation and Maintenance Cost|Electricity|Gas:
    description: Operation and maintenance cost of the power generation unit who belongs to the specified power
                 plant category.
    unit: €/MWh
 
-Operation and Maintenance Variable Cost|Electricity|Nuclear:
+Operation and Maintenance Cost|Electricity|Nuclear:
    description: Operation and maintenance cost of the power generation unit who belongs to the specified power
                 plant category.
    unit: €/MWh
 
-Operation and Maintenance Variable Cost|Electricity|Oil:
+Operation and Maintenance Cost|Electricity|Oil:
    description: Operation and maintenance cost of the power generation unit who belongs to the specified power
                 plant category.
    unit: €/MWh
@@ -121,7 +121,7 @@ Variable Cost|Electricity|Gas|OCGT:
    description: variable cost of a typical Open Cycle Gas Turbine power plant
    unit: €/MWh
 
-Variable Cost|Electricity|Gas|Coal:
+Variable Cost|Electricity|Coal:
    description: variable cost of a typical coal power plant
    unit: €/MWh
 
@@ -149,13 +149,14 @@ Number of Units|Electricity|Gas|OCGT:
    description: Number of units of kind "Open Cycle Gas Turbine power plant"
    unit:
 
-Number of Units|Electricity|Gas|Coal:
+Number of Units|Electricity|Coal:
    description: Number of units of kind "coal power plant "
    unit:
 
 Number of Units|Electricity|Lignite:
    description: Number of units of kind "Lignite power plant "
    unit:
+      
 Maximum Active power|Electricity|Biomass|Traditionnal:
    description: Maximum active power of one typical Traditionnal Biomass power plant
                 biomass from local and pre-existing
@@ -175,7 +176,7 @@ Maximum Active power|Electricity|Gas|OCGT:
    description: Maximum active power of one typical Open Cycle Gas Turbine power plant
    unit: MW
 
-Maximum Active power|Electricity|Gas|Coal:
+Maximum Active power|Electricity|Coal:
    description: Maximum active power of one typical coal power plant
    unit: MW
 
@@ -202,7 +203,7 @@ Minimum Active power|Electricity|Gas|OCGT:
    description: Minimum active power of one typical Open Cycle Gas Turbine power plant
    unit: MW
 
-Minimum Active power|Electricity|Gas|Coal:
+Minimum Active power|Electricity|Coal:
    description: Minimum active power of one typical coal power plant
    unit: MW
 
@@ -229,7 +230,7 @@ Minimum On Duration|Electricity|Gas|OCGT:
    description: Minimum duration that the unit has to stay on when started, for one typical Open Cycle Gas Turbine power plant
    unit: hour
 
-Minimum On Duration|Electricity|Gas|Coal:
+Minimum On Duration|Electricity|Coal:
    description: Minimum duration that the unit has to stay on when started, for one typical coal power plant
    unit: hour
 
@@ -256,7 +257,7 @@ Minimum Off Duration|Electricity|Gas|OCGT:
    description: Minimum duration that the unit has to stay off when shut-down, for one typical Open Cycle Gas Turbine power plant
    unit: hour
 
-Minimum Off Duration|Electricity|Gas|Coal:
+Minimum Off Duration|Electricity|Coal:
    description: Minimum duration that the unit has to stay off when shut-down, for one typical coal power plant
    unit: hour
 
@@ -283,7 +284,7 @@ Forced Outage Rate|Electricity|Gas|OCGT:
    description: Unavailability Rate due to failures of typical Open Cycle Gas Turbine power plant
    unit: %
 
-Forced Outage Rate|Electricity|Gas|Coal:
+Forced Outage Rate|Electricity|Coal:
    description: Unavailability Rate due to failures of typical coal power plant
    unit: %
 
@@ -310,7 +311,7 @@ Planned Outage Rate|Electricity|Gas|OCGT:
    description: Unavailability Rate due to maintenance of typical Open Cycle Gas Turbine power plant
    unit: %
 
-Planned Outage Rate|Electricity|Gas|Coal:
+Planned Outage Rate|Electricity|Coal:
    description: Unavailability Rate due to maintenance of typical coal power plant
    unit: %
 
@@ -337,7 +338,7 @@ Mean Outage Duration|Electricity|Gas|OCGT:
    description: Mean duration of outages for a typical Open Cycle Gas Turbine power plant
    unit: %
 
-Mean Outage Duration|Electricity|Gas|Coal:
+Mean Outage Duration|Electricity|Coal:
    description: Mean duration of outages for a typical coal power plant
    unit: %
 
@@ -364,7 +365,7 @@ Inertia|Electricity|Gas|OCGT:
    description: inertia privided to the system when started by a typical Open Cycle Gas Turbine power plant
    unit: second
 
-Inertia|Electricity|Gas|Coal:
+Inertia|Electricity|Coal:
    description: inertia privided to the system when started by a typical coal power plant
    unit: second
 
@@ -395,7 +396,7 @@ Rate Frequency Containment Reserve|Electricity|Gas|OCGT:
                 for a typical Open Cycle Gas Turbine power plant
    unit: %
 
-Rate Frequency Containment Reserve|Electricity|Gas|Coal:
+Rate Frequency Containment Reserve|Electricity|Coal:
    description: Percentage of the Maximum Active Power that can be devoted to Frequency Containment Reserve
                 for a typical coal power plant
    unit: %
@@ -428,7 +429,7 @@ Rate Automatic Frequency Restoration Reserve|Electricity|Gas|OCGT:
                 for a typical Open Cycle Gas Turbine power plant
    unit: %
 
-Rate Automatic Frequency Restoration Reserve|Electricity|Gas|Coal:
+Rate Automatic Frequency Restoration Reserve|Electricity|Coal:
    description: Percentage of the Maximum Active Power that can be devoted to Automatic Frequency Restoration Reserve
                 for a typical coal power plant
    unit: %
