@@ -13,6 +13,12 @@ Variables related to emissions should follow the structure below.
 
 Examples of species: `CO2`, `CH4`, `CO`, `NOx`
 
+And, variables related to the CO2 emission by power plant as below.
+
+- `Emissions|CO2|Electricity|<Technologies>|<Specification>`
+
+Example of technologies: `Biomass`, `Coal`, `Coal`, `Lignite`, `Nuclear`, etc.
+
 ## Carbon Sequestration
 
 Carbon (dioxide) sequestered (stored) can be distinguished as several
