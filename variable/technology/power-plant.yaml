@@ -1,6 +1,6 @@
 # List of variables related to power plants
 # Variables related to the CO2 emission by power plant
-CO2 Emmissions|Electricity|Biomass|Traditionnal:
+CO2 Emissions|Electricity|Biomass|Traditional:
    description: CO2 emmissions of a typical Traditionnal Biomass power plant
                 biomass from local and pre-existing
                 resources mostly waste :domestic and agricultural waste, forest residues.
