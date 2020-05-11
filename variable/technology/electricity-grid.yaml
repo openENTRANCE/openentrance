@@ -76,7 +76,7 @@ Reactance|Electricity|Transmission|Line:
 Security Factor|Electricity|Transmission|Line:
    description: Security factor to consider approximately N-1 contingencies. NTC = TTC x SecurityFactor
 
-   unit: no unit
+   unit:
 
 Voltage Angle|Electricity:
    description: Voltage angle of a node
