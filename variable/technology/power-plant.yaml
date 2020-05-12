@@ -26,22 +26,22 @@ Constant Var Cost|Electricity|Oil:
 Linear Var Cost|Electricity|Coal:
    description: Linear term (slope) of the heat rate straight line. Cost of the power generation unit who belongs to the specified power
                 plant category. It refers to the production cost of each energy unit (GWh, MWh,etc.).
-   unit: Mcal/GWh
+   unit: Mcal/MWh
 
 Linear Var Cost|Electricity|Gas:
    description: Linear term (slope) of the heat rate straight line. Cost of the power generation unit who belongs to the specified power
                 plant category. It refers to the production cost of each energy unit (GWh, MWh,etc.).
-   unit: Mcal/GWh
+   unit: Mcal/MWh
 
 Linear Var Cost|Electricity|Nuclear:
    description: Linear term (slope) of the heat rate straight line. Cost of the power generation unit who belongs to the specified power
                 plant category. It refers to the production cost of each energy unit (GWh, MWh,etc.).
-   unit: Mcal/GWh
+   unit: Mcal/MWh
 
 Linear Var Cost|Electricity|Oil:
    description: Linear term (slope) of the heat rate straight line. Cost of the power generation unit who belongs to the specified power
                 plant category. It refers to the production cost of each energy unit (GWh, MWh,etc.).
-   unit: Mcal/GWh
+   unit: Mcal/MWh
 
 Operation and Maintenance Cost|Electricity|Coal:
    description: Operation and maintenance cost of the power generation unit who belongs to the specified power
@@ -442,82 +442,82 @@ Rate Automatic Frequency Restoration Reserve|Electricity|Lignite:
 Operating Reserve|Down|Electricity|Coal:
    description: Operating reserve down of a power generation unit who belongs to the specified power
                 plant category
-   unit: TWh
+   unit: MWh
 
 Operating Reserve|Down|Electricity|Gas:
    description: Operating reserve down of a power generation unit who belongs to the specified power
                 plant category
-   unit: TWh
+   unit: MWh
 
 Operating Reserve|Down|Electricity|Nuclear:
    description: Operating reserve down of a power generation unit who belongs to the specified power
                 plant category
-   unit: TWh
+   unit: MWh
 
 Operating Reserve|Down|Electricity|Oil:
    description: Operating reserve down of a power generation unit who belongs to the specified power
                 plant category
-   unit: TWh
+   unit: MWh
 
 Operating Reserve|Up|Electricity|Coal:
    description: Operating reserve up of a power generation unit who belongs to the specified power
                 plant category
-   unit: TWh
+   unit: MWh
 
 Operating Reserve|Up|Electricity|Gas:
    description: Operating reserve up of a power generation unit who belongs to the specified power
                 plant category
-   unit: TWh
+   unit: MWh
 
 Operating Reserve|Up|Electricity|Nuclear:
    description: Operating reserve up of a power generation unit who belongs to the specified power
                 plant category
-   unit: TWh
+   unit: MWh
 
 Operating Reserve|Up|Electricity|Oil:
    description: Operating reserve up of a power generation unit who belongs to the specified power
                 plant category
-   unit: TWh
+   unit: MWh
 
 Maximum Ramping|Upwards|Electricity|Coal:
    description: Upward ramp limit of the power generation unit who belongs to the specified power
                 plant category.
-   unit: GW/h
+   unit: MW/h
 
 Maximum Ramping|Upwards|Electricity|Gas:
    description: Upward ramp limit of the power generation unit who belongs to the specified power
                 plant category.
-   unit: GW/h
+   unit: MW/h
 
 Maximum Ramping|Upwards|Electricity|Nuclear:
    description: Upward ramp limit of the power generation unit who belongs to the specified power
                 plant category.
-   unit: GW/h
+   unit: MW/h
 
 Maximum Ramping|Upwards|Electricity|Oil:
    description: Upward ramp limit of the power generation unit who belongs to the specified power
                 plant category.
-   unit: GW/h
+   unit: MW/h
 
 Maximum Ramping|Downwards|Electricity|Coal:
    description: Downward ramp limit of the power generation unit who belongs to the specified power
                 plant category.
-   unit: GW/h
+   unit: MW/h
 
 Maximum Ramping|Downwards|Electricity|Gas:
    description: Downward ramp limit of the power generation unit who belongs to the specified power
                 plant category.
-   unit: GW/h
+   unit: MW/h
 
 Maximum Ramping|Downwards|Electricity|Nuclear:
    description: Downward ramp limit of the power generation unit who belongs to the specified power
                 plant category.
-   unit: GW/h
+   unit: MW/h
 
 Maximum Ramping|Downwards|Electricity|Oil:
    description: Downward ramp limit of the power generation unit who belongs to the specified power
                 plant category.
-   unit: GW/h
+   unit: MW/h
 
 # description of simple hydrosystems - reservoir hydro
 # this describes systems composed of one reservoir and one plant (with potential pumping capacity) that are used for seasonal storage
@@ -632,11 +632,11 @@ Rate Automatic Frequency Restoration Reserve|Electricity|Hydro|Reservoir:
 # description of Energy Storage Systems
 Maximu Energy Charge|Electricity|Energy Storage System:
    description: This is the upper bound that energy storage system could charge energy at time "t".
-   unit: TWh
+   unit: GWh
 
 Initial Storage Level|Electricity|Energy Storage System:
    description: Initial energy stored in the energy storage system unit at first load level. (ESS that includes hydro, battery, etc.)
-   unit: TWh
+   unit: GWh
 
 Maximum Charge|Electricity|Energy Storage System:
    description: Maximum charge when storing energy the energy storage system unit.
@@ -644,15 +644,15 @@ Maximum Charge|Electricity|Energy Storage System:
 
 Maximum Storage|Electricity|Energy Storage System:
    description: Maximum energy that can be stored by the energy storage system unit.
-   unit: TWh
+   unit: GWh
 
 Minimum Storage|Electricity|Energy Storage System:
    description: Minimum energy that can be stored by the energy storage system unit.
-   unit: TWh
+   unit: GWh
 
 Spillage|Electricity|Energy Storage System:
    description: Energy spillage that could not be stored by an energy storage system (ESS). Several energy models include spillage variables related to renewable energy production; however, another way is to include a spillage variable to the ESS unit since it is the last sink of the power network.
-   unit: TWh
+   unit: GWh
 
 Storage Type|Electricity|Energy Storage System:
    description: Storage type (daily, weekly, monthly, etc.) for energy storage system (ESS) that includes hydro, battery, etc.
@@ -660,7 +660,7 @@ Storage Type|Electricity|Energy Storage System:
 
 Stored Energy Inventory|Electricity|Energy Storage System:
    description: State of the stored enegy by ESS
-   unit:  TWh
+   unit:  GWh
 
 # description of PV power plants
 Number of Units|Electricity|Solar:

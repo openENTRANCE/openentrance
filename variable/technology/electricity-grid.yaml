@@ -6,7 +6,7 @@
 
 Demand-not-served|Electricity:
    description: Demand-not-served per region (i.e. aggregate-regions, countries, nuts1, nuts2, nuts3, or nodes).
-   unit:  GWh
+   unit:  MWh
 
 Network|Electricity|Demand|Reserve|Frequency Containment:
    description: demand in frequency containment reserve (FCR)
@@ -23,7 +23,7 @@ Network|Electricity|Demand|Inertia:
 # description of variables related to transmission lines
 Active Power Flow|Electricity|Transmission|Line:
    description: Active power flow through a line
-   unit: GW
+   unit: MW
 
 Impedance|Electricity|Grid:
    description: Impedance of an interconnection between 2 regions
@@ -47,7 +47,7 @@ Line Type|Electricity|Transmission|Line:
 
 Line Losses|Electricity|Transmission|Line:
    description: Half ohmic losses of a line
-   unit: GW
+   unit: MW
 
 Loss Factor|Electricity|Transmission|Line:
    description: Transmission losses equal to the line flow times this factor
@@ -71,11 +71,11 @@ Minimum Flow|Electricity|Grid:
 
 Operating Reserve Down|Electricity:
    description: Operating reserve down of the system for each load level. It is the sum of aFRR (or secondary reserve), FRR & RR (FRR+RR = tertiary reserve).
-   unit: GW
+   unit: MW
 
 Operating Reserve Up|Electricity:
    description: Operating reserve up of the system for each load level. It is the sum of aFRR (or secondary reserve), FRR & RR (FRR+RR = tertiary reserve).
-   unit: GW
+   unit: MW
 
 Reactance|Electricity|Transmission|Line:
    description: Reactance. Lines need to have a reactance different from 0 in the case of a DC cable or a transportation modeling for an AC cable
