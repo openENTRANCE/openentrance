@@ -218,39 +218,39 @@ Emmissions|CO2|Electricity|Nuclear:
    description: CO2 emmissions of a typical nuclear power plant
    unit: tons/MWh
 
-Emissions|BC:
+Emissions|Black Carbon:
    description: Total black carbon emissions
    unit: Mt BC/yr
 
-Emissions|BC|AFOLU:
+Emissions|Black Carbon|AFOLU:
    description: Black carbon emissions from agriculture, forestry and other
                 land use (IPCC category 3)
    unit: Mt BC/yr
 
-Emissions|BC|Energy:
+Emissions|Black Carbon|Energy:
    description: Black carbon emissions from energy use on supply and demand
                 side, including fugitive emissions from fuels (IPCC category
                 1A, 1B)
    unit: Mt BC/yr
 
-Emissions|BC|Energy|Demand|Industry:
+Emissions|Black Carbon|Energy|Demand|Industry:
    description: Black carbon emissions from fuel combustion in industry (IPCC
                 category 1A2)
    unit: Mt BC/yr
 
-Emissions|BC|Energy|Demand|Residential and Commercial:
+Emissions|Black Carbon|Energy|Demand|Residential and Commercial:
    description: Black carbon emissions from fuel combustion in residential,
                 commercial, institutional sectors and agriculture (IPCC
                 category 1A4a, 1A4b)
    unit: Mt BC/yr
 
-Emissions|BC|Energy|Demand|Transportation:
+Emissions|Black Carbon|Energy|Demand|Transportation:
    description: Black carbon emissions from fuel combustion in transportation
                 sector (IPCC category 1A3), excluding pipeline emissions (IPCC
                 category 1A3ei)
    unit: Mt BC/yr
 
-Emissions|BC|Energy|Supply:
+Emissions|Black Carbon|Energy|Supply:
    description: Black carbon emissions from fuel combustion and fugitive
                 emissions from fuels: electricity and heat production and
                 distribution (IPCC category 1A1a), other energy conversion
@@ -261,7 +261,7 @@ Emissions|BC|Energy|Supply:
                 (IPCC category 1C)
    unit: Mt BC/yr
 
-Emissions|BC|Other:
+Emissions|Black Carbon|Other:
    description: Black carbon emissions from other sources
    unit: Mt BC/yr
 
