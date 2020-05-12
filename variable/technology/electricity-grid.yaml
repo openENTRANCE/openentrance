@@ -5,7 +5,7 @@
    unit:  €/MWh
 
 Demand-not-served|Electricity:
-   description: Demand-not-server per region (i.e. aggregate-regions, countries, nuts1, nuts2, nuts3, or nodes).
+   description: Demand-not-served per region (i.e. aggregate-regions, countries, nuts1, nuts2, nuts3, or nodes).
    unit:  GWh
 
 Network|Electricity|Demand|Reserve|Frequency Containment:
@@ -23,10 +23,6 @@ Network|Electricity|Demand|Inertia:
 # description of variables related to transmission lines
 Active Power Flow|Electricity|Transmission|Line:
    description: Active power flow through a line
-   unit: GW
-
-Capacity|Electricity|Transmission|Line:
-   description: Total transfer capacity (TTC). (maximum permissible thermal load)
    unit: GW
 
 Impedance|Electricity|Grid:
@@ -57,12 +53,20 @@ Loss Factor|Electricity|Transmission|Line:
    description: Transmission losses equal to the line flow times this factor
    unit:
 
-Maximum Flow|Electricity|Grid:
-   description: maximum flow of an interconnection between 2 regions
+Manual Frequency Restoration Reserve|Electricity:
+   description: Manual frequency restoration reserve (mFRR) is used to relieve the automatic frequency restoration reserve during prolonged imbalances.
+   unit: MW
+
+Maximum Flow|Electricity|Transmission:
+   description: Maximum flow of an interconnection between 2 regions
+   unit: MW
+
+Maximum Flow|Electricity|Transmission|Line:
+   description: Maximum flow of a transmission line between 2 regions (i.e. aggregate-regions, countries, nuts1, nuts2, nuts3, or nodes). Total transfer capacity (TTC). (maximum permissible thermal load)
    unit: MW
 
 Minimum Flow|Electricity|Grid:
-   description: minimum flow of an interconnection between 2 regions
+   description: Minimum flow of an interconnection between 2 regions
    unit: MW
 
 Operating Reserve Down|Electricity:
@@ -76,6 +80,10 @@ Operating Reserve Up|Electricity:
 Reactance|Electricity|Transmission|Line:
    description: Reactance. Lines need to have a reactance different from 0 in the case of a DC cable or a transportation modeling for an AC cable
    unit:
+
+Replacement Reserve|Electricity:
+   description: Replacement reserve (RR) means the active power reserves available to restore or support the required level of frequency restoration reserve (FRR) to be prepared for additional system imbalances, including generation reserves.
+   unit: MW
 
 Security Factor|Electricity|Transmission|Line:
    description: Security factor to consider approximately N-1 contingencies. NTC = TTC x SecurityFactor
