@@ -43,7 +43,7 @@ Investment|Electricity|Transmission|Line:
 
 Fixed Charge Rate|Electricity|Transmission|Line:
    description: Fixed charge rate to annualize the overnight investment cost. The Fixed Charge Rate (FCR) is the percentage of the total investment cost that is required over the project life per year to cover the minimal annual revenue requirements.
-   unit: no unit
+   unit:
 
 Line Type|Electricity|Transmission|Line:
    description: Line type: alternating current (AC) and direct current (DC)
@@ -55,7 +55,7 @@ Line Losses|Electricity|Transmission|Line:
 
 Loss Factor|Electricity|Transmission|Line:
    description: Transmission losses equal to the line flow times this factor
-   unit: no unit
+   unit:
 
 Maximum Flow|Electricity|Grid:
    description: maximum flow of an interconnection between 2 regions
@@ -75,11 +75,10 @@ Operating Reserve Up|Electricity:
 
 Reactance|Electricity|Transmission|Line:
    description: Reactance. Lines need to have a reactance different from 0 in the case of a DC cable or a transportation modeling for an AC cable
-   unit: no unit
+   unit:
 
 Security Factor|Electricity|Transmission|Line:
    description: Security factor to consider approximately N-1 contingencies. NTC = TTC x SecurityFactor
-
    unit:
 
 Voltage Angle|Electricity:
