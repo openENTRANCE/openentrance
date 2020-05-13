@@ -15,9 +15,9 @@ Capacity|Electricity|Biomass|Traditionnal:
                 This biomass is assumed to be cheap but with a limited poten-tial
    unit: GW
 
- Capacity|Electricity|Biomass|New and imported:
-   description: Total installed electricity generation capacity of new biomass power plants
-                New biomass is biomass coming from dedicated energy crops and biomass imports.
+Capacity|Electricity|Biomass|New and imported:
+   description: Total installed electricity generation capacity of new biomass power plants 
+                New biomass is biomass coming from dedicated energy crops and biomass imports. 
                 Thus, biomass 2 is assumed to have a very high potential but higher cost.
    unit: GW
 
