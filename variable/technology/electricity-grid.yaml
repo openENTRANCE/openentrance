@@ -1,6 +1,6 @@
 # List of variables related to the electricity grid
 # description of variables related to electricity demand
- Cost of Demand-not-served|Electricity:
+Cost of Demand-not-served|Electricity:
    description: Cost of demand-not-served. Cost of load curtailment. Value of Lost Load (VoLL)
    unit: €/MWh
 
