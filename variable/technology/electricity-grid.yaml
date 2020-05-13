@@ -2,11 +2,11 @@
 # description of variables related to electricity demand
  Cost of Demand-not-served|Electricity:
    description: Cost of demand-not-served. Cost of load curtailment. Value of Lost Load (VoLL)
-   unit:  €/MWh
+   unit: €/MWh
 
 Demand-not-served|Electricity:
    description: Demand-not-served per region (i.e. aggregate-regions, countries, nuts1, nuts2, nuts3, or nodes).
-   unit:  MWh
+   unit: MWh
 
 Network|Electricity|Demand|Reserve|Frequency Containment:
    description: demand in frequency containment reserve (FCR)
