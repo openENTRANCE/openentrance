@@ -42,8 +42,8 @@ Fixed Charge Rate|Electricity|Transmission|Line:
    unit:
 
 Line Type|Electricity|Transmission|Line:
-   description: Line type: alternating current (AC) and direct current (DC)
-   unit: [AC,DC]
+   description: Line type related to alternating current (AC) and direct current (DC)
+   unit: [AC, DC]
 
 Line Losses|Electricity|Transmission|Line:
    description: Half ohmic losses of a line
