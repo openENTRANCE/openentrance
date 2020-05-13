@@ -224,7 +224,7 @@ Emissions|BC|Energy|Demand|Transportation:
 
 Emissions|BC|Energy|Supply:
    description: Black carbon emissions from fuel combustion and fugitive
-                emissions from fuels: electricity and heat production and
+                emissions from fuels - electricity and heat production and
                 distribution (IPCC category 1A1a), other energy conversion
                 (e.g. refineries, synfuel production, solid fuel processing,
                 IPCC category 1Ab, 1Ac), incl. pipeline transportation (IPCC
@@ -269,7 +269,7 @@ Emissions|CH4|Energy|Demand|Transportation:
 
 Emissions|CH4|Energy|Supply:
    description: CH4 emissions from fuel combustion and fugitive emissions from
-                fuels: electricity and heat production and distribution (IPCC
+                fuels - electricity and heat production and distribution (IPCC
                 category 1A1a), other energy conversion (e.g. refineries,
                 synfuel production, solid fuel processing, IPCC category 1Ab,
                 1Ac), incl. pipeline transportation (IPCC category 1A3ei),
@@ -337,7 +337,7 @@ Emissions|CO2|Energy|Demand|Transportation:
 
 Emissions|CO2|Energy|Supply:
    description: CO2 emissions from fuel combustion and fugitive emissions from
-                fuels: electricity and heat production and distribution (IPCC
+                fuels - electricity and heat production and distribution (IPCC
                 category 1A1a), other energy conversion (e.g. refineries,
                 synfuel production, solid fuel processing, IPCC category 1Ab,
                 1Ac), incl. pipeline transportation (IPCC category 1A3ei),
@@ -352,8 +352,8 @@ Emissions|CO2|Energy|Supply|Electricity:
 
 Emissions|CO2|Energy|Supply|Gases:
    description: CO2 emissions from fuel combustion and fugitive emissions from
-                fuels: gaseous fuel extraction and processing (e.g. natural gas
-                extraction production, IPCC category 1B2b, parts of 1A1cii)
+                fuels - gaseous fuel extraction and processing (e.g. natural
+                gas extraction production, IPCC category 1B2b, parts of 1A1cii)
    unit: Mt CO2/yr
 
 Emissions|CO2|Energy|Supply|Heat:
@@ -363,7 +363,7 @@ Emissions|CO2|Energy|Supply|Heat:
 
 Emissions|CO2|Energy|Supply|Liquids:
    description: CO2 emissions from fuel combustion and fugitive emissions from
-                fuels: liquid fuel extraction and processing (e.g. oil
+                fuels - liquid fuel extraction and processing (e.g. oil
                 production, refineries, synfuel production, IPCC category 1A1b,
                 parts of 1A1cii, 1B2a)
    unit: Mt CO2/yr
@@ -375,7 +375,7 @@ Emissions|CO2|Energy|Supply|Other Sector:
 
 Emissions|CO2|Energy|Supply|Solids:
    description: CO2 emissions from fuel combustion and fugitive emissions from
-                fuels: solid fuel extraction and processing (IPCC category
+                fuels - solid fuel extraction and processing (IPCC category
                 1A1ci, parts of 1A1cii, 1B1)
    unit: Mt CO2/yr
 
@@ -588,7 +588,7 @@ Emissions|NOx|Energy|Demand|Transportation:
 
 Emissions|NOx|Energy|Supply:
    description: NOx emissions from fuel combustion and fugitive emissions from
-                fuels: electricity and heat production and distribution (IPCC
+                fuels - electricity and heat production and distribution (IPCC
                 category 1A1a), other energy conversion (e.g. refineries,
                 synfuel production, solid fuel processing, IPCC category 1Ab,
                 1Ac), incl. pipeline transportation (IPCC category 1A3ei),
@@ -633,7 +633,7 @@ Emissions|OC|Energy|Demand|Transportation:
 
 Emissions|OC|Energy|Supply:
    description: Organic carbon emissions from fuel combustion and fugitive
-                emissions from fuels: electricity and heat production and
+                emissions from fuels - electricity and heat production and
                 distribution (IPCC category 1A1a), other energy conversion
                 (e.g. refineries, synfuel production, solid fuel prorganic
                 carbonessing, IPCC category 1Ab, 1Ac), incl. pipeline
@@ -699,7 +699,7 @@ Emissions|Sulfur|Energy|Demand|Transportation:
 
 Emissions|Sulfur|Energy|Supply:
    description: Sulfur emissions from fuel combustion and fugitive emissions
-                from fuels: electricity and heat production and distribution
+                from fuels - electricity and heat production and distribution
                 (IPCC category 1A1a), other energy conversion (e.g. refineries,
                 synfuel production, solid fuel processing, IPCC category 1Ab,
                 1Ac), incl. pipeline transportation (IPCC category 1A3ei),

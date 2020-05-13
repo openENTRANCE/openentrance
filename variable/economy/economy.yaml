@@ -7,40 +7,40 @@ Consumption:
 Discount rate|Buildings:
    description: Discount rate for investments into residential and commercial
                 buildings
-   unit: %
+   unit: '%'
 
 Discount rate|Economy:
    description: Economy-wide discount rate (real interest rate of capital)
-   unit: %
+   unit: '%'
 
 Discount rate|Electricity:
    description: Discount rate for investments in the electricity sector
-   unit: %
+   unit: '%'
 
 Discount rate|Energy Supply:
    description: Discount rate for investments in energy supply sector
-   unit: %
+   unit: '%'
 
 Discount rate|Industry:
    description: Discount rate for investments in installations in the
                 industry sector
-   unit: %
+   unit: '%'
 
 Discount rate|Mobility:
    description: Discount rate for investments into mobility (e.g. vehicles;
                 not including transport infrastructure)
-   unit: %
+   unit: '%'
 
 Discount rate|Social:
    description: Social discount rate (should be reported if different from
                 capital interest rate and used in the model to discount future
                 costs and revenues)
-   unit: %
+   unit: '%'
 
 Discount rate|Transport Infrastructure:
    description: Discount rate for investments into transport infrastructure
                 (roads, railways, ports, airports, waterways etc.)
-   unit: %
+   unit: '%'
 
 GDP|MER:
    description: GDP at market exchange rate
@@ -96,7 +96,7 @@ Population|Urban:
 
 Population|Urban|Share:
    description: Share of population living in urban areas
-   unit: %
+   unit: '%'
 
 Price|Carbon:
    description: Price of carbon (for regional aggregrates the weighted price of

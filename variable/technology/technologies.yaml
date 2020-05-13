@@ -15,8 +15,8 @@ Capacity|Electricity|Biomass|Traditionnal:
                 resources mostly waste (domestic and agricultural waste, forest residues). 
                 This biomass is assumed to be cheap but with a limited poten-tial
    unit: GW
-     
- Capacity|Electricity|Biomass|New and imported:
+
+Capacity|Electricity|Biomass|New and imported:
    description: Total installed electricity generation capacity of new biomass power plants 
                 New biomass is biomass coming from dedicated energy crops and biomass imports. 
                 Thus, biomass 2 is assumed to have a very high potential but higher cost.
@@ -663,82 +663,82 @@ Forced Outage Rate|Electricity|Biomass|Traditionnal:
    description: Unavailability Rate due to failures of typical Traditionnal Biomass power plant 
                 biomass from local and pre-existing 
                 resources mostly waste :domestic and agricultural waste, forest residues. 
-   unit: %
+   unit: '%'
      
 Forced Outage Rate|Electricity|Biomass|New and imported :
    description: Unavailability Rate due to failures of typical new biomass power plant 
                 biomass from dedicated energy crops and biomass imports. 
-   unit: %
+   unit: '%'
    
 Forced Outage Rate|Electricity|Nuclear:
    description: Unavailability Rate due to failures of typical nuclear power plant 
-   unit: %
+   unit: '%'
    
 Forced Outage Rate|Electricity|Gas|OCGT:
    description: Unavailability Rate due to failures of typical Open Cycle Gas Turbine power plant 
-   unit: %
+   unit: '%'
    
 Forced Outage Rate|Electricity|Gas|Coal:
    description: Unavailability Rate due to failures of typical coal power plant 
-   unit: %
+   unit: '%'
    
 Forced Outage Rate|Electricity|Lignite:
    description: Unavailability Rate due to failures of typical Lignite power plant 
-   unit: %
+   unit: '%'
    
 Planned Outage Rate|Electricity|Biomass|Traditionnal:
    description: Unavailability Rate due to maintenance of typical Traditionnal Biomass power plant 
                 biomass from local and pre-existing 
                 resources mostly waste :domestic and agricultural waste, forest residues. 
-   unit: %
+   unit: '%'
      
 Planned Outage Rate|Electricity|Biomass|New and imported :
    description: Unavailability Rate due to maintenance of typical new biomass power plant 
                 biomass from dedicated energy crops and biomass imports. 
-   unit: %
+   unit: '%'
    
 Planned Outage Rate|Electricity|Nuclear:
    description: Unavailability Rate due to maintenance of typical nuclear power plant 
-   unit: %
+   unit: '%'
    
 Planned Outage Rate|Electricity|Gas|OCGT:
    description: Unavailability Rate due to maintenance of typical Open Cycle Gas Turbine power plant 
-   unit: %
+   unit: '%'
    
 Planned Outage Rate|Electricity|Gas|Coal:
    description: Unavailability Rate due to maintenance of typical coal power plant 
-   unit: %
+   unit: '%'
    
 Planned Outage Rate|Electricity|Lignite:
    description: Unavailability Rate due to maintenance of typical Lignite power plant 
-   unit: %
+   unit: '%'
    
 Mean Outage Duration|Electricity|Biomass|Traditionnal:
    description: Mean duration of outages for a typical Traditionnal Biomass power plant 
                 biomass from local and pre-existing 
                 resources mostly waste :domestic and agricultural waste, forest residues. 
-   unit: %
+   unit: '%'
      
 Mean Outage Duration|Electricity|Biomass|New and imported :
    description: Mean duration of outages for a typical new biomass power plant 
                 biomass from dedicated energy crops and biomass imports. 
-   unit: %
+   unit: '%'
    
 Mean Outage Duration|Electricity|Nuclear:
    description: Mean duration of outages for a typical nuclear power plant 
-   unit: %
+   unit: '%'
    
 Mean Outage Duration|Electricity|Gas|OCGT:
    description: Mean duration of outages for a typical Open Cycle Gas Turbine power plant 
-   unit: %
+   unit: '%'
    
 Mean Outage Duration|Electricity|Gas|Coal:
    description: Mean duration of outages for a typical coal power plant 
-   unit: %
+   unit: '%'
    
 Mean Outage Duration|Electricity|Lignite:
    description: Mean duration of outages for a typical Lignite power plant 
-   unit: %
+   unit: '%'
    
 CO2 Emmissions|Electricity|Biomass|Traditionnal:
    description: CO2 emmissions of a typical Traditionnal Biomass power plant 
@@ -826,66 +826,66 @@ Rate Frequency Containment Reserve|Electricity|Biomass|Traditionnal:
                 for a typical Traditionnal Biomass power plant 
                 biomass from local and pre-existing 
                 resources mostly waste :domestic and agricultural waste, forest residues. 
-   unit: %
+   unit: '%'
      
 Rate Frequency Containment Reserve|Electricity|Biomass|New and imported :
    description: Percentage of the Maximum Active Power that can be devoted to Frequency Containment Reserve
                 for a typical new biomass power plant 
                 biomass from dedicated energy crops and biomass imports. 
-   unit: %
+   unit: '%'
    
 Rate Frequency Containment Reserve|Electricity|Nuclear:
    description: Percentage of the Maximum Active Power that can be devoted to Frequency Containment Reserve
                 for a typical nuclear power plant 
-   unit: %
+   unit: '%'
    
 Rate Frequency Containment Reserve|Electricity|Gas|OCGT:
    description: Percentage of the Maximum Active Power that can be devoted to Frequency Containment Reserve
                 for a typical Open Cycle Gas Turbine power plant 
-   unit: %
+   unit: '%'
    
 Rate Frequency Containment Reserve|Electricity|Gas|Coal:
    description: Percentage of the Maximum Active Power that can be devoted to Frequency Containment Reserve
                 for a typical coal power plant 
-   unit: %
+   unit: '%'
    
 Rate Frequency Containment Reserve|Electricity|Lignite:
    description: Percentage of the Maximum Active Power that can be devoted to Frequency Containment Reserve
                 for a typical Lignite power plant 
-   unit: %
+   unit: '%'
 
 Rate Automatic Frequency Restoration Reserve|Electricity|Biomass|Traditionnal:
    description: Percentage of the Maximum Active Power that can be devoted to Automatic Frequency Restoration Reserve
                 for a typical Traditionnal Biomass power plant 
                 biomass from local and pre-existing 
                 resources mostly waste :domestic and agricultural waste, forest residues. 
-   unit: %
+   unit: '%'
      
 Rate Automatic Frequency Restoration Reserve|Electricity|Biomass|New and imported :
    description: Percentage of the Maximum Active Power that can be devoted to Automatic Frequency Restoration Reserve
                 for a typical new biomass power plant 
                 biomass from dedicated energy crops and biomass imports. 
-   unit: %
+   unit: '%'
    
 Rate Automatic Frequency Restoration Reserve|Electricity|Nuclear:
    description: Percentage of the Maximum Active Power that can be devoted to Automatic Frequency Restoration Reserve
                 for a typical nuclear power plant 
-   unit: %
+   unit: '%'
    
 Rate Automatic Frequency Restoration Reserve|Electricity|Gas|OCGT:
    description: Percentage of the Maximum Active Power that can be devoted to Automatic Frequency Restoration Reserve
                 for a typical Open Cycle Gas Turbine power plant 
-   unit: %
+   unit: '%'
    
 Rate Automatic Frequency Restoration Reserve|Electricity|Gas|Coal:
    description: Percentage of the Maximum Active Power that can be devoted to Automatic Frequency Restoration Reserve
                 for a typical coal power plant 
-   unit: %
+   unit: '%'
    
 Rate Automatic Frequency Restoration Reserve|Electricity|Lignite:
    description: Percentage of the Maximum Active Power that can be devoted to Automatic Frequency Restoration Reserve
                 for a typical Lignite power plant 
-   unit: %
+   unit: '%'
 
 # description of simple hydrosystems - reservoir hydro
 # this describes systems composed of one reservoir and one plant (with potential pumping capacity) that are used for seasonal storage
@@ -911,7 +911,7 @@ Minimum Storage|Electricity|Hydro|Reservoir:
 
 Pumping Efficiency|Electricity|Hydro|Reservoir:
    description: efficiency of pumping for a reservoir power plant
-   unit: %
+   unit: '%'
    
 Inertia|Electricity|Hydro|Reservoir:
    description: inertia provided to the system by a typical "simple Hydro reservoir " unit 
@@ -949,7 +949,7 @@ Minimum Storage|Electricity|Hydro|Pumped Storage:
 
 Pumping Efficiency|Electricity|Hydro|Pumped Storage:
    description: efficiency of pumping for a Pumped Storage
-   unit: %
+   unit: '%'
    
 Inertia|Electricity|Hydro|Pumped Storage:
    description: inertia provided to the system by a Pumped Storage unit 
@@ -958,12 +958,12 @@ Inertia|Electricity|Hydro|Pumped Storage:
 Rate Frequency Containment Reserve|Electricity|Hydro|Pumped Storage:
    description: Percentage of the Maximum Active Power that can be devoted to Frequency Containment Reserve
                 for a Pumped Storage unit
-   unit: %
+   unit: '%'
    
 Rate Automatic Frequency Restoration Reserve|Electricity|Hydro|Reservoir:
    description: Percentage of the Maximum Active Power that can be devoted to Automatic Frequency Restoration Reserve
                 for a Pumped Storage unit 
-   unit: %
+   unit: '%'
 
 # description of simple hydrosystems -  run of river
 # this describes systems composed of one run of river plant (without storage)
@@ -977,7 +977,7 @@ Maximum Active power|Electricity|Hydro|Run of River:
    
 LoadFactor|Electricity|Hydro|Run of River|Profile:
    description: Timeserie of hourly loadfactors for  "Run of River"
-   unit: %
+   unit: '%'
    
 Minimum Active power|Electricity|Hydro|Run of River:
    description: Minimum active power of one  "Run of River" unit
@@ -990,12 +990,12 @@ Inertia|Electricity|Hydro|Reservoir:
 Rate Frequency Containment Reserve|Electricity|Hydro|Reservoir:
    description: Percentage of the Maximum Active Power that can be devoted to Frequency Containment Reserve
                 for a typical "simple Hydro reservoir " unit
-   unit: %
+   unit: '%'
    
 Rate Automatic Frequency Restoration Reserve|Electricity|Hydro|Reservoir:
    description: Percentage of the Maximum Active Power that can be devoted to Automatic Frequency Restoration Reserve
                 for a typical "simple Hydro reservoir " unit 
-   unit: %
+   unit: '%'
    
 # description of PV power plants
 Number of Units|Electricity|Solar:
@@ -1008,7 +1008,7 @@ Maximum Active power|Electricity|Solar:
    
 LoadFactor|Electricity|Solar|Profile:
    description: Timeserie of hourly loadfactors for Photovoltaic power plants
-   unit: %
+   unit: '%'
    
 Minimum Active power|Electricity|Solar:
    description: Minimum active power of one Photovoltaic power plant
@@ -1021,12 +1021,12 @@ Inertia|Electricity|Solar:
 Rate Frequency Containment Reserve|Electricity|Solar:
    description: Percentage of the Maximum Active Power that can be devoted to Frequency Containment Reserve
                 for a Photovoltaic power plant
-   unit: %
+   unit: '%'
    
 Rate Automatic Frequency Restoration Reserve|Electricity|Solar:
    description: Percentage of the Maximum Active Power that can be devoted to Automatic Frequency Restoration Reserve
                 for a Photovoltaic power plant
-   unit: %
+   unit: '%'
    
 # description of Wind Onshore power plants
 Number of Units|Electricity|Wind|OnShore:
@@ -1039,7 +1039,7 @@ Maximum Active power|Electricity|Wind|OnShore:
 
 LoadFactor|Electricity|Wind|OnShore|Profile:
    description: Timeserie of hourly loadfactors for Onshore Windpower
-   unit: %
+   unit: '%'
    
 Minimum Active power|Electricity|Wind|OnShore:
    description: Minimum active power of one Wind Onshore power plant
@@ -1052,12 +1052,12 @@ Inertia|Electricity|Wind|OnShore:
 Rate Frequency Containment Reserve|Electricity|Wind|OnShore:
    description: Percentage of the Maximum Active Power that can be devoted to Frequency Containment Reserve
                 for a Wind Onshore power plant
-   unit: %
+   unit: '%'
    
 Rate Automatic Frequency Restoration Reserve|Electricity|Wind|OnShore:
    description: Percentage of the Maximum Active Power that can be devoted to Automatic Frequency Restoration Reserve
                 for a Wind Onshore power plant
-   unit: %
+   unit: '%'
    
 # description of Wind Offshore power plants
 Number of Units|Electricity|Wind|OffShore:
@@ -1070,7 +1070,7 @@ Maximum Active power|Electricity|Wind|OffShore:
 
 LoadFactor|Electricity|Wind|OffShore|Profile:
    description: Timeserie of hourly loadfactors for Offshore Windpower
-   unit: %
+   unit: '%'
    
 Minimum Active power|Electricity|Wind|OffShore:
    description: Minimum active power of one Wind OffShore power plant
@@ -1083,9 +1083,9 @@ Inertia|Electricity|Wind|OffShore:
 Rate Frequency Containment Reserve|Electricity|Wind|OffShore:
    description: Percentage of the Maximum Active Power that can be devoted to Frequency Containment Reserve
                 for a Wind OffShore power plant
-   unit: %
+   unit: '%'
    
 Rate Automatic Frequency Restoration Reserve|Electricity|Wind|OffShore:
    description: Percentage of the Maximum Active Power that can be devoted to Automatic Frequency Restoration Reserve
                 for a Wind OffShore power plant
-   unit: %
+   unit: '%'
