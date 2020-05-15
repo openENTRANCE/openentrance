@@ -1,6 +1,8 @@
 from pathlib import Path
+import logging
 import yaml
 
+logger = logging.getLogger(__name__)
 
 DEF_PATH = Path('nomenclature/definitions')
 REGION_PATH = DEF_PATH / 'region'
@@ -9,7 +11,12 @@ __all__ = [
     'variables',
 ]
 
-#%% variables
+stderr_info_handler = logging.StreamHandler()
+formatter = logging.Formatter('%(name)s - %(levelname)s: %(message)s')
+stderr_info_handler.setFormatter(formatter)
+logger.addHandler(stderr_info_handler)
+
+# variables
 
 # dictionary of variables
 variables = {}
@@ -17,7 +24,7 @@ for file in (DEF_PATH / 'variable').glob('**/*.yaml'):
     with open(file, 'r') as stream:
         variables.update(yaml.safe_load(stream))
 
-#%% regions
+# regions
 
 # dictionary of regions
 regions = {}
@@ -39,11 +46,12 @@ iso_mapping = dict(
 
 # build hierarchical dictionary of nuts region classification
 
-## load nuts3 codelist from file
+# load nuts3 codelist from file
 with open(REGION_PATH / 'nuts3.yaml', 'r') as stream:
     nuts3_codelist = yaml.load(stream, Loader=yaml.FullLoader)
 
-## auxiliary function to add key-value to object and return
+
+# auxiliary function to add key-value to object and return
 def _add_to(mapping, key, value):
     if key not in mapping:
         mapping[key] = value
@@ -51,7 +59,8 @@ def _add_to(mapping, key, value):
         mapping[key] += value
     return mapping[key]
 
-## iterate over nuts3 codelist and recursively add items to the hierarchy dict
+
+# iterate over nuts3 codelist and recursively add items to the hierarchy dict
 nuts_hierarchy = dict()
 for _n3, mapping in nuts3_codelist.items():
     _country, _n1, _n2 = mapping['country'], mapping['nuts1'], mapping['nuts2']
