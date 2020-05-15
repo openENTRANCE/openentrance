@@ -6,22 +6,22 @@
 Constant Var Cost|Electricity|Coal:
    description: Constant term (intercept) of the heat rate straight line. Cost of the power generation unit who belongs to the specified power
                 plant category. It refers to the unit commitment variable of each power plant per unit time.
-   unit: Mcal/h
+   unit: Mcal/hour
 
 Constant Var Cost|Electricity|Gas:
    description: Constant term (intercept) of the heat rate straight line. Cost of the power generation unit who belongs to the specified power
                 plant category. It refers to the unit commitment variable of each power plant per unit time.
-   unit: Mcal/h
+   unit: Mcal/hour
 
 Constant Var Cost|Electricity|Nuclear:
    description: Constant term (intercept) of the heat rate straight line. Cost of the power generation unit who belongs to the specified power
                 plant category. It refers to the unit commitment variable of each power plant per unit time.
-   unit: Mcal/h
+   unit: Mcal/hour
 
 Constant Var Cost|Electricity|Oil:
    description: Constant term (intercept) of the heat rate straight line. Cost of the power generation unit who belongs to the specified power
                 plant category. It refers to the unit commitment variable of each power plant per unit time.
-   unit: Mcal/h
+   unit: Mcal/hour
 
 Linear Var Cost|Electricity|Coal:
    description: Linear term (slope) of the heat rate straight line. Cost of the power generation unit who belongs to the specified power
