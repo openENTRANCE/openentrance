@@ -1,6 +1,5 @@
 import pathlib
 import yaml
-import nomenclature
 
 
 def test_parse_yaml_files():
