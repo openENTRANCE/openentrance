@@ -4,6 +4,18 @@ Consumption:
    description: Total consumption of all goods, by all consumers in a region
    unit: billion US$2010/yr
 
+Consumption|Electricity:
+   description: Total consumption of electricity, by all consumers in a region
+   unit: billion US$2010/yr
+   
+Consumption|Percentage change relative to 2020:
+   description: Total consumption of of all goods, by all consumers in a region
+   unit: '%'
+
+Consumption|Percentage change relative to 2020|Electricity:
+   description: Total consumption of electricity, by all consumers in a region
+   unit: '%'
+
 Discount rate|Buildings:
    description: Discount rate for investments into residential and commercial
                 buildings
