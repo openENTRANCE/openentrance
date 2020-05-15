@@ -31,6 +31,11 @@ def validate(df):
         success = False
         logger.warning(warn_invalid.format('regions', invalid_regions))
 
+    invalid_vars = [v for v in df.variables() if v not in variables]
+    if invalid_vars:
+        success = False
+        logger.warning(warn_invalid.format('variables', invalid_vars))
+
     return success
 
 
