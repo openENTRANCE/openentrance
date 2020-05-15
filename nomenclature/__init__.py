@@ -1,11 +1,14 @@
 from pathlib import Path
 import logging
 import yaml
+from pyam import IamDataFrame
 
 logger = logging.getLogger(__name__)
 
 DEF_PATH = Path('nomenclature/definitions')
 REGION_PATH = DEF_PATH / 'region'
+
+warn_invalid = 'The following {} are not defined in the nomenclature:\n    {}'
 
 __all__ = [
     'variables',
@@ -15,6 +18,21 @@ stderr_info_handler = logging.StreamHandler()
 formatter = logging.Formatter('%(name)s - %(levelname)s: %(message)s')
 stderr_info_handler.setFormatter(formatter)
 logger.addHandler(stderr_info_handler)
+
+# validation function
+
+def validate(df):
+
+    df = IamDataFrame(df)
+    success = True
+
+    invalid_regions = [r for r in df.regions() if r not in regions]
+    if invalid_regions:
+        success = False
+        logger.warning(warn_invalid.format('regions', invalid_regions))
+
+    return success
+
 
 # variables
 
@@ -67,4 +85,3 @@ for _n3, mapping in nuts3_codelist.items():
     country_dict = _add_to(nuts_hierarchy, _country, {_n1: dict()})
     _n1_dict = _add_to(country_dict, _n1, {_n2: list()})
     _add_to(_n1_dict, _n2, [_n3])
-
