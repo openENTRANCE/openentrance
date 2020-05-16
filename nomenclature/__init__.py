@@ -95,3 +95,12 @@ for _n3, mapping in nuts3_codelist.items():
     country_dict = _add_to(nuts_hierarchy, _country, {_n1: dict()})
     _n1_dict = _add_to(country_dict, _n1, {_n2: list()})
     _add_to(_n1_dict, _n2, [_n3])
+
+
+# subannual timeslices
+
+# dictionary of timeslices
+subannual = {}
+for file in (DEF_PATH / 'subannual').glob('**/*.yaml'):
+    with open(file, 'r') as stream:
+        subannual.update(yaml.safe_load(stream))
