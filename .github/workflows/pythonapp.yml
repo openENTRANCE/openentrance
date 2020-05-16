@@ -33,7 +33,7 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Test successful parsing of yaml files
       run: |
-        pytest nomenclature/tests/test_parse_yaml.py
+        pytest nomenclature/tests/_test_parse_yaml.py
     - name: Install and test package functions
       run: |
         pip install --editable .
