@@ -26,15 +26,20 @@ def validate(df):
     df = IamDataFrame(df)
     success = True
 
-    invalid_regions = [r for r in df.regions() if r not in regions]
-    if invalid_regions:
-        success = False
-        logger.warning(warn_invalid.format('regions', invalid_regions))
+    # set up list of dimension (columns) to validate
+    cols = [
+        ('region', regions, 's'),
+        ('variable', variables, 's')
+    ]
+    if 'subannual' in df.data.columns:
+        cols.append(('subannual', subannual, ' timeslices'))
 
-    invalid_vars = [v for v in df.variables() if v not in variables]
-    if invalid_vars:
-        success = False
-        logger.warning(warn_invalid.format('variables', invalid_vars))
+    # iterate over dimensions and perform validation
+    for col, codelist, ext in cols:
+        invalid = [c for c in df.data[col].unique() if c not in codelist]
+        if invalid:
+            success = False
+            logger.warning(warn_invalid.format(col + ext, invalid))
 
     return success
 
