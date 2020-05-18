@@ -16,12 +16,12 @@ logger.addHandler(stderr_info_handler)
 
 
 def _parse_yaml(path, file='**/*', ext='.yaml'):
-    """Parse yaml files in path (all files in subfolders if `file='**/*'`)"""
+    """Parse `file` in `path` (or all files in subfolders if `file='**/*'`)"""
     dct = {}
     for f in path.glob(f'{file}{ext}'):
         with open(f, 'r') as stream:
             _dct = yaml.safe_load(stream)
-            # add `file` attribute to each dictionary
+            # add `file` attribute to each element in the dictionary
             for key, value in _dct.items():
                 value['file'] = str(f)
             dct.update(_dct)
