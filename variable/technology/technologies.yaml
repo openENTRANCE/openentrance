@@ -1089,3 +1089,30 @@ Rate Automatic Frequency Restoration Reserve|Electricity|Wind|OffShore:
    description: Percentage of the Maximum Active Power that can be devoted to Automatic Frequency Restoration Reserve
                 for a Wind OffShore power plant
    unit: '%'
+   
+# description of Demand flexibility potentials
+Number of Units|Electricity|Residential|Demand Flexibility:
+   description: Number of units of kind "simple Hydro reservoir "
+   unit: 
+   
+Maximum Active power|Electricity|Residential|Demand Flexibility:
+   description: Potential for demand response in a given region/time frame, 
+                expressed as % decrease in residential electricity demand
+   unit: %
+   
+Maximum Storage|Electricity|Residential|Demand Flexibility:
+   description: Potential for demand dispatch in a given region/time frame,
+                expressed as % increase in residential electricity demand 
+   unit: %
+   
+Variable Cost|Electricity|Residential|Demand Flexibility:
+   description: Marginal cost of Demand Flexibility in residential electricity demand
+   unit: €/% change
+   
+Capital Cost|Electricity|Residential|Demand Flexibility|Maximum Active power:
+   description: Fixed costs associated with demand flexibility potentials (e.g. installing IoT devices)
+   unit: €/%
+   
+Capital Cost|Electricity|Residential|Demand Flexibility|Maximum Storage:
+   description: Fixed costs associated with demand flexibility potentials (e.g. installing IoT devices)
+   unit: €/%
