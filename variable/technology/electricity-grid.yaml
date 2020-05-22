@@ -21,11 +21,11 @@ Network|Electricity|Demand|Inertia:
    unit: second
 
 # description of variables related to transmission lines
-Active Power Flow|Electricity|Transmission|Line:
+Active Power Flow|Electricity|Transmission:
    description: Active power flow through a line
    unit: MW
 
-Binary Investment|Electricity|Transmission|Line:
+Binary Investment|Electricity|Transmission:
    description: Binary line/circuit investment decision. Note that it is a output data from model and if it makes a product with the investmen cost of the line, we get the investment in monetary unit.
    unit: [Yes, No]
 
@@ -37,23 +37,23 @@ Investment|Electricity|Transmission:
    description: Investments in transmission of the power network
    unit: billion US$2010/yr
 
-Investment|Electricity|Transmission|Line:
+Investment|Electricity|Transmission:
    description: Overnight investment (capital) cost in transmission lines of the power network
    unit: billion US$2010/yr
 
-Fixed Charge Rate|Electricity|Transmission|Line:
+Fixed Charge Rate|Electricity|Transmission:
    description: Fixed charge rate to annualize the overnight investment cost. The Fixed Charge Rate (FCR) is the percentage of the total investment cost that is required over the project life per year to cover the minimal annual revenue requirements.
    unit:
 
-Line Type|Electricity|Transmission|Line:
+Line Type|Electricity|Transmission:
    description: Line type related to alternating current (AC) and direct current (DC)
    unit: [AC, DC]
 
-Line Losses|Electricity|Transmission|Line:
+Line Losses|Electricity|Transmission:
    description: Half ohmic losses of a line
    unit: MW
 
-Loss Factor|Electricity|Transmission|Line:
+Loss Factor|Electricity|Transmission:
    description: Transmission losses equal to the line flow times this factor
    unit:
 
@@ -65,11 +65,11 @@ Maximum Flow|Electricity|Transmission:
    description: Maximum flow of an interconnection between 2 regions
    unit: MW
 
-Maximum Flow|Electricity|Transmission|Line:
+Maximum Flow|Electricity|Transmission:
    description: Maximum flow of a transmission line between 2 regions (i.e. aggregate-regions, countries, nuts1, nuts2, nuts3, or nodes). Total transfer capacity (TTC). (maximum permissible thermal load)
    unit: MW
 
-Minimum Flow|Electricity|Grid:
+Minimum Flow|Electricity|Transmission:
    description: Minimum flow of an interconnection between 2 regions
    unit: MW
 
@@ -81,7 +81,7 @@ Operating Reserve Up|Electricity:
    description: Operating reserve up of the system for each load level. It is the sum of aFRR (or secondary reserve), FRR & RR (FRR+RR = tertiary reserve).
    unit: MW
 
-Reactance|Electricity|Transmission|Line:
+Reactance|Electricity|Transmission:
    description: Reactance. Lines need to have a reactance different from 0 in the case of a DC cable or a transportation modeling for an AC cable
    unit:
 
@@ -89,7 +89,7 @@ Replacement Reserve|Electricity:
    description: Replacement reserve (RR) means the active power reserves available to restore or support the required level of frequency restoration reserve (FRR) to be prepared for additional system imbalances, including generation reserves.
    unit: MW
 
-Security Factor|Electricity|Transmission|Line:
+Security Factor|Electricity|Transmission:
    description: Security factor to consider approximately N-1 contingencies. NTC = TTC x SecurityFactor
    unit:
 
