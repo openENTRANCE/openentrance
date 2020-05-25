@@ -3,16 +3,16 @@ import logging
 import yaml
 from pyam import IamDataFrame
 
-logger = logging.getLogger(__name__)
-
-DEF_PATH = Path('nomenclature/definitions')
-
-
 # set up logging formatting
+logger = logging.getLogger(__name__)
 stderr_info_handler = logging.StreamHandler()
 formatter = logging.Formatter('%(name)s - %(levelname)s: %(message)s')
 stderr_info_handler.setFormatter(formatter)
 logger.addHandler(stderr_info_handler)
+
+
+# path to nomenclature definitions
+DEF_PATH = Path(__file__).parent / 'definitions'
 
 
 def _parse_yaml(path, file='**/*', ext='.yaml'):
