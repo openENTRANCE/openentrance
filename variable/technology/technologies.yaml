@@ -1,5 +1,4 @@
 # List of variables related to (energy) technologies
-
 Capacity|Electricity:
    description: Total installed electricity generation capacity
    unit: GW
