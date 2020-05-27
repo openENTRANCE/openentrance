@@ -1,25 +1,90 @@
 # List of variables related to the electricity grid
+# description of variables related to electricity demand
+Cost of Demand-not-served|Electricity:
+   description: Cost of demand-not-served. Cost of load curtailment. Value of Lost Load (VoLL)
+   unit: €/MWh
+
+Demand-not-served|Electricity:
+   description: Demand-not-served per region (i.e. aggregate-regions, countries, nuts1, nuts2, nuts3, or nodes).
+   unit: MWh
 
 Network|Electricity|Demand|Reserve|Frequency Containment:
-   description: demand in frequency containment reserve (FCR)            
+   description: demand in frequency containment reserve (FCR)
    unit: MW
-   
+
 Network|Electricity|Demand|Reserve|Automatic Frequency Restoration:
-   description: demand in automatic frequency restoration reserve (AFRR)             
+   description: demand in automatic frequency restoration reserve (AFRR)
    unit: MW
-   
+
 Network|Electricity|Demand|Inertia:
-   description: demand in inertia            
+   description: demand in inertia
    unit: second
-   
-Maximum Flow|Electricity|Grid:
-   description: maximum flow of an interconnection between 2 regions
+
+# description of variables related to transmission lines
+Active Power Flow|Electricity|Transmission:
+   description: Active power flow through a line
    unit: MW
-   
-Minimum Flow|Electricity|Grid:
-   description: minimum flow of an interconnection between 2 regions
-   unit: MW
-   
-Impedance|Electricity|Grid:
-   description: impedance of an interconnection between 2 regions
+
+Binary Investment|Electricity|Transmission:
+   description: Binary line/circuit investment decision. Note that it is a output data from model and if it makes a product with the investmen cost of the line, we get the investment in monetary unit.
+   unit: [Yes, No]
+
+Impedance|Electricity|Transmission:
+   description: Impedance of an interconnection between 2 regions
    unit: S
+
+Investment|Electricity|Transmission:
+   description: Overnight investment (capital) cost in transmission lines of the power network
+   unit: billion US$2010/yr
+
+Fixed Charge Rate|Electricity|Transmission:
+   description: Fixed charge rate to annualize the overnight investment cost. The Fixed Charge Rate (FCR) is the percentage of the total investment cost that is required over the project life per year to cover the minimal annual revenue requirements.
+   unit:
+
+Line Type|Electricity|Transmission:
+   description: Line type related to alternating current (AC) and direct current (DC)
+   unit: [AC, DC]
+
+Line Losses|Electricity|Transmission:
+   description: Half ohmic losses of a line
+   unit: MW
+
+Loss Factor|Electricity|Transmission:
+   description: Transmission losses equal to the line flow times this factor
+   unit:
+
+Manual Frequency Restoration Reserve|Electricity:
+   description: Manual frequency restoration reserve (mFRR) is used to relieve the automatic frequency restoration reserve during prolonged imbalances.
+   unit: MW
+
+Maximum Flow|Electricity|Transmission:
+   description: Maximum flow of a transmission line between 2 regions (i.e. aggregate-regions, countries, nuts1, nuts2, nuts3, or nodes). Total transfer capacity (TTC). (maximum permissible thermal load)
+   unit: MW
+
+Minimum Flow|Electricity|Transmission:
+   description: Minimum flow of an interconnection between 2 regions
+   unit: MW
+
+Operating Reserve Down|Electricity:
+   description: Operating reserve down of the system for each load level. It is the sum of aFRR (or secondary reserve), FRR & RR (FRR+RR = tertiary reserve).
+   unit: MW
+
+Operating Reserve Up|Electricity:
+   description: Operating reserve up of the system for each load level. It is the sum of aFRR (or secondary reserve), FRR & RR (FRR+RR = tertiary reserve).
+   unit: MW
+
+Reactance|Electricity|Transmission:
+   description: Reactance. Lines need to have a reactance different from 0 in the case of a DC cable or a transportation modeling for an AC cable
+   unit:
+
+Replacement Reserve|Electricity:
+   description: Replacement reserve (RR) means the active power reserves available to restore or support the required level of frequency restoration reserve (FRR) to be prepared for additional system imbalances, including generation reserves.
+   unit: MW
+
+Security Factor|Electricity|Transmission:
+   description: Security factor to consider approximately N-1 contingencies. NTC = TTC x SecurityFactor
+   unit:
+
+Voltage Angle|Electricity:
+   description: Voltage angle of a node
+   unit: Rad
