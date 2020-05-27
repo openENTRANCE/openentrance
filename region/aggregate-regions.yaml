@@ -31,7 +31,11 @@ Balkans:
    definition: 'AL + BA + BG + GR + HR + ME + MK + RO + RS + SI'
    source: plan4res public dataset (D4.5)
    notes: includes also Kosovo (XK) as it is 'included' within Serbia (RS) (meaning energy capacity/depands of Kosovo are included in serbian data
-   
+
+Non-EU-Balkans:
+   definition: 'AL + BA + ME + MK + RS'
+   notes: includes also Kosovo (XK) as it is 'included' within Serbia (RS) (meaning energy capacity/depands of Kosovo are included in serbian data
+
 Scandinavia:
    definition: 'DK + FI + NO + SE'
    source: plan4res public dataset (D4.5)
