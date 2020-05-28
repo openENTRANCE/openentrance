@@ -66,6 +66,19 @@ Capacity|Electricity|Gas|CCGT|w/o CCS:
    description: Total installed electricity generation capacity of Combined Cycle Gas Turbines
                 plants without CCS
    unit: GW
+   
+Capacity|Electricity|Hydrogen:
+   description: Total installed electricity generation capacity from hydrogen
+   unit: GW
+   
+Capacity|Electricity|Hydrogen|OCGT:
+   description: Total installed electricity generation capacity from hydrogen of Open Cycle Gas Turbines
+                plants
+   unit: GW
+   
+Capacity|Electricity|Hydrogen|Fuel Cell:
+   description: Total installed electricity generation capacity from hydrogen of Fuel Cell plants
+   unit: GW
 
 Capacity|Electricity|Geothermal:
    description: Total installed electricity generation capacity of geothermal
