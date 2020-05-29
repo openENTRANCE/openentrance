@@ -46,13 +46,14 @@ industry or the building stock.
 
 In the data format, every timeseries is described by six dimensions (codes):
 
-1.	Model - [more information](model)
-2.	Scenario - [more information](scenario)
-3.	Region - [more information](region)
-4.	Variable - [more information](variable)
-5.	Unit - see the section on [variables](variable) for details
+1.	Model - [more information](nomenclature/definitions/model)
+2.	Scenario - [more information](nomenclature/definitions/scenario)
+3.	Region - [more information](nomenclature/definitions/region)
+4.	Variable - [more information](nomenclature/definitions/variable)
+5.	Unit - see the section on [variables](nomenclature/definitions/variable)
+    for details
 6.	Subannual (optional, default 'Year')<sup>[1]</sup> -
-    [more information](subannual)
+    [more information](nomenclature/definitions/subannual)
 
 In addition to these six dimensions, every timeseries is described by
 a set of **year-value** pairs.
