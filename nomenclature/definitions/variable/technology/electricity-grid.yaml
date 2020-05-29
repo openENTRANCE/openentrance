@@ -9,15 +9,15 @@ Demand-not-served|Electricity:
    unit: MWh
 
 Network|Electricity|Demand|Reserve|Frequency Containment:
-   description: demand in frequency containment reserve (FCR)
+   description: Demand in frequency containment reserve (FCR)
    unit: MW
 
 Network|Electricity|Demand|Reserve|Automatic Frequency Restoration:
-   description: demand in automatic frequency restoration reserve (AFRR)
+   description: Demand in automatic frequency restoration reserve (AFRR)
    unit: MW
 
 Network|Electricity|Demand|Inertia:
-   description: demand in inertia
+   description: Demand in inertia
    unit: second
 
 # description of variables related to transmission lines
