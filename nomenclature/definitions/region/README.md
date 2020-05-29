@@ -55,7 +55,7 @@ to the common country names using the installable Python package.
 
 ```python
 >>> import nomenclature as nc
->>>list(nc.countries)
+>>> list(nc.countries)
 ['Albania', 'Andorra', 'Austria', ..., 'United Kingdom']
 >>> nc.iso_mapping['GR']
 'Greece'
@@ -89,7 +89,7 @@ The code snippet (Python) below shows how to obtain a recursive dictionary
 along the NUTS classification, i.e.,
 
 ```
-hierarchy = {
+nuts_hierarchy = {
     <country>: {
         <nuts1>: {
             <nuts2>: [<list of nuts3 areas>],
