@@ -50,22 +50,29 @@ iso_mapping = dict(
 """Dictionary of iso2/iso3/alternative-iso2 codes to country names"""
 
 
-def _add_to(_mapping, key, value):
+def _add_to(mapping, key, value):
     """Add key-value to mapping"""
     if key not in mapping:
-        _mapping[key] = value
+        mapping[key] = value
     elif isinstance(value, list):
-        _mapping[key] += value
-    return _mapping[key]
+        mapping[key] += value
+    return mapping[key]
 
 
-nuts_hierarchy = dict()
+def _create_nuts3_hierarchy():
+    """Parse nuts3.yaml and create hierarchical dictionary"""
+    hierarchy = dict()
+    keys = ['country', 'nuts1', 'nuts2']
+    for n3, mapping in _parse_yaml(DEF_PATH / 'region', 'nuts3').items():
+        country, n1, n2 = [mapping.get(i) for i in keys]
+        country_dict = _add_to(hierarchy, country, {n1: dict()})
+        n1_dict = _add_to(country_dict, n1, {n2: list()})
+        _add_to(n1_dict, n2, [n3])
+    return hierarchy
+
+
+nuts_hierarchy = _create_nuts3_hierarchy()
 """Hierarchical dictionary of nuts region classification"""
-for _n3, mapping in _parse_yaml(DEF_PATH / 'region', 'nuts3').items():
-    _country, _n1, _n2 = mapping['country'], mapping['nuts1'], mapping['nuts2']
-    country_dict = _add_to(nuts_hierarchy, _country, {_n1: dict()})
-    _n1_dict = _add_to(country_dict, _n1, {_n2: list()})
-    _add_to(_n1_dict, _n2, [_n3])
 
 
 subannual = _parse_yaml(DEF_PATH / 'subannual')
