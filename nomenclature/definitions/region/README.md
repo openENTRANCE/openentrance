@@ -50,23 +50,19 @@ in the [data](data) folder.
 #### Example for using this codelist
 
 The code snippet (Python) below shows how to obtain the list of countries
-and a mapping of ISO2-codes (including alternatives)
-to the common country names.
+and a mapping of ISO2/3-codes (including alternatives)
+to the common country names using the installable Python package.
 
 ```python
-# load countries codelist from file
-import yaml
-with open('countries.yaml', 'r') as stream:
-    country_codelist = yaml.load(stream, Loader=yaml.FullLoader)
-
-# translate codelist to list and mapping (dictionary)
-list_of_countries = list(country_codelist)
-iso2_mapping = dict(
-    [(country_codelist[c]['iso2'], c) for c in country_codelist]
-    # add alternative iso2 codes used by the European Commission to the mapping
-    + [(country_codelist[c]['iso2_alt'], c) for c in country_codelist
-       if 'iso2_alt' in country_codelist[c]]
-)
+>>> import nomenclature as nc
+>>>list(nc.countries)
+['Albania', 'Andorra', 'Austria', ..., 'United Kingdom']
+>>> nc.iso_mapping['GR']
+'Greece'
+>>> nc.iso_mapping['GRC']
+'Greece'
+>>> nc.iso_mapping['EL']
+'Greece'
 ```
 
 ### Sub-country areas following the 'Nomenclature of Territorial Units for Statistics' (NUTS)
@@ -90,41 +86,28 @@ website (last download March 27, 2020, per [@erikfilias](https://github.com/erik
 #### Example for using this codelist
 
 The code snippet (Python) below shows how to obtain a recursive dictionary
-along the NUTS classification from the NUTS-3 codelist, i.e.,
+along the NUTS classification, i.e.,
 
 ```
 hierarchy = {
     <country>: {
         <nuts1>: {
-            <nuts2>: [<list of nuts3>],
+            <nuts2>: [<list of nuts3 areas>],
             ... },
         ... },
    ... },
 }
 ```
 
+The package also includes a `regions` dictionary with the names
+of all NUTS areas.
+
 ```python
-# load NUTS-3 codelist from file
-import yaml
-with open(f'nuts3.yaml', 'r') as stream:
-    nuts3_codelist = yaml.load(stream, Loader=yaml.FullLoader)
-
-# auxiliary function to add key-value to object and return
-def add_to(mapping, key, value):
-    if key not in mapping:
-        mapping[key] = value
-    elif isinstance(value, list):
-        mapping[key] += value
-    return mapping[key]
-
-hierarchy = dict()
-
-# iterate over NUTS-3 codelist and recursively add items to the hierarchy dict
-for n3, mapping in nuts3_codelist.items():
-    country, n1, n2 = mapping['country'], mapping['nuts1'], mapping['nuts2']
-    country_dict = add_to(hierarchy, country, {n1: dict()})
-    n1_dict = add_to(country_dict, n1, {n2: list()})
-    add_to(n1_dict, n2, [n3])
+>>> import nomenclature as nc
+>>> nc.nuts_hierarchy['Belgium']['BE2']['BE24']
+['BE241', 'BE242']]
+>>> nc.regions['BE241']['name']
+'Arr. Halle-Vilvoorde'
 ```
 
 ### Other sub-country area classification
