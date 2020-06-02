@@ -9,7 +9,7 @@ def test_parse_yaml_files():
     lst = []
     for file in pathlib.Path('.').glob('**/*.yaml'):
         try:
-            with open(file, 'r') as stream:
+            with open(file, 'r', encoding='utf-8') as stream:
                 yaml.safe_load(stream)
         except (yaml.scanner.ScannerError, yaml.parser.ParserError) as e:
             lst.append(f'{file}')

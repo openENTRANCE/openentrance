@@ -19,7 +19,7 @@ def _parse_yaml(path, file='**/*', ext='.yaml'):
     """Parse `file` in `path` (or all files in subfolders if `file='**/*'`)"""
     dct = {}
     for f in path.glob(f'{file}{ext}'):
-        with open(f, 'r') as stream:
+        with open(f, 'r', encoding='utf-8') as stream:
             _dct = yaml.safe_load(stream)
             # add `file` attribute to each element in the dictionary
             for key, value in _dct.items():
