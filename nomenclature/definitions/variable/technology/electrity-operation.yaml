@@ -1,0 +1,137 @@
+# Variables needed for plan4EU results in terms of electricity system operation
+# Schedules per power generation technologies, storages and demand-response
+# includes for each technology:
+#   - Active Power
+#   - Operation Cost
+#   - Reserves committed and Inertia provided
+#   - Levels of storages
+# Marginal costs for:
+#   - Demand in ACtive Power
+#   - Demand in reserves
+#   - Demand in inertia
+#   - Flows in transmission lines
+# Demand not served
+
+# Active Power per technologies
+# i.e.  aggregated committed (in general hourly) schedules of plants
+
+Active power|Electricity|Biomass|Traditionnal:
+   description: Active power of  Traditionnal Biomass power plants
+                biomass from local and pre-existing
+                resources mostly waste :domestic and agricultural waste, forest residues.
+   unit: MWh
+
+Active power|Electricity|Biomass|New and imported:
+   description: Active power of New+Imported biomass power plants
+                biomass from dedicated energy crops and biomass imports.
+   unit: MWh
+
+Active power|Electricity|Nuclear:
+   description: Active power of nuclear power plants
+   unit: MWh
+
+Active power|Electricity|Gas|OCGT:
+   description: Active power of Open Cycle Gas Turbine power plants
+   unit: MWh
+
+Active power|Electricity|Gas|Coal:
+   description: Active power of coal power plants
+   unit: MWh
+
+Active power|Electricity|Lignite:
+   description: Active power of Lignite power plants
+   unit: MWh
+   
+Active power|Electricity|Hydro|Reservoir:
+   description: Active power of "simple Hydro reservoir " units
+   unit: MWh
+   
+Active power|Electricity|Hydro|Pumped Storage:
+   description: Active power of "Pumped Storage " units
+   unit: MWh
+   
+Active power|Electricity|Hydro|Run of River:
+   description: Active power of "Run of River" units
+   unit: MWh
+   
+Active power|Electricity|Solar:
+   description: Active power of Photovoltaic power plants
+   unit: MWh
+   
+Active power|Electricity|Wind|OnShore:
+   description: Active power of  Wind Onshore power plants
+   unit: MWh
+   
+Active power|Electricity|Wind|OffShore:
+   description: Active power of  Wind OffShore power plants
+   unit: MWh
+   
+Active power|Electricity|Load Curtailement:
+   description: Energy curtailed - from the system point of view is equivalent to generation of Active Power
+   unit: MWh
+   
+Active power|Electricity|Load Shifting:
+   description: Energy shifted - from the system point of view is equivalent to generation of Active Power
+   unit: MWh
+   
+Active power|Electricity|Energy Storage System:
+   description: Active Power of energy storage systems, excl. hydro storage
+   unit: MWh
+   
+# Operation Cost per technologies
+# i.e.  operation cost of aggregated committments of plants, storages and demand-side systems
+
+Operation Cost|Electricity|Biomass|Traditionnal:
+   description: Operation Cost of  Traditionnal Biomass power plants
+                biomass from local and pre-existing
+                resources mostly waste :domestic and agricultural waste, forest residues.
+   unit: €
+
+Operation Cost|Electricity|Biomass|New and imported:
+   description: Operation Cost of New+Imported biomass power plants
+                biomass from dedicated energy crops and biomass imports.
+   unit: €
+
+Operation Cost|Electricity|Nuclear:
+   description: Operation Cost of nuclear power plants
+   unit: €
+
+Operation Cost|Electricity|Gas|OCGT:
+   description: Operation Cost of Open Cycle Gas Turbine power plants
+   unit: €
+
+Operation Cost|Electricity|Gas|Coal:
+   description: Operation Cost of coal power plants
+   unit: €
+
+Operation Cost|Electricity|Lignite:
+   description: Operation Cost of Lignite power plants
+   unit: €
+   
+Operation Cost|Electricity|Hydro|Reservoir:
+   description: Operation Cost of "simple Hydro reservoir " units
+   unit: €
+   
+Operation Cost|Electricity|Hydro|Pumped Storage:
+   description: Operation Cost of "Pumped Storage " units
+   unit: €
+   
+Operation Cost|Electricity|Hydro|Run of River:
+   description: Operation Cost of "Run of River" units
+   unit: €
+   
+Operation Cost|Electricity|Solar:
+   description: Operation Cost of Photovoltaic power plants
+   unit: €
+   
+Operation Cost|Electricity|Wind|OnShore:
+   description: Operation Cost of  Wind Onshore power plants
+   unit: €
+   
+Operation Cost|Electricity|Wind|OffShore:
+   description: Operation Cost of  Wind OffShore power plants
+   unit: €
+   
+Operation Cost|Electricity|Energy Storage System:
+   description: Operation Cost of energy storage systems, excl. hydro storage
+   unit: €
