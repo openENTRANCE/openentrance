@@ -28,8 +28,8 @@ $ cd nomenclature
 $ pip install --editable .
 ```
 
-Pulling new commits in the cloned folder will immediately
-make the latest version of the nomenclature available on your machine.
+> :warning: Pulling new commits in the cloned folder will immediately
+> make the latest version of the nomenclature available on your machine.
 
 ### Option 2: Install directly from GitHub
 
@@ -39,8 +39,8 @@ Open a command prompt and run
 pip install git+https://github.com/openENTRANCE/nomenclature
 ```
 
-You will have to repeat this step whenever you want
-to update the `nomenclature` package on your machine.
+> You will have to repeat this step whenever you want
+> to update the `nomenclature` package on your machine.
 
 ### Known issues
 
