@@ -40,7 +40,7 @@ files on GitHub - see the links [below](#Timeseries-data-dimensions).
 
 ### An installable Python package
 
-<img src="./_static/py.png" align="right" alt="Python logo" />
+<img src="./_static/python.png" align="right" alt="Python logo" />
 
 To facilitate using the definitions in data processing workflows and scripts,
 the nomenclature can be installed as a Python package with several utility
