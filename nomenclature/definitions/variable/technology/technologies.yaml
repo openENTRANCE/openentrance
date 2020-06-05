@@ -9,14 +9,62 @@ Capacity|Electricity|Biomass:
                 power plants
    unit: GW
 
+Capacity|Electricity|Biomass|Traditionnal:
+   description: Total installed electricity generation capacity of traditionnal biomass power plant
+                Traditionnal biomass is biomass coming from local and pre-existing
+                resources mostly waste (domestic and agricultural waste, forest residues).
+                This biomass is assumed to be cheap but with a limited poten-tial
+   unit: GW
+
+Capacity|Electricity|Biomass|New and imported:
+   description: Total installed electricity generation capacity of new biomass power plants
+                New biomass is biomass coming from dedicated energy crops and biomass imports.
+                Thus, biomass 2 is assumed to have a very high potential but higher cost.
+   unit: GW
+
 Capacity|Electricity|Coal:
    description: Total installed electricity generation capacity of coal power
+                plants
+   unit: GW
+
+Capacity|Electricity|Coal|w/ CCS:
+   description: Total installed electricity generation capacity of coal power
+                plants with CCS
+   unit: GW
+
+Capacity|Electricity|Coal|w/o CCS:
+   description: Total installed electricity generation capacity of coal power
+                plants without CCS
+   unit: GW
+
+Capacity|Electricity|Lignite|w/o CCS:
+   description: Total installed electricity generation capacity of Lignite power
+                plants without CCS
+   unit: GW
+
+Capacity|Electricity|Lignite:
+   description: Total installed electricity generation capacity of Lignite power
                 plants
    unit: GW
 
 Capacity|Electricity|Gas:
    description: Total installed electricity generation capacity of gas power
                 plants
+   unit: GW
+
+Capacity|Electricity|Gas|OCGT:
+   description: Total installed electricity generation capacity of Open Cycle Gas Turbines
+                plants
+   unit: GW
+
+Capacity|Electricity|Gas|CCGT:
+   description: Total installed electricity generation capacity of Combined Cycle Gas Turbines
+                plants
+   unit: GW
+
+Capacity|Electricity|Gas|CCGT|w/o CCS:
+   description: Total installed electricity generation capacity of Combined Cycle Gas Turbines
+                plants without CCS
    unit: GW
 
 Capacity|Electricity|Geothermal:
@@ -27,6 +75,20 @@ Capacity|Electricity|Geothermal:
 Capacity|Electricity|Hydro:
    description: Total installed electricity generation capacity of hydro power
                 plants
+   unit: GW
+
+Capacity|Electricity|Hydro|Reservoir:
+   description: Total installed electricity generation capacity of hydro power plants with
+                reservoirs with seasonal storage potential
+   unit: GW
+
+Capacity|Electricity|Hydro|Pumped Storage:
+   description: Total installed electricity generation capacity of hydro power plants with
+                pumped storage
+   unit: GW
+
+Capacity|Electricity|Hydro|Run-of-River:
+   description: Total installed electricity generation capacity of run-of-river hydro power plants
    unit: GW
 
 Capacity|Electricity|Nuclear:

@@ -21,6 +21,11 @@ representative periods (e.g., "summer-day").
 Each item in the codelists below includes an attribute `duration` indicating
 the duration relative to a normal year (i.e., not a leap year).
 
+### Yearly data
+
+The default entry for the openENTRANCE data format in the "subannual" column
+is "Year". Its `duratuon` attribute is set to`1`.
+
 ### Months
 
 See [months.yaml](months.yaml) for the codelist.

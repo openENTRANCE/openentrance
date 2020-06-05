@@ -46,13 +46,29 @@ industry or the building stock.
 
 In the data format, every timeseries is described by six dimensions (codes):
 
-1.	Model - [more information](model)
-2.	Scenario - [more information](scenario)
-3.	Region - [more information](region)
-4.	Variable - [more information](variable)
-5.	Unit - see the section on [variables](variable) for details
+1.	Model - [more information](nomenclature/definitions/model)
+2.	Scenario - [more information](nomenclature/definitions/scenario)
+3.	Region - [more information](nomenclature/definitions/region)
+4.	Variable - [more information](nomenclature/definitions/variable)
+5.	Unit - see the section on [variables](nomenclature/definitions/variable)
+    for details
 6.	Subannual (optional, default 'Year')<sup>[1]</sup> -
-    [more information](subannual)
+    [more information](nomenclature/definitions/subannual)
+
+In addition to these six dimensions, every timeseries is described by
+a set of **year-value** pairs.
+
+The resulting table can be either shown as
+- **wide format** (see example below, with *years* as columns), or
+- **long format** (two columns *year*  and *value*).
+
+| **model** | **scenario** | **region** | **variable**   | **unit** | **subannual** | **2005** | **2010** | **2015** |
+|-----------|--------------|------------|----------------|----------|---------------|---------:|---------:|---------:|
+| MESSAGE   | CD-LINKS 400 | World      | Primary Energy | EJ/y     | Year          |    462.5 |    500.7 |      ... |
+| ...       | ...          | ...        | ...            | ...      | ...           |      ... |      ... |      ... |
+
+<sup>Data via the [IAMC 1.5°C scenario explorer](https://data.ene.iiasa.ac.at/iamc-1.5c-explorer),
+    showing a scenario from the [CD-LINKS](https://www.cd-links.org) project.</sup>
 
 [1] *The index 'Subannual' is an extension of the original format introduced by
 the openENTRANCE project to accomodate data at a subannual temporal resolution.*
