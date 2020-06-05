@@ -16,7 +16,7 @@
 # they are defined as an aggregation of a list of NUTS3 regions
 
 # ehighway clusters France
-  
+
 France|Subgrid 14:
   definition: FRI11 + FRI12 + FR613
   country: France
