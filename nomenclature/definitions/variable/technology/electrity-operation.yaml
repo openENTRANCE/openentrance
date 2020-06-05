@@ -135,3 +135,161 @@ Operation Cost|Electricity|Wind|OffShore:
 Operation Cost|Electricity|Energy Storage System:
    description: Operation Cost of energy storage systems, excl. hydro storage
    unit: €
+
+# Automatic Frequency Restoration Reserve committed per technologies
+# i.e.  Automatic Frequency Restoration Reserve of aggregated committments of plants, storages and demand-side systems
+
+Automatic Frequency Restoration Reserve|Electricity|Biomass|Traditionnal:
+   description: Automatic Frequency Restoration Reserve available for  Traditionnal Biomass power plants
+                biomass from local and pre-existing
+                resources mostly waste :domestic and agricultural waste, forest residues.
+   unit: MWh
+
+Automatic Frequency Restoration Reserve|Electricity|Biomass|New and imported:
+   description: Automatic Frequency Restoration Reserve available for New+Imported biomass power plants
+                biomass from dedicated energy crops and biomass imports.
+   unit: MWh
+
+Automatic Frequency Restoration Reserve|Electricity|Nuclear:
+   description: Automatic Frequency Restoration Reserve available for nuclear power plants
+   unit: MWh
+
+Automatic Frequency Restoration Reserve|Electricity|Gas|OCGT:
+   description: Automatic Frequency Restoration Reserve available for Open Cycle Gas Turbine power plants
+   unit: MWh
+
+Automatic Frequency Restoration Reserve|Electricity|Gas|Coal:
+   description: Automatic Frequency Restoration Reserve available for coal power plants
+   unit: MWh
+
+Automatic Frequency Restoration Reserve|Electricity|Lignite:
+   description: Automatic Frequency Restoration Reserve available for Lignite power plants
+   unit: MWh
+   
+Automatic Frequency Restoration Reserve|Electricity|Hydro|Reservoir:
+   description: Automatic Frequency Restoration Reserve available for "simple Hydro reservoir " units
+   unit: MWh
+   
+Automatic Frequency Restoration Reserve|Electricity|Hydro|Pumped Storage:
+   description: Automatic Frequency Restoration Reserve available for "Pumped Storage " units
+   unit: MWh
+   
+Automatic Frequency Restoration Reserve|Electricity|Hydro|Run available for River:
+   description: Automatic Frequency Restoration Reserve available for "Run available for River" units
+   unit: MWh
+   
+Automatic Frequency Restoration Reserve|Electricity|Solar:
+   description: Automatic Frequency Restoration Reserve available for Photovoltaic power plants
+   unit: MWh
+   
+Automatic Frequency Restoration Reserve|Electricity|Wind|OnShore:
+   description: Automatic Frequency Restoration Reserve available for  Wind Onshore power plants
+   unit: MWh
+   
+Automatic Frequency Restoration Reserve|Electricity|Wind|Available forfShore:
+   description: Automatic Frequency Restoration Reserve available for  Wind Available forfShore power plants
+   unit: MWh
+   
+Automatic Frequency Restoration Reserve|Electricity|Energy Storage System:
+   description: Automatic Frequency Restoration Reserve available for energy storage systems, excl. hydro storage
+   unit: MWh
+
+# Frequency Containment Reserve committed per technologies
+# i.e.  Frequency Containment Reserve of aggregated committments of plants, storages and demand-side systems
+
+Frequency Containment Reserve|Electricity|Biomass|Traditionnal:
+   description: Frequency Containment Reserve available for  Traditionnal Biomass power plants
+                biomass from local and pre-existing
+                resources mostly waste :domestic and agricultural waste, forest residues.
+   unit: MWh
+
+Frequency Containment Reserve|Electricity|Biomass|New and imported:
+   description: Frequency Containment Reserve available for New+Imported biomass power plants
+                biomass from dedicated energy crops and biomass imports.
+   unit: MWh
+
+Frequency Containment Reserve|Electricity|Nuclear:
+   description: Frequency Containment Reserve available for nuclear power plants
+   unit: MWh
+
+Frequency Containment Reserve|Electricity|Gas|OCGT:
+   description: Frequency Containment Reserve available for Open Cycle Gas Turbine power plants
+   unit: MWh
+
+Frequency Containment Reserve|Electricity|Gas|Coal:
+   description: Frequency Containment Reserve available for coal power plants
+   unit: MWh
+
+Frequency Containment Reserve|Electricity|Lignite:
+   description: Frequency Containment Reserve available for Lignite power plants
+   unit: MWh
+   
+Frequency Containment Reserve|Electricity|Hydro|Reservoir:
+   description: Frequency Containment Reserve available for "simple Hydro reservoir " units
+   unit: MWh
+   
+Frequency Containment Reserve|Electricity|Hydro|Pumped Storage:
+   description: Frequency Containment Reserve available for "Pumped Storage " units
+   unit: MWh
+   
+Frequency Containment Reserve|Electricity|Hydro|Run available for River:
+   description: Frequency Containment Reserve available for "Run available for River" units
+   unit: MWh
+   
+Frequency Containment Reserve|Electricity|Solar:
+   description: Frequency Containment Reserve available for Photovoltaic power plants
+   unit: MWh
+   
+Frequency Containment Reserve|Electricity|Wind|OnShore:
+   description: Frequency Containment Reserve available for  Wind Onshore power plants
+   unit: MWh
+   
+Frequency Containment Reserve|Electricity|Wind|Available forfShore:
+   description: Frequency Containment Reserve available for  Wind Available forfShore power plants
+   unit: MWh
+   
+Frequency Containment Reserve|Electricity|Energy Storage System:
+   description: Frequency Containment Reserve available for energy storage systems, excl. hydro storage
+   unit: MWh
+   
+# Inertia provided to the network per technologies
+# i.e. Inertia provided by aggregated committments of plants, storages and demand-side systems  
+   
+Inertia|Electricity|Biomass|Traditionnal:
+   description: Inertia available for  Traditionnal Biomass power plants
+                biomass from local and pre-existing
+                resources mostly waste :domestic and agricultural waste, forest residues.
+   unit: s
+
+Inertia|Electricity|Biomass|New and imported:
+   description: Inertia available for New+Imported biomass power plants
+                biomass from dedicated energy crops and biomass imports.
+   unit: s
+
+Inertia|Electricity|Nuclear:
+   description: Inertia available for nuclear power plants
+   unit: s
+
+Inertia|Electricity|Gas|OCGT:
+   description: Inertia available for Open Cycle Gas Turbine power plants
+   unit: s
+
+Inertia|Electricity|Gas|Coal:
+   description: Inertia available for coal power plants
+   unit: s
+
+Inertia|Electricity|Lignite:
+   description: Inertia available for Lignite power plants
+   unit: s
+   
+Inertia|Electricity|Hydro|Reservoir:
+   description: Inertia available for "simple Hydro reservoir " units
+   unit: s
+   
+Inertia|Electricity|Hydro|Pumped Storage:
+   description: Inertia available for "Pumped Storage " units
+   unit: s
+   
+Inertia|Electricity|Hydro|Run available for River:
+   description: Inertia available for "Run available for River" units
+   unit: s
