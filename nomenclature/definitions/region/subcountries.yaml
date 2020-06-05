@@ -206,15 +206,15 @@ Italy|Subgrid south:
   ehighway2050: 54_IT + 55_IT + 56_IT + 98_IT
   plan4res: ITS
   
- # ehighway north sea clusters
- Belgium|North sea: 
+# ehighway north sea clusters
+Belgium|North sea: 
     definition: this 'virtual' region holds the offshore windpower of belgium in norh sea 
     country: Belgium
     note: This region was defined and used in the plan4res public datasets, it is built as aggregation of ehighway2050 regions; 
     ehighway2050: 110_NS
     plan4res: NSBE
     
- Germany|North sea: 
+Germany|North sea: 
     definition: this 'virtual' region holds the offshore windpower of germany in norh sea 
     country: Belgium
     note: This region was defined and used in the plan4res public datasets, it is built as aggregation of ehighway2050 regions; 
