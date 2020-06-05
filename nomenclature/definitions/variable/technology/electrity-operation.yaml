@@ -78,6 +78,25 @@ Active power|Electricity|Energy Storage System:
    description: Active Power of energy storage systems, excl. hydro storage
    unit: MWh
    
+# Storage per technology
+# (generally hourly, daily or weekly) level of storage available per technology
+
+Storage|Electricity|Hydro|Reservoir:
+   description: Available storage of "simple Hydro reservoir " units
+   unit: MWh
+   
+Storage|Electricity|Hydro|Pumped Storage:
+   description: Available storage of "Pumped Storage " units
+   unit: MWh
+     
+Storage|Electricity|Energy Storage System:
+   description: Available storage of energy storage systems, excl. hydro storage
+   unit: MWh
+
+Storage|Electricity|Load Curtailement:
+   description: remaining amount of curtailement
+   unit: MWh
+   
 # Operation Cost per technologies
 # i.e.  operation cost of aggregated committments of plants, storages and demand-side systems
 
@@ -293,3 +312,33 @@ Inertia|Electricity|Hydro|Pumped Storage:
 Inertia|Electricity|Hydro|Run available for River:
    description: Inertia available for "Run available for River" units
    unit: s
+
+# Marginal costs associated to active power demand, reserves, CO2 emissions, inertia and flows in the grid
+
+Marginal Cost|CO2 Emissions|Electricity:
+   description: Marginal Cost associated to the constraint in terms of CO2 emissions by the electricity power sector
+   unit: €/MWh
+   
+Marginal Cost|Final Energy|Electricity:
+   description: Marginal Cost associated to the electricity demand constraint
+   unit: €/MWh
+
+Marginal Cost|Maximum Flow|Electricity|Transmission:
+   description: Marginal Cost associated to the maximum flow constraint in a line
+   unit: €/MWh
+   
+Marginal Cost|Minimum Flow|Electricity|Transmission:
+   description: Marginal Cost associated to the minimum flow constraint in a line
+   unit: €/MWh
+   
+Marginal Cost|Network|Electricity|Demand|Inertia:
+   description: Marginal Cost associated to the inertia requirement
+   unit: €/MWh
+   
+Marginal Cost|Network|Electricity|Demand|Reserve|Automatic Frequency Restoration:
+   description: Marginal Cost associated to the Automatic Frequency Restoration requirement
+   unit: €/MWh
+   
+Marginal Cost|Network|Electricity|Demand|Reserve|Frequency Containment:
+   description: Marginal Cost associated to the Frequency Containment requirement
+   unit: €/MWh
