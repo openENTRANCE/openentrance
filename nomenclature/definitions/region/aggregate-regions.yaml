@@ -39,7 +39,13 @@ Non-EU-Balkans:
 Scandinavia:
    definition: 'DK + FI + NO + SE'
    source: plan4res public dataset (D4.5)
-   
+
+Scandinavia|North sea: 
+    definition: this 'virtual' region holds the offshore windpower of Scandinavia in norh sea 
+    note: This region was defined and used in the plan4res public datasets, it is built as aggregation of ehighway2050 regions; 
+    ehighway2050: 
+    plan4res: NSSCAND
+    
 Baltics:
    definition: 'EE + LT + LV'
    source: plan4res public dataset (D4.5)
@@ -66,8 +72,10 @@ Africa:
    definition: africa
    notes: used by some models (plan4eu) to model imports of electricity generated in africa, 
    imported through lines that connect africa and some european countries
+   plan4eu: AFES+AFITS
    
 Asia:
    definition: asia
    notes: used by some models (plan4eu) to model imports of electricity generated in asia, 
    imported through lines that connect africa and some european countries
+   plan4EU: ASBALKAN+ASPL
