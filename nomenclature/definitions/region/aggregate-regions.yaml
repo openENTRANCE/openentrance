@@ -60,3 +60,14 @@ EU27 (excl. Malta & Cyprus):
    definition: 'EU27 excluding CY + MT'
 
 # add more definitions of `EU*` above this line
+
+# continents connected to european countries
+Africa:
+   definition: africa
+   notes: used by some models (plan4eu) to model imports of electricity generated in africa, 
+   imported through lines that connect africa and some european countries
+   
+Asia:
+   definition: asia
+   notes: used by some models (plan4eu) to model imports of electricity generated in asia, 
+   imported through lines that connect africa and some european countries
