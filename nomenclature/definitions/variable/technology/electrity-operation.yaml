@@ -15,66 +15,90 @@
 # Active Power per technologies
 # i.e.  aggregated committed (in general hourly) schedules of plants
 
-Active power|Electricity|Biomass|Traditionnal:
+Active Power|Electricity|Biomass:
+   description: Active power of Biomass power plants
+   unit: MWh
+   
+Active Power|Electricity|Biomass|Traditionnal:
    description: Active power of  Traditionnal Biomass power plants
                 biomass from local and pre-existing
                 resources mostly waste :domestic and agricultural waste, forest residues.
    unit: MWh
 
-Active power|Electricity|Biomass|New and imported:
+Active Power|Electricity|Biomass|New and imported:
    description: Active power of New+Imported biomass power plants
                 biomass from dedicated energy crops and biomass imports.
    unit: MWh
 
-Active power|Electricity|Nuclear:
+Active Power|Electricity|Nuclear:
    description: Active power of nuclear power plants
    unit: MWh
 
-Active power|Electricity|Gas|OCGT:
+Active Power|Electricity|Gas:
+   description: Active power of Gas power plants
+   unit: MWh
+   
+Active Power|Electricity|Gas|OCGT:
    description: Active power of Open Cycle Gas Turbine power plants
    unit: MWh
+   
+Active Power|Electricity|Gas|CCGT:
+   description: Active power of Combined Cycle Gas Turbine power plants
+   unit: MWh
 
-Active power|Electricity|Gas|Coal:
+Active Power|Electricity|Coal:
    description: Active power of coal power plants
    unit: MWh
 
-Active power|Electricity|Lignite:
+Active Power|Electricity|Lignite:
    description: Active power of Lignite power plants
    unit: MWh
+
+Active Power|Electricity|Oil:
+   description: Active power of oil power plants
+   unit: MWh   
+
+Active Power|Electricity|Geothermal:
+   description: Active power of Geothermal power plants
+   unit: MWh
    
-Active power|Electricity|Hydro|Reservoir:
+Active Power|Electricity|Hydro|Reservoir:
    description: Active power of "simple Hydro reservoir " units
    unit: MWh
    
-Active power|Electricity|Hydro|Pumped Storage:
+Active Power|Electricity|Hydro|Pumped Storage:
    description: Active power of "Pumped Storage " units
    unit: MWh
    
-Active power|Electricity|Hydro|Run of River:
+Active Power|Electricity|Hydro|Run of River:
    description: Active power of "Run of River" units
    unit: MWh
+
+Active Power|Electricity|Hydro|Ocean:
+   description: Active power of Ocean power plants
+   unit: MWh
    
-Active power|Electricity|Solar:
+Active Power|Electricity|Solar:
    description: Active power of Photovoltaic power plants
    unit: MWh
    
-Active power|Electricity|Wind|OnShore:
+Active Power|Electricity|Wind|OnShore:
    description: Active power of  Wind Onshore power plants
    unit: MWh
    
-Active power|Electricity|Wind|OffShore:
+Active Power|Electricity|Wind|OffShore:
    description: Active power of  Wind OffShore power plants
    unit: MWh
    
-Active power|Electricity|Load Curtailement:
+Active Power|Electricity|Load Curtailement:
    description: Energy curtailed - from the system point of view is equivalent to generation of Active Power
    unit: MWh
    
-Active power|Electricity|Load Shifting:
+Active Power|Electricity|Load Shifting:
    description: Energy shifted - from the system point of view is equivalent to generation of Active Power
    unit: MWh
    
-Active power|Electricity|Energy Storage System:
+Active Power|Electricity|Electricity Storage:
    description: Active Power of energy storage systems, excl. hydro storage
    unit: MWh
    
@@ -100,6 +124,10 @@ Storage|Electricity|Load Curtailement:
 # Operation Cost per technologies
 # i.e.  operation cost of aggregated committments of plants, storages and demand-side systems
 
+Operation Cost|Electricity|Biomass:
+   description: Operation Cost of Biomass power plants
+   unit: €
+
 Operation Cost|Electricity|Biomass|Traditionnal:
    description: Operation Cost of  Traditionnal Biomass power plants
                 biomass from local and pre-existing
@@ -115,18 +143,34 @@ Operation Cost|Electricity|Nuclear:
    description: Operation Cost of nuclear power plants
    unit: €
 
+Operation Cost|Electricity|Geothermal:
+   description: Operation Cost of Geothermal power plants
+   unit: €
+   
+Operation Cost|Electricity|Gas:
+   description: Operation Cost of Gas power plants
+   unit: €
+   
 Operation Cost|Electricity|Gas|OCGT:
    description: Operation Cost of Open Cycle Gas Turbine power plants
    unit: €
 
-Operation Cost|Electricity|Gas|Coal:
+Operation Cost|Electricity|Gas|CCGT:
+   description: Operation Cost of Combined Cycle Gas Turbine power plants
+   unit: €
+   
+Operation Cost|Electricity|Coal:
    description: Operation Cost of coal power plants
    unit: €
 
 Operation Cost|Electricity|Lignite:
    description: Operation Cost of Lignite power plants
    unit: €
-   
+
+Operation Cost|Electricity|Oil:
+   description: Operation Cost of Oil power plants
+   unit: €
+ 
 Operation Cost|Electricity|Hydro|Reservoir:
    description: Operation Cost of "simple Hydro reservoir " units
    unit: €
@@ -137,6 +181,10 @@ Operation Cost|Electricity|Hydro|Pumped Storage:
    
 Operation Cost|Electricity|Hydro|Run of River:
    description: Operation Cost of "Run of River" units
+   unit: €
+
+Operation Cost|Electricity|Hydro|Ocean:
+   description: Operation Cost of Ocean Power plants
    unit: €
    
 Operation Cost|Electricity|Solar:
@@ -151,12 +199,16 @@ Operation Cost|Electricity|Wind|OffShore:
    description: Operation Cost of  Wind OffShore power plants
    unit: €
    
-Operation Cost|Electricity|Energy Storage System:
+Operation Cost|Electricity|Electricity Storage:
    description: Operation Cost of energy storage systems, excl. hydro storage
    unit: €
 
 # Automatic Frequency Restoration Reserve committed per technologies
 # i.e.  Automatic Frequency Restoration Reserve of aggregated committments of plants, storages and demand-side systems
+
+Automatic Frequency Restoration Reserve|Electricity|Biomass:
+   description: Automatic Frequency Restoration Reserve available for  Traditionnal Biomass power plants
+   unit: MWh
 
 Automatic Frequency Restoration Reserve|Electricity|Biomass|Traditionnal:
    description: Automatic Frequency Restoration Reserve available for  Traditionnal Biomass power plants
@@ -172,19 +224,35 @@ Automatic Frequency Restoration Reserve|Electricity|Biomass|New and imported:
 Automatic Frequency Restoration Reserve|Electricity|Nuclear:
    description: Automatic Frequency Restoration Reserve available for nuclear power plants
    unit: MWh
+   
+Automatic Frequency Restoration Reserve|Electricity|Geothermal:
+   description: Automatic Frequency Restoration Reserve available for Geothermal power plants
+   unit: MWh
+
+Automatic Frequency Restoration Reserve|Electricity|Gas:
+   description: Automatic Frequency Restoration Reserve available for Gas power plants
+   unit: MWh
 
 Automatic Frequency Restoration Reserve|Electricity|Gas|OCGT:
    description: Automatic Frequency Restoration Reserve available for Open Cycle Gas Turbine power plants
    unit: MWh
+   
+Automatic Frequency Restoration Reserve|Electricity|Gas|CCGT:
+   description: Automatic Frequency Restoration Reserve available for Combined Cycle Gas Turbine power plants
+   unit: MWh
 
-Automatic Frequency Restoration Reserve|Electricity|Gas|Coal:
+Automatic Frequency Restoration Reserve|Electricity|Coal:
    description: Automatic Frequency Restoration Reserve available for coal power plants
    unit: MWh
 
 Automatic Frequency Restoration Reserve|Electricity|Lignite:
    description: Automatic Frequency Restoration Reserve available for Lignite power plants
    unit: MWh
-   
+
+Automatic Frequency Restoration Reserve|Electricity|Oil:
+   description: Automatic Frequency Restoration Reserve available for Oil power plants
+   unit: MWh
+
 Automatic Frequency Restoration Reserve|Electricity|Hydro|Reservoir:
    description: Automatic Frequency Restoration Reserve available for "simple Hydro reservoir " units
    unit: MWh
@@ -193,8 +261,12 @@ Automatic Frequency Restoration Reserve|Electricity|Hydro|Pumped Storage:
    description: Automatic Frequency Restoration Reserve available for "Pumped Storage " units
    unit: MWh
    
-Automatic Frequency Restoration Reserve|Electricity|Hydro|Run available for River:
-   description: Automatic Frequency Restoration Reserve available for "Run available for River" units
+Automatic Frequency Restoration Reserve|Electricity|Hydro|Run of River:
+   description: Automatic Frequency Restoration Reserve available for "Run of River" units
+   unit: MWh
+   
+Automatic Frequency Restoration Reserve|Electricity|Hydro|Ocean:
+   description: Automatic Frequency Restoration Reserve available for Ocean power plants
    unit: MWh
    
 Automatic Frequency Restoration Reserve|Electricity|Solar:
@@ -209,12 +281,16 @@ Automatic Frequency Restoration Reserve|Electricity|Wind|Available forfShore:
    description: Automatic Frequency Restoration Reserve available for  Wind Available forfShore power plants
    unit: MWh
    
-Automatic Frequency Restoration Reserve|Electricity|Energy Storage System:
+Automatic Frequency Restoration Reserve|Electricity|Electricity Storage:
    description: Automatic Frequency Restoration Reserve available for energy storage systems, excl. hydro storage
    unit: MWh
 
 # Frequency Containment Reserve committed per technologies
 # i.e.  Frequency Containment Reserve of aggregated committments of plants, storages and demand-side systems
+
+Frequency Containment Reserve|Electricity|Biomass:
+   description: Frequency Containment Reserve available for  Traditionnal Biomass power plants
+   unit: MWh
 
 Frequency Containment Reserve|Electricity|Biomass|Traditionnal:
    description: Frequency Containment Reserve available for  Traditionnal Biomass power plants
@@ -231,16 +307,32 @@ Frequency Containment Reserve|Electricity|Nuclear:
    description: Frequency Containment Reserve available for nuclear power plants
    unit: MWh
 
+Frequency Containment Reserve|Electricity|Geothermal:
+   description: Frequency Containment Reserve available for Geothermal power plants
+   unit: MWh
+
+Frequency Containment Reserve|Electricity|Gas:
+   description: Frequency Containment Reserve available for Gas power plants
+   unit: MWh
+
 Frequency Containment Reserve|Electricity|Gas|OCGT:
    description: Frequency Containment Reserve available for Open Cycle Gas Turbine power plants
    unit: MWh
-
-Frequency Containment Reserve|Electricity|Gas|Coal:
+   
+Frequency Containment Reserve|Electricity|Gas|CCGT:
+   description: Frequency Containment Reserve available for Combined Cycle Gas Turbine power plants
+   unit: MWh
+   
+Frequency Containment Reserve|Electricity|Coal:
    description: Frequency Containment Reserve available for coal power plants
    unit: MWh
 
 Frequency Containment Reserve|Electricity|Lignite:
    description: Frequency Containment Reserve available for Lignite power plants
+   unit: MWh
+
+Frequency Containment Reserve|Electricity|Oil:
+   description: Frequency Containment Reserve available for Oil power plants
    unit: MWh
    
 Frequency Containment Reserve|Electricity|Hydro|Reservoir:
@@ -251,8 +343,12 @@ Frequency Containment Reserve|Electricity|Hydro|Pumped Storage:
    description: Frequency Containment Reserve available for "Pumped Storage " units
    unit: MWh
    
-Frequency Containment Reserve|Electricity|Hydro|Run available for River:
-   description: Frequency Containment Reserve available for "Run available for River" units
+Frequency Containment Reserve|Electricity|Hydro|Run of River:
+   description: Frequency Containment Reserve available for "Run of River" units
+   unit: MWh
+
+Frequency Containment Reserve|Electricity|Hydro|Ocean:
+   description: Frequency Containment Reserve available for Ocean Power plants
    unit: MWh
    
 Frequency Containment Reserve|Electricity|Solar:
@@ -267,13 +363,17 @@ Frequency Containment Reserve|Electricity|Wind|Available forfShore:
    description: Frequency Containment Reserve available for  Wind Available forfShore power plants
    unit: MWh
    
-Frequency Containment Reserve|Electricity|Energy Storage System:
+Frequency Containment Reserve|Electricity|Electricity Storage:
    description: Frequency Containment Reserve available for energy storage systems, excl. hydro storage
    unit: MWh
    
 # Inertia provided to the network per technologies
 # i.e. Inertia provided by aggregated committments of plants, storages and demand-side systems  
-   
+  
+Inertia|Electricity|Biomass:
+   description: Inertia available for  Traditionnal Biomass power plants
+   unit: s  
+  
 Inertia|Electricity|Biomass|Traditionnal:
    description: Inertia available for  Traditionnal Biomass power plants
                 biomass from local and pre-existing
@@ -289,16 +389,28 @@ Inertia|Electricity|Nuclear:
    description: Inertia available for nuclear power plants
    unit: s
 
+Inertia|Electricity|Gas:
+   description: Inertia available for Gas power plants
+   unit: s
+   
 Inertia|Electricity|Gas|OCGT:
    description: Inertia available for Open Cycle Gas Turbine power plants
    unit: s
+   
+Inertia|Electricity|Gas|CCGT:
+   description: Inertia available for Combined Cycle Gas Turbine power plants
+   unit: s
 
-Inertia|Electricity|Gas|Coal:
+Inertia|Electricity|Coal:
    description: Inertia available for coal power plants
    unit: s
 
 Inertia|Electricity|Lignite:
    description: Inertia available for Lignite power plants
+   unit: s
+
+Inertia|Electricity|Oil:
+   description: Inertia available for Oil power plants
    unit: s
    
 Inertia|Electricity|Hydro|Reservoir:
@@ -309,8 +421,12 @@ Inertia|Electricity|Hydro|Pumped Storage:
    description: Inertia available for "Pumped Storage " units
    unit: s
    
-Inertia|Electricity|Hydro|Run available for River:
-   description: Inertia available for "Run available for River" units
+Inertia|Electricity|Hydro|Run of River:
+   description: Inertia available for "Run of River" units
+   unit: s
+   
+Inertia|Electricity|Hydro|Ocean:
+   description: Inertia available for Ocean power plants
    unit: s
 
 # Marginal costs associated to active power demand, reserves, CO2 emissions, inertia and flows in the grid
