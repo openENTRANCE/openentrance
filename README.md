@@ -32,6 +32,20 @@ serves as a discussion platform for extending the lists of terms.
 hoping to facilitate increased cooperation across research projects
 on (European) energy and climate policy!*
 
+## How to work with this repository
+
+There are several ways to interact with the nomenclature and definitions
+provided in this repository. The simplest approach is to just read the `yaml`
+files on GitHub - see the links [below](#Timeseries-data-dimensions).
+
+### An installable Python package
+
+<img src="./_static/py.png" align="right" alt="Python logo" />
+
+To facilitate using the definitions in data processing workflows and scripts,
+the nomenclature can be installed as a Python package with several utility
+functions and dictionaries. [More information](nomenclature)
+
 ## Data format structure
 
 The openENTRANCE project uses a **common data format** based on a template
