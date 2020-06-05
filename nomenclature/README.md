@@ -31,6 +31,27 @@ $ pip install --editable .
 > Pulling new commits in the cloned folder will immediately
 > make the latest version of the nomenclature available on your machine.
 
+You can test whether the installation worked successfully by running
+
+```
+$ pytest nomenclature/tests/
+```
+
+The result should look similar to the following snippet:
+
+```
+============================= test session starts ==============================
+platform darwin -- Python 3.7.7, pytest-5.3.5, py-1.8.1, pluggy-0.13.1
+rootdir: ...
+collected 4 items                                                              
+
+nomenclature/tests/test_core.py ....                                     [100%]
+
+============================== 4 passed in 30.00s ==============================
+```
+If you see a few warnings, this is (probably) also ok...
+
+
 ### Option 2: Install directly from GitHub
 
 Open a command prompt and run
