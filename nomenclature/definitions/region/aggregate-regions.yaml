@@ -72,10 +72,12 @@ Africa:
    definition: africa
    notes: used by some models (plan4eu) to model imports of electricity generated in africa, 
    imported through lines that connect africa and some european countries
+   ehighway2050: 102_MA+103_DZ+104_TN+105_LY
    plan4eu: AFES+AFITS
    
 Asia:
    definition: asia
    notes: used by some models (plan4eu) to model imports of electricity generated in asia, 
    imported through lines that connect africa and some european countries
-   plan4EU: ASBALKAN+ASPL
+   plan4eu: ASBALKAN+ASPL
+   ehighway2050: 101_MEA+100_EA
