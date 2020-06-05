@@ -70,8 +70,7 @@ EU27 (excl. Malta & Cyprus):
 # continents connected to european countries
 Africa:
    definition: africa
-   notes: used by some models (plan4eu) to model imports of electricity generated in africa, 
-   imported through lines that connect africa and some european countries
+   notes: used by some models (plan4eu) to model imports of electricity generated in africa, imported through lines that connect africa and some european countries
    ehighway2050: 102_MA+103_DZ+104_TN+105_LY
    plan4eu: AFES+AFITS
    
