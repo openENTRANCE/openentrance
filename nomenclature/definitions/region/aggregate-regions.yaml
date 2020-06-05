@@ -76,7 +76,6 @@ Africa:
    
 Asia:
    definition: asia
-   notes: used by some models (plan4eu) to model imports of electricity generated in asia, 
-   imported through lines that connect africa and some european countries
+   notes: used by some models (plan4eu) to model imports of electricity generated in asia, imported through lines that connect africa and some european countries
    plan4eu: ASBALKAN+ASPL
    ehighway2050: 101_MEA+100_EA
