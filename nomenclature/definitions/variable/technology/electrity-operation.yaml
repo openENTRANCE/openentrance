@@ -90,7 +90,7 @@ Active Power|Electricity|Wind|OffShore:
    description: Active power of  Wind OffShore power plants
    unit: MWh
    
-Active Power|Electricity|Load Curtailement:
+Active Power|Electricity|Load Curtailment:
    description: Energy curtailed - from the system point of view is equivalent to generation of Active Power
    unit: MWh
    
@@ -117,7 +117,7 @@ Storage|Electricity|Energy Storage System:
    description: Available storage of energy storage systems, excl. hydro storage
    unit: MWh
 
-Storage|Electricity|Load Curtailement:
+Storage|Electricity|Load Curtailment:
    description: remaining amount of curtailement
    unit: MWh
    
