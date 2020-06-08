@@ -93,7 +93,8 @@ def validate(df):
         Return `True` if all column entries in `df` are valid
         or `False` otherwise
     """
-    df = IamDataFrame(df)
+    if not isinstance(df, IamDataFrame):
+        df = IamDataFrame(df)
     success = True
 
     # set up list of dimension (columns) to validate
