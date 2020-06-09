@@ -139,6 +139,19 @@ Capacity|Electricity|Wind|Onshore:
    description: Total installed electricity generation capacity of onshore wind
                 power installations
    unit: GW
+   
+Capacity|Electricity|Hydrogen:
+   description: Total installed electricity generation capacity from hydrogen
+   unit: GW
+
+Capacity|Electricity|Hydrogen|OCGT:
+   description: Total installed electricity generation capacity from hydrogen of Open Cycle Gas Turbines
+                plants
+   unit: GW
+
+Capacity|Electricity|Hydrogen|Fuel Cell:
+   description: Total installed electricity generation capacity from hydrogen of fuelcell plants
+   unit: GW  
 
 Capital Cost|Electricity|Biomass|w/ CCS:
    description: Capital cost of a new biomass power plant with CCS
