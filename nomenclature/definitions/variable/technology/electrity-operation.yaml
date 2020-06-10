@@ -207,226 +207,226 @@ Operation Cost|Electricity|Electricity Storage:
 # i.e.  Automatic Frequency Restoration Reserve of aggregated committments of plants, storages and demand-side systems
 
 Automatic Frequency Restoration Reserve|Electricity|Biomass:
-   description: Automatic Frequency Restoration Reserve available for  Traditionnal Biomass power plants
+   description: Automatic Frequency Restoration Reserve available for Traditionnal Biomass power plants; this amount is the maximum available for the grid operator considering the commitment decisions taken by the model 
    unit: MWh
 
 Automatic Frequency Restoration Reserve|Electricity|Biomass|Traditionnal:
-   description: Automatic Frequency Restoration Reserve available for  Traditionnal Biomass power plants
+   description: Automatic Frequency Restoration Reserve available for  Traditionnal Biomass power plants; this amount is the maximum available for the grid operator considering the commitment decisions taken by the model
                 biomass from local and pre-existing
                 resources mostly waste :domestic and agricultural waste, forest residues.
    unit: MWh
 
 Automatic Frequency Restoration Reserve|Electricity|Biomass|New and imported:
-   description: Automatic Frequency Restoration Reserve available for New+Imported biomass power plants
+   description: Automatic Frequency Restoration Reserve available for New+Imported biomass power plants; this amount is the maximum available for the grid operator considering the commitment decisions taken by the model
                 biomass from dedicated energy crops and biomass imports.
    unit: MWh
 
 Automatic Frequency Restoration Reserve|Electricity|Nuclear:
-   description: Automatic Frequency Restoration Reserve available for nuclear power plants
+   description: Automatic Frequency Restoration Reserve available for nuclear power plants; this amount is the maximum available for the grid operator considering the commitment decisions taken by the model
    unit: MWh
    
 Automatic Frequency Restoration Reserve|Electricity|Geothermal:
-   description: Automatic Frequency Restoration Reserve available for Geothermal power plants
+   description: Automatic Frequency Restoration Reserve available for Geothermal power plants; this amount is the maximum available for the grid operator considering the commitment decisions taken by the model
    unit: MWh
 
 Automatic Frequency Restoration Reserve|Electricity|Gas:
-   description: Automatic Frequency Restoration Reserve available for Gas power plants
+   description: Automatic Frequency Restoration Reserve available for Gas power plants; this amount is the maximum available for the grid operator considering the commitment decisions taken by the model
    unit: MWh
 
 Automatic Frequency Restoration Reserve|Electricity|Gas|OCGT:
-   description: Automatic Frequency Restoration Reserve available for Open Cycle Gas Turbine power plants
+   description: Automatic Frequency Restoration Reserve available for Open Cycle Gas Turbine power plants; this amount is the maximum available for the grid operator considering the commitment decisions taken by the model
    unit: MWh
    
 Automatic Frequency Restoration Reserve|Electricity|Gas|CCGT:
-   description: Automatic Frequency Restoration Reserve available for Combined Cycle Gas Turbine power plants
+   description: Automatic Frequency Restoration Reserve available for Combined Cycle Gas Turbine power plants; this amount is the maximum available for the grid operator considering the commitment decisions taken by the model
    unit: MWh
 
 Automatic Frequency Restoration Reserve|Electricity|Coal:
-   description: Automatic Frequency Restoration Reserve available for coal power plants
+   description: Automatic Frequency Restoration Reserve available for coal power plants; this amount is the maximum available for the grid operator considering the commitment decisions taken by the model
    unit: MWh
 
 Automatic Frequency Restoration Reserve|Electricity|Lignite:
-   description: Automatic Frequency Restoration Reserve available for Lignite power plants
+   description: Automatic Frequency Restoration Reserve available for Lignite power plants; this amount is the maximum available for the grid operator considering the commitment decisions taken by the model
    unit: MWh
 
 Automatic Frequency Restoration Reserve|Electricity|Oil:
-   description: Automatic Frequency Restoration Reserve available for Oil power plants
+   description: Automatic Frequency Restoration Reserve available for Oil power plants; this amount is the maximum available for the grid operator considering the commitment decisions taken by the model
    unit: MWh
 
 Automatic Frequency Restoration Reserve|Electricity|Hydro|Reservoir:
-   description: Automatic Frequency Restoration Reserve available for "simple Hydro reservoir " units
+   description: Automatic Frequency Restoration Reserve available for "simple Hydro reservoir " units; this amount is the maximum available for the grid operator considering the commitment decisions taken by the model
    unit: MWh
    
 Automatic Frequency Restoration Reserve|Electricity|Hydro|Pumped Storage:
-   description: Automatic Frequency Restoration Reserve available for "Pumped Storage " units
+   description: Automatic Frequency Restoration Reserve available for "Pumped Storage " units; this amount is the maximum available for the grid operator considering the commitment decisions taken by the model
    unit: MWh
    
 Automatic Frequency Restoration Reserve|Electricity|Hydro|Run of River:
-   description: Automatic Frequency Restoration Reserve available for "Run of River" units
+   description: Automatic Frequency Restoration Reserve available for "Run of River" units; this amount is the maximum available for the grid operator considering the commitment decisions taken by the model
    unit: MWh
    
 Automatic Frequency Restoration Reserve|Electricity|Hydro|Ocean:
-   description: Automatic Frequency Restoration Reserve available for Ocean power plants
+   description: Automatic Frequency Restoration Reserve available for Ocean power plants; this amount is the maximum available for the grid operator considering the commitment decisions taken by the model
    unit: MWh
    
 Automatic Frequency Restoration Reserve|Electricity|Solar:
-   description: Automatic Frequency Restoration Reserve available for Photovoltaic power plants
+   description: Automatic Frequency Restoration Reserve available for Photovoltaic power plants; this amount is the maximum available for the grid operator considering the commitment decisions taken by the model
    unit: MWh
    
 Automatic Frequency Restoration Reserve|Electricity|Wind|OnShore:
-   description: Automatic Frequency Restoration Reserve available for  Wind Onshore power plants
+   description: Automatic Frequency Restoration Reserve available for  Wind Onshore power plants; this amount is the maximum available for the grid operator considering the commitment decisions taken by the model
    unit: MWh
    
 Automatic Frequency Restoration Reserve|Electricity|Wind|Available forfShore:
-   description: Automatic Frequency Restoration Reserve available for  Wind Available forfShore power plants
+   description: Automatic Frequency Restoration Reserve available for  Wind Available forfShore power plants; this amount is the maximum available for the grid operator considering the commitment decisions taken by the model
    unit: MWh
    
 Automatic Frequency Restoration Reserve|Electricity|Electricity Storage:
-   description: Automatic Frequency Restoration Reserve available for energy storage systems, excl. hydro storage
+   description: Automatic Frequency Restoration Reserve available for energy storage systems, excl. hydro storage; this amount is the maximum available for the grid operator considering the commitment decisions taken by the model
    unit: MWh
 
 # Frequency Containment Reserve committed per technologies
 # i.e.  Frequency Containment Reserve of aggregated committments of plants, storages and demand-side systems
 
 Frequency Containment Reserve|Electricity|Biomass:
-   description: Frequency Containment Reserve available for  Traditionnal Biomass power plants
+   description: Frequency Containment Reserve available for  Traditionnal Biomass power plants; this amount is the maximum available for the grid operator considering the commitment decisions taken by the model
    unit: MWh
 
 Frequency Containment Reserve|Electricity|Biomass|Traditionnal:
-   description: Frequency Containment Reserve available for  Traditionnal Biomass power plants
+   description: Frequency Containment Reserve available for  Traditionnal Biomass power plants; this amount is the maximum available for the grid operator considering the commitment decisions taken by the model
                 biomass from local and pre-existing
                 resources mostly waste :domestic and agricultural waste, forest residues.
    unit: MWh
 
 Frequency Containment Reserve|Electricity|Biomass|New and imported:
-   description: Frequency Containment Reserve available for New+Imported biomass power plants
+   description: Frequency Containment Reserve available for New+Imported biomass power plants; this amount is the maximum available for the grid operator considering the commitment decisions taken by the model
                 biomass from dedicated energy crops and biomass imports.
    unit: MWh
 
 Frequency Containment Reserve|Electricity|Nuclear:
-   description: Frequency Containment Reserve available for nuclear power plants
+   description: Frequency Containment Reserve available for nuclear power plants; this amount is the maximum available for the grid operator considering the commitment decisions taken by the model
    unit: MWh
 
 Frequency Containment Reserve|Electricity|Geothermal:
-   description: Frequency Containment Reserve available for Geothermal power plants
+   description: Frequency Containment Reserve available for Geothermal power plants; this amount is the maximum available for the grid operator considering the commitment decisions taken by the model
    unit: MWh
 
 Frequency Containment Reserve|Electricity|Gas:
-   description: Frequency Containment Reserve available for Gas power plants
+   description: Frequency Containment Reserve available for Gas power plants; this amount is the maximum available for the grid operator considering the commitment decisions taken by the model
    unit: MWh
 
 Frequency Containment Reserve|Electricity|Gas|OCGT:
-   description: Frequency Containment Reserve available for Open Cycle Gas Turbine power plants
+   description: Frequency Containment Reserve available for Open Cycle Gas Turbine power plants; this amount is the maximum available for the grid operator considering the commitment decisions taken by the model
    unit: MWh
    
 Frequency Containment Reserve|Electricity|Gas|CCGT:
-   description: Frequency Containment Reserve available for Combined Cycle Gas Turbine power plants
+   description: Frequency Containment Reserve available for Combined Cycle Gas Turbine power plants; this amount is the maximum available for the grid operator considering the commitment decisions taken by the model
    unit: MWh
    
 Frequency Containment Reserve|Electricity|Coal:
-   description: Frequency Containment Reserve available for coal power plants
+   description: Frequency Containment Reserve available for coal power plants; this amount is the maximum available for the grid operator considering the commitment decisions taken by the model
    unit: MWh
 
 Frequency Containment Reserve|Electricity|Lignite:
-   description: Frequency Containment Reserve available for Lignite power plants
+   description: Frequency Containment Reserve available for Lignite power plants; this amount is the maximum available for the grid operator considering the commitment decisions taken by the model
    unit: MWh
 
 Frequency Containment Reserve|Electricity|Oil:
-   description: Frequency Containment Reserve available for Oil power plants
+   description: Frequency Containment Reserve available for Oil power plants; this amount is the maximum available for the grid operator considering the commitment decisions taken by the model
    unit: MWh
    
 Frequency Containment Reserve|Electricity|Hydro|Reservoir:
-   description: Frequency Containment Reserve available for "simple Hydro reservoir " units
+   description: Frequency Containment Reserve available for "simple Hydro reservoir " units; this amount is the maximum available for the grid operator considering the commitment decisions taken by the model
    unit: MWh
    
 Frequency Containment Reserve|Electricity|Hydro|Pumped Storage:
-   description: Frequency Containment Reserve available for "Pumped Storage " units
+   description: Frequency Containment Reserve available for "Pumped Storage " units; this amount is the maximum available for the grid operator considering the commitment decisions taken by the model
    unit: MWh
    
 Frequency Containment Reserve|Electricity|Hydro|Run of River:
-   description: Frequency Containment Reserve available for "Run of River" units
+   description: Frequency Containment Reserve available for "Run of River" units; this amount is the maximum available for the grid operator considering the commitment decisions taken by the model
    unit: MWh
 
 Frequency Containment Reserve|Electricity|Hydro|Ocean:
-   description: Frequency Containment Reserve available for Ocean Power plants
+   description: Frequency Containment Reserve available for Ocean Power plants; this amount is the maximum available for the grid operator considering the commitment decisions taken by the model
    unit: MWh
    
 Frequency Containment Reserve|Electricity|Solar:
-   description: Frequency Containment Reserve available for Photovoltaic power plants
+   description: Frequency Containment Reserve available for Photovoltaic power plants; this amount is the maximum available for the grid operator considering the commitment decisions taken by the model
    unit: MWh
    
 Frequency Containment Reserve|Electricity|Wind|OnShore:
-   description: Frequency Containment Reserve available for  Wind Onshore power plants
+   description: Frequency Containment Reserve available for  Wind Onshore power plants; this amount is the maximum available for the grid operator considering the commitment decisions taken by the model
    unit: MWh
    
 Frequency Containment Reserve|Electricity|Wind|Available forfShore:
-   description: Frequency Containment Reserve available for  Wind Available forfShore power plants
+   description: Frequency Containment Reserve available for  Wind Available forfShore power plants; this amount is the maximum available for the grid operator considering the commitment decisions taken by the model
    unit: MWh
    
 Frequency Containment Reserve|Electricity|Electricity Storage:
-   description: Frequency Containment Reserve available for energy storage systems, excl. hydro storage
+   description: Frequency Containment Reserve available for energy storage systems, excl. hydro storage; this amount is the maximum available for the grid operator considering the commitment decisions taken by the model
    unit: MWh
    
 # Inertia provided to the network per technologies
 # i.e. Inertia provided by aggregated committments of plants, storages and demand-side systems  
   
 Inertia|Electricity|Biomass:
-   description: Inertia available for  Traditionnal Biomass power plants
+   description: Inertia available for  Traditionnal Biomass power plants; this amount is the maximum available for the grid operator considering the commitment decisions taken by the model
    unit: s  
   
 Inertia|Electricity|Biomass|Traditionnal:
-   description: Inertia available for  Traditionnal Biomass power plants
+   description: Inertia available for  Traditionnal Biomass power plants; this amount is the maximum available for the grid operator considering the commitment decisions taken by the model
                 biomass from local and pre-existing
                 resources mostly waste :domestic and agricultural waste, forest residues.
    unit: s
 
 Inertia|Electricity|Biomass|New and imported:
-   description: Inertia available for New+Imported biomass power plants
+   description: Inertia available for New+Imported biomass power plants; this amount is the maximum available for the grid operator considering the commitment decisions taken by the model
                 biomass from dedicated energy crops and biomass imports.
    unit: s
 
 Inertia|Electricity|Nuclear:
-   description: Inertia available for nuclear power plants
+   description: Inertia available for nuclear power plants; this amount is the maximum available for the grid operator considering the commitment decisions taken by the model
    unit: s
 
 Inertia|Electricity|Gas:
-   description: Inertia available for Gas power plants
+   description: Inertia available for Gas power plants; this amount is the maximum available for the grid operator considering the commitment decisions taken by the model
    unit: s
    
 Inertia|Electricity|Gas|OCGT:
-   description: Inertia available for Open Cycle Gas Turbine power plants
+   description: Inertia available for Open Cycle Gas Turbine power plants; this amount is the maximum available for the grid operator considering the commitment decisions taken by the model
    unit: s
    
 Inertia|Electricity|Gas|CCGT:
-   description: Inertia available for Combined Cycle Gas Turbine power plants
+   description: Inertia available for Combined Cycle Gas Turbine power plants; this amount is the maximum available for the grid operator considering the commitment decisions taken by the model
    unit: s
 
 Inertia|Electricity|Coal:
-   description: Inertia available for coal power plants
+   description: Inertia available for coal power plants; this amount is the maximum available for the grid operator considering the commitment decisions taken by the model
    unit: s
 
 Inertia|Electricity|Lignite:
-   description: Inertia available for Lignite power plants
+   description: Inertia available for Lignite power plants; this amount is the maximum available for the grid operator considering the commitment decisions taken by the model
    unit: s
 
 Inertia|Electricity|Oil:
-   description: Inertia available for Oil power plants
+   description: Inertia available for Oil power plants; this amount is the maximum available for the grid operator considering the commitment decisions taken by the model
    unit: s
    
 Inertia|Electricity|Hydro|Reservoir:
-   description: Inertia available for "simple Hydro reservoir " units
+   description: Inertia available for "simple Hydro reservoir " units; this amount is the maximum available for the grid operator considering the commitment decisions taken by the model
    unit: s
    
 Inertia|Electricity|Hydro|Pumped Storage:
-   description: Inertia available for "Pumped Storage " units
+   description: Inertia available for "Pumped Storage " units; this amount is the maximum available for the grid operator considering the commitment decisions taken by the model
    unit: s
    
 Inertia|Electricity|Hydro|Run of River:
-   description: Inertia available for "Run of River" units
+   description: Inertia available for "Run of River" units; this amount is the maximum available for the grid operator considering the commitment decisions taken by the model
    unit: s
    
 Inertia|Electricity|Hydro|Ocean:
-   description: Inertia available for Ocean power plants
+   description: Inertia available for Ocean power plants; this amount is the maximum available for the grid operator considering the commitment decisions taken by the model
    unit: s
 
 # Marginal costs associated to active power demand, reserves, CO2 emissions, inertia and flows in the grid
