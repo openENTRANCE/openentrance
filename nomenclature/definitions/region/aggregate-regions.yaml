@@ -40,7 +40,7 @@ Scandinavia:
    definition: 'DK + FI + NO + SE'
    source: plan4res public dataset (D4.5)
 
-Scandinavia|North sea: 
+Scandinavia|North Sea: 
     definition: this 'virtual' region holds the offshore windpower of Scandinavia in norh sea 
     note: This region was defined and used in the plan4res public datasets, it is built as aggregation of ehighway2050 regions; 
     ehighway2050: 113_NS+114_NS+115_NS+116_NS
