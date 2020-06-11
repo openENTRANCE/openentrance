@@ -231,6 +231,6 @@ The Netherlands|North sea:
 United Kingdom|North sea: 
     definition: this 'virtual' region holds the offshore windpower of the UK in norh sea 
     country: Belgium
-    note: This region was defined and used in the plan4res public datasets, it is built as aggregation of ehighway2050 regions; 
+    notes: This region was defined and used in the plan4res public datasets, it is built as aggregation of ehighway2050 regions
     ehighway2050: 106_NS+107_NS+108_NS+109_NS
     plan4res: NSUK
