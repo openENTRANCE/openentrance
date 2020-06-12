@@ -43,52 +43,60 @@ with open(f'../subannual/months.yaml', 'r') as stream:
 mapping = dict([(m, eval(attr['duration'])) for (m, attr) in months.items()])
 ```
 
-### Days and hour data
+### Daily and hourly data
+Our convention makes reference to the following agreements:
 
-The ISO 8601 datetime format is adopted to consider the following levels: year, month, day, hour, minute, second, and time zone.
 
-#### Example of this format:
+#### UTC datetime format:
+- Standard datetime format     : **UTC**  
+> The UTC datetime format is adopted to consider the following levels: year, month, day, hour, minute, and second (without consider time zones).
+> For example: `2020-01-01, 2020-01-02, ...` or `2020-01-01T13:00, ...`
+> Inclusion of attributes is possible such as duration (More details [here](https://github.com/openENTRANCE/nomenclature/blob/master/nomenclature/definitions/subannual/months.yaml))
 
-Date plus hours and minutes:
-      YYYY-MM-DDThh:mmTZD (eg 1997-07-16T19:20+01:00)
-Date plus hours, minutes and seconds:
-      YYYY-MM-DDThh:mm:ssTZD (eg 1997-07-16T19:20:30+01:00)
-Date plus hours, minutes, seconds and a decimal fraction of a second
-      YYYY-MM-DDThh:mm:ss.sTZD (eg 1997-07-16T19:20:30.45+01:00)
+- Using time zone                    : **no relevance**
 
-More details about the format could be found in [Date and Time Formats](https://www.w3.org/TR/NOTE-datetime).
 
-#### Example for using this format:
+#### Examples for using this format:
 
-The code snippet (Python) below shows how to transform different datetime formats to ISO 8601.
+The code snippet (Python) below shows how to use the datetime format.
 
-Local to ISO 8601:
 ```python
 import datetime
-datetime.datetime.now().isoformat()
->>> 2020-03-20T14:28:23.382748
+
+dt_str = '2018-06-29 08:15:00'
+dt_obj = datetime.datetime.strptime(date_time_str, '%Y-%m-%d %H:%M:%S')
+
+print('Date:', dt_obj.date())
+print('Time:', dt_obj.time())
+print('Date-time:', dt_obj)
+>>> Date: 2018-06-29
+>>> Time: 08:15:00
+>>> Date-time: 2018-06-29 08:15:00
 ```
 
-UTC to ISO 8601:
-```python
-import datetime
-datetime.datetime.now().isoformat()
->>> 2020-03-20T14:28:23.382748
-```
+The format `"%Y-%m-%d %H:%M:%S"` is composed by tokens. Each token represents a different part of the date-time, like day, month, year, etc. More details can be found in [strftime() and strptime() section](https://docs.python.org/3/library/datetime.html).
+For a quick reference, here is what we're using in the code above:
 
-Local to ISO 8601 with time zone information:
-```python
-import datetime
-datetime.datetime.now().astimezone().isoformat()
->>> 2020-03-20T14:32:16.458361+13:00
-```
+%Y: Year (4 digits)
+%m: Month
+%d: Day of month
+%H: Hour (24 hour)
+%M: Minutes
+%S: Seconds
 
-UTC to ISO 8601 with time zone information:
-```python
-import datetime
-datetime.datetime.utcnow().replace(tzinfo=datetime.timezone.utc).isoformat()
->>> 2020-03-20T01:31:12.467113+00:00
-```
+### Representatives of time-slices
+
+- Using winter/summer time   :
+> To distinguish between different granularity levels of representative timeslices, It was proposed the following: `<Granularity>|<Name of timeslice>`. For example: `2 Season-2 Times|Summer-Day`.
+
+- Averaging values over the time span   :
+> A value is always the average for flow variables (i.e. It is the average between the subannual time and the subsequent one, where average is contingent on the lowest level of granularity - if you use 2020-01-01T13:00, it is hourly average, if you use 2020-01-01, it is daily average...).
+> Reference comment -> [here](https://github.com/openENTRANCE/nomenclature/issues/46#issuecomment-641721712)
+
+- Accumulating values over the time span:
+> A value at the start of the period for stock over the time-period until the start of the next timeslice.
+> For example, Capacity or Reservoir Level at 2020-01-01T13:00 is the value at 1pm, if subannual is given as 2020-01-01, it is understood as midnight that day, if it's January, it is understood as midnight on the first day of the month.
+> Reference comment -> [here](https://github.com/openENTRANCE/nomenclature/issues/46#issuecomment-641721712)
 
 ### Other categories
 
