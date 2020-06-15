@@ -1095,4 +1095,4 @@ Rate Automatic Frequency Restoration Reserve|Electricity|Wind|OffShore:
 Load Shifting Potential|Electricity|Residential|AC:
    description: Maximum shiftable load in a given region/time frame,
                 due to households changing their air conditioning usage.
-   unit: 'MW'
+   unit: MW
