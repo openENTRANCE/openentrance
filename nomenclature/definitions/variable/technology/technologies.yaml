@@ -593,12 +593,12 @@ Load Shifting Potential|Electricity|Residential|Cooking:
    description: Maximum dispatchable load in a given region/time frame,
                 due to changing household freezer/refrigerator usage.
    unit: MW
-   
+
 Load Shifting Limit|Electricity|Residential|Washing Machine:
    description: Maximum dispatchable load in a given region/time frame,
                 due to changing household washing machine usage.
    unit: MW
-   
+
 Load Shifting Limit|Electricity|Residential|Dryer:
    description: Maximum dispatchable load in a given region/time frame,
                 due to changing household tumble dryer usage.
