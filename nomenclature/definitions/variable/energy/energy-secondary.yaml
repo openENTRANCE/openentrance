@@ -41,17 +41,63 @@ Secondary Energy|Electricity|Fossil:
    unit: EJ/yr
 
 Secondary Energy|Electricity|Gas:
-   description: Net electricity production from natural gas
+   description: Net electricity production from natural gas (including methane from biomass or hydrogenation)
    unit: EJ/yr
 
 Secondary Energy|Electricity|Gas|w/ CCS:
-   description: Net electricity production from natural gas with a co2 capture
+   description: Net electricity production from natural gas (including methane from biomass or hydrogenation) with a co2 capture
                 component
    unit: EJ/yr
 
 Secondary Energy|Electricity|Gas|w/o CCS:
-   description: Net electricity production from natural gas with freely vented
+   description: Net electricity production from natural gas (including methane from biomass or hydrogenation) with freely vented
                 co2 emissions
+   unit: EJ/yr
+
+Secondary Energy|Electricity|Gas|Fossil:
+   description: Net electricity production from (fossil) natural gas
+   unit: EJ/yr
+
+Secondary Energy|Electricity|Gas|Fossil|w/ CCS:
+   description: Net electricity production from (fossil) natural gas with a co2 capture
+                component
+   unit: EJ/yr
+
+Secondary Energy|Electricity|Gas|Fossil|w/o CCS:
+   description: Net electricity production from (fossil) natural gas with freely vented
+                co2 emissions
+   unit: EJ/yr
+   
+Secondary Energy|Electricity|Gas|Biomethane:
+   description: Net electricity production from biomethane (upgraded biogas)
+   unit: EJ/yr
+
+Secondary Energy|Electricity|Gas|Biomethane|w/ CCS:
+   description: Net electricity production from biomethane (upgraded biogas) with a co2 capture
+                component
+   unit: EJ/yr
+
+Secondary Energy|Electricity|Gas|Biomethane|w/o CCS:
+   description: Net electricity production from biomethane (upgraded biogas) with freely vented
+                co2 emissions
+   unit: EJ/yr
+   
+Secondary Energy|Electricity|Gas|Synthetic Methane:
+   description: Net electricity production from synthetic methane (methanation of hydrogen)
+   unit: EJ/yr
+
+Secondary Energy|Electricity|Gas|Synthetic Methane|w/ CCS:
+   description: Net electricity production from synthetic methane (methanation of hydrogen) with a co2 capture
+                component
+   unit: EJ/yr
+
+Secondary Energy|Electricity|Gas|Synthetic Methane|w/o CCS:
+   description: Net electricity production from synthetic methane (methanation of hydrogen) with freely vented
+                co2 emissions
+   unit: EJ/yr
+      
+Secondary Energy|Electricity|Hydrogen:
+   description: Net electricity production from hydrogen (via fuelcells or hydrogen OCGTs)
    unit: EJ/yr
 
 Secondary Energy|Electricity|Geothermal:
