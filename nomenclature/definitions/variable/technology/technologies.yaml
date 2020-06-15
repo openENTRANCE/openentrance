@@ -599,7 +599,7 @@ Load Shifting Limit|Electricity|Residential|Washing Machine:
                 due to changing household washing machine usage.
    unit: MW
    
- Load Shifting Limit|Electricity|Residential|Dryer:
+Load Shifting Limit|Electricity|Residential|Dryer:
    description: Maximum dispatchable load in a given region/time frame,
                 due to changing household tumble dryer usage.
    unit: MW
