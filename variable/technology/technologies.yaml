@@ -1092,7 +1092,7 @@ Rate Automatic Frequency Restoration Reserve|Electricity|Wind|OffShore:
    
 # description of Demand flexibility potentials
    
-Load Shifting Potential|Electricity|Residential|AC:
+Load Shifting Potential|Electricity|Residential|Air Conditioning:
    description: Maximum shiftable load in a given region/time frame,
                 due to households changing their air conditioning usage.
    unit: MW
