@@ -548,7 +548,7 @@ Load Shifting Potential|Electricity|Residential|Washing Machine:
                 due to changing household washing machine usage.
    unit: MW
    
- Load Shifting Potential|Electricity|Residential|Dryer:
+Load Shifting Potential|Electricity|Residential|Dryer:
    description: Maximum curtailable load in a given region/time frame,
                 due to changing household tumble dryer usage.
    unit: MW
