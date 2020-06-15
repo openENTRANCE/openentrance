@@ -535,3 +535,106 @@ Investment|Energy Supply|Liquids|Oil:
                 capturing equipment should be included but not the one on
                 transport and storage.
    unit: billion US$2010/yr
+   
+   # description of residential demand flexibility potentials for 10 household technologies - potential curtailable load
+   
+Load Shifting Potential|Electricity|Residential|Refrigeration:
+   description: Maximum curtailable load in a given region/time frame,
+                due to changing household freezer/refrigerator usage.
+   unit: MW
+   
+Load Shifting Potential|Electricity|Residential|Washing Machine:
+   description: Maximum curtailable load in a given region/time frame,
+                due to changing household washing machine usage.
+   unit: MW
+   
+ Load Shifting Potential|Electricity|Residential|Dryer:
+   description: Maximum curtailable load in a given region/time frame,
+                due to changing household tumble dryer usage.
+   unit: MW
+   
+Load Shifting Potential|Electricity|Residential|Dish Washer:
+   description: Maximum curtailable load in a given region/time frame,
+                due to changing household dish washer usage.
+   unit: MW
+
+Load Shifting Potential|Electricity|Residential|Air Conditioning:
+   description: Maximum curtailable load in a given region/time frame,
+                due to changing household air conditioning usage.
+   unit: MW
+   
+Load Shifting Potential|Electricity|Residential|Water Heater:
+   description: Maximum curtailable load in a given region/time frame,
+                due to changing household water storage heater usage.
+   unit: MW
+   
+Load Shifting Potential|Electricity|Residential|Space Heater:
+   description: Maximum curtailable load in a given region/time frame,
+                due to changing household space heater usage.
+   unit: MW
+   
+Load Shifting Potential|Electricity|Residential|Heat Pump:
+   description: Maximum curtailable load in a given region/time frame,
+                due to changing household heat circulation pump usage.
+   unit: MW
+   
+Load Shifting Potential|Electricity|Residential|Electric Vehicle:
+   description: Maximum curtailable load in a given region/time frame,
+                due to changing household electric vehicle charging and usage.
+   unit: MW
+   
+Load Shifting Potential|Electricity|Residential|Cooking:
+   description: Maximum curtailable load in a given region/time frame,
+                due to changing household electric stove, oven and microwave usage.
+   unit: MW
+   
+   # description of residential demand flexibility potentials for 10 household technologies - limits of dispatchable load
+   Load Shifting Limit|Electricity|Residential|Refrigeration:
+   description: Maximum dispatchable load in a given region/time frame,
+                due to changing household freezer/refrigerator usage.
+   unit: MW
+   
+Load Shifting Limit|Electricity|Residential|Washing Machine:
+   description: Maximum dispatchable load in a given region/time frame,
+                due to changing household washing machine usage.
+   unit: MW
+   
+ Load Shifting Limit|Electricity|Residential|Dryer:
+   description: Maximum dispatchable load in a given region/time frame,
+                due to changing household tumble dryer usage.
+   unit: MW
+   
+Load Shifting Limit|Electricity|Residential|Dish Washer:
+   description: Maximum dispatchable load in a given region/time frame,
+                due to changing household dish washer usage.
+   unit: MW
+
+Load Shifting Limit|Electricity|Residential|Air Conditioning:
+   description: Maximum dispatchable load in a given region/time frame,
+                due to changing household air conditioning usage.
+   unit: MW
+   
+Load Shifting Limit|Electricity|Residential|Water Heater:
+   description: Maximum dispatchable load in a given region/time frame,
+                due to changing household water storage heater usage.
+   unit: MW
+   
+Load Shifting Limit|Electricity|Residential|Space Heater:
+   description: Maximum dispatchable load in a given region/time frame,
+                due to changing household space heater usage.
+   unit: MW
+   
+Load Shifting Limit|Electricity|Residential|Heat Pump:
+   description: Maximum dispatchable load in a given region/time frame,
+                due to changing household heat circulation pump usage.
+   unit: MW
+   
+Load Shifting Limit|Electricity|Residential|Electric Vehicle:
+   description: Maximum dispatchable load in a given region/time frame,
+                due to changing household electric vehicle charging and usage.
+   unit: MW
+   
+Load Shifting Limit|Electricity|Residential|Cooking:
+   description: Maximum dispatchable load in a given region/time frame,
+                due to changing household electric stove, oven and microwave usage.
+   unit: MW
