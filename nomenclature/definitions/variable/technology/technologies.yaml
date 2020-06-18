@@ -538,83 +538,83 @@ Investment|Energy Supply|Liquids|Oil:
    
    # description of residential demand flexibility potentials for 10 household technologies - potential curtailable load
    
-Maximum Curtailment|Electricity|Load Shifting|Residential|Refrigeration:
-   description: Maximum curtailable load due to changing household freezer/refrigerator usage.
+Demand Response|Maximum Reduction|Load Shifting|Electricity|Residential|Refrigeration:
+   description: Maximum load reduction due to changing household freezer/refrigerator usage.
    unit: MW
    
-Maximum Curtailment|Electricity|Load Shifting|Residential|Washing Machine:
-   description: Maximum curtailable load due to changing household washing machine usage.
+Demand Response|Maximum Reduction|Load Shifting|Electricity|Residential|Washing Machine:
+   description: Maximum load reduction due to changing household washing machine usage.
    unit: MW
    
-Maximum Curtailment|Electricity|Load Shifting|Residential|Dryer:
-   description: Maximum curtailable load due to changing household tumble dryer usage.
+Demand Response|Maximum Reduction|Load Shifting|Electricity|Residential|Dryer:
+   description: Maximum load reduction due to changing household tumble dryer usage.
    unit: MW
    
-Maximum Curtailment|Electricity|Load Shifting|Residential|Dish Washer:
-   description: Maximum curtailable load due to changing household dish washer usage.
+Demand Response|Maximum Reduction|Load Shifting|Electricity|Residential|Dish Washer:
+   description: Maximum load reduction due to changing household dish washer usage.
    unit: MW
 
-Maximum Curtailment|Electricity|Load Shifting|Residential|Air Conditioning:
-   description: Maximum curtailable load due to changing household air conditioning usage.
+Demand Response|Maximum Reduction|Load Shifting|Electricity|Residential|Air Conditioning:
+   description: Maximum load reduction due to changing household air conditioning usage.
    unit: MW
    
-Maximum Curtailment|Electricity|Load Shifting|Residential|Water Heater:
-   description: Maximum curtailable load due to changing household water storage heater usage.
+Demand Response|Maximum Reduction|Load Shifting|Electricity|Residential|Water Heater:
+   description: Maximum load reduction due to changing household water storage heater usage.
    unit: MW
    
-Maximum Curtailment|Electricity|Load Shifting|Residential|Space Heater:
-   description: Maximum curtailable load due to changing household space heater usage.
+Demand Response|Maximum Reduction|Load Shifting|Electricity|Residential|Space Heater:
+   description: Maximum load reduction due to changing household space heater usage.
    unit: MW
    
-Maximum Curtailment|Electricity|Load Shifting|Residential|Heat Pump:
-   description: Maximum curtailable load due to changing household heat circulation pump usage.
+Demand Response|Maximum Reduction|Load Shifting|Electricity|Residential|Heat Pump:
+   description: Maximum load reduction due to changing household heat circulation pump usage.
    unit: MW
    
-Maximum Curtailment|Electricity|Load Shifting|Residential|Electric Vehicle:
-   description: Maximum curtailable load due to changing household electric vehicle charging and usage.
+Demand Response|Maximum Reduction|Load Shifting|Electricity|Residential|Electric Vehicle:
+   description: Maximum load reduction due to changing household electric vehicle charging and usage.
    unit: MW
    
-Maximum Curtailment|Electricity|Load Shifting|Residential|Cooking:
-   description: Maximum curtailable load due to changing household electric stove, oven and microwave usage.
+Demand Response|Maximum Reduction|Load Shifting|Electricity|Residential|Cooking:
+   description: Maximum load reduction due to changing household electric stove, oven and microwave usage.
    unit: MW
    
    # description of residential demand flexibility potentials for 10 household technologies - limits of dispatchable load
-Maximum Dispatch|Electricity|Load Shifting|Residential|Refrigeration:
+Demand Response|Maximum Dispatch|Load Shifting|Electricity|Residential|Refrigeration:
    description: Maximum dispatchable load due to changing household freezer/refrigerator usage.
    unit: MW
 
-Maximum Dispatch|Electricity|Load Shifting|Residential|Washing Machine:
+Demand Response|Maximum Dispatch|Load Shifting|Electricity|Residential|Washing Machine:
    description: Maximum dispatchable load due to changing household washing machine usage.
    unit: MW
 
-Maximum Dispatch|Electricity|Load Shifting|Residential|Dryer:
+Demand Response|Maximum Dispatch|Load Shifting|Electricity|Residential|Dryer:
    description: Maximum dispatchable load due to changing household tumble dryer usage.
    unit: MW
    
-Maximum Dispatch|Electricity|Load Shifting|Residential|Dish Washer:
+Demand Response|Maximum Dispatch|Load Shifting|Electricity|Residential|Dish Washer:
    description: Maximum dispatchable load due to changing household dish washer usage.
    unit: MW
 
-Maximum Dispatch|Electricity|Load Shifting|Residential|Air Conditioning:
+Demand Response|Maximum Dispatch|Load Shifting|Electricity|Residential|Air Conditioning:
    description: Maximum dispatchable load due to changing household air conditioning usage.
    unit: MW
    
-Maximum Dispatch|Electricity|Load Shifting|Residential|Water Heater:
+Demand Response|Maximum Dispatch|Load Shifting|Electricity|Residential|Water Heater:
    description: Maximum dispatchable load due to changing household water storage heater usage.
    unit: MW
    
-Maximum Dispatch|Electricity|Load Shifting|Residential|Space Heater:
+Demand Response|Maximum Dispatch|Load Shifting|Electricity|Residential|Space Heater:
    description: Maximum dispatchable load due to changing household space heater usage.
    unit: MW
    
-Maximum Dispatch|Electricity|Load Shifting|Residential|Heat Pump:
+Demand Response|Maximum Dispatch|Load Shifting|Electricity|Residential|Heat Pump:
    description: Maximum dispatchable load due to changing household heat circulation pump usage.
    unit: MW
    
-Maximum Dispatch|Electricity|Load Shifting|Residential|Electric Vehicle:
+Demand Response|Maximum Dispatch|Load Shifting|Electricity|Residential|Electric Vehicle:
    description: Maximum dispatchable load due to changing household electric vehicle charging and usage.
    unit: MW
    
-Maximum Dispatch|Electricity|Load Shifting|Residential|Cooking:
+Demand Response|Maximum Dispatch|Load Shifting|Electricity|Residential|Cooking:
    description: Maximum dispatchable load due to changing household electric stove, oven and microwave usage.
    unit: MW
