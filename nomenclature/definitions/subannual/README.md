@@ -56,11 +56,11 @@ Our convention makes reference to the following agreements:
 - Using time zone                    : **no relevance**
 
 
-#### Examples for using this format:
+#### Using the format:
 
-The code snippet (Python) below shows how to use the datetime format.
+The code snippet (Python) below shows how to get lists of dates and datetimes.
 
-List of dates:
+- To get a list of dates:
 ```python
 from datetime import timedelta, date
 
@@ -73,7 +73,7 @@ end_dt = date(2016, 1, 11)
 for dt in daterange(start_dt, end_dt):
     print(dt.strftime("%Y-%m-%d"))
 ```
-List of hours:
+- To get a list of datetimes:
 ```python
 from datetime import timedelta, datetime
 
@@ -90,11 +90,11 @@ for dt in DateTimeRange(start_dt, end_dt):
 The format `"%Y-%m-%d %H:%M:%S"` is composed by tokens. Each token represents a different part of the date-time, like day, month, year, etc. More details can be found in [strftime() and strptime() section](https://docs.python.org/3/library/datetime.html).
 For a quick reference, here is what we're using in the code above:
 
-%Y: Year (4 digits)
-%m: Month
-%d: Day of month
-%H: Hour (24 hour)
-%M: Minutes
-%S: Seconds
+- %Y: Year (4 digits)
+- %m: Month
+- %d: Day of month
+- %H: Hour (24 hour)
+- %M: Minutes
+- %S: Seconds
 
 *Other categories to be added over time*
