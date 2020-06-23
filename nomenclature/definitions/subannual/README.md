@@ -60,18 +60,31 @@ Our convention makes reference to the following agreements:
 
 The code snippet (Python) below shows how to use the datetime format.
 
+List of dates:
 ```python
-import datetime
+from datetime import timedelta, date
 
-dt_str = '2018-06-29 08:15:00'
-dt_obj = datetime.datetime.strptime(date_time_str, '%Y-%m-%d %H:%M:%S')
+def daterange(date1, date2):
+    for n in range(int ((date2 - date1).days)+1):
+        yield date1 + timedelta(n)
 
-print('Date:', dt_obj.date())
-print('Time:', dt_obj.time())
-print('Date-time:', dt_obj)
->>> Date: 2018-06-29
->>> Time: 08:15:00
->>> Date-time: 2018-06-29 08:15:00
+start_dt = date(2015, 12, 20)
+end_dt = date(2016, 1, 11)
+for dt in daterange(start_dt, end_dt):
+    print(dt.strftime("%Y-%m-%d"))
+```
+List of hours:
+```python
+from datetime import timedelta, datetime
+
+def DateTimeRange(datetime1, datetime2):
+    for n in range(int (((datetime2 - datetime1).days)+1)*24):
+        yield datetime1 + timedelta(hours=n)
+
+start_dt = datetime(2020, 6, 23)
+end_dt   = datetime(2020, 6, 30)
+for dt in DateTimeRange(start_dt, end_dt):
+    print(dt.strftime("%Y-%m-%d %H:%M:%S"))
 ```
 
 The format `"%Y-%m-%d %H:%M:%S"` is composed by tokens. Each token represents a different part of the date-time, like day, month, year, etc. More details can be found in [strftime() and strptime() section](https://docs.python.org/3/library/datetime.html).
@@ -84,19 +97,19 @@ For a quick reference, here is what we're using in the code above:
 %M: Minutes
 %S: Seconds
 
-### Representatives of time-slices
-
-- Using winter/summer time   :
-> To distinguish between different granularity levels of representative timeslices, It was proposed the following: `<Granularity>|<Name of timeslice>`. For example: `2 Season-2 Times|Summer-Day`.
-
-- Averaging values over the time span   :
-> A value is always the average for flow variables (i.e. It is the average between the subannual time and the subsequent one, where average is contingent on the lowest level of granularity - if you use 2020-01-01T13:00, it is hourly average, if you use 2020-01-01, it is daily average...).
-> Reference comment -> [here](https://github.com/openENTRANCE/nomenclature/issues/46#issuecomment-641721712)
-
-- Accumulating values over the time span:
-> A value at the start of the period for stock over the time-period until the start of the next timeslice.
-> For example, Capacity or Reservoir Level at 2020-01-01T13:00 is the value at 1pm, if subannual is given as 2020-01-01, it is understood as midnight that day, if it's January, it is understood as midnight on the first day of the month.
-> Reference comment -> [here](https://github.com/openENTRANCE/nomenclature/issues/46#issuecomment-641721712)
+# <!-- ### Representatives of time-slices
+#
+# - Using winter/summer time   :
+# > To distinguish between different granularity levels of representative timeslices, It was proposed the following: `<Granularity>|<Name of timeslice>`. For example: `2 Season-2 Times|Summer-Day`.
+#
+# - Averaging values over the time span   :
+# > A value is always the average for flow variables (i.e. It is the average between the subannual time and the subsequent one, where average is contingent on the lowest level of granularity - if you use 2020-01-01T13:00, it is hourly average, if you use 2020-01-01, it is daily average...).
+# > Reference comment -> [here](https://github.com/openENTRANCE/nomenclature/issues/46#issuecomment-641721712)
+#
+# - Accumulating values over the time span:
+# > A value at the start of the period for stock over the time-period until the start of the next timeslice.
+# > For example, Capacity or Reservoir Level at 2020-01-01T13:00 is the value at 1pm, if subannual is given as 2020-01-01, it is understood as midnight that day, if it's January, it is understood as midnight on the first day of the month.
+# > Reference comment -> [here](https://github.com/openENTRANCE/nomenclature/issues/46#issuecomment-641721712) -->
 
 ### Other categories
 
