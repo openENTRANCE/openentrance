@@ -97,20 +97,4 @@ For a quick reference, here is what we're using in the code above:
 %M: Minutes
 %S: Seconds
 
-# <!-- ### Representatives of time-slices
-#
-# - Using winter/summer time   :
-# > To distinguish between different granularity levels of representative timeslices, It was proposed the following: `<Granularity>|<Name of timeslice>`. For example: `2 Season-2 Times|Summer-Day`.
-#
-# - Averaging values over the time span   :
-# > A value is always the average for flow variables (i.e. It is the average between the subannual time and the subsequent one, where average is contingent on the lowest level of granularity - if you use 2020-01-01T13:00, it is hourly average, if you use 2020-01-01, it is daily average...).
-# > Reference comment -> [here](https://github.com/openENTRANCE/nomenclature/issues/46#issuecomment-641721712)
-#
-# - Accumulating values over the time span:
-# > A value at the start of the period for stock over the time-period until the start of the next timeslice.
-# > For example, Capacity or Reservoir Level at 2020-01-01T13:00 is the value at 1pm, if subannual is given as 2020-01-01, it is understood as midnight that day, if it's January, it is understood as midnight on the first day of the month.
-# > Reference comment -> [here](https://github.com/openENTRANCE/nomenclature/issues/46#issuecomment-641721712) -->
-
-### Other categories
-
 *Other categories to be added over time*
