@@ -313,7 +313,7 @@ Emissions|CO2|Electricity|Gas|OCGT:
    description: CO2 emmissions of a typical Open Cycle Gas Turbine power plant
    unit: tons/MWh
 
-Emmissions|CO2|Electricity|Gas|CCGT:
+Emissions|CO2|Electricity|Gas|CCGT:
    description: CO2 emmissions of a typical Combined Cycle Gas Turbine power plant
    unit: tons/MWh
 
