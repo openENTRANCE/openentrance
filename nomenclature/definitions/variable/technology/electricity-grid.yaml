@@ -77,7 +77,7 @@ Reactance|Electricity|Transmission:
    description: Reactance. Lines need to have a reactance different from 0 in the case of a DC cable or a transportation modeling for an AC cable
    unit:
 
-Replacement Reserve|Electricity:
+Reserve|Electricity|Replacement:
    description: Replacement reserve (RR) means the active power reserves available to restore or support the required level of frequency restoration reserve (FRR) to be prepared for additional system imbalances, including generation reserves.
    unit: MW
 
