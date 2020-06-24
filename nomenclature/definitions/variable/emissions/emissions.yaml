@@ -294,7 +294,7 @@ Emissions|CO2|Electricity:
    description: CO2 emmissions of power plants .
    unit: tons/MWh
 
-Emmissions|CO2|Electricity|Biomass|Traditionnal:
+Emissions|CO2|Electricity|Biomass|Traditionnal:
    description: CO2 emmissions of a typical Traditionnal Biomass power plant
                 biomass from local and pre-existing
                 resources mostly waste :domestic and agricultural waste, forest residues.
