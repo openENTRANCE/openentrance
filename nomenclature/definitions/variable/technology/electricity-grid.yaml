@@ -25,8 +25,8 @@ Active Power Flow|Electricity|Transmission:
    description: Active power flow through a line
    unit: MW
 
-Binary Investment|Electricity|Transmission:
-   description: Binary line/circuit investment decision. Note that it is a output data from model and if it makes a product with the investmen cost of the line, we get the investment in monetary unit.
+Investment|Electricity|Transmission:
+   description: Investment decision. Note that it is a output data from model and if it makes a product with the investmen cost of the line, we get the investment in monetary unit.
    unit: [Yes, No]
 
 Impedance|Electricity|Transmission:
