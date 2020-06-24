@@ -85,6 +85,6 @@ Security Factor|Electricity|Transmission:
    description: Security factor to consider approximately N-1 contingencies. NTC = TTC x SecurityFactor
    unit:
 
-Voltage Angle|Electricity:
+Voltage Angle|Electricity|Transmission:
    description: Voltage angle of a node
    unit: Rad
