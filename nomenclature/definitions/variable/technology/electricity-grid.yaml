@@ -53,7 +53,7 @@ Loss Factor|Electricity|Transmission:
    description: Transmission losses equal to the line flow times this factor
    unit:
 
-Manual Frequency Restoration Reserve|Electricity:
+Reserve|Electricity|Requirement|Manual Frequency Restoration:
    description: Manual frequency restoration reserve (mFRR) is used to relieve the automatic frequency restoration reserve during prolonged imbalances.
    unit: MW
 
