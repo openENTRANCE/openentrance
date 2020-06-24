@@ -321,7 +321,7 @@ Emissions|CO2|Electricity|Lignite:
    description: CO2 emmissions of a typical Lignite power plant
    unit: tons/MWh
 
-Emmissions|CO2|Electricity|Nuclear:
+Emissions|CO2|Electricity|Nuclear:
    description: CO2 emmissions of a typical nuclear power plant
    unit: tons/MWh
 
