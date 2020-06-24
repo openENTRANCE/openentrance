@@ -8,7 +8,7 @@ Demand not served|Electricity:
    description: Demand-not-served.
    unit: MWh
 
-Network|Electricity|Demand|Reserve|Frequency Containment:
+Reserve|Electricity|Requirement|Frequency Containment:
    description: Demand in frequency containment reserve (FCR)
    unit: MW
 
