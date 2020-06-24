@@ -4,7 +4,7 @@ Value of Lost Load|Electricity:
    description: Cost of demand-not-served. Cost of load curtailment. Value of Lost Load (VoLL)
    unit: €/MWh
 
-Demand-not-served|Electricity:
+Demand not served|Electricity:
    description: Demand-not-served.
    unit: MWh
 
