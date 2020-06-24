@@ -650,6 +650,10 @@ Maximum Charge|Electricity|Energy Storage System:
    description: Maximum charge when storing energy the energy storage system unit.
    unit: MW
 
+Maximum Discharge|Electricity|Energy Storage System:
+   description: Maximum discharge when consuming energy from the energy storage system unit.
+   unit: MW
+
 Maximum Storage|Electricity|Energy Storage System:
    description: Maximum energy that can be stored by the energy storage system unit.
    unit: GWh
