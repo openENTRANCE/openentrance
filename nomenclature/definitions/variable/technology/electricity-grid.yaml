@@ -12,7 +12,7 @@ Reserve|Electricity|Requirement|Frequency Containment:
    description: Demand in frequency containment reserve (FCR)
    unit: MW
 
-Network|Electricity|Demand|Reserve|Automatic Frequency Restoration:
+Reserve|Electricity|Requirement|Automatic Frequency Restoration:
    description: Demand in automatic frequency restoration reserve (AFRR)
    unit: MW
 
