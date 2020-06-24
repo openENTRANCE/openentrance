@@ -305,7 +305,7 @@ Emissions|CO2|Electricity|Biomass|New and imported :
                 biomass from dedicated energy crops and biomass imports.
    unit: tons/MWh
 
-Emmissions|CO2|Electricity|Coal:
+Emissions|CO2|Electricity|Coal:
    description: CO2 emmissions of a typical coal power plant
    unit: tons/MWh
 
