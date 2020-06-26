@@ -46,7 +46,6 @@ mapping = dict([(m, eval(attr['duration'])) for (m, attr) in months.items()])
 ### Daily and hourly data
 Our convention makes reference to the following agreements:
 
-
 #### UTC datetime format:
 - Standard datetime format     : **UTC**  
 > The UTC datetime format is adopted to consider the following levels: year, month, day, hour, minute, and second (without consider time zones).
