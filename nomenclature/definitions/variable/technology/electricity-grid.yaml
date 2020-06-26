@@ -69,7 +69,7 @@ Operating Reserve Down|Electricity:
    description: Operating reserve down of the system for each load level. It is the sum of aFRR (or secondary reserve), FRR & RR (FRR+RR = tertiary reserve).
    unit: MW
 
-Operating Reserve Up|Electricity:
+Reserve|Electricity|Requirement|Operating Reserve Up:
    description: Operating reserve up of the system for each load level. It is the sum of aFRR (or secondary reserve), FRR & RR (FRR+RR = tertiary reserve).
    unit: MW
 
