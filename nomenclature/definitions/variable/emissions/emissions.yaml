@@ -300,7 +300,7 @@ Emissions|CO2|Electricity|Biomass|Traditionnal:
                 resources mostly waste :domestic and agricultural waste, forest residues
    unit: tons/MWh
 
-Emissions|CO2|Electricity|Biomass|New and imported :
+Emissions|CO2|Electricity|Biomass|New and imported:
    description: CO2 emissions of a typical new biomass power plant
                 biomass from dedicated energy crops and biomass imports
    unit: tons/MWh
