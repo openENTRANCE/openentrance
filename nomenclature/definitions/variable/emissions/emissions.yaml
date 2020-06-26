@@ -297,12 +297,12 @@ Emissions|CO2|Electricity Generation:
 Emissions|CO2|Electricity|Biomass|Traditionnal:
    description: CO2 emissions of a typical Traditionnal Biomass power plant
                 biomass from local and pre-existing
-                resources mostly waste :domestic and agricultural waste, forest residues
+                resources mostly waste :domestic and agricultural waste, forest residues.
    unit: tons/MWh
 
-Emissions|CO2|Electricity|Biomass|New and imported:
+Emissions|CO2|Electricity|Biomass|New and imported :
    description: CO2 emissions of a typical new biomass power plant
-                biomass from dedicated energy crops and biomass imports
+                biomass from dedicated energy crops and biomass imports.
    unit: tons/MWh
 
 Emissions|CO2|Electricity|Coal:
@@ -322,7 +322,7 @@ Emissions|CO2|Electricity|Lignite:
    unit: tons/MWh
 
 Emissions|CO2|Electricity|Nuclear:
-   description: CO2 emmissions of a typical nuclear power plant; usually equal to 0 but variable necessary for consistancy reason
+   description: CO2 emissions of a typical nuclear power plant; usually equal to 0 but variable necessary for consistancy reason
    unit: tons/MWh
 
 
