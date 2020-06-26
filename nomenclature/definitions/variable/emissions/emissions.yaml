@@ -291,7 +291,7 @@ Emissions|CO2|AFOLU:
    unit: Mt CO2/yr
 
 Emissions|CO2|Electricity Generation:
-   description: CO2 emmissions of power plants .
+   description: CO2 emissions of power plants
    unit: tons/MWh
 
 Emissions|CO2|Electricity|Biomass|Traditionnal:
