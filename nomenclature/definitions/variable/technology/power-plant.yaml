@@ -3,7 +3,7 @@
 # Note that:
 # linear   term cost   [€/GWh] = Linear Var Cost [Mcal/GWh] * Price|Primary Energy [€/Mcal] + Operation and Maintenance Variable Cost [€/MWh] * 1e-3
 # constant term cost   [€/h]   = Constant Var Cost [Mcal/h] * Price|Primary Energy [€/Mcal]
-Constant Var Cost|Electricity|Coal:
+Operational Cost|Constant Term|Electricity Generation|Coal:
    description: Constant term (intercept) of the heat rate straight line. Cost of the power generation unit who belongs to the specified power
                 plant category. It refers to the unit commitment variable of each power plant per unit time.
    unit: Mcal/hour
