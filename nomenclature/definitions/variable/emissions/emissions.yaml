@@ -290,7 +290,7 @@ Emissions|CO2|AFOLU:
                 (IPCC category 3)
    unit: Mt CO2/yr
 
-Emissions|CO2|Electricity:
+Emissions|CO2|Electricity Generation:
    description: CO2 emmissions of power plants .
    unit: tons/MWh
 
