@@ -322,7 +322,7 @@ Emissions|CO2|Electricity|Lignite:
    unit: tons/MWh
 
 Emissions|CO2|Electricity|Nuclear:
-   description: CO2 emissions of a typical nuclear power plant
+   description: CO2 emmissions of a typical nuclear power plant; usually equal to 0 but variable necessary for consistancy reason
    unit: tons/MWh
 
 
