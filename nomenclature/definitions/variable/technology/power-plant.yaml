@@ -23,7 +23,7 @@ Constant Var Cost|Electricity|Oil:
                 plant category. It refers to the unit commitment variable of each power plant per unit time.
    unit: Mcal/hour
 
-Linear Var Cost|Electricity|Coal:
+Operational Cost|Linear Term|Electricity Generation|Coal:
    description: Linear term (slope) of the heat rate straight line. Cost of the power generation unit who belongs to the specified power
                 plant category. It refers to the production cost of each energy unit (GWh, MWh,etc.).
    unit: Mcal/MWh
