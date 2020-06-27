@@ -1,24 +1,24 @@
 # List of variables related to power plants
 # Variables related to the production cost of a power plant
 # Note that:
-# linear   term cost   [€/GWh] = Linear Var Cost [Mcal/GWh] * Price|Primary Energy [€/Mcal] + Operation and Maintenance Variable Cost [€/MWh] * 1e-3
+# linear   term cost   [€/GWh] = Linear Var Cost [Mcal/MWh] * Price|Primary Energy [€/Mcal] + Operation and Maintenance Variable Cost [€/MWh] * 1e-3
 # constant term cost   [€/h]   = Constant Var Cost [Mcal/h] * Price|Primary Energy [€/Mcal]
 Operational Cost|Constant Term|Electricity Generation|Coal:
    description: Constant term (intercept) of the heat rate straight line. Cost of the power generation unit who belongs to the specified power
                 plant category. It refers to the unit commitment variable of each power plant per unit time.
    unit: Mcal/hour
 
-Constant Var Cost|Electricity|Gas:
+Operational Cost|Constant Term|Electricity Generation|Gas:
    description: Constant term (intercept) of the heat rate straight line. Cost of the power generation unit who belongs to the specified power
                 plant category. It refers to the unit commitment variable of each power plant per unit time.
    unit: Mcal/hour
 
-Constant Var Cost|Electricity|Nuclear:
+Operational Cost|Constant Term|Electricity Generation|Nuclear:
    description: Constant term (intercept) of the heat rate straight line. Cost of the power generation unit who belongs to the specified power
                 plant category. It refers to the unit commitment variable of each power plant per unit time.
    unit: Mcal/hour
 
-Constant Var Cost|Electricity|Oil:
+Operational Cost|Constant Term|Electricity Generation|Oil:
    description: Constant term (intercept) of the heat rate straight line. Cost of the power generation unit who belongs to the specified power
                 plant category. It refers to the unit commitment variable of each power plant per unit time.
    unit: Mcal/hour
@@ -28,17 +28,17 @@ Operational Cost|Linear Term|Electricity Generation|Coal:
                 plant category. It refers to the production cost of each energy unit (GWh, MWh,etc.).
    unit: Mcal/MWh
 
-Linear Var Cost|Electricity|Gas:
+Operational Cost|Linear Term|Electricity Generation|Gas:
    description: Linear term (slope) of the heat rate straight line. Cost of the power generation unit who belongs to the specified power
                 plant category. It refers to the production cost of each energy unit (GWh, MWh,etc.).
    unit: Mcal/MWh
 
-Linear Var Cost|Electricity|Nuclear:
+Operational Cost|Linear Term|Electricity Generation|Nuclear:
    description: Linear term (slope) of the heat rate straight line. Cost of the power generation unit who belongs to the specified power
                 plant category. It refers to the production cost of each energy unit (GWh, MWh,etc.).
    unit: Mcal/MWh
 
-Linear Var Cost|Electricity|Oil:
+Operational Cost|Linear Term|Electricity Generation|Oil:
    description: Linear term (slope) of the heat rate straight line. Cost of the power generation unit who belongs to the specified power
                 plant category. It refers to the production cost of each energy unit (GWh, MWh,etc.).
    unit: Mcal/MWh
