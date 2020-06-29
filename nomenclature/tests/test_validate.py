@@ -20,11 +20,11 @@ def test_validate():
 
 def test_validate_fail():
     # test that simple validation fails on variable and region dimension
-    assert not (validate(df.rename(variable={'Primary Energy':'foo'})))
-    assert not (validate(df.rename(region={'Europe':'foo'})))
+    assert not (validate(df.rename(variable={'Primary Energy': 'foo'})))
+    assert not (validate(df.rename(region={'Europe': 'foo'})))
 
 
 def test_validate_directional():
     # test that validation works as expected with directional data
-    assert validate(df.rename(region={'Europe':'Austria>Germany'}))
-    assert not validate(df.rename(region={'Europe':'Austria>foo'}))
+    assert validate(df.rename(region={'Europe': 'Austria>Germany'}))
+    assert not validate(df.rename(region={'Europe': 'Austria>foo'}))

@@ -114,8 +114,8 @@ def validate(df):
             if ">" in i:
                 sp = i.split(">")
                 if sp[0] in codelist and sp[1] in codelist:
-                    invalid.remove(i)        
+                    invalid.remove(i)
         if invalid:
-            success = False            
-            logger.warning(msg.format(col + ext, invalid))       
+            success = False
+            logger.warning(msg.format(col + ext, invalid))
     return success
