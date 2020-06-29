@@ -93,10 +93,8 @@ def validate(df):
         Return `True` if all column entries in `df` are valid
         or `False` otherwise
     """
-    if not isinstance(df, IamDataFrame):
-        df = IamDataFrame(df)
+    df = IamDataFrame(df)
     success = True
-
     # set up list of dimension (columns) to validate
     cols = [
         ('region', regions, 's'),
@@ -109,8 +107,12 @@ def validate(df):
     msg = 'The following {} are not defined in the nomenclature:\n    {}'
     for col, codelist, ext in cols:
         invalid = [c for c in df.data[col].unique() if c not in codelist]
+        for i in reversed(invalid):
+            if ">" in i:
+                sp = i.split(">")
+                if (sp[0] in codelist and sp[1] in codelist):
+                    invalid.remove(i)        
         if invalid:
-            success = False
-            logger.warning(msg.format(col + ext, invalid))
-
+            success = False            
+            logger.warning(msg.format(col + ext, invalid))       
     return success
