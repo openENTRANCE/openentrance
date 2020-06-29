@@ -66,68 +66,68 @@ Operation and Maintenance Cost|Electricity|Oil:
 Shut-Down Cost|Electricity|Coal:
    description: Shutdown heat cost per power generation unit who belongs to the specified power
                 plant category.
-   unit: Mcal
+   unit: MEUR
 
 Shut-Down Cost|Electricity|Gas:
    description: Shutdown heat cost per power generation unit who belongs to the specified power
                 plant category.
-   unit: Mcal
+   unit: MEUR
 
 Shut-Down Cost|Electricity|Nuclear:
    description: Shutdown heat cost per power generation unit who belongs to the specified power
                 plant category.
-   unit: Mcal
+   unit: MEUR
 
 Shut-Down Cost|Electricity|Oil:
    description: Shutdown heat cost per power generation unit who belongs to the specified power
                 plant category.
-   unit: Mcal
+   unit: MEUR
 Start-Up Cost|Electricity|Coal:
    description: Startup heat cost per power generation unit who belongs to the specified power
                 plant category.
-   unit: Mcal
+   unit: MEUR
 
 Start-Up Cost|Electricity|Gas:
    description: Startup heat cost per power generation unit who belongs to the specified power
                 plant category.
-   unit: Mcal
+   unit: MEUR
 
 Start-Up Cost|Electricity|Nuclear:
    description: Startup heat cost per power generation unit who belongs to the specified power
                 plant category.
-   unit: Mcal
+   unit: MEUR
 
 Start-Up Cost|Electricity|Oil:
    description: Startup heat cost per power generation unit who belongs to the specified power
                 plant category.
-   unit: Mcal
+   unit: MEUR
 
 Variable Cost|Electricity|Biomass|Traditionnal:
    description: variable cost of a typical Traditionnal Biomass power plant
                 biomass from local and pre-existing
                 resources mostly waste :domestic and agricultural waste, forest residues.
-   unit: €/MWh
+   unit: EUR/MWh
 
 Variable Cost|Electricity|Biomass|New and imported :
    description: variable cost of a typical new biomass power plant
                 biomass from dedicated energy crops and biomass imports.
-   unit: €/MWh
+   unit: EUR/MWh
 
 Variable Cost|Electricity|Nuclear:
    description: variable cost of a typical nuclear power plant
-   unit: €/MWh
+   unit: EUR/MWh
 
 Variable Cost|Electricity|Gas|OCGT:
    description: variable cost of a typical Open Cycle Gas Turbine power plant
-   unit: €/MWh
+   unit: EUR/MWh
 
 Variable Cost|Electricity|Coal:
    description: variable cost of a typical coal power plant
-   unit: €/MWh
+   unit: EUR/MWh
 
 Variable Cost|Electricity|Lignite:
    description: variable cost of a typical Lignite power plant
-   unit: €/MWh
+   unit: EUR/MWh
 
 # Variables related to thermal power plants
 Number of Units|Electricity|Biomass|Traditional:
