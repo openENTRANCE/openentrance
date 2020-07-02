@@ -61,7 +61,7 @@ Our convention makes reference to the following agreements:
 - Calendar                              : **Use of real days**  
 > For any model with an hourly resolution, it assumes that uses 8760 hours for a common year and 8784 hours for leap years as 2020, 2024, etc.
 
-- Using time zone                       : **Everything is in UTC+01:00 (Central European Time)**
+- Using time zone                       : **Everything is in the same time zone (Berlin, Vienna, Paris, Madrid, etc.)**
 > To emphasize that all-time data must be given in UTC format. And, do not include the special treatment for identifying time zones.
 
 - Summer/Winter-time in continuous-time format :
