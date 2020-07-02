@@ -97,7 +97,7 @@ def validate(df):
         df = IamDataFrame(df)
     success = True
 
-    # set up list of dimension (columns) to validate
+    # set up list of dimension (columns) to validate (`subannual` is optional)
     cols = [
         ('region', regions, 's'),
         ('variable', variables, 's')
@@ -109,13 +109,20 @@ def validate(df):
     msg = 'The following {} are not defined in the nomenclature:\n    {}'
     for col, codelist, ext in cols:
         invalid = [c for c in df.data[col].unique() if c not in codelist]
-        # Check the entries in the invalid list related to directional data
-        for i in reversed(invalid):
-            if ">" in i:
-                sp = i.split(">")
-                if sp[0] in codelist and sp[1] in codelist:
-                    invalid.remove(i)
+
+        # check the entries in the invalid list related to directional data
+        if col == 'region':
+            invalid = [i for i in invalid if not _validate_directional(i)]
+
+        # check if any entries in the column are invalid and write to log
         if invalid:
             success = False
             logger.warning(msg.format(col + ext, invalid))
+
     return success
+
+
+def _validate_directional(x):
+    """Utility function to check whether region-to-region code is valid"""
+    x = x.split('>')
+    return len(x) == 2 and all([i in regions for i in x])

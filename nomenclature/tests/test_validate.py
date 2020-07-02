@@ -28,3 +28,6 @@ def test_validate_directional():
     # test that validation works as expected with directional data
     assert validate(df.rename(region={'Europe': 'Austria>Germany'}))
     assert not validate(df.rename(region={'Europe': 'Austria>foo'}))
+
+    # test that directional data with more than one `>` fails
+    assert not validate(df.rename(region={'Europe': 'Austria>Italy>France'}))
