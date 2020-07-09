@@ -16,7 +16,7 @@ Reserve|Electricity|Requirement|Automatic Frequency Restoration:
    description: Demand in automatic frequency restoration reserve (AFRR)
    unit: MW
 
-Network|Electricity|Demand|Inertia:
+Network|Electricity|Requirement|Inertia:
    description: Demand in inertia
    unit: second
 
