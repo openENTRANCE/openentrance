@@ -1,8 +1,8 @@
 # List of variables related to power plants
 # Variables related to the production cost of a power plant
 # Note that:
-# linear   term cost   [€/GWh] = Linear Var Cost [Mcal/MWh] * Price|Primary Energy [€/Mcal] + Operation and Maintenance Variable Cost [€/MWh] * 1e-3
-# constant term cost   [€/h]   = Constant Var Cost [Mcal/h] * Price|Primary Energy [€/Mcal]
+# linear   term cost   [EUR/GWh] = Linear Var Cost [Mcal/MWh] * Price|Primary Energy [EUR/Mcal] + Operation and Maintenance Variable Cost [EUR/MWh] * 1e-3
+# constant term cost   [EUR/h]   = Constant Var Cost [Mcal/h] * Price|Primary Energy [EUR/Mcal]
 Operational Cost|Constant Term|Electricity Generation|Coal:
    description: Constant term (intercept) of the heat rate straight line. Cost of the power generation unit who belongs to the specified power
                 plant category. It refers to the unit commitment variable of each power plant per unit time.
@@ -46,22 +46,22 @@ Operational Cost|Linear Term|Electricity Generation|Oil:
 Operation and Maintenance Cost|Electricity|Coal:
    description: Operation and maintenance cost of the power generation unit who belongs to the specified power
                 plant category.
-   unit: €/MWh
+   unit: EUR/MWh
 
 Operation and Maintenance Cost|Electricity|Gas:
    description: Operation and maintenance cost of the power generation unit who belongs to the specified power
                 plant category.
-   unit: €/MWh
+   unit: EUR/MWh
 
 Operation and Maintenance Cost|Electricity|Nuclear:
    description: Operation and maintenance cost of the power generation unit who belongs to the specified power
                 plant category.
-   unit: €/MWh
+   unit: EUR/MWh
 
 Operation and Maintenance Cost|Electricity|Oil:
    description: Operation and maintenance cost of the power generation unit who belongs to the specified power
                 plant category.
-   unit: €/MWh
+   unit: EUR/MWh
 
 Shut-Down Cost|Electricity|Coal:
    description: Shutdown heat cost per power generation unit who belongs to the specified power
