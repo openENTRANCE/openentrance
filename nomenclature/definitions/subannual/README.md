@@ -89,7 +89,7 @@ It refers to clustered hours and not consecutive that generates representatives 
 
 - Accumulating values over the time span:
 > A value at the start of the period for stock over the time-period until the start of the next timeslice.
-> For example, Capacity or Reservoir Level at 2020-01-01T13:00 is the value at 1pm, if subannual is given as 2020-01-01, it is understood as midnight that day, if it's January, it is understood as midnight on the first day of the month.
+> For example, Reservoir or storage Level at 2020-01-01T13:00 is the value at 1pm, if subannual is given as 2020-01-01, it is understood as midnight that day, if it's January, it is understood as midnight on the first day of the month.
 
 
 #### List of dates:
