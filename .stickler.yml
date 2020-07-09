@@ -3,3 +3,4 @@ linters:
     fixer: true
 fixers:
   enable: true
+
