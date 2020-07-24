@@ -1,4 +1,135 @@
-# description of thermal power plants
+# List of variables related to power plants
+# Variables related to the production cost of a power plant
+# Note that:
+# linear   term cost   [EUR/GWh] = Linear Var Cost [Mcal/MWh] * Price|Primary Energy [EUR/Mcal] + Operation and Maintenance Variable Cost [EUR/MWh] * 1e-3
+# constant term cost   [EUR/h]   = Constant Var Cost [Mcal/h] * Price|Primary Energy [EUR/Mcal]
+Operational Cost|Constant Term|Electricity Generation|Coal:
+   description: Constant term (intercept) of the heat rate straight line. Cost of the power generation unit who belongs to the specified power
+                plant category. It refers to the unit commitment variable of each power plant per unit time.
+   unit: Mcal/hour
+
+Operational Cost|Constant Term|Electricity Generation|Gas:
+   description: Constant term (intercept) of the heat rate straight line. Cost of the power generation unit who belongs to the specified power
+                plant category. It refers to the unit commitment variable of each power plant per unit time.
+   unit: Mcal/hour
+
+Operational Cost|Constant Term|Electricity Generation|Nuclear:
+   description: Constant term (intercept) of the heat rate straight line. Cost of the power generation unit who belongs to the specified power
+                plant category. It refers to the unit commitment variable of each power plant per unit time.
+   unit: Mcal/hour
+
+Operational Cost|Constant Term|Electricity Generation|Oil:
+   description: Constant term (intercept) of the heat rate straight line. Cost of the power generation unit who belongs to the specified power
+                plant category. It refers to the unit commitment variable of each power plant per unit time.
+   unit: Mcal/hour
+
+Operational Cost|Linear Term|Electricity Generation|Coal:
+   description: Linear term (slope) of the heat rate straight line. Cost of the power generation unit who belongs to the specified power
+                plant category. It refers to the production cost of each energy unit (GWh, MWh,etc.).
+   unit: Mcal/MWh
+
+Operational Cost|Linear Term|Electricity Generation|Gas:
+   description: Linear term (slope) of the heat rate straight line. Cost of the power generation unit who belongs to the specified power
+                plant category. It refers to the production cost of each energy unit (GWh, MWh,etc.).
+   unit: Mcal/MWh
+
+Operational Cost|Linear Term|Electricity Generation|Nuclear:
+   description: Linear term (slope) of the heat rate straight line. Cost of the power generation unit who belongs to the specified power
+                plant category. It refers to the production cost of each energy unit (GWh, MWh,etc.).
+   unit: Mcal/MWh
+
+Operational Cost|Linear Term|Electricity Generation|Oil:
+   description: Linear term (slope) of the heat rate straight line. Cost of the power generation unit who belongs to the specified power
+                plant category. It refers to the production cost of each energy unit (GWh, MWh,etc.).
+   unit: Mcal/MWh
+
+Operation and Maintenance Cost|Electricity|Coal:
+   description: Operation and maintenance cost of the power generation unit who belongs to the specified power
+                plant category.
+   unit: EUR/MWh
+
+Operation and Maintenance Cost|Electricity|Gas:
+   description: Operation and maintenance cost of the power generation unit who belongs to the specified power
+                plant category.
+   unit: EUR/MWh
+
+Operation and Maintenance Cost|Electricity|Nuclear:
+   description: Operation and maintenance cost of the power generation unit who belongs to the specified power
+                plant category.
+   unit: EUR/MWh
+
+Operation and Maintenance Cost|Electricity|Oil:
+   description: Operation and maintenance cost of the power generation unit who belongs to the specified power
+                plant category.
+   unit: EUR/MWh
+
+Shut-Down Cost|Electricity|Coal:
+   description: Shutdown heat cost per power generation unit who belongs to the specified power
+                plant category.
+   unit: MEUR
+
+Shut-Down Cost|Electricity|Gas:
+   description: Shutdown heat cost per power generation unit who belongs to the specified power
+                plant category.
+   unit: MEUR
+
+Shut-Down Cost|Electricity|Nuclear:
+   description: Shutdown heat cost per power generation unit who belongs to the specified power
+                plant category.
+   unit: MEUR
+
+Shut-Down Cost|Electricity|Oil:
+   description: Shutdown heat cost per power generation unit who belongs to the specified power
+                plant category.
+   unit: MEUR
+Start-Up Cost|Electricity|Coal:
+   description: Startup heat cost per power generation unit who belongs to the specified power
+                plant category.
+   unit: MEUR
+
+Start-Up Cost|Electricity|Gas:
+   description: Startup heat cost per power generation unit who belongs to the specified power
+                plant category.
+   unit: MEUR
+
+Start-Up Cost|Electricity|Nuclear:
+   description: Startup heat cost per power generation unit who belongs to the specified power
+                plant category.
+   unit: MEUR
+
+Start-Up Cost|Electricity|Oil:
+   description: Startup heat cost per power generation unit who belongs to the specified power
+                plant category.
+   unit: MEUR
+
+Variable Cost|Electricity|Biomass|Traditionnal:
+   description: variable cost of a typical Traditionnal Biomass power plant
+                biomass from local and pre-existing
+                resources mostly waste :domestic and agricultural waste, forest residues.
+   unit: EUR/MWh
+
+Variable Cost|Electricity|Biomass|New and imported :
+   description: variable cost of a typical new biomass power plant
+                biomass from dedicated energy crops and biomass imports.
+   unit: EUR/MWh
+
+Variable Cost|Electricity|Nuclear:
+   description: variable cost of a typical nuclear power plant
+   unit: EUR/MWh
+
+Variable Cost|Electricity|Gas|OCGT:
+   description: variable cost of a typical Open Cycle Gas Turbine power plant
+   unit: EUR/MWh
+
+Variable Cost|Electricity|Coal:
+   description: variable cost of a typical coal power plant
+   unit: EUR/MWh
+
+Variable Cost|Electricity|Lignite:
+   description: variable cost of a typical Lignite power plant
+   unit: EUR/MWh
+
+# Variables related to thermal power plants
 Number of Units|Electricity|Biomass|Traditional:
    description: number of units of kind "Traditionnal Biomass power plant "
                 biomass from local and pre-existing
@@ -18,14 +149,15 @@ Number of Units|Electricity|Gas|OCGT:
    description: Number of units of kind "Open Cycle Gas Turbine power plant"
    unit:
 
-Number of Units|Electricity|Gas|Coal:
+Number of Units|Electricity|Coal:
    description: Number of units of kind "coal power plant "
    unit:
 
 Number of Units|Electricity|Lignite:
    description: Number of units of kind "Lignite power plant "
    unit:
-Maximum Active power|Electricity|Biomass|Traditionnal:
+
+Maximum Active Power|Electricity|Biomass|Traditionnal:
    description: Maximum active power of one typical Traditionnal Biomass power plant
                 biomass from local and pre-existing
                 resources mostly waste :domestic and agricultural waste, forest residues.
@@ -44,7 +176,11 @@ Maximum Active power|Electricity|Gas|OCGT:
    description: Maximum active power of one typical Open Cycle Gas Turbine power plant
    unit: MW
 
-Maximum Active power|Electricity|Gas|Coal:
+Maximum Active power|Electricity|Gas|OCGT:
+   description: Maximum active power of one typical Combined Cycle Gas Turbine power plant
+   unit: MW
+
+Maximum Active power|Electricity|Coal:
    description: Maximum active power of one typical coal power plant
    unit: MW
 
@@ -71,7 +207,11 @@ Minimum Active power|Electricity|Gas|OCGT:
    description: Minimum active power of one typical Open Cycle Gas Turbine power plant
    unit: MW
 
-Minimum Active power|Electricity|Gas|Coal:
+Minimum Active power|Electricity|Gas|CCGT:
+   description: Minimum active power of one typical Combined Cycle Gas Turbine power plant
+   unit: MW
+
+Minimum Active power|Electricity|Coal:
    description: Minimum active power of one typical coal power plant
    unit: MW
 
@@ -98,7 +238,7 @@ Minimum On Duration|Electricity|Gas|OCGT:
    description: Minimum duration that the unit has to stay on when started, for one typical Open Cycle Gas Turbine power plant
    unit: hour
 
-Minimum On Duration|Electricity|Gas|Coal:
+Minimum On Duration|Electricity|Coal:
    description: Minimum duration that the unit has to stay on when started, for one typical coal power plant
    unit: hour
 
@@ -125,7 +265,7 @@ Minimum Off Duration|Electricity|Gas|OCGT:
    description: Minimum duration that the unit has to stay off when shut-down, for one typical Open Cycle Gas Turbine power plant
    unit: hour
 
-Minimum Off Duration|Electricity|Gas|Coal:
+Minimum Off Duration|Electricity|Coal:
    description: Minimum duration that the unit has to stay off when shut-down, for one typical coal power plant
    unit: hour
 
@@ -137,136 +277,82 @@ Forced Outage Rate|Electricity|Biomass|Traditionnal:
    description: Unavailability Rate due to failures of typical Traditionnal Biomass power plant
                 biomass from local and pre-existing
                 resources mostly waste :domestic and agricultural waste, forest residues.
-   unit: '%'
+   unit: "%"
 
 Forced Outage Rate|Electricity|Biomass|New and imported :
    description: Unavailability Rate due to failures of typical new biomass power plant
                 biomass from dedicated energy crops and biomass imports.
-   unit: '%'
+   unit: "%"
 
 Forced Outage Rate|Electricity|Nuclear:
    description: Unavailability Rate due to failures of typical nuclear power plant
-   unit: '%'
+   unit: "%"
 
 Forced Outage Rate|Electricity|Gas|OCGT:
    description: Unavailability Rate due to failures of typical Open Cycle Gas Turbine power plant
-   unit: '%'
+   unit: "%"
 
-Forced Outage Rate|Electricity|Gas|Coal:
+Forced Outage Rate|Electricity|Coal:
    description: Unavailability Rate due to failures of typical coal power plant
-   unit: '%'
+   unit: "%"
 
 Forced Outage Rate|Electricity|Lignite:
    description: Unavailability Rate due to failures of typical Lignite power plant
-   unit: '%'
+   unit: "%"
 
 Planned Outage Rate|Electricity|Biomass|Traditionnal:
    description: Unavailability Rate due to maintenance of typical Traditionnal Biomass power plant
                 biomass from local and pre-existing
                 resources mostly waste :domestic and agricultural waste, forest residues.
-   unit: '%'
+   unit: "%"
 
 Planned Outage Rate|Electricity|Biomass|New and imported :
    description: Unavailability Rate due to maintenance of typical new biomass power plant
                 biomass from dedicated energy crops and biomass imports.
-   unit: '%'
+   unit: "%"
 
 Planned Outage Rate|Electricity|Nuclear:
    description: Unavailability Rate due to maintenance of typical nuclear power plant
-   unit: '%'
+   unit: "%"
 
 Planned Outage Rate|Electricity|Gas|OCGT:
    description: Unavailability Rate due to maintenance of typical Open Cycle Gas Turbine power plant
-   unit: '%'
+   unit: "%"
 
-Planned Outage Rate|Electricity|Gas|Coal:
+Planned Outage Rate|Electricity|Coal:
    description: Unavailability Rate due to maintenance of typical coal power plant
-   unit: '%'
+   unit: "%"
 
 Planned Outage Rate|Electricity|Lignite:
    description: Unavailability Rate due to maintenance of typical Lignite power plant
-   unit: '%'
+   unit: "%"
 
 Mean Outage Duration|Electricity|Biomass|Traditionnal:
    description: Mean duration of outages for a typical Traditionnal Biomass power plant
                 biomass from local and pre-existing
                 resources mostly waste :domestic and agricultural waste, forest residues.
-   unit: '%'
+   unit: "%"
 
 Mean Outage Duration|Electricity|Biomass|New and imported :
    description: Mean duration of outages for a typical new biomass power plant
                 biomass from dedicated energy crops and biomass imports.
-   unit: '%'
+   unit: "%"
 
 Mean Outage Duration|Electricity|Nuclear:
    description: Mean duration of outages for a typical nuclear power plant
-   unit: '%'
+   unit: "%"
 
 Mean Outage Duration|Electricity|Gas|OCGT:
    description: Mean duration of outages for a typical Open Cycle Gas Turbine power plant
-   unit: '%'
+   unit: "%"
 
-Mean Outage Duration|Electricity|Gas|Coal:
+Mean Outage Duration|Electricity|Coal:
    description: Mean duration of outages for a typical coal power plant
-   unit: '%'
+   unit: "%"
 
 Mean Outage Duration|Electricity|Lignite:
    description: Mean duration of outages for a typical Lignite power plant
-   unit: '%'
-
-CO2 Emmissions|Electricity|Biomass|Traditionnal:
-   description: CO2 emmissions of a typical Traditionnal Biomass power plant
-                biomass from local and pre-existing
-                resources mostly waste :domestic and agricultural waste, forest residues.
-   unit: tons/MWh
-
-CO2 Emmissions|Electricity|Biomass|New and imported :
-   description: CO2 emmissions of a typical new biomass power plant
-                biomass from dedicated energy crops and biomass imports.
-   unit: tons/MWh
-
-CO2 Emmissions|Electricity|Nuclear:
-   description: CO2 emmissions of a typical nuclear power plant
-   unit: tons/MWh
-
-CO2 Emmissions|Electricity|Gas|OCGT:
-   description: CO2 emmissions of a typical Open Cycle Gas Turbine power plant
-   unit: tons/MWh
-
-CO2 Emmissions|Electricity|Gas|Coal:
-   description: CO2 emmissions of a typical coal power plant
-   unit: tons/MWh
-
-CO2 Emmissions|Electricity|Lignite:
-   description: CO2 emmissions of a typical Lignite power plant
-   unit: tons/MWh
-
-Variable Cost|Electricity|Biomass|Traditionnal:
-   description: variable cost of a typical Traditionnal Biomass power plant
-                biomass from local and pre-existing
-                resources mostly waste :domestic and agricultural waste, forest residues.
-   unit: €/MWh
-
-Variable Cost|Electricity|Biomass|New and imported :
-   description: variable cost of a typical new biomass power plant
-                biomass from dedicated energy crops and biomass imports.
-   unit: €/MWh
-
-Variable Cost|Electricity|Nuclear:
-   description: variable cost of a typical nuclear power plant
-   unit: €/MWh
-
-Variable Cost|Electricity|Gas|OCGT:
-   description: variable cost of a typical Open Cycle Gas Turbine power plant
-   unit: €/MWh
-
-Variable Cost|Electricity|Gas|Coal:
-   description: variable cost of a typical coal power plant
-   unit: €/MWh
-
-Variable Cost|Electricity|Lignite:
-   description: variable cost of a typical Lignite power plant
-   unit: €/MWh
+   unit: "%"
 
 Inertia|Electricity|Biomass|Traditionnal:
    description: inertia privided to the system when started by a typical Traditionnal Biomass power plant
@@ -287,7 +373,7 @@ Inertia|Electricity|Gas|OCGT:
    description: inertia privided to the system when started by a typical Open Cycle Gas Turbine power plant
    unit: second
 
-Inertia|Electricity|Gas|Coal:
+Inertia|Electricity|Coal:
    description: inertia privided to the system when started by a typical coal power plant
    unit: second
 
@@ -300,66 +386,146 @@ Rate Frequency Containment Reserve|Electricity|Biomass|Traditionnal:
                 for a typical Traditionnal Biomass power plant
                 biomass from local and pre-existing
                 resources mostly waste :domestic and agricultural waste, forest residues.
-   unit: '%'
+   unit: "%"
 
 Rate Frequency Containment Reserve|Electricity|Biomass|New and imported :
    description: Percentage of the Maximum Active Power that can be devoted to Frequency Containment Reserve
                 for a typical new biomass power plant
                 biomass from dedicated energy crops and biomass imports.
-   unit: '%'
+   unit: "%"
 
 Rate Frequency Containment Reserve|Electricity|Nuclear:
    description: Percentage of the Maximum Active Power that can be devoted to Frequency Containment Reserve
                 for a typical nuclear power plant
-   unit: '%'
+   unit: "%"
 
 Rate Frequency Containment Reserve|Electricity|Gas|OCGT:
    description: Percentage of the Maximum Active Power that can be devoted to Frequency Containment Reserve
                 for a typical Open Cycle Gas Turbine power plant
-   unit: '%'
+   unit: "%"
 
-Rate Frequency Containment Reserve|Electricity|Gas|Coal:
+Rate Frequency Containment Reserve|Electricity|Coal:
    description: Percentage of the Maximum Active Power that can be devoted to Frequency Containment Reserve
                 for a typical coal power plant
-   unit: '%'
+   unit: "%"
 
 Rate Frequency Containment Reserve|Electricity|Lignite:
    description: Percentage of the Maximum Active Power that can be devoted to Frequency Containment Reserve
                 for a typical Lignite power plant
-   unit: '%'
+   unit: "%"
 
 Rate Automatic Frequency Restoration Reserve|Electricity|Biomass|Traditionnal:
    description: Percentage of the Maximum Active Power that can be devoted to Automatic Frequency Restoration Reserve
                 for a typical Traditionnal Biomass power plant
                 biomass from local and pre-existing
                 resources mostly waste :domestic and agricultural waste, forest residues.
-   unit: '%'
+   unit: "%"
 
 Rate Automatic Frequency Restoration Reserve|Electricity|Biomass|New and imported :
    description: Percentage of the Maximum Active Power that can be devoted to Automatic Frequency Restoration Reserve
                 for a typical new biomass power plant
                 biomass from dedicated energy crops and biomass imports.
-   unit: '%'
+   unit: "%"
 
 Rate Automatic Frequency Restoration Reserve|Electricity|Nuclear:
    description: Percentage of the Maximum Active Power that can be devoted to Automatic Frequency Restoration Reserve
                 for a typical nuclear power plant
-   unit: '%'
+   unit: "%"
 
 Rate Automatic Frequency Restoration Reserve|Electricity|Gas|OCGT:
    description: Percentage of the Maximum Active Power that can be devoted to Automatic Frequency Restoration Reserve
                 for a typical Open Cycle Gas Turbine power plant
-   unit: '%'
+   unit: "%"
 
-Rate Automatic Frequency Restoration Reserve|Electricity|Gas|Coal:
+Rate Automatic Frequency Restoration Reserve|Electricity|Coal:
    description: Percentage of the Maximum Active Power that can be devoted to Automatic Frequency Restoration Reserve
                 for a typical coal power plant
-   unit: '%'
+   unit: "%"
 
 Rate Automatic Frequency Restoration Reserve|Electricity|Lignite:
    description: Percentage of the Maximum Active Power that can be devoted to Automatic Frequency Restoration Reserve
                 for a typical Lignite power plant
-   unit: '%'
+   unit: "%"
+
+Operating Reserve|Down|Electricity|Coal:
+   description: Operating reserve down of a power generation unit who belongs to the specified power
+                plant category
+   unit: MWh
+
+Operating Reserve|Down|Electricity|Gas:
+   description: Operating reserve down of a power generation unit who belongs to the specified power
+                plant category
+   unit: MWh
+
+Operating Reserve|Down|Electricity|Nuclear:
+   description: Operating reserve down of a power generation unit who belongs to the specified power
+                plant category
+   unit: MWh
+
+Operating Reserve|Down|Electricity|Oil:
+   description: Operating reserve down of a power generation unit who belongs to the specified power
+                plant category
+   unit: MWh
+
+Operating Reserve|Up|Electricity|Coal:
+   description: Operating reserve up of a power generation unit who belongs to the specified power
+                plant category
+   unit: MWh
+
+Operating Reserve|Up|Electricity|Gas:
+   description: Operating reserve up of a power generation unit who belongs to the specified power
+                plant category
+   unit: MWh
+
+Operating Reserve|Up|Electricity|Nuclear:
+   description: Operating reserve up of a power generation unit who belongs to the specified power
+                plant category
+   unit: MWh
+
+Operating Reserve|Up|Electricity|Oil:
+   description: Operating reserve up of a power generation unit who belongs to the specified power
+                plant category
+   unit: MWh
+
+Maximum Ramping|Upwards|Electricity|Coal:
+   description: Upward ramp limit of the power generation unit who belongs to the specified power
+                plant category.
+   unit: MW/h
+
+Maximum Ramping|Upwards|Electricity|Gas:
+   description: Upward ramp limit of the power generation unit who belongs to the specified power
+                plant category.
+   unit: MW/h
+
+Maximum Ramping|Upwards|Electricity|Nuclear:
+   description: Upward ramp limit of the power generation unit who belongs to the specified power
+                plant category.
+   unit: MW/h
+
+Maximum Ramping|Upwards|Electricity|Oil:
+   description: Upward ramp limit of the power generation unit who belongs to the specified power
+                plant category.
+   unit: MW/h
+
+Maximum Ramping|Downwards|Electricity|Coal:
+   description: Downward ramp limit of the power generation unit who belongs to the specified power
+                plant category.
+   unit: MW/h
+
+Maximum Ramping|Downwards|Electricity|Gas:
+   description: Downward ramp limit of the power generation unit who belongs to the specified power
+                plant category.
+   unit: MW/h
+
+Maximum Ramping|Downwards|Electricity|Nuclear:
+   description: Downward ramp limit of the power generation unit who belongs to the specified power
+                plant category.
+   unit: MW/h
+
+Maximum Ramping|Downwards|Electricity|Oil:
+   description: Downward ramp limit of the power generation unit who belongs to the specified power
+                plant category.
+   unit: MW/h
 
 # description of simple hydrosystems - reservoir hydro
 # this describes systems composed of one reservoir and one plant (with potential pumping capacity) that are used for seasonal storage
@@ -367,7 +533,7 @@ Number of Units|Electricity|Hydro|Reservoir:
    description: Number of units of kind "simple Hydro reservoir "
    unit:
 
-Maximum Active power|Electricity|Hydro|reservoir:
+Maximum Active power|Electricity|Hydro|Reservoir:
    description: Maximum active power of one typical "simple Hydro reservoir " unit
    unit: MW
 
@@ -385,7 +551,7 @@ Minimum Storage|Electricity|Hydro|Reservoir:
 
 Pumping Efficiency|Electricity|Hydro|Reservoir:
    description: efficiency of pumping for a reservoir power plant
-   unit: '%'
+   unit: "%"
 
 Inertia|Electricity|Hydro|Reservoir:
    description: inertia provided to the system by a typical "simple Hydro reservoir " unit
@@ -405,7 +571,7 @@ Number of Units|Electricity|Hydro|Pumped Storage:
    description: Number of units of kind "Pumped Storage "
    unit:
 
-Maximum Active power|Electricity|Hydro|Pumped Storage:
+Maximum Active Power|Electricity|Hydro|Pumped Storage:
    description: Maximum active power of one  "Pumped Storage " unit
    unit: MW
 
@@ -423,7 +589,7 @@ Minimum Storage|Electricity|Hydro|Pumped Storage:
 
 Pumping Efficiency|Electricity|Hydro|Pumped Storage:
    description: efficiency of pumping for a Pumped Storage
-   unit: '%'
+   unit: "%"
 
 Inertia|Electricity|Hydro|Pumped Storage:
    description: inertia provided to the system by a Pumped Storage unit
@@ -432,12 +598,12 @@ Inertia|Electricity|Hydro|Pumped Storage:
 Rate Frequency Containment Reserve|Electricity|Hydro|Pumped Storage:
    description: Percentage of the Maximum Active Power that can be devoted to Frequency Containment Reserve
                 for a Pumped Storage unit
-   unit: '%'
+   unit: "%"
 
 Rate Automatic Frequency Restoration Reserve|Electricity|Hydro|Reservoir:
    description: Percentage of the Maximum Active Power that can be devoted to Automatic Frequency Restoration Reserve
                 for a Pumped Storage unit
-   unit: '%'
+   unit: "%"
 
 # description of simple hydrosystems -  run of river
 # this describes systems composed of one run of river plant (without storage)
@@ -451,7 +617,7 @@ Maximum Active power|Electricity|Hydro|Run of River:
 
 LoadFactor|Electricity|Hydro|Run of River|Profile:
    description: Timeserie of hourly loadfactors for  "Run of River"
-   unit: '%'
+   unit: "%"
 
 Minimum Active power|Electricity|Hydro|Run of River:
    description: Minimum active power of one  "Run of River" unit
@@ -464,12 +630,49 @@ Inertia|Electricity|Hydro|Reservoir:
 Rate Frequency Containment Reserve|Electricity|Hydro|Reservoir:
    description: Percentage of the Maximum Active Power that can be devoted to Frequency Containment Reserve
                 for a typical "simple Hydro reservoir " unit
-   unit: '%'
+   unit: "%"
 
 Rate Automatic Frequency Restoration Reserve|Electricity|Hydro|Reservoir:
    description: Percentage of the Maximum Active Power that can be devoted to Automatic Frequency Restoration Reserve
                 for a typical "simple Hydro reservoir " unit
-   unit: '%'
+   unit: "%"
+
+# description of Energy Storage Systems
+Maximum Energy Charge|Electricity|Energy Storage System:
+   description: This is the upper bound that energy storage system could charge energy at time "t".
+   unit: GWh
+
+Initial Storage Level|Electricity|Energy Storage System:
+   description: Initial energy stored in the energy storage system unit at first load level. (ESS that includes hydro, battery, etc.)
+   unit: GWh
+
+Maximum Charge|Electricity|Energy Storage System:
+   description: Maximum charge when storing energy the energy storage system unit.
+   unit: MW
+
+Maximum Discharge|Electricity|Energy Storage System:
+   description: Maximum discharge when consuming energy from the energy storage system unit.
+   unit: MW
+
+Maximum Storage|Electricity|Energy Storage System:
+   description: Maximum energy that can be stored by the energy storage system unit.
+   unit: GWh
+
+Minimum Storage|Electricity|Energy Storage System:
+   description: Minimum energy that can be stored by the energy storage system unit.
+   unit: GWh
+
+Spillage|Electricity|Energy Storage System:
+   description: Energy spillage that could not be stored by an energy storage system (ESS). Several energy models include spillage variables related to renewable energy production; however, another way is to include a spillage variable to the ESS unit since it is the last sink of the power network.
+   unit: GWh
+
+Storage Type|Electricity|Energy Storage System:
+   description: Storage type (daily, weekly, monthly, etc.) for energy storage system (ESS) that includes hydro, battery, etc.
+   unit: Daily/Weekly/Monthly
+
+Stored Energy Inventory|Electricity|Energy Storage System:
+   description: State of the stored enegy by ESS
+   unit:  GWh
 
 # description of PV power plants
 Number of Units|Electricity|Solar:
@@ -482,7 +685,7 @@ Maximum Active power|Electricity|Solar:
 
 LoadFactor|Electricity|Solar|Profile:
    description: Timeserie of hourly loadfactors for Photovoltaic power plants
-   unit: '%'
+   unit: "%"
 
 Minimum Active power|Electricity|Solar:
    description: Minimum active power of one Photovoltaic power plant
@@ -495,12 +698,12 @@ Inertia|Electricity|Solar:
 Rate Frequency Containment Reserve|Electricity|Solar:
    description: Percentage of the Maximum Active Power that can be devoted to Frequency Containment Reserve
                 for a Photovoltaic power plant
-   unit: '%'
+   unit: "%"
 
 Rate Automatic Frequency Restoration Reserve|Electricity|Solar:
    description: Percentage of the Maximum Active Power that can be devoted to Automatic Frequency Restoration Reserve
                 for a Photovoltaic power plant
-   unit: '%'
+   unit: "%"
 
 # description of Wind Onshore power plants
 Number of Units|Electricity|Wind|OnShore:
@@ -513,7 +716,7 @@ Maximum Active power|Electricity|Wind|OnShore:
 
 LoadFactor|Electricity|Wind|OnShore|Profile:
    description: Timeserie of hourly loadfactors for Onshore Windpower
-   unit: '%'
+   unit: "%"
 
 Minimum Active power|Electricity|Wind|OnShore:
    description: Minimum active power of one Wind Onshore power plant
@@ -526,12 +729,12 @@ Inertia|Electricity|Wind|OnShore:
 Rate Frequency Containment Reserve|Electricity|Wind|OnShore:
    description: Percentage of the Maximum Active Power that can be devoted to Frequency Containment Reserve
                 for a Wind Onshore power plant
-   unit: '%'
+   unit: "%"
 
 Rate Automatic Frequency Restoration Reserve|Electricity|Wind|OnShore:
    description: Percentage of the Maximum Active Power that can be devoted to Automatic Frequency Restoration Reserve
                 for a Wind Onshore power plant
-   unit: '%'
+   unit: "%"
 
 # description of Wind Offshore power plants
 Number of Units|Electricity|Wind|OffShore:
@@ -544,7 +747,7 @@ Maximum Active power|Electricity|Wind|OffShore:
 
 LoadFactor|Electricity|Wind|OffShore|Profile:
    description: Timeserie of hourly loadfactors for Offshore Windpower
-   unit: '%'
+   unit: "%"
 
 Minimum Active power|Electricity|Wind|OffShore:
    description: Minimum active power of one Wind OffShore power plant
@@ -557,9 +760,9 @@ Inertia|Electricity|Wind|OffShore:
 Rate Frequency Containment Reserve|Electricity|Wind|OffShore:
    description: Percentage of the Maximum Active Power that can be devoted to Frequency Containment Reserve
                 for a Wind OffShore power plant
-   unit: '%'
+   unit: "%"
 
 Rate Automatic Frequency Restoration Reserve|Electricity|Wind|OffShore:
    description: Percentage of the Maximum Active Power that can be devoted to Automatic Frequency Restoration Reserve
                 for a Wind OffShore power plant
-   unit: '%'
+   unit: "%"
