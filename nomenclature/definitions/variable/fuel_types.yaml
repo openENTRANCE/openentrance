@@ -4,7 +4,7 @@
 # "w/ CCS": with a CO2 capture component
 # "w/o CCS": with freely vented CO2 emissions
 
-<Fuels>:
+<Fuel>:
   Biomass:
     description: Purpose-grown biomass, crop residues, forest industry waste,
                  municipal solid waste

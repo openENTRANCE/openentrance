@@ -6,8 +6,8 @@ Secondary Energy|Electricity:
    description: Total net electricity production
    unit: EJ/yr
 
-Secondary Energy|Electricity|<Fuels>:
-   description: Net electricity production from <the given fuel>
+Secondary Energy|Electricity|<Fuel>:
+   description: Net electricity production from <this fuel>
    unit: EJ/yr
 
 Secondary Energy|Gases:
