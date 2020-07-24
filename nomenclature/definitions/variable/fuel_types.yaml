@@ -1,0 +1,79 @@
+# The following fuels
+
+# All fuels that have the attribute "ccs: True" have two sub-categories
+# "w/ CCS": with a CO2 capture component
+# "w/o CCS": with freely vented CO2 emissions
+
+<Fuels>:
+  Biomass:
+    description: Purpose-grown biomass, crop residues, forest industry waste,
+                 municipal solid waste
+    ccs: True
+
+  Coal:
+    description: Coal (including hard coal and lignite)
+    ccs: True
+
+  Fossil:
+    description: All fossil fuels (crude oil, coal, natural gas)
+    ccs: True
+
+  Gas:
+    description: Natural gas (including methane from biomass or hydrogenation)
+    ccs: True
+
+  Gas|Fossil:
+    description: Natural gas (excluding methane from biomass or hydrogenation)
+    ccs: True
+
+  Gas|Biomethane:
+    description: Biomethane (upgraded biogas)
+    ccs: True
+
+  Gas|Synthetic Methane:
+    description: Synthetic methane (methanation of hydrogen)
+    ccs: True
+
+  Oil:
+    description: Refined liquid oil products
+    ccs: True
+
+  Nuclear:
+    description: Nuclear energy
+
+  Hydrogen:
+    description: Hydrogen
+
+  Non-Biomass Renewables:
+    description: Hydro, wind, solar, geothermal, ocean, and other renewable
+                 sources excluding bioenergy
+
+  Hydro:
+    description: Hydropower
+
+  Solar:
+    description: Solar energy including PV and CSP
+
+  Solar|CSP:
+    description: Concentrating/concentrated solar power (CSP)
+
+  Solar|PV:
+    description: Solar photovoltaics (PV)
+
+  Wind:
+    description: Wind energy (on- and offshore)
+
+  Wind|Offshore:
+    description: Offshore wind energy
+
+  Wind|Onshore:
+    description: Onshore wind energy
+
+  Geothermal:
+    description: Geothermal energy (including hydrothermal systems)
+
+  Ocean:
+    description: Ocean energy
+
+  Other:
+    description: Other energy sources and fuels not explicitely listed
