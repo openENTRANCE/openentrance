@@ -1,4 +1,5 @@
-# The following fuels
+# This list of fuels will replace any occurrence of `<Fuel>`
+# in a variable-definition yaml file
 
 # All fuels that have the attribute "ccs: True" have two sub-categories
 # "w/ CCS": with a CO2 capture component
