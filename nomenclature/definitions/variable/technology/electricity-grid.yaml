@@ -65,7 +65,7 @@ Minimum Flow|Electricity|Transmission:
    description: Minimum flow of an interconnection between 2 regions
    unit: MW
 
-Reserve|Electricity|Requirement|Operating Reserve Down:
+Reserve|Electricity|Requirement|Operating Reserve|Down:
    description: Operating reserve down of the system for each load level. It is the sum of aFRR (or secondary reserve), FRR & RR (FRR+RR = tertiary reserve).
    unit: MW
 
