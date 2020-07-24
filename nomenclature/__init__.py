@@ -14,6 +14,12 @@ logger.addHandler(stderr_info_handler)
 # path to nomenclature definitions
 DEF_PATH = Path(__file__).parent / 'definitions'
 
+# auxiliary dictionary to add CCS subcategories
+CCS_TYPES = [
+    ('w/ CCS', 'with a CO2 capture component'),
+    ('w/o CCS', 'with freely vented CO2 emissions')
+]
+
 
 def _parse_yaml(path, file='**/*', ext='.yaml'):
     """Parse `file` in `path` (or all files in subfolders if `file='**/*'`)"""
@@ -28,9 +34,47 @@ def _parse_yaml(path, file='**/*', ext='.yaml'):
     return dct
 
 
-variables = _parse_yaml(DEF_PATH / 'variable')
+def _copy_dict(dct, description):
+    """Return a copy of `dct` after overwriting the `description`"""
+    _dct = dct.copy()
+    _dct['description'] = description
+    return _dct
+
+
+variables = dict()
 """Dictionary of variables"""
 
+# read all variable definitions to auxiliary dictionary
+_variables = _parse_yaml(DEF_PATH / 'variable')
+
+# explode <Fuels> tags to full lists
+fuel_types = _variables.pop('<Fuel>')
+d = 'description'
+for key, value in _variables.items():
+    # if the key contains the tag, loop over all fuel types to add mapping
+    if '<Fuel>' in key:
+        for f, attr in fuel_types.items():
+            # ignore the file attribute in the <Fuel> dictionary
+            if f == 'file':
+                continue
+
+            # change generic tag to specific item in key and description
+            _key = key.replace('<Fuel>', f)
+            _description = value[d].replace('<this fuel>', attr[d].lower())
+            variables[_key] = _copy_dict(value, _description)
+
+            # add CCS subcategories (if applicable)
+            if 'ccs' in attr and attr['ccs'] is True:
+                for sub, desc in CCS_TYPES:
+                    _key_ccs = f'{_key}|{sub}'
+                    _description_ccs = f'{_description} {desc}'
+                    variables[_key_ccs] = _copy_dict(value, _description_ccs)
+    # otherwise, move items from auxiliary to public dictionary
+    else:
+        variables[key] = _variables[key]
+
+# remove auxiliary dictionary
+del _variables
 
 regions = _parse_yaml(DEF_PATH / 'region')
 """Dictionary of all regions"""
