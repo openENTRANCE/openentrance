@@ -47,6 +47,65 @@ mapping = dict([(m, eval(attr['duration'])) for (m, attr) in months.items()])
 
 ### Daily or hourly resolution
 
+We follow the datetime format (ISO 8601, see this overview
+on [Wikipedia](https://en.wikipedia.org/wiki/ISO_8601)) to describe
+continuous-time subannual resolution.
+
+For consistency across the many models and tools in the consortium,
+we use the format defined as `yyyy-mm-dd[Thh:mm[:ss]z]`, where the resolution
+of hours/minutes and/or seconds is optional and `z` specifies the timezone.
+For Python users, more details can be found in the documentation of the 
+[datetime format](https://docs.python.org/3/library/datetime.html).
+
+#### Time zone
+
+Given the regional focus of this project, all hourly timestamps
+must be given in Central European (standard) time
+without consideration of daylight saving time (a.k.a. "summer time").
+
+:warning: Any hourly timestamp must include the tag `z = '+01:00'`.
+
+#### Calendar 
+
+It is understood that continuous-time data follows the real calendar,
+so that `2020-01-01` (January 1, 2020) is a Wednesday. Leap years must include
+the data for February 29.
+
+#### Time periods
+
+It is understood that any value identified by a datetime timestamp
+refers to the period **following that time** until the next given data point,
+This means that if a model/scenario reports data at an hourly resolution,
+the value associated with the timestamp `2020-01-01T00:00+01:00` refers
+to the period from midnight until 1am.
+
+#### Wide format vs. long format
+
+The common openENTRANCE data format specifies that the "year" is separated
+from the subannual timeslice identifier (wide format).
+This can be implemented by specifying the "subannual" column
+as `mm-dd[Thh:mm:ssz]` and setting the data column headers to `yyyy`.
+
+| **model**   | **scenario**        | **region** | **variable**   | **unit** | **subannual**     | **2015** | **2020** | **2025** |
+|-------------|---------------------|------------|----------------|----------|-------------------|---------:|---------:|---------:|
+| GENeSYS-MOD | Societal Commitment | Europe     | Primary Energy | GJ/y     | 01-01T00:00+01:00 |     7.99 |     7.50 |      ... |
+| ...         | ...                 | ...        | ...            | ...      | ...               |      ... |      ... |      ... |
+
+Here, 7.99 GJ/yr is the amount of primary energy used in Europe
+in the first hour of the year 2015.
+
+Alternatively, one can represent the data with a "time" (in datetime format)
+and a "value" column (long format). 
+
+| **model**   | **scenario**        | **region** | **variable**   | **unit** | **time**               | **value** |
+|-------------|---------------------|------------|----------------|----------|------------------------|---------:|
+| GENeSYS-MOD | Societal Commitment | Europe     | Primary Energy | GJ/y     | 2015-01-01T00:00+01:00 |     7.99 |
+| GENeSYS-MOD | Societal Commitment | Europe     | Primary Energy | GJ/y     | 2020-01-01T00:00+01:00 |     7.50 |
+| ...         | ...                 | ...        | ...            | ...      | ...                    |      ... |
+
+**Work in progress:** A utility function to translate between long/wide formats
+will be implemented in the pyam package soon.
+
 ## Representative timeslices and other categories
 
 *Other categories to be added over time*
