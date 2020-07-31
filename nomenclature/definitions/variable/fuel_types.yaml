@@ -8,7 +8,7 @@
 <Fuel>:
   Biomass:
     description: Purpose-grown biomass, crop residues, forest industry waste,
-                 municipal solid waste
+      solid waste from domestic, agricultural or municipal sources
     ccs: True
 
 Biomass|Traditionnal:
