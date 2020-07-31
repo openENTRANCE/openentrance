@@ -11,10 +11,23 @@
                  municipal solid waste
     ccs: True
 
+Biomass|Traditionnal:
+    description: typical Traditionnal Biomass power plant biomass from local and pre-existing resources mostly waste :domestic and agricultural waste, forest residues
+
+ Biomass|New and imported:
+    description: biomass from dedicated energy crops and biomass imports
+
   Coal:
     description: Coal (including hard coal and lignite)
     ccs: True
 
+  Coal|Lignite:
+    description: Lignite Coal
+    ccs: True
+    
+  Coal|Hard:
+    description: Hard Coal
+    ccs: True
   Fossil:
     description: All fossil fuels (crude oil, coal, natural gas)
     ccs: True
@@ -23,6 +36,13 @@
     description: Natural gas (including methane from biomass or hydrogenation)
     ccs: True
 
+Gas|OCGT:
+     description: Natural gas (including methane from biomass or hydrogenation). A typical Open Cycle Gas Turbine power plant.
+     ccs: True
+
+ Gas|CCGT:
+     description: Natural gas (including methane from biomass or hydrogenation). A typical Combined Cycle Gas Turbine power plant. It delivers additional electricity through a heat recovery system that captures exhaust heat from the gas turbine.
+     ccs: True
   Gas|Fossil:
     description: Natural gas (excluding methane from biomass or hydrogenation)
     ccs: True
@@ -51,7 +71,14 @@
 
   Hydro:
     description: Hydropower
+Hydro|Run of River:
+description: Hydropower produced by run-of-river power plants (ie. without  storage capacity). 
 
+Hydro|Pumped Storage:
+description: Hydropower systems with short-term storage capacity and including pumping turbines. This hydropower plant has two water reservoirs at different elevations: one at the upper level and one at the lower level. It can generate power (discharge) as water moves down through a turbine; however, it draws power as it pumps water (recharge) to the reservoir at the upper level.
+
+Hydro|Reservoir:
+description: Hydropower systems with seasonal storage capacity (it can also include) pumping turbines. This hydropower plant has two water reservoirs at different elevations: one at the upper level and one at the lower level. It can generate power (discharge) as water moves down through a turbine; however, it draws power as it pumps water (recharge) to the reservoir at the upper level.
   Solar:
     description: Solar energy including PV and CSP
 
