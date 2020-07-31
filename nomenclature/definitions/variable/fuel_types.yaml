@@ -11,38 +11,45 @@
       solid waste from domestic, agricultural or municipal sources
     ccs: True
 
-Biomass|Traditionnal:
-    description: typical Traditionnal Biomass power plant biomass from local and pre-existing resources mostly waste :domestic and agricultural waste, forest residues
+  Biomass|Traditional:
+    description: Traditional biomass (domestic and agricultural waste,
+      forest residues)
+    ccs: True
 
- Biomass|New and imported:
-    description: biomass from dedicated energy crops and biomass imports
+  Biomass|New and Imported:
+    description: Biomass from dedicated energy crops and biomass imports
+    ccs: True
+
+  Fossil:
+    description: All fossil fuels (crude oil, coal, natural gas)
+    ccs: True
 
   Coal:
     description: Coal (including hard coal and lignite)
     ccs: True
 
   Coal|Lignite:
-    description: Lignite Coal
+    description: Lignite coal and sub-bituminous coal
     ccs: True
-    
+
   Coal|Hard:
-    description: Hard Coal
-    ccs: True
-  Fossil:
-    description: All fossil fuels (crude oil, coal, natural gas)
+    description: Hard coal
     ccs: True
 
   Gas:
     description: Natural gas (including methane from biomass or hydrogenation)
     ccs: True
 
-Gas|OCGT:
-     description: Natural gas (including methane from biomass or hydrogenation). A typical Open Cycle Gas Turbine power plant.
+  Gas|OCGT:
+    description: Natural gas (including methane from biomass or hydrogenation)
+      in an open-cycle gas turbine (OCGT) power plant
+    ccs: True
+
+  Gas|CCGT:
+     description: Natural gas (including methane from biomass or hydrogenation)
+       in an combined-cycle gas turbine (CCGT) power plant
      ccs: True
 
- Gas|CCGT:
-     description: Natural gas (including methane from biomass or hydrogenation). A typical Combined Cycle Gas Turbine power plant. It delivers additional electricity through a heat recovery system that captures exhaust heat from the gas turbine.
-     ccs: True
   Gas|Fossil:
     description: Natural gas (excluding methane from biomass or hydrogenation)
     ccs: True
@@ -67,18 +74,28 @@ Gas|OCGT:
 
   Non-Biomass Renewables:
     description: Hydro, wind, solar, geothermal, ocean, and other renewable
-                 sources excluding bioenergy
+      sources excluding bioenergy
 
   Hydro:
     description: Hydropower
-Hydro|Run of River:
-description: Hydropower produced by run-of-river power plants (ie. without  storage capacity). 
 
-Hydro|Pumped Storage:
-description: Hydropower systems with short-term storage capacity and including pumping turbines. This hydropower plant has two water reservoirs at different elevations: one at the upper level and one at the lower level. It can generate power (discharge) as water moves down through a turbine; however, it draws power as it pumps water (recharge) to the reservoir at the upper level.
+  Hydro|Run of River:
+    description: Hydropower from run-of-river power plants
+      (ie. without storage capacity)
 
-Hydro|Reservoir:
-description: Hydropower systems with seasonal storage capacity (it can also include) pumping turbines. This hydropower plant has two water reservoirs at different elevations: one at the upper level and one at the lower level. It can generate power (discharge) as water moves down through a turbine; however, it draws power as it pumps water (recharge) to the reservoir at the upper level.
+  Hydro|Pumped Storage:
+    description: Hydropower systems with short-term storage capacity
+      (including pumping turbines)
+    notes: This hydropower system has two water reservoirs at different
+      elevations. The definition follows the convention established
+      by the ENTSO-E transparency platform (https://transparency.entsoe.eu).
+
+  Hydro|Reservoir:
+    description: Hydropower systems with seasonal storage capacity
+      (possibly including pumping turbines)
+    notes: This definition follows the convention established
+      by the ENTSO-E transparency platform (https://transparency.entsoe.eu).
+
   Solar:
     description: Solar energy including PV and CSP
 
