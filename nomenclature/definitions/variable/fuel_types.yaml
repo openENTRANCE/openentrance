@@ -2,8 +2,14 @@
 # in a variable-definition yaml file
 
 # All fuels that have the attribute "ccs: True" have two sub-categories
-# "w/ CCS": with a CO2 capture component (example "Coal|w/ CCS" )
-# "w/o CCS": with freely vented CO2 emissions (example "Coal|w/o CCS" )
+# "w/ CCS": with a CO2 capture component
+# "w/o CCS": with freely vented CO2 emissions (example "Coal|w/o CCS")
+#
+#   e.g., the energy type "Coal" used for electricity generation
+#   is described by three variables:
+#   - Secondary Energy|Electricity|Coal
+#   - Secondary Energy|Electricity|Coal|Coal|w/ CCS
+#   - Secondary Energy|Electricity|Coal|Coal|w/o CCS
 
 <Fuel>:
   Biomass:
