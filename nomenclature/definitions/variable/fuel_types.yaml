@@ -53,7 +53,7 @@
 
   Gas|CCGT:
      description: Natural gas (including methane from biomass or hydrogenation)
-       in an combined-cycle gas turbine (CCGT) power plant
+       in a combined-cycle gas turbine (CCGT) power plant
      ccs: True
 
   Gas|Fossil:
