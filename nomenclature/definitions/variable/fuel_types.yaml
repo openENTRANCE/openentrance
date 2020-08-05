@@ -38,8 +38,8 @@
     description: Lignite coal and sub-bituminous coal
     ccs: True
 
-  Coal|Hard:
-    description: Hard coal
+  Coal|Hard coal:
+    description: Anthracite and bituminous coal
     ccs: True
 
   Gas:
