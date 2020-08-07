@@ -149,7 +149,7 @@ Pumping Efficiency|Electricity|Hydro|Pumped Storage:
 
 # specific variables for run-of-river hydro power plants
 Load Factor|Electricity|Hydro|Run of River|Profile:
-   description: Load of hourly loadfactors for "Run of River"
+   description: Load of hourly load factors for "Run of River"
    unit: "%"
 
 # description of Energy Storage Systems
@@ -191,15 +191,15 @@ Stored Energy Inventory|Electricity|Energy Storage System:
 
 # description of PV power plants
 Load Factor|Electricity|Solar|Profile:
-   description: Timeserie of hourly loadfactors for Photovoltaic power plants
+   description: Timeseries of hourly load factors for Photovoltaic power plants
    unit: "%"
 
 # description of Wind Onshore power plants
 Load Factor|Electricity|Wind|Onshore|Profile:
-   description: Timeserie of hourly loadfactors for Onshore Windpower
+   description: Timeseries of hourly load factors for Wind Onshore power plants
    unit: "%"
 
 # description of Wind Offshore power plants
 Load Factor|Electricity|Wind|OffShore|Profile:
-   description: Timeserie of hourly loadfactors for Offshore Windpower
+   description: Timeseries of hourly load factors for Wind Offshore power plants
    unit: "%"
