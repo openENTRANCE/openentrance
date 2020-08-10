@@ -54,7 +54,7 @@ Reserve|Electricity|Requirement|Manual Frequency Restoration:
    unit: MW
 
 Network|Electricity|Maximum Flow:
-   description: Maximum flow of a transmission line between 2 regions (i.e. aggregate-regions, countries, nuts1, nuts2, nuts3, or nodes). Total transfer capacity (TTC). (maximum permissible thermal load)
+   description: Maximum flow of electricity on a transmission line
    unit: MW
 
 Network|Electricity|Minimum Flow:
