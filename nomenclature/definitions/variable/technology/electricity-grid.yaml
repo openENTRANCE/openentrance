@@ -58,7 +58,7 @@ Network|Electricity|Maximum Flow:
    unit: MW
 
 Network|Electricity|Minimum Flow:
-   description: Minimum flow of an interconnection between 2 regions
+   description: Minimum flow of electricity on a transmission line
    unit: MW
 
 Reserve|Electricity|Requirement|Operating Reserve|Down:
