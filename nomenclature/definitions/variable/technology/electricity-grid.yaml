@@ -42,7 +42,7 @@ Network|Electricity|Line Type:
    unit: [AC, DC]
 
 Network|Electricity|Line Losses:
-   description: Half ohmic losses of a line because losses are divided and located at each of the connection points of the transmission line.
+   description: Total ohmic losses of a transmission line.
    unit: MW
 
 Network|Electricity|Loss Factor:
