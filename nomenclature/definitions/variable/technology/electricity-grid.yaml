@@ -25,10 +25,6 @@ Network|Electricity|Active Power Flow:
    description: Active power flow through a line
    unit: MW
 
-Network|Electricity|Investment:
-   description: Investment decision. Note that it is a output data from model and if it makes a product with the investmen cost of the line, we get the investment in monetary unit.
-   unit: [Yes, No]
-
 Network|Electricity|Impedance:
    description: Impedance of an interconnection between 2 regions
    unit: S
