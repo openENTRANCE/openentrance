@@ -4,6 +4,66 @@ Consumption:
    description: Total consumption of all goods, by all consumers in a region
    unit: billion US$2010/yr
 
+Consumption|Households|<product>|Imported:
+   description: Consumption of imported product by households
+   unit: million euro/yr
+
+Consumption|Government|<product>|Domestic:
+   description: Consumption of domestic product by households
+   unit: million euro/yr
+
+Consumption|Government|<product>|Imported:
+   description: Consumption of imported product by government
+   unit: million euro/yr
+
+Consumption|Government|<product>|Domestic:
+   description: Consumption of domestic product by government
+   unit: million euro/yr
+
+Consumption|GrossCapitalFormation|<product>|Imported:
+   description: Consumption of imported product by gross capital formation
+   unit: million euro/yr
+
+Consumption|GrossCapitalFormation|<product>|Domestic:
+   description: Consumption of domestic product by gross capital formation
+   unit: million euro/yr
+
+Consumption|Industry|<product>|Imported:
+   description: Consumption of imported product by industries
+   unit: million euro/yr
+
+Consumption|Industry|<product>|Domestic:
+   description: Consumption of domestic product by industries
+   unit: million euro/yr
+
+IndustryOutput|<industry>:
+   description: Total output on the industry level
+   unit: million euro/yr
+
+ProductOutput|<product>:
+   description: Total output on the product level
+   unit: million euro/yr
+
+Capital|<industry>:
+   description: Total capital costs spend by industry
+   unit: million euro/yr
+
+Labor|<industry>:
+   description: Total wages spend by industry
+   unit: million euro/yr
+
+ProductPriceIndex|<product>:
+   description: Price index on the product level, relative to base year 2011
+   unit: index equals 1 in 2011, the reference year
+
+CapitalPriceIndex|<industry>:
+   description: Price index of capital, relative to base year 2011
+   unit: index equals 1 in 2011, the reference year
+
+LaborPriceIndex|<industry>:
+   description: Price index of wages, relative to base year 2011
+   unit: index equals 1 in 2011, the reference year
+
 Discount rate|Buildings:
    description: Discount rate for investments into residential and commercial
                 buildings
@@ -106,42 +166,42 @@ Price|Carbon:
 Price|Final Energy|Residential|Electricity:
    description: Mean Electricity price at the final level in the residential sector.
                 Prices should include the effect of carbon prices
-                Mean price should reflect the variability of different prices that are accessible 
+                Mean price should reflect the variability of different prices that are accessible
                 to end-users (including regulated prices, prices proposed by different competiting retailers...)
    unit: US$2010/GJ
 
 Price|Final Energy|Residential|Gases|Natural Gas:
    description: Mean Natural gas price at the final level in the residential sector.
                 Prices should include the effect of carbon prices.
-                Mean price should reflect the variability of different prices that are accessible 
+                Mean price should reflect the variability of different prices that are accessible
                 to end-users (including regulated prices, prices proposed by different competiting retailers...)
    unit: US$2010/GJ
 
 Price|Final Energy|Residential|Liquids|Biomass:
    description: Mean Biofuel price at the final level in the residential sector.
                 Prices should include the effect of carbon prices.
-                Mean price should reflect the variability of different prices that are accessible 
+                Mean price should reflect the variability of different prices that are accessible
                 to end-users (including regulated prices, prices proposed by different competiting retailers...)
    unit: US$2010/GJ
 
 Price|Final Energy|Residential|Liquids|Oil:
    description: Mean Light fuel oil price at the final level in the residential
                 sector. Prices should include the effect of carbon prices.
-                This mean price should reflect the variability of different prices that are accessible 
+                This mean price should reflect the variability of different prices that are accessible
                 to end-users (including regulated prices, prices proposed by different competiting retailers...)
    unit: US$2010/GJ
 
 Price|Final Energy|Residential|Solids|Biomass:
    description: Mean Biomass price at the final level in the residential sector.
                 Prices should include the effect of carbon prices.
-                This mean price should reflect the variability of different prices that are accessible 
+                This mean price should reflect the variability of different prices that are accessible
                 to end-users (including regulated prices, prices proposed by different competiting retailers...)
    unit: US$2010/GJ
 
 Price|Final Energy|Residential|Solids|Coal:
    description: Mean Coal price at the final level in the residential sector. Prices
                 should include the effect of carbon prices.
-                This mean price should reflect the variability of different prices that are accessible 
+                This mean price should reflect the variability of different prices that are accessible
                 to end-users (including regulated prices, prices proposed by different competiting retailers...)
    unit: US$2010/GJ
 
