@@ -70,13 +70,13 @@ for key, value in _variables.items():
                     _description_ccs = f'{_description} {desc}'
                     variables[_key_ccs] = _copy_dict(value, _description_ccs)
 
-    # if the key contains the tag, loop over all industry types to add mapping 
+    # if the key contains the tag, loop over all industry types to add mapping
     if '<industry>' in key:
         for f, attr in industry_types.items():
             # ignore the file attribute in the <industry> dictionary
             if f == 'file':
                 continue
-            # change the generic tag to specific item in key and description (industry_types)
+            # change the generic tag to specific item in key and description
             _key = key.replace('<industry>', f)
             _description = value[d].replace('<this industry>', attr[d].lower())
             variables[_key] = _copy_dict(value, _description)
@@ -87,7 +87,7 @@ for key, value in _variables.items():
             # ignore the file attribute in the <product> dictionary
             if f == 'file':
                 continue
-            # change the generic tag to specific item in key and description (product_types)
+            # change the generic tag to specific item in key and description
             _key = key.replace('<product>', f)
             _description = value[d].replace('<this product>', attr[d].lower())
             variables[_key] = _copy_dict(value, _description)

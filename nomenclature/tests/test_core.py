@@ -29,7 +29,8 @@ def test_variables_industry_types():
 def test_variables_product_types():
     # check that exploding of <product> to procuts works
     obs = nc.variables['Consumption|Households|pPLNT|Imported']
-    exp = 'Consumption of imported Crops and vegatable in agri sector by households'
+    exp = 'Consumption of imported Crops and vegatable in agri sector by ' \
+          'households'
     assert obs['description'] == exp
 
 
