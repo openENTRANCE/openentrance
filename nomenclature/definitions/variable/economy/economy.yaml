@@ -5,63 +5,63 @@ Consumption:
    unit: billion US$2010/yr
 
 Consumption|Households|<product>|Imported:
-   description: Consumption of imported product by households
+   description: Consumption of imported <this product> by households
    unit: million euro/yr
 
 Consumption|Government|<product>|Domestic:
-   description: Consumption of domestic product by households
+   description: Consumption of domestic <this product> by households
    unit: million euro/yr
 
 Consumption|Government|<product>|Imported:
-   description: Consumption of imported product by government
+   description: Consumption of imported <this product> by government
    unit: million euro/yr
 
 Consumption|Government|<product>|Domestic:
-   description: Consumption of domestic product by government
+   description: Consumption of domestic <this product> by government
    unit: million euro/yr
 
 Consumption|GrossCapitalFormation|<product>|Imported:
-   description: Consumption of imported product by gross capital formation
+   description: Consumption of imported <this product> by gross capital formation
    unit: million euro/yr
 
 Consumption|GrossCapitalFormation|<product>|Domestic:
-   description: Consumption of domestic product by gross capital formation
+   description: Consumption of domestic <this product> by gross capital formation
    unit: million euro/yr
 
 Consumption|Industry|<product>|Imported:
-   description: Consumption of imported product by industries
+   description: Consumption of imported <this product> by industries
    unit: million euro/yr
 
 Consumption|Industry|<product>|Domestic:
-   description: Consumption of domestic product by industries
+   description: Consumption of domestic <this product> by industries
    unit: million euro/yr
 
 IndustryOutput|<industry>:
-   description: Total output on the industry level
+   description: Total output on the <this industry> level
    unit: million euro/yr
 
 ProductOutput|<product>:
-   description: Total output on the product level
+   description: Total output on the <this product> level
    unit: million euro/yr
 
 Capital|<industry>:
-   description: Total capital costs spend by industry
+   description: Total capital costs spend by <this industry>
    unit: million euro/yr
 
 Labor|<industry>:
-   description: Total wages spend by industry
+   description: Total wages spend by <this industry>
    unit: million euro/yr
 
 ProductPriceIndex|<product>:
-   description: Price index on the product level, relative to base year 2011
+   description: Price index on the <this product> level, relative to base year 2011
    unit: index equals 1 in 2011, the reference year
 
 CapitalPriceIndex|<industry>:
-   description: Price index of capital, relative to base year 2011
+   description: Price index of capital from <this industry>, relative to base year 2011
    unit: index equals 1 in 2011, the reference year
 
 LaborPriceIndex|<industry>:
-   description: Price index of wages, relative to base year 2011
+   description: Price index of wages from <this industry>, relative to base year 2011
    unit: index equals 1 in 2011, the reference year
 
 Discount rate|Buildings:
