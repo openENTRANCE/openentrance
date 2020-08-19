@@ -22,14 +22,14 @@ def test_variables_fuel_types():
 def test_variables_industry_types():
     # check that exploding of <industry> to industries works
     obs = nc.variables['Capital|iPLNT']
-    exp = 'Total capital costs spend by Crops and vegatable in agri sector'
+    exp = 'Total capital costs spend by crops and vegatable in agri sector'
     assert obs['description'] == exp
 
 
 def test_variables_product_types():
     # check that exploding of <product> to procuts works
     obs = nc.variables['Consumption|Households|pPLNT|Imported']
-    exp = 'Consumption of imported Crops and vegatable in agri sector by ' \
+    exp = 'Consumption of imported crops and vegatable in agri sector by ' \
           'households'
     assert obs['description'] == exp
 
