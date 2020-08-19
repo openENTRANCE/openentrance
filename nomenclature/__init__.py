@@ -48,7 +48,11 @@ variables = dict()
 _variables = _parse_yaml(DEF_PATH / 'variable')
 
 # explode <Fuels> tags to full lists
-fuel_types = _variables.pop('<Fuel>')
+fuel_types     = _variables.pop('<Fuel>')
+# explode <industry> tags to full lists
+industry_types = _variables.pop('<industry>')
+# explode <product> tags to full lists
+product_types  = _variables.pop('<product>')
 d = 'description'
 for key, value in _variables.items():
     # if the key contains the tag, loop over all fuel types to add mapping
