@@ -70,7 +70,7 @@ for key, value in _variables.items():
                     _description_ccs = f'{_description} {desc}'
                     variables[_key_ccs] = _copy_dict(value, _description_ccs)
 
-    # if the key contains the tag, loop over all industry types to add mapping 
+    # if the key contains the tag, loop over all industry types to add mapping
     if '<industry>' in key:
         for f, attr in industry_types.items():
             # ignore the file attribute in the <industry> dictionary
