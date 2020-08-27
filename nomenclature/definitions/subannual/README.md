@@ -52,8 +52,8 @@ on [Wikipedia](https://en.wikipedia.org/wiki/ISO_8601)) to describe
 continuous-time subannual resolution.
 
 For consistency across the many models and tools in the consortium,
-we use the format defined as `yyyy-mm-dd[Thh:mm[:ss]z]`, where the resolution
-of hours/minutes and/or seconds is optional and `z` specifies the timezone.
+we use the format defined as `yyyy-mm-dd hh:mmz`,
+where `z` specifies the timezone in the format `+hh:mm`.
 For Python users, more details can be found in the documentation of the 
 [datetime format](https://docs.python.org/3/library/datetime.html).
 
@@ -76,7 +76,7 @@ the data for February 29.
 It is understood that any value identified by a datetime timestamp
 refers to the period **following that time** until the next given data point,
 This means that if a model/scenario reports data at an hourly resolution,
-the value associated with the timestamp `2020-01-01T00:00+01:00` refers
+the value associated with the timestamp `2020-01-01 00:00+01:00` refers
 to the period from midnight until 1am.
 
 #### Wide format vs. long format
@@ -84,7 +84,7 @@ to the period from midnight until 1am.
 The common openENTRANCE data format specifies that the "year" is separated
 from the subannual timeslice identifier (wide format).
 This can be implemented by specifying the "subannual" column
-as `mm-dd[Thh:mm:ssz]` and setting the data column headers to `yyyy`.
+as `mm-dd hh:mmz` and setting the data column headers to `yyyy`.
 
 | **model**   | **scenario**        | **region** | **variable**   | **unit** | **subannual**     | **2015** | **2020** | **2025** |
 |-------------|---------------------|------------|----------------|----------|-------------------|---------:|---------:|---------:|
@@ -103,8 +103,10 @@ and a "value" column (long format).
 | GENeSYS-MOD | Societal Commitment | Europe     | Primary Energy | GJ/y     | 2020-01-01T00:00+01:00 |     7.50 |
 | ...         | ...                 | ...        | ...            | ...      | ...                    |      ... |
 
-**Work in progress:** A utility function to translate between long/wide formats
-will be implemented in the pyam package soon.
+A (preliminary) utility function to translate from timeseries data
+in `datetime` format (i.e., with columns `'time', 'value'`)
+to `subannual + year` format
+is available via `nomenclature.swap_time_for_subannual()`.
 
 ## Representative timeslices and other categories
 
