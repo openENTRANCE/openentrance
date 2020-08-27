@@ -88,7 +88,7 @@ as `mm-dd hh:mmz` and setting the data column headers to `yyyy`.
 
 | **model**   | **scenario**        | **region** | **variable**   | **unit** | **subannual**     | **2015** | **2020** | **2025** |
 |-------------|---------------------|------------|----------------|----------|-------------------|---------:|---------:|---------:|
-| GENeSYS-MOD | Societal Commitment | Europe     | Primary Energy | GJ/y     | 01-01T00:00+01:00 |     7.99 |     7.50 |      ... |
+| GENeSYS-MOD | Societal Commitment | Europe     | Primary Energy | GJ/y     | 01-01 00:00+01:00 |     7.99 |     7.50 |      ... |
 | ...         | ...                 | ...        | ...            | ...      | ...               |      ... |      ... |      ... |
 
 Here, 7.99 GJ/yr is the amount of primary energy used in Europe
@@ -99,8 +99,8 @@ and a "value" column (long format).
 
 | **model**   | **scenario**        | **region** | **variable**   | **unit** | **time**               | **value** |
 |-------------|---------------------|------------|----------------|----------|------------------------|---------:|
-| GENeSYS-MOD | Societal Commitment | Europe     | Primary Energy | GJ/y     | 2015-01-01T00:00+01:00 |     7.99 |
-| GENeSYS-MOD | Societal Commitment | Europe     | Primary Energy | GJ/y     | 2020-01-01T00:00+01:00 |     7.50 |
+| GENeSYS-MOD | Societal Commitment | Europe     | Primary Energy | GJ/y     | 2015-01-01 00:00+01:00 |     7.99 |
+| GENeSYS-MOD | Societal Commitment | Europe     | Primary Energy | GJ/y     | 2020-01-01 00:00+01:00 |     7.50 |
 | ...         | ...                 | ...        | ...            | ...      | ...                    |      ... |
 
 A (preliminary) utility function to translate from timeseries data
