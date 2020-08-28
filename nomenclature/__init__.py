@@ -190,9 +190,10 @@ def swap_time_for_subannual(df):
     if df.time_col != 'time':
         raise ValueError('The IamDataFrame does not have `datetime` domain!')
 
-    _data = df.data
+    _data = df.data.copy()  # `copy()` can be removed after pyam release 0.8.0
     _data['year'] = [x.year for x in _data.time]
-    _data['subannual'] = [x.strftime('%m-%d %H:%M%z') for x in _data.time]
+    _data['subannual'] = [x.strftime('%m-%d %H:%M%z').replace('+0100', '+01:00')
+                          for x in _data.time]
     _data.drop(columns='time', inplace=True)
 
     return IamDataFrame(_data)
