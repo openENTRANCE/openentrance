@@ -6,7 +6,7 @@
 #   CapitalPriceIndex|<industry>:
 #   LaborPriceIndex|<industry>:
 
-<industry>:
+<Industry>:
   iPLNT:
     description: Crops and vegatable in agri sector
 
