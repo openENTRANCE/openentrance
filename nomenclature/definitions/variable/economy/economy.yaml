@@ -48,11 +48,11 @@ Consumption|Industry|<Product>|Domestic:
    description: Consumption of domestic <this product> by industries
    unit: million euro/yr
 
-Industry Output|<Industry>:
+Output|Industry|<Industry>:
    description: Total output on <this industry> level
    unit: million euro/yr
 
-Product Output|<Product>:
+Output|Product|<Product>:
    description: Total output on <this product> level
    unit: million euro/yr
 
