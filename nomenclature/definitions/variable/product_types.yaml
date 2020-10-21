@@ -7,86 +7,53 @@
 #   Consumption|Government|< product >|Domestic:
 
 <Product>:
-  pPLNT:
-    description: Crops and vegatable in agri sector
+  pAGRI:
+    description: 'Agriculture'
 
-  pANIM:
-    description: Animal production
+  pINDU:
+    description: 'Manufacturing industry'
 
-  pFORE:
-    description: Forestry and logging
+  pALUM:
+    description: 'Aluminium production'
 
-  pFISH:
-    description: Fishing and aquaculture
-
-  pFOSM:
-    description: Mining fossil fuel
-
-  pOTHM:
-    description: Mining of metal ores and non-metallic minerals
-
-  pFBTO:
-    description: Manufacturing of food, beverage and tobacco products
-
-  pTXWO:
-    description: Manufacturing of textile, wood and printed products
-
-  pCOKE:
-    description: Manufacturing of coke products
-
-  pREFN:
-    description: Manufacturing of refined petroleum products
-
-  pCHEM:
-    description: Manufacturing of chemicals and chemical products
-
-  pRUBP:
-    description: Manufacturing of rubber and plastic products
-
-  pNMMP:
-    description: Manufacturing of non-metallic mineral products
-
-  pMETP:
-    description: Manufacturing of basic metals and metal products
-
-  pELEC:
-    description: Manufacturing of electronic computer, optical and electrical equipment
-
-  pMACH:
-    description: Manufacturing of machinery and equipment nec and other manufacturing
-
-  pELEQ:
-    description: Electricity
-
-  pTRDI:
-    description: Transmission and distribution services
-
-  pHWAT:
-    description: Steam and hot water supply services
-
-  pWATR:
-    description: Collected and purified water, distribution services of water
-
-  pCONS:
-    description: Construction
-
-  pTRAD:
-    description: Wholesale and retail trade
-
-  pHORE:
-    description: Accomodation and food service activities
+  pSERV:
+    description: 'Services'
 
   pTRAN:
-    description: Transportation services
+    description: 'Transport services'
 
-  pREBA:
-    description: Real estate, renting and business activities
+  pELEC:
+    description: 'Electricity'
 
-  pRENT:
-    description: Renting services of machinery and equipment without operator and of personal and household goods (71)
+  pTRDI:
+    description: 'Trade and distribution services of electricity'
 
-  pPUBO:
-    description: Public administration, education, health and other activities
+  pHTWT:
+    description: 'Steam and hot water supply'
 
-  pWAST:
-    description: Waste for treatment
+  pOIL:
+    description: 'Crude Oil'
+
+  pGSL:
+    description: 'Gasoline'
+
+  pDSL:
+    description: 'Diesel'
+
+  pHDI:
+    description: 'Heavy distillate'
+
+  pNG:
+    description: 'Natural gas'
+
+  pCOA:
+    description: 'Coal'
+
+  pBIO:
+    description: 'Biofuels'
+
+  pFUL:
+    description: 'Other fuels'
+
+  pH2:
+    description: 'Hydrogen'
