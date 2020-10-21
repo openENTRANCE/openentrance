@@ -77,7 +77,8 @@ for key, value in _variables.items():
                     for sub, desc in CCS_TYPES:
                         _key_ccs = f'{_key}|{sub}'
                         _description_ccs = f'{_description} {desc}'
-                        variables[_key_ccs] = _copy_dict(value, _description_ccs)
+                        variables[_key_ccs] = _copy_dict(
+                            value, _description_ccs)
 
         # otherwise, move items from auxiliary to public dictionary
         else:
