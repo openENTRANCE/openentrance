@@ -4,6 +4,18 @@ Consumption:
    description: Total consumption of all goods, by all consumers in a region
    unit: billion US$2010/yr
 
+Consumption|Households:
+   description: Total consumption of all goods, by households in a region
+   unit: billion US$2010/yr
+
+Consumption|Government:
+   description: Total consumption of all goods, by the government in a region
+   unit: billion US$2010/yr
+
+Consumption|Industry:
+   description: Total consumption of all goods, by industries in a region
+   unit: billion US$2010/yr
+
 Consumption|Households|<Product>|Imported:
    description: Consumption of imported <this product> by households
    unit: million euro/yr
