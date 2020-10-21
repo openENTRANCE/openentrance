@@ -64,15 +64,15 @@ Labor|<Industry>:
    description: Total wages spend by <this industry>
    unit: million euro/yr
 
-Product PriceIndex|<Product>:
+Product Price Index|<Product>:
    description: Price index on <this product> level, relative to base year 2011
    unit: index equals 1 in 2011, the reference year
 
-Capital PriceIndex|<Industry>:
+Capital Price Index|<Industry>:
    description: Price index of capital from <this industry>, relative to base year 2011
    unit: index equals 1 in 2011, the reference year
 
-Labor PriceIndex|<Industry>:
+Labor Price Index|<Industry>:
    description: Price index of wages from <this industry>, relative to base year 2011
    unit: index equals 1 in 2011, the reference year
 
