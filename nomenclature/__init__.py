@@ -59,6 +59,12 @@ key_types = [
     ('<Industry>', industry_types),
     ('<Product>', product_types)
 ]
+#corresponding label to replace onto the variable
+rep_value = {
+    '<Fuel>': '<this fuel>',
+    '<Industry>': '<this industry>',
+    '<Product>': '<this product>'
+}
 for key, value in _variables.items():
     for k, types in key_types:
         if k in key:
@@ -68,8 +74,8 @@ for key, value in _variables.items():
                     continue
 
                 # change generic tag to specific item in key and description
-                _key = key.replace('<Fuel>', f)
-                _description = value[d].replace('<this fuel>', attr[d].lower())
+                _key = key.replace(k, f)
+                _description = value[d].replace(rep_value[k], attr[d].lower())
                 variables[_key] = _copy_dict(value, _description)
 
                 # add CCS subcategories (if applicable)
