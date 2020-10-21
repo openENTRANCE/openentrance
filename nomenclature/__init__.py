@@ -54,51 +54,80 @@ industry_types = _variables.pop('<Industry>')
 # explode <product> tags to full lists
 product_types = _variables.pop('<Product>')
 d = 'description'
+key_types = [
+    ('<Fuel>', fuel_types),
+    ('<Industry>', industry_types),
+    ('<Product>', product_types)
+]
 for key, value in _variables.items():
-    # if the key contains the tag, loop over all fuel types to add mapping
-    if '<Fuel>' in key:
-        for f, attr in fuel_types.items():
-            # ignore the file attribute in the <Fuel> dictionary
-            if f == 'file':
-                continue
+    for k, types in key_types:
+        if k in key:
+            for f, attr in types():
+                # ignore the file attribute in the <Fuel> dictionary
+                if f == 'file':
+                    continue
 
-            # change generic tag to specific item in key and description
-            _key = key.replace('<Fuel>', f)
-            _description = value[d].replace('<this fuel>', attr[d].lower())
-            variables[_key] = _copy_dict(value, _description)
+                # change generic tag to specific item in key and description
+                _key = key.replace('<Fuel>', f)
+                _description = value[d].replace('<this fuel>', attr[d].lower())
+                variables[_key] = _copy_dict(value, _description)
 
-            # add CCS subcategories (if applicable)
-            if 'ccs' in attr and attr['ccs'] is True:
-                for sub, desc in CCS_TYPES:
-                    _key_ccs = f'{_key}|{sub}'
-                    _description_ccs = f'{_description} {desc}'
-                    variables[_key_ccs] = _copy_dict(value, _description_ccs)
+                # add CCS subcategories (if applicable)
+                if 'ccs' in attr and attr['ccs'] is True:
+                    for sub, desc in CCS_TYPES:
+                        _key_ccs = f'{_key}|{sub}'
+                        _description_ccs = f'{_description} {desc}'
+                        variables[_key_ccs] = _copy_dict(value, _description_ccs)
 
-    # if the key contains the tag, loop over all industry types to add mapping
-    if '<Industry>' in key:
-        for f, attr in industry_types.items():
-            # ignore the file attribute in the <industry> dictionary
-            if f == 'file':
-                continue
-            # change the generic tag to specific item in key and description
-            _key = key.replace('<Industry>', f)
-            _description = value[d].replace('<this industry>', attr[d].lower())
-            variables[_key] = _copy_dict(value, _description)
+        # otherwise, move items from auxiliary to public dictionary
+        else:
+            variables[key] = _variables[key]
 
-    # if the key contains the tag, loop over all product types to add mapping
-    if '<Product>' in key:
-        for f, attr in product_types.items():
-            # ignore the file attribute in the <product> dictionary
-            if f == 'file':
-                continue
-            # change the generic tag to specific item in key and description
-            _key = key.replace('<Product>', f)
-            _description = value[d].replace('<this product>', attr[d].lower())
-            variables[_key] = _copy_dict(value, _description)
-
-    # otherwise, move items from auxiliary to public dictionary
-    else:
-        variables[key] = _variables[key]
+# for key, value in _variables.items():
+#     # if the key contains the tag, loop over all fuel types to add mapping
+#     if '<Fuel>' in key:
+#         for f, attr in fuel_types.items():
+#             # ignore the file attribute in the <Fuel> dictionary
+#             if f == 'file':
+#                 continue
+#
+#             # change generic tag to specific item in key and description
+#             _key = key.replace('<Fuel>', f)
+#             _description = value[d].replace('<this fuel>', attr[d].lower())
+#             variables[_key] = _copy_dict(value, _description)
+#
+#             # add CCS subcategories (if applicable)
+#             if 'ccs' in attr and attr['ccs'] is True:
+#                 for sub, desc in CCS_TYPES:
+#                     _key_ccs = f'{_key}|{sub}'
+#                     _description_ccs = f'{_description} {desc}'
+#                     variables[_key_ccs] = _copy_dict(value, _description_ccs)
+#
+#     # if the key contains the tag, loop over all industry types to add mapping
+#     if '<Industry>' in key:
+#         for f, attr in industry_types.items():
+#             # ignore the file attribute in the <industry> dictionary
+#             if f == 'file':
+#                 continue
+#             # change the generic tag to specific item in key and description
+#             _key = key.replace('<Industry>', f)
+#             _description = value[d].replace('<this industry>', attr[d].lower())
+#             variables[_key] = _copy_dict(value, _description)
+#
+#     # if the key contains the tag, loop over all product types to add mapping
+#     if '<Product>' in key:
+#         for f, attr in product_types.items():
+#             # ignore the file attribute in the <product> dictionary
+#             if f == 'file':
+#                 continue
+#             # change the generic tag to specific item in key and description
+#             _key = key.replace('<Product>', f)
+#             _description = value[d].replace('<this product>', attr[d].lower())
+#             variables[_key] = _copy_dict(value, _description)
+#
+#     # otherwise, move items from auxiliary to public dictionary
+#     else:
+#         variables[key] = _variables[key]
 
 # remove auxiliary dictionary
 del _variables
