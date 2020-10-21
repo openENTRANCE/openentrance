@@ -7,116 +7,59 @@
 #   LaborPriceIndex|<industry>:
 
 <Industry>:
-  iPLNT:
-    description: Crops and vegatable in agri sector
+  iAGRI:
+    description: 'Agriculture'
 
-  iANIM:
-    description: Animal production
+  iCOAL:
+    description: 'Coal extraction'
 
-  iFORE:
-    description: Forestry and logging
+  iCOIL:
+    description: 'crude oil and natural gas extraction'
 
-  iFISH:
-    description: Fishing and aquaculture
+  iINDU:
+    description: 'Manufacturing industry'
 
-  iFOSM:
-    description: Mining fossil fuels
-
-  iOTHM:
-    description: Mining of metal ores and non-metallic minerals
-
-  iFBTO:
-    description: Manufacturing of food, beverage and tobacco products
-
-  iTXWO:
-    description: Manufacturing of textile, wood and printed products
-
-  iCOKE:
-    description: Manufacturing of coke products
-
-  iREFN:
-    description: Manufacturing of refined petroleum products
-
-  iCHEM:
-    description: Manufacturing of chemicals and chemical products
-
-  iRUBP:
-    description: Manufacturing of rubber and plastic products
-
-  iNMMP:
-    description: Manufacturing of non-metallic mineral products
-
-  iMETP:
-    description: Manufacturing of basic metals and metal products
-
-  iELEC:
-    description: Manufacturing of electronic computer, optical and electrical equipment
-
-  iMACH:
-    description: Manufacturing of machinery and equipment nec and other manufacturing
-
-  iELCO:
-    description: Production of electricity by coal
-
-  iELGA:
-    description: Production of electricity by gas
-
-  iELNU:
-    description: Production of electricity by nuclear
-
-  iELHY:
-    description: Production of electricity by hydro
-
-  iELWI:
-    description: Production of electricity by wind
-
-  iELOI:
-    description: Production of electricity by petroleum and other oil derivatives
-
-  iELBI:
-    description: Production of electricity by biomass and waste
-
-  iELSO:
-    description: Production of electricity by solar photovoltaic or thermal
-
-  iELOC:
-    description: Production of electricity by tide, wave, ocean
-
-  iELGE:
-    description: Production of electricity by Geothermal
-
-  iELNE:
-    description: Production of electricity nec
+  iALUM:
+    description: 'Aluminium production'
 
   iTRDI:
-    description: Transmission and distribution services
+    description: 'Trade and distribution services of electricity'
 
-  iHWAT:
-    description: Steam and hot water supply services
+  iNGAS:
+    description: 'Natural Gas'
 
-  iWATR:
-    description: Collected and purified water, distribution services of water
-
-  iCONS:
-    description: Construction
-
-  iTRAD:
-    description: Wholesale and retail trade
-
-  iHORE:
-    description: Accomodation and food service activities
+  iSERV:
+    description: 'Services'
 
   iTRAN:
-    description: Transportation services
+    description: 'Transport services'
 
-  iREBA:
-    description: Real estate, renting and business activities
+  iELCC:
+    description: 'Production of electricity by coal'
 
-  iRENT:
-    description: Renting of machinery and equipment without operator and of personal and household goods
+  iELCG:
+    description: 'Production of electricity by gas'
 
-  iPUBO:
-    description: Public administration, education, health and other activities
+  iELCN:
+    description: 'Production of electricity by nuclear'
 
-  iWAST:
-    description: Waste for treatment
+  iELCH:
+    description: 'Production of electricity by hydro'
+
+  iELCW:
+    description: 'Production of electricity by wind'
+
+  iELCO:
+    description: 'Production of electricity by petroleum and other oil derivatives'
+
+  iELCB:
+    description: 'Production of electricity by biomass and waste'
+
+  iELCS:
+    description: 'Production of electricity by solar photovoltaic'
+
+  iELCE:
+    description: 'Production of electricity'
+
+  iELCT:
+    description: 'Production of electricity by Geothermal'
