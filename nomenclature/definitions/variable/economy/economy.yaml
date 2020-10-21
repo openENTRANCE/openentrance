@@ -20,11 +20,11 @@ Consumption|Government|<Product>|Domestic:
    description: Consumption of domestic <this product> by government
    unit: million euro/yr
 
-Consumption|GrossCapitalFormation|<Product>|Imported:
+Consumption|Gross Capital Formation|<Product>|Imported:
    description: Consumption of imported <this product> by gross capital formation
    unit: million euro/yr
 
-Consumption|GrossCapitalFormation|<Product>|Domestic:
+Consumption|Gross Capital Formation|<Product>|Domestic:
    description: Consumption of domestic <this product> by gross capital formation
    unit: million euro/yr
 
