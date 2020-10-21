@@ -59,7 +59,7 @@ key_types = [
     ('<Industry>', industry_types),
     ('<Product>', product_types)
 ]
-#corresponding label to replace onto the variable
+# corresponding label to replace onto the variable
 rep_value = {
     '<Fuel>': '<this fuel>',
     '<Industry>': '<this industry>',
