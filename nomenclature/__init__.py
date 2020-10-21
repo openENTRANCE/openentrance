@@ -62,7 +62,7 @@ key_types = [
 for key, value in _variables.items():
     for k, types in key_types:
         if k in key:
-            for f, attr in types():
+            for f, attr in types.items():
                 # ignore the file attribute in the <Fuel> dictionary
                 if f == 'file':
                     continue
