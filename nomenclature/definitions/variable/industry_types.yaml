@@ -14,7 +14,7 @@
     description: 'Coal extraction'
 
   iCOIL:
-    description: 'crude oil and natural gas extraction'
+    description: 'Crude oil and natural gas extraction'
 
   iINDU:
     description: 'Manufacturing industry'
