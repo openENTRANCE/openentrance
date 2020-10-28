@@ -312,6 +312,169 @@ Capacity|Industrial Heat|Liquids|Oil:
    description: Total installed heat generation capacity for the industrial sector from oil
    unit: GW
 
+Capacity|Transportation:
+   description: Total installed transportation technologies
+   unit: Gvkm
+
+Capacity|Transportation|Freight:
+   description: Total installed freight transportation technologies
+   unit: Gtkm
+
+Capacity|Transportation|Freight|Maritime:
+   description: Total installed martime freight transportation technologies
+   unit: Gtkm
+
+Capacity|Transportation|Freight|Maritime|Biofuels:
+   description: Total installed martime biofuels-based freight transportation technologies
+   unit: Gtkm
+
+Capacity|Transportation|Freight|Maritime|LNG:
+   description: Total installed martime lng-based freight transportation technologies
+   unit: Gtkm
+
+Capacity|Transportation|Freight|Maritime|Oil:
+   description: Total installed martime oil-based freight transportation technologies
+   unit: Gtkm
+
+Capacity|Transportation|Freight|Rail:
+   description: Total installed rail-based freight transportation technologies
+   unit: Gtkm
+
+Capacity|Transportation|Freight|Rail|Electric:
+   description: Total installed rail-based freight transportation technologies
+                using electricity
+   unit: Gtkm
+
+Capacity|Transportation|Freight|Rail|Oil:
+   description: Total installed rail-based freight transportation technologies
+                using oil products
+   unit: Gtkm
+
+Capacity|Transportation|Freight|Road:
+   description: Total installed road-based freight transportation technologies
+   unit: Gtkm
+
+Capacity|Transportation|Freight|Road|Electric:
+   description: Total installed road-based freight transportation technologies
+                using electricity
+   unit: Gtkm
+
+Capacity|Transportation|Freight|Road|Electric|BEV:
+   description: Total installed road-based freight transportation technologies
+                using battery electric vehicles
+   unit: Gtkm
+
+Capacity|Transportation|Freight|Road|Electric|FCEV:
+   description: Total installed road-based freight transportation technologies
+                using fuel cell electric vehicles
+   unit: Gtkm
+
+Capacity|Transportation|Freight|Road|Electric|Overhead:
+   description: Total installed road-based freight transportation technologies
+                using electricity via overhead trolley trucks
+   unit: Gtkm
+
+Capacity|Transportation|Freight|Road|PHEV:
+   description: Total installed road-based freight transportation technologies
+                using plugin hybrid vehicles
+   unit: Gtkm
+   
+Capacity|Transportation|Freight|Road|ICE:
+   description: Total installed road-based freight transportation technologies
+                using internal combustion engines
+   unit: Gtkm
+   
+Capacity|Transportation|Freight|Road|ICE|LNG:
+   description: Total installed road-based freight transportation technologies
+                using LNG in internal combustion engines
+   unit: Gtkm
+
+Capacity|Transportation|Freight|Road|ICE|Oil:
+   description: Total installed road-based freight transportation technologies
+                using oil-products in internal combustion engines
+   unit: Gtkm
+
+Capacity|Transportation|Passenger:
+   description: Total installed passenger transportation technologies
+   unit: Gpkm
+
+Capacity|Transportation|Passenger|Air:
+   description: Total installed air-based passenger transportation technologies
+   unit: Gpkm
+
+Capacity|Transportation|Passenger|Air|Biofuels:
+   description: Total installed air-based passenger transportation technologies
+                using biofuels
+   unit: Gpkm
+
+Capacity|Transportation|Passenger|Air|Hydrogen:
+   description: Total installed air-based passenger transportation technologies
+                using hydrogen
+   unit: Gpkm
+
+Capacity|Transportation|Passenger|Air|Oil:
+   description: Total installed air-based passenger transportation technologies
+                using oil products
+   unit: Gpkm
+
+Capacity|Transportation|Passenger|Rail:
+   description: Total installed rail-based passenger transportation technologies
+   unit: Gpkm
+
+Capacity|Transportation|Passenger|Rail|Electric:
+   description: Total installed rail-based passenger transportation technologies
+                using electricity
+   unit: Gpkm
+
+Capacity|Transportation|Passenger|Rail|Oil:
+   description: Total installed rail-based passenger transportation technologies
+                using oil products
+   unit: Gpkm
+
+Capacity|Transportation|Passenger|Road:
+   description: Total installed road-based passenger transportation technologies
+   unit: Gpkm
+
+Capacity|Transportation|Passenger|Road|Electric:
+   description: Total installed road-based passenger transportation technologies
+                using electricity
+   unit: Gpkm
+
+Capacity|Transportation|Passenger|Road|Electric|BEV:
+   description: Total installed road-based passenger transportation technologies
+                using battery electric vehicles
+   unit: Gpkm
+
+Capacity|Transportation|Passenger|Road|Electric|FCEV:
+   description: Total installed road-based passenger transportation technologies
+                using fuel cell electric vehicles
+   unit: Gpkm
+
+Capacity|Transportation|Passenger|Road|Electric|Overhead:
+   description: Total installed road-based passenger transportation technologies
+                using electricity via overhead trolley trucks
+   unit: Gpkm
+
+Capacity|Transportation|Passenger|Road|PHEV:
+   description: Total installed road-based passenger transportation technologies
+                using plugin hybrid vehicles
+   unit: Gpkm
+   
+Capacity|Transportation|Passenger|Road|ICE:
+   description: Total installed road-based passenger transportation technologies
+                using internal combustion engines
+   unit: Gpkm
+   
+Capacity|Transportation|Passenger|Road|ICE|LNG:
+   description: Total installed road-based passenger transportation technologies
+                using LNG in internal combustion engines
+   unit: Gpkm
+
+Capacity|Transportation|Passenger|Road|ICE|Oil:
+   description: Total installed road-based passenger transportation technologies
+                using oil-products in internal combustion engines
+   unit: Gpkm
+
 Capital Cost|Electricity|Biomass|w/ CCS:
    description: Capital cost of a new biomass power plant with CCS
    unit: US$2010/kW
