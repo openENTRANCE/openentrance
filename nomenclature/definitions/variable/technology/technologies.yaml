@@ -21,6 +21,16 @@ Capacity|Electricity|Biomass|New and imported:
                 New biomass is biomass coming from dedicated energy crops and biomass imports.
                 Thus, biomass 2 is assumed to have a very high potential but higher cost.
    unit: GW
+   
+Capacity|Electricity|Biomass|w/ CCS:
+   description: Total installed electricity generation capacity of biomass
+                power plants with CCS
+   unit: GW
+   
+Capacity|Electricity|Biomass|w/o CCS:
+   description: Total installed electricity generation capacity of biomass
+                power plants without CCS
+   unit: GW
 
 Capacity|Electricity|Coal:
    description: Total installed electricity generation capacity of coal power
@@ -65,6 +75,11 @@ Capacity|Electricity|Gas|CCGT:
 Capacity|Electricity|Gas|CCGT|w/o CCS:
    description: Total installed electricity generation capacity of Combined Cycle Gas Turbines
                 plants without CCS
+   unit: GW
+   
+Capacity|Electricity|Gas|CCGT|w/ CCS:
+   description: Total installed electricity generation capacity of Combined Cycle Gas Turbines
+                plants with CCS
    unit: GW
 
 Capacity|Electricity|Geothermal:
@@ -147,6 +162,22 @@ Capacity|Electricity|Hydrogen:
 Capacity|Electricity|Hydrogen|OCGT:
    description: Total installed electricity generation capacity from hydrogen of Open Cycle Gas Turbines
                 plants
+   unit: GW
+   
+Capacity|Electricity|Electricity Storage:
+   description: Total installed electricity storage capacity
+   unit: GW
+   
+Capacity|Electricity|Electricity Storage|Lithium-Ion:
+   description: Total installed lithium-ion battery storage capacity
+   unit: GW
+
+Capacity|Electricity|Electricity Storage|Redox flow:
+   description: Total installed redox flow battery storage capacity
+   unit: GW
+
+Capacity|Electricity|Electricity Storage|CAES:
+   description: Total installed compressed air energy storage capacity
    unit: GW
 
 Capacity|Electricity|Hydrogen|Fuel Cell:
