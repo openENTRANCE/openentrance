@@ -49,7 +49,7 @@ Final Energy|Geothermal:
    unit: EJ/yr
 
 Final Energy|Heat:
-   description: inal energy consumption of heat (e.g., district heat, process
+   description: Final energy consumption of heat (e.g., district heat, process
                 heat, warm water), excluding transmission/distribution losses,
                 excluding direct geothermal and solar heating
    energy source: all 
