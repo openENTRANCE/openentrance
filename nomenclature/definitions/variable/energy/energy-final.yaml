@@ -130,6 +130,22 @@ Final Energy|Industry|Liquids:
    sector: industry
    energy use: all excl. losses                   
    unit: EJ/yr
+   
+Final Energy|Industry|Liquids|Biomass:
+   description: Final energy consumption by the industrial sector of liquid
+                biofuels
+   energy source: biofuels
+   sector: industry
+   energy use: all excl. losses               
+   unit: EJ/yr
+
+Final Energy|Industry|Liquids|Oil:
+   description: Final energy consumption by the industrial sector of liquid
+                oil products (from conventional & unconventional oil)
+   energy source: oil
+   sector: industry
+   energy use: all excl. losses               
+   unit: EJ/yr
 
 Final Energy|Industry|Other:
    description: Final energy consumption by the industrial sector of other
@@ -288,6 +304,22 @@ Final Energy|Residential and Commercial|Liquids:
    sector: Residential and Commercial
    energy use: all excl. losses                  
    unit: EJ/yr 
+   
+Final Energy|Residential and Commercial|Liquids|Biomass:
+   description: Final energy consumption by the residential & commercial sector of liquid
+                biofuels
+   energy source: biofuels
+   sector: Residential and Commercial
+   energy use: all excl. losses                
+   unit: EJ/yr
+
+Final Energy|Residential and Commercial|Liquids|Oil:
+   description: Final energy consumption by the residential & commercial sector of liquid
+                oil products (from conventional & unconventional oil)
+   energy source: oil
+   sector: Residential and Commercial
+   energy use: all excl. losses                
+   unit: EJ/yr
 
 Final Energy|Residential and Commercial|Other:
    description: Final energy consumption by the residential & commercial sector
