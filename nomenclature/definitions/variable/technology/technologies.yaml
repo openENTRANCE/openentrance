@@ -155,15 +155,6 @@ Capacity|Electricity|Wind|Onshore:
                 power installations
    unit: GW
    
-Capacity|Electricity|Hydrogen:
-   description: Total installed electricity generation capacity from hydrogen
-   unit: GW
-
-Capacity|Electricity|Hydrogen|OCGT:
-   description: Total installed electricity generation capacity from hydrogen of Open Cycle Gas Turbines
-                plants
-   unit: GW
-   
 Capacity|Electricity|Electricity Storage:
    description: Total installed electricity storage capacity
    unit: GW
@@ -183,6 +174,143 @@ Capacity|Electricity|Electricity Storage|CAES:
 Capacity|Electricity|Hydrogen|Fuel Cell:
    description: Total installed electricity generation capacity from hydrogen of fuelcell plants
    unit: GW  
+   
+Capacity|Electricity|Hydrogen:
+   description: Total installed electricity generation capacity from hydrogen
+   unit: GW
+
+Capacity|Electricity|Hydrogen|OCGT:
+   description: Total installed electricity generation capacity from hydrogen of Open Cycle Gas Turbines
+                plants
+   unit: GW
+   
+Capacity|Residential and Commercial Heat:
+   description: Total installed heat generation capacity for the residential and commercial sectors
+   unit: GW
+   
+Capacity|Residential and Commercial Heat|Electricity:
+   description: Total installed heat generation capacity for the residential and commercial sectors
+                from electricity
+   unit: GW
+   
+Capacity|Residential and Commercial Heat|Electricity|Heatpump:
+   description: Total installed heat generation capacity for the residential and commercial sectors
+                from heatpumps
+   unit: GW
+   
+Capacity|Residential and Commercial Heat|Electricity|Direct:
+   description: Total installed heat generation capacity for the residential and commercial sectors 
+                from direct electrification
+   unit: GW
+   
+Capacity|Residential and Commercial Heat|Gas:
+   description: Total installed heat generation capacity for the residential and commercial sectors 
+                from gases
+   unit: GW
+   
+Capacity|Residential and Commercial Heat|Geothermal:
+   description: Total installed heat generation capacity for the residential and commercial sectors 
+                from geothermal energy
+   unit: GW
+
+Capacity|Residential and Commercial Heat|Solar:
+   description: Total installed heat generation capacity for the residential and commercial sectors 
+                from solar energy
+   unit: GW
+   
+Capacity|Residential and Commercial Heat|Hydrogen:   
+   description: Total installed heat generation capacity for the residential and commercial sectors 
+                from hydrogen
+   unit: GW
+   
+Capacity|Residential and Commercial Heat|Solids:
+   description: Total installed heat generation capacity for the residential and commercial sectors 
+                from solid fuels
+   unit: GW
+   
+Capacity|Residential and Commercial Heat|Solids|Biomass:
+   description: Total installed heat generation capacity for the residential and commercial sectors 
+                from solid biomass
+   unit: GW
+   
+Capacity|Residential and Commercial Heat|Solids|Coal:
+   description: Total installed heat generation capacity for the residential and commercial sectors 
+                from coal
+   unit: GW
+   
+Capacity|Residential and Commercial Heat|Liquids:
+   description: Total installed heat generation capacity for the residential and commercial sectors 
+                from liquid fuels
+   unit: GW
+   
+Capacity|Residential and Commercial Heat|Liquids|Biomass:
+   description: Total installed heat generation capacity for the residential and commercial sectors 
+                from liquid biomass
+   unit: GW
+   
+Capacity|Residential and Commercial Heat|Liquids|Oil:
+   description: Total installed heat generation capacity for the residential and commercial sectors 
+                from oil
+   unit: GW
+   
+Capacity|Industrial Heat:
+   description: Total installed heat generation capacity for the industrial sector
+   unit: GW
+   
+Capacity|Industrial Heat|Electricity:
+   description: Total installed heat generation capacity for the industrial sector from electricity
+   unit: GW
+   
+Capacity|Industrial Heat|Electricity|Direct:
+   description: Total installed heat generation capacity for the industrial sector from 
+                direct electrification
+   unit: GW
+   
+Capacity|Industrial Heat|Gas:
+   description: Total installed heat generation capacity for the industrial sector from gases
+   unit: GW
+   
+Capacity|Industrial Heat|Geothermal:
+   description: Total installed heat generation capacity for the industrial sector from geothermal
+                energy
+   unit: GW
+
+Capacity|Industrial Heat|Solar:
+   description: Total installed heat generation capacity for the industrial sector from solar
+                energy
+   unit: GW
+   
+Capacity|Industrial Heat|Hydrogen:   
+   description: Total installed heat generation capacity for the industrial sector from hydrogen
+   unit: GW
+   
+Capacity|Industrial Heat|Solids:
+   description: Total installed heat generation capacity for the industrial sector from solid
+                fuels
+   unit: GW
+   
+Capacity|Industrial Heat|Solids|Biomass:
+   description: Total installed heat generation capacity for the industrial sector from solid
+                biomass
+   unit: GW
+   
+Capacity|Industrial Heat|Solids|Coal:
+   description: Total installed heat generation capacity for the industrial sector from coal
+   unit: GW
+   
+Capacity|Industrial Heat|Liquids:
+   description: Total installed heat generation capacity for the industrial sector from liquid
+                fuels
+   unit: GW
+   
+Capacity|Industrial Heat|Liquids|Biomass:
+   description: Total installed heat generation capacity for the industrial sector from liquid
+                biomass
+   unit: GW
+   
+Capacity|Industrial Heat|Liquids|Oil:
+   description: Total installed heat generation capacity for the industrial sector from oil
+   unit: GW
 
 Capital Cost|Electricity|Biomass|w/ CCS:
    description: Capital cost of a new biomass power plant with CCS
