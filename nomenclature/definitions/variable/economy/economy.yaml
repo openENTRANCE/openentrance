@@ -49,11 +49,11 @@ Consumption|Industry|<Product>|Domestic:
    unit: million euro/yr
 
 Output|Industry|<Industry>:
-   description: Total output on <this industry> level
+   description: Total output per <this industry>. That is, total value of production of this industry.
    unit: million euro/yr
 
 Output|Product|<Product>:
-   description: Total output on <this product> level
+   description: Total output per <this product>. That is, total value of sold.
    unit: million euro/yr
 
 Capital|<Industry>:
