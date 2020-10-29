@@ -260,12 +260,7 @@ Capacity|Industrial Heat:
 Capacity|Industrial Heat|Electricity:
    description: Total installed heat generation capacity for the industrial sector from electricity
    unit: GW
-   
-Capacity|Industrial Heat|Electricity|Direct:
-   description: Total installed heat generation capacity for the industrial sector from 
-                direct electrification
-   unit: GW
-   
+      
 Capacity|Industrial Heat|Gas:
    description: Total installed heat generation capacity for the industrial sector from gases
    unit: GW
