@@ -77,6 +77,12 @@
 
   Hydrogen:
     description: Hydrogen
+    
+  Hydrogen|Fuel Cell:
+    description: Fuelcell plants
+    
+  Hydrogen|OCGT:
+    description: Hydrogen OCGT
 
   Non-Biomass Renewables:
     description: Hydro, wind, solar, geothermal, ocean, and other renewable
@@ -126,5 +132,25 @@
   Ocean:
     description: Ocean energy
 
+  Electricity Storage:
+    description: Electricity storage capacity
+   
+  Electricity Storage|Lithium-Ion:
+    description: Lithium-ion battery storage capacity
+
+  Electricity Storage|Redox flow:
+    description: Redox flow battery storage capacity
+
+  Electricity Storage|CAES:
+    description: Compressed air energy storage capacity
+
+  Electricity:
+    description: Energy generation from electricity
+   
+  Electricity|Heatpump:
+    description: Energy generation from Heatpumps
+   
+  Electricity|Direct:
+    description: Energy generation from direct electrification
   Other:
     description: Other energy sources and fuels not explicitely listed

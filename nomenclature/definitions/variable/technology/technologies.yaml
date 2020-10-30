@@ -3,308 +3,25 @@
 Capacity|Electricity:
    description: Total installed electricity generation capacity
    unit: GW
-
-Capacity|Electricity|Biomass:
-   description: Total installed electricity generation capacity of biomass
-                power plants
-   unit: GW
-
-Capacity|Electricity|Biomass|Traditionnal:
-   description: Total installed electricity generation capacity of traditionnal biomass power plant
-                Traditionnal biomass is biomass coming from local and pre-existing
-                resources mostly waste (domestic and agricultural waste, forest residues).
-                This biomass is assumed to be cheap but with a limited poten-tial
-   unit: GW
-
-Capacity|Electricity|Biomass|New and imported:
-   description: Total installed electricity generation capacity of new biomass power plants
-                New biomass is biomass coming from dedicated energy crops and biomass imports.
-                Thus, biomass 2 is assumed to have a very high potential but higher cost.
-   unit: GW
    
-Capacity|Electricity|Biomass|w/ CCS:
-   description: Total installed electricity generation capacity of biomass
-                power plants with CCS
-   unit: GW
-   
-Capacity|Electricity|Biomass|w/o CCS:
-   description: Total installed electricity generation capacity of biomass
-                power plants without CCS
+Capacity|Electricity|<Fuel>:
+   description: Total installed electricity generation capacity from <this fuel>
    unit: GW
 
-Capacity|Electricity|Coal:
-   description: Total installed electricity generation capacity of coal power
-                plants
-   unit: GW
-
-Capacity|Electricity|Coal|w/ CCS:
-   description: Total installed electricity generation capacity of coal power
-                plants with CCS
-   unit: GW
-
-Capacity|Electricity|Coal|w/o CCS:
-   description: Total installed electricity generation capacity of coal power
-                plants without CCS
-   unit: GW
-
-Capacity|Electricity|Lignite|w/o CCS:
-   description: Total installed electricity generation capacity of Lignite power
-                plants without CCS
-   unit: GW
-
-Capacity|Electricity|Lignite:
-   description: Total installed electricity generation capacity of Lignite power
-                plants
-   unit: GW
-
-Capacity|Electricity|Gas:
-   description: Total installed electricity generation capacity of gas power
-                plants
-   unit: GW
-
-Capacity|Electricity|Gas|OCGT:
-   description: Total installed electricity generation capacity of Open Cycle Gas Turbines
-                plants
-   unit: GW
-
-Capacity|Electricity|Gas|CCGT:
-   description: Total installed electricity generation capacity of Combined Cycle Gas Turbines
-                plants
-   unit: GW
-
-Capacity|Electricity|Gas|CCGT|w/o CCS:
-   description: Total installed electricity generation capacity of Combined Cycle Gas Turbines
-                plants without CCS
-   unit: GW
-   
-Capacity|Electricity|Gas|CCGT|w/ CCS:
-   description: Total installed electricity generation capacity of Combined Cycle Gas Turbines
-                plants with CCS
-   unit: GW
-
-Capacity|Electricity|Geothermal:
-   description: Total installed electricity generation capacity of geothermal
-                power plants
-   unit: GW
-
-Capacity|Electricity|Hydro:
-   description: Total installed electricity generation capacity of hydro power
-                plants
-   unit: GW
-
-Capacity|Electricity|Hydro|Reservoir:
-   description: Total installed electricity generation capacity of hydro power plants with
-                reservoirs with seasonal storage potential
-   unit: GW
-
-Capacity|Electricity|Hydro|Pumped Storage:
-   description: Total installed electricity generation capacity of hydro power plants with
-                pumped storage
-   unit: GW
-
-Capacity|Electricity|Hydro|Run-of-River:
-   description: Total installed electricity generation capacity of run-of-river hydro power plants
-   unit: GW
-
-Capacity|Electricity|Nuclear:
-   description: Total installed electricity generation capacity of nuclear
-                power plants
-   unit: GW
-
-Capacity|Electricity|Ocean:
-   description: Total installed electricity generation capacity of ocean power
-                plants
-   unit: GW
-
-Capacity|Electricity|Oil:
-   description: Total installed electricity generation capacity of oil power
-                plants
-   unit: GW
-
-Capacity|Electricity|Other:
-   description: Total installed electricity generation capacity of other power
-                plants
-   unit: GW
-
-Capacity|Electricity|Solar:
-   description: Total installed electricity generation capacity of solar power
-                installations
-   unit: GW
-
-Capacity|Electricity|Solar|CSP:
-   description: Total installed electricity generation capacity of CSP plants
-   unit: GW
-
-Capacity|Electricity|Solar|PV:
-   description: Total installed electricity generation capacity of PV
-                installations
-   unit: GW
-
-Capacity|Electricity|Wind:
-   description: Total installed electricity generation capacity of wind power
-                installations
-   unit: GW
-
-Capacity|Electricity|Wind|Offshore:
-   description: Total installed electricity generation capacity of offshore
-                wind power installations
-   unit: GW
-
-Capacity|Electricity|Wind|Onshore:
-   description: Total installed electricity generation capacity of onshore wind
-                power installations
-   unit: GW
-   
-Capacity|Electricity|Electricity Storage:
-   description: Total installed electricity storage capacity
-   unit: GW
-   
-Capacity|Electricity|Electricity Storage|Lithium-Ion:
-   description: Total installed lithium-ion battery storage capacity
-   unit: GW
-
-Capacity|Electricity|Electricity Storage|Redox flow:
-   description: Total installed redox flow battery storage capacity
-   unit: GW
-
-Capacity|Electricity|Electricity Storage|CAES:
-   description: Total installed compressed air energy storage capacity
-   unit: GW
-
-Capacity|Electricity|Hydrogen|Fuel Cell:
-   description: Total installed electricity generation capacity from hydrogen of fuelcell plants
-   unit: GW  
-   
-Capacity|Electricity|Hydrogen:
-   description: Total installed electricity generation capacity from hydrogen
-   unit: GW
-
-Capacity|Electricity|Hydrogen|OCGT:
-   description: Total installed electricity generation capacity from hydrogen of Open Cycle Gas Turbines
-                plants
-   unit: GW
-   
 Capacity|Residential and Commercial Heat:
    description: Total installed heat generation capacity for the residential and commercial sectors
    unit: GW
-   
-Capacity|Residential and Commercial Heat|Electricity:
-   description: Total installed heat generation capacity for the residential and commercial sectors
-                from electricity
-   unit: GW
-   
-Capacity|Residential and Commercial Heat|Electricity|Heatpump:
-   description: Total installed heat generation capacity for the residential and commercial sectors
-                from heatpumps
-   unit: GW
-   
-Capacity|Residential and Commercial Heat|Electricity|Direct:
-   description: Total installed heat generation capacity for the residential and commercial sectors 
-                from direct electrification
-   unit: GW
-   
-Capacity|Residential and Commercial Heat|Gas:
-   description: Total installed heat generation capacity for the residential and commercial sectors 
-                from gases
-   unit: GW
-   
-Capacity|Residential and Commercial Heat|Geothermal:
-   description: Total installed heat generation capacity for the residential and commercial sectors 
-                from geothermal energy
-   unit: GW
 
-Capacity|Residential and Commercial Heat|Solar:
-   description: Total installed heat generation capacity for the residential and commercial sectors 
-                from solar energy
-   unit: GW
-   
-Capacity|Residential and Commercial Heat|Hydrogen:   
-   description: Total installed heat generation capacity for the residential and commercial sectors 
-                from hydrogen
-   unit: GW
-   
-Capacity|Residential and Commercial Heat|Solids:
-   description: Total installed heat generation capacity for the residential and commercial sectors 
-                from solid fuels
-   unit: GW
-   
-Capacity|Residential and Commercial Heat|Solids|Biomass:
-   description: Total installed heat generation capacity for the residential and commercial sectors 
-                from solid biomass
-   unit: GW
-   
-Capacity|Residential and Commercial Heat|Solids|Coal:
-   description: Total installed heat generation capacity for the residential and commercial sectors 
-                from coal
-   unit: GW
-   
-Capacity|Residential and Commercial Heat|Liquids:
-   description: Total installed heat generation capacity for the residential and commercial sectors 
-                from liquid fuels
-   unit: GW
-   
-Capacity|Residential and Commercial Heat|Liquids|Biomass:
-   description: Total installed heat generation capacity for the residential and commercial sectors 
-                from liquid biomass
-   unit: GW
-   
-Capacity|Residential and Commercial Heat|Liquids|Oil:
-   description: Total installed heat generation capacity for the residential and commercial sectors 
-                from oil
+Capacity|Residential and Commercial Heat|<Fuel>:
+   description: Total installed heat generation capacity for the residential and commercial sectors from <this fuel>
    unit: GW
    
 Capacity|Industrial Heat:
    description: Total installed heat generation capacity for the industrial sector
    unit: GW
    
-Capacity|Industrial Heat|Electricity:
-   description: Total installed heat generation capacity for the industrial sector from electricity
-   unit: GW
-      
-Capacity|Industrial Heat|Gas:
-   description: Total installed heat generation capacity for the industrial sector from gases
-   unit: GW
-   
-Capacity|Industrial Heat|Geothermal:
-   description: Total installed heat generation capacity for the industrial sector from geothermal
-                energy
-   unit: GW
-
-Capacity|Industrial Heat|Solar:
-   description: Total installed heat generation capacity for the industrial sector from solar
-                energy
-   unit: GW
-   
-Capacity|Industrial Heat|Hydrogen:   
-   description: Total installed heat generation capacity for the industrial sector from hydrogen
-   unit: GW
-   
-Capacity|Industrial Heat|Solids:
-   description: Total installed heat generation capacity for the industrial sector from solid
-                fuels
-   unit: GW
-   
-Capacity|Industrial Heat|Solids|Biomass:
-   description: Total installed heat generation capacity for the industrial sector from solid
-                biomass
-   unit: GW
-   
-Capacity|Industrial Heat|Solids|Coal:
-   description: Total installed heat generation capacity for the industrial sector from coal
-   unit: GW
-   
-Capacity|Industrial Heat|Liquids:
-   description: Total installed heat generation capacity for the industrial sector from liquid
-                fuels
-   unit: GW
-   
-Capacity|Industrial Heat|Liquids|Biomass:
-   description: Total installed heat generation capacity for the industrial sector from liquid
-                biomass
-   unit: GW
-   
-Capacity|Industrial Heat|Liquids|Oil:
-   description: Total installed heat generation capacity for the industrial sector from oil
+Capacity|Industrial Heat|<Fuel>:
+   description: Total installed heat generation capacity for the industrial sector from <this fuel>
    unit: GW
 
 Capacity|Transportation:
@@ -314,269 +31,54 @@ Capacity|Transportation:
 Capacity|Transportation|Freight:
    description: Total installed freight transportation technologies
    unit: Gtkm
-
-Capacity|Transportation|Freight|Maritime:
-   description: Total installed martime freight transportation technologies
-   unit: Gtkm
-
-Capacity|Transportation|Freight|Maritime|Biofuels:
-   description: Total installed martime biofuels-based freight transportation technologies
-   unit: Gtkm
-
-Capacity|Transportation|Freight|Maritime|LNG:
-   description: Total installed martime lng-based freight transportation technologies
-   unit: Gtkm
-
-Capacity|Transportation|Freight|Maritime|Oil:
-   description: Total installed martime oil-based freight transportation technologies
-   unit: Gtkm
-
-Capacity|Transportation|Freight|Rail:
-   description: Total installed rail-based freight transportation technologies
-   unit: Gtkm
-
-Capacity|Transportation|Freight|Rail|Electric:
-   description: Total installed rail-based freight transportation technologies
-                using electricity
-   unit: Gtkm
-
-Capacity|Transportation|Freight|Rail|Oil:
-   description: Total installed rail-based freight transportation technologies
-                using oil products
-   unit: Gtkm
-
-Capacity|Transportation|Freight|Road:
-   description: Total installed road-based freight transportation technologies
-   unit: Gtkm
-
-Capacity|Transportation|Freight|Road|Electric:
-   description: Total installed road-based freight transportation technologies
-                using electricity
-   unit: Gtkm
-
-Capacity|Transportation|Freight|Road|Electric|BEV:
-   description: Total installed road-based freight transportation technologies
-                using battery electric vehicles
-   unit: Gtkm
-
-Capacity|Transportation|Freight|Road|Electric|FCEV:
-   description: Total installed road-based freight transportation technologies
-                using fuel cell electric vehicles
-   unit: Gtkm
-
-Capacity|Transportation|Freight|Road|Electric|Overhead:
-   description: Total installed road-based freight transportation technologies
-                using electricity via overhead trolley trucks
-   unit: Gtkm
-
-Capacity|Transportation|Freight|Road|PHEV:
-   description: Total installed road-based freight transportation technologies
-                using plugin hybrid vehicles
-   unit: Gtkm
    
-Capacity|Transportation|Freight|Road|ICE:
-   description: Total installed road-based freight transportation technologies
-                using internal combustion engines
-   unit: Gtkm
-   
-Capacity|Transportation|Freight|Road|ICE|LNG:
-   description: Total installed road-based freight transportation technologies
-                using LNG in internal combustion engines
-   unit: Gtkm
-
-Capacity|Transportation|Freight|Road|ICE|Oil:
-   description: Total installed road-based freight transportation technologies
-                using oil-products in internal combustion engines
+Capacity|Transportation|Freight|<Transport>:
+   description: Total installed freight transportation technologies from <this transport>
    unit: Gtkm
 
 Capacity|Transportation|Passenger:
    description: Total installed passenger transportation technologies
    unit: Gpkm
-
-Capacity|Transportation|Passenger|Air:
-   description: Total installed air-based passenger transportation technologies
-   unit: Gpkm
-
-Capacity|Transportation|Passenger|Air|Biofuels:
-   description: Total installed air-based passenger transportation technologies
-                using biofuels
-   unit: Gpkm
-
-Capacity|Transportation|Passenger|Air|Hydrogen:
-   description: Total installed air-based passenger transportation technologies
-                using hydrogen
-   unit: Gpkm
-
-Capacity|Transportation|Passenger|Air|Oil:
-   description: Total installed air-based passenger transportation technologies
-                using oil products
-   unit: Gpkm
-
-Capacity|Transportation|Passenger|Rail:
-   description: Total installed rail-based passenger transportation technologies
-   unit: Gpkm
-
-Capacity|Transportation|Passenger|Rail|Electric:
-   description: Total installed rail-based passenger transportation technologies
-                using electricity
-   unit: Gpkm
-
-Capacity|Transportation|Passenger|Rail|Oil:
-   description: Total installed rail-based passenger transportation technologies
-                using oil products
-   unit: Gpkm
-
-Capacity|Transportation|Passenger|Road:
-   description: Total installed road-based passenger transportation technologies
-   unit: Gpkm
-
-Capacity|Transportation|Passenger|Road|Electric:
-   description: Total installed road-based passenger transportation technologies
-                using electricity
-   unit: Gpkm
-
-Capacity|Transportation|Passenger|Road|Electric|BEV:
-   description: Total installed road-based passenger transportation technologies
-                using battery electric vehicles
-   unit: Gpkm
-
-Capacity|Transportation|Passenger|Road|Electric|FCEV:
-   description: Total installed road-based passenger transportation technologies
-                using fuel cell electric vehicles
-   unit: Gpkm
-
-Capacity|Transportation|Passenger|Road|Electric|Overhead:
-   description: Total installed road-based passenger transportation technologies
-                using electricity via overhead trolley trucks
-   unit: Gpkm
-
-Capacity|Transportation|Passenger|Road|PHEV:
-   description: Total installed road-based passenger transportation technologies
-                using plugin hybrid vehicles
-   unit: Gpkm
    
-Capacity|Transportation|Passenger|Road|ICE:
-   description: Total installed road-based passenger transportation technologies
-                using internal combustion engines
-   unit: Gpkm
-   
-Capacity|Transportation|Passenger|Road|ICE|LNG:
-   description: Total installed road-based passenger transportation technologies
-                using LNG in internal combustion engines
+Capacity|Transportation|Passenger|<Transport>:
+   description: Total installed passenger transportation technologies from <this transport>
    unit: Gpkm
 
-Capacity|Transportation|Passenger|Road|ICE|Oil:
-   description: Total installed road-based passenger transportation technologies
-                using oil-products in internal combustion engines
-   unit: Gpkm
-
-Capital Cost|Electricity|Biomass|w/ CCS:
-   description: Capital cost of a new biomass power plant with CCS
+Capital Cost|Electricity|<Fuel>:
+   description: Capital cost for <this fuel>
    unit: US$2010/kW
 
-Capital Cost|Electricity|Biomass|w/o CCS:
-   description: Capital cost of a new biomass power plant w/o CCS
+Capital Cost|Residential and Commercial Heat|<Fuel>:
+   description: Capital cost for <this fuel>
+   unit: US$2010/kW
+      
+Capital Cost|Industrial Heat|<Fuel>:
+   description: Capital cost for <this fuel>
    unit: US$2010/kW
 
-Capital Cost|Electricity|Coal|w/ CCS:
-   description: Capital cost of a new coal power plant with CCS
-   unit: US$2010/kW
+Fixed Cost|Electricity|<Fuel>:
+   description: Fixed O&M cost for <this fuel>
+   unit: US$2010/kW/yr
 
-Capital Cost|Electricity|Coal|w/o CCS:
-   description: Capital cost of a new coal power plant w/o CCS
-   unit: US$2010/kW
+Fixed Cost|Residential and Commercial Heat|<Fuel>:
+   description: Fixed O&M for <this fuel>
+   unit: US$2010/kW/yr
+      
+Fixed Cost|Industrial Heat|<Fuel>:
+   description: Fixed O&M for <this fuel>
+   unit: US$2010/kW/yr
 
-Capital Cost|Electricity|Gas|w/ CCS:
-   description: Capital cost of a new gas power plant with CCS
-   unit: US$2010/kW
+Variable Cost|Electricity|<Fuel>:
+   description: Capital cost for <this fuel>
+   unit: US$2010/kWh
 
-Capital Cost|Electricity|Gas|w/o CCS:
-   description: Capital cost of a new gas power plant w/o CCS
-   unit: US$2010/kW
-
-Capital Cost|Electricity|Geothermal:
-   description: Capital cost of a new geothermal power plant
-   unit: US$2010/kW
-
-Capital Cost|Electricity|Hydro:
-   description: Capital cost of a new hydropower plant
-   unit: US$2010/kW
-
-Capital Cost|Electricity|Nuclear:
-   description: Capital cost of a new nuclear power plants
-   unit: US$2010/kW
-
-Capital Cost|Electricity|Solar|CSP:
-   description: Capital cost of a new concentrated solar power plant
-   unit: US$2010/kW
-
-Capital Cost|Electricity|Solar|PV:
-   description: Capital cost of a new solar PV units
-   unit: US$2010/kW
-
-Capital Cost|Electricity|Wind|Offshore:
-   description: Capital cost of a new offshore wind power plants
-   unit: US$2010/kW
-
-Capital Cost|Electricity|Wind|Onshore:
-   description: Capital cost of a new onshore wind power plants
-   unit: US$2010/kW
-
-Capital Cost|Gases|Biomass|w/o CCS:
-   description: Capital cost of a new biomass to gas plant w/o CCS
-   unit: US$2010/kW
-
-Capital Cost|Gases|Coal|w/o CCS:
-   description: Capital cost of a new coal to gas plant w/o CCS
-   unit: US$2010/kW
-
-Capital Cost|Hydrogen|Biomass|w/ CCS:
-   description: Capital cost of a new biomass to hydrogen plant with CCS
-   unit: US$2010/kW
-
-Capital Cost|Hydrogen|Biomass|w/o CCS:
-   description: Capital cost of a new biomass to hydrogen plant w/o CCS
-   unit: US$2010/kW
-
-Capital Cost|Hydrogen|Coal|w/ CCS:
-   description: Capital cost of a new coal to hydrogen plant with CCS
-   unit: US$2010/kW
-
-Capital Cost|Hydrogen|Coal|w/o CCS:
-   description: Capital cost of a new coal to hydrogen plant w/o CCS
-   unit: US$2010/kW
-
-Capital Cost|Hydrogen|Electricity:
-   description: Capital cost of a new hydrogen-by-electrolysis plant
-   unit: US$2010/kW
-
-Capital Cost|Hydrogen|Gas|w/ CCS:
-   description: Capital cost of a new gas to hydrogen plant with CCS
-   unit: US$2010/kW
-
-Capital Cost|Hydrogen|Gas|w/o CCS:
-   description: Capital cost of a new gas to hydrogen plant w/o CCS
-   unit: US$2010/kW
-
-Capital Cost|Liquids|Biomass|w/ CCS:
-   description: Capital cost of a new biomass to liquids plant with CCS
-   unit: US$2010/kW
-
-Capital Cost|Liquids|Biomass|w/o CCS:
-   description: Capital cost of a new biomass to liquids plant w/o CCS
-   unit: US$2010/kW
-
-Capital Cost|Liquids|Coal|w/ CCS:
-   description: Capital cost of a new coal to liquids plant with CCS
-   unit: US$2010/kW
-
-Capital Cost|Liquids|Coal|w/o CCS:
-   description: Capital cost of a new coal to liquids plant w/o CCS
-   unit: US$2010/kW
-
-Capital Cost|Liquids|Oil:
-   description: Capital cost of a new oil refining plant
-   unit: US$2010/kW
+Variable Cost|Residential and Commercial Heat|<Fuel>:
+   description: Capital cost for <this fuel>
+   unit: US$2010/kWh
+      
+Variable Cost|Industrial Heat|<Fuel>:
+   description: Capital cost for <this fuel>
+   unit: US$2010/kWh   
 
 Investment|Energy Efficiency:
    description: Investments into the efficiency-increasing components of energy

@@ -53,6 +53,10 @@ _variables = _parse_yaml(DEF_PATH / 'variable')
 
 # explode <Fuels> tags to full lists
 fuel_types = _variables.pop('<Fuel>')
+
+# explode <Transport> tags to full lists
+transport_types = _variables.pop('<Transport>')
+
 d = 'description'
 for key, value in _variables.items():
     # if the key contains the tag, loop over all fuel types to add mapping
@@ -73,6 +77,18 @@ for key, value in _variables.items():
                     _key_ccs = f'{_key}|{sub}'
                     _description_ccs = f'{_description} {desc}'
                     variables[_key_ccs] = _copy_dict(value, _description_ccs)
+                    
+    if '<Transport>' in key:
+        for f, attr in transport_types.items():
+            # ignore the file attribute in the <Transport> dictionary
+            if f == 'file':
+                continue
+
+            # change generic tag to specific item in key and description
+            _key = key.replace('<Transport>', f)
+            _description = value[d].replace('<this transport>', attr[d].lower())
+            variables[_key] = _copy_dict(value, _description)
+                    
     # otherwise, move items from auxiliary to public dictionary
     else:
         variables[key] = _variables[key]
