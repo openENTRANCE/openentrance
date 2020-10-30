@@ -49,7 +49,8 @@ Consumption|Industry|<Product>|Domestic:
    unit: million euro/yr
 
 Output|Industry|<Industry>:
-   description: Total output per <this industry>. That is, total value of production of this industry.
+   description: Total monetary value of production (output) by <this industry>.
+     The value includes cost of production, capital costs, labor costs and taxes.
    unit: million euro/yr
 
 Output|Product|<Product>:
