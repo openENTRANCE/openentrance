@@ -55,6 +55,14 @@ Capital Cost|Residential and Commercial Heat|<Fuel>:
 Capital Cost|Industrial Heat|<Fuel>:
    description: Capital cost for <this fuel>
    unit: US$2010/kW
+   
+Capital Cost|Transportation|Freight|<Transport>:
+   description: Capital cost for freight <this transport>
+   unit: US$2010/Gtkm
+   
+Capital Cost|Transportation|Passenger|<Transport>:
+   description: Capital cost for passenger <this transport>
+   unit: US$2010/Gpkm
 
 Fixed Cost|Electricity|<Fuel>:
    description: Fixed O&M cost for <this fuel>
@@ -67,6 +75,14 @@ Fixed Cost|Residential and Commercial Heat|<Fuel>:
 Fixed Cost|Industrial Heat|<Fuel>:
    description: Fixed O&M for <this fuel>
    unit: US$2010/kW/yr
+   
+Fixed Cost|Transportation|Freight|<Transport>:
+   description: Capital cost for freight <this transport>
+   unit: US$2010/Gtkm/yr
+   
+Fixed Cost|Transportation|Passenger|<Transport>:
+   description: Capital cost for passenger <this transport>
+   unit: US$2010/Gpkm/yr
 
 Variable Cost|Electricity|<Fuel>:
    description: Capital cost for <this fuel>
@@ -78,7 +94,7 @@ Variable Cost|Residential and Commercial Heat|<Fuel>:
       
 Variable Cost|Industrial Heat|<Fuel>:
    description: Capital cost for <this fuel>
-   unit: US$2010/kWh   
+   unit: US$2010/kWh
 
 Investment|Energy Efficiency:
    description: Investments into the efficiency-increasing components of energy
