@@ -54,7 +54,7 @@ Output|Industry|<Industry>:
    unit: million euro/yr
 
 Output|Product|<Product>:
-   description: Total output per <this product>. That is, total value of sold.
+   description: Total monetary value of <this product> produced (output) and sold to industry, households and government
    unit: million euro/yr
 
 Capital|<Industry>:
