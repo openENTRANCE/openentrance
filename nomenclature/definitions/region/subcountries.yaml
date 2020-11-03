@@ -18,37 +18,37 @@
 # ehighway clusters France
 
 France|Subgrid 14:
-  definition: FRI11 + FRI12 + FR613
+  definition: FRI11 + FRI12 + FRI13 + FRI14 + FRI15 + FRJ21 + FRJ23 + FRJ24 + FRJ26 + FRJ28
   country: France
   note: This region was defined and used in the ehighway2050 public datasets
   ehighway2050: 14_FR
 
 France|Subgrid 15:
-  definition: FRJ22 + FRJ25 + FR627
+  definition: FRJ22 + FRJ25 + FRJ27 + FRI21 + FRK12 + FRJ11 + FRJ13 + FRJ14 + FRJ15
   country: France
   note: This region was defined and used in the ehighway2050 public datasets
   ehighway2050: 15_FR
 
 France|Subgrid 16:
-  definition: FRL01 + FRL03 + FR824
+  definition: FRL01 + FRL03 + FRL04 + FRL05 + FRL06 + FRJ12
   country: France
   note: This region was defined and used in the ehighway2050 public datasets
   ehighway2050: 16_FR
 
 France|Subgrid 17:
-  definition: FRG02 + FRG04 + FR515
+  definition: FRG02 + FRG04 + FRG05 + FRB04 + FRI33 + FRI32 + FRI31 + FRI34
   country: France
   note: This region was defined and used in the ehighway2050 public datasets
   ehighway2050: 17_FR
 
 France|Subgrid 18:
-  definition: FRB02 + FRB05 + FR246
+  definition: FRB02 + FRB05 + FRB06 + FRB01 + FRB03 + FRC12 + FRI22 + FRI23 + FRK11 + FRK14 
   country: France
   note: This region was defined and used in the ehighway2050 public datasets
   ehighway2050: 18_FR
-
-France|Subgrid 19:
-  definition: FRK22 + FRK23 + FR715
+ 
+France|Subgrid 19:  
+  definition: FRK22 + FRK23 + FRK25 + FRK26 + FRK13
   country: France
   note: This region was defined and used in the ehighway2050 public datasets
   ehighway2050: 19_FR
@@ -60,13 +60,13 @@ France|Subgrid 20:
   ehighway2050: 20_FR
 
 France|Subgrid 21:
-  definition: FRG01 + FRG03 + FR521
+  definition: FRG01 + FRG03 + FRH01 + FRH02 + FRH03 + FRH04
   country: France
   note: This region was defined and used in the ehighway2050 public datasets
   ehighway2050: 21_FR
 
 France|Subgrid 22:
-  definition: FRD21 + FRD11 + FR252
+  definition: FRD21 + FRD11 + FRD12 + FRD13
   country: France
   note: This region was defined and used in the ehighway2050 public datasets
   ehighway2050: 22_FR
@@ -90,7 +90,7 @@ France|Subgrid 25:
   ehighway2050: 25_FR
 
 France|Subgrid 26:
-  definition: FRE11 + FRE12 + FR223
+  definition: FRE11 + FRE12 + FRE23 + FRD22 + FRE22 + FRE21
   country: France
   note: This region was defined and used in the ehighway2050 public datasets
   ehighway2050: 26_FR
