@@ -32,6 +32,20 @@ serves as a discussion platform for extending the lists of terms.
 hoping to facilitate increased cooperation across research projects
 on (European) energy and climate policy!*
 
+## How to work with this repository
+
+There are several ways to interact with the nomenclature and definitions
+provided in this repository. The simplest approach is to just read the `yaml`
+files on GitHub - see the links [below](#Timeseries-data-dimensions).
+
+### An installable Python package
+
+<img src="./_static/python.png" align="right" alt="Python logo" />
+
+To facilitate using the definitions in data processing workflows and scripts,
+the nomenclature can be installed as a Python package with several utility
+functions and dictionaries. [More information](nomenclature)
+
 ## Data format structure
 
 The openENTRANCE project uses a **common data format** based on a template
@@ -62,10 +76,10 @@ The resulting table can be either shown as
 - **wide format** (see example below, with *years* as columns), or
 - **long format** (two columns *year*  and *value*).
 
-| **model** | **scenario** | **region** | **variable**   | **unit** | **subannual** | **2005** | **2010** | **2015** |
-|-----------|--------------|------------|----------------|----------|---------------|---------:|---------:|---------:|
-| MESSAGE   | CD-LINKS 400 | World      | Primary Energy | EJ/y     | Year          |    462.5 |    500.7 |      ... |
-| ...       | ...          | ...        | ...            | ...      | ...           |      ... |      ... |      ... |
+| **model**   | **scenario**        | **region** | **variable**   | **unit** | **subannual** | **2015** | **2020** | **2025** |
+|-------------|---------------------|------------|----------------|----------|---------------|---------:|---------:|---------:|
+| GENeSYS-MOD | Societal Commitment | Europe     | Primary Energy | EJ/y     | Year          |     69.9 |     65.7 |      ... |
+| ...         | ...                 | ...        | ...            | ...      | ...           |      ... |      ... |      ... |
 
 <sup>Data via the [IAMC 1.5°C scenario explorer](https://data.ene.iiasa.ac.at/iamc-1.5c-explorer),
     showing a scenario from the [CD-LINKS](https://www.cd-links.org) project.</sup>

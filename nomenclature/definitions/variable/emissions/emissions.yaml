@@ -290,6 +290,38 @@ Emissions|CO2|AFOLU:
                 (IPCC category 3)
    unit: Mt CO2/yr
 
+Emission Rate|CO2|Electricity|Biomass|Traditionnal:
+   description: CO2 emissions of a typical Traditionnal Biomass power plant
+                biomass from local and pre-existing
+                resources mostly waste :domestic and agricultural waste, forest residues.
+   unit: tons/MWh
+
+Emission Rate|CO2|Electricity|Biomass|New and imported :
+   description: CO2 emissions of a typical new biomass power plant
+                biomass from dedicated energy crops and biomass imports.
+   unit: tons/MWh
+
+Emission Rate|CO2|Electricity|Coal:
+   description: CO2 emissions of a typical coal power plant
+   unit: tons/MWh
+
+Emission Rate|CO2|Electricity|Gas|OCGT:
+   description: CO2 emissions of a typical Open Cycle Gas Turbine power plant
+   unit: tons/MWh
+
+Emission Rate|CO2|Electricity|Gas|CCGT:
+   description: CO2 emissions of a typical Combined Cycle Gas Turbine power plant
+   unit: tons/MWh
+
+Emission Rate|CO2|Electricity|Lignite:
+   description: CO2 emissions of a typical Lignite power plant
+   unit: tons/MWh
+
+Emission Rate|CO2|Electricity|Nuclear:
+   description: CO2 emissions of a typical nuclear power plant; usually equal to 0 but variable necessary for consistancy reason
+   unit: tons/MWh
+
+
 Emissions|CO2|Energy:
    description: CO2 emissions from energy use on supply and demand side (IPCC
                 category 1A, 1B)
