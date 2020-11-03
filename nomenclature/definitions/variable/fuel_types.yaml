@@ -82,7 +82,7 @@
     description: Fuelcell plants
     
   Hydrogen|OCGT:
-    description: Hydrogen OCGT
+    description: Hydrogen-fuelled OCGT
 
   Non-Biomass Renewables:
     description: Hydro, wind, solar, geothermal, ocean, and other renewable

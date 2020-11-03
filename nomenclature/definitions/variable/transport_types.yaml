@@ -3,61 +3,61 @@
 
 <Transport>:
   Maritime:
-     description: martime transportation technologies
+     description: Martime transportation technologies
   
   Maritime|Biofuels:
-     description: martime biofuels-based transportation technologies
+     description: Martime biofuels-based transportation technologies
   
   Maritime|LNG:
-     description: martime lng-based transportation technologies
+     description: Martime lng-based transportation technologies
   
   Maritime|Oil:
-     description: martime oil-based transportation technologies
+     description: Martime oil-based transportation technologies
   
   Rail:
-     description: rail-based transportation technologies
+     description: Rail-based transportation technologies
   
   Rail|Electric:
-     description: rail-based transportation technologies using electricity
+     description: Rail-based transportation technologies using electricity
   
   Rail|Oil:
-     description: rail-based transportation technologies using oil products
+     description: Rail-based transportation technologies using oil products
   
   Road:
-     description: road-based transportation technologies
+     description: Road-based transportation technologies
   
   Road|Electric:
-     description: road-based transportation technologies using electricity
+     description: Road-based transportation technologies using electricity
   
   Road|Electric|BEV:
-     description: road-based transportation technologies using battery electric vehicles
+     description: Road-based transportation technologies using battery electric vehicles
   
   Road|Electric|FCEV:
-     description: road-based transportation technologies using fuel cell electric vehicles
+     description: Road-based transportation technologies using fuel cell electric vehicles
   
   Road|Electric|Overhead:
-     description: road-based transportation technologies using electricity via overhead trolley trucks
+     description: Road-based transportation technologies using electricity via overhead trolley trucks
   
   Road|PHEV:
-     description: road-based transportation technologies using plugin hybrid vehicles
+     description: Road-based transportation technologies using plugin hybrid vehicles
      
   Road|ICE:
-     description: road-based transportation technologies using internal combustion engines
+     description: Road-based transportation technologies using internal combustion engines
      
   Road|ICE|LNG:
-     description: road-based transportation technologies using LNG in internal combustion engines
+     description: Road-based transportation technologies using LNG in internal combustion engines
                   
   Road|ICE|Oil:
-     description: road-based transportation technologies using oil-products in internal combustion engines
+     description: Road-based transportation technologies using oil-products in internal combustion engines
   
   Air:
-     description: air-based transportation technologies
+     description: Air-based transportation technologies
   
   Air|Biofuels:
-     description: air-based transportation technologies using biofuels
+     description: Air-based transportation technologies using biofuels
   
   Air|Hydrogen:
-     description: air-based transportation technologies using hydrogen
+     description: Air-based transportation technologies using hydrogen
   
   Air|Oil:
-     description: air-based transportation technologies using oil products
+     description: Air-based transportation technologies using oil products
