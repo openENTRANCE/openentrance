@@ -132,18 +132,6 @@
   Ocean:
     description: Ocean energy
 
-  Electricity Storage:
-    description: Electricity storage capacity
-   
-  Electricity Storage|Lithium-Ion:
-    description: Lithium-ion battery storage capacity
-
-  Electricity Storage|Redox flow:
-    description: Redox flow battery storage capacity
-
-  Electricity Storage|CAES:
-    description: Compressed air energy storage capacity
-
   Electricity:
     description: Energy generation from electricity
    
