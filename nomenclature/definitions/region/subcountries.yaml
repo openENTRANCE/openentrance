@@ -304,7 +304,9 @@ United Kingdom|North Sea:
     
 # List of subregions in Norway, designed to best decribe the hydropower system in Norway
 Norway|OSTLAND:
-   definition: this is region N1 in the HydroCen dataset, these regions are based on the norwegian electricicty regions but with finer granularity (and some changes) 
+   definition: <please give a self-explaining definition, using NUTS-x codes if possible
+   note: This region was defined in the HydroCen dataset based on the Norwegian electricity regions
+   hydrocen: N1
    country: Norway
    source: https://energifaktanorge.no/en/norsk-energiforsyning/kraftmarkedet/
 
