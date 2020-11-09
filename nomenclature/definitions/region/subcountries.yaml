@@ -302,7 +302,7 @@ United Kingdom|North Sea:
     ehighway2050: 106_NS+107_NS+108_NS+109_NS
     plan4res: NSUK
     
-# List of subregions in Norway, designed to best decribe the hydropower system
+# List of subregions in Norway, designed to best decribe the hydropower system in Norway
 Norway|OSTLAND:
    definition: this is region N1 in the HydroCen dataset, these regions are based on the norwegian electricicty regions but with finer granularity (and some changes) 
    country: Norway
