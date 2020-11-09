@@ -671,7 +671,7 @@ Storage Type|Electricity|Energy Storage System:
    unit: Daily/Weekly/Monthly
 
 Stored Energy Inventory|Electricity|Energy Storage System:
-   description: State of the stored enegy by ESS
+   description: State of the stored energy by ESS
    unit:  GWh
 
 # description of PV power plants
