@@ -302,28 +302,58 @@ United Kingdom|North Sea:
     ehighway2050: 106_NS+107_NS+108_NS+109_NS
     plan4res: NSUK
     
-# List of electricity price regions in Norway
-Norway|Oslo:
-   definition: this is the electricity price region 1 in Norway 
+# List of subregions in Norway, designed to best decribe the hydropower system
+Norway|OSTLAND:
+   definition: this is region N1 in the HydroCen dataset, these regions are based on the norwegian electricicty regions but with finer granularity (and some changes) 
    country: Norway
    source: https://energifaktanorge.no/en/norsk-energiforsyning/kraftmarkedet/
 
-Norway|Kristiansand:
-   definition: this is the electricity price region 2 in Norway 
+Norway|SOROST:
+   definition: this is region N2 in the HydroCen dataset, these regions are based on the norwegian electricicty regions but with finer granularity (and some changes) 
    country: Norway
    source: https://energifaktanorge.no/en/norsk-energiforsyning/kraftmarkedet/
 
-Norway|Trondheim:
-   definition: this is the electricity price region 3 in Norway 
+Norway|HALLNGDAL:
+   definition: this is region N3 in the HydroCen dataset, these regions are based on the norwegian electricicty regions but with finer granularity (and some changes) 
    country: Norway
    source: https://energifaktanorge.no/en/norsk-energiforsyning/kraftmarkedet/
 
-Norway|Tromsø:
-   definition: this is the electricity price region 4 in Norway 
+Norway|TELEMARK:
+   definition: this is region N4 in the HydroCen dataset, these regions are based on the norwegian electricicty regions but with finer granularity (and some changes) 
    country: Norway
    source: https://energifaktanorge.no/en/norsk-energiforsyning/kraftmarkedet/
 
-Norway|Bergen:
-   definition: this is the electricity price region 4 in Norway 
+Norway|SORLAND:
+   definition: this is region N5 in the HydroCen dataset, these regions are based on the norwegian electricicty regions but with finer granularity (and some changes) 
+   country: Norway
+   source: https://energifaktanorge.no/en/norsk-energiforsyning/kraftmarkedet/
+   
+Norway|VESTSYD:
+   definition: this is region N6 in the HydroCen dataset, these regions are based on the norwegian electricicty regions but with finer granularity (and some changes) 
+   country: Norway
+   source: https://energifaktanorge.no/en/norsk-energiforsyning/kraftmarkedet/
+
+Norway|VESTMIDT:
+   definition: this is region N7 in the HydroCen dataset, these regions are based on the norwegian electricicty regions but with finer granularity (and some changes) 
+   country: Norway
+   source: https://energifaktanorge.no/en/norsk-energiforsyning/kraftmarkedet/
+
+Norway|NORGEMIDT:
+   definition: this is region N8 in the HydroCen dataset, these regions are based on the norwegian electricicty regions but with finer granularity (and some changes) 
+   country: Norway
+   source: https://energifaktanorge.no/en/norsk-energiforsyning/kraftmarkedet/
+
+Norway|HELGELAND:
+   definition: this is region N9 in the HydroCen dataset, these regions are based on the norwegian electricicty regions but with finer granularity (and some changes) 
+   country: Norway
+   source: https://energifaktanorge.no/en/norsk-energiforsyning/kraftmarkedet/
+
+Norway|TROMS:
+   definition: this is region N10 in the HydroCen dataset, these regions are based on the norwegian electricicty regions but with finer granularity (and some changes) 
+   country: Norway
+   source: https://energifaktanorge.no/en/norsk-energiforsyning/kraftmarkedet/
+   
+Norway|FINNMARK:
+   definition: this is region N11 in the HydroCen dataset, these regions are based on the norwegian electricicty regions but with finer granularity (and some changes) 
    country: Norway
    source: https://energifaktanorge.no/en/norsk-energiforsyning/kraftmarkedet/
