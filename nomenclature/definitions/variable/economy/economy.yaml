@@ -67,7 +67,8 @@ Labor|<Industry>:
 
 Product Price Index|<Product>:
    description: Price index on <this product> level, relative to base year 2011
-   unit: index equals 1 in 2011, the reference year
+   note: The index equals 1 in 2011, the reference year
+   unit: ''
 
 Capital Price Index|<Industry>:
    description: Price index of capital from <this industry>, relative to base year 2011
