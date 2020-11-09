@@ -4,6 +4,82 @@ Consumption:
    description: Total consumption of all goods, by all consumers in a region
    unit: billion US$2010/yr
 
+Consumption|Households:
+   description: Total consumption of all goods, by households in a region
+   unit: billion US$2010/yr
+
+Consumption|Government:
+   description: Total consumption of all goods, by the government in a region
+   unit: billion US$2010/yr
+
+Consumption|Industry:
+   description: Total consumption of all goods, by industries in a region
+   unit: billion US$2010/yr
+
+Consumption|Households|<Product>|Imported:
+   description: Consumption of imported <this product> by households
+   unit: million euro/yr
+
+Consumption|Government|<Product>|Domestic:
+   description: Consumption of domestic <this product> by households
+   unit: million euro/yr
+
+Consumption|Government|<Product>|Imported:
+   description: Consumption of imported <this product> by government
+   unit: million euro/yr
+
+Consumption|Government|<Product>|Domestic:
+   description: Consumption of domestic <this product> by government
+   unit: million euro/yr
+
+Consumption|Gross Capital Formation|<Product>|Imported:
+   description: Consumption of imported <this product> by gross capital formation
+   unit: million euro/yr
+
+Consumption|Gross Capital Formation|<Product>|Domestic:
+   description: Consumption of domestic <this product> by gross capital formation
+   unit: million euro/yr
+
+Consumption|Industry|<Product>|Imported:
+   description: Consumption of imported <this product> by industries
+   unit: million euro/yr
+
+Consumption|Industry|<Product>|Domestic:
+   description: Consumption of domestic <this product> by industries
+   unit: million euro/yr
+
+Output|Industry|<Industry>:
+   description: Total monetary value of production (output) by <this industry>.
+     The value includes cost of production, capital costs, labor costs and taxes.
+   unit: million euro/yr
+
+Output|Product|<Product>:
+   description: Total monetary value of <this product> produced (output) and sold to industry, households and government
+   unit: million euro/yr
+
+Capital|<Industry>:
+   description: Total capital costs spend by <this industry>
+   unit: million euro/yr
+
+Labor|<Industry>:
+   description: Total wages spend by <this industry>
+   unit: million euro/yr
+
+Product Price Index|<Product>:
+   description: Price index on <this product> level, relative to base year 2011
+   note: The index equals 1 in 2011, the reference year
+   unit: ''
+
+Capital Price Index|<Industry>:
+   description: Price index of capital from <this industry>, relative to base year 2011
+   note: The index equals 1 in 2011, the reference year
+   unit: ''
+
+Labor Price Index|<Industry>:
+   description: Price index of wages from <this industry>, relative to base year 2011
+   note: The index equals 1 in 2011, the reference year
+   unit: ''
+
 Discount rate|Buildings:
    description: Discount rate for investments into residential and commercial
                 buildings
@@ -106,42 +182,42 @@ Price|Carbon:
 Price|Final Energy|Residential|Electricity:
    description: Mean Electricity price at the final level in the residential sector.
                 Prices should include the effect of carbon prices
-                Mean price should reflect the variability of different prices that are accessible 
+                Mean price should reflect the variability of different prices that are accessible
                 to end-users (including regulated prices, prices proposed by different competiting retailers...)
    unit: US$2010/GJ
 
 Price|Final Energy|Residential|Gases|Natural Gas:
    description: Mean Natural gas price at the final level in the residential sector.
                 Prices should include the effect of carbon prices.
-                Mean price should reflect the variability of different prices that are accessible 
+                Mean price should reflect the variability of different prices that are accessible
                 to end-users (including regulated prices, prices proposed by different competiting retailers...)
    unit: US$2010/GJ
 
 Price|Final Energy|Residential|Liquids|Biomass:
    description: Mean Biofuel price at the final level in the residential sector.
                 Prices should include the effect of carbon prices.
-                Mean price should reflect the variability of different prices that are accessible 
+                Mean price should reflect the variability of different prices that are accessible
                 to end-users (including regulated prices, prices proposed by different competiting retailers...)
    unit: US$2010/GJ
 
 Price|Final Energy|Residential|Liquids|Oil:
    description: Mean Light fuel oil price at the final level in the residential
                 sector. Prices should include the effect of carbon prices.
-                This mean price should reflect the variability of different prices that are accessible 
+                This mean price should reflect the variability of different prices that are accessible
                 to end-users (including regulated prices, prices proposed by different competiting retailers...)
    unit: US$2010/GJ
 
 Price|Final Energy|Residential|Solids|Biomass:
    description: Mean Biomass price at the final level in the residential sector.
                 Prices should include the effect of carbon prices.
-                This mean price should reflect the variability of different prices that are accessible 
+                This mean price should reflect the variability of different prices that are accessible
                 to end-users (including regulated prices, prices proposed by different competiting retailers...)
    unit: US$2010/GJ
 
 Price|Final Energy|Residential|Solids|Coal:
    description: Mean Coal price at the final level in the residential sector. Prices
                 should include the effect of carbon prices.
-                This mean price should reflect the variability of different prices that are accessible 
+                This mean price should reflect the variability of different prices that are accessible
                 to end-users (including regulated prices, prices proposed by different competiting retailers...)
    unit: US$2010/GJ
 
