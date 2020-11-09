@@ -76,7 +76,8 @@ Capital Price Index|<Industry>:
 
 Labor Price Index|<Industry>:
    description: Price index of wages from <this industry>, relative to base year 2011
-   unit: index equals 1 in 2011, the reference year
+   note: The index equals 1 in 2011, the reference year
+   unit: ''
 
 Discount rate|Buildings:
    description: Discount rate for investments into residential and commercial
