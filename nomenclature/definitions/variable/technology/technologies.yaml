@@ -24,26 +24,6 @@ Capacity|Industrial Heat|<Fuel>:
    description: Total installed heat generation capacity for the industrial sector from <this fuel>
    unit: GW
 
-Capacity|Transportation:
-   description: Total installed transportation technologies
-   unit: Gvkm
-
-Capacity|Transportation|Freight:
-   description: Total installed freight transportation technologies
-   unit: Gtkm
-   
-Capacity|Transportation|Freight|<Transport>:
-   description: Total installed freight transportation technologies from <this transport>
-   unit: Gtkm
-
-Capacity|Transportation|Passenger:
-   description: Total installed passenger transportation technologies
-   unit: Gpkm
-   
-Capacity|Transportation|Passenger|<Transport>:
-   description: Total installed passenger transportation technologies from <this transport>
-   unit: Gpkm
-
 Capital Cost|Electricity|<Fuel>:
    description: Capital cost for <this fuel>
    unit: US$2010/kW
