@@ -138,7 +138,8 @@
   Electricity|Heatpump:
     description: Energy generation from Heatpumps
    
-  Electricity|Direct:
-    description: Energy generation from direct electrification
+  Electricity|Other:
+    description: Energy generation from other electrification technologies
+    
   Other:
     description: Other energy sources and fuels not explicitely listed
