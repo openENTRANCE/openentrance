@@ -1,6 +1,6 @@
 # description of thermal power plants
 Number of Units|Electricity|Biomass|Traditional:
-   description: number of units of kind "Traditionnal Biomass power plant "
+   description: number of units of kind "Traditional Biomass power plant "
                 biomass from local and pre-existing
                 resources mostly waste :domestic and agricultural waste, forest residues.
    unit:
@@ -25,8 +25,8 @@ Number of Units|Electricity|Gas|Coal:
 Number of Units|Electricity|Lignite:
    description: Number of units of kind "Lignite power plant "
    unit:
-Maximum Active power|Electricity|Biomass|Traditionnal:
-   description: Maximum active power of one typical Traditionnal Biomass power plant
+Maximum Active power|Electricity|Biomass|Traditional:
+   description: Maximum active power of one typical Traditional Biomass power plant
                 biomass from local and pre-existing
                 resources mostly waste :domestic and agricultural waste, forest residues.
    unit: MW
@@ -52,8 +52,8 @@ Maximum Active power|Electricity|Lignite:
    description: Maximum active power of one typical Lignite power plant
    unit: MW
 
-Minimum Active power|Electricity|Biomass|Traditionnal:
-   description: Minimum active power of one typical Traditionnal Biomass power plant
+Minimum Active power|Electricity|Biomass|Traditional:
+   description: Minimum active power of one typical Traditional Biomass power plant
                 biomass from local and pre-existing
                 resources mostly waste :domestic and agricultural waste, forest residues.
    unit: MW
@@ -79,8 +79,8 @@ Minimum Active power|Electricity|Lignite:
    description: Minimum active power of one typical Lignite power plant
    unit: MW
 
-Minimum On Duration|Electricity|Biomass|Traditionnal:
-   description: Minimum duration that the unit has to stay on when started, for one typical Traditionnal Biomass power plant
+Minimum On Duration|Electricity|Biomass|Traditional:
+   description: Minimum duration that the unit has to stay on when started, for one typical Traditional Biomass power plant
                 biomass from local and pre-existing
                 resources mostly waste :domestic and agricultural waste, forest residues.
    unit: hour
@@ -106,8 +106,8 @@ Minimum On Duration|Electricity|Lignite:
    description: Minimum duration that the unit has to stay on when started, for one typical Lignite power plant
    unit: hour
 
-Minimum Off Duration|Electricity|Biomass|Traditionnal:
-   description: Minimum duration that the unit has to stay off when shut-down, for one typical Traditionnal Biomass power plant
+Minimum Off Duration|Electricity|Biomass|Traditional:
+   description: Minimum duration that the unit has to stay off when shut-down, for one typical Traditional Biomass power plant
                 biomass from local and pre-existing
                 resources mostly waste :domestic and agricultural waste, forest residues.
    unit: hour
@@ -133,8 +133,8 @@ Minimum Off Duration|Electricity|Lignite:
    description: Minimum duration that the unit has to stay off when shut-down, for one typical Lignite power plant
    unit: hour
 
-Forced Outage Rate|Electricity|Biomass|Traditionnal:
-   description: Unavailability Rate due to failures of typical Traditionnal Biomass power plant
+Forced Outage Rate|Electricity|Biomass|Traditional:
+   description: Unavailability Rate due to failures of typical Traditional Biomass power plant
                 biomass from local and pre-existing
                 resources mostly waste :domestic and agricultural waste, forest residues.
    unit: '%'
@@ -160,8 +160,8 @@ Forced Outage Rate|Electricity|Lignite:
    description: Unavailability Rate due to failures of typical Lignite power plant
    unit: '%'
 
-Planned Outage Rate|Electricity|Biomass|Traditionnal:
-   description: Unavailability Rate due to maintenance of typical Traditionnal Biomass power plant
+Planned Outage Rate|Electricity|Biomass|Traditional:
+   description: Unavailability Rate due to maintenance of typical Traditional Biomass power plant
                 biomass from local and pre-existing
                 resources mostly waste :domestic and agricultural waste, forest residues.
    unit: '%'
@@ -187,8 +187,8 @@ Planned Outage Rate|Electricity|Lignite:
    description: Unavailability Rate due to maintenance of typical Lignite power plant
    unit: '%'
 
-Mean Outage Duration|Electricity|Biomass|Traditionnal:
-   description: Mean duration of outages for a typical Traditionnal Biomass power plant
+Mean Outage Duration|Electricity|Biomass|Traditional:
+   description: Mean duration of outages for a typical Traditional Biomass power plant
                 biomass from local and pre-existing
                 resources mostly waste :domestic and agricultural waste, forest residues.
    unit: '%'
@@ -214,8 +214,8 @@ Mean Outage Duration|Electricity|Lignite:
    description: Mean duration of outages for a typical Lignite power plant
    unit: '%'
 
-CO2 Emmissions|Electricity|Biomass|Traditionnal:
-   description: CO2 emmissions of a typical Traditionnal Biomass power plant
+CO2 Emmissions|Electricity|Biomass|Traditional:
+   description: CO2 emmissions of a typical Traditional Biomass power plant
                 biomass from local and pre-existing
                 resources mostly waste :domestic and agricultural waste, forest residues.
    unit: tons/MWh
@@ -241,8 +241,8 @@ CO2 Emmissions|Electricity|Lignite:
    description: CO2 emmissions of a typical Lignite power plant
    unit: tons/MWh
 
-Variable Cost|Electricity|Biomass|Traditionnal:
-   description: variable cost of a typical Traditionnal Biomass power plant
+Variable Cost|Electricity|Biomass|Traditional:
+   description: variable cost of a typical Traditional Biomass power plant
                 biomass from local and pre-existing
                 resources mostly waste :domestic and agricultural waste, forest residues.
    unit: €/MWh
@@ -268,8 +268,8 @@ Variable Cost|Electricity|Lignite:
    description: variable cost of a typical Lignite power plant
    unit: €/MWh
 
-Inertia|Electricity|Biomass|Traditionnal:
-   description: inertia privided to the system when started by a typical Traditionnal Biomass power plant
+Inertia|Electricity|Biomass|Traditional:
+   description: inertia privided to the system when started by a typical Traditional Biomass power plant
                 biomass from local and pre-existing
                 resources mostly waste :domestic and agricultural waste, forest residues.
    unit: second
@@ -295,9 +295,9 @@ Inertia|Electricity|Lignite:
    description: inertia privided to the system when started by a typical Lignite power plant
    unit: second
 
-Rate Frequency Containment Reserve|Electricity|Biomass|Traditionnal:
+Rate Frequency Containment Reserve|Electricity|Biomass|Traditional:
    description: Percentage of the Maximum Active Power that can be devoted to Frequency Containment Reserve
-                for a typical Traditionnal Biomass power plant
+                for a typical Traditional Biomass power plant
                 biomass from local and pre-existing
                 resources mostly waste :domestic and agricultural waste, forest residues.
    unit: '%'
@@ -328,9 +328,9 @@ Rate Frequency Containment Reserve|Electricity|Lignite:
                 for a typical Lignite power plant
    unit: '%'
 
-Rate Automatic Frequency Restoration Reserve|Electricity|Biomass|Traditionnal:
+Rate Automatic Frequency Restoration Reserve|Electricity|Biomass|Traditional:
    description: Percentage of the Maximum Active Power that can be devoted to Automatic Frequency Restoration Reserve
-                for a typical Traditionnal Biomass power plant
+                for a typical Traditional Biomass power plant
                 biomass from local and pre-existing
                 resources mostly waste :domestic and agricultural waste, forest residues.
    unit: '%'
