@@ -120,6 +120,10 @@ Variable Cost|Electricity|Nuclear:
 Variable Cost|Electricity|Gas|OCGT:
    description: variable cost of a typical Open Cycle Gas Turbine power plant
    unit: EUR/MWh
+   
+Variable Cost|Electricity|Gas|CCGT:
+   description: variable cost of a typical Combined Cycle Gas Turbine power plant
+   unit: EUR/MWh
 
 Variable Cost|Electricity|Coal:
    description: variable cost of a typical coal power plant
@@ -149,6 +153,10 @@ Number of Units|Electricity|Gas|OCGT:
    description: Number of units of kind "Open Cycle Gas Turbine power plant"
    unit:
 
+Number of Units|Electricity|Gas|CCGT:
+   description: Number of units of kind "Combined Cycle Gas Turbine power plant"
+   unit:
+   
 Number of Units|Electricity|Coal:
    description: Number of units of kind "coal power plant "
    unit:
@@ -176,7 +184,7 @@ Maximum Active power|Electricity|Gas|OCGT:
    description: Maximum active power of one typical Open Cycle Gas Turbine power plant
    unit: MW
 
-Maximum Active power|Electricity|Gas|OCGT:
+Maximum Active power|Electricity|Gas|CCGT:
    description: Maximum active power of one typical Combined Cycle Gas Turbine power plant
    unit: MW
 
@@ -237,6 +245,10 @@ Minimum On Duration|Electricity|Nuclear:
 Minimum On Duration|Electricity|Gas|OCGT:
    description: Minimum duration that the unit has to stay on when started, for one typical Open Cycle Gas Turbine power plant
    unit: hour
+   
+Minimum On Duration|Electricity|Gas|CCGT:
+   description: Minimum duration that the unit has to stay on when started, for one typical Combined Cycle Gas Turbine power plant
+   unit: hour
 
 Minimum On Duration|Electricity|Coal:
    description: Minimum duration that the unit has to stay on when started, for one typical coal power plant
@@ -264,7 +276,11 @@ Minimum Off Duration|Electricity|Nuclear:
 Minimum Off Duration|Electricity|Gas|OCGT:
    description: Minimum duration that the unit has to stay off when shut-down, for one typical Open Cycle Gas Turbine power plant
    unit: hour
-
+   
+Minimum Off Duration|Electricity|Gas|CCGT:
+   description: Minimum duration that the unit has to stay off when shut-down, for one typical Combined Cycle Gas Turbine power plant
+   unit: hour
+   
 Minimum Off Duration|Electricity|Coal:
    description: Minimum duration that the unit has to stay off when shut-down, for one typical coal power plant
    unit: hour
@@ -290,6 +306,10 @@ Forced Outage Rate|Electricity|Nuclear:
 
 Forced Outage Rate|Electricity|Gas|OCGT:
    description: Unavailability Rate due to failures of typical Open Cycle Gas Turbine power plant
+   unit: "%"
+   
+Forced Outage Rate|Electricity|Gas|CCGT:
+   description: Unavailability Rate due to failures of typical Combined Cycle Gas Turbine power plant
    unit: "%"
 
 Forced Outage Rate|Electricity|Coal:
@@ -318,6 +338,10 @@ Planned Outage Rate|Electricity|Nuclear:
 Planned Outage Rate|Electricity|Gas|OCGT:
    description: Unavailability Rate due to maintenance of typical Open Cycle Gas Turbine power plant
    unit: "%"
+   
+Planned Outage Rate|Electricity|Gas|CCGT:
+   description: Unavailability Rate due to maintenance of typical Combined Cycle Gas Turbine power plant
+   unit: "%"
 
 Planned Outage Rate|Electricity|Coal:
    description: Unavailability Rate due to maintenance of typical coal power plant
@@ -344,6 +368,10 @@ Mean Outage Duration|Electricity|Nuclear:
 
 Mean Outage Duration|Electricity|Gas|OCGT:
    description: Mean duration of outages for a typical Open Cycle Gas Turbine power plant
+   unit: "%"
+   
+Mean Outage Duration|Electricity|Gas|CCGT:
+   description: Mean duration of outages for a typical Combined Cycle Gas Turbine power plant
    unit: "%"
 
 Mean Outage Duration|Electricity|Coal:
@@ -373,6 +401,10 @@ Inertia|Electricity|Gas|OCGT:
    description: inertia privided to the system when started by a typical Open Cycle Gas Turbine power plant
    unit: second
 
+Inertia|Electricity|Gas|CCGT:
+   description: inertia privided to the system when started by a typical Combined Cycle Gas Turbine power plant
+   unit: second
+
 Inertia|Electricity|Coal:
    description: inertia privided to the system when started by a typical coal power plant
    unit: second
@@ -400,6 +432,11 @@ Rate Frequency Containment Reserve|Electricity|Nuclear:
    unit: "%"
 
 Rate Frequency Containment Reserve|Electricity|Gas|OCGT:
+   description: Percentage of the Maximum Active Power that can be devoted to Frequency Containment Reserve
+                for a typical Open Cycle Gas Turbine power plant
+   unit: "%"
+   
+Rate Frequency Containment Reserve|Electricity|Gas|CCGT:
    description: Percentage of the Maximum Active Power that can be devoted to Frequency Containment Reserve
                 for a typical Open Cycle Gas Turbine power plant
    unit: "%"
@@ -437,6 +474,11 @@ Rate Automatic Frequency Restoration Reserve|Electricity|Gas|OCGT:
                 for a typical Open Cycle Gas Turbine power plant
    unit: "%"
 
+Rate Automatic Frequency Restoration Reserve|Electricity|Gas|CCGT:
+   description: Percentage of the Maximum Active Power that can be devoted to Automatic Frequency Restoration Reserve
+                for a typical Open Cycle Gas Turbine power plant
+   unit: "%"
+   
 Rate Automatic Frequency Restoration Reserve|Electricity|Coal:
    description: Percentage of the Maximum Active Power that can be devoted to Automatic Frequency Restoration Reserve
                 for a typical coal power plant
@@ -541,7 +583,7 @@ Minimum Active power|Electricity|Hydro|Reservoir:
    description: Minimum active power of one typical "simple Hydro reservoir " unit
    unit: MW
 
-Maximum Storage|Electricity|Hydro|reservoir:
+Maximum Storage|Electricity|Hydro|Reservoir:
    description: Maximum volume of a reservoir expressed in energy
    unit: MWh
 
@@ -571,7 +613,7 @@ Number of Units|Electricity|Hydro|Pumped Storage:
    description: Number of units of kind "Pumped Storage "
    unit:
 
-Maximum Active Power|Electricity|Hydro|Pumped Storage:
+Maximum Active power|Electricity|Hydro|Pumped Storage:
    description: Maximum active power of one  "Pumped Storage " unit
    unit: MW
 
@@ -600,7 +642,7 @@ Rate Frequency Containment Reserve|Electricity|Hydro|Pumped Storage:
                 for a Pumped Storage unit
    unit: "%"
 
-Rate Automatic Frequency Restoration Reserve|Electricity|Hydro|Reservoir:
+Rate Automatic Frequency Restoration Reserve|Electricity|Hydro|Pumped Storage:
    description: Percentage of the Maximum Active Power that can be devoted to Automatic Frequency Restoration Reserve
                 for a Pumped Storage unit
    unit: "%"
