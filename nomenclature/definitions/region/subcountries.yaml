@@ -302,99 +302,43 @@ United Kingdom|North Sea:
     ehighway2050: 106_NS+107_NS+108_NS+109_NS
     plan4res: NSUK
     
-   definition: <please give a self-explaining definition, using NUTS-x codes if possible
-<<<<<<< HEAD
 # List of subregions in Norway
 # based on the regional electricity grid and key watersheds for hydropower generation
 Norway|OSTLAND:
    definition: 'virtual' region holding hydropower system in Østland (including plants connected by same watercourse)
-=======
-# List of subregions in Norway, designed to best decribe the hydropower system in Norway
-Norway|OSTLAND:
-   definition: <please give a self-explaining definition, using NUTS-x codes if possible
-   note: This region was defined in the HydroCen dataset based on the Norwegian electricity regions
-   hydrocen: N1
->>>>>>> modifyNorwegianPriceRegions
    country: Norway
    notes: This region was defined in the HydroCen dataset based on the Norwegian hydropower system and electricity price regions
    HydroCen: N1
    source: https://energifaktanorge.no/en/norsk-energiforsyning/kraftmarkedet/
 
 Norway|SOROST:
-<<<<<<< HEAD
    definition: 'virtual' region holding hydropower system in Olso and Viken (including plants connected by same watercourse
-=======
-   definition: this is region N2 in the HydroCen dataset, these regions are based on the norwegian electricicty regions but with finer granularity (and some changes) 
->>>>>>> modifyNorwegianPriceRegions
    country: Norway
    notes: This region was defined in the HydroCen dataset based on the Norwegian hydropower system and electricity price regions
    HydroCen: N2
    source: https://energifaktanorge.no/en/norsk-energiforsyning/kraftmarkedet/
 
-<<<<<<< HEAD
 Norway|HALLINGDAL:
    definition: 'virtual' region holding hydropower system in Hallingdal (including plants connected by same watercourse)
-=======
-Norway|HALLNGDAL:
-   definition: this is region N3 in the HydroCen dataset, these regions are based on the norwegian electricicty regions but with finer granularity (and some changes) 
->>>>>>> modifyNorwegianPriceRegions
    country: Norway
    notes: This region was defined in the HydroCen dataset based on the Norwegian hydropower system and electricity price regions
    HydroCen: N3
    source: https://energifaktanorge.no/en/norsk-energiforsyning/kraftmarkedet/
 
 Norway|TELEMARK:
-<<<<<<< HEAD
    definition: 'virtual' region holding hydropower system in Telemark (including plants connected by same watercourse)
-=======
-   definition: this is region N4 in the HydroCen dataset, these regions are based on the norwegian electricicty regions but with finer granularity (and some changes) 
->>>>>>> modifyNorwegianPriceRegions
    country: Norway
    notes: This region was defined in the HydroCen dataset based on the Norwegian hydropower system and electricity price regions
    HydroCen: N4
    source: https://energifaktanorge.no/en/norsk-energiforsyning/kraftmarkedet/
 
 Norway|SORLAND:
-<<<<<<< HEAD
    definition: 'virtual' region holding hydropower system in Sørland (including plants connected by same watercourse)
-=======
-   definition: this is region N5 in the HydroCen dataset, these regions are based on the norwegian electricicty regions but with finer granularity (and some changes) 
-   country: Norway
-   source: https://energifaktanorge.no/en/norsk-energiforsyning/kraftmarkedet/
-   
-Norway|VESTSYD:
-   definition: this is region N6 in the HydroCen dataset, these regions are based on the norwegian electricicty regions but with finer granularity (and some changes) 
-   country: Norway
-   source: https://energifaktanorge.no/en/norsk-energiforsyning/kraftmarkedet/
-
-Norway|VESTMIDT:
-   definition: this is region N7 in the HydroCen dataset, these regions are based on the norwegian electricicty regions but with finer granularity (and some changes) 
-   country: Norway
-   source: https://energifaktanorge.no/en/norsk-energiforsyning/kraftmarkedet/
-
-Norway|NORGEMIDT:
-   definition: this is region N8 in the HydroCen dataset, these regions are based on the norwegian electricicty regions but with finer granularity (and some changes) 
-   country: Norway
-   source: https://energifaktanorge.no/en/norsk-energiforsyning/kraftmarkedet/
-
-Norway|HELGELAND:
-   definition: this is region N9 in the HydroCen dataset, these regions are based on the norwegian electricicty regions but with finer granularity (and some changes) 
-   country: Norway
-   source: https://energifaktanorge.no/en/norsk-energiforsyning/kraftmarkedet/
-
-Norway|TROMS:
-   definition: this is region N10 in the HydroCen dataset, these regions are based on the norwegian electricicty regions but with finer granularity (and some changes) 
-   country: Norway
-   source: https://energifaktanorge.no/en/norsk-energiforsyning/kraftmarkedet/
-   
-Norway|FINNMARK:
-   definition: this is region N11 in the HydroCen dataset, these regions are based on the norwegian electricicty regions but with finer granularity (and some changes) 
->>>>>>> modifyNorwegianPriceRegions
    country: Norway
    notes: This region was defined in the HydroCen dataset based on the Norwegian hydropower system and electricity price regions
    HydroCen: N5
    source: https://energifaktanorge.no/en/norsk-energiforsyning/kraftmarkedet/
-   
+     
 Norway|VESTSYD:
    definition: 'virtual' region holding hydropower system in Vestfold (including plants connected by same watercourse)
    country: Norway
