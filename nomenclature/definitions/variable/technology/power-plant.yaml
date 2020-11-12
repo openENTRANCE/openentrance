@@ -367,7 +367,7 @@ Number of Units|Electricity|Hydro|Reservoir:
    description: Number of units of kind "simple Hydro reservoir "
    unit:
 
-Maximum Active power|Electricity|Hydro|reservoir:
+Maximum Active power|Electricity|Hydro|Reservoir:
    description: Maximum active power of one typical "simple Hydro reservoir " unit
    unit: MW
 
@@ -375,7 +375,7 @@ Minimum Active power|Electricity|Hydro|Reservoir:
    description: Minimum active power of one typical "simple Hydro reservoir " unit
    unit: MW
 
-Maximum Storage|Electricity|Hydro|reservoir:
+Maximum Storage|Electricity|Hydro|Reservoir:
    description: Maximum volume of a reservoir expressed in energy
    unit: MWh
 
