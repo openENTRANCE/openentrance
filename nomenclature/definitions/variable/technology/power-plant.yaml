@@ -25,6 +25,7 @@ Number of Units|Electricity|Gas|Coal:
 Number of Units|Electricity|Lignite:
    description: Number of units of kind "Lignite power plant "
    unit:
+   
 Maximum Active power|Electricity|Biomass|Traditional:
    description: Maximum active power of one typical Traditional Biomass power plant
                 biomass from local and pre-existing
@@ -58,7 +59,7 @@ Minimum Active power|Electricity|Biomass|Traditional:
                 resources mostly waste :domestic and agricultural waste, forest residues.
    unit: MW
 
-Minimum Active power|Electricity|Biomass|New and imported :
+Minimum Active power|Electricity|Biomass|New and imported:
    description: Minimum active power of one typical new biomass power plant
                 biomass from dedicated energy crops and biomass imports.
    unit: MW
@@ -386,6 +387,10 @@ Minimum Storage|Electricity|Hydro|Reservoir:
 Pumping Efficiency|Electricity|Hydro|Reservoir:
    description: efficiency of pumping for a reservoir power plant
    unit: '%'
+   
+Turbine Efficiency|Electricity|Hydro|Reservoir:
+   description: efficiency of turbining for a reservoir power plant
+   unit: '%'
 
 Inertia|Electricity|Hydro|Reservoir:
    description: inertia provided to the system by a typical "simple Hydro reservoir " unit
@@ -424,6 +429,10 @@ Minimum Storage|Electricity|Hydro|Pumped Storage:
 Pumping Efficiency|Electricity|Hydro|Pumped Storage:
    description: efficiency of pumping for a Pumped Storage
    unit: '%'
+   
+Turbine Efficiency|Electricity|Hydro|Pumped Storage:
+   description: efficiency of turbining for a Pumped Storage
+   unit: '%'
 
 Inertia|Electricity|Hydro|Pumped Storage:
    description: inertia provided to the system by a Pumped Storage unit
@@ -457,18 +466,18 @@ Minimum Active power|Electricity|Hydro|Run of River:
    description: Minimum active power of one  "Run of River" unit
    unit: MW
 
-Inertia|Electricity|Hydro|Reservoir:
-   description: inertia provided to the system by a typical "simple Hydro reservoir " unit
+Inertia|Electricity|Hydro|Run of River:
+   description: inertia provided to the system by a typical "Run of River " unit
    unit: second
 
-Rate Frequency Containment Reserve|Electricity|Hydro|Reservoir:
+Rate Frequency Containment Reserve|Electricity|Hydro|Run of River:
    description: Percentage of the Maximum Active Power that can be devoted to Frequency Containment Reserve
-                for a typical "simple Hydro reservoir " unit
+                for a typical "Run of River " unit
    unit: '%'
 
-Rate Automatic Frequency Restoration Reserve|Electricity|Hydro|Reservoir:
+Rate Automatic Frequency Restoration Reserve|Electricity|Hydro|Run of River:
    description: Percentage of the Maximum Active Power that can be devoted to Automatic Frequency Restoration Reserve
-                for a typical "simple Hydro reservoir " unit
+                for a typical "Run of River " unit
    unit: '%'
 
 # description of PV power plants
