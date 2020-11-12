@@ -53,46 +53,52 @@ _variables = _parse_yaml(DEF_PATH / 'variable')
 
 # explode <Fuels> tags to full lists
 fuel_types = _variables.pop('<Fuel>')
-
+# explode <industry> tags to full lists
+industry_types = _variables.pop('<Industry>')
+# explode <product> tags to full lists
+product_types = _variables.pop('<Product>')
 # explode <Transport> tags to full lists
 transport_types = _variables.pop('<Transport>')
 
 d = 'description'
+key_types = [
+    ('<Fuel>', fuel_types),
+    ('<Industry>', industry_types),
+    ('<Product>', product_types),
+    ('<Transport>', transport_types)
+]
+# corresponding label to replace onto the variable
+rep_value = {
+    '<Fuel>': '<this fuel>',
+    '<Industry>': '<this industry>',
+    '<Product>': '<this product>',
+    '<Transport>': '<this transport mode>'
+}
 for key, value in _variables.items():
-    # if the key contains the tag, loop over all fuel types to add mapping
-    if '<Fuel>' in key:
-        for f, attr in fuel_types.items():
-            # ignore the file attribute in the <Fuel> dictionary
-            if f == 'file':
-                continue
+    for k, types in key_types:
+        # if the key contains the tag, loop over all types to add mapping
+        if k in key:
+            for f, attr in types.items():
+                # ignore the file attribute in the <Fuel> dictionary
+                if f == 'file':
+                    continue
 
-            # change generic tag to specific item in key and description
-            _key = key.replace('<Fuel>', f)
-            _description = value[d].replace('<this fuel>', attr[d].lower())
-            variables[_key] = _copy_dict(value, _description)
+                # change generic tag to specific item in key and description
+                _key = key.replace(k, f)
+                _description = value[d].replace(rep_value[k], attr[d].lower())
+                variables[_key] = _copy_dict(value, _description)
 
-            # add CCS subcategories (if applicable)
-            if 'ccs' in attr and attr['ccs'] is True:
-                for sub, desc in CCS_TYPES:
-                    _key_ccs = f'{_key}|{sub}'
-                    _description_ccs = f'{_description} {desc}'
-                    variables[_key_ccs] = _copy_dict(value, _description_ccs)
+                # add CCS subcategories (if applicable)
+                if 'ccs' in attr and attr['ccs'] is True:
+                    for sub, desc in CCS_TYPES:
+                        _key_ccs = f'{_key}|{sub}'
+                        _description_ccs = f'{_description} {desc}'
+                        variables[_key_ccs] = _copy_dict(
+                            value, _description_ccs)
 
-    if '<Transport>' in key:
-        for f, attr in transport_types.items():
-            # ignore the file attribute in the <Transport> dictionary
-            if f == 'file':
-                continue
-
-            # change generic tag to specific item in key and description
-            _key = key.replace('<Transport>', f)
-            _description = value[d].replace(
-                '<this transport>', attr[d].lower())
-            variables[_key] = _copy_dict(value, _description)
-
-    # otherwise, move items from auxiliary to public dictionary
-    else:
-        variables[key] = _variables[key]
+        # otherwise, move items from auxiliary to public dictionary
+        else:
+            variables[key] = _variables[key]
 
 # remove auxiliary dictionary
 del _variables

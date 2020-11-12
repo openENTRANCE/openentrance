@@ -19,6 +19,20 @@ def test_variables_fuel_types():
     assert obs['description'] == exp
 
 
+def test_variables_industry_types():
+    # check that exploding of <industry> to industries works
+    obs = nc.variables['Capital|iAGRI']
+    exp = 'Total capital costs spend by agriculture'
+    assert obs['description'] == exp
+
+
+def test_variables_product_types():
+    # check that exploding of <product> to procuts works
+    obs = nc.variables['Consumption|Households|pAGRI|Imported']
+    exp = 'Consumption of imported agriculture by households'
+    assert obs['description'] == exp
+
+
 def test_regions():
     # check that regions dictionary is not empty and has specific element
     assert 'Europe' in nc.regions
