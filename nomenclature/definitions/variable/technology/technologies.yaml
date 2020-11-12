@@ -33,7 +33,7 @@ Capacity|Transportation|Freight:
    unit: Gtkm
    
 Capacity|Transportation|Freight|<Transport>:
-   description: Total installed freight transportation technologies from <this transport>
+   description: Total installed freight transportation technologies from <this transport mode>
    unit: Gtkm
 
 Capacity|Transportation|Passenger:
