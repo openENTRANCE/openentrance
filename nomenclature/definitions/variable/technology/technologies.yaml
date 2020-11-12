@@ -37,11 +37,11 @@ Capital Cost|Industrial Heat|<Fuel>:
    unit: US$2010/kW
    
 Capital Cost|Transportation|Freight|<Transport>:
-   description: Capital cost for freight <this transport>
+   description: Capital cost for freight <this transport mode>
    unit: US$2010/Gtkm
    
 Capital Cost|Transportation|Passenger|<Transport>:
-   description: Capital cost for passenger <this transport>
+   description: Capital cost for passenger <this transport mode>
    unit: US$2010/Gpkm
 
 Fixed Cost|Electricity|<Fuel>:
@@ -57,11 +57,11 @@ Fixed Cost|Industrial Heat|<Fuel>:
    unit: US$2010/kW/yr
    
 Fixed Cost|Transportation|Freight|<Transport>:
-   description: Capital cost for freight <this transport>
+   description: Capital cost for freight <this transport mode>
    unit: US$2010/Gtkm/yr
    
 Fixed Cost|Transportation|Passenger|<Transport>:
-   description: Capital cost for passenger <this transport>
+   description: Capital cost for passenger <this transport mode>
    unit: US$2010/Gpkm/yr
 
 Variable Cost|Electricity|<Fuel>:
