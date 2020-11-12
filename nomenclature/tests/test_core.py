@@ -24,6 +24,13 @@ def test_variables_industry_types():
     obs = nc.variables['Capital|iAGRI']
     exp = 'Total capital costs spend by agriculture'
     assert obs['description'] == exp
+    
+    
+def test_variables_transport_types():
+    # check that exploding of <transport> to transportation modes works
+    obs = nc.variables['Energy Service|Transportation|Freight|Rail']
+    exp = 'Annual provision of energy services related to freight Rail-based transportation technologies'
+    assert obs['description'] == exp
 
 
 def test_variables_product_types():
