@@ -29,7 +29,7 @@ def test_variables_industry_types():
 def test_variables_transport_types():
     # check that exploding of <transport> to transportation modes works
     obs = nc.variables['Energy Service|Transportation|Freight|Rail']
-    exp = 'Annual provision of energy services related to freight ' \
+    exp = 'Provision of energy services related to freight ' \
           'rail-based transportation technologies'
     assert obs['description'] == exp
 
