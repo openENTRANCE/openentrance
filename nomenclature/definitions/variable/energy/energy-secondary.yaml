@@ -31,7 +31,7 @@ Secondary Energy|Heat:
    unit: EJ/yr
    
 Secondary Energy|Heat|<Fuel>:
-   description: Total heat generation
+   description: Total heat generation from <this fuel>
    unit: EJ/yr
 
 Secondary Energy|Heat|Geothermal:
