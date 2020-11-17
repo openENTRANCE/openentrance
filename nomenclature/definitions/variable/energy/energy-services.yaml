@@ -3,21 +3,21 @@
 # The tag <Transport> can be replaced by any item in the list in `transport_types.yaml`
 
 Energy Service|Transportation:
-   description: Annual provision of energy services related to all transportation modes
+   description: Provision of energy services related to all transportation modes
    unit: Gvkm/yr
 
 Energy Service|Transportation|Freight:
-   description: Annual provision of energy services related to all freight transportation modes
+   description: Provision of energy services related to all freight transportation modes
    unit: Gtkm/yr
    
 Energy Service|Transportation|Freight|<Transport>:
-   description: Annual provision of energy services related to freight <this transport mode>
+   description: Provision of energy services related to freight <this transport mode>
    unit: Gtkm/yr
 
 Energy Service|Transportation|Passenger:
-   description: Annual provision of energy services related to all passenger transportation modes
+   description: Provision of energy services related to all passenger transportation modes
    unit: Gpkm/yr
    
 Energy Service|Transportation|Passenger|<Transport>:
-   description: Annual provision of energy services related to passenger <this transport mode>
+   description: Provision of energy services related to passenger <this transport mode>
    unit: Gpkm/yr

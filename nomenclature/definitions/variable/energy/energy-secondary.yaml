@@ -34,11 +34,6 @@ Secondary Energy|Heat|<Fuel>:
    description: Total heat generation from <this fuel>
    unit: EJ/yr
 
-Secondary Energy|Heat|Geothermal:
-   description: Heat generation from geothermal energy excluding
-                geothermal heat pumps
-   unit: EJ/yr
-
 Secondary Energy|Hydrogen:
    description: Total hydrogen production
    unit: EJ/yr

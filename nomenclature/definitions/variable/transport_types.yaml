@@ -3,16 +3,16 @@
 
 <Transport>:
   Maritime:
-     description: Martime transportation technologies
+     description: Maritime transportation technologies
   
   Maritime|Biofuels:
-     description: Martime biofuels-based transportation technologies
+     description: Maritime biofuels-based transportation technologies
   
   Maritime|LNG:
-     description: Martime lng-based transportation technologies
+     description: Maritime lng-based transportation technologies
   
   Maritime|Oil:
-     description: Martime oil-based transportation technologies
+     description: Maritime oil-based transportation technologies
   
   Rail:
      description: Rail-based transportation technologies
