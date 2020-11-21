@@ -185,9 +185,11 @@ def validate(df):
         # check variables for name and unit
         if col == 'variable':
             for c in df.data[col].unique():
-                # check if name is in the codelist and if the unit is defined in the .yaml file description
+                # check if name is in codelist
+                # and unit in the .yaml file description
                 if (c not in codelist) or not(
-                        all(_s in variables[c]['unit'] for _s in df.data.loc[df.data['variable']==c]['unit'].values)):
+                        all(_s in variables[c]['unit'] for _s in df.data.loc[
+                            df.data['variable']==c]['unit'].values)):
                     invalid.append(c)
                     success = False
             # check if only unit is not valid
