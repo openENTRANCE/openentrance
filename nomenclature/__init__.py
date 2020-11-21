@@ -181,13 +181,12 @@ def validate(df):
     for col, codelist, ext in cols:
         invalid = []
 
-
         # check variables for name and unit
         if col == 'variable':
             for c in df.data[col].unique():
                 # check if name is in the codelist and if the unit is defined in the .yaml file description
                 if (c not in codelist) or not(
-                        all(_s in variables[c]['unit'] for _s in df.data.loc[df.data['variable']==c]['unit'].values)):
+                        all(_s in variables[c]['unit'] for _s in df.data.loc[df.data['variable'] == c]['unit'].values)):
                     invalid.append(c)
                     success = False
             # check if only unit is not valid
@@ -284,10 +283,9 @@ def _validate_directional(x):
 
 def _validate_unit(x):
     # sub function to filter out variables with valid name
-    for i in reversed(x): # iterate reversely through list due to 'remove' method
+    for i in reversed(x):  # iterate reversely through list due to 'remove' method
         if i in variables.keys():
-            logger.warning('Unit for variable %s is not given in %s.', i, variables[i]['unit'])
+            logger.warning(
+                'Unit for variable %s is not given in %s.', i, variables[i]['unit'])
             x.remove(i)
     return x
-
-

@@ -56,16 +56,7 @@ def test_validate_time_entry():
         replace([2005, 2010], value=['2005-06-17 00:00+01:00',
                                      '2010-07-21 12:00+01:00'])
     assert validate(IamDataFrame(df_sub))
-    
-    
+
+
 def test_validate_unit_entry():
     assert not (validate(df.rename(unit={'EJ/yr': 'MWh'})))
-    
-    
-    
-    
-    
-    
-    
-    
-    
