@@ -179,7 +179,22 @@ def validate(df):
 
     # validate all (other) columns
     for col, codelist, ext in cols:
-        invalid = [c for c in df.data[col].unique() if c not in codelist]
+        invalid = []
+
+
+        # check variables for name and unit
+        if col == 'variable':
+            for c in df.data[col].unique():
+                # check if name is in the codelist and if the unit is defined in the .yaml file description
+                if (c not in codelist) or not(
+                        all(_s in variables[c]['unit'] for _s in df.data.loc[df.data['variable']==c]['unit'].values)):
+                    invalid.append(c)
+                    success = False
+            # check if only unit is not valid
+            invalid = _validate_unit(invalid)
+        else:
+            invalid = [c for c in df.data[col].unique() if c not in codelist]
+
 
         # check if entries in the invalid list are related to directional data
         if col == 'region' and invalid:
@@ -265,3 +280,14 @@ def _validate_directional(x):
     """Utility function to check whether region-to-region code is valid"""
     x = x.split('>')
     return len(x) == 2 and all([i in regions for i in x])
+
+
+def _validate_unit(x):
+    # sub function to filter out variables with valid name
+    for i in reversed(x): # iterate reversely through list due to 'remove' method
+        if i in variables.keys():
+            logger.warning('Unit for variable %s is not given in %s.', i, variables[i]['unit'])
+            x.remove(i)
+    return x
+
+
