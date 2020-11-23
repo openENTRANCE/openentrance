@@ -288,7 +288,8 @@ def _validate_unit(x):
     # sub function to filter out variables with valid name
     for i in reversed(x):  # iterate list reversely due to 'remove' method
         if i in variables.keys():
+            _valid_units = variables[i]['unit']
             logger.warning(
-                f'Unit for variable {i} is not in {variables[i]['unit']}!')
+                f'Unit for variable {i} is not in {_valid_units}!')
             x.remove(i)
     return x
