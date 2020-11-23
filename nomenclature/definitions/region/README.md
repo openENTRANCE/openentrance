@@ -67,7 +67,7 @@ to the common country names using the installable Python package.
 
 ### Sub-country areas following the 'Nomenclature of Territorial Units for Statistics' (NUTS)
 
-One set of disaggregation of countries follows the 
+One set of disaggregation of countries follows the
 [NUTS 2021 classification](https://ec.europa.eu/eurostat/web/nuts/background)
 used by Eurostat.
  - Major socio-economic regions: [nuts1.yaml](nuts1.yaml)
@@ -143,8 +143,8 @@ Example:
 
 When timeseries data represents flows or capacity on one of several parallel
 connections between regions (e.g., power lines, natural gas pipelines), the
-convention above is not sufficient. For such cases, the convention for 
-directional data can be extended with a `|` character 
+convention above is not sufficient. For such cases, the convention for
+directional data can be extended with a `|` character
 (without spaces before/after).
 
 > Norway>Germany|E54
