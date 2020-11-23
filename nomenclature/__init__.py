@@ -289,6 +289,6 @@ def _validate_unit(x):
     for i in reversed(x):  # iterate list reversely due to 'remove' method
         if i in variables.keys():
             logger.warning(
-                f'Unit for variable {i} is not in {variables[i]['unit']}.'
+                f'Unit for variable {i} is not in {variables[i]['unit']}.')
             x.remove(i)
     return x
