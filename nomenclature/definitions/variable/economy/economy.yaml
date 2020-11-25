@@ -184,7 +184,7 @@ Price|Final Energy|Residential|Electricity:
                 Prices should include the effect of carbon prices
                 Mean price should reflect the variability of different prices that are accessible
                 to end-users (including regulated prices, prices proposed by different competiting retailers...)
-   unit: US$2010/GJ
+   unit: [euro/kWh, US$2010/GJ]
 
 Price|Final Energy|Residential|Gases|Natural Gas:
    description: Mean Natural gas price at the final level in the residential sector.
