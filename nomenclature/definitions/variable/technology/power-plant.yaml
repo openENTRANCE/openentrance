@@ -188,7 +188,7 @@ Maximum Active power|Electricity|Lignite:
    description: Maximum active power of one typical Lignite power plant
    unit: MW
 
-Minimum Active power|Electricity|Biomass|Traditional:
+Minimum Active Power|Electricity|Biomass|Traditional:
    description: Minimum active power of one typical Traditional Biomass power plant
                 biomass from local and pre-existing
                 resources mostly waste :domestic and agricultural waste, forest residues.
