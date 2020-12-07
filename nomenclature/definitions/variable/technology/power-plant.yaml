@@ -194,7 +194,7 @@ Minimum Active Power|Electricity|Biomass|Traditional:
                 resources mostly waste :domestic and agricultural waste, forest residues.
    unit: MW
 
-Minimum Active power|Electricity|Biomass|New and imported:
+Minimum Active Power|Electricity|Biomass|New and imported:
    description: Minimum active power of one typical new biomass power plant
                 biomass from dedicated energy crops and biomass imports.
    unit: MW
