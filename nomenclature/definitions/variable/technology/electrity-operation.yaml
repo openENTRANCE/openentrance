@@ -53,7 +53,7 @@ Storage|Electricity|Load Curtailment:
 # Operation Cost per technologies
 # i.e.  operation cost of aggregated committments of plants, storages and demand-side systems
 
-Operation Cost|Electricity|<Fuel>
+Operation Cost|Electricity|<Fuel>:
    description: Operation Cost of <this fuel>
    unit: €
 
