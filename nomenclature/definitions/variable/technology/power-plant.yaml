@@ -131,7 +131,7 @@ Variable Cost|Electricity|Lignite:
 
 # Variables related to thermal power plants
 Number of Units|Electricity|Biomass|Traditional:
-   description: number of units of kind "Traditionnal Biomass power plant "
+   description: number of units of kind "Traditional Biomass power plant "
                 biomass from local and pre-existing
                 resources mostly waste :domestic and agricultural waste, forest residues.
    unit:
@@ -156,9 +156,9 @@ Number of Units|Electricity|Coal:
 Number of Units|Electricity|Lignite:
    description: Number of units of kind "Lignite power plant "
    unit:
-
-Maximum Active Power|Electricity|Biomass|Traditionnal:
-   description: Maximum active power of one typical Traditionnal Biomass power plant
+   
+Maximum Active Power|Electricity|Biomass|Traditional:
+   description: Maximum active power of one typical Traditional Biomass power plant
                 biomass from local and pre-existing
                 resources mostly waste :domestic and agricultural waste, forest residues.
    unit: MW
@@ -188,13 +188,13 @@ Maximum Active power|Electricity|Lignite:
    description: Maximum active power of one typical Lignite power plant
    unit: MW
 
-Minimum Active power|Electricity|Biomass|Traditionnal:
-   description: Minimum active power of one typical Traditionnal Biomass power plant
+Minimum Active Power|Electricity|Biomass|Traditional:
+   description: Minimum active power of one typical Traditional Biomass power plant
                 biomass from local and pre-existing
                 resources mostly waste :domestic and agricultural waste, forest residues.
    unit: MW
 
-Minimum Active power|Electricity|Biomass|New and imported :
+Minimum Active Power|Electricity|Biomass|New and imported:
    description: Minimum active power of one typical new biomass power plant
                 biomass from dedicated energy crops and biomass imports.
    unit: MW
@@ -219,8 +219,8 @@ Minimum Active power|Electricity|Lignite:
    description: Minimum active power of one typical Lignite power plant
    unit: MW
 
-Minimum On Duration|Electricity|Biomass|Traditionnal:
-   description: Minimum duration that the unit has to stay on when started, for one typical Traditionnal Biomass power plant
+Minimum On Duration|Electricity|Biomass|Traditional:
+   description: Minimum duration that the unit has to stay on when started, for one typical Traditional Biomass power plant
                 biomass from local and pre-existing
                 resources mostly waste :domestic and agricultural waste, forest residues.
    unit: hour
@@ -246,8 +246,8 @@ Minimum On Duration|Electricity|Lignite:
    description: Minimum duration that the unit has to stay on when started, for one typical Lignite power plant
    unit: hour
 
-Minimum Off Duration|Electricity|Biomass|Traditionnal:
-   description: Minimum duration that the unit has to stay off when shut-down, for one typical Traditionnal Biomass power plant
+Minimum Off Duration|Electricity|Biomass|Traditional:
+   description: Minimum duration that the unit has to stay off when shut-down, for one typical Traditional Biomass power plant
                 biomass from local and pre-existing
                 resources mostly waste :domestic and agricultural waste, forest residues.
    unit: hour
@@ -273,8 +273,8 @@ Minimum Off Duration|Electricity|Lignite:
    description: Minimum duration that the unit has to stay off when shut-down, for one typical Lignite power plant
    unit: hour
 
-Forced Outage Rate|Electricity|Biomass|Traditionnal:
-   description: Unavailability Rate due to failures of typical Traditionnal Biomass power plant
+Forced Outage Rate|Electricity|Biomass|Traditional:
+   description: Unavailability Rate due to failures of typical Traditional Biomass power plant
                 biomass from local and pre-existing
                 resources mostly waste :domestic and agricultural waste, forest residues.
    unit: "%"
@@ -300,8 +300,8 @@ Forced Outage Rate|Electricity|Lignite:
    description: Unavailability Rate due to failures of typical Lignite power plant
    unit: "%"
 
-Planned Outage Rate|Electricity|Biomass|Traditionnal:
-   description: Unavailability Rate due to maintenance of typical Traditionnal Biomass power plant
+Planned Outage Rate|Electricity|Biomass|Traditional:
+   description: Unavailability Rate due to maintenance of typical Traditional Biomass power plant
                 biomass from local and pre-existing
                 resources mostly waste :domestic and agricultural waste, forest residues.
    unit: "%"
@@ -327,8 +327,8 @@ Planned Outage Rate|Electricity|Lignite:
    description: Unavailability Rate due to maintenance of typical Lignite power plant
    unit: "%"
 
-Mean Outage Duration|Electricity|Biomass|Traditionnal:
-   description: Mean duration of outages for a typical Traditionnal Biomass power plant
+Mean Outage Duration|Electricity|Biomass|Traditional:
+   description: Mean duration of outages for a typical Traditional Biomass power plant
                 biomass from local and pre-existing
                 resources mostly waste :domestic and agricultural waste, forest residues.
    unit: "%"
@@ -354,8 +354,8 @@ Mean Outage Duration|Electricity|Lignite:
    description: Mean duration of outages for a typical Lignite power plant
    unit: "%"
 
-Inertia|Electricity|Biomass|Traditionnal:
-   description: inertia privided to the system when started by a typical Traditionnal Biomass power plant
+Inertia|Electricity|Biomass|Traditional:
+   description: inertia privided to the system when started by a typical Traditional Biomass power plant
                 biomass from local and pre-existing
                 resources mostly waste :domestic and agricultural waste, forest residues.
    unit: second
@@ -381,9 +381,9 @@ Inertia|Electricity|Lignite:
    description: inertia privided to the system when started by a typical Lignite power plant
    unit: second
 
-Rate Frequency Containment Reserve|Electricity|Biomass|Traditionnal:
+Rate Frequency Containment Reserve|Electricity|Biomass|Traditional:
    description: Percentage of the Maximum Active Power that can be devoted to Frequency Containment Reserve
-                for a typical Traditionnal Biomass power plant
+                for a typical Traditional Biomass power plant
                 biomass from local and pre-existing
                 resources mostly waste :domestic and agricultural waste, forest residues.
    unit: "%"
@@ -414,9 +414,9 @@ Rate Frequency Containment Reserve|Electricity|Lignite:
                 for a typical Lignite power plant
    unit: "%"
 
-Rate Automatic Frequency Restoration Reserve|Electricity|Biomass|Traditionnal:
+Rate Automatic Frequency Restoration Reserve|Electricity|Biomass|Traditional:
    description: Percentage of the Maximum Active Power that can be devoted to Automatic Frequency Restoration Reserve
-                for a typical Traditionnal Biomass power plant
+                for a typical Traditional Biomass power plant
                 biomass from local and pre-existing
                 resources mostly waste :domestic and agricultural waste, forest residues.
    unit: "%"
@@ -541,7 +541,7 @@ Minimum Active power|Electricity|Hydro|Reservoir:
    description: Minimum active power of one typical "simple Hydro reservoir " unit
    unit: MW
 
-Maximum Storage|Electricity|Hydro|reservoir:
+Maximum Storage|Electricity|Hydro|Reservoir:
    description: Maximum volume of a reservoir expressed in energy
    unit: MWh
 
@@ -551,7 +551,11 @@ Minimum Storage|Electricity|Hydro|Reservoir:
 
 Pumping Efficiency|Electricity|Hydro|Reservoir:
    description: efficiency of pumping for a reservoir power plant
-   unit: "%"
+   unit: '%'
+   
+Turbine Efficiency|Electricity|Hydro|Reservoir:
+   description: efficiency of turbining for a reservoir power plant
+   unit: '%'
 
 Inertia|Electricity|Hydro|Reservoir:
    description: inertia provided to the system by a typical "simple Hydro reservoir " unit
@@ -589,7 +593,11 @@ Minimum Storage|Electricity|Hydro|Pumped Storage:
 
 Pumping Efficiency|Electricity|Hydro|Pumped Storage:
    description: efficiency of pumping for a Pumped Storage
-   unit: "%"
+   unit: '%'
+   
+Turbine Efficiency|Electricity|Hydro|Pumped Storage:
+   description: efficiency of turbining for a Pumped Storage
+   unit: '%'
 
 Inertia|Electricity|Hydro|Pumped Storage:
    description: inertia provided to the system by a Pumped Storage unit
@@ -600,7 +608,7 @@ Rate Frequency Containment Reserve|Electricity|Hydro|Pumped Storage:
                 for a Pumped Storage unit
    unit: "%"
 
-Rate Automatic Frequency Restoration Reserve|Electricity|Hydro|Reservoir:
+Rate Automatic Frequency Restoration Reserve|Electricity|Hydro|Pumped Storage:
    description: Percentage of the Maximum Active Power that can be devoted to Automatic Frequency Restoration Reserve
                 for a Pumped Storage unit
    unit: "%"
@@ -623,18 +631,18 @@ Minimum Active power|Electricity|Hydro|Run of River:
    description: Minimum active power of one  "Run of River" unit
    unit: MW
 
-Inertia|Electricity|Hydro|Reservoir:
-   description: inertia provided to the system by a typical "simple Hydro reservoir " unit
+Inertia|Electricity|Hydro|Run of River:
+   description: inertia provided to the system by a typical "Run of River " unit
    unit: second
 
-Rate Frequency Containment Reserve|Electricity|Hydro|Reservoir:
+Rate Frequency Containment Reserve|Electricity|Hydro|Run of River:
    description: Percentage of the Maximum Active Power that can be devoted to Frequency Containment Reserve
-                for a typical "simple Hydro reservoir " unit
-   unit: "%"
+                for a typical "Run of River " unit
+   unit: '%'
 
-Rate Automatic Frequency Restoration Reserve|Electricity|Hydro|Reservoir:
+Rate Automatic Frequency Restoration Reserve|Electricity|Hydro|Run of River:
    description: Percentage of the Maximum Active Power that can be devoted to Automatic Frequency Restoration Reserve
-                for a typical "simple Hydro reservoir " unit
+                for a typical "Run of River " unit
    unit: "%"
 
 # description of Energy Storage Systems
