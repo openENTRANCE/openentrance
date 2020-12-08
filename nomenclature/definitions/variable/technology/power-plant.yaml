@@ -613,7 +613,7 @@ Number of Units|Electricity|Hydro|Pumped Storage:
    description: Number of units of kind "Pumped Storage "
    unit:
 
-Maximum Active power|Electricity|Hydro|Pumped Storage:
+Maximum Active Power|Electricity|Hydro|Pumped Storage:
    description: Maximum active power of one  "Pumped Storage " unit
    unit: MW
 
