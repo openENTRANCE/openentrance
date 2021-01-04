@@ -13,6 +13,9 @@
   
   Maritime|Oil:
      description: Maritime oil-based transportation technologies
+     
+  Maritime|Hydrogen:
+     description: Maritime hydrogen-based transportation technologies
   
   Rail:
      description: Rail-based transportation technologies
@@ -23,6 +26,9 @@
   Rail|Oil:
      description: Rail-based transportation technologies using oil products
   
+  Rail|Hydrogen:
+     description: Rail-based transportation technologies using hydrogen
+     
   Road:
      description: Road-based transportation technologies
   
@@ -44,10 +50,10 @@
   Road|Internal Combustion Engine:
      description: Road-based transportation technologies using internal combustion engines
      
-  Road|ICE|LNG:
+  Road|Internal Combustion Engine|LNG:
      description: Road-based transportation technologies using LNG in internal combustion engines
                   
-  Road|ICE|Oil:
+  Road|Internal Combustion Engine|Oil:
      description: Road-based transportation technologies using oil-products in internal combustion engines
   
   Air:
