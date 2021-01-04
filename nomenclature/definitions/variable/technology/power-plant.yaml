@@ -662,11 +662,11 @@ Maximum Storage|Electricity|Energy Storage System|Lithium-Ion:
    description: Maximum energy that can be stored by the Lithium Iron Batteries systems.
    unit: GWh
 
-Maximum Storage|Electricity|Energy Storage System|Redox flow:
+Maximum Storage|Electricity|Energy Storage System|Redox Flow:
    description: Maximum energy that can be stored by the Redox Flow Batteries systems.
    unit: GWh
 
-Maximum Storage|Electricity|Energy Storage System|CAES:
+Maximum Storage|Electricity|Energy Storage System|Compressed Air:
    description: Maximum energy that can be stored by the Compressed air energy storages systems.
    unit: GWh   
 
