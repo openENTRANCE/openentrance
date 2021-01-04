@@ -8,19 +8,19 @@ Capacity|Electricity|<Fuel>:
    description: Total installed electricity generation capacity from <this fuel>
    unit: GW
 
-Capacity|Residential and Commercial Heat:
+Capacity|Heat|Residential and Commercial:
    description: Total installed heat generation capacity for the residential and commercial sectors
    unit: GW
 
-Capacity|Residential and Commercial Heat|<Fuel>:
+Capacity|Heat|Residential and Commercial|<Fuel>:
    description: Total installed heat generation capacity for the residential and commercial sectors from <this fuel>
    unit: GW
    
-Capacity|Industrial Heat:
+Capacity|Heat|Industrial:
    description: Total installed heat generation capacity for the industrial sector
    unit: GW
    
-Capacity|Industrial Heat|<Fuel>:
+Capacity|Heat|Industrial|<Fuel>:
    description: Total installed heat generation capacity for the industrial sector from <this fuel>
    unit: GW
 
@@ -28,11 +28,11 @@ Capital Cost|Electricity|<Fuel>:
    description: Capital cost for <this fuel>
    unit: US$2010/kW
 
-Capital Cost|Residential and Commercial Heat|<Fuel>:
+Capital Cost|Heat|Residential and Commercial|<Fuel>:
    description: Capital cost for <this fuel>
    unit: US$2010/kW
       
-Capital Cost|Industrial Heat|<Fuel>:
+Capital Cost|Heat|Industrial|<Fuel>:
    description: Capital cost for <this fuel>
    unit: US$2010/kW
    
@@ -48,7 +48,7 @@ Fixed Cost|Electricity|<Fuel>:
    description: Fixed O&M cost for <this fuel>
    unit: US$2010/kW/yr
 
-Fixed Cost|Residential and Commercial Heat|<Fuel>:
+Fixed Cost|Heat|Residential and Commercial|<Fuel>:
    description: Fixed O&M for <this fuel>
    unit: US$2010/kW/yr
       
@@ -68,11 +68,11 @@ Variable Cost|Electricity|<Fuel>:
    description: Capital cost for <this fuel>
    unit: US$2010/MWh
 
-Variable Cost|Residential and Commercial Heat|<Fuel>:
+Variable Cost|Heat|Residential and Commercial|<Fuel>:
    description: Capital cost for <this fuel>
    unit: US$2010/MWh
       
-Variable Cost|Industrial Heat|<Fuel>:
+Variable Cost|Heat|Industrial|<Fuel>:
    description: Capital cost for <this fuel>
    unit: US$2010/MWh
 
