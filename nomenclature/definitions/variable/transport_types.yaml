@@ -29,19 +29,19 @@
   Road|Electric:
      description: Road-based transportation technologies using electricity
   
-  Road|Electric|BEV:
+  Road|Electric|Battery:
      description: Road-based transportation technologies using battery electric vehicles
   
-  Road|Electric|FCEV:
+  Road|Electric|Fuel Cell:
      description: Road-based transportation technologies using fuel cell electric vehicles
   
   Road|Electric|Overhead:
      description: Road-based transportation technologies using electricity via overhead trolley trucks
   
-  Road|PHEV:
+  Road|Plugin Hybrid:
      description: Road-based transportation technologies using plugin hybrid vehicles
      
-  Road|ICE:
+  Road|Internal Combustion Engine:
      description: Road-based transportation technologies using internal combustion engines
      
   Road|ICE|LNG:
