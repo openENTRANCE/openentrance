@@ -27,12 +27,11 @@ Secondary Energy|Gases|Natural Gas:
    unit: EJ/yr
 
 Secondary Energy|Heat:
-   description: Total centralized heat generation
+   description: Total heat generation
    unit: EJ/yr
-
-Secondary Energy|Heat|Geothermal:
-   description: Centralized heat generation from geothermal energy excluding
-                geothermal heat pumps
+   
+Secondary Energy|Heat|<Fuel>:
+   description: Total heat generation from <this fuel>
    unit: EJ/yr
 
 Secondary Energy|Hydrogen:

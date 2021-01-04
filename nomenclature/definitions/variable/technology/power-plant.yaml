@@ -705,8 +705,20 @@ Maximum Discharge|Electricity|Energy Storage System:
    unit: MW
 
 Maximum Storage|Electricity|Energy Storage System:
-   description: Maximum energy that can be stored by the energy storage system unit.
+   description: Maximum energy that can be stored by the energy storage systems.
    unit: GWh
+   
+Maximum Storage|Electricity|Energy Storage System|Lithium-Ion:
+   description: Maximum energy that can be stored by the Lithium Iron Batteries systems.
+   unit: GWh
+
+Maximum Storage|Electricity|Energy Storage System|Redox Flow:
+   description: Maximum energy that can be stored by the Redox Flow Batteries systems.
+   unit: GWh
+
+Maximum Storage|Electricity|Energy Storage System|Compressed Air:
+   description: Maximum energy that can be stored by the Compressed air energy storages systems.
+   unit: GWh   
 
 Minimum Storage|Electricity|Energy Storage System:
    description: Minimum energy that can be stored by the energy storage system unit.

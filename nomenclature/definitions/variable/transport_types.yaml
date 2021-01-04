@@ -1,0 +1,69 @@
+# This list of fuels will replace any occurrence of `<Transport>`
+# in a variable-definition yaml file
+
+<Transport>:
+  Maritime:
+     description: Maritime transportation technologies
+  
+  Maritime|Biofuels:
+     description: Maritime biofuels-based transportation technologies
+  
+  Maritime|LNG:
+     description: Maritime lng-based transportation technologies
+  
+  Maritime|Oil:
+     description: Maritime oil-based transportation technologies
+     
+  Maritime|Hydrogen:
+     description: Maritime hydrogen-based transportation technologies
+  
+  Rail:
+     description: Rail-based transportation technologies
+  
+  Rail|Electric:
+     description: Rail-based transportation technologies using electricity
+  
+  Rail|Oil:
+     description: Rail-based transportation technologies using oil products
+  
+  Rail|Hydrogen:
+     description: Rail-based transportation technologies using hydrogen
+     
+  Road:
+     description: Road-based transportation technologies
+  
+  Road|Electric:
+     description: Road-based transportation technologies using electricity
+  
+  Road|Electric|Battery:
+     description: Road-based transportation technologies using battery electric vehicles
+  
+  Road|Electric|Fuel Cell:
+     description: Road-based transportation technologies using fuel cell electric vehicles
+  
+  Road|Electric|Overhead:
+     description: Road-based transportation technologies using electricity via overhead trolley trucks
+  
+  Road|Plugin Hybrid:
+     description: Road-based transportation technologies using plugin hybrid vehicles
+     
+  Road|Internal Combustion Engine:
+     description: Road-based transportation technologies using internal combustion engines
+     
+  Road|Internal Combustion Engine|LNG:
+     description: Road-based transportation technologies using LNG in internal combustion engines
+                  
+  Road|Internal Combustion Engine|Oil:
+     description: Road-based transportation technologies using oil-products in internal combustion engines
+  
+  Air:
+     description: Air-based transportation technologies
+  
+  Air|Biofuels:
+     description: Air-based transportation technologies using biofuels
+  
+  Air|Hydrogen:
+     description: Air-based transportation technologies using hydrogen
+  
+  Air|Oil:
+     description: Air-based transportation technologies using oil products

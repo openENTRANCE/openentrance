@@ -57,17 +57,22 @@ fuel_types = _variables.pop('<Fuel>')
 industry_types = _variables.pop('<Industry>')
 # explode <product> tags to full lists
 product_types = _variables.pop('<Product>')
+# explode <Transport> tags to full lists
+transport_types = _variables.pop('<Transport>')
+
 d = 'description'
 key_types = [
     ('<Fuel>', fuel_types),
     ('<Industry>', industry_types),
-    ('<Product>', product_types)
+    ('<Product>', product_types),
+    ('<Transport>', transport_types)
 ]
 # corresponding label to replace onto the variable
 rep_value = {
     '<Fuel>': '<this fuel>',
     '<Industry>': '<this industry>',
-    '<Product>': '<this product>'
+    '<Product>': '<this product>',
+    '<Transport>': '<this transport mode>'
 }
 for key, value in _variables.items():
     for k, types in key_types:
