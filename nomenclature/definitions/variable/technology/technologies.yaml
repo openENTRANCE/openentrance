@@ -52,7 +52,7 @@ Fixed Cost|Heat|Residential and Commercial|<Fuel>:
    description: Fixed O&M for <this fuel>
    unit: US$2010/kW/yr
       
-Fixed Cost|Industrial Heat|<Fuel>:
+Fixed Cost|Heat|Industrial|<Fuel>:
    description: Fixed O&M for <this fuel>
    unit: US$2010/kW/yr
    
