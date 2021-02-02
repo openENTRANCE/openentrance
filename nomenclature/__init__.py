@@ -75,6 +75,7 @@ rep_value = {
     '<Transport>': '<this transport mode>'
 }
 for key, value in _variables.items():
+    has_tag = False
     for k, types in key_types:
         # if the key contains the tag, loop over all types to add mapping
         if k in key:
@@ -95,10 +96,14 @@ for key, value in _variables.items():
                         _description_ccs = f'{_description} {desc}'
                         variables[_key_ccs] = _copy_dict(
                             value, _description_ccs)
+            has_tag = True
+            break
 
-        # otherwise, move items from auxiliary to public dictionary
-        else:
-            variables[key] = _variables[key]
+    # if the variable does not contain a <tag>, move items to public dictionary
+    if not has_tag:
+        if key in variables:
+            raise ValueError(f'Duplicate {key}')
+        variables[key] = _variables[key]
 
 # remove auxiliary dictionary
 del _variables
