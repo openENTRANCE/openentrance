@@ -104,61 +104,32 @@ Maximum Ramping|Downwards|Electricity|<Fuel>:
     generating electricity from <this fuel>
   unit: MW/h
 
-# description of simple hydrosystems - reservoir hydro
-# this describes systems composed of one reservoir and one plant (with potential pumping capacity) that are used for seasonal storage
-Number of Units|Electricity|Hydro|Reservoir:
-   description: Number of units of kind "simple Hydro reservoir "
-   unit:
-
-Maximum Active power|Electricity|Hydro|Reservoir:
-   description: Maximum active power of one typical "simple Hydro reservoir " unit
-   unit: MW
-
-Minimum Active power|Electricity|Hydro|Reservoir:
-   description: Minimum active power of one typical "simple Hydro reservoir " unit
-   unit: MW
-
+# additional variables for reservoir hydro
+# this describes systems composed of one reservoir and one plant
+# (with potential pumping capacity) that are used for seasonal storage
 Maximum Storage|Electricity|Hydro|Reservoir:
-   description: Maximum volume of a reservoir expressed in energy
-   unit: MWh
+  description: Maximum volume of a reservoir expressed in energy
+  unit: MWh
 
 Minimum Storage|Electricity|Hydro|Reservoir:
-   description: Minimum volume of a reservoir expressed in energy
-   unit: MWh
+  description: Minimum volume of a reservoir expressed in energy
+  unit: MWh
 
 Pumping Efficiency|Electricity|Hydro|Reservoir:
-   description: efficiency of pumping for a reservoir power plant
-   unit: '%'
+  description: Efficiency of pumping for a hydro reservoir power plant
+  unit: '%'
    
 Turbine Efficiency|Electricity|Hydro|Reservoir:
-   description: efficiency of turbining for a reservoir power plant
-   unit: '%'
-
-Inertia|Electricity|Hydro|Reservoir:
-   description: inertia provided to the system by a typical "simple Hydro reservoir " unit
-   unit: second
+  description: Efficiency of turbining for a hydro reservoir power plant
+  unit: '%'
 
 Inflows|Electricity|Hydro|Reservoir:
-   description: hydraulic inflows to a reservoir expressed in energy
-   unit: MWh
+  description: Inflows into a reservoir expressed in energy
+  unit: MWh
 
 Inflows|Electricity|Hydro|Reservoir|Profile:
-   description: Time serie of hydraulic inflows to a reservoir expressed in energy
-   unit: MWh
-
-# description of simple hydrosystems -  pumped storage
-# this describes systems composed of one small reservoir and one plant with  pumping capacity that are used for short-term storage (eg week or day)
-Number of Units|Electricity|Hydro|Pumped Storage:
-   description: Number of units of kind "Pumped Storage "
-   unit:
-
-Maximum Active Power|Electricity|Hydro|Pumped Storage:
-   description: Maximum active power of one  "Pumped Storage " unit
-   unit: MW
-
-Minimum Active power|Electricity|Hydro|Pumped Storage:
-   description: Minimum active power of one  "Pumped Storage" unit
-   unit: MW
+  description: Time serie of hydraulic inflows to a reservoir expressed in energy
+  unit: MWh
 
 Maximum Storage|Electricity|Hydro|Pumped Storage:
    description: Maximum volume of a Pumped Storage expressed in energy
@@ -176,51 +147,11 @@ Turbine Efficiency|Electricity|Hydro|Pumped Storage:
    description: efficiency of turbining for a Pumped Storage
    unit: '%'
 
-Inertia|Electricity|Hydro|Pumped Storage:
-   description: inertia provided to the system by a Pumped Storage unit
-   unit: second
-
-Rate Frequency Containment Reserve|Electricity|Hydro|Pumped Storage:
-   description: Percentage of the Maximum Active Power that can be devoted to Frequency Containment Reserve
-                for a Pumped Storage unit
-   unit: "%"
-
-Rate Automatic Frequency Restoration Reserve|Electricity|Hydro|Pumped Storage:
-   description: Percentage of the Maximum Active Power that can be devoted to Automatic Frequency Restoration Reserve
-                for a Pumped Storage unit
-   unit: "%"
-
 # description of simple hydrosystems -  run of river
 # this describes systems composed of one run of river plant (without storage)
-Number of Units|Electricity|Hydro|Run of River:
-   description: Number of units of kind "Run of River"
-   unit:
-
-Maximum Active power|Electricity|Hydro|Run of River:
-   description: Maximum active power of one  "Run of River" unit
-   unit: MW
-
 LoadFactor|Electricity|Hydro|Run of River|Profile:
-   description: Timeserie of hourly loadfactors for  "Run of River"
-   unit: "%"
-
-Minimum Active power|Electricity|Hydro|Run of River:
-   description: Minimum active power of one  "Run of River" unit
-   unit: MW
-
-Inertia|Electricity|Hydro|Run of River:
-   description: inertia provided to the system by a typical "Run of River " unit
-   unit: second
-
-Rate Frequency Containment Reserve|Electricity|Hydro|Run of River:
-   description: Percentage of the Maximum Active Power that can be devoted to Frequency Containment Reserve
-                for a typical "Run of River " unit
-   unit: '%'
-
-Rate Automatic Frequency Restoration Reserve|Electricity|Hydro|Run of River:
-   description: Percentage of the Maximum Active Power that can be devoted to Automatic Frequency Restoration Reserve
-                for a typical "Run of River " unit
-   unit: "%"
+  description: Timeserie of hourly loadfactors for  "Run of River"
+  unit: '%'
 
 # description of Energy Storage Systems
 Maximum Energy Charge|Electricity|Energy Storage System:
@@ -270,96 +201,3 @@ Storage Type|Electricity|Energy Storage System:
 Stored Energy Inventory|Electricity|Energy Storage System:
    description: State of the stored energy by ESS
    unit:  GWh
-
-# description of PV power plants
-Number of Units|Electricity|Solar:
-   description: Number of units of kind Photovoltaic power plant
-   unit:
-
-Maximum Active power|Electricity|Solar:
-   description: Maximum active power of one Photovoltaic power plant
-   unit: MW
-
-LoadFactor|Electricity|Solar|Profile:
-   description: Timeserie of hourly loadfactors for Photovoltaic power plants
-   unit: "%"
-
-Minimum Active power|Electricity|Solar:
-   description: Minimum active power of one Photovoltaic power plant
-   unit: MW
-
-Inertia|Electricity|Solar:
-   description: inertia provided to the system by a Photovoltaic power plant
-   unit: second
-
-Rate Frequency Containment Reserve|Electricity|Solar:
-   description: Percentage of the Maximum Active Power that can be devoted to Frequency Containment Reserve
-                for a Photovoltaic power plant
-   unit: "%"
-
-Rate Automatic Frequency Restoration Reserve|Electricity|Solar:
-   description: Percentage of the Maximum Active Power that can be devoted to Automatic Frequency Restoration Reserve
-                for a Photovoltaic power plant
-   unit: "%"
-
-# description of Wind Onshore power plants
-Number of Units|Electricity|Wind|OnShore:
-   description: Number of units of kind Wind Onshore power plant
-   unit:
-
-Maximum Active power|Electricity|Wind|OnShore:
-   description: Maximum active power of one Wind Onshore power plant
-   unit: MW
-
-LoadFactor|Electricity|Wind|OnShore|Profile:
-   description: Timeserie of hourly loadfactors for Onshore Windpower
-   unit: "%"
-
-Minimum Active power|Electricity|Wind|OnShore:
-   description: Minimum active power of one Wind Onshore power plant
-   unit: MW
-
-Inertia|Electricity|Wind|OnShore:
-   description: inertia provided to the system by a Wind Onshore power plant
-   unit: second
-
-Rate Frequency Containment Reserve|Electricity|Wind|OnShore:
-   description: Percentage of the Maximum Active Power that can be devoted to Frequency Containment Reserve
-                for a Wind Onshore power plant
-   unit: "%"
-
-Rate Automatic Frequency Restoration Reserve|Electricity|Wind|OnShore:
-   description: Percentage of the Maximum Active Power that can be devoted to Automatic Frequency Restoration Reserve
-                for a Wind Onshore power plant
-   unit: "%"
-
-# description of Wind Offshore power plants
-Number of Units|Electricity|Wind|OffShore:
-   description: Number of units of kind Wind OffShore power plant
-   unit:
-
-Maximum Active power|Electricity|Wind|OffShore:
-   description: Maximum active power of one Wind OffShore power plant
-   unit: MW
-
-LoadFactor|Electricity|Wind|OffShore|Profile:
-   description: Timeserie of hourly loadfactors for Offshore Windpower
-   unit: "%"
-
-Minimum Active power|Electricity|Wind|OffShore:
-   description: Minimum active power of one Wind OffShore power plant
-   unit: MW
-
-Inertia|Electricity|Wind|OffShore:
-   description: inertia provided to the system by a Wind OffShore power plant
-   unit: second
-
-Rate Frequency Containment Reserve|Electricity|Wind|OffShore:
-   description: Percentage of the Maximum Active Power that can be devoted to Frequency Containment Reserve
-                for a Wind OffShore power plant
-   unit: "%"
-
-Rate Automatic Frequency Restoration Reserve|Electricity|Wind|OffShore:
-   description: Percentage of the Maximum Active Power that can be devoted to Automatic Frequency Restoration Reserve
-                for a Wind OffShore power plant
-   unit: "%"
