@@ -127,10 +127,6 @@ Inflows|Electricity|Hydro|Reservoir:
   description: Inflows into a reservoir expressed in energy
   unit: MWh
 
-Inflows|Electricity|Hydro|Reservoir|Profile:
-  description: Time serie of hydraulic inflows to a reservoir expressed in energy
-  unit: MWh
-
 Maximum Storage|Electricity|Hydro|Pumped Storage:
    description: Maximum volume of a Pumped Storage expressed in energy
    unit: MWh
