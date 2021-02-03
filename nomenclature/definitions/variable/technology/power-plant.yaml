@@ -72,14 +72,14 @@ Inertia|Electricity|<Fuel>:
     generating electricity from <this fuel>
   unit: second
 
-Rate Frequency Containment Reserve|Electricity|<Fuel>:
-  description: Percentage of Maximum Active Power that can be committed to
+Frequency Containment Reserve|Electricity|<Fuel>:
+  description: Share of Maximum Active Power that can be committed to
     Frequency Containment Reserve by a typical power plant
     generating electricity from <this fuel>
   unit: "%"
 
-Rate Automatic Frequency Restoration Reserve|Electricity|<Fuel>:
-  description: Percentage of Maximum Active Power that can be committed to
+Automatic Frequency Restoration Reserve|Electricity|<Fuel>:
+  description: Share of Maximum Active Power that can be committed to
     Automatic Frequency Restoration Reserve by a typical power plant
     generating electricity from <this fuel>
   unit: "%"
