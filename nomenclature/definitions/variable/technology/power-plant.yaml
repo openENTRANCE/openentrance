@@ -152,6 +152,18 @@ Turbine Efficiency|Electricity|Hydro|Pumped Storage:
 LoadFactor|Electricity|Hydro|Run of River|Profile:
   description: Timeserie of hourly loadfactors for  "Run of River"
   unit: '%'
+  
+Load Factor|Electricity|Solar:
+  description: Load factors for solar power plants 
+  unit: '%'
+  
+Load Factor|Electricity|Wind|Offshore:
+  description: Load factors for offshore wind power plants 
+  unit: '%'
+  
+Load Factor|Electricity|Wind|Onshore:
+  description: Load factors for onshore wind power plants 
+  unit: '%'
 
 # description of Energy Storage Systems
 Maximum Energy Charge|Electricity|Energy Storage System:
