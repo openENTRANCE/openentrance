@@ -84,22 +84,22 @@ Rate Automatic Frequency Restoration Reserve|Electricity|<Fuel>:
     generating electricity from <this fuel>
   unit: "%"
 
-Operating Reserve|Down|Electricity|<Fuel>:
-  description: Downward operating reserve by a typical power plant
-    generating electricity from <this fuel>
-  unit: MWh
-
 Operating Reserve|Up|Electricity|<Fuel>:
   description: Upwards operating reserve by a typical power plant
     generating electricity from <this fuel>
   unit: MWh
 
-Maximum Ramping|Upwards|Electricity|<Fuel>:
+Operating Reserve|Down|Electricity|<Fuel>:
+  description: Downward operating reserve by a typical power plant
+    generating electricity from <this fuel>
+  unit: MWh
+
+Maximum Ramping|Up|Electricity|<Fuel>:
   description: Upward ramp limit by a typical power plant
     generating electricity from <this fuel>
   unit: MW/h
 
-Maximum Ramping|Downwards|Electricity|<Fuel>:
+Maximum Ramping|Down|Electricity|<Fuel>:
   description: Downward ramp limit by a typical power plant
     generating electricity from <this fuel>
   unit: MW/h
