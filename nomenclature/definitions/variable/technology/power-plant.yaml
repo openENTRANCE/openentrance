@@ -149,8 +149,8 @@ Turbine Efficiency|Electricity|Hydro|Pumped Storage:
 
 # description of simple hydrosystems -  run of river
 # this describes systems composed of one run of river plant (without storage)
-LoadFactor|Electricity|Hydro|Run of River|Profile:
-  description: Timeserie of hourly loadfactors for  "Run of River"
+Load Factor|Electricity|Hydro|Run of River:
+  description: Load factors for run-of-river power plants
   unit: '%'
 
 # description of Energy Storage Systems
