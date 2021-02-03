@@ -157,11 +157,11 @@ Load Factor|Electricity|Solar:
   description: Load factors for solar power plants 
   unit: '%'
   
-Load Factor|Electricity|Wind|OffShore:
+Load Factor|Electricity|Wind|Offshore:
   description: Load factors for offshore wind power plants 
   unit: '%'
   
-Load Factor|Electricity|Wind|OnShore:
+Load Factor|Electricity|Wind|Onshore:
   description: Load factors for onshore wind power plants 
   unit: '%'
 
