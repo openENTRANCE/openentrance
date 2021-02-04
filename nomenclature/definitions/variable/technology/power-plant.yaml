@@ -65,7 +65,7 @@ Planned Outage Rate|Electricity|<Fuel>:
 Mean Outage Duration|Electricity|<Fuel>:
   description: Mean duration of an outage of a typical power plant generating
     electricity from <this fuel>
-  unit: "%"
+  unit: [day, hour]
 
 Inertia|Electricity|<Fuel>:
   description: Inertia provided to the system by a typical power plant
