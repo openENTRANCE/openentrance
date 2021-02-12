@@ -366,68 +366,6 @@ Reserve|Electricity|Frequency Containment|Wind|OffShore:
 Reserve|Electricity|Frequency Containment|Energy Storage System:
    description: Frequency Containment Reserve available for energy storage systems, excl. hydro storage; this amount is the maximum available for the grid operator considering the commitment decisions taken by the model
    unit: MWh
-   
-# Inertia provided to the network per technologies
-# i.e. Inertia provided by aggregated committments of plants, storages and demand-side systems  
-  
-Inertia|Electricity|Biomass:
-   description: Inertia available for  Traditionnal Biomass power plants; this amount is the maximum available for the grid operator considering the commitment decisions taken by the model
-   unit: s  
-  
-Inertia|Electricity|Biomass|Traditionnal:
-   description: Inertia available for  Traditionnal Biomass power plants; this amount is the maximum available for the grid operator considering the commitment decisions taken by the model
-                biomass from local and pre-existing
-                resources mostly waste :domestic and agricultural waste, forest residues.
-   unit: s
-
-Inertia|Electricity|Biomass|New and imported:
-   description: Inertia available for New+Imported biomass power plants; this amount is the maximum available for the grid operator considering the commitment decisions taken by the model
-                biomass from dedicated energy crops and biomass imports.
-   unit: s
-
-Inertia|Electricity|Nuclear:
-   description: Inertia available for nuclear power plants; this amount is the maximum available for the grid operator considering the commitment decisions taken by the model
-   unit: s
-
-Inertia|Electricity|Gas:
-   description: Inertia available for Gas power plants; this amount is the maximum available for the grid operator considering the commitment decisions taken by the model
-   unit: s
-   
-Inertia|Electricity|Gas|OCGT:
-   description: Inertia available for Open Cycle Gas Turbine power plants; this amount is the maximum available for the grid operator considering the commitment decisions taken by the model
-   unit: s
-   
-Inertia|Electricity|Gas|CCGT:
-   description: Inertia available for Combined Cycle Gas Turbine power plants; this amount is the maximum available for the grid operator considering the commitment decisions taken by the model
-   unit: s
-
-Inertia|Electricity|Coal:
-   description: Inertia available for coal power plants; this amount is the maximum available for the grid operator considering the commitment decisions taken by the model
-   unit: s
-
-Inertia|Electricity|Lignite:
-   description: Inertia available for Lignite power plants; this amount is the maximum available for the grid operator considering the commitment decisions taken by the model
-   unit: s
-
-Inertia|Electricity|Oil:
-   description: Inertia available for Oil power plants; this amount is the maximum available for the grid operator considering the commitment decisions taken by the model
-   unit: s
-   
-Inertia|Electricity|Hydro|Reservoir:
-   description: Inertia available for "simple Hydro reservoir " units; this amount is the maximum available for the grid operator considering the commitment decisions taken by the model
-   unit: s
-   
-Inertia|Electricity|Hydro|Pumped Storage:
-   description: Inertia available for "Pumped Storage " units; this amount is the maximum available for the grid operator considering the commitment decisions taken by the model
-   unit: s
-   
-Inertia|Electricity|Hydro|Run of River:
-   description: Inertia available for "Run of River" units; this amount is the maximum available for the grid operator considering the commitment decisions taken by the model
-   unit: s
-   
-Inertia|Electricity|Hydro|Ocean:
-   description: Inertia available for Ocean power plants; this amount is the maximum available for the grid operator considering the commitment decisions taken by the model
-   unit: s
 
 # Marginal costs associated to active power demand, reserves, CO2 emissions, inertia and flows in the grid
 
