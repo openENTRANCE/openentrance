@@ -53,14 +53,24 @@ Minimum Off Duration|Electricity|<Fuel>:
   unit: hour
 
 Forced Outage Rate|Electricity|<Fuel>:
-  description: Unavailability due to unexpected outages (e.g., failures)
+  description: Unavailability as a share relative to Maximum Active Power
+    due to unexpected outages (e.g., failures)
     of a typical power plant generating electricity from <this fuel>
-  unit: "%"
+  note: A value of 50 (%) means that the plant can generate at half of
+    maximum active power (~installed capacity) during an outage.
+    If the outage rate is lower than the level of minimum active power,
+    the plant has to be shut down for the duration of the outage.
+  unit: '%'
 
 Planned Outage Rate|Electricity|<Fuel>:
-  description: Unavailability due to planned outages (e.g., maintaince,
-    revision) of a typical power plant generating electricity from <this fuel>
-  unit: "%"
+  description: Unavailability as a share relative to Maximum Active Power
+    due to planned outages (e.g., maintaince, revision)
+    of a typical power plant generating electricity from <this fuel>
+  note: A value of 50 (%) means that the plant can generate at half of
+    maximum active power (~installed capacity) during an outage.
+    If the outage rate is lower than the level of minimum active power,
+    the plant has to be shut down for the duration of the outage.
+  unit: '%'
 
 Mean Outage Duration|Electricity|<Fuel>:
   description: Mean duration of an outage of a typical power plant generating
