@@ -28,6 +28,7 @@ CCS_TYPES = [
 
 class NomenclatureMapping(Mapping):
     """A thin wrapper around a dictionary for nomenclature definitions"""
+
     def __init__(self, name):
         self._def = dict()
         self._name = 'variables'
