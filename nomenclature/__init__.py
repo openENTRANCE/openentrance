@@ -26,7 +26,7 @@ CCS_TYPES = [
 ]
 
 
-class NomenclatureMapping(Mapping):
+class Definition(Mapping):
     """A thin wrapper around a dictionary for nomenclature definitions"""
 
     def __init__(self, name):
@@ -71,7 +71,7 @@ def _copy_dict(dct, description):
     return _dct
 
 
-variables = NomenclatureMapping('variable')
+variables = Definition('variable')
 """Dictionary of variables"""
 
 # read all variable definitions to auxiliary dictionary
