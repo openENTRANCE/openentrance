@@ -29,8 +29,8 @@ CCS_TYPES = [
 class Definition(Mapping):
     """A thin wrapper around a dictionary for nomenclature definitions"""
 
-    def __init__(self, name):
-        self._def = dict()
+    def __init__(self, name, data=None):
+        self._def = data or dict()
         self._name = 'variables'
 
     def __setitem__(self, key, value):
@@ -132,11 +132,12 @@ for key, value in _variables.items():
 # remove auxiliary dictionary
 del _variables
 
-regions = _parse_yaml(DEF_PATH / 'region')
+regions = Definition('region', data=_parse_yaml(DEF_PATH / 'region'))
 """Dictionary of all regions"""
 
 
-countries = _parse_yaml(DEF_PATH / 'region', 'countries')
+countries = Definition('country',
+                       data=_parse_yaml(DEF_PATH / 'region', 'countries'))
 """Dictionary of countries"""
 
 
@@ -175,7 +176,7 @@ nuts_hierarchy = _create_nuts3_hierarchy()
 """Hierarchical dictionary of nuts region classification"""
 
 
-subannual = _parse_yaml(DEF_PATH / 'subannual')
+subannual = Definition('subannual', _parse_yaml(DEF_PATH / 'subannual'))
 """Dictionary of subannual timeslices"""
 
 
