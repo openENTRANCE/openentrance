@@ -1,5 +1,5 @@
 # List of variables related to the electricity grid
-# description of variables related to electricity demand
+# Variables related to electricity demand
 Network|Electricity|Value of Lost Load:
    description: Cost of demand-not-served. Cost of load curtailment. Value of Lost Load (VoLL)
    unit: €/MWh
@@ -20,7 +20,7 @@ Network|Electricity|Requirement|Inertia:
    description: Demand in inertia
    unit: second
 
-# description of variables related to transmission lines
+# Variables related to transmission lines
 Network|Electricity|Active Power Flow:
    description: Active power flow through a line
    unit: MW
