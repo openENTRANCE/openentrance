@@ -137,20 +137,32 @@ Inflows|Electricity|Hydro|Reservoir:
   description: Inflows into a reservoir expressed in energy
   unit: MWh
 
+Initial Storage Level|Electricity|Hydro|Pumped Storage:
+   description: Initial energy stored in the pumped-storage hydro unit at first load level.
+   unit: GWh
+
+Maximum Charge|Electricity|Hydro|Pumped Storage:
+   description: Maximum charge when storing energy the pumped-storage hydro unit.
+   unit: MW
+
+Maximum Discharge|Electricity|Hydro|Pumped Storage:
+   description: Maximum discharge when consuming energy from the pumped-storage hydro unit.
+   unit: MW
+
 Maximum Storage|Electricity|Hydro|Pumped Storage:
-   description: Maximum volume of a Pumped Storage expressed in energy
+   description: Maximum volume of a pumped-storage hydro unit expressed in energy
    unit: MWh
 
 Minimum Storage|Electricity|Hydro|Pumped Storage:
-   description: Minimum volume of a Pumped Storage expressed in energy
+   description: Minimum volume of a pumped-storage hydro unit expressed in energy
    unit: MWh
 
 Pumping Efficiency|Electricity|Hydro|Pumped Storage:
-   description: efficiency of pumping for a Pumped Storage
+   description: efficiency of pumping for a pumped-storage hydro unit
    unit: '%'
    
 Turbine Efficiency|Electricity|Hydro|Pumped Storage:
-   description: efficiency of turbining for a Pumped Storage
+   description: efficiency of turbining for a pumped-storage hydro unit
    unit: '%'
 
 # description of simple hydrosystems -  run of river
