@@ -654,6 +654,50 @@ Ireland|Subgrid 96:
   note: This region was defined and used in the ehighway2050 public datasets
   ehighway2050: 96_IE
 
+# ehighway clusters
+
+Russia|Subgrid 100:
+  definition: Region without NUTS3 but defined in ehighway2050
+  country: Russia
+  note: This region was defined and used in the ehighway2050 public datasets
+  ehighway2050: 100_RU
+
+Ukrayne|Subgrid 100:
+  definition: Region without NUTS3 but defined in ehighway2050
+  country: Ukrayne
+  note: This region was defined and used in the ehighway2050 public datasets
+  ehighway2050: 100_UA
+
+Turkey|Subgrid 101:
+  definition: Region without NUTS3 but defined in ehighway2050
+  country: Turkey
+  note: This region was defined and used in the ehighway2050 public datasets
+  ehighway2050: 101_MI
+
+Morocco|Subgrid 102:
+  definition: Region without NUTS3 but defined in ehighway2050
+  country: Morocco
+  note: This region was defined and used in the ehighway2050 public datasets
+  ehighway2050: 102_MA
+
+Algeria|Subgrid 103:
+  definition: Region without NUTS3 but defined in ehighway2050
+  country: Algeria
+  note: This region was defined and used in the ehighway2050 public datasets
+  ehighway2050: 103_DZ
+
+Tunisia|Subgrid 104:
+  definition: Region without NUTS3 but defined in ehighway2050
+  country: Tunisia
+  note: This region was defined and used in the ehighway2050 public datasets
+  ehighway2050: 104_TN
+
+Libya|Subgrid 105:
+  definition: Region without NUTS3 but defined in ehighway2050
+  country: Libya
+  note: This region was defined and used in the ehighway2050 public datasets
+  ehighway2050: 105_LY
+
 # Aggregation of ehighway clusters in larger subcountry regions
 
 # Aggregation of ehighway clusters for Italy
@@ -701,7 +745,7 @@ United Kingdom|North Sea:
     notes: This region was defined and used in the plan4res public datasets, it is built as aggregation of ehighway2050 regions
     ehighway2050: 106_NS+107_NS+108_NS+109_NS
     plan4res: NSUK
-    
+
 # List of subregions in Norway
 # based on the regional electricity grid and key watersheds for hydropower generation
 Norway|Ostland:
