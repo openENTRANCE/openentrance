@@ -530,6 +530,14 @@ Lithuania|Subgrid 77:
   note: This region was defined and used in the ehighway2050 public datasets
   ehighway2050: 77_LT
 
+# ehighway clusters Latvia
+
+Latvia|Subgrid 78:
+  definition: LV003 + LV005 + LV006 + LV007 + LV008 + LV009
+  country: Latvia
+  note: This region was defined and used in the ehighway2050 public datasets
+  ehighway2050: 78_LV
+
 # Aggregation of ehighway clusters in larger subcountry regions
 
 # Aggregation of ehighway clusters for Italy
