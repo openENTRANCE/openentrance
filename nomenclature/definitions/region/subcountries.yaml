@@ -538,6 +538,50 @@ Latvia|Subgrid 78:
   note: This region was defined and used in the ehighway2050 public datasets
   ehighway2050: 78_LV
 
+# ehighway clusters Norway
+
+Norway|Subgrid 79:
+  definition: NO0A1 + NO092
+  country: Norway
+  note: This region was defined and used in the ehighway2050 public datasets
+  ehighway2050: 79_NO
+
+Norway|Subgrid 80:
+  definition: NO082 + NO091
+  country: Norway
+  note: This region was defined and used in the ehighway2050 public datasets
+  ehighway2050: 80_NO
+
+Norway|Subgrid 81:
+  definition: NO0A2
+  country: Norway
+  note: This region was defined and used in the ehighway2050 public datasets
+  ehighway2050: 81_NO
+
+Norway|Subgrid 82:
+  definition: NO081 + NO020
+  country: Norway
+  note: This region was defined and used in the ehighway2050 public datasets
+  ehighway2050: 82_NO
+
+Norway|Subgrid 83:
+  definition: NO060 + NO0A3
+  country: Norway
+  note: This region was defined and used in the ehighway2050 public datasets
+  ehighway2050: 83_NO
+
+Norway|Subgrid 84:
+  definition: NO071
+  country: Norway
+  note: This region was defined and used in the ehighway2050 public datasets
+  ehighway2050: 84_NO
+
+Norway|Subgrid 85:
+  definition: NO074
+  country: Norway
+  note: This region was defined and used in the ehighway2050 public datasets
+  ehighway2050: 85_NO
+
 # Aggregation of ehighway clusters in larger subcountry regions
 
 # Aggregation of ehighway clusters for Italy
