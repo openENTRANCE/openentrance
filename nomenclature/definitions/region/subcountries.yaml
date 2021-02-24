@@ -464,6 +464,14 @@ Bulgaria|Subgrid 66:
   note: This region was defined and used in the ehighway2050 public datasets
   ehighway2050: 66_BG
 
+# ehighway clusters North macedonia
+
+North Macedonia|Subgrid 67:
+  definition: MK001 + MK002 + MK003 + MK004 + MK005 + MK006 + MK007 + MK008
+  country: North Macedonia
+  note: This region was defined and used in the ehighway2050 public datasets
+  ehighway2050: 67_MK
+
 # Aggregation of ehighway clusters in larger subcountry regions
 
 # Aggregation of ehighway clusters for Italy
