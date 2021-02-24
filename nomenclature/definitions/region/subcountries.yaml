@@ -500,6 +500,14 @@ Albania|Subgrid 70:
   note: This region was defined and used in the ehighway2050 public datasets
   ehighway2050: 70_AL
 
+# ehighway clusters Estonia
+
+Estonia|Subgrid 73:
+  definition: EE001 + EE004 + EE008 + EE009 + EE00A
+  country: Estonia
+  note: This region was defined and used in the ehighway2050 public datasets
+  ehighway2050: 73_EE
+
 # Aggregation of ehighway clusters in larger subcountry regions
 
 # Aggregation of ehighway clusters for Italy
