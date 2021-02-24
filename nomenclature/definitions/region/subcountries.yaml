@@ -486,6 +486,14 @@ Greece|Subgrid 69:
   note: This region was defined and used in the ehighway2050 public datasets
   ehighway2050: 69_GR
 
+# ehighway clusters Albania
+
+Albania|Subgrid 70:
+  definition: AL011 + AL012 + AL013 + AL014 + AL015 + AL021 + AL022 + AL031 + AL032 + AL033 + AL034 + AL035
+  country: Albania
+  note: This region was defined and used in the ehighway2050 public datasets
+  ehighway2050: 70_AL
+
 # Aggregation of ehighway clusters in larger subcountry regions
 
 # Aggregation of ehighway clusters for Italy
