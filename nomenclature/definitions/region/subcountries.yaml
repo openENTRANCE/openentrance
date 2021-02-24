@@ -646,6 +646,14 @@ United Kingdom|Subgrid 95:
   note: This region was defined and used in the ehighway2050 public datasets
   ehighway2050: 95_UK
 
+# ehighway clusters Ireland
+
+Ireland|Subgrid 96:
+  definition: IE041 + IE042 + IE051 + IE052 + IE053 + IE061 + IE062 + IE063
+  country: United Kingdom
+  note: This region was defined and used in the ehighway2050 public datasets
+  ehighway2050: 96_IE
+
 # Aggregation of ehighway clusters in larger subcountry regions
 
 # Aggregation of ehighway clusters for Italy
