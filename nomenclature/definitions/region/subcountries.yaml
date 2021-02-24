@@ -508,6 +508,20 @@ Estonia|Subgrid 73:
   note: This region was defined and used in the ehighway2050 public datasets
   ehighway2050: 73_EE
 
+# ehighway clusters Finland
+
+Finland|Subgrid 74:
+  definition: FI1D7 + FI1D8 + FI1D9
+  country: Finland
+  note: This region was defined and used in the ehighway2050 public datasets
+  ehighway2050: 74_FI
+
+Finland|Subgrid 75:
+  definition: FI193 + FI194 + FI195 + FI196 + FI197 +FI1B1 + FI1C1 + FI1C2 + FI1C3 + FI1C4 + FI1C5 + FI1D1 + FI1D2 + FI1D3 + FI1D5 + FI200
+  country: Finland
+  note: This region was defined and used in the ehighway2050 public datasets
+  ehighway2050: 75_FI
+
 # Aggregation of ehighway clusters in larger subcountry regions
 
 # Aggregation of ehighway clusters for Italy
