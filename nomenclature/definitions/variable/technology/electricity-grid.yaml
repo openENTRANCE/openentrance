@@ -37,10 +37,6 @@ Network|Electricity|Fixed Charge Rate:
    description: Fixed charge rate to annualize the overnight investment cost. The Fixed Charge Rate (FCR) is the percentage of the total investment cost that is required over the project life per year to cover the minimal annual revenue requirements.
    unit:
 
-Network|Electricity|Line Type:
-   description: Line type related to alternating current (AC) and direct current (DC)
-   unit: [AC, DC]
-
 Network|Electricity|Line Losses:
    description: Total ohmic losses of a transmission line.
    unit: MW
