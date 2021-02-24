@@ -582,6 +582,32 @@ Norway|Subgrid 85:
   note: This region was defined and used in the ehighway2050 public datasets
   ehighway2050: 85_NO
 
+# ehighway clusters Sweden
+
+Sweden|Subgrid 86:
+  definition: SE332
+  country: Sweden
+  note: This region was defined and used in the ehighway2050 public datasets
+  ehighway2050: 86_SE
+
+Sweden|Subgrid 87:
+  definition: SE313 + SE322 + SE321 + SE331
+  country: Sweden
+  note: This region was defined and used in the ehighway2050 public datasets
+  ehighway2050: 87_SE
+
+Sweden|Subgrid 88:
+  definition: SE110 + SE111 + SE113 + SE214 + SE121 + SE122 + SE123 + SE124 + SE125 + SE232 + SE311 + SE312
+  country: Sweden
+  note: This region was defined and used in the ehighway2050 public datasets
+  ehighway2050: 88_SE
+
+Sweden|Subgrid 89:
+  definition: SE212 + SE221 + SE224 + SE231
+  country: Sweden
+  note: This region was defined and used in the ehighway2050 public datasets
+  ehighway2050: 88_SE
+
 # Aggregation of ehighway clusters in larger subcountry regions
 
 # Aggregation of ehighway clusters for Italy
