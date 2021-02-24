@@ -746,6 +746,30 @@ United Kingdom|North Sea:
     ehighway2050: 106_NS+107_NS+108_NS+109_NS
     plan4res: NSUK
 
+United Kingdom|North Sea|Subgrid 106:
+    definition: this 'virtual' region holds the offshore windpower in norh sea near to the south of UK
+    country: United Kingdom
+    notes: This region was defined and used in the plan4res public datasets, it is built as aggregation of ehighway2050 regions
+    ehighway2050: 106_NS
+
+United Kingdom|North Sea|Subgrid 107:
+    definition: this 'virtual' region holds the offshore windpower in norh sea near to the centre-south of UK
+    country: United Kingdom
+    notes: This region was defined and used in the plan4res public datasets, it is built as aggregation of ehighway2050 regions
+    ehighway2050: 107_NS
+
+United Kingdom|North Sea|Subgrid 108:
+    definition: this 'virtual' region holds the offshore windpower in norh sea near to the centre-north of UK
+    country: United Kingdom
+    notes: This region was defined and used in the plan4res public datasets, it is built as aggregation of ehighway2050 regions
+    ehighway2050: 108_NS
+
+United Kingdom|North Sea|Subgrid 109:
+    definition: this 'virtual' region holds the offshore windpower in norh sea near to the north of UK
+    country: United Kingdom
+    notes: This region was defined and used in the plan4res public datasets, it is built as aggregation of ehighway2050 regions
+    ehighway2050: 109_NS
+
 # List of subregions in Norway
 # based on the regional electricity grid and key watersheds for hydropower generation
 Norway|Ostland:
