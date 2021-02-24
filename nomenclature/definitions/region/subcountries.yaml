@@ -608,6 +608,44 @@ Sweden|Subgrid 89:
   note: This region was defined and used in the ehighway2050 public datasets
   ehighway2050: 88_SE
 
+# ehighway clusters United Kingdom
+
+United Kingdom|Subgrid 90:
+  definition: UKH11 + UKH12 + UKH14 + UKH15 + UKH16 + UKH17 + UKH21 + UKH23 + UKH24 + UKH25 + UKH31 + UKH32 + UKH34 + UKH35 + UKH36 + UKH37 + UKI31 + UKI32 + UKI33 + UKI34 + UKI41 + UKI42 + UKI43 + UKI44 + UKI45 + UKI51 + UKI52 + UKI53 + UKI54 + UKI61 + UKI62 + UKI63 + UKI71 + UKI72 + UKI73 + UKI74 + UKI75 + UKJ11 + UKJ12 + UKJ13 + UKJ14 + UKJ21 + UKJ22 + UKJ25 + UKJ26 + UKJ27 + UKJ28 + UKJ31 + UKJ32 + UKJ34 + UKJ35 + UKJ36 + UKJ37 + UKJ41 + UKJ43 + UKJ44 + UKJ45 + UKJ46
+  country: United Kingdom
+  note: This region was defined and used in the ehighway2050 public datasets
+  ehighway2050: 90_UK
+
+United Kingdom|Subgrid 91:
+  definition: UKK11 + UKK12 + UKK13 + UKK14 + UKK15 + UKK23 + UKK24 + UKK25 + UKK30 + UKK41 + UKK42 + UKK43
+  country: United Kingdom
+  note: This region was defined and used in the ehighway2050 public datasets
+  ehighway2050: 91_UK
+
+United Kingdom|Subgrid 92:
+  definition: UKD33 + UKD34 + UKD35 + UKD36 + UKD37 + UKD41 + UKD42 + UKD44 + UKD45 + UKD46 + UKD47 + UKD61 + UKD62 + UKD63 + UKD71 + UKD72 + UKD73 + UKD74 + UKE13 + UKE31 + UKE32 + UKE41 + UKE42 + UKE44 + UKE45 + UKF11 + UKF12 + UKF13 + UKF14 + UKF15 + UKF16 + UKF21 + UKF22 + UKF24 + UKF25 + UKF30 + UKG11 + UKG12 + UKG13 + UKG21 + UKG22 + UKG23 + UKG24 + UKG31 + UKG32 + UKG33 + UKG36 + UKG37 + UKG38 + UKG39 + UKL11 + UKL12 + UKL13 + UKL14 + UKL15 + UKL16 + UKL17 + UKL18 + UKL21 + UKL22 + UKL23 + UKL24
+  country: United Kingdom
+  note: This region was defined and used in the ehighway2050 public datasets
+  ehighway2050: 92_UK
+
+United Kingdom|Subgrid 93:
+  definition: UKC11 + UKC12 + UKC13 + UKC14 + UKC21 + UKC22 + UKC23 + UKD11 + UKD12 + UKE11 + UKE12 + UKE21 + UKE22 + UKM73 + UKM75 + UKM78 + UKM91 + UKM92 + UKM93 + UKM94 + UKM95
+  country: United Kingdom
+  note: This region was defined and used in the ehighway2050 public datasets
+  ehighway2050: 93_UK
+
+United Kingdom|Subgrid 94:
+  definition: UKM50 + UKM61 + UKM62 + UKM63 + UKM64 + UKM65 + UKM66 + UKM71 + UKM72 + UKM76 + UKM77 + UKM81 + UKM82 + UKM83 + UKM84
+  country: United Kingdom
+  note: This region was defined and used in the ehighway2050 public datasets
+  ehighway2050: 94_UK
+
+United Kingdom|Subgrid 95:
+  definition: UKN06 + UKN07 + UKN08 + UKN09 + UKN0A + UKN0B + UKN0C + UKN0D + UKN0E + UKN0F + UKN0G
+  country: United Kingdom
+  note: This region was defined and used in the ehighway2050 public datasets
+  ehighway2050: 95_UK
+
 # Aggregation of ehighway clusters in larger subcountry regions
 
 # Aggregation of ehighway clusters for Italy
