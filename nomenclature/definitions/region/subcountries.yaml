@@ -472,6 +472,20 @@ North Macedonia|Subgrid 67:
   note: This region was defined and used in the ehighway2050 public datasets
   ehighway2050: 67_MK
 
+# ehighway clusters Greece
+
+Greece|Subgrid 68:
+  definition: EL511 + EL512 + EL513 + EL514 + EL515 + EL521 + EL522 + EL523 + EL524 + EL525 + EL526 + EL527 + EL531 + EL532 + EL533 + EL541 + EL542 + EL543 + EL611 + EL612 + EL622 + EL631
+  country: Greece
+  note: This region was defined and used in the ehighway2050 public datasets
+  ehighway2050: 68_GR
+
+Greece|Subgrid 69:
+  definition: EL301 + EL302 + EL303 + EL304 + EL305 + EL306 + EL307 + EL411 + EL412 + EL413 + EL421 + EL422 + EL431 + EL432 + EL433 + EL434 + EL621 + EL622 + EL623 + EL632 + EL633 + EL641 + EL642 + EL643 + EL644 + EL645 + EL651 + EL652 + EL653
+  country: Greece
+  note: This region was defined and used in the ehighway2050 public datasets
+  ehighway2050: 69_GR
+
 # Aggregation of ehighway clusters in larger subcountry regions
 
 # Aggregation of ehighway clusters for Italy
