@@ -522,6 +522,14 @@ Finland|Subgrid 75:
   note: This region was defined and used in the ehighway2050 public datasets
   ehighway2050: 75_FI
 
+# ehighway clusters Lithuania
+
+Lithuania|Subgrid 77:
+  definition: LT011 + LT021 + LT022 + LT023 + LT024 + LT025 + LT026 + LT027 + LT028 + LT029
+  country: Lithuania
+  note: This region was defined and used in the ehighway2050 public datasets
+  ehighway2050: 77_LT
+
 # Aggregation of ehighway clusters in larger subcountry regions
 
 # Aggregation of ehighway clusters for Italy
