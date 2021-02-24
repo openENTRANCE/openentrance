@@ -15,6 +15,87 @@
 # describing France, Germany and Italy. For the rest of europe, country or regional aggregation is used in plan4res
 # they are defined as an aggregation of a list of NUTS3 regions
 
+# ehighway clusters Spain
+Spain|Subgrid 01:
+  definition: ES111 + ES112 + ES113 + ES114
+  country: Spain
+  note: This region was defined and used in the ehighway2050 public datasets
+  ehighway2050: 01_ES
+
+Spain|Subgrid 02:
+  definition: ES120 + ES130 + ES413 + ES415 + ES419
+  country: Spain
+  note: This region was defined and used in the ehighway2050 public datasets
+  ehighway2050: 02_ES
+
+Spain|Subgrid 03:
+  definition: ES411 + ES412 + ES414 + ES416 + ES417 + ES418 + ES424
+  country: Spain
+  note: This region was defined and used in the ehighway2050 public datasets
+  ehighway2050: 03_ES
+
+Spain|Subgrid 04:
+  definition: ES211 +ES212 + ES213 + ES220 + ES230
+  country: Spain
+  note: This region was defined and used in the ehighway2050 public datasets
+  ehighway2050: 04_ES
+
+Spain|Subgrid 05:
+  definition: ES241 + ES242 + ES243
+  country: Spain
+  note: This region was defined and used in the ehighway2050 public datasets
+  ehighway2050: 05_ES
+
+Spain|Subgrid 06:
+  definition: ES511 + ES512 + ES513 + ES514
+  country: Spain
+  ehighway2050: 06_ES
+  note: This region was defined and used in the ehighway2050 public datasets
+
+Spain|Subgrid 07:
+  definition: ES300
+  country: Spain
+  ehighway2050: 07_ES
+  note: This region was defined and used in the ehighway2050 public datasets
+
+Spain|Subgrid 08:
+  definition: ES422 + ES425 + ES431 + ES432
+  country: Spain
+  ehighway2050: 08_ES
+  note: This region was defined and used in the ehighway2050 public datasets
+
+Spain|Subgrid 09:
+  definition: ES612 + ES615 + ES617 + ES618
+  country: Spain
+  ehighway2050: 09_ES
+  note: This region was defined and used in the ehighway2050 public datasets
+
+Spain|Subgrid 10:
+  definition: ES611 + ES613 + ES614 + ES616
+  country: Spain
+  ehighway2050: 10_ES
+  note: This region was defined and used in the ehighway2050 public datasets
+
+Spain|Subgrid 11:
+  definition: ES421 + ES423 + ES521 + ES522 + ES523 + ES620
+  country: Spain
+  ehighway2050: 11_ES
+  note: This region was defined and used in the ehighway2050 public datasets
+
+# ehighway clusters Portugal
+
+Portugal|Subgrid 12:
+  definition: PT111 + PT112 + PT119 + PT11A + PT11B + PT11C + PT11D + PT11E + PT16D + PT16E + PT16G + PT16H + PT16J
+  country: Portugal
+  ehighway2050: 12_PT
+  note: This region was defined and used in the ehighway2050 public datasets
+
+Portugal|Subgrid 13:
+  definition: PT150 + PT16B + PT16F + PT16I + PT170 + PT181 + PT184 + PT185 + PT186 + PT187
+  country: Portugal
+  ehighway2050: 13_PT
+  note: This region was defined and used in the ehighway2050 public datasets
+
 # ehighway clusters France
 
 France|Subgrid 14:
@@ -107,6 +188,30 @@ France|Subgrid 99:
   note: This region was defined and used in the ehighway2050 public datasets
   ehighway2050: 99_FR
 
+# ehighway clusters Belgium
+
+Belgium|Subgrid 28:
+  definition: BE100 + BE211 + BE212 + BE213 + BE223 + BE224 + BE225 + BE231 + BE232 + BE233 + BE234 + BE235 + BE236 + BE241 + BE251 + BE252 + BE253 + BE254 + BE255 + BE256 + BE257 + BE258 + BE310 + BE32A + BE32B + BE32C + BE32D + BE323 + BE328 + BE329 + BE331 + BE332 + BE334 + BE335 + BE336 + BE341 + BE342 + BE343 + BE344 + BE345 + BE351 + BE352 + BE353
+  country: Belgium
+  note: This region was defined and used in the ehighway2050 public datasets
+  ehighway2050: 28_BE
+
+# ehighway clusters Luxembourg
+
+Luxembourg|Subgrid 29:
+  definition: LU00
+  country: Luxembourg
+  note: This region was defined and used in the ehighway2050 public datasets
+  ehighway2050: 29_LU
+
+# ehighway clusters Netherlands
+
+Netherlands|Subgrid 30:
+  definition: NL111 + NL112 + NL113 + NL124 + NL125 + NL126 + NL131 + NL132 + NL133 + NL211 + NL212 + NL213 + NL221 + NL224 + NL225 + NL226 + NL230 + NL310 + NL321 + NL323 + NL324 + NL325 + NL327 + NL328 + NL329 + NL332 + NL333 + NL337 + NL33A + NL33B + NL33C + NL341 + NL342 + NL411 + NL412 + NL413 + NL414 + NL421 + NL422 + NL423
+  country: Netherlands
+  note: This region was defined and used in the ehighway2050 public datasets
+  ehighway2050: 30_NL
+
 # ehighway clusters Germany
 Germany|Subgrid 31:
   definition: DE501 + DE502 + DE600 + DE911 + DE912 + DE913 + DE914 + DE916 + DE917 + DE918 + DE91A + DE91B + DE91C + DE922 + DE923 + DE925 + DE926 + DE927 + DE928 + DE929 + DE931 + DE932 + DE933 + DE934 + DE935 + DE936 + DE937 + DE938 + DE939 + DE93A + DE93B + DE941 + DE942 + DE943 + DE944 + DE945 + DE946 + DE947 + DE948 + DE949 + DE94A + DE94B + DE94C + DE94D + DE94E + DE94F + DE94G + DE94H + DEF01 + DEF02 + DEF03 + DEF04 + DEF05 + DEF06 + DEF07 + DEF08 + DEF09 + DEF0A + DEF0B + DEF0C + DEF0D + DEF0E + DEF0F + DEF0F
@@ -150,6 +255,102 @@ Germany|Subgrid 37:
   note: This region was defined and used in the ehighway2050 public datasets
   ehighway2050: 37_DE
 
+# ehighway clusters Denmark
+
+Denmark|Subgrid 38:
+  definition: DK011 + DK012 + DK013 + DK014 + DK021 + DK022 + DK031 + DK032 + DK041 + DK042 + DK050
+  country: Denmark
+  note: This region was defined and used in the ehighway2050 public datasets
+  ehighway2050: 38_DK
+
+# ehighway clusters Czech Republic
+
+Czech Republic|Subgrid 39:
+  definition: CZ010 + CZ020 + CZ031 + CZ032 + CZ041 + CZ042 + CZ051 + CZ052
+  country: Czech Republic
+  note: This region was defined and used in the ehighway2050 public datasets
+  ehighway2050: 39_CZ
+
+Czech Republic|Subgrid 40:
+  definition: CZ053 + CZ063 + CZ064 + CZ071 + CZ072 + CZ080
+  country: Czech Republic
+  note: This region was defined and used in the ehighway2050 public datasets
+  ehighway2050: 40_CZ
+
+# ehighway clusters Poland
+
+Poland|Subgrid 41:
+  definition: PL711 + PL712 + PL713 + PL714 + PL715 + PL841 + PL842 + PL843 + PL911 + PL912 + PL913 + PL922 + PL923 + PL924 + PL925 + PL926
+  country: Poland
+  note: This region was defined and used in the ehighway2050 public datasets
+  ehighway2050: 41_PL
+
+Poland|Subgrid 42:
+  definition: PL721 + PL722 + PL811 + PL812 + PL814 + PL815 + PL821 + PL822 + PL823 + PL824 + PL921
+  country: Poland
+  note: This region was defined and used in the ehighway2050 public datasets
+  ehighway2050: 42_PL
+
+Poland|Subgrid 43:
+  definition: PL213 + PL214 + PL217 + PL218 + PL219 + PL21A + PL224 + PL225 + PL22A + PL22B + PL22C + PL227 + PL228 + PL229
+  country: Poland
+  note: This region was defined and used in the ehighway2050 public datasets
+  ehighway2050: 43_PL
+
+Poland|Subgrid 44:
+  definition: PL411 + PL414 + PL415 + PL416 + PL417 + PL418 + PL424 + PL426 + PL427 + PL428 + PL431 + PL432 + PL514 + PL515 + PL516 + PL517 + PL518
+  country: Poland
+  note: This region was defined and used in the ehighway2050 public datasets
+  ehighway2050: 44_PL
+
+Poland|Subgrid 45:
+  definition: PL613 + PL616 + PL617 + PL618 + PL619 + PL621 + PL622 + PL623 + PL633 + PL634 + PL636 + PL637 + PL638
+  country: Poland
+  note: This region was defined and used in the ehighway2050 public datasets
+  ehighway2050: 45_PL
+
+# ehighway clusters Slovakia
+
+Slovakia|Subgrid 46:
+  definition: SK010 + SK021 + SK022 + SK023 + SK031 + SK032 + SK041 + SK042
+  country: Slovakia
+  note: This region was defined and used in the ehighway2050 public datasets
+  ehighway2050: 46_SK
+
+# ehighway clusters Switzerland
+
+Switzerland|Subgrid 47:
+  definition: CH011 + CH013 + CH021 + CH022 + CH023 + CH024 + CH025 + CH031 + CH032 + CH033 + CH040 + CH051 + CH052 + CH053 + CH054 + CH057 + CH061 + CH063 + CH066
+  country: Switzerland
+  note: This region was defined and used in the ehighway2050 public datasets
+  ehighway2050: 47_CH
+
+Switzerland|Subgrid 48:
+  definition: CH012 + CH056 + CH062 + CH064 + CH065 + CH070
+  country: Switzerland
+  note: This region was defined and used in the ehighway2050 public datasets
+  ehighway2050: 48_CH
+
+# ehighway clusters Austria
+
+Austria|Subgrid 49:
+  definition: AT211 + AT212 + AT321 + AT322 + AT323 + AT331 + AT332 + AT333 + AT334 + AT335 + AT341 + AT342
+  country: Austria
+  note: This region was defined and used in the ehighway2050 public datasets
+  ehighway2050: 49_AT
+
+Austria|Subgrid 50:
+  definition: AT213 + AT221 + AT222 + AT223 + AT224 + AT225 + AT226 + AT311 + AT312 + AT313 + AT314 + AT315
+  country: Austria
+  note: This region was defined and used in the ehighway2050 public datasets
+  ehighway2050: 50_AT
+
+Austria|Subgrid 51:
+  definition: AT111 + AT112 + AT113 + AT121 + AT122 + AT123 + AT124 + AT125 + AT126 + AT127 + AT130
+  country: Austria
+  note: This region was defined and used in the ehighway2050 public datasets
+  ehighway2050: 51_AT
+
 # ehighway clusters Italy
 Italy|Subgrid 52:
   definition: ITC11 + ITC12 + ITC13 + ITC14 + ITC15 + ITC16 + ITC17 + ITC18 + ITC20 + ITC31 + ITC32 + ITC33 + ITC34 + ITC41 + ITC42 + ITC43 + ITC44 + ITC46 + ITC47 + ITC48 + ITC49 + ITC4A + ITC4B + ITC4C + ITC4D + ITH10 + ITH20 + ITH31 + ITH32 + ITH33 + ITH34 + ITH35 + ITH36 + ITH37 + ITH41 + ITH42 + ITH43 + ITH44 + ITH51 + ITH52 + ITH53 + ITH54 + ITH55 + ITH56 + ITH57 + ITH58 + ITH59
@@ -187,73 +388,82 @@ Italy|Subgrid 98:
   note: This region was defined and used in the ehighway2050 public datasets
   ehighway2050: 98_IT
 
-# ehighway clusters Spain
-Spain|Subgrid 01:
-  definition: ES111 + ES112 + ES113 + ES114
-  country: Spain
-  note: This region was defined and used in the ehighway2050 public datasets
-  ehighway2050: 01_ES
+# ehighway clusters Slovenia
 
-Spain|Subgrid 02:
-  definition: ES120 + ES130 + ES413 + ES415 + ES419
-  country: Spain
+Slovenia|Subgrid 57:
+  definition: SI031 + SI032 + SI033 + SI034 + SI035 + SI036 + SI037 + SI038 + SI041 + SI042 + SI043 + SI044
+  country: Slovenia
   note: This region was defined and used in the ehighway2050 public datasets
-  ehighway2050: 02_ES
+  ehighway2050: 57_SI
 
-Spain|Subgrid 03:
-  definition: ES411 + ES412 + ES414 + ES416 + ES417 + ES418 + ES424
-  country: Spain
-  note: This region was defined and used in the ehighway2050 public datasets
-  ehighway2050: 03_ES
+# ehighway clusters Hungary
 
-Spain|Subgrid 04:
-  definition: ES211 +ES212 + ES213 + ES220 + ES230
-  country: Spain
+Hungary|Subgrid 58:
+  definition: HU110 + HU120 + HU211 + HU212 + HU213 + HU221 + HU222 + HU223 + HU231 + HU232 + HU233 + HU311 + HU312 + HU313 + HU321 + HU322 + HU323 + HU331 + HU332 + HU333
+  country: Hungary
   note: This region was defined and used in the ehighway2050 public datasets
-  ehighway2050: 04_ES
+  ehighway2050: 58_HU
 
-Spain|Subgrid 05:
-  definition: ES241 + ES242 + ES243
-  country: Spain
-  note: This region was defined and used in the ehighway2050 public datasets
-  ehighway2050: 05_ES
+# ehighway clusters Romania
 
-Spain|Subgrid 06:
-  definition: ES511 + ES512 + ES513 + ES514
-  country: Spain
-  ehighway2050: 06_ES
+Romania|Subgrid 59:
+  definition: RO111 + RO112 + RO113 + RO114 + RO115 + RO116 + RO121 + RO122 + RO123 + RO124 + RO125 + RO126 + RO421 + RO422 + RO423 + RO424
+  country: Romania
   note: This region was defined and used in the ehighway2050 public datasets
+  ehighway2050: 59_RO
 
-Spain|Subgrid 07:
-  definition: ES300
-  country: Spain
-  ehighway2050: 07_ES
+Romania|Subgrid 60:
+  definition: RO311 + RO313 + RO314 + RO316 + RO317 + RO321 + RO322 + RO411 + RO412 + RO413 + RO414 + RO415
+  country: Romania
   note: This region was defined and used in the ehighway2050 public datasets
+  ehighway2050: 60_RO
 
-Spain|Subgrid 08:
-  definition: ES422 + ES425 + ES431 + ES432
-  country: Spain
-  ehighway2050: 08_ES
+Romania|Subgrid 61:
+  definition: RO211 + RO212 + RO213 + RO214 + RO215 + RO216 + RO221 + RO222 + RO223 + RO224 + RO225 + RO226 + RO312 + RO315
+  country: Romania
   note: This region was defined and used in the ehighway2050 public datasets
+  ehighway2050: 61_RO
 
-Spain|Subgrid 09:
-  definition: ES612 + ES615 + ES617 + ES618
-  country: Spain
-  ehighway2050: 09_ES
-  note: This region was defined and used in the ehighway2050 public datasets
+# ehighway clusters Croatia
 
-Spain|Subgrid 10:
-  definition: ES611 + ES613 + ES614 + ES616
-  country: Spain
-  ehighway2050: 10_ES
+Croatia|Subgrid 62:
+  definition: HR021 + HR022 + HR023 + HR024 + HR025 + HR026 + HR027 + HR028 + HR031 + HR032 + HR033 + HR034 + HR035 + HR036 + HR050 + HR061 + HR062 + HR063 + HR064 + HR065
+  country: Croatia
   note: This region was defined and used in the ehighway2050 public datasets
+  ehighway2050: 62_HR
 
-Spain|Subgrid 11:
-  definition: ES421 + ES423 + ES521 + ES522 + ES523 + ES620
-  country: Spain
-  ehighway2050: 11_ES
+# ehighway clusters Bosnia and Herzegovina
+
+Bosnia and Herzegovina|Subgrid 63:
+  definition:
+  country: Bosnia and Herzegovina
   note: This region was defined and used in the ehighway2050 public datasets
-  
+  ehighway2050: 63_HR
+
+# ehighway clusters Montenegro
+
+Montenegro|Subgrid 64:
+  definition: ME000
+  country: Montenegro
+  note: This region was defined and used in the ehighway2050 public datasets
+  ehighway2050: 64_ME
+
+# ehighway clusters Serbia
+
+Serbia|Subgrid 65:
+  definition: RS110 + RS121 + RS122 + RS123 + RS124 + RS125 + RS126 + RS127 + RS211 + RS212 + RS213 + RS214 + RS215 + RS216 + RS217 + RS218 + RS221 + RS222 + RS223 + RS224 + RS225 + RS226 + RS227 + RS228 + RS229
+  country: Serbia
+  note: This region was defined and used in the ehighway2050 public datasets
+  ehighway2050: 65_RS
+
+# ehighway clusters Bulgaria
+
+Bulgaria|Subgrid 66:
+  definition: BG311 + BG312 + BG313 + BG314 + BG315 + BG321 + BG322 + BG323 + BG324 + BG325 + BG331 + BG332 + BG333 + BG334 + BG341 + BG342 + BG343 + BG344 + BG421 + BG422 + BG423 + BG424 + BG425 + BG411 + BG412 + BG413 + BG414 + BG415
+  country: Bulgaria
+  note: This region was defined and used in the ehighway2050 public datasets
+  ehighway2050: 66_BG
+
 # Aggregation of ehighway clusters in larger subcountry regions
 
 # Aggregation of ehighway clusters for Italy
