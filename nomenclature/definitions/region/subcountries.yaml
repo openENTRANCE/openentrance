@@ -726,70 +726,70 @@ Belgium|North Sea:
     plan4res: NSBE
 
 Germany|North Sea:
-    definition: This 'virtual' region holds the offshore windpower of germany in norh sea
+    definition: This 'virtual' region represents the offshore windpower of germany in the Norh Sea
     country: Germany
     notes: This region was defined and used in the plan4res public datasets, it is built as aggregation of ehighway2050 regions
     ehighway2050: 112_NS
     plan4res: NSDE
 
 The Netherlands|North Sea:
-    definition: This 'virtual' region holds the offshore windpower of the netherlands in norh sea
+    definition: This 'virtual' region represents the offshore windpower of the netherlands in Norh Sea
     country: The Netherlands
     notes: This region was defined and used in the plan4res public datasets, it is built as aggregation of ehighway2050 regions
     ehighway2050: 111_NS
     plan4res: NSNL
 
 United Kingdom|North Sea:
-    definition: This 'virtual' region holds the offshore windpower of the UK in norh sea
+    definition: This 'virtual' region represents the offshore windpower of the UK in Norh Sea
     country: United Kingdom
     notes: This region was defined and used in the plan4res public datasets, it is built as aggregation of ehighway2050 regions
     ehighway2050: 106_NS+107_NS+108_NS+109_NS
     plan4res: NSUK
 
 United Kingdom|North Sea|Subgrid 106:
-    definition: This 'virtual' region holds the offshore windpower in norh sea near to the south of UK
+    definition: This 'virtual' region represents the offshore windpower in the Norh Sea near to the south of UK
     country: United Kingdom
     notes: This region was defined and used in the ehighway2050 public datasets
     ehighway2050: 106_NS
 
 United Kingdom|North Sea|Subgrid 107:
-    definition: This 'virtual' region holds the offshore windpower in norh sea near to the centre-south of UK
+    definition: This 'virtual' region represents the offshore windpower in the Norh Sea near to the centre-south of UK
     country: United Kingdom
     notes: This region was defined and used in the ehighway2050 public datasets
     ehighway2050: 107_NS
 
 United Kingdom|North Sea|Subgrid 108:
-    definition: This 'virtual' region holds the offshore windpower in norh sea near to the centre-north of UK
+    definition: This 'virtual' region represents the offshore windpower in the Norh Sea near to the centre-north of UK
     country: United Kingdom
     notes: This region was defined and used in the ehighway2050 public datasets
     ehighway2050: 108_NS
 
 United Kingdom|North Sea|Subgrid 109:
-    definition: This 'virtual' region holds the offshore windpower in norh sea near to the north of UK
+    definition: This 'virtual' region represents the offshore windpower in the Norh Sea near to the north of UK
     country: United Kingdom
     notes: This region was defined and used in the ehighway2050 public datasets
     ehighway2050: 109_NS
 
 Denmark|North Sea|Subgrid 113:
-    definition: This 'virtual' region holds the offshore windpower in norh sea near to Denmark
+    definition: This 'virtual' region represents the offshore windpower in the Norh Sea near to Denmark
     country: Denmark
     notes: This region was defined and used in the ehighway2050 public datasets
     ehighway2050: 113_NS
 
 Denmark|North Sea|Subgrid 114:
-    definition: This 'virtual' region holds the offshore windpower in norh sea near to Denmark
+    definition: This 'virtual' region represents the offshore windpower in the Norh Sea near to Denmark
     country: Denmark
     notes: This region was defined and used in the ehighway2050 public datasets
     ehighway2050: 114_NS
 
 Norway|North Sea|Subgrid 115:
-    definition: This 'virtual' region holds the offshore windpower in norh sea near to Norway
+    definition: This 'virtual' region represents the offshore windpower in the Norh Sea near to Norway
     country: Norway
     notes: This region was defined and used in the ehighway2050 public datasets
     ehighway2050: 115_NS
 
 Sweden|North Sea|Subgrid 116:
-    definition: This 'virtual' region holds the offshore windpower in norh sea near to Sweden
+    definition: This 'virtual' region represents the offshore windpower in the Norh Sea near to Sweden
     country: Sweden
     notes: This region was defined and used in the ehighway2050 public datasets
     ehighway2050: 116_NS
