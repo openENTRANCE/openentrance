@@ -726,7 +726,7 @@ Belgium|North Sea:
     plan4res: NSBE
 
 Germany|North Sea:
-    definition: This 'virtual' region represents the offshore windpower of germany in the Norh Sea
+    definition: This 'virtual' region represents the offshore windpower of Germany in the North Sea
     country: Germany
     notes: This region was defined and used in the plan4res public datasets, it is built as aggregation of ehighway2050 regions
     ehighway2050: 112_NS
