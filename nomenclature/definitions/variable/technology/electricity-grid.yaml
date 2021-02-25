@@ -1,25 +1,82 @@
 # List of variables related to the electricity grid
+# Variables related to electricity demand
+Network|Electricity|Value of Lost Load:
+   description: Cost of demand-not-served. Cost of load curtailment. Value of Lost Load (VoLL)
+   unit: €/MWh
 
-Network|Electricity|Demand|Reserve|Frequency Containment:
-   description: demand in frequency containment reserve (FCR)            
+Network|Electricity|Demand not served:
+   description: Demand-not-served.
+   unit: MWh
+
+Network|Electricity|Reserve|Requirement|Frequency Containment:
+   description: Demand in frequency containment reserve (FCR)
    unit: MW
-   
-Network|Electricity|Demand|Reserve|Automatic Frequency Restoration:
-   description: demand in automatic frequency restoration reserve (AFRR)             
+
+Network|Electricity|Reserve|Requirement|Automatic Frequency Restoration:
+   description: Demand in automatic frequency restoration reserve (AFRR)
    unit: MW
-   
-Network|Electricity|Demand|Inertia:
-   description: demand in inertia            
+
+Network|Electricity|Requirement|Inertia:
+   description: Demand in inertia
    unit: second
-   
-Maximum Flow|Electricity|Grid:
-   description: maximum flow of an interconnection between 2 regions
+
+# Variables related to transmission lines
+Network|Electricity|Active Power Flow:
+   description: Active power flow through a line
    unit: MW
-   
-Minimum Flow|Electricity|Grid:
-   description: minimum flow of an interconnection between 2 regions
-   unit: MW
-   
-Impedance|Electricity|Grid:
-   description: impedance of an interconnection between 2 regions
+
+Network|Electricity|Impedance:
+   description: Impedance of an interconnection between 2 regions
    unit: S
+
+Network|Electricity|Investment:
+   description: Overnight investment (capital) cost in transmission lines of the power network
+   unit: [million EUR/yr, billion US$2010/yr]
+
+Network|Electricity|Fixed Charge Rate:
+   description: Fixed charge rate to annualize the overnight investment cost. The Fixed Charge Rate (FCR) is the percentage of the total investment cost that is required over the project life per year to cover the minimal annual revenue requirements.
+   unit:
+
+Network|Electricity|Line Losses:
+   description: Total ohmic losses of a transmission line.
+   unit: MW
+
+Network|Electricity|Loss Factor:
+   description: Transmission losses equal to the line flow times this factor
+   unit:
+
+Reserve|Electricity|Requirement|Manual Frequency Restoration:
+   description: Manual frequency restoration reserve (mFRR) is used to relieve the automatic frequency restoration reserve during prolonged imbalances.
+   unit: MW
+
+Network|Electricity|Maximum Flow:
+   description: Maximum flow of electricity on a transmission line
+   unit: MW
+
+Network|Electricity|Minimum Flow:
+   description: Minimum flow of electricity on a transmission line
+   unit: MW
+
+Network|Electricity|Reserve|Requirement|Operating Reserve|Down:
+   description: Operating reserve down of the system for each load level. It is the sum of aFRR (or secondary reserve), FRR & RR (FRR+RR = tertiary reserve).
+   unit: MW
+
+Network|Electricity|Reserve|Requirement|Operating Reserve|Up:
+   description: Operating reserve up of the system for each load level. It is the sum of aFRR (or secondary reserve), FRR & RR (FRR+RR = tertiary reserve).
+   unit: MW
+
+Network|Electricity|Reactance:
+   description: Reactance. Lines need to have a reactance different from 0 in the case of a DC cable or a transportation modeling for an AC cable
+   unit:
+
+Reserve|Electricity|Replacement:
+   description: Replacement reserve (RR) means the active power reserves available to restore or support the required level of frequency restoration reserve (FRR) to be prepared for additional system imbalances, including generation reserves.
+   unit: MW
+
+Network|Electricity|Security Factor:
+   description: Security factor to consider approximately N-1 contingencies. NTC = TTC x SecurityFactor
+   unit:
+
+Network|Electricity|Voltage Angle:
+   description: Voltage angle at a node
+   unit: Rad
