@@ -733,7 +733,7 @@ Germany|North Sea:
     plan4res: NSDE
 
 The Netherlands|North Sea:
-    definition: This 'virtual' region represents the offshore windpower of the netherlands in Norh Sea
+    definition: This 'virtual' region represents the offshore windpower of The Netherlands in Norh Sea
     country: The Netherlands
     notes: This region was defined and used in the plan4res public datasets, it is built as aggregation of ehighway2050 regions
     ehighway2050: 111_NS
