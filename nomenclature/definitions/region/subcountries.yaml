@@ -719,7 +719,7 @@ Italy|Subgrid south:
 
 # ehighway north sea clusters
 Belgium|North Sea:
-    definition: This 'virtual' region holds the offshore windpower of belgium in norh sea
+    definition: This 'virtual' region represents offshore wind generation of Belgium in the North Sea
     country: Belgium
     notes: This region was defined and used in the plan4res public datasets, it is built as aggregation of ehighway2050 regions
     ehighway2050: 110_NS
