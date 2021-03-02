@@ -181,19 +181,43 @@ Initial Storage Level|Electricity|Energy Storage System:
    unit: GWh
 
 Maximum Charge|Electricity|Energy Storage System:
-   description: Maximum charge when storing energy the energy storage system unit.
-   unit: MW
+   description: Maximum charge when storing energy in the energy storage system unit.
+   unit: GW
 
 Maximum Discharge|Electricity|Energy Storage System:
    description: Maximum discharge when consuming energy from the energy storage system unit.
-   unit: MW
+   unit: GW
+
+Maximum Charge|Electricity|Energy Storage System|Lithium-Ion:
+   description: Maximum charge when storing energy in the Lithium-Ion Batteries systems.
+   unit: GW
+
+Maximum Discharge|Electricity|Energy Storage System|Lithium-Ion:
+   description: Maximum discharge when consuming energy from the Lithium-Ion Batteries systems.
+   unit: GW
+   
+Maximum Charge|Electricity|Energy Storage System|Redox Flow:
+   description: Maximum charge when storing energy in the Redox Flow Batteries systems.
+   unit: GW
+
+Maximum Discharge|Electricity|Energy Storage System|Redox Flow:
+   description: Maximum discharge when consuming energy from the Redox Flow Batteries systems.
+   unit: GW
+   
+Maximum Charge|Electricity|Energy Storage System|Compressed Air:
+   description: Maximum charge when storing energy in the Compressed air energy storages systems.
+   unit: GW
+
+Maximum Discharge|Electricity|Energy Storage System|Compressed Air:
+   description: Maximum discharge when consuming energy from the Compressed air energy storages systems.
+   unit: GW
 
 Maximum Storage|Electricity|Energy Storage System:
-   description: Maximum energy that can be stored by the energy storage systems.
+   description: Maximum energy that can be stored by the Redox Flow Batteries systems.
    unit: GWh
    
 Maximum Storage|Electricity|Energy Storage System|Lithium-Ion:
-   description: Maximum energy that can be stored by the Lithium Iron Batteries systems.
+   description: Maximum energy that can be stored by the Lithium-Ion Batteries systems.
    unit: GWh
 
 Maximum Storage|Electricity|Energy Storage System|Redox Flow:
@@ -203,6 +227,18 @@ Maximum Storage|Electricity|Energy Storage System|Redox Flow:
 Maximum Storage|Electricity|Energy Storage System|Compressed Air:
    description: Maximum energy that can be stored by the Compressed air energy storages systems.
    unit: GWh   
+   
+Roundtrip Efficiency|Electricity|Energy Storage System|Lithium-Ion:
+   description: Roundtrip efficiency for the Lithium-Ion Batteries systems.
+   unit: '%'
+
+Roundtrip Efficiency|Electricity|Energy Storage System|Redox Flow:
+   description: Roundtrip efficiency for the Redox Flow Batteries systems.
+   unit: '%'
+
+Roundtrip Efficiency|Electricity|Energy Storage System|Compressed Air:
+   description: Roundtrip efficiency for the Compressed air energy storages systems.
+   unit: '%'   
 
 Minimum Storage|Electricity|Energy Storage System:
    description: Minimum energy that can be stored by the energy storage system unit.
