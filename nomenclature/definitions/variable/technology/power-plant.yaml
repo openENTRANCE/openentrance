@@ -165,7 +165,7 @@ Turbine Efficiency|Electricity|Hydro|Pumped Storage:
    description: Efficiency of turbining for a pumped-storage hydro unit
    unit: '%'
 
-# description of simple hydrosystems -  run of river
+# description of simple hydro systems -  run of river
 # this describes systems composed of one run of river plant (without storage)
 Load Factor|Electricity|Hydro|Run of River:
   description: Load factors for run-of-river power plants
