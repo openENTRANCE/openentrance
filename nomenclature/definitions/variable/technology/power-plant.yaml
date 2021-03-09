@@ -213,7 +213,7 @@ Maximum Discharge|Electricity|Energy Storage System|Compressed Air:
    unit: GW
 
 Maximum Storage|Electricity|Energy Storage System:
-   description: Maximum energy that can be stored by the Redox Flow Batteries systems.
+   description: Maximum energy that can be stored in the energy storage system unit.
    unit: GWh
    
 Maximum Storage|Electricity|Energy Storage System|Lithium-Ion:

@@ -502,7 +502,7 @@ Final Energy|Electricity|Other (excl. Heat, Cooling, Transport):
    energy use: all excl.heating, cooling, transportation               
    unit: GWh/yr
    
-Final Energy|Electricity|Other (excl. Heat, Transport):
+Final Energy|Electricity|Total (excl. Heat and Transport):
    description: Final electricity consumption for non heating, non e-transport uses, 
    energy source: electricity
    sector: all
