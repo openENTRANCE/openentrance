@@ -119,11 +119,11 @@ Maximum Ramping|Down|Electricity|<Fuel>:
 # (with potential pumping capacity) that are used for seasonal storage
 Maximum Storage|Electricity|Hydro|Reservoir:
   description: Maximum volume of a reservoir expressed in energy
-  unit: MWh
+  unit: [MWh, GWh]
 
 Minimum Storage|Electricity|Hydro|Reservoir:
   description: Minimum volume of a reservoir expressed in energy
-  unit: MWh
+  unit: [MWh, GWh]
 
 Pumping Efficiency|Electricity|Hydro|Reservoir:
   description: Efficiency of pumping for a hydro reservoir power plant
@@ -135,25 +135,37 @@ Turbine Efficiency|Electricity|Hydro|Reservoir:
 
 Inflows|Electricity|Hydro|Reservoir:
   description: Inflows into a reservoir expressed in energy
-  unit: MWh
+  unit: [MWh, GWh]
+
+Initial Storage Level|Electricity|Hydro|Pumped Storage:
+   description: This is the amount of stored energy in the storage of a pumped-storage hydro unit at the beginning of the first hour into a time series with hourly steps.
+   unit: [MWh, GWh]
+
+Maximum Charge|Electricity|Hydro|Pumped Storage:
+   description: Maximum charge when storing energy in the pumped-storage hydro unit.
+   unit: [MW, GW]
+
+Maximum Discharge|Electricity|Hydro|Pumped Storage:
+   description: Maximum discharge when consuming energy from the pumped-storage hydro unit.
+   unit: [MW, GW]
 
 Maximum Storage|Electricity|Hydro|Pumped Storage:
-   description: Maximum volume of a Pumped Storage expressed in energy
-   unit: MWh
+   description: Maximum volume of a pumped-storage hydro unit expressed in energy
+   unit: [MWh, GWh]
 
 Minimum Storage|Electricity|Hydro|Pumped Storage:
-   description: Minimum volume of a Pumped Storage expressed in energy
-   unit: MWh
+   description: Minimum volume of a pumped-storage hydro unit expressed in energy
+   unit: [MWh, GWh]
 
 Pumping Efficiency|Electricity|Hydro|Pumped Storage:
-   description: efficiency of pumping for a Pumped Storage
+   description: Efficiency of pumping for a pumped-storage hydro unit
    unit: '%'
    
 Turbine Efficiency|Electricity|Hydro|Pumped Storage:
-   description: efficiency of turbining for a Pumped Storage
+   description: Efficiency of turbining for a pumped-storage hydro unit
    unit: '%'
 
-# description of simple hydrosystems -  run of river
+# description of simple hydro systems -  run of river
 # this describes systems composed of one run of river plant (without storage)
 Load Factor|Electricity|Hydro|Run of River:
   description: Load factors for run-of-river power plants
@@ -174,19 +186,19 @@ Load Factor|Electricity|Wind|Onshore:
 # description of Energy Storage Systems
 Maximum Energy Charge|Electricity|Energy Storage System:
    description: This is the upper bound that energy storage system could charge energy at time "t".
-   unit: GWh
+   unit: [MWh, GWh]
 
 Initial Storage Level|Electricity|Energy Storage System:
    description: Initial energy stored in the energy storage system unit at first load level. (ESS that includes hydro, battery, etc.)
-   unit: GWh
+   unit: [MWh, GWh]
 
 Maximum Charge|Electricity|Energy Storage System:
    description: Maximum charge when storing energy in the energy storage system unit.
-   unit: GW
+   unit: [MW, GW]
 
 Maximum Discharge|Electricity|Energy Storage System:
    description: Maximum discharge when consuming energy from the energy storage system unit.
-   unit: GW
+   unit: [MW, GW]
 
 Maximum Charge|Electricity|Energy Storage System|Lithium-Ion:
    description: Maximum charge when storing energy in the Lithium-Ion Batteries systems.
@@ -214,19 +226,19 @@ Maximum Discharge|Electricity|Energy Storage System|Compressed Air:
 
 Maximum Storage|Electricity|Energy Storage System:
    description: Maximum energy that can be stored in the energy storage system unit.
-   unit: GWh
+   unit: [MWh, GWh]
    
 Maximum Storage|Electricity|Energy Storage System|Lithium-Ion:
    description: Maximum energy that can be stored by the Lithium-Ion Batteries systems.
-   unit: GWh
+   unit: [MWh, GWh]
 
 Maximum Storage|Electricity|Energy Storage System|Redox Flow:
    description: Maximum energy that can be stored by the Redox Flow Batteries systems.
-   unit: GWh
+   unit: [MWh, GWh]
 
 Maximum Storage|Electricity|Energy Storage System|Compressed Air:
    description: Maximum energy that can be stored by the Compressed air energy storages systems.
-   unit: GWh   
+   unit: [MWh, GWh]
    
 Roundtrip Efficiency|Electricity|Energy Storage System|Lithium-Ion:
    description: Roundtrip efficiency for the Lithium-Ion Batteries systems.
@@ -242,16 +254,16 @@ Roundtrip Efficiency|Electricity|Energy Storage System|Compressed Air:
 
 Minimum Storage|Electricity|Energy Storage System:
    description: Minimum energy that can be stored by the energy storage system unit.
-   unit: GWh
+   unit: [MWh, GWh]
 
 Spillage|Electricity|Energy Storage System:
    description: Energy spillage that could not be stored by an energy storage system (ESS). Several energy models include spillage variables related to renewable energy production; however, another way is to include a spillage variable to the ESS unit since it is the last sink of the power network.
-   unit: GWh
+   unit: [MWh, GWh]
 
 Storage Type|Electricity|Energy Storage System:
    description: Storage type (daily, weekly, monthly, etc.) for energy storage system (ESS) that includes hydro, battery, etc.
-   unit: Daily/Weekly/Monthly
+   unit: [Daily, Weekly, Monthly]
 
 Stored Energy Inventory|Electricity|Energy Storage System:
    description: State of the stored energy by ESS
-   unit:  GWh
+   unit: [MWh, GWh]

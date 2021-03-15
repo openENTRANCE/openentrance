@@ -206,9 +206,9 @@ Luxembourg|Subgrid 29:
 
 # ehighway clusters Netherlands
 
-Netherlands|Subgrid 30:
+The Netherlands|Subgrid 30:
   definition: NL111 + NL112 + NL113 + NL124 + NL125 + NL126 + NL131 + NL132 + NL133 + NL211 + NL212 + NL213 + NL221 + NL224 + NL225 + NL226 + NL230 + NL310 + NL321 + NL323 + NL324 + NL325 + NL327 + NL328 + NL329 + NL332 + NL333 + NL337 + NL33A + NL33B + NL33C + NL341 + NL342 + NL411 + NL412 + NL413 + NL414 + NL421 + NL422 + NL423
-  country: Netherlands
+  country: The Netherlands
   note: This region was defined and used in the ehighway2050 public datasets
   ehighway2050: 30_NL
 
