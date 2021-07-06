@@ -49,7 +49,7 @@ functions and dictionaries. [More information](nomenclature)
 ## Data format structure
 
 The openENTRANCE project uses a **common data format** based on a template
-developed by the [Integrated Assessment Modeling Consortium (IAMC)](http://www.globalchange.umd.edu/iamc/)
+developed by the [Integrated Assessment Modeling Consortium (IAMC)](https://www.iamconsortium.org/)
 and already in use in many model comparison projects at the global and national
 level. While the IAMC comprises (mostly) integrated-assessment teams, the data
 format is generic and can be used for a wide range of applications, including
