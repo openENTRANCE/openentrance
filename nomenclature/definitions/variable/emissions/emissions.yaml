@@ -695,6 +695,14 @@ Emissions|PFC|CF4:
    description: Total emissions of CF4
    unit: kt CF4/yr
 
+Emissions|PM2.5:
+   description: Total emissions of particulate matter 2.5 (PM2.5)
+   unit: Mt PM2.5
+
+Emissions|PM2.5|Energy|Supply|Electricity:
+   description: Particulate matter 2.5 emissions originating from        electriciy generation.
+   unit: Mt PM2.5
+
 Emissions|SF6:
    description: Total emissions of sulfur hexafluoride (SF6)
    unit: kt SF6/yr
