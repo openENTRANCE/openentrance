@@ -419,6 +419,43 @@ Emissions|CO2|Industrial Processes:
 Emissions|CO2|Other:
    description: CO2 emissions from other sources
    unit: Mt CO2/yr
+   
+
+Emissions|CO2|Energy:
+   description: CO2 emissions from energy use on supply and demand side (IPCC
+                category 1A, 1B)
+   unit: Mt CO2/yr
+   
+
+Emissions|CO2|Heat|Residential and Commercial:
+   description: CO2 emissions from energy use from supply technologies for residential
+                and commercial heating
+   unit: Mt CO2/yr
+   
+Emissions|CO2|Heat|Residential and Commercial|<Fuel>:
+   description: CO2 emissions from energy use from <this fuel> for residential
+                and commercial heating
+   unit: Mt CO2/yr
+
+Emissions|CO2|Heat|Industrial:
+   description: CO2 emissions from energy use from supply technologies for industrial
+                heating
+   unit: Mt CO2/yr
+   
+Emissions|CO2|Heat|Industrial|<Fuel>:
+   description: CO2 emissions from energy use from <this fuel> for industrial
+                heating
+   unit: Mt CO2/yr
+
+Emissions|CO2|Electricity:
+   description: CO2 emissions from energy use from supply technologies for power
+                generation
+   unit: Mt CO2/yr
+
+Emissions|CO2|Electricity|<Fuel>:
+   description: CO2 emissions from energy use from <this fuel> for power
+                generation
+   unit: Mt CO2/yr
 
 Emissions|CO:
    description: Total carbon monoxide (CO) emissions
