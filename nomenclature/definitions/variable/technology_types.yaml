@@ -1,0 +1,5 @@
+# This list of technologies will replace any occurence of `<Specification>``
+# in a variable-definition yaml file
+
+<Specification>:
+  
