@@ -2,4 +2,38 @@
 # in a variable-definition yaml file
 
 <Specification>:
-  
+  OCGT: Open-Cycle Gas Turbine
+
+  CCGT: Combined Cycle Gas Turbine
+
+  CHP: Combined Heat and Power plant
+
+  Reservoir: Hydro power reservoir
+
+  Pumped Storage: Hydro power pumped storage
+
+  Run of River: Hydro power Run of River
+
+  PV: Solar Photovoltaics
+
+  CSP: Concentrating Solar Power
+
+  Onshore: Wind power onshore
+
+  Offshore: Wind power offshore
+
+  Wave: Power generation from waves
+
+  Tidal: Power generation using tidal currents
+
+  Generation II: Nuclear power plant of the second generation
+
+  Generation III: Nuclear power plant of the third generation
+
+  Generation IV: Nuclear power plant of the fourth generation
+
+  SMR reactor: Small and medium sized reactors, with electrical power up to 700MW, or generally less than 300MW per reactor module.
+
+  Flash power plants: Geothermal flash steam power plants
+
+  Organic Ranking Cycle: Geothermal power plants applying an Organic Ranking Cylce (ORC)
