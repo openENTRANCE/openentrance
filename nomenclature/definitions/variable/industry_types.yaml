@@ -63,3 +63,6 @@
 
   iELCT:
     description: 'Production of electricity by Geothermal'
+
+  iH2:
+    description: 'Hydrogen'
