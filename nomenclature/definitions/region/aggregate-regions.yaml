@@ -22,6 +22,10 @@ Pan-Europe:
    
 # add more defintion of `Europe (*)` above this line
 
+EU27 & UK:
+   definition: 'EU27 + UK'
+   notes: Formerly known as EU28.
+
 EFTA:
    definition: 'IS + LI + NO + CH'
    notes: 'European Free Trade Association'
