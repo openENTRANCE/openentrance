@@ -1,0 +1,487 @@
+- NUTS1:
+  - BE1:
+      country: Belgium
+      name: Région de Bruxelles-Capitale/Brussels Hoofdstedelijk Gewest
+  - BE2:
+      country: Belgium
+      name: Vlaams Gewest
+  - BE3:
+      country: Belgium
+      name: Région wallonne
+  - BEZ:
+      country: Belgium
+      name: Extra-Regio NUTS 1
+  - BG3:
+      country: Bulgaria
+      name: Северна и югоизточна България
+  - BG4:
+      country: Bulgaria
+      name: Югозападна и южна централна България
+  - BGZ:
+      country: Bulgaria
+      name: Extra-Regio NUTS 1
+  - CZ0:
+      country: Czech Republic
+      name: Česko
+  - CZZ:
+      country: Czech Republic
+      name: Extra-Regio NUTS 1
+  - DK0:
+      country: Denmark
+      name: Danmark
+  - DKZ:
+      country: Denmark
+      name: Extra-Regio NUTS 1
+  - DE1:
+      country: Germany
+      name: Baden-Württemberg
+  - DE2:
+      country: Germany
+      name: Bayern
+  - DE3:
+      country: Germany
+      name: Berlin
+  - DE4:
+      country: Germany
+      name: Brandenburg
+  - DE5:
+      country: Germany
+      name: Bremen
+  - DE6:
+      country: Germany
+      name: Hamburg
+  - DE7:
+      country: Germany
+      name: Hessen
+  - DE8:
+      country: Germany
+      name: Mecklenburg-Vorpommern
+  - DE9:
+      country: Germany
+      name: Niedersachsen
+  - DEA:
+      country: Germany
+      name: Nordrhein-Westfalen
+  - DEB:
+      country: Germany
+      name: Rheinland-Pfalz
+  - DEC:
+      country: Germany
+      name: Saarland
+  - DED:
+      country: Germany
+      name: Sachsen
+  - DEE:
+      country: Germany
+      name: Sachsen-Anhalt
+  - DEF:
+      country: Germany
+      name: Schleswig-Holstein
+  - DEG:
+      country: Germany
+      name: Thüringen
+  - DEZ:
+      country: Germany
+      name: Extra-Regio NUTS 1
+  - EE0:
+      country: Estonia
+      name: Eesti
+  - EEZ:
+      country: Estonia
+      name: Extra-Regio NUTS 1
+  - IE0:
+      country: Ireland
+      name: Ireland
+  - IEZ:
+      country: Ireland
+      name: Extra-Regio NUTS 1
+  - EL3:
+      country: Greece
+      name: Αττική
+  - EL4:
+      country: Greece
+      name: Νησιά Αιγαίου, Κρήτη
+  - EL5:
+      country: Greece
+      name: Βόρεια Ελλάδα
+  - EL6:
+      country: Greece
+      name: Κεντρική Ελλάδα
+  - ELZ:
+      country: Greece
+      name: Extra-Regio NUTS 1
+  - ES1:
+      country: Spain
+      name: Noroeste
+  - ES2:
+      country: Spain
+      name: Noreste
+  - ES3:
+      country: Spain
+      name: Comunidad de Madrid
+  - ES4:
+      country: Spain
+      name: Centro (ES)
+  - ES5:
+      country: Spain
+      name: Este
+  - ES6:
+      country: Spain
+      name: Sur
+  - ES7:
+      country: Spain
+      name: Canarias
+  - ESZ:
+      country: Spain
+      name: Extra-Regio NUTS 1
+  - FR1:
+      country: France
+      name: Ile-de-France
+  - FRB:
+      country: France
+      name: Centre — Val de Loire
+  - FRC:
+      country: France
+      name: Bourgogne-Franche-Comté
+  - FRD:
+      country: France
+      name: Normandie
+  - FRE:
+      country: France
+      name: Hauts-de-France
+  - FRF:
+      country: France
+      name: Grand Est
+  - FRG:
+      country: France
+      name: Pays de la Loire
+  - FRH:
+      country: France
+      name: Bretagne
+  - FRI:
+      country: France
+      name: Nouvelle-Aquitaine
+  - FRJ:
+      country: France
+      name: Occitanie
+  - FRK:
+      country: France
+      name: Auvergne-Rhône-Alpes
+  - FRL:
+      country: France
+      name: Provence-Alpes-Côte d’Azur
+  - FRM:
+      country: France
+      name: Corse
+  - FRY:
+      country: France
+      name: RUP FR — Régions Ultrapériphériques Françaises
+  - FRZ:
+      country: France
+      name: Extra-Regio NUTS 1
+  - HR0:
+      country: Croatia
+      name: Hrvatska
+  - HRZ:
+      country: Croatia
+      name: Extra-Regio NUTS 1
+  - ITC:
+      country: Italy
+      name: Nord-Ovest
+  - ITF:
+      country: Italy
+      name: Sud
+  - ITG:
+      country: Italy
+      name: Isole
+  - ITH:
+      country: Italy
+      name: Nord-Est
+  - ITI:
+      country: Italy
+      name: Centro (IT)
+  - ITZ:
+      country: Italy
+      name: Extra-Regio NUTS 1
+  - CY0:
+      country: Cyprus
+      name: Κύπρος
+  - CYZ:
+      country: Cyprus
+      name: Extra-Regio NUTS 1
+  - LV0:
+      country: Latvia
+      name: Latvija
+  - LVZ:
+      country: Latvia
+      name: Extra-Regio NUTS 1
+  - LT0:
+      country: Lithuania
+      name: Lietuva
+  - LTZ:
+      country: Lithuania
+      name: Extra-Regio NUTS 1
+  - LU0:
+      country: Luxembourg
+      name: Luxembourg
+  - LUZ:
+      country: Luxembourg
+      name: Extra-Regio NUTS 1
+  - HU1:
+      country: Hungary
+      name: Közép-Magyarország
+  - HU2:
+      country: Hungary
+      name: Dunántúl
+  - HU3:
+      country: Hungary
+      name: Alföld és Észak
+  - HUZ:
+      country: Hungary
+      name: Extra-Regio NUTS 1
+  - MT0:
+      country: Malta
+      name: Malta
+  - MTZ:
+      country: Malta
+      name: Extra-Regio NUTS 1
+  - NL1:
+      country: The Netherlands
+      name: Noord-Nederland
+  - NL2:
+      country: The Netherlands
+      name: Oost-Nederland
+  - NL3:
+      country: The Netherlands
+      name: West-Nederland
+  - NL4:
+      country: The Netherlands
+      name: Zuid-Nederland
+  - NLZ:
+      country: The Netherlands
+      name: Extra-Regio NUTS 1
+  - AT1:
+      country: Austria
+      name: Ostösterreich
+  - AT2:
+      country: Austria
+      name: Südösterreich
+  - AT3:
+      country: Austria
+      name: Westösterreich
+  - ATZ:
+      country: Austria
+      name: Extra-Regio NUTS 1
+  - PL2:
+      country: Poland
+      name: Makroregion południowy
+  - PL4:
+      country: Poland
+      name: Makroregion północno-zachodni
+  - PL5:
+      country: Poland
+      name: Makroregion południowo-zachodni
+  - PL6:
+      country: Poland
+      name: Makroregion północny
+  - PL7:
+      country: Poland
+      name: Makroregion centralny
+  - PL8:
+      country: Poland
+      name: Makroregion wschodni
+  - PL9:
+      country: Poland
+      name: Makroregion województwo mazowieckie
+  - PLZ:
+      country: Poland
+      name: Extra-Regio NUTS 1
+  - PT1:
+      country: Portugal
+      name: Continente
+  - PT2:
+      country: Portugal
+      name: Região Autónoma dos Açores
+  - PT3:
+      country: Portugal
+      name: Região Autónoma da Madeira
+  - PTZ:
+      country: Portugal
+      name: Extra-Regio NUTS 1
+  - RO1:
+      country: Romania
+      name: Macroregiunea Unu
+  - RO2:
+      country: Romania
+      name: Macroregiunea Doi
+  - RO3:
+      country: Romania
+      name: Macroregiunea Trei
+  - RO4:
+      country: Romania
+      name: Macroregiunea Patru
+  - ROZ:
+      country: Romania
+      name: Extra-Regio NUTS 1
+  - SI0:
+      country: Slovenia
+      name: Slovenija
+  - SIZ:
+      country: Slovenia
+      name: Extra-Regio NUTS 1
+  - SK0:
+      country: Slovakia
+      name: Slovensko
+  - SKZ:
+      country: Slovakia
+      name: Extra-Regio NUTS 1
+  - FI1:
+      country: Finland
+      name: Manner-Suomi
+  - FI2:
+      country: Finland
+      name: Åland
+  - FIZ:
+      country: Finland
+      name: Extra-Regio NUTS 1
+  - SE1:
+      country: Sweden
+      name: Östra Sverige
+  - SE2:
+      country: Sweden
+      name: Södra Sverige
+  - SE3:
+      country: Sweden
+      name: Norra Sverige
+  - SEZ:
+      country: Sweden
+      name: Extra-Regio NUTS 1
+  - UKC:
+      country: United Kingdom
+      name: North East (England)
+  - UKD:
+      country: United Kingdom
+      name: North West (England)
+  - UKE:
+      country: United Kingdom
+      name: Yorkshire and the Humber
+  - UKF:
+      country: United Kingdom
+      name: East Midlands (England)
+  - UKG:
+      country: United Kingdom
+      name: West Midlands (England)
+  - UKH:
+      country: United Kingdom
+      name: East of England
+  - UKI:
+      country: United Kingdom
+      name: London
+  - UKJ:
+      country: United Kingdom
+      name: South East (England)
+  - UKK:
+      country: United Kingdom
+      name: South West (England)
+  - UKL:
+      country: United Kingdom
+      name: Wales
+  - UKM:
+      country: United Kingdom
+      name: Scotland
+  - UKN:
+      country: United Kingdom
+      name: Northern Ireland
+  - UKZ:
+      country: United Kingdom
+      name: Extra-Regio NUTS 1
+  - IS0:
+      country: Iceland
+      name: Ísland
+  - ISZ:
+      country: Iceland
+      name: Extra-Regio NUTS 1
+  - LI0:
+      country: Liechtenstein
+      name: Liechtenstein
+  - LIZ:
+      country: Liechtenstein
+      name: Extra-Regio NUTS 1
+  - NO0:
+      country: Norway
+      name: Norge
+  - NOZ:
+      country: Norway
+      name: Extra-Regio NUTS 1
+  - CH0:
+      country: Switzerland
+      name: Schweiz/Suisse/Svizzera
+  - CHZ:
+      country: Switzerland
+      name: Extra-Regio NUTS 1
+  - ME0:
+      country: Montenegro
+      name: Црна Гора
+  - MEZ:
+      country: Montenegro
+      name: Extra-Regio NUTS 1
+  - MK0:
+      country: North Macedonia
+      name: Северна Македонија
+  - MKZ:
+      country: North Macedonia
+      name: Extra-Regio NUTS 1
+  - AL0:
+      country: Albania
+      name: Shqipëria
+  - ALZ:
+      country: Albania
+      name: Extra-Regio NUTS 1
+  - RS1:
+      country: Serbia
+      name: Србија - север
+  - RS2:
+      country: Serbia
+      name: Србија - југ
+  - RSZ:
+      country: Serbia
+      name: Extra-Regio NUTS 1
+  - TR1:
+      country: Turkey
+      name: İstanbul
+  - TR2:
+      country: Turkey
+      name: Batı Marmara
+  - TR3:
+      country: Turkey
+      name: Ege
+  - TR4:
+      country: Turkey
+      name: Doğu Marmara
+  - TR5:
+      country: Turkey
+      name: Batı Anadolu
+  - TR6:
+      country: Turkey
+      name: Akdeniz
+  - TR7:
+      country: Turkey
+      name: Orta Anadolu
+  - TR8:
+      country: Turkey
+      name: Batı Karadeniz
+  - TR9:
+      country: Turkey
+      name: Doğu Karadeniz
+  - TRA:
+      country: Turkey
+      name: Kuzeydoğu Anadolu
+  - TRB:
+      country: Turkey
+      name: Ortadoğu Anadolu
+  - TRC:
+      country: Turkey
+      name: Güneydoğu Anadolu
+  - TRZ:
+      country: Turkey
+      name: Extra-Regio NUTS 1
