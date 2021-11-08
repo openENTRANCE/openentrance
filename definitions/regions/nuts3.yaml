@@ -6868,21 +6868,6 @@
       country: United Kingdom
       nuts1: UKZ
       nuts2: UKZZ
-  - UKZZZ:
-      name: Extra-Regio NUTS 3
-      country: United Kingdom
-      nuts1: UKZ
-      nuts2: UKZZ
-  - UKZZZ:
-      name: Extra-Regio NUTS 3
-      country: United Kingdom
-      nuts1: UKZ
-      nuts2: UKZZ
-  - UKZZZ:
-      name: Extra-Regio NUTS 3
-      country: United Kingdom
-      nuts1: UKZ
-      nuts2: UKZZ
   - IS001:
       name: Höfuðborgarsvæði
       country: Iceland

@@ -43,6 +43,9 @@ for (n, text) in descriptions:
 country, _n1, _n2 = None, None, None
 for i, row in df.iterrows():
 
+    if str(row["Code 2021"]) == "nan":
+        continue
+
     # treat country information translate iso2 to common country names
     if pyam.isstr(row["Country"]):
         country = iso2_mapping[row["Code 2021"]]
