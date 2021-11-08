@@ -39,7 +39,8 @@ to their respective duration.
 
 ```python
 import yaml
-with open(f'../subannual/months.yaml', 'r') as stream:
+
+with open(f'months.yaml', 'r') as stream:
     months = yaml.safe_load(stream)
 
 mapping = dict([(m, eval(attr['duration'])) for (m, attr) in months.items()])
