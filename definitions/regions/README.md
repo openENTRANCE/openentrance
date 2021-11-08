@@ -33,8 +33,6 @@ for `Europe` should use definition `Europe (excl. Turkey)`
 and additionally report alternative region aggregation levels
 using the specific name `Europe (incl. Turkey)` (if relevant).
 
-See [aggregate-regions.yaml](aggregate-regions.yaml) for the codelist.
-
 ### Countries
 
 Each country in this list includes the ISO2 and ISO3 codes as an attribute
@@ -110,16 +108,21 @@ of all NUTS areas.
 'Arr. Halle-Vilvoorde'
 ```
 
-### Other sub-country area classification
-=======
+### Other sub-national area classification
 
-Other sub-country disaggregations, provided that they can be described as aggregations of NUTS1,2 or 3 regions, example:
-- ehighway2050 clusters : we have a definition of each cluster as an aggregation of a list of NUTS3 regions
-- agregation of ehighway2050 clusters such as:
-Northern Italy = 52_IT + 53_IT
-Southern Italy = 54_IT+55_IT+56_IT+98_IT
-with Northern Italy + Southern Italy = IT
+Other sub-national disaggregations can be defined, ideally described as aggregations
+of NUTS1,2 or 3 regions.
 
+#### ehighway2050 clusters
+
+**e-highway2050** was an EU-funded project (2012-2015), whose objective was to provide a
+modular and robust expansion plan for the Pan-European Transmission Network from 2020
+to 2050.
+
+It defined a cluster model of the Pan-European transmission grid (D2.2),
+see https://docs.entsoe.eu/baltic-conf/bites/www.e-highway2050.eu/e-highway2050/.
+
+The cluster model is included in the definitions, see [ehighway.yaml](ehighway.yaml).
 
 ### Classification at a more detailed level (municipality, district, etc.)
 
