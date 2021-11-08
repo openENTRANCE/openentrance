@@ -68,17 +68,17 @@ Labor|<Industry>:
 Product Price Index|<Product>:
    description: Price index on <this product> level, relative to base year 2011
    note: The index equals 1 in 2011, the reference year
-   unit: ''
+   unit: 'index'
 
 Capital Price Index:
    description: Price index of capital, relative to base year 2011
    note: The index equals 1 in 2011, the reference year
-   unit: ''
+   unit: 'index'
 
 Labor Price Index:
    description: Price index of wages, relative to base year 2011
    note: The index equals 1 in 2011, the reference year
-   unit: ''
+   unit: 'index'
 
 Discount rate|Buildings:
    description: Discount rate for investments into residential and commercial
