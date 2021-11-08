@@ -1,7756 +1,7775 @@
+# This file was created using the script `data/write-nuts.py`
+# DO NOT ALTER THIS FILE MANUALLY!
+
+# List of NUTS3 regions: small regions for specific diagnoses
 - NUTS3:
   - BE100:
-      country: Belgium
       name: Arr. de Bruxelles-Capitale/Arr. Brussel-Hoofdstad
+      country: Belgium
       nuts1: BE1
       nuts2: BE10
   - BE211:
-      country: Belgium
       name: Arr. Antwerpen
+      country: Belgium
       nuts1: BE2
       nuts2: BE21
   - BE212:
-      country: Belgium
       name: Arr. Mechelen
+      country: Belgium
       nuts1: BE2
       nuts2: BE21
   - BE213:
-      country: Belgium
       name: Arr. Turnhout
+      country: Belgium
       nuts1: BE2
       nuts2: BE21
   - BE223:
-      country: Belgium
       name: Arr. Tongeren
+      country: Belgium
       nuts1: BE2
       nuts2: BE22
   - BE224:
-      country: Belgium
       name: Arr. Hasselt
+      country: Belgium
       nuts1: BE2
       nuts2: BE22
   - BE225:
-      country: Belgium
       name: Arr. Maaseik
+      country: Belgium
       nuts1: BE2
       nuts2: BE22
   - BE231:
-      country: Belgium
       name: Arr. Aalst
+      country: Belgium
       nuts1: BE2
       nuts2: BE23
   - BE232:
-      country: Belgium
       name: Arr. Dendermonde
+      country: Belgium
       nuts1: BE2
       nuts2: BE23
   - BE233:
-      country: Belgium
       name: Arr. Eeklo
+      country: Belgium
       nuts1: BE2
       nuts2: BE23
   - BE234:
-      country: Belgium
       name: Arr. Gent
+      country: Belgium
       nuts1: BE2
       nuts2: BE23
   - BE235:
-      country: Belgium
       name: Arr. Oudenaarde
+      country: Belgium
       nuts1: BE2
       nuts2: BE23
   - BE236:
-      country: Belgium
       name: Arr. Sint-Niklaas
+      country: Belgium
       nuts1: BE2
       nuts2: BE23
   - BE241:
-      country: Belgium
       name: Arr. Halle-Vilvoorde
+      country: Belgium
       nuts1: BE2
       nuts2: BE24
   - BE242:
-      country: Belgium
       name: Arr. Leuven
+      country: Belgium
       nuts1: BE2
       nuts2: BE24
   - BE251:
-      country: Belgium
       name: Arr. Brugge
+      country: Belgium
       nuts1: BE2
       nuts2: BE25
   - BE252:
-      country: Belgium
       name: Arr. Diksmuide
+      country: Belgium
       nuts1: BE2
       nuts2: BE25
   - BE253:
-      country: Belgium
       name: Arr. Ieper
+      country: Belgium
       nuts1: BE2
       nuts2: BE25
   - BE254:
-      country: Belgium
       name: Arr. Kortrijk
+      country: Belgium
       nuts1: BE2
       nuts2: BE25
   - BE255:
-      country: Belgium
       name: Arr. Oostende
+      country: Belgium
       nuts1: BE2
       nuts2: BE25
   - BE256:
-      country: Belgium
       name: Arr. Roeselare
+      country: Belgium
       nuts1: BE2
       nuts2: BE25
   - BE257:
-      country: Belgium
       name: Arr. Tielt
+      country: Belgium
       nuts1: BE2
       nuts2: BE25
   - BE258:
-      country: Belgium
       name: Arr. Veurne
+      country: Belgium
       nuts1: BE2
       nuts2: BE25
   - BE310:
-      country: Belgium
       name: Arr. Nivelles
+      country: Belgium
       nuts1: BE3
       nuts2: BE31
   - BE323:
-      country: Belgium
       name: Arr. Mons
+      country: Belgium
       nuts1: BE3
       nuts2: BE32
   - BE328:
-      country: Belgium
       name: Arr. Tournai-Mouscron
+      country: Belgium
       nuts1: BE3
       nuts2: BE32
   - BE329:
-      country: Belgium
       name: Arr. La Louvière
+      country: Belgium
       nuts1: BE3
       nuts2: BE32
   - BE32A:
-      country: Belgium
       name: Arr. Ath
+      country: Belgium
       nuts1: BE3
       nuts2: BE32
   - BE32B:
-      country: Belgium
       name: Arr. Charleroi
+      country: Belgium
       nuts1: BE3
       nuts2: BE32
   - BE32C:
-      country: Belgium
       name: Arr. Soignies
+      country: Belgium
       nuts1: BE3
       nuts2: BE32
   - BE32D:
-      country: Belgium
       name: Arr. Thuin
+      country: Belgium
       nuts1: BE3
       nuts2: BE32
   - BE331:
-      country: Belgium
       name: Arr. Huy
+      country: Belgium
       nuts1: BE3
       nuts2: BE33
   - BE332:
-      country: Belgium
       name: Arr. Liège
+      country: Belgium
       nuts1: BE3
       nuts2: BE33
   - BE334:
-      country: Belgium
       name: Arr. Waremme
+      country: Belgium
       nuts1: BE3
       nuts2: BE33
   - BE335:
-      country: Belgium
       name: Arr. Verviers — communes francophones
+      country: Belgium
       nuts1: BE3
       nuts2: BE33
   - BE336:
-      country: Belgium
       name: Bezirk Verviers — Deutschsprachige Gemeinschaft
+      country: Belgium
       nuts1: BE3
       nuts2: BE33
   - BE341:
-      country: Belgium
       name: Arr. Arlon
+      country: Belgium
       nuts1: BE3
       nuts2: BE34
   - BE342:
-      country: Belgium
       name: Arr. Bastogne
+      country: Belgium
       nuts1: BE3
       nuts2: BE34
   - BE343:
-      country: Belgium
       name: Arr. Marche-en-Famenne
+      country: Belgium
       nuts1: BE3
       nuts2: BE34
   - BE344:
-      country: Belgium
       name: Arr. Neufchâteau
+      country: Belgium
       nuts1: BE3
       nuts2: BE34
   - BE345:
-      country: Belgium
       name: Arr. Virton
+      country: Belgium
       nuts1: BE3
       nuts2: BE34
   - BE351:
-      country: Belgium
       name: Arr. Dinant
+      country: Belgium
       nuts1: BE3
       nuts2: BE35
   - BE352:
-      country: Belgium
       name: Arr. Namur
+      country: Belgium
       nuts1: BE3
       nuts2: BE35
   - BE353:
-      country: Belgium
       name: Arr. Philippeville
+      country: Belgium
       nuts1: BE3
       nuts2: BE35
   - BEZZZ:
-      country: Belgium
       name: Extra-Regio NUTS 3
+      country: Belgium
       nuts1: BEZ
       nuts2: BEZZ
   - BG311:
-      country: Bulgaria
       name: Видин
+      country: Bulgaria
       nuts1: BG3
       nuts2: BG31
   - BG312:
-      country: Bulgaria
       name: Монтана
+      country: Bulgaria
       nuts1: BG3
       nuts2: BG31
   - BG313:
-      country: Bulgaria
       name: Враца
+      country: Bulgaria
       nuts1: BG3
       nuts2: BG31
   - BG314:
-      country: Bulgaria
       name: Плевен
+      country: Bulgaria
       nuts1: BG3
       nuts2: BG31
   - BG315:
-      country: Bulgaria
       name: Ловеч
+      country: Bulgaria
       nuts1: BG3
       nuts2: BG31
   - BG321:
-      country: Bulgaria
       name: Велико Търново
+      country: Bulgaria
       nuts1: BG3
       nuts2: BG32
   - BG322:
-      country: Bulgaria
       name: Габрово
+      country: Bulgaria
       nuts1: BG3
       nuts2: BG32
   - BG323:
-      country: Bulgaria
       name: Русе
+      country: Bulgaria
       nuts1: BG3
       nuts2: BG32
   - BG324:
-      country: Bulgaria
       name: Разград
+      country: Bulgaria
       nuts1: BG3
       nuts2: BG32
   - BG325:
-      country: Bulgaria
       name: Силистра
+      country: Bulgaria
       nuts1: BG3
       nuts2: BG32
   - BG331:
-      country: Bulgaria
       name: Варна
+      country: Bulgaria
       nuts1: BG3
       nuts2: BG33
   - BG332:
-      country: Bulgaria
       name: Добрич
+      country: Bulgaria
       nuts1: BG3
       nuts2: BG33
   - BG333:
-      country: Bulgaria
       name: Шумен
+      country: Bulgaria
       nuts1: BG3
       nuts2: BG33
   - BG334:
-      country: Bulgaria
       name: Търговище
+      country: Bulgaria
       nuts1: BG3
       nuts2: BG33
   - BG341:
-      country: Bulgaria
       name: Бургас
+      country: Bulgaria
       nuts1: BG3
       nuts2: BG34
   - BG342:
-      country: Bulgaria
       name: Сливен
+      country: Bulgaria
       nuts1: BG3
       nuts2: BG34
   - BG343:
-      country: Bulgaria
       name: Ямбол
+      country: Bulgaria
       nuts1: BG3
       nuts2: BG34
   - BG344:
-      country: Bulgaria
       name: Стара Загора
+      country: Bulgaria
       nuts1: BG3
       nuts2: BG34
   - BG411:
-      country: Bulgaria
       name: София (столица)
+      country: Bulgaria
       nuts1: BG4
       nuts2: BG41
   - BG412:
-      country: Bulgaria
       name: София
+      country: Bulgaria
       nuts1: BG4
       nuts2: BG41
   - BG413:
-      country: Bulgaria
       name: Благоевград
+      country: Bulgaria
       nuts1: BG4
       nuts2: BG41
   - BG414:
-      country: Bulgaria
       name: Перник
+      country: Bulgaria
       nuts1: BG4
       nuts2: BG41
   - BG415:
-      country: Bulgaria
       name: Кюстендил
+      country: Bulgaria
       nuts1: BG4
       nuts2: BG41
   - BG421:
-      country: Bulgaria
       name: Пловдив
+      country: Bulgaria
       nuts1: BG4
       nuts2: BG42
   - BG422:
-      country: Bulgaria
       name: Хасково
+      country: Bulgaria
       nuts1: BG4
       nuts2: BG42
   - BG423:
-      country: Bulgaria
       name: Пазарджик
+      country: Bulgaria
       nuts1: BG4
       nuts2: BG42
   - BG424:
-      country: Bulgaria
       name: Смолян
+      country: Bulgaria
       nuts1: BG4
       nuts2: BG42
   - BG425:
-      country: Bulgaria
       name: Кърджали
+      country: Bulgaria
       nuts1: BG4
       nuts2: BG42
   - BGZZZ:
-      country: Bulgaria
       name: Extra-Regio NUTS 3
+      country: Bulgaria
       nuts1: BGZ
       nuts2: BGZZ
   - CZ010:
-      country: Czech Republic
       name: Hlavní město Praha
+      country: Czech Republic
       nuts1: CZ0
       nuts2: CZ01
   - CZ020:
-      country: Czech Republic
       name: Středočeský kraj
+      country: Czech Republic
       nuts1: CZ0
       nuts2: CZ02
   - CZ031:
-      country: Czech Republic
       name: Jihočeský kraj
+      country: Czech Republic
       nuts1: CZ0
       nuts2: CZ03
   - CZ032:
-      country: Czech Republic
       name: Plzeňský kraj
+      country: Czech Republic
       nuts1: CZ0
       nuts2: CZ03
   - CZ041:
-      country: Czech Republic
       name: Karlovarský kraj
+      country: Czech Republic
       nuts1: CZ0
       nuts2: CZ04
   - CZ042:
-      country: Czech Republic
       name: Ústecký kraj
+      country: Czech Republic
       nuts1: CZ0
       nuts2: CZ04
   - CZ051:
-      country: Czech Republic
       name: Liberecký kraj
+      country: Czech Republic
       nuts1: CZ0
       nuts2: CZ05
   - CZ052:
-      country: Czech Republic
       name: Královéhradecký kraj
+      country: Czech Republic
       nuts1: CZ0
       nuts2: CZ05
   - CZ053:
-      country: Czech Republic
       name: Pardubický kraj
+      country: Czech Republic
       nuts1: CZ0
       nuts2: CZ05
   - CZ063:
-      country: Czech Republic
       name: Kraj Vysočina
+      country: Czech Republic
       nuts1: CZ0
       nuts2: CZ06
   - CZ064:
-      country: Czech Republic
       name: Jihomoravský kraj
+      country: Czech Republic
       nuts1: CZ0
       nuts2: CZ06
   - CZ071:
-      country: Czech Republic
       name: Olomoucký kraj
+      country: Czech Republic
       nuts1: CZ0
       nuts2: CZ07
   - CZ072:
-      country: Czech Republic
       name: Zlínský kraj
+      country: Czech Republic
       nuts1: CZ0
       nuts2: CZ07
   - CZ080:
-      country: Czech Republic
       name: Moravskoslezský kraj
+      country: Czech Republic
       nuts1: CZ0
       nuts2: CZ08
   - CZZZZ:
-      country: Czech Republic
       name: Extra-Regio NUTS 3
+      country: Czech Republic
       nuts1: CZZ
       nuts2: CZZZ
   - DK011:
-      country: Denmark
       name: Byen København
+      country: Denmark
       nuts1: DK0
       nuts2: DK01
   - DK012:
-      country: Denmark
       name: Københavns omegn
+      country: Denmark
       nuts1: DK0
       nuts2: DK01
   - DK013:
-      country: Denmark
       name: Nordsjælland
+      country: Denmark
       nuts1: DK0
       nuts2: DK01
   - DK014:
-      country: Denmark
       name: Bornholm
+      country: Denmark
       nuts1: DK0
       nuts2: DK01
   - DK021:
-      country: Denmark
       name: Østsjælland
+      country: Denmark
       nuts1: DK0
       nuts2: DK02
   - DK022:
-      country: Denmark
       name: Vest- og Sydsjælland
+      country: Denmark
       nuts1: DK0
       nuts2: DK02
   - DK031:
-      country: Denmark
       name: Fyn
+      country: Denmark
       nuts1: DK0
       nuts2: DK03
   - DK032:
-      country: Denmark
       name: Sydjylland
+      country: Denmark
       nuts1: DK0
       nuts2: DK03
   - DK041:
-      country: Denmark
       name: Vestjylland
+      country: Denmark
       nuts1: DK0
       nuts2: DK04
   - DK042:
-      country: Denmark
       name: Østjylland
+      country: Denmark
       nuts1: DK0
       nuts2: DK04
   - DK050:
-      country: Denmark
       name: Nordjylland
+      country: Denmark
       nuts1: DK0
       nuts2: DK05
   - DKZZZ:
-      country: Denmark
       name: Extra-Regio NUTS 3
+      country: Denmark
       nuts1: DKZ
       nuts2: DKZZ
   - DE111:
-      country: Germany
       name: Stuttgart, Stadtkreis
+      country: Germany
       nuts1: DE1
       nuts2: DE11
   - DE112:
-      country: Germany
       name: Böblingen
+      country: Germany
       nuts1: DE1
       nuts2: DE11
   - DE113:
-      country: Germany
       name: Esslingen
+      country: Germany
       nuts1: DE1
       nuts2: DE11
   - DE114:
-      country: Germany
       name: Göppingen
+      country: Germany
       nuts1: DE1
       nuts2: DE11
   - DE115:
-      country: Germany
       name: Ludwigsburg
+      country: Germany
       nuts1: DE1
       nuts2: DE11
   - DE116:
-      country: Germany
       name: Rems-Murr-Kreis
+      country: Germany
       nuts1: DE1
       nuts2: DE11
   - DE117:
-      country: Germany
       name: Heilbronn, Stadtkreis
+      country: Germany
       nuts1: DE1
       nuts2: DE11
   - DE118:
-      country: Germany
       name: Heilbronn, Landkreis
+      country: Germany
       nuts1: DE1
       nuts2: DE11
   - DE119:
-      country: Germany
       name: Hohenlohekreis
+      country: Germany
       nuts1: DE1
       nuts2: DE11
   - DE11A:
-      country: Germany
       name: Schwäbisch Hall
+      country: Germany
       nuts1: DE1
       nuts2: DE11
   - DE11B:
-      country: Germany
       name: Main-Tauber-Kreis
+      country: Germany
       nuts1: DE1
       nuts2: DE11
   - DE11C:
-      country: Germany
       name: Heidenheim
+      country: Germany
       nuts1: DE1
       nuts2: DE11
   - DE11D:
-      country: Germany
       name: Ostalbkreis
+      country: Germany
       nuts1: DE1
       nuts2: DE11
   - DE121:
-      country: Germany
       name: Baden-Baden, Stadtkreis
+      country: Germany
       nuts1: DE1
       nuts2: DE12
   - DE122:
-      country: Germany
       name: Karlsruhe, Stadtkreis
+      country: Germany
       nuts1: DE1
       nuts2: DE12
   - DE123:
-      country: Germany
       name: Karlsruhe, Landkreis
+      country: Germany
       nuts1: DE1
       nuts2: DE12
   - DE124:
-      country: Germany
       name: Rastatt
+      country: Germany
       nuts1: DE1
       nuts2: DE12
   - DE125:
-      country: Germany
       name: Heidelberg, Stadtkreis
+      country: Germany
       nuts1: DE1
       nuts2: DE12
   - DE126:
-      country: Germany
       name: Mannheim, Stadtkreis
+      country: Germany
       nuts1: DE1
       nuts2: DE12
   - DE127:
-      country: Germany
       name: Neckar-Odenwald-Kreis
+      country: Germany
       nuts1: DE1
       nuts2: DE12
   - DE128:
-      country: Germany
       name: Rhein-Neckar-Kreis
+      country: Germany
       nuts1: DE1
       nuts2: DE12
   - DE129:
-      country: Germany
       name: Pforzheim, Stadtkreis
+      country: Germany
       nuts1: DE1
       nuts2: DE12
   - DE12A:
-      country: Germany
       name: Calw
+      country: Germany
       nuts1: DE1
       nuts2: DE12
   - DE12B:
-      country: Germany
       name: Enzkreis
+      country: Germany
       nuts1: DE1
       nuts2: DE12
   - DE12C:
-      country: Germany
       name: Freudenstadt
+      country: Germany
       nuts1: DE1
       nuts2: DE12
   - DE131:
-      country: Germany
       name: Freiburg im Breisgau, Stadtkreis
+      country: Germany
       nuts1: DE1
       nuts2: DE13
   - DE132:
-      country: Germany
       name: Breisgau-Hochschwarzwald
+      country: Germany
       nuts1: DE1
       nuts2: DE13
   - DE133:
-      country: Germany
       name: Emmendingen
+      country: Germany
       nuts1: DE1
       nuts2: DE13
   - DE134:
-      country: Germany
       name: Ortenaukreis
+      country: Germany
       nuts1: DE1
       nuts2: DE13
   - DE135:
-      country: Germany
       name: Rottweil
+      country: Germany
       nuts1: DE1
       nuts2: DE13
   - DE136:
-      country: Germany
       name: Schwarzwald-Baar-Kreis
+      country: Germany
       nuts1: DE1
       nuts2: DE13
   - DE137:
-      country: Germany
       name: Tuttlingen
+      country: Germany
       nuts1: DE1
       nuts2: DE13
   - DE138:
-      country: Germany
       name: Konstanz
+      country: Germany
       nuts1: DE1
       nuts2: DE13
   - DE139:
-      country: Germany
       name: Lörrach
+      country: Germany
       nuts1: DE1
       nuts2: DE13
   - DE13A:
-      country: Germany
       name: Waldshut
+      country: Germany
       nuts1: DE1
       nuts2: DE13
   - DE141:
-      country: Germany
       name: Reutlingen
+      country: Germany
       nuts1: DE1
       nuts2: DE14
   - DE142:
-      country: Germany
       name: Tübingen, Landkreis
+      country: Germany
       nuts1: DE1
       nuts2: DE14
   - DE143:
-      country: Germany
       name: Zollernalbkreis
+      country: Germany
       nuts1: DE1
       nuts2: DE14
   - DE144:
-      country: Germany
       name: Ulm, Stadtkreis
+      country: Germany
       nuts1: DE1
       nuts2: DE14
   - DE145:
-      country: Germany
       name: Alb-Donau-Kreis
+      country: Germany
       nuts1: DE1
       nuts2: DE14
   - DE146:
-      country: Germany
       name: Biberach
+      country: Germany
       nuts1: DE1
       nuts2: DE14
   - DE147:
-      country: Germany
       name: Bodenseekreis
+      country: Germany
       nuts1: DE1
       nuts2: DE14
   - DE148:
-      country: Germany
       name: Ravensburg
+      country: Germany
       nuts1: DE1
       nuts2: DE14
   - DE149:
-      country: Germany
       name: Sigmaringen
+      country: Germany
       nuts1: DE1
       nuts2: DE14
   - DE211:
-      country: Germany
       name: Ingolstadt, Kreisfreie Stadt
+      country: Germany
       nuts1: DE2
       nuts2: DE21
   - DE212:
-      country: Germany
       name: München, Kreisfreie Stadt
+      country: Germany
       nuts1: DE2
       nuts2: DE21
   - DE213:
-      country: Germany
       name: Rosenheim, Kreisfreie Stadt
+      country: Germany
       nuts1: DE2
       nuts2: DE21
   - DE214:
-      country: Germany
       name: Altötting
+      country: Germany
       nuts1: DE2
       nuts2: DE21
   - DE215:
-      country: Germany
       name: Berchtesgadener Land
+      country: Germany
       nuts1: DE2
       nuts2: DE21
   - DE216:
-      country: Germany
       name: Bad Tölz-Wolfratshausen
+      country: Germany
       nuts1: DE2
       nuts2: DE21
   - DE217:
-      country: Germany
       name: Dachau
+      country: Germany
       nuts1: DE2
       nuts2: DE21
   - DE218:
-      country: Germany
       name: Ebersberg
+      country: Germany
       nuts1: DE2
       nuts2: DE21
   - DE219:
-      country: Germany
       name: Eichstätt
+      country: Germany
       nuts1: DE2
       nuts2: DE21
   - DE21A:
-      country: Germany
       name: Erding
+      country: Germany
       nuts1: DE2
       nuts2: DE21
   - DE21B:
-      country: Germany
       name: Freising
+      country: Germany
       nuts1: DE2
       nuts2: DE21
   - DE21C:
-      country: Germany
       name: Fürstenfeldbruck
+      country: Germany
       nuts1: DE2
       nuts2: DE21
   - DE21D:
-      country: Germany
       name: Garmisch-Partenkirchen
+      country: Germany
       nuts1: DE2
       nuts2: DE21
   - DE21E:
-      country: Germany
       name: Landsberg am Lech
+      country: Germany
       nuts1: DE2
       nuts2: DE21
   - DE21F:
-      country: Germany
       name: Miesbach
+      country: Germany
       nuts1: DE2
       nuts2: DE21
   - DE21G:
-      country: Germany
       name: Mühldorf a. Inn
+      country: Germany
       nuts1: DE2
       nuts2: DE21
   - DE21H:
-      country: Germany
       name: München, Landkreis
+      country: Germany
       nuts1: DE2
       nuts2: DE21
   - DE21I:
-      country: Germany
       name: Neuburg-Schrobenhausen
+      country: Germany
       nuts1: DE2
       nuts2: DE21
   - DE21J:
-      country: Germany
       name: Pfaffenhofen a. d. Ilm
+      country: Germany
       nuts1: DE2
       nuts2: DE21
   - DE21K:
-      country: Germany
       name: Rosenheim, Landkreis
+      country: Germany
       nuts1: DE2
       nuts2: DE21
   - DE21L:
-      country: Germany
       name: Starnberg
+      country: Germany
       nuts1: DE2
       nuts2: DE21
   - DE21M:
-      country: Germany
       name: Traunstein
+      country: Germany
       nuts1: DE2
       nuts2: DE21
   - DE21N:
-      country: Germany
       name: Weilheim-Schongau
+      country: Germany
       nuts1: DE2
       nuts2: DE21
   - DE221:
-      country: Germany
       name: Landshut, Kreisfreie Stadt
+      country: Germany
       nuts1: DE2
       nuts2: DE22
   - DE222:
-      country: Germany
       name: Passau, Kreisfreie Stadt
+      country: Germany
       nuts1: DE2
       nuts2: DE22
   - DE223:
-      country: Germany
       name: Straubing, Kreisfreie Stadt
+      country: Germany
       nuts1: DE2
       nuts2: DE22
   - DE224:
-      country: Germany
       name: Deggendorf
+      country: Germany
       nuts1: DE2
       nuts2: DE22
   - DE225:
-      country: Germany
       name: Freyung-Grafenau
+      country: Germany
       nuts1: DE2
       nuts2: DE22
   - DE226:
-      country: Germany
       name: Kelheim
+      country: Germany
       nuts1: DE2
       nuts2: DE22
   - DE227:
-      country: Germany
       name: Landshut, Landkreis
+      country: Germany
       nuts1: DE2
       nuts2: DE22
   - DE228:
-      country: Germany
       name: Passau, Landkreis
+      country: Germany
       nuts1: DE2
       nuts2: DE22
   - DE229:
-      country: Germany
       name: Regen
+      country: Germany
       nuts1: DE2
       nuts2: DE22
   - DE22A:
-      country: Germany
       name: Rottal-Inn
+      country: Germany
       nuts1: DE2
       nuts2: DE22
   - DE22B:
-      country: Germany
       name: Straubing-Bogen
+      country: Germany
       nuts1: DE2
       nuts2: DE22
   - DE22C:
-      country: Germany
       name: Dingolfing-Landau
+      country: Germany
       nuts1: DE2
       nuts2: DE22
   - DE231:
-      country: Germany
       name: Amberg, Kreisfreie Stadt
+      country: Germany
       nuts1: DE2
       nuts2: DE23
   - DE232:
-      country: Germany
       name: Regensburg, Kreisfreie Stadt
+      country: Germany
       nuts1: DE2
       nuts2: DE23
   - DE233:
-      country: Germany
       name: Weiden i. d. Opf, Kreisfreie Stadt
+      country: Germany
       nuts1: DE2
       nuts2: DE23
   - DE234:
-      country: Germany
       name: Amberg-Sulzbach
+      country: Germany
       nuts1: DE2
       nuts2: DE23
   - DE235:
-      country: Germany
       name: Cham
+      country: Germany
       nuts1: DE2
       nuts2: DE23
   - DE236:
-      country: Germany
       name: Neumarkt i. d. OPf.
+      country: Germany
       nuts1: DE2
       nuts2: DE23
   - DE237:
-      country: Germany
       name: Neustadt a. d. Waldnaab
+      country: Germany
       nuts1: DE2
       nuts2: DE23
   - DE238:
-      country: Germany
       name: Regensburg, Landkreis
+      country: Germany
       nuts1: DE2
       nuts2: DE23
   - DE239:
-      country: Germany
       name: Schwandorf
+      country: Germany
       nuts1: DE2
       nuts2: DE23
   - DE23A:
-      country: Germany
       name: Tirschenreuth
+      country: Germany
       nuts1: DE2
       nuts2: DE23
   - DE241:
-      country: Germany
       name: Bamberg, Kreisfreie Stadt
+      country: Germany
       nuts1: DE2
       nuts2: DE24
   - DE242:
-      country: Germany
       name: Bayreuth, Kreisfreie Stadt
+      country: Germany
       nuts1: DE2
       nuts2: DE24
   - DE243:
-      country: Germany
       name: Coburg, Kreisfreie Stadt
+      country: Germany
       nuts1: DE2
       nuts2: DE24
   - DE244:
-      country: Germany
       name: Hof, Kreisfreie Stadt
+      country: Germany
       nuts1: DE2
       nuts2: DE24
   - DE245:
-      country: Germany
       name: Bamberg, Landkreis
+      country: Germany
       nuts1: DE2
       nuts2: DE24
   - DE246:
-      country: Germany
       name: Bayreuth, Landkreis
+      country: Germany
       nuts1: DE2
       nuts2: DE24
   - DE247:
-      country: Germany
       name: Coburg, Landkreis
+      country: Germany
       nuts1: DE2
       nuts2: DE24
   - DE248:
-      country: Germany
       name: Forchheim
+      country: Germany
       nuts1: DE2
       nuts2: DE24
   - DE249:
-      country: Germany
       name: Hof, Landkreis
+      country: Germany
       nuts1: DE2
       nuts2: DE24
   - DE24A:
-      country: Germany
       name: Kronach
+      country: Germany
       nuts1: DE2
       nuts2: DE24
   - DE24B:
-      country: Germany
       name: Kulmbach
+      country: Germany
       nuts1: DE2
       nuts2: DE24
   - DE24C:
-      country: Germany
       name: Lichtenfels
+      country: Germany
       nuts1: DE2
       nuts2: DE24
   - DE24D:
-      country: Germany
       name: Wunsiedel i. Fichtelgebirge
+      country: Germany
       nuts1: DE2
       nuts2: DE24
   - DE251:
-      country: Germany
       name: Ansbach, Kreisfreie Stadt
+      country: Germany
       nuts1: DE2
       nuts2: DE25
   - DE252:
-      country: Germany
       name: Erlangen, Kreisfreie Stadt
+      country: Germany
       nuts1: DE2
       nuts2: DE25
   - DE253:
-      country: Germany
       name: Fürth, Kreisfreie Stadt
+      country: Germany
       nuts1: DE2
       nuts2: DE25
   - DE254:
-      country: Germany
       name: Nürnberg, Kreisfreie Stadt
+      country: Germany
       nuts1: DE2
       nuts2: DE25
   - DE255:
-      country: Germany
       name: Schwabach, Kreisfreie Stadt
+      country: Germany
       nuts1: DE2
       nuts2: DE25
   - DE256:
-      country: Germany
       name: Ansbach, Landkreis
+      country: Germany
       nuts1: DE2
       nuts2: DE25
   - DE257:
-      country: Germany
       name: Erlangen-Höchstadt
+      country: Germany
       nuts1: DE2
       nuts2: DE25
   - DE258:
-      country: Germany
       name: Fürth, Landkreis
+      country: Germany
       nuts1: DE2
       nuts2: DE25
   - DE259:
-      country: Germany
       name: Nürnberger Land
+      country: Germany
       nuts1: DE2
       nuts2: DE25
   - DE25A:
-      country: Germany
       name: Neustadt a. d. Aisch-Bad Windsheim
+      country: Germany
       nuts1: DE2
       nuts2: DE25
   - DE25B:
-      country: Germany
       name: Roth
+      country: Germany
       nuts1: DE2
       nuts2: DE25
   - DE25C:
-      country: Germany
       name: Weißenburg-Gunzenhausen
+      country: Germany
       nuts1: DE2
       nuts2: DE25
   - DE261:
-      country: Germany
       name: Aschaffenburg, Kreisfreie Stadt
+      country: Germany
       nuts1: DE2
       nuts2: DE26
   - DE262:
-      country: Germany
       name: Schweinfurt, Kreisfreie Stadt
+      country: Germany
       nuts1: DE2
       nuts2: DE26
   - DE263:
-      country: Germany
       name: Würzburg, Kreisfreie Stadt
+      country: Germany
       nuts1: DE2
       nuts2: DE26
   - DE264:
-      country: Germany
       name: Aschaffenburg, Landkreis
+      country: Germany
       nuts1: DE2
       nuts2: DE26
   - DE265:
-      country: Germany
       name: Bad Kissingen
+      country: Germany
       nuts1: DE2
       nuts2: DE26
   - DE266:
-      country: Germany
       name: Rhön-Grabfeld
+      country: Germany
       nuts1: DE2
       nuts2: DE26
   - DE267:
-      country: Germany
       name: Haßberge
+      country: Germany
       nuts1: DE2
       nuts2: DE26
   - DE268:
-      country: Germany
       name: Kitzingen
+      country: Germany
       nuts1: DE2
       nuts2: DE26
   - DE269:
-      country: Germany
       name: Miltenberg
+      country: Germany
       nuts1: DE2
       nuts2: DE26
   - DE26A:
-      country: Germany
       name: Main-Spessart
+      country: Germany
       nuts1: DE2
       nuts2: DE26
   - DE26B:
-      country: Germany
       name: Schweinfurt, Landkreis
+      country: Germany
       nuts1: DE2
       nuts2: DE26
   - DE26C:
-      country: Germany
       name: Würzburg, Landkreis
+      country: Germany
       nuts1: DE2
       nuts2: DE26
   - DE271:
-      country: Germany
       name: Augsburg, Kreisfreie Stadt
+      country: Germany
       nuts1: DE2
       nuts2: DE27
   - DE272:
-      country: Germany
       name: Kaufbeuren, Kreisfreie Stadt
+      country: Germany
       nuts1: DE2
       nuts2: DE27
   - DE273:
-      country: Germany
       name: Kempten (Allgäu), Kreisfreie Stadt
+      country: Germany
       nuts1: DE2
       nuts2: DE27
   - DE274:
-      country: Germany
       name: Memmingen, Kreisfreie Stadt
+      country: Germany
       nuts1: DE2
       nuts2: DE27
   - DE275:
-      country: Germany
       name: Aichach-Friedberg
+      country: Germany
       nuts1: DE2
       nuts2: DE27
   - DE276:
-      country: Germany
       name: Augsburg, Landkreis
+      country: Germany
       nuts1: DE2
       nuts2: DE27
   - DE277:
-      country: Germany
       name: Dillingen a.d. Donau
+      country: Germany
       nuts1: DE2
       nuts2: DE27
   - DE278:
-      country: Germany
       name: Günzburg
+      country: Germany
       nuts1: DE2
       nuts2: DE27
   - DE279:
-      country: Germany
       name: Neu-Ulm
+      country: Germany
       nuts1: DE2
       nuts2: DE27
   - DE27A:
-      country: Germany
       name: Lindau (Bodensee)
+      country: Germany
       nuts1: DE2
       nuts2: DE27
   - DE27B:
-      country: Germany
       name: Ostallgäu
+      country: Germany
       nuts1: DE2
       nuts2: DE27
   - DE27C:
-      country: Germany
       name: Unterallgäu
+      country: Germany
       nuts1: DE2
       nuts2: DE27
   - DE27D:
-      country: Germany
       name: Donau-Ries
+      country: Germany
       nuts1: DE2
       nuts2: DE27
   - DE27E:
-      country: Germany
       name: Oberallgäu
+      country: Germany
       nuts1: DE2
       nuts2: DE27
   - DE300:
-      country: Germany
       name: Berlin
+      country: Germany
       nuts1: DE3
       nuts2: DE30
   - DE401:
-      country: Germany
       name: Brandenburg an der Havel, Kreisfreie Stadt
+      country: Germany
       nuts1: DE4
       nuts2: DE40
   - DE402:
-      country: Germany
       name: Cottbus, Kreisfreie Stadt
+      country: Germany
       nuts1: DE4
       nuts2: DE40
   - DE403:
-      country: Germany
       name: Frankfurt (Oder), Kreisfreie Stadt
+      country: Germany
       nuts1: DE4
       nuts2: DE40
   - DE404:
-      country: Germany
       name: Potsdam, Kreisfreie Stadt
+      country: Germany
       nuts1: DE4
       nuts2: DE40
   - DE405:
-      country: Germany
       name: Barnim
+      country: Germany
       nuts1: DE4
       nuts2: DE40
   - DE406:
-      country: Germany
       name: Dahme-Spreewald
+      country: Germany
       nuts1: DE4
       nuts2: DE40
   - DE407:
-      country: Germany
       name: Elbe-Elster
+      country: Germany
       nuts1: DE4
       nuts2: DE40
   - DE408:
-      country: Germany
       name: Havelland
+      country: Germany
       nuts1: DE4
       nuts2: DE40
   - DE409:
-      country: Germany
       name: Märkisch-Oderland
+      country: Germany
       nuts1: DE4
       nuts2: DE40
   - DE40A:
-      country: Germany
       name: Oberhavel
+      country: Germany
       nuts1: DE4
       nuts2: DE40
   - DE40B:
-      country: Germany
       name: Oberspreewald-Lausitz
+      country: Germany
       nuts1: DE4
       nuts2: DE40
   - DE40C:
-      country: Germany
       name: Oder-Spree
+      country: Germany
       nuts1: DE4
       nuts2: DE40
   - DE40D:
-      country: Germany
       name: Ostprignitz-Ruppin
+      country: Germany
       nuts1: DE4
       nuts2: DE40
   - DE40E:
-      country: Germany
       name: Potsdam-Mittelmark
+      country: Germany
       nuts1: DE4
       nuts2: DE40
   - DE40F:
-      country: Germany
       name: Prignitz
+      country: Germany
       nuts1: DE4
       nuts2: DE40
   - DE40G:
-      country: Germany
       name: Spree-Neiße
+      country: Germany
       nuts1: DE4
       nuts2: DE40
   - DE40H:
-      country: Germany
       name: Teltow-Fläming
+      country: Germany
       nuts1: DE4
       nuts2: DE40
   - DE40I:
-      country: Germany
       name: Uckermark
+      country: Germany
       nuts1: DE4
       nuts2: DE40
   - DE501:
-      country: Germany
       name: Bremen, Kreisfreie Stadt
+      country: Germany
       nuts1: DE5
       nuts2: DE50
   - DE502:
-      country: Germany
       name: Bremerhaven, Kreisfreie Stadt
+      country: Germany
       nuts1: DE5
       nuts2: DE50
   - DE600:
-      country: Germany
       name: Hamburg
+      country: Germany
       nuts1: DE6
       nuts2: DE60
   - DE711:
-      country: Germany
       name: Darmstadt, Kreisfreie Stadt
+      country: Germany
       nuts1: DE7
       nuts2: DE71
   - DE712:
-      country: Germany
       name: Frankfurt am Main, Kreisfreie Stadt
+      country: Germany
       nuts1: DE7
       nuts2: DE71
   - DE713:
-      country: Germany
       name: Offenbach am Main, Kreisfreie Stadt
+      country: Germany
       nuts1: DE7
       nuts2: DE71
   - DE714:
-      country: Germany
       name: Wiesbaden, Kreisfreie Stadt
+      country: Germany
       nuts1: DE7
       nuts2: DE71
   - DE715:
-      country: Germany
       name: Bergstraße
+      country: Germany
       nuts1: DE7
       nuts2: DE71
   - DE716:
-      country: Germany
       name: Darmstadt-Dieburg
+      country: Germany
       nuts1: DE7
       nuts2: DE71
   - DE717:
-      country: Germany
       name: Groß-Gerau
+      country: Germany
       nuts1: DE7
       nuts2: DE71
   - DE718:
-      country: Germany
       name: Hochtaunuskreis
+      country: Germany
       nuts1: DE7
       nuts2: DE71
   - DE719:
-      country: Germany
       name: Main-Kinzig-Kreis
+      country: Germany
       nuts1: DE7
       nuts2: DE71
   - DE71A:
-      country: Germany
       name: Main-Taunus-Kreis
+      country: Germany
       nuts1: DE7
       nuts2: DE71
   - DE71B:
-      country: Germany
       name: Odenwaldkreis
+      country: Germany
       nuts1: DE7
       nuts2: DE71
   - DE71C:
-      country: Germany
       name: Offenbach, Landkreis
+      country: Germany
       nuts1: DE7
       nuts2: DE71
   - DE71D:
-      country: Germany
       name: Rheingau-Taunus-Kreis
+      country: Germany
       nuts1: DE7
       nuts2: DE71
   - DE71E:
-      country: Germany
       name: Wetteraukreis
+      country: Germany
       nuts1: DE7
       nuts2: DE71
   - DE721:
-      country: Germany
       name: Gießen, Landkreis
+      country: Germany
       nuts1: DE7
       nuts2: DE72
   - DE722:
-      country: Germany
       name: Lahn-Dill-Kreis
+      country: Germany
       nuts1: DE7
       nuts2: DE72
   - DE723:
-      country: Germany
       name: Limburg-Weilburg
+      country: Germany
       nuts1: DE7
       nuts2: DE72
   - DE724:
-      country: Germany
       name: Marburg-Biedenkopf
+      country: Germany
       nuts1: DE7
       nuts2: DE72
   - DE725:
-      country: Germany
       name: Vogelsbergkreis
+      country: Germany
       nuts1: DE7
       nuts2: DE72
   - DE731:
-      country: Germany
       name: Kassel, Kreisfreie Stadt
+      country: Germany
       nuts1: DE7
       nuts2: DE73
   - DE732:
-      country: Germany
       name: Fulda
+      country: Germany
       nuts1: DE7
       nuts2: DE73
   - DE733:
-      country: Germany
       name: Hersfeld-Rotenburg
+      country: Germany
       nuts1: DE7
       nuts2: DE73
   - DE734:
-      country: Germany
       name: Kassel, Landkreis
+      country: Germany
       nuts1: DE7
       nuts2: DE73
   - DE735:
-      country: Germany
       name: Schwalm-Eder-Kreis
+      country: Germany
       nuts1: DE7
       nuts2: DE73
   - DE736:
-      country: Germany
       name: Waldeck-Frankenberg
+      country: Germany
       nuts1: DE7
       nuts2: DE73
   - DE737:
-      country: Germany
       name: Werra-Meißner-Kreis
+      country: Germany
       nuts1: DE7
       nuts2: DE73
   - DE803:
-      country: Germany
       name: Rostock, Kreisfreie Stadt
+      country: Germany
       nuts1: DE8
       nuts2: DE80
   - DE804:
-      country: Germany
       name: Schwerin, Kreisfreie Stadt
+      country: Germany
       nuts1: DE8
       nuts2: DE80
   - DE80J:
-      country: Germany
       name: Mecklenburgische Seenplatte
+      country: Germany
       nuts1: DE8
       nuts2: DE80
   - DE80K:
-      country: Germany
       name: Landkreis Rostock
+      country: Germany
       nuts1: DE8
       nuts2: DE80
   - DE80L:
-      country: Germany
       name: Vorpommern-Rügen
+      country: Germany
       nuts1: DE8
       nuts2: DE80
   - DE80M:
-      country: Germany
       name: Nordwestmecklenburg
+      country: Germany
       nuts1: DE8
       nuts2: DE80
   - DE80N:
-      country: Germany
       name: Vorpommern-Greifswald
+      country: Germany
       nuts1: DE8
       nuts2: DE80
   - DE80O:
-      country: Germany
       name: Ludwigslust-Parchim
+      country: Germany
       nuts1: DE8
       nuts2: DE80
   - DE911:
-      country: Germany
       name: Braunschweig, Kreisfreie Stadt
+      country: Germany
       nuts1: DE9
       nuts2: DE91
   - DE912:
-      country: Germany
       name: Salzgitter, Kreisfreie Stadt
+      country: Germany
       nuts1: DE9
       nuts2: DE91
   - DE913:
-      country: Germany
       name: Wolfsburg, Kreisfreie Stadt
+      country: Germany
       nuts1: DE9
       nuts2: DE91
   - DE914:
-      country: Germany
       name: Gifhorn
+      country: Germany
       nuts1: DE9
       nuts2: DE91
   - DE916:
-      country: Germany
       name: Goslar
+      country: Germany
       nuts1: DE9
       nuts2: DE91
   - DE917:
-      country: Germany
       name: Helmstedt
+      country: Germany
       nuts1: DE9
       nuts2: DE91
   - DE918:
-      country: Germany
       name: Northeim
+      country: Germany
       nuts1: DE9
       nuts2: DE91
   - DE91A:
-      country: Germany
       name: Peine
+      country: Germany
       nuts1: DE9
       nuts2: DE91
   - DE91B:
-      country: Germany
       name: Wolfenbüttel
+      country: Germany
       nuts1: DE9
       nuts2: DE91
   - DE91C:
-      country: Germany
       name: Göttingen
+      country: Germany
       nuts1: DE9
       nuts2: DE91
   - DE922:
-      country: Germany
       name: Diepholz
+      country: Germany
       nuts1: DE9
       nuts2: DE92
   - DE923:
-      country: Germany
       name: Hameln-Pyrmont
+      country: Germany
       nuts1: DE9
       nuts2: DE92
   - DE925:
-      country: Germany
       name: Hildesheim
+      country: Germany
       nuts1: DE9
       nuts2: DE92
   - DE926:
-      country: Germany
       name: Holzminden
+      country: Germany
       nuts1: DE9
       nuts2: DE92
   - DE927:
-      country: Germany
       name: Nienburg (Weser)
+      country: Germany
       nuts1: DE9
       nuts2: DE92
   - DE928:
-      country: Germany
       name: Schaumburg
+      country: Germany
       nuts1: DE9
       nuts2: DE92
   - DE929:
-      country: Germany
       name: Region Hannover
+      country: Germany
       nuts1: DE9
       nuts2: DE92
   - DE931:
-      country: Germany
       name: Celle
+      country: Germany
       nuts1: DE9
       nuts2: DE93
   - DE932:
-      country: Germany
       name: Cuxhaven
+      country: Germany
       nuts1: DE9
       nuts2: DE93
   - DE933:
-      country: Germany
       name: Harburg
+      country: Germany
       nuts1: DE9
       nuts2: DE93
   - DE934:
-      country: Germany
       name: Lüchow-Dannenberg
+      country: Germany
       nuts1: DE9
       nuts2: DE93
   - DE935:
-      country: Germany
       name: Lüneburg, Landkreis
+      country: Germany
       nuts1: DE9
       nuts2: DE93
   - DE936:
-      country: Germany
       name: Osterholz
+      country: Germany
       nuts1: DE9
       nuts2: DE93
   - DE937:
-      country: Germany
       name: Rotenburg (Wümme)
+      country: Germany
       nuts1: DE9
       nuts2: DE93
   - DE938:
-      country: Germany
       name: Heidekreis
+      country: Germany
       nuts1: DE9
       nuts2: DE93
   - DE939:
-      country: Germany
       name: Stade
+      country: Germany
       nuts1: DE9
       nuts2: DE93
   - DE93A:
-      country: Germany
       name: Uelzen
+      country: Germany
       nuts1: DE9
       nuts2: DE93
   - DE93B:
-      country: Germany
       name: Verden
+      country: Germany
       nuts1: DE9
       nuts2: DE93
   - DE941:
-      country: Germany
       name: Delmenhorst, Kreisfreie Stadt
+      country: Germany
       nuts1: DE9
       nuts2: DE94
   - DE942:
-      country: Germany
       name: Emden, Kreisfreie Stadt
+      country: Germany
       nuts1: DE9
       nuts2: DE94
   - DE943:
-      country: Germany
       name: Oldenburg (Oldenburg), Kreisfreie Stadt
+      country: Germany
       nuts1: DE9
       nuts2: DE94
   - DE944:
-      country: Germany
       name: Osnabrück, Kreisfreie Stadt
+      country: Germany
       nuts1: DE9
       nuts2: DE94
   - DE945:
-      country: Germany
       name: Wilhelmshaven, Kreisfreie Stadt
+      country: Germany
       nuts1: DE9
       nuts2: DE94
   - DE946:
-      country: Germany
       name: Ammerland
+      country: Germany
       nuts1: DE9
       nuts2: DE94
   - DE947:
-      country: Germany
       name: Aurich
+      country: Germany
       nuts1: DE9
       nuts2: DE94
   - DE948:
-      country: Germany
       name: Cloppenburg
+      country: Germany
       nuts1: DE9
       nuts2: DE94
   - DE949:
-      country: Germany
       name: Emsland
+      country: Germany
       nuts1: DE9
       nuts2: DE94
   - DE94A:
-      country: Germany
       name: Friesland (DE)
+      country: Germany
       nuts1: DE9
       nuts2: DE94
   - DE94B:
-      country: Germany
       name: Grafschaft Bentheim
+      country: Germany
       nuts1: DE9
       nuts2: DE94
   - DE94C:
-      country: Germany
       name: Leer
+      country: Germany
       nuts1: DE9
       nuts2: DE94
   - DE94D:
-      country: Germany
       name: Oldenburg, Landkreis
+      country: Germany
       nuts1: DE9
       nuts2: DE94
   - DE94E:
-      country: Germany
       name: Osnabrück, Landkreis
+      country: Germany
       nuts1: DE9
       nuts2: DE94
   - DE94F:
-      country: Germany
       name: Vechta
+      country: Germany
       nuts1: DE9
       nuts2: DE94
   - DE94G:
-      country: Germany
       name: Wesermarsch
+      country: Germany
       nuts1: DE9
       nuts2: DE94
   - DE94H:
-      country: Germany
       name: Wittmund
+      country: Germany
       nuts1: DE9
       nuts2: DE94
   - DEA11:
-      country: Germany
       name: Düsseldorf, Kreisfreie Stadt
+      country: Germany
       nuts1: DEA
       nuts2: DEA1
   - DEA12:
-      country: Germany
       name: Duisburg, Kreisfreie Stadt
+      country: Germany
       nuts1: DEA
       nuts2: DEA1
   - DEA13:
-      country: Germany
       name: Essen, Kreisfreie Stadt
+      country: Germany
       nuts1: DEA
       nuts2: DEA1
   - DEA14:
-      country: Germany
       name: Krefeld, Kreisfreie Stadt
+      country: Germany
       nuts1: DEA
       nuts2: DEA1
   - DEA15:
-      country: Germany
       name: Mönchengladbach, Kreisfreie Stadt
+      country: Germany
       nuts1: DEA
       nuts2: DEA1
   - DEA16:
-      country: Germany
       name: Mülheim an der Ruhr, Kreisfreie Stadt
+      country: Germany
       nuts1: DEA
       nuts2: DEA1
   - DEA17:
-      country: Germany
       name: Oberhausen, Kreisfreie Stadt
+      country: Germany
       nuts1: DEA
       nuts2: DEA1
   - DEA18:
-      country: Germany
       name: Remscheid, Kreisfreie Stadt
+      country: Germany
       nuts1: DEA
       nuts2: DEA1
   - DEA19:
-      country: Germany
       name: Solingen, Kreisfreie Stadt
+      country: Germany
       nuts1: DEA
       nuts2: DEA1
   - DEA1A:
-      country: Germany
       name: Wuppertal, Kreisfreie Stadt
+      country: Germany
       nuts1: DEA
       nuts2: DEA1
   - DEA1B:
-      country: Germany
       name: Kleve
+      country: Germany
       nuts1: DEA
       nuts2: DEA1
   - DEA1C:
-      country: Germany
       name: Mettmann
+      country: Germany
       nuts1: DEA
       nuts2: DEA1
   - DEA1D:
-      country: Germany
       name: Rhein-Kreis Neuss
+      country: Germany
       nuts1: DEA
       nuts2: DEA1
   - DEA1E:
-      country: Germany
       name: Viersen
+      country: Germany
       nuts1: DEA
       nuts2: DEA1
   - DEA1F:
-      country: Germany
       name: Wesel
+      country: Germany
       nuts1: DEA
       nuts2: DEA1
   - DEA22:
-      country: Germany
       name: Bonn, Kreisfreie Stadt
+      country: Germany
       nuts1: DEA
       nuts2: DEA2
   - DEA23:
-      country: Germany
       name: Köln, Kreisfreie Stadt
+      country: Germany
       nuts1: DEA
       nuts2: DEA2
   - DEA24:
-      country: Germany
       name: Leverkusen, Kreisfreie Stadt
+      country: Germany
       nuts1: DEA
       nuts2: DEA2
   - DEA26:
-      country: Germany
       name: Düren
+      country: Germany
       nuts1: DEA
       nuts2: DEA2
   - DEA27:
-      country: Germany
       name: Rhein-Erft-Kreis
+      country: Germany
       nuts1: DEA
       nuts2: DEA2
   - DEA28:
-      country: Germany
       name: Euskirchen
+      country: Germany
       nuts1: DEA
       nuts2: DEA2
   - DEA29:
-      country: Germany
       name: Heinsberg
+      country: Germany
       nuts1: DEA
       nuts2: DEA2
   - DEA2A:
-      country: Germany
       name: Oberbergischer Kreis
+      country: Germany
       nuts1: DEA
       nuts2: DEA2
   - DEA2B:
-      country: Germany
       name: Rheinisch-Bergischer Kreis
+      country: Germany
       nuts1: DEA
       nuts2: DEA2
   - DEA2C:
-      country: Germany
       name: Rhein-Sieg-Kreis
+      country: Germany
       nuts1: DEA
       nuts2: DEA2
   - DEA2D:
-      country: Germany
       name: Städteregion Aachen
+      country: Germany
       nuts1: DEA
       nuts2: DEA2
   - DEA31:
-      country: Germany
       name: Bottrop, Kreisfreie Stadt
+      country: Germany
       nuts1: DEA
       nuts2: DEA3
   - DEA32:
-      country: Germany
       name: Gelsenkirchen, Kreisfreie Stadt
+      country: Germany
       nuts1: DEA
       nuts2: DEA3
   - DEA33:
-      country: Germany
       name: Münster, Kreisfreie Stadt
+      country: Germany
       nuts1: DEA
       nuts2: DEA3
   - DEA34:
-      country: Germany
       name: Borken
+      country: Germany
       nuts1: DEA
       nuts2: DEA3
   - DEA35:
-      country: Germany
       name: Coesfeld
+      country: Germany
       nuts1: DEA
       nuts2: DEA3
   - DEA36:
-      country: Germany
       name: Recklinghausen
+      country: Germany
       nuts1: DEA
       nuts2: DEA3
   - DEA37:
-      country: Germany
       name: Steinfurt
+      country: Germany
       nuts1: DEA
       nuts2: DEA3
   - DEA38:
-      country: Germany
       name: Warendorf
+      country: Germany
       nuts1: DEA
       nuts2: DEA3
   - DEA41:
-      country: Germany
       name: Bielefeld, Kreisfreie Stadt
+      country: Germany
       nuts1: DEA
       nuts2: DEA4
   - DEA42:
-      country: Germany
       name: Gütersloh
+      country: Germany
       nuts1: DEA
       nuts2: DEA4
   - DEA43:
-      country: Germany
       name: Herford
+      country: Germany
       nuts1: DEA
       nuts2: DEA4
   - DEA44:
-      country: Germany
       name: Höxter
+      country: Germany
       nuts1: DEA
       nuts2: DEA4
   - DEA45:
-      country: Germany
       name: Lippe
+      country: Germany
       nuts1: DEA
       nuts2: DEA4
   - DEA46:
-      country: Germany
       name: Minden-Lübbecke
+      country: Germany
       nuts1: DEA
       nuts2: DEA4
   - DEA47:
-      country: Germany
       name: Paderborn
+      country: Germany
       nuts1: DEA
       nuts2: DEA4
   - DEA51:
-      country: Germany
       name: Bochum, Kreisfreie Stadt
+      country: Germany
       nuts1: DEA
       nuts2: DEA5
   - DEA52:
-      country: Germany
       name: Dortmund, Kreisfreie Stadt
+      country: Germany
       nuts1: DEA
       nuts2: DEA5
   - DEA53:
-      country: Germany
       name: Hagen, Kreisfreie Stadt
+      country: Germany
       nuts1: DEA
       nuts2: DEA5
   - DEA54:
-      country: Germany
       name: Hamm, Kreisfreie Stadt
+      country: Germany
       nuts1: DEA
       nuts2: DEA5
   - DEA55:
-      country: Germany
       name: Herne, Kreisfreie Stadt
+      country: Germany
       nuts1: DEA
       nuts2: DEA5
   - DEA56:
-      country: Germany
       name: Ennepe-Ruhr-Kreis
+      country: Germany
       nuts1: DEA
       nuts2: DEA5
   - DEA57:
-      country: Germany
       name: Hochsauerlandkreis
+      country: Germany
       nuts1: DEA
       nuts2: DEA5
   - DEA58:
-      country: Germany
       name: Märkischer Kreis
+      country: Germany
       nuts1: DEA
       nuts2: DEA5
   - DEA59:
-      country: Germany
       name: Olpe
+      country: Germany
       nuts1: DEA
       nuts2: DEA5
   - DEA5A:
-      country: Germany
       name: Siegen-Wittgenstein
+      country: Germany
       nuts1: DEA
       nuts2: DEA5
   - DEA5B:
-      country: Germany
       name: Soest
+      country: Germany
       nuts1: DEA
       nuts2: DEA5
   - DEA5C:
-      country: Germany
       name: Unna
+      country: Germany
       nuts1: DEA
       nuts2: DEA5
   - DEB11:
-      country: Germany
       name: Koblenz, Kreisfreie Stadt
+      country: Germany
       nuts1: DEB
       nuts2: DEB1
   - DEB12:
-      country: Germany
       name: Ahrweiler
+      country: Germany
       nuts1: DEB
       nuts2: DEB1
   - DEB13:
-      country: Germany
       name: Altenkirchen (Westerwald)
+      country: Germany
       nuts1: DEB
       nuts2: DEB1
   - DEB14:
-      country: Germany
       name: Bad Kreuznach
+      country: Germany
       nuts1: DEB
       nuts2: DEB1
   - DEB15:
-      country: Germany
       name: Birkenfeld
+      country: Germany
       nuts1: DEB
       nuts2: DEB1
   - DEB17:
-      country: Germany
       name: Mayen-Koblenz
+      country: Germany
       nuts1: DEB
       nuts2: DEB1
   - DEB18:
-      country: Germany
       name: Neuwied
+      country: Germany
       nuts1: DEB
       nuts2: DEB1
   - DEB1A:
-      country: Germany
       name: Rhein-Lahn-Kreis
+      country: Germany
       nuts1: DEB
       nuts2: DEB1
   - DEB1B:
-      country: Germany
       name: Westerwaldkreis
+      country: Germany
       nuts1: DEB
       nuts2: DEB1
   - DEB1C:
-      country: Germany
       name: Cochem-Zell
+      country: Germany
       nuts1: DEB
       nuts2: DEB1
   - DEB1D:
-      country: Germany
       name: Rhein-Hunsrück-Kreis
+      country: Germany
       nuts1: DEB
       nuts2: DEB1
   - DEB21:
-      country: Germany
       name: Trier, Kreisfreie Stadt
+      country: Germany
       nuts1: DEB
       nuts2: DEB2
   - DEB22:
-      country: Germany
       name: Bernkastel-Wittlich
+      country: Germany
       nuts1: DEB
       nuts2: DEB2
   - DEB23:
-      country: Germany
       name: Eifelkreis Bitburg-Prüm
+      country: Germany
       nuts1: DEB
       nuts2: DEB2
   - DEB24:
-      country: Germany
       name: Vulkaneifel
+      country: Germany
       nuts1: DEB
       nuts2: DEB2
   - DEB25:
-      country: Germany
       name: Trier-Saarburg
+      country: Germany
       nuts1: DEB
       nuts2: DEB2
   - DEB31:
-      country: Germany
       name: Frankenthal (Pfalz), Kreisfreie Stadt
+      country: Germany
       nuts1: DEB
       nuts2: DEB3
   - DEB32:
-      country: Germany
       name: Kaiserslautern, Kreisfreie Stadt
+      country: Germany
       nuts1: DEB
       nuts2: DEB3
   - DEB33:
-      country: Germany
       name: Landau in der Pfalz, Kreisfreie Stadt
+      country: Germany
       nuts1: DEB
       nuts2: DEB3
   - DEB34:
-      country: Germany
       name: Ludwigshafen am Rhein, Kreisfreie Stadt
+      country: Germany
       nuts1: DEB
       nuts2: DEB3
   - DEB35:
-      country: Germany
       name: Mainz, Kreisfreie Stadt
+      country: Germany
       nuts1: DEB
       nuts2: DEB3
   - DEB36:
-      country: Germany
       name: Neustadt an der Weinstraße, Kreisfreie Stadt
+      country: Germany
       nuts1: DEB
       nuts2: DEB3
   - DEB37:
-      country: Germany
       name: Pirmasens, Kreisfreie Stadt
+      country: Germany
       nuts1: DEB
       nuts2: DEB3
   - DEB38:
-      country: Germany
       name: Speyer, Kreisfreie Stadt
+      country: Germany
       nuts1: DEB
       nuts2: DEB3
   - DEB39:
-      country: Germany
       name: Worms, Kreisfreie Stadt
+      country: Germany
       nuts1: DEB
       nuts2: DEB3
   - DEB3A:
-      country: Germany
       name: Zweibrücken, Kreisfreie Stadt
+      country: Germany
       nuts1: DEB
       nuts2: DEB3
   - DEB3B:
-      country: Germany
       name: Alzey-Worms
+      country: Germany
       nuts1: DEB
       nuts2: DEB3
   - DEB3C:
-      country: Germany
       name: Bad Dürkheim
+      country: Germany
       nuts1: DEB
       nuts2: DEB3
   - DEB3D:
-      country: Germany
       name: Donnersbergkreis
+      country: Germany
       nuts1: DEB
       nuts2: DEB3
   - DEB3E:
-      country: Germany
       name: Germersheim
+      country: Germany
       nuts1: DEB
       nuts2: DEB3
   - DEB3F:
-      country: Germany
       name: Kaiserslautern, Landkreis
+      country: Germany
       nuts1: DEB
       nuts2: DEB3
   - DEB3G:
-      country: Germany
       name: Kusel
+      country: Germany
       nuts1: DEB
       nuts2: DEB3
   - DEB3H:
-      country: Germany
       name: Südliche Weinstraße
+      country: Germany
       nuts1: DEB
       nuts2: DEB3
   - DEB3I:
-      country: Germany
       name: Rhein-Pfalz-Kreis
+      country: Germany
       nuts1: DEB
       nuts2: DEB3
   - DEB3J:
-      country: Germany
       name: Mainz-Bingen
+      country: Germany
       nuts1: DEB
       nuts2: DEB3
   - DEB3K:
-      country: Germany
       name: Südwestpfalz
+      country: Germany
       nuts1: DEB
       nuts2: DEB3
   - DEC01:
-      country: Germany
       name: Regionalverband Saarbrücken
+      country: Germany
       nuts1: DEC
       nuts2: DEC0
   - DEC02:
-      country: Germany
       name: Merzig-Wadern
+      country: Germany
       nuts1: DEC
       nuts2: DEC0
   - DEC03:
-      country: Germany
       name: Neunkirchen
+      country: Germany
       nuts1: DEC
       nuts2: DEC0
   - DEC04:
-      country: Germany
       name: Saarlouis
+      country: Germany
       nuts1: DEC
       nuts2: DEC0
   - DEC05:
-      country: Germany
       name: Saarpfalz-Kreis
+      country: Germany
       nuts1: DEC
       nuts2: DEC0
   - DEC06:
-      country: Germany
       name: St. Wendel
+      country: Germany
       nuts1: DEC
       nuts2: DEC0
   - DED21:
-      country: Germany
       name: Dresden, Kreisfreie Stadt
+      country: Germany
       nuts1: DED
       nuts2: DED2
   - DED2C:
-      country: Germany
       name: Bautzen
+      country: Germany
       nuts1: DED
       nuts2: DED2
   - DED2D:
-      country: Germany
       name: Görlitz
+      country: Germany
       nuts1: DED
       nuts2: DED2
   - DED2E:
-      country: Germany
       name: Meißen
+      country: Germany
       nuts1: DED
       nuts2: DED2
   - DED2F:
-      country: Germany
       name: Sächsische Schweiz-Osterzgebirge
+      country: Germany
       nuts1: DED
       nuts2: DED2
   - DED41:
-      country: Germany
       name: Chemnitz, Kreisfreie Stadt
+      country: Germany
       nuts1: DED
       nuts2: DED4
   - DED42:
-      country: Germany
       name: Erzgebirgskreis
+      country: Germany
       nuts1: DED
       nuts2: DED4
   - DED43:
-      country: Germany
       name: Mittelsachsen
+      country: Germany
       nuts1: DED
       nuts2: DED4
   - DED44:
-      country: Germany
       name: Vogtlandkreis
+      country: Germany
       nuts1: DED
       nuts2: DED4
   - DED45:
-      country: Germany
       name: Zwickau
+      country: Germany
       nuts1: DED
       nuts2: DED4
   - DED51:
-      country: Germany
       name: Leipzig, Kreisfreie Stadt
+      country: Germany
       nuts1: DED
       nuts2: DED5
   - DED52:
-      country: Germany
       name: Leipzig
+      country: Germany
       nuts1: DED
       nuts2: DED5
   - DED53:
-      country: Germany
       name: Nordsachsen
+      country: Germany
       nuts1: DED
       nuts2: DED5
   - DEE01:
-      country: Germany
       name: Dessau-Roßlau, Kreisfreie Stadt
+      country: Germany
       nuts1: DEE
       nuts2: DEE0
   - DEE02:
-      country: Germany
       name: Halle (Saale), Kreisfreie Stadt
+      country: Germany
       nuts1: DEE
       nuts2: DEE0
   - DEE03:
-      country: Germany
       name: Magdeburg, Kreisfreie Stadt
+      country: Germany
       nuts1: DEE
       nuts2: DEE0
   - DEE04:
-      country: Germany
       name: Altmarkkreis Salzwedel
+      country: Germany
       nuts1: DEE
       nuts2: DEE0
   - DEE05:
-      country: Germany
       name: Anhalt-Bitterfeld
+      country: Germany
       nuts1: DEE
       nuts2: DEE0
   - DEE06:
-      country: Germany
       name: Jerichower Land
+      country: Germany
       nuts1: DEE
       nuts2: DEE0
   - DEE07:
-      country: Germany
       name: Börde
+      country: Germany
       nuts1: DEE
       nuts2: DEE0
   - DEE08:
-      country: Germany
       name: Burgenlandkreis
+      country: Germany
       nuts1: DEE
       nuts2: DEE0
   - DEE09:
-      country: Germany
       name: Harz
+      country: Germany
       nuts1: DEE
       nuts2: DEE0
   - DEE0A:
-      country: Germany
       name: Mansfeld-Südharz
+      country: Germany
       nuts1: DEE
       nuts2: DEE0
   - DEE0B:
-      country: Germany
       name: Saalekreis
+      country: Germany
       nuts1: DEE
       nuts2: DEE0
   - DEE0C:
-      country: Germany
       name: Salzlandkreis
+      country: Germany
       nuts1: DEE
       nuts2: DEE0
   - DEE0D:
-      country: Germany
       name: Stendal
+      country: Germany
       nuts1: DEE
       nuts2: DEE0
   - DEE0E:
-      country: Germany
       name: Wittenberg
+      country: Germany
       nuts1: DEE
       nuts2: DEE0
   - DEF01:
-      country: Germany
       name: Flensburg, Kreisfreie Stadt
+      country: Germany
       nuts1: DEF
       nuts2: DEF0
   - DEF02:
-      country: Germany
       name: Kiel, Kreisfreie Stadt
+      country: Germany
       nuts1: DEF
       nuts2: DEF0
   - DEF03:
-      country: Germany
       name: Lübeck, Kreisfreie Stadt
+      country: Germany
       nuts1: DEF
       nuts2: DEF0
   - DEF04:
-      country: Germany
       name: Neumünster, Kreisfreie Stadt
+      country: Germany
       nuts1: DEF
       nuts2: DEF0
   - DEF05:
-      country: Germany
       name: Dithmarschen
+      country: Germany
       nuts1: DEF
       nuts2: DEF0
   - DEF06:
-      country: Germany
       name: Herzogtum Lauenburg
+      country: Germany
       nuts1: DEF
       nuts2: DEF0
   - DEF07:
-      country: Germany
       name: Nordfriesland
+      country: Germany
       nuts1: DEF
       nuts2: DEF0
   - DEF08:
-      country: Germany
       name: Ostholstein
+      country: Germany
       nuts1: DEF
       nuts2: DEF0
   - DEF09:
-      country: Germany
       name: Pinneberg
+      country: Germany
       nuts1: DEF
       nuts2: DEF0
   - DEF0A:
-      country: Germany
       name: Plön
+      country: Germany
       nuts1: DEF
       nuts2: DEF0
   - DEF0B:
-      country: Germany
       name: Rendsburg-Eckernförde
+      country: Germany
       nuts1: DEF
       nuts2: DEF0
   - DEF0C:
-      country: Germany
       name: Schleswig-Flensburg
+      country: Germany
       nuts1: DEF
       nuts2: DEF0
   - DEF0D:
-      country: Germany
       name: Segeberg
+      country: Germany
       nuts1: DEF
       nuts2: DEF0
   - DEF0E:
-      country: Germany
       name: Steinburg
+      country: Germany
       nuts1: DEF
       nuts2: DEF0
   - DEF0F:
-      country: Germany
       name: Stormarn
+      country: Germany
       nuts1: DEF
       nuts2: DEF0
   - DEG01:
-      country: Germany
       name: Erfurt, Kreisfreie Stadt
+      country: Germany
       nuts1: DEG
       nuts2: DEG0
   - DEG02:
-      country: Germany
       name: Gera, Kreisfreie Stadt
+      country: Germany
       nuts1: DEG
       nuts2: DEG0
   - DEG03:
-      country: Germany
       name: Jena, Kreisfreie Stadt
+      country: Germany
       nuts1: DEG
       nuts2: DEG0
   - DEG04:
-      country: Germany
       name: Suhl, Kreisfreie Stadt
+      country: Germany
       nuts1: DEG
       nuts2: DEG0
   - DEG05:
-      country: Germany
       name: Weimar, Kreisfreie Stadt
+      country: Germany
       nuts1: DEG
       nuts2: DEG0
   - DEG06:
-      country: Germany
       name: Eichsfeld
+      country: Germany
       nuts1: DEG
       nuts2: DEG0
   - DEG07:
-      country: Germany
       name: Nordhausen
+      country: Germany
       nuts1: DEG
       nuts2: DEG0
   - DEG09:
-      country: Germany
       name: Unstrut-Hainich-Kreis
+      country: Germany
       nuts1: DEG
       nuts2: DEG0
   - DEG0A:
-      country: Germany
       name: Kyffhäuserkreis
+      country: Germany
       nuts1: DEG
       nuts2: DEG0
   - DEG0B:
-      country: Germany
       name: Schmalkalden-Meiningen
+      country: Germany
       nuts1: DEG
       nuts2: DEG0
   - DEG0C:
-      country: Germany
       name: Gotha
+      country: Germany
       nuts1: DEG
       nuts2: DEG0
   - DEG0D:
-      country: Germany
       name: Sömmerda
+      country: Germany
       nuts1: DEG
       nuts2: DEG0
   - DEG0E:
-      country: Germany
       name: Hildburghausen
+      country: Germany
       nuts1: DEG
       nuts2: DEG0
   - DEG0F:
-      country: Germany
       name: Ilm-Kreis
+      country: Germany
       nuts1: DEG
       nuts2: DEG0
   - DEG0G:
-      country: Germany
       name: Weimarer Land
+      country: Germany
       nuts1: DEG
       nuts2: DEG0
   - DEG0H:
-      country: Germany
       name: Sonneberg
+      country: Germany
       nuts1: DEG
       nuts2: DEG0
   - DEG0I:
-      country: Germany
       name: Saalfeld-Rudolstadt
+      country: Germany
       nuts1: DEG
       nuts2: DEG0
   - DEG0J:
-      country: Germany
       name: Saale-Holzland-Kreis
+      country: Germany
       nuts1: DEG
       nuts2: DEG0
   - DEG0K:
-      country: Germany
       name: Saale-Orla-Kreis
+      country: Germany
       nuts1: DEG
       nuts2: DEG0
   - DEG0L:
-      country: Germany
       name: Greiz
+      country: Germany
       nuts1: DEG
       nuts2: DEG0
   - DEG0M:
-      country: Germany
       name: Altenburger Land
+      country: Germany
       nuts1: DEG
       nuts2: DEG0
   - DEG0N:
-      country: Germany
       name: Eisenach, Kreisfreie Stadt
+      country: Germany
       nuts1: DEG
       nuts2: DEG0
   - DEG0P:
-      country: Germany
       name: Wartburgkreis
+      country: Germany
       nuts1: DEG
       nuts2: DEG0
   - DEZZZ:
-      country: Germany
       name: Extra-Regio NUTS 3
+      country: Germany
       nuts1: DEZ
       nuts2: DEZZ
   - EE001:
-      country: Estonia
       name: Põhja-Eesti
+      country: Estonia
       nuts1: EE0
       nuts2: EE00
   - EE004:
-      country: Estonia
       name: Lääne-Eesti
+      country: Estonia
       nuts1: EE0
       nuts2: EE00
   - EE008:
-      country: Estonia
       name: Lõuna-Eesti
+      country: Estonia
       nuts1: EE0
       nuts2: EE00
   - EE009:
-      country: Estonia
       name: Kesk-Eesti
+      country: Estonia
       nuts1: EE0
       nuts2: EE00
   - EE00A:
-      country: Estonia
       name: Kirde-Eesti
+      country: Estonia
       nuts1: EE0
       nuts2: EE00
   - EEZZZ:
-      country: Estonia
       name: Extra-Regio NUTS 3
+      country: Estonia
       nuts1: EEZ
       nuts2: EEZZ
   - IE041:
-      country: Ireland
       name: Border
+      country: Ireland
       nuts1: IE0
       nuts2: IE04
   - IE042:
-      country: Ireland
       name: West
+      country: Ireland
       nuts1: IE0
       nuts2: IE04
   - IE051:
+      name: Mid-West 
       country: Ireland
-      name: Mid-West
       nuts1: IE0
       nuts2: IE05
   - IE052:
+      name: South-East 
       country: Ireland
-      name: South-East
       nuts1: IE0
       nuts2: IE05
   - IE053:
+      name: South-West 
       country: Ireland
-      name: South-West
       nuts1: IE0
       nuts2: IE05
   - IE061:
-      country: Ireland
       name: Dublin
+      country: Ireland
       nuts1: IE0
       nuts2: IE06
   - IE062:
-      country: Ireland
       name: Mid-East
+      country: Ireland
       nuts1: IE0
       nuts2: IE06
   - IE063:
-      country: Ireland
       name: Midland
+      country: Ireland
       nuts1: IE0
       nuts2: IE06
   - IEZZZ:
-      country: Ireland
       name: Extra-Regio NUTS 3
+      country: Ireland
       nuts1: IEZ
       nuts2: IEZZ
   - EL301:
-      country: Greece
       name: Βόρειος Τομέας Αθηνών
+      country: Greece
       nuts1: EL3
       nuts2: EL30
   - EL302:
-      country: Greece
       name: Δυτικός Τομέας Αθηνών
+      country: Greece
       nuts1: EL3
       nuts2: EL30
   - EL303:
-      country: Greece
       name: Κεντρικός Τομέας Αθηνών
+      country: Greece
       nuts1: EL3
       nuts2: EL30
   - EL304:
-      country: Greece
       name: Νότιος Τομέας Αθηνών
+      country: Greece
       nuts1: EL3
       nuts2: EL30
   - EL305:
-      country: Greece
       name: Ανατολική Αττική
+      country: Greece
       nuts1: EL3
       nuts2: EL30
   - EL306:
-      country: Greece
       name: Δυτική Αττική
+      country: Greece
       nuts1: EL3
       nuts2: EL30
   - EL307:
-      country: Greece
       name: Πειραιάς, Νήσοι
+      country: Greece
       nuts1: EL3
       nuts2: EL30
   - EL411:
-      country: Greece
       name: Λέσβος, Λήμνος
+      country: Greece
       nuts1: EL4
       nuts2: EL41
   - EL412:
-      country: Greece
       name: Ικαρία, Σάμος
+      country: Greece
       nuts1: EL4
       nuts2: EL41
   - EL413:
-      country: Greece
       name: Χίος
+      country: Greece
       nuts1: EL4
       nuts2: EL41
   - EL421:
-      country: Greece
       name: Κάλυμνος, Κάρπαθος – Ηρωική Νήσος Κάσος, Κως, Ρόδος
+      country: Greece
       nuts1: EL4
       nuts2: EL42
   - EL422:
-      country: Greece
       name: Άνδρος, Θήρα, Κέα, Μήλος, Μύκονος, Νάξος, Πάρος, Σύρος, Τήνος
+      country: Greece
       nuts1: EL4
       nuts2: EL42
   - EL431:
-      country: Greece
       name: Ηράκλειο
+      country: Greece
       nuts1: EL4
       nuts2: EL43
   - EL432:
-      country: Greece
       name: Λασίθι
+      country: Greece
       nuts1: EL4
       nuts2: EL43
   - EL433:
-      country: Greece
       name: Ρέθυμνο
+      country: Greece
       nuts1: EL4
       nuts2: EL43
   - EL434:
-      country: Greece
       name: Χανιά
+      country: Greece
       nuts1: EL4
       nuts2: EL43
   - EL511:
-      country: Greece
       name: Έβρος
+      country: Greece
       nuts1: EL5
       nuts2: EL51
   - EL512:
-      country: Greece
       name: Ξάνθη
+      country: Greece
       nuts1: EL5
       nuts2: EL51
   - EL513:
-      country: Greece
       name: Ροδόπη
+      country: Greece
       nuts1: EL5
       nuts2: EL51
   - EL514:
-      country: Greece
       name: Δράμα
+      country: Greece
       nuts1: EL5
       nuts2: EL51
   - EL515:
-      country: Greece
       name: Θάσος, Καβάλα
+      country: Greece
       nuts1: EL5
       nuts2: EL51
   - EL521:
-      country: Greece
       name: Ημαθία
+      country: Greece
       nuts1: EL5
       nuts2: EL52
   - EL522:
-      country: Greece
       name: Θεσσαλονίκη
+      country: Greece
       nuts1: EL5
       nuts2: EL52
   - EL523:
-      country: Greece
       name: Κιλκίς
+      country: Greece
       nuts1: EL5
       nuts2: EL52
   - EL524:
-      country: Greece
       name: Πέλλα
+      country: Greece
       nuts1: EL5
       nuts2: EL52
   - EL525:
-      country: Greece
       name: Πιερία
+      country: Greece
       nuts1: EL5
       nuts2: EL52
   - EL526:
-      country: Greece
       name: Σέρρες
+      country: Greece
       nuts1: EL5
       nuts2: EL52
   - EL527:
-      country: Greece
       name: Χαλκιδική
+      country: Greece
       nuts1: EL5
       nuts2: EL52
   - EL531:
-      country: Greece
       name: Γρεβενά, Κοζάνη
+      country: Greece
       nuts1: EL5
       nuts2: EL53
   - EL532:
-      country: Greece
       name: Καστοριά
+      country: Greece
       nuts1: EL5
       nuts2: EL53
   - EL533:
-      country: Greece
       name: Φλώρινα
+      country: Greece
       nuts1: EL5
       nuts2: EL53
   - EL541:
-      country: Greece
       name: Άρτα, Πρέβεζα
+      country: Greece
       nuts1: EL5
       nuts2: EL54
   - EL542:
-      country: Greece
       name: Θεσπρωτία
+      country: Greece
       nuts1: EL5
       nuts2: EL54
   - EL543:
-      country: Greece
       name: Ιωάννινα
+      country: Greece
       nuts1: EL5
       nuts2: EL54
   - EL611:
-      country: Greece
       name: Καρδίτσα, Τρίκαλα
+      country: Greece
       nuts1: EL6
       nuts2: EL61
   - EL612:
-      country: Greece
       name: Λάρισα
+      country: Greece
       nuts1: EL6
       nuts2: EL61
   - EL613:
-      country: Greece
       name: Μαγνησία, Σποράδες
+      country: Greece
       nuts1: EL6
       nuts2: EL61
   - EL621:
-      country: Greece
       name: Ζάκυνθος
+      country: Greece
       nuts1: EL6
       nuts2: EL62
   - EL622:
-      country: Greece
       name: Κέρκυρα
+      country: Greece
       nuts1: EL6
       nuts2: EL62
   - EL623:
-      country: Greece
       name: Ιθάκη, Κεφαλληνία
+      country: Greece
       nuts1: EL6
       nuts2: EL62
   - EL624:
-      country: Greece
       name: Λευκάδα
+      country: Greece
       nuts1: EL6
       nuts2: EL62
   - EL631:
-      country: Greece
       name: Αιτωλοακαρνανία
+      country: Greece
       nuts1: EL6
       nuts2: EL63
   - EL632:
-      country: Greece
       name: Αχαΐα
+      country: Greece
       nuts1: EL6
       nuts2: EL63
   - EL633:
-      country: Greece
       name: Ηλεία
+      country: Greece
       nuts1: EL6
       nuts2: EL63
   - EL641:
-      country: Greece
       name: Βοιωτία
+      country: Greece
       nuts1: EL6
       nuts2: EL64
   - EL642:
-      country: Greece
       name: Εύβοια
+      country: Greece
       nuts1: EL6
       nuts2: EL64
   - EL643:
-      country: Greece
       name: Ευρυτανία
+      country: Greece
       nuts1: EL6
       nuts2: EL64
   - EL644:
-      country: Greece
       name: Φθιώτιδα
+      country: Greece
       nuts1: EL6
       nuts2: EL64
   - EL645:
-      country: Greece
       name: Φωκίδα
+      country: Greece
       nuts1: EL6
       nuts2: EL64
   - EL651:
-      country: Greece
       name: Αργολίδα, Αρκαδία
+      country: Greece
       nuts1: EL6
       nuts2: EL65
   - EL652:
-      country: Greece
       name: Κορινθία
+      country: Greece
       nuts1: EL6
       nuts2: EL65
   - EL653:
-      country: Greece
       name: Λακωνία, Μεσσηνία
+      country: Greece
       nuts1: EL6
       nuts2: EL65
   - ELZZZ:
-      country: Greece
       name: Extra-Regio NUTS 3
+      country: Greece
       nuts1: ELZ
       nuts2: ELZZ
   - ES111:
-      country: Spain
       name: A Coruña
+      country: Spain
       nuts1: ES1
       nuts2: ES11
   - ES112:
-      country: Spain
       name: Lugo
+      country: Spain
       nuts1: ES1
       nuts2: ES11
   - ES113:
-      country: Spain
       name: Ourense
+      country: Spain
       nuts1: ES1
       nuts2: ES11
   - ES114:
-      country: Spain
       name: Pontevedra
+      country: Spain
       nuts1: ES1
       nuts2: ES11
   - ES120:
-      country: Spain
       name: Asturias
+      country: Spain
       nuts1: ES1
       nuts2: ES12
   - ES130:
-      country: Spain
       name: Cantabria
+      country: Spain
       nuts1: ES1
       nuts2: ES13
   - ES211:
-      country: Spain
       name: Araba/Álava
+      country: Spain
       nuts1: ES2
       nuts2: ES21
   - ES212:
-      country: Spain
       name: Gipuzkoa
+      country: Spain
       nuts1: ES2
       nuts2: ES21
   - ES213:
-      country: Spain
       name: Bizkaia
+      country: Spain
       nuts1: ES2
       nuts2: ES21
   - ES220:
-      country: Spain
       name: Navarra
+      country: Spain
       nuts1: ES2
       nuts2: ES22
   - ES230:
-      country: Spain
       name: La Rioja
+      country: Spain
       nuts1: ES2
       nuts2: ES23
   - ES241:
-      country: Spain
       name: Huesca
+      country: Spain
       nuts1: ES2
       nuts2: ES24
   - ES242:
-      country: Spain
       name: Teruel
+      country: Spain
       nuts1: ES2
       nuts2: ES24
   - ES243:
-      country: Spain
       name: Zaragoza
+      country: Spain
       nuts1: ES2
       nuts2: ES24
   - ES300:
-      country: Spain
       name: Madrid
+      country: Spain
       nuts1: ES3
       nuts2: ES30
   - ES411:
-      country: Spain
       name: Ávila
+      country: Spain
       nuts1: ES4
       nuts2: ES41
   - ES412:
-      country: Spain
       name: Burgos
+      country: Spain
       nuts1: ES4
       nuts2: ES41
   - ES413:
-      country: Spain
       name: León
+      country: Spain
       nuts1: ES4
       nuts2: ES41
   - ES414:
-      country: Spain
       name: Palencia
+      country: Spain
       nuts1: ES4
       nuts2: ES41
   - ES415:
-      country: Spain
       name: Salamanca
+      country: Spain
       nuts1: ES4
       nuts2: ES41
   - ES416:
-      country: Spain
       name: Segovia
+      country: Spain
       nuts1: ES4
       nuts2: ES41
   - ES417:
-      country: Spain
       name: Soria
+      country: Spain
       nuts1: ES4
       nuts2: ES41
   - ES418:
-      country: Spain
       name: Valladolid
+      country: Spain
       nuts1: ES4
       nuts2: ES41
   - ES419:
-      country: Spain
       name: Zamora
+      country: Spain
       nuts1: ES4
       nuts2: ES41
   - ES421:
-      country: Spain
       name: Albacete
+      country: Spain
       nuts1: ES4
       nuts2: ES42
   - ES422:
-      country: Spain
       name: Ciudad Real
+      country: Spain
       nuts1: ES4
       nuts2: ES42
   - ES423:
-      country: Spain
       name: Cuenca
+      country: Spain
       nuts1: ES4
       nuts2: ES42
   - ES424:
-      country: Spain
       name: Guadalajara
+      country: Spain
       nuts1: ES4
       nuts2: ES42
   - ES425:
-      country: Spain
       name: Toledo
+      country: Spain
       nuts1: ES4
       nuts2: ES42
   - ES431:
-      country: Spain
       name: Badajoz
+      country: Spain
       nuts1: ES4
       nuts2: ES43
   - ES432:
-      country: Spain
       name: Cáceres
+      country: Spain
       nuts1: ES4
       nuts2: ES43
   - ES511:
-      country: Spain
       name: Barcelona
+      country: Spain
       nuts1: ES5
       nuts2: ES51
   - ES512:
-      country: Spain
       name: Girona
+      country: Spain
       nuts1: ES5
       nuts2: ES51
   - ES513:
-      country: Spain
       name: Lleida
+      country: Spain
       nuts1: ES5
       nuts2: ES51
   - ES514:
-      country: Spain
       name: Tarragona
+      country: Spain
       nuts1: ES5
       nuts2: ES51
   - ES521:
-      country: Spain
       name: Alicante/Alacant
+      country: Spain
       nuts1: ES5
       nuts2: ES52
   - ES522:
-      country: Spain
       name: Castellón/Castelló
+      country: Spain
       nuts1: ES5
       nuts2: ES52
   - ES523:
-      country: Spain
       name: Valencia/València
+      country: Spain
       nuts1: ES5
       nuts2: ES52
   - ES531:
-      country: Spain
       name: Eivissa y Formentera
+      country: Spain
       nuts1: ES5
       nuts2: ES53
   - ES532:
-      country: Spain
       name: Mallorca
+      country: Spain
       nuts1: ES5
       nuts2: ES53
   - ES533:
-      country: Spain
       name: Menorca
+      country: Spain
       nuts1: ES5
       nuts2: ES53
   - ES611:
-      country: Spain
       name: Almería
+      country: Spain
       nuts1: ES6
       nuts2: ES61
   - ES612:
-      country: Spain
       name: Cádiz
+      country: Spain
       nuts1: ES6
       nuts2: ES61
   - ES613:
-      country: Spain
       name: Córdoba
+      country: Spain
       nuts1: ES6
       nuts2: ES61
   - ES614:
-      country: Spain
       name: Granada
+      country: Spain
       nuts1: ES6
       nuts2: ES61
   - ES615:
-      country: Spain
       name: Huelva
+      country: Spain
       nuts1: ES6
       nuts2: ES61
   - ES616:
-      country: Spain
       name: Jaén
+      country: Spain
       nuts1: ES6
       nuts2: ES61
   - ES617:
-      country: Spain
       name: Málaga
+      country: Spain
       nuts1: ES6
       nuts2: ES61
   - ES618:
-      country: Spain
       name: Sevilla
+      country: Spain
       nuts1: ES6
       nuts2: ES61
   - ES620:
-      country: Spain
       name: Murcia
+      country: Spain
       nuts1: ES6
       nuts2: ES62
   - ES630:
-      country: Spain
       name: Ceuta
+      country: Spain
       nuts1: ES6
       nuts2: ES63
   - ES640:
-      country: Spain
       name: Melilla
+      country: Spain
       nuts1: ES6
       nuts2: ES64
   - ES703:
-      country: Spain
       name: El Hierro
+      country: Spain
       nuts1: ES7
       nuts2: ES70
   - ES704:
-      country: Spain
       name: Fuerteventura
+      country: Spain
       nuts1: ES7
       nuts2: ES70
   - ES705:
-      country: Spain
       name: Gran Canaria
+      country: Spain
       nuts1: ES7
       nuts2: ES70
   - ES706:
-      country: Spain
       name: La Gomera
+      country: Spain
       nuts1: ES7
       nuts2: ES70
   - ES707:
-      country: Spain
       name: La Palma
+      country: Spain
       nuts1: ES7
       nuts2: ES70
   - ES708:
-      country: Spain
       name: Lanzarote
+      country: Spain
       nuts1: ES7
       nuts2: ES70
   - ES709:
-      country: Spain
       name: Tenerife
+      country: Spain
       nuts1: ES7
       nuts2: ES70
   - ESZZZ:
-      country: Spain
       name: Extra-Regio NUTS 3
+      country: Spain
       nuts1: ESZ
       nuts2: ESZZ
   - FR101:
-      country: France
       name: Paris
+      country: France
       nuts1: FR1
       nuts2: FR10
   - FR102:
+      name: Seine-et-Marne 
       country: France
-      name: Seine-et-Marne
       nuts1: FR1
       nuts2: FR10
   - FR103:
+      name: Yvelines 
       country: France
-      name: Yvelines
       nuts1: FR1
       nuts2: FR10
   - FR104:
-      country: France
       name: Essonne
+      country: France
       nuts1: FR1
       nuts2: FR10
   - FR105:
+      name: Hauts-de-Seine 
       country: France
-      name: Hauts-de-Seine
       nuts1: FR1
       nuts2: FR10
   - FR106:
+      name: Seine-Saint-Denis 
       country: France
-      name: Seine-Saint-Denis
       nuts1: FR1
       nuts2: FR10
   - FR107:
-      country: France
       name: Val-de-Marne
+      country: France
       nuts1: FR1
       nuts2: FR10
   - FR108:
-      country: France
       name: Val-d’Oise
+      country: France
       nuts1: FR1
       nuts2: FR10
   - FRB01:
-      country: France
       name: Cher
+      country: France
       nuts1: FRB
       nuts2: FRB0
   - FRB02:
-      country: France
       name: Eure-et-Loir
+      country: France
       nuts1: FRB
       nuts2: FRB0
   - FRB03:
-      country: France
       name: Indre
+      country: France
       nuts1: FRB
       nuts2: FRB0
   - FRB04:
-      country: France
       name: Indre-et-Loire
+      country: France
       nuts1: FRB
       nuts2: FRB0
   - FRB05:
-      country: France
       name: Loir-et-Cher
+      country: France
       nuts1: FRB
       nuts2: FRB0
   - FRB06:
-      country: France
       name: Loiret
+      country: France
       nuts1: FRB
       nuts2: FRB0
   - FRC11:
-      country: France
       name: Côte-d’Or
+      country: France
       nuts1: FRC
       nuts2: FRC1
   - FRC12:
-      country: France
       name: Nièvre
+      country: France
       nuts1: FRC
       nuts2: FRC1
   - FRC13:
-      country: France
       name: Saône-et-Loire
+      country: France
       nuts1: FRC
       nuts2: FRC1
   - FRC14:
-      country: France
       name: Yonne
+      country: France
       nuts1: FRC
       nuts2: FRC1
   - FRC21:
-      country: France
       name: Doubs
+      country: France
       nuts1: FRC
       nuts2: FRC2
   - FRC22:
-      country: France
       name: Jura
+      country: France
       nuts1: FRC
       nuts2: FRC2
   - FRC23:
-      country: France
       name: Haute-Saône
+      country: France
       nuts1: FRC
       nuts2: FRC2
   - FRC24:
-      country: France
       name: Territoire de Belfort
+      country: France
       nuts1: FRC
       nuts2: FRC2
   - FRD11:
+      name: Calvados 
       country: France
-      name: Calvados
       nuts1: FRD
       nuts2: FRD1
   - FRD12:
+      name: Manche 
       country: France
-      name: Manche
       nuts1: FRD
       nuts2: FRD1
   - FRD13:
-      country: France
       name: Orne
+      country: France
       nuts1: FRD
       nuts2: FRD1
   - FRD21:
-      country: France
       name: Eure
+      country: France
       nuts1: FRD
       nuts2: FRD2
   - FRD22:
-      country: France
       name: Seine-Maritime
+      country: France
       nuts1: FRD
       nuts2: FRD2
   - FRE11:
-      country: France
       name: Nord
+      country: France
       nuts1: FRE
       nuts2: FRE1
   - FRE12:
-      country: France
       name: Pas-de-Calais
+      country: France
       nuts1: FRE
       nuts2: FRE1
   - FRE21:
-      country: France
       name: Aisne
+      country: France
       nuts1: FRE
       nuts2: FRE2
   - FRE22:
-      country: France
       name: Oise
+      country: France
       nuts1: FRE
       nuts2: FRE2
   - FRE23:
-      country: France
       name: Somme
+      country: France
       nuts1: FRE
       nuts2: FRE2
   - FRF11:
-      country: France
       name: Bas-Rhin
+      country: France
       nuts1: FRF
       nuts2: FRF1
   - FRF12:
-      country: France
       name: Haut-Rhin
+      country: France
       nuts1: FRF
       nuts2: FRF1
   - FRF21:
-      country: France
       name: Ardennes
+      country: France
       nuts1: FRF
       nuts2: FRF2
   - FRF22:
-      country: France
       name: Aube
+      country: France
       nuts1: FRF
       nuts2: FRF2
   - FRF23:
-      country: France
       name: Marne
+      country: France
       nuts1: FRF
       nuts2: FRF2
   - FRF24:
-      country: France
       name: Haute-Marne
+      country: France
       nuts1: FRF
       nuts2: FRF2
   - FRF31:
+      name: Meurthe-et-Moselle 
       country: France
-      name: Meurthe-et-Moselle
       nuts1: FRF
       nuts2: FRF3
   - FRF32:
+      name: Meuse 
       country: France
-      name: Meuse
       nuts1: FRF
       nuts2: FRF3
   - FRF33:
-      country: France
       name: Moselle
+      country: France
       nuts1: FRF
       nuts2: FRF3
   - FRF34:
-      country: France
       name: Vosges
+      country: France
       nuts1: FRF
       nuts2: FRF3
   - FRG01:
-      country: France
       name: Loire-Atlantique
+      country: France
       nuts1: FRG
       nuts2: FRG0
   - FRG02:
-      country: France
       name: Maine-et-Loire
+      country: France
       nuts1: FRG
       nuts2: FRG0
   - FRG03:
-      country: France
       name: Mayenne
+      country: France
       nuts1: FRG
       nuts2: FRG0
   - FRG04:
-      country: France
       name: Sarthe
+      country: France
       nuts1: FRG
       nuts2: FRG0
   - FRG05:
-      country: France
       name: Vendée
+      country: France
       nuts1: FRG
       nuts2: FRG0
   - FRH01:
-      country: France
       name: Côtes-d’Armor
+      country: France
       nuts1: FRH
       nuts2: FRH0
   - FRH02:
-      country: France
       name: Finistère
+      country: France
       nuts1: FRH
       nuts2: FRH0
   - FRH03:
-      country: France
       name: Ille-et-Vilaine
+      country: France
       nuts1: FRH
       nuts2: FRH0
   - FRH04:
-      country: France
       name: Morbihan
+      country: France
       nuts1: FRH
       nuts2: FRH0
   - FRI11:
-      country: France
       name: Dordogne
+      country: France
       nuts1: FRI
       nuts2: FRI1
   - FRI12:
-      country: France
       name: Gironde
+      country: France
       nuts1: FRI
       nuts2: FRI1
   - FRI13:
-      country: France
       name: Landes
+      country: France
       nuts1: FRI
       nuts2: FRI1
   - FRI14:
-      country: France
       name: Lot-et-Garonne
+      country: France
       nuts1: FRI
       nuts2: FRI1
   - FRI15:
-      country: France
       name: Pyrénées-Atlantiques
+      country: France
       nuts1: FRI
       nuts2: FRI1
   - FRI21:
-      country: France
       name: Corrèze
+      country: France
       nuts1: FRI
       nuts2: FRI2
   - FRI22:
-      country: France
       name: Creuse
+      country: France
       nuts1: FRI
       nuts2: FRI2
   - FRI23:
-      country: France
       name: Haute-Vienne
+      country: France
       nuts1: FRI
       nuts2: FRI2
   - FRI31:
-      country: France
       name: Charente
+      country: France
       nuts1: FRI
       nuts2: FRI3
   - FRI32:
-      country: France
       name: Charente-Maritime
+      country: France
       nuts1: FRI
       nuts2: FRI3
   - FRI33:
-      country: France
       name: Deux-Sèvres
+      country: France
       nuts1: FRI
       nuts2: FRI3
   - FRI34:
-      country: France
       name: Vienne
+      country: France
       nuts1: FRI
       nuts2: FRI3
   - FRJ11:
-      country: France
       name: Aude
+      country: France
       nuts1: FRJ
       nuts2: FRJ1
   - FRJ12:
-      country: France
       name: Gard
+      country: France
       nuts1: FRJ
       nuts2: FRJ1
   - FRJ13:
-      country: France
       name: Hérault
+      country: France
       nuts1: FRJ
       nuts2: FRJ1
   - FRJ14:
-      country: France
       name: Lozère
+      country: France
       nuts1: FRJ
       nuts2: FRJ1
   - FRJ15:
-      country: France
       name: Pyrénées-Orientales
+      country: France
       nuts1: FRJ
       nuts2: FRJ1
   - FRJ21:
-      country: France
       name: Ariège
+      country: France
       nuts1: FRJ
       nuts2: FRJ2
   - FRJ22:
-      country: France
       name: Aveyron
+      country: France
       nuts1: FRJ
       nuts2: FRJ2
   - FRJ23:
-      country: France
       name: Haute-Garonne
+      country: France
       nuts1: FRJ
       nuts2: FRJ2
   - FRJ24:
-      country: France
       name: Gers
+      country: France
       nuts1: FRJ
       nuts2: FRJ2
   - FRJ25:
-      country: France
       name: Lot
+      country: France
       nuts1: FRJ
       nuts2: FRJ2
   - FRJ26:
+      name: Hautes-Pyrénées 
       country: France
-      name: Hautes-Pyrénées
       nuts1: FRJ
       nuts2: FRJ2
   - FRJ27:
-      country: France
       name: Tarn
+      country: France
       nuts1: FRJ
       nuts2: FRJ2
   - FRJ28:
-      country: France
       name: Tarn-et-Garonne
+      country: France
       nuts1: FRJ
       nuts2: FRJ2
   - FRK11:
-      country: France
       name: Allier
+      country: France
       nuts1: FRK
       nuts2: FRK1
   - FRK12:
-      country: France
       name: Cantal
+      country: France
       nuts1: FRK
       nuts2: FRK1
   - FRK13:
-      country: France
       name: Haute-Loire
+      country: France
       nuts1: FRK
       nuts2: FRK1
   - FRK14:
-      country: France
       name: Puy-de-Dôme
+      country: France
       nuts1: FRK
       nuts2: FRK1
   - FRK21:
-      country: France
       name: Ain
+      country: France
       nuts1: FRK
       nuts2: FRK2
   - FRK22:
-      country: France
       name: Ardèche
+      country: France
       nuts1: FRK
       nuts2: FRK2
   - FRK23:
-      country: France
       name: Drôme
+      country: France
       nuts1: FRK
       nuts2: FRK2
   - FRK24:
-      country: France
       name: Isère
+      country: France
       nuts1: FRK
       nuts2: FRK2
   - FRK25:
-      country: France
       name: Loire
+      country: France
       nuts1: FRK
       nuts2: FRK2
   - FRK26:
-      country: France
       name: Rhône
+      country: France
       nuts1: FRK
       nuts2: FRK2
   - FRK27:
-      country: France
       name: Savoie
+      country: France
       nuts1: FRK
       nuts2: FRK2
   - FRK28:
-      country: France
       name: Haute-Savoie
+      country: France
       nuts1: FRK
       nuts2: FRK2
   - FRL01:
-      country: France
       name: Alpes-de-Haute-Provence
+      country: France
       nuts1: FRL
       nuts2: FRL0
   - FRL02:
+      name: Hautes-Alpes 
       country: France
-      name: Hautes-Alpes
       nuts1: FRL
       nuts2: FRL0
   - FRL03:
-      country: France
       name: Alpes-Maritimes
+      country: France
       nuts1: FRL
       nuts2: FRL0
   - FRL04:
-      country: France
       name: Bouches-du-Rhône
+      country: France
       nuts1: FRL
       nuts2: FRL0
   - FRL05:
-      country: France
       name: Var
+      country: France
       nuts1: FRL
       nuts2: FRL0
   - FRL06:
-      country: France
       name: Vaucluse
+      country: France
       nuts1: FRL
       nuts2: FRL0
   - FRM01:
-      country: France
       name: Corse-du-Sud
+      country: France
       nuts1: FRM
       nuts2: FRM0
   - FRM02:
-      country: France
       name: Haute-Corse
+      country: France
       nuts1: FRM
       nuts2: FRM0
   - FRY10:
-      country: France
       name: Guadeloupe
+      country: France
       nuts1: FRY
       nuts2: FRY1
   - FRY20:
+      name: Martinique 
       country: France
-      name: Martinique
       nuts1: FRY
       nuts2: FRY2
   - FRY30:
-      country: France
       name: Guyane
+      country: France
       nuts1: FRY
       nuts2: FRY3
   - FRY40:
-      country: France
       name: La Réunion
+      country: France
       nuts1: FRY
       nuts2: FRY4
   - FRY50:
+      name: Mayotte 
       country: France
-      name: Mayotte
       nuts1: FRY
       nuts2: FRY5
   - FRZZZ:
-      country: France
       name: Extra-Regio NUTS 3
+      country: France
       nuts1: FRZ
       nuts2: FRZZ
   - HR021:
-      country: Croatia
       name: Bjelovarsko-bilogorska županija
+      country: Croatia
       nuts1: HR0
       nuts2: HR02
   - HR022:
-      country: Croatia
       name: Virovitičko-podravska županija
+      country: Croatia
       nuts1: HR0
       nuts2: HR02
   - HR023:
-      country: Croatia
       name: Požeško-slavonska županija
+      country: Croatia
       nuts1: HR0
       nuts2: HR02
   - HR024:
-      country: Croatia
       name: Brodsko-posavska županija
+      country: Croatia
       nuts1: HR0
       nuts2: HR02
   - HR025:
-      country: Croatia
       name: Osječko-baranjska županija
+      country: Croatia
       nuts1: HR0
       nuts2: HR02
   - HR026:
-      country: Croatia
       name: Vukovarsko-srijemska županija
+      country: Croatia
       nuts1: HR0
       nuts2: HR02
   - HR027:
-      country: Croatia
       name: Karlovačka županija
+      country: Croatia
       nuts1: HR0
       nuts2: HR02
   - HR028:
-      country: Croatia
       name: Sisačko-moslavačka županija
+      country: Croatia
       nuts1: HR0
       nuts2: HR02
   - HR031:
-      country: Croatia
       name: Primorsko-goranska županija
+      country: Croatia
       nuts1: HR0
       nuts2: HR03
   - HR032:
-      country: Croatia
       name: Ličko-senjska županija
+      country: Croatia
       nuts1: HR0
       nuts2: HR03
   - HR033:
-      country: Croatia
       name: Zadarska županija
+      country: Croatia
       nuts1: HR0
       nuts2: HR03
   - HR034:
-      country: Croatia
       name: Šibensko-kninska županija
+      country: Croatia
       nuts1: HR0
       nuts2: HR03
   - HR035:
-      country: Croatia
       name: Splitsko-dalmatinska županija
+      country: Croatia
       nuts1: HR0
       nuts2: HR03
   - HR036:
-      country: Croatia
       name: Istarska županija
+      country: Croatia
       nuts1: HR0
       nuts2: HR03
   - HR037:
-      country: Croatia
       name: Dubrovačko-neretvanska županija
+      country: Croatia
       nuts1: HR0
       nuts2: HR03
   - HR050:
-      country: Croatia
       name: Grad Zagreb
+      country: Croatia
       nuts1: HR0
       nuts2: HR05
   - HR061:
-      country: Croatia
       name: Međimurska županija
+      country: Croatia
       nuts1: HR0
       nuts2: HR06
   - HR062:
-      country: Croatia
       name: Varaždinska županija
+      country: Croatia
       nuts1: HR0
       nuts2: HR06
   - HR063:
-      country: Croatia
       name: Koprivničko-križevačka županija
+      country: Croatia
       nuts1: HR0
       nuts2: HR06
   - HR064:
-      country: Croatia
       name: Krapinsko-zagorska županija
+      country: Croatia
       nuts1: HR0
       nuts2: HR06
   - HR065:
-      country: Croatia
       name: Zagrebačka županija
+      country: Croatia
       nuts1: HR0
       nuts2: HR06
   - HRZZZ:
-      country: Croatia
       name: Extra-Regio NUTS 3
+      country: Croatia
       nuts1: HRZ
       nuts2: HRZZ
   - ITC11:
-      country: Italy
       name: Torino
+      country: Italy
       nuts1: ITC
       nuts2: ITC1
   - ITC12:
-      country: Italy
       name: Vercelli
+      country: Italy
       nuts1: ITC
       nuts2: ITC1
   - ITC13:
-      country: Italy
       name: Biella
+      country: Italy
       nuts1: ITC
       nuts2: ITC1
   - ITC14:
-      country: Italy
       name: Verbano-Cusio-Ossola
+      country: Italy
       nuts1: ITC
       nuts2: ITC1
   - ITC15:
-      country: Italy
       name: Novara
+      country: Italy
       nuts1: ITC
       nuts2: ITC1
   - ITC16:
-      country: Italy
       name: Cuneo
+      country: Italy
       nuts1: ITC
       nuts2: ITC1
   - ITC17:
-      country: Italy
       name: Asti
+      country: Italy
       nuts1: ITC
       nuts2: ITC1
   - ITC18:
-      country: Italy
       name: Alessandria
+      country: Italy
       nuts1: ITC
       nuts2: ITC1
   - ITC20:
-      country: Italy
       name: Valle d’Aosta/Vallée d’Aoste
+      country: Italy
       nuts1: ITC
       nuts2: ITC2
   - ITC31:
-      country: Italy
       name: Imperia
+      country: Italy
       nuts1: ITC
       nuts2: ITC3
   - ITC32:
-      country: Italy
       name: Savona
+      country: Italy
       nuts1: ITC
       nuts2: ITC3
   - ITC33:
-      country: Italy
       name: Genova
+      country: Italy
       nuts1: ITC
       nuts2: ITC3
   - ITC34:
-      country: Italy
       name: La Spezia
+      country: Italy
       nuts1: ITC
       nuts2: ITC3
   - ITC41:
-      country: Italy
       name: Varese
+      country: Italy
       nuts1: ITC
       nuts2: ITC4
   - ITC42:
-      country: Italy
       name: Como
+      country: Italy
       nuts1: ITC
       nuts2: ITC4
   - ITC43:
-      country: Italy
       name: Lecco
+      country: Italy
       nuts1: ITC
       nuts2: ITC4
   - ITC44:
-      country: Italy
       name: Sondrio
+      country: Italy
       nuts1: ITC
       nuts2: ITC4
   - ITC46:
-      country: Italy
       name: Bergamo
+      country: Italy
       nuts1: ITC
       nuts2: ITC4
   - ITC47:
-      country: Italy
       name: Brescia
+      country: Italy
       nuts1: ITC
       nuts2: ITC4
   - ITC48:
-      country: Italy
       name: Pavia
+      country: Italy
       nuts1: ITC
       nuts2: ITC4
   - ITC49:
-      country: Italy
       name: Lodi
+      country: Italy
       nuts1: ITC
       nuts2: ITC4
   - ITC4A:
-      country: Italy
       name: Cremona
+      country: Italy
       nuts1: ITC
       nuts2: ITC4
   - ITC4B:
-      country: Italy
       name: Mantova
+      country: Italy
       nuts1: ITC
       nuts2: ITC4
   - ITC4C:
-      country: Italy
       name: Milano
+      country: Italy
       nuts1: ITC
       nuts2: ITC4
   - ITC4D:
-      country: Italy
       name: Monza e della Brianza
+      country: Italy
       nuts1: ITC
       nuts2: ITC4
   - ITF11:
-      country: Italy
       name: L’Aquila
+      country: Italy
       nuts1: ITF
       nuts2: ITF1
   - ITF12:
-      country: Italy
       name: Teramo
+      country: Italy
       nuts1: ITF
       nuts2: ITF1
   - ITF13:
-      country: Italy
       name: Pescara
+      country: Italy
       nuts1: ITF
       nuts2: ITF1
   - ITF14:
-      country: Italy
       name: Chieti
+      country: Italy
       nuts1: ITF
       nuts2: ITF1
   - ITF21:
-      country: Italy
       name: Isernia
+      country: Italy
       nuts1: ITF
       nuts2: ITF2
   - ITF22:
-      country: Italy
       name: Campobasso
+      country: Italy
       nuts1: ITF
       nuts2: ITF2
   - ITF31:
-      country: Italy
       name: Caserta
+      country: Italy
       nuts1: ITF
       nuts2: ITF3
   - ITF32:
-      country: Italy
       name: Benevento
+      country: Italy
       nuts1: ITF
       nuts2: ITF3
   - ITF33:
-      country: Italy
       name: Napoli
+      country: Italy
       nuts1: ITF
       nuts2: ITF3
   - ITF34:
-      country: Italy
       name: Avellino
+      country: Italy
       nuts1: ITF
       nuts2: ITF3
   - ITF35:
-      country: Italy
       name: Salerno
+      country: Italy
       nuts1: ITF
       nuts2: ITF3
   - ITF43:
-      country: Italy
       name: Taranto
+      country: Italy
       nuts1: ITF
       nuts2: ITF4
   - ITF44:
-      country: Italy
       name: Brindisi
+      country: Italy
       nuts1: ITF
       nuts2: ITF4
   - ITF45:
-      country: Italy
       name: Lecce
+      country: Italy
       nuts1: ITF
       nuts2: ITF4
   - ITF46:
-      country: Italy
       name: Foggia
+      country: Italy
       nuts1: ITF
       nuts2: ITF4
   - ITF47:
-      country: Italy
       name: Bari
+      country: Italy
       nuts1: ITF
       nuts2: ITF4
   - ITF48:
-      country: Italy
       name: Barletta-Andria-Trani
+      country: Italy
       nuts1: ITF
       nuts2: ITF4
   - ITF51:
-      country: Italy
       name: Potenza
+      country: Italy
       nuts1: ITF
       nuts2: ITF5
   - ITF52:
-      country: Italy
       name: Matera
+      country: Italy
       nuts1: ITF
       nuts2: ITF5
   - ITF61:
-      country: Italy
       name: Cosenza
+      country: Italy
       nuts1: ITF
       nuts2: ITF6
   - ITF62:
-      country: Italy
       name: Crotone
+      country: Italy
       nuts1: ITF
       nuts2: ITF6
   - ITF63:
-      country: Italy
       name: Catanzaro
+      country: Italy
       nuts1: ITF
       nuts2: ITF6
   - ITF64:
-      country: Italy
       name: Vibo Valentia
+      country: Italy
       nuts1: ITF
       nuts2: ITF6
   - ITF65:
-      country: Italy
       name: Reggio di Calabria
+      country: Italy
       nuts1: ITF
       nuts2: ITF6
   - ITG11:
-      country: Italy
       name: Trapani
+      country: Italy
       nuts1: ITG
       nuts2: ITG1
   - ITG12:
-      country: Italy
       name: Palermo
+      country: Italy
       nuts1: ITG
       nuts2: ITG1
   - ITG13:
-      country: Italy
       name: Messina
+      country: Italy
       nuts1: ITG
       nuts2: ITG1
   - ITG14:
-      country: Italy
       name: Agrigento
+      country: Italy
       nuts1: ITG
       nuts2: ITG1
   - ITG15:
-      country: Italy
       name: Caltanissetta
+      country: Italy
       nuts1: ITG
       nuts2: ITG1
   - ITG16:
-      country: Italy
       name: Enna
+      country: Italy
       nuts1: ITG
       nuts2: ITG1
   - ITG17:
-      country: Italy
       name: Catania
+      country: Italy
       nuts1: ITG
       nuts2: ITG1
   - ITG18:
-      country: Italy
       name: Ragusa
+      country: Italy
       nuts1: ITG
       nuts2: ITG1
   - ITG19:
-      country: Italy
       name: Siracusa
+      country: Italy
       nuts1: ITG
       nuts2: ITG1
   - ITG2D:
-      country: Italy
       name: Sassari
+      country: Italy
       nuts1: ITG
       nuts2: ITG2
   - ITG2E:
-      country: Italy
       name: Nuoro
+      country: Italy
       nuts1: ITG
       nuts2: ITG2
   - ITG2F:
-      country: Italy
       name: Cagliari
+      country: Italy
       nuts1: ITG
       nuts2: ITG2
   - ITG2G:
-      country: Italy
       name: Oristano
+      country: Italy
       nuts1: ITG
       nuts2: ITG2
   - ITG2H:
-      country: Italy
       name: Sud Sardegna
+      country: Italy
       nuts1: ITG
       nuts2: ITG2
   - ITH10:
-      country: Italy
       name: Bolzano-Bozen
+      country: Italy
       nuts1: ITH
       nuts2: ITH1
   - ITH20:
-      country: Italy
       name: Trento
+      country: Italy
       nuts1: ITH
       nuts2: ITH2
   - ITH31:
-      country: Italy
       name: Verona
+      country: Italy
       nuts1: ITH
       nuts2: ITH3
   - ITH32:
-      country: Italy
       name: Vicenza
+      country: Italy
       nuts1: ITH
       nuts2: ITH3
   - ITH33:
-      country: Italy
       name: Belluno
+      country: Italy
       nuts1: ITH
       nuts2: ITH3
   - ITH34:
-      country: Italy
       name: Treviso
+      country: Italy
       nuts1: ITH
       nuts2: ITH3
   - ITH35:
-      country: Italy
       name: Venezia
+      country: Italy
       nuts1: ITH
       nuts2: ITH3
   - ITH36:
-      country: Italy
       name: Padova
+      country: Italy
       nuts1: ITH
       nuts2: ITH3
   - ITH37:
-      country: Italy
       name: Rovigo
+      country: Italy
       nuts1: ITH
       nuts2: ITH3
   - ITH41:
-      country: Italy
       name: Pordenone
+      country: Italy
       nuts1: ITH
       nuts2: ITH4
   - ITH42:
-      country: Italy
       name: Udine
+      country: Italy
       nuts1: ITH
       nuts2: ITH4
   - ITH43:
-      country: Italy
       name: Gorizia
+      country: Italy
       nuts1: ITH
       nuts2: ITH4
   - ITH44:
-      country: Italy
       name: Trieste
+      country: Italy
       nuts1: ITH
       nuts2: ITH4
   - ITH51:
-      country: Italy
       name: Piacenza
+      country: Italy
       nuts1: ITH
       nuts2: ITH5
   - ITH52:
-      country: Italy
       name: Parma
+      country: Italy
       nuts1: ITH
       nuts2: ITH5
   - ITH53:
-      country: Italy
       name: Reggio nell’Emilia
+      country: Italy
       nuts1: ITH
       nuts2: ITH5
   - ITH54:
-      country: Italy
       name: Modena
+      country: Italy
       nuts1: ITH
       nuts2: ITH5
   - ITH55:
-      country: Italy
       name: Bologna
+      country: Italy
       nuts1: ITH
       nuts2: ITH5
   - ITH56:
-      country: Italy
       name: Ferrara
+      country: Italy
       nuts1: ITH
       nuts2: ITH5
   - ITH57:
-      country: Italy
       name: Ravenna
+      country: Italy
       nuts1: ITH
       nuts2: ITH5
   - ITH58:
-      country: Italy
       name: Forlì-Cesena
+      country: Italy
       nuts1: ITH
       nuts2: ITH5
   - ITH59:
-      country: Italy
       name: Rimini
+      country: Italy
       nuts1: ITH
       nuts2: ITH5
   - ITI11:
-      country: Italy
       name: Massa-Carrara
+      country: Italy
       nuts1: ITI
       nuts2: ITI1
   - ITI12:
-      country: Italy
       name: Lucca
+      country: Italy
       nuts1: ITI
       nuts2: ITI1
   - ITI13:
-      country: Italy
       name: Pistoia
+      country: Italy
       nuts1: ITI
       nuts2: ITI1
   - ITI14:
-      country: Italy
       name: Firenze
+      country: Italy
       nuts1: ITI
       nuts2: ITI1
   - ITI15:
-      country: Italy
       name: Prato
+      country: Italy
       nuts1: ITI
       nuts2: ITI1
   - ITI16:
-      country: Italy
       name: Livorno
+      country: Italy
       nuts1: ITI
       nuts2: ITI1
   - ITI17:
-      country: Italy
       name: Pisa
+      country: Italy
       nuts1: ITI
       nuts2: ITI1
   - ITI18:
-      country: Italy
       name: Arezzo
+      country: Italy
       nuts1: ITI
       nuts2: ITI1
   - ITI19:
-      country: Italy
       name: Siena
+      country: Italy
       nuts1: ITI
       nuts2: ITI1
   - ITI1A:
-      country: Italy
       name: Grosseto
+      country: Italy
       nuts1: ITI
       nuts2: ITI1
   - ITI21:
-      country: Italy
       name: Perugia
+      country: Italy
       nuts1: ITI
       nuts2: ITI2
   - ITI22:
-      country: Italy
       name: Terni
+      country: Italy
       nuts1: ITI
       nuts2: ITI2
   - ITI31:
-      country: Italy
       name: Pesaro e Urbino
+      country: Italy
       nuts1: ITI
       nuts2: ITI3
   - ITI32:
-      country: Italy
       name: Ancona
+      country: Italy
       nuts1: ITI
       nuts2: ITI3
   - ITI33:
-      country: Italy
       name: Macerata
+      country: Italy
       nuts1: ITI
       nuts2: ITI3
   - ITI34:
-      country: Italy
       name: Ascoli Piceno
+      country: Italy
       nuts1: ITI
       nuts2: ITI3
   - ITI35:
-      country: Italy
       name: Fermo
+      country: Italy
       nuts1: ITI
       nuts2: ITI3
   - ITI41:
-      country: Italy
       name: Viterbo
+      country: Italy
       nuts1: ITI
       nuts2: ITI4
   - ITI42:
-      country: Italy
       name: Rieti
+      country: Italy
       nuts1: ITI
       nuts2: ITI4
   - ITI43:
-      country: Italy
       name: Roma
+      country: Italy
       nuts1: ITI
       nuts2: ITI4
   - ITI44:
-      country: Italy
       name: Latina
+      country: Italy
       nuts1: ITI
       nuts2: ITI4
   - ITI45:
-      country: Italy
       name: Frosinone
+      country: Italy
       nuts1: ITI
       nuts2: ITI4
   - ITZZZ:
-      country: Italy
       name: Extra-Regio NUTS 3
+      country: Italy
       nuts1: ITZ
       nuts2: ITZZ
   - CY000:
-      country: Cyprus
       name: Κύπρος
+      country: Cyprus
       nuts1: CY0
       nuts2: CY00
   - CYZZZ:
-      country: Cyprus
       name: Extra-Regio NUTS 3
+      country: Cyprus
       nuts1: CYZ
       nuts2: CYZZ
   - LV003:
-      country: Latvia
       name: Kurzeme
+      country: Latvia
       nuts1: LV0
       nuts2: LV00
   - LV005:
-      country: Latvia
       name: Latgale
+      country: Latvia
       nuts1: LV0
       nuts2: LV00
   - LV006:
-      country: Latvia
       name: Rīga
+      country: Latvia
       nuts1: LV0
       nuts2: LV00
   - LV007:
-      country: Latvia
       name: Pierīga
+      country: Latvia
       nuts1: LV0
       nuts2: LV00
   - LV008:
-      country: Latvia
       name: Vidzeme
+      country: Latvia
       nuts1: LV0
       nuts2: LV00
   - LV009:
-      country: Latvia
       name: Zemgale
+      country: Latvia
       nuts1: LV0
       nuts2: LV00
   - LVZZZ:
-      country: Latvia
       name: Extra-Regio NUTS 3
+      country: Latvia
       nuts1: LVZ
       nuts2: LVZZ
   - LT011:
-      country: Lithuania
       name: Vilniaus apskritis
+      country: Lithuania
       nuts1: LT0
       nuts2: LT01
   - LT021:
-      country: Lithuania
       name: Alytaus apskritis
+      country: Lithuania
       nuts1: LT0
       nuts2: LT02
   - LT022:
-      country: Lithuania
       name: Kauno apskritis
+      country: Lithuania
       nuts1: LT0
       nuts2: LT02
   - LT023:
-      country: Lithuania
       name: Klaipėdos apskritis
+      country: Lithuania
       nuts1: LT0
       nuts2: LT02
   - LT024:
-      country: Lithuania
       name: Marijampolės apskritis
+      country: Lithuania
       nuts1: LT0
       nuts2: LT02
   - LT025:
-      country: Lithuania
       name: Panevėžio apskritis
+      country: Lithuania
       nuts1: LT0
       nuts2: LT02
   - LT026:
-      country: Lithuania
       name: Šiaulių apskritis
+      country: Lithuania
       nuts1: LT0
       nuts2: LT02
   - LT027:
-      country: Lithuania
       name: Tauragės apskritis
+      country: Lithuania
       nuts1: LT0
       nuts2: LT02
   - LT028:
-      country: Lithuania
       name: Telšių apskritis
+      country: Lithuania
       nuts1: LT0
       nuts2: LT02
   - LT029:
-      country: Lithuania
       name: Utenos apskritis
+      country: Lithuania
       nuts1: LT0
       nuts2: LT02
   - LTZZZ:
-      country: Lithuania
       name: Extra-Regio NUTS 3
+      country: Lithuania
       nuts1: LTZ
       nuts2: LTZZ
   - LU000:
-      country: Luxembourg
       name: Luxembourg
+      country: Luxembourg
       nuts1: LU0
       nuts2: LU00
   - LUZZZ:
-      country: Luxembourg
       name: Extra-Regio NUTS 3
+      country: Luxembourg
       nuts1: LUZ
       nuts2: LUZZ
   - HU110:
-      country: Hungary
       name: Budapest
+      country: Hungary
       nuts1: HU1
       nuts2: HU11
   - HU120:
-      country: Hungary
       name: Pest
+      country: Hungary
       nuts1: HU1
       nuts2: HU12
   - HU211:
-      country: Hungary
       name: Fejér
+      country: Hungary
       nuts1: HU2
       nuts2: HU21
   - HU212:
-      country: Hungary
       name: Komárom-Esztergom
+      country: Hungary
       nuts1: HU2
       nuts2: HU21
   - HU213:
-      country: Hungary
       name: Veszprém
+      country: Hungary
       nuts1: HU2
       nuts2: HU21
   - HU221:
-      country: Hungary
       name: Győr-Moson-Sopron
+      country: Hungary
       nuts1: HU2
       nuts2: HU22
   - HU222:
-      country: Hungary
       name: Vas
+      country: Hungary
       nuts1: HU2
       nuts2: HU22
   - HU223:
-      country: Hungary
       name: Zala
+      country: Hungary
       nuts1: HU2
       nuts2: HU22
   - HU231:
-      country: Hungary
       name: Baranya
+      country: Hungary
       nuts1: HU2
       nuts2: HU23
   - HU232:
-      country: Hungary
       name: Somogy
+      country: Hungary
       nuts1: HU2
       nuts2: HU23
   - HU233:
-      country: Hungary
       name: Tolna
+      country: Hungary
       nuts1: HU2
       nuts2: HU23
   - HU311:
-      country: Hungary
       name: Borsod-Abaúj-Zemplén
+      country: Hungary
       nuts1: HU3
       nuts2: HU31
   - HU312:
-      country: Hungary
       name: Heves
+      country: Hungary
       nuts1: HU3
       nuts2: HU31
   - HU313:
-      country: Hungary
       name: Nógrád
+      country: Hungary
       nuts1: HU3
       nuts2: HU31
   - HU321:
-      country: Hungary
       name: Hajdú-Bihar
+      country: Hungary
       nuts1: HU3
       nuts2: HU32
   - HU322:
-      country: Hungary
       name: Jász-Nagykun-Szolnok
+      country: Hungary
       nuts1: HU3
       nuts2: HU32
   - HU323:
-      country: Hungary
       name: Szabolcs-Szatmár-Bereg
+      country: Hungary
       nuts1: HU3
       nuts2: HU32
   - HU331:
-      country: Hungary
       name: Bács-Kiskun
+      country: Hungary
       nuts1: HU3
       nuts2: HU33
   - HU332:
-      country: Hungary
       name: Békés
+      country: Hungary
       nuts1: HU3
       nuts2: HU33
   - HU333:
-      country: Hungary
       name: Csongrád
+      country: Hungary
       nuts1: HU3
       nuts2: HU33
   - HUZZZ:
-      country: Hungary
       name: Extra-Regio NUTS 3
+      country: Hungary
       nuts1: HUZ
       nuts2: HUZZ
   - MT001:
-      country: Malta
       name: Malta
+      country: Malta
       nuts1: MT0
       nuts2: MT00
   - MT002:
-      country: Malta
       name: Gozo and Comino/Għawdex u Kemmuna
+      country: Malta
       nuts1: MT0
       nuts2: MT00
   - MTZZZ:
-      country: Malta
       name: Extra-Regio NUTS 3
+      country: Malta
       nuts1: MTZ
       nuts2: MTZZ
   - NL111:
-      country: The Netherlands
       name: Oost-Groningen
+      country: The Netherlands
       nuts1: NL1
       nuts2: NL11
   - NL112:
-      country: The Netherlands
       name: Delfzijl en omgeving
+      country: The Netherlands
       nuts1: NL1
       nuts2: NL11
   - NL113:
-      country: The Netherlands
       name: Overig Groningen
+      country: The Netherlands
       nuts1: NL1
       nuts2: NL11
   - NL124:
-      country: The Netherlands
       name: Noord-Friesland
+      country: The Netherlands
       nuts1: NL1
       nuts2: NL12
   - NL125:
-      country: The Netherlands
       name: Zuidwest-Friesland
+      country: The Netherlands
       nuts1: NL1
       nuts2: NL12
   - NL126:
-      country: The Netherlands
       name: Zuidoost-Friesland
+      country: The Netherlands
       nuts1: NL1
       nuts2: NL12
   - NL131:
-      country: The Netherlands
       name: Noord-Drenthe
+      country: The Netherlands
       nuts1: NL1
       nuts2: NL13
   - NL132:
-      country: The Netherlands
       name: Zuidoost-Drenthe
+      country: The Netherlands
       nuts1: NL1
       nuts2: NL13
   - NL133:
-      country: The Netherlands
       name: Zuidwest-Drenthe
+      country: The Netherlands
       nuts1: NL1
       nuts2: NL13
   - NL211:
-      country: The Netherlands
       name: Noord-Overijssel
+      country: The Netherlands
       nuts1: NL2
       nuts2: NL21
   - NL212:
-      country: The Netherlands
       name: Zuidwest-Overijssel
+      country: The Netherlands
       nuts1: NL2
       nuts2: NL21
   - NL213:
-      country: The Netherlands
       name: Twente
+      country: The Netherlands
       nuts1: NL2
       nuts2: NL21
   - NL221:
-      country: The Netherlands
       name: Veluwe
+      country: The Netherlands
       nuts1: NL2
       nuts2: NL22
   - NL224:
-      country: The Netherlands
       name: Zuidwest-Gelderland
+      country: The Netherlands
       nuts1: NL2
       nuts2: NL22
   - NL225:
-      country: The Netherlands
       name: Achterhoek
+      country: The Netherlands
       nuts1: NL2
       nuts2: NL22
   - NL226:
-      country: The Netherlands
       name: Arnhem/Nijmegen
+      country: The Netherlands
       nuts1: NL2
       nuts2: NL22
   - NL230:
-      country: The Netherlands
       name: Flevoland
+      country: The Netherlands
       nuts1: NL2
       nuts2: NL23
   - NL310:
-      country: The Netherlands
       name: Utrecht
+      country: The Netherlands
       nuts1: NL3
       nuts2: NL31
   - NL321:
-      country: The Netherlands
       name: Kop van Noord-Holland
+      country: The Netherlands
       nuts1: NL3
       nuts2: NL32
   - NL323:
-      country: The Netherlands
       name: IJmond
+      country: The Netherlands
       nuts1: NL3
       nuts2: NL32
   - NL324:
-      country: The Netherlands
       name: Agglomeratie Haarlem
+      country: The Netherlands
       nuts1: NL3
       nuts2: NL32
   - NL325:
-      country: The Netherlands
       name: Zaanstreek
+      country: The Netherlands
       nuts1: NL3
       nuts2: NL32
   - NL327:
-      country: The Netherlands
       name: Het Gooi en Vechtstreek
+      country: The Netherlands
       nuts1: NL3
       nuts2: NL32
   - NL328:
-      country: The Netherlands
       name: Alkmaar en omgeving
+      country: The Netherlands
       nuts1: NL3
       nuts2: NL32
   - NL329:
-      country: The Netherlands
       name: Groot-Amsterdam
+      country: The Netherlands
       nuts1: NL3
       nuts2: NL32
   - NL332:
-      country: The Netherlands
       name: Agglomeratie ’s-Gravenhage
+      country: The Netherlands
       nuts1: NL3
       nuts2: NL33
   - NL333:
-      country: The Netherlands
       name: Delft en Westland
+      country: The Netherlands
       nuts1: NL3
       nuts2: NL33
   - NL337:
-      country: The Netherlands
       name: Agglomeratie Leiden en Bollenstreek
+      country: The Netherlands
       nuts1: NL3
       nuts2: NL33
   - NL33A:
-      country: The Netherlands
       name: Zuidoost-Zuid-Holland
+      country: The Netherlands
       nuts1: NL3
       nuts2: NL33
   - NL33B:
-      country: The Netherlands
       name: Oost-Zuid-Holland
+      country: The Netherlands
       nuts1: NL3
       nuts2: NL33
   - NL33C:
-      country: The Netherlands
       name: Groot-Rijnmond
+      country: The Netherlands
       nuts1: NL3
       nuts2: NL33
   - NL341:
-      country: The Netherlands
       name: Zeeuwsch-Vlaanderen
+      country: The Netherlands
       nuts1: NL3
       nuts2: NL34
   - NL342:
-      country: The Netherlands
       name: Overig Zeeland
+      country: The Netherlands
       nuts1: NL3
       nuts2: NL34
   - NL411:
-      country: The Netherlands
       name: West-Noord-Brabant
+      country: The Netherlands
       nuts1: NL4
       nuts2: NL41
   - NL412:
-      country: The Netherlands
       name: Midden-Noord-Brabant
+      country: The Netherlands
       nuts1: NL4
       nuts2: NL41
   - NL413:
-      country: The Netherlands
       name: Noordoost-Noord-Brabant
+      country: The Netherlands
       nuts1: NL4
       nuts2: NL41
   - NL414:
-      country: The Netherlands
       name: Zuidoost-Noord-Brabant
+      country: The Netherlands
       nuts1: NL4
       nuts2: NL41
   - NL421:
-      country: The Netherlands
       name: Noord-Limburg
+      country: The Netherlands
       nuts1: NL4
       nuts2: NL42
   - NL422:
-      country: The Netherlands
       name: Midden-Limburg
+      country: The Netherlands
       nuts1: NL4
       nuts2: NL42
   - NL423:
-      country: The Netherlands
       name: Zuid-Limburg
+      country: The Netherlands
       nuts1: NL4
       nuts2: NL42
   - NLZZZ:
-      country: The Netherlands
       name: Extra-Regio NUTS 3
+      country: The Netherlands
       nuts1: NLZ
       nuts2: NLZZ
   - AT111:
-      country: Austria
       name: Mittelburgenland
+      country: Austria
       nuts1: AT1
       nuts2: AT11
   - AT112:
-      country: Austria
       name: Nordburgenland
+      country: Austria
       nuts1: AT1
       nuts2: AT11
   - AT113:
-      country: Austria
       name: Südburgenland
+      country: Austria
       nuts1: AT1
       nuts2: AT11
   - AT121:
-      country: Austria
       name: Mostviertel-Eisenwurzen
+      country: Austria
       nuts1: AT1
       nuts2: AT12
   - AT122:
-      country: Austria
       name: Niederösterreich-Süd
+      country: Austria
       nuts1: AT1
       nuts2: AT12
   - AT123:
-      country: Austria
       name: Sankt Pölten
+      country: Austria
       nuts1: AT1
       nuts2: AT12
   - AT124:
-      country: Austria
       name: Waldviertel
+      country: Austria
       nuts1: AT1
       nuts2: AT12
   - AT125:
-      country: Austria
       name: Weinviertel
+      country: Austria
       nuts1: AT1
       nuts2: AT12
   - AT126:
-      country: Austria
       name: Wiener Umland/Nordteil
+      country: Austria
       nuts1: AT1
       nuts2: AT12
   - AT127:
-      country: Austria
       name: Wiener Umland/Südteil
+      country: Austria
       nuts1: AT1
       nuts2: AT12
   - AT130:
-      country: Austria
       name: Wien
+      country: Austria
       nuts1: AT1
       nuts2: AT13
   - AT211:
-      country: Austria
       name: Klagenfurt-Villach
+      country: Austria
       nuts1: AT2
       nuts2: AT21
   - AT212:
-      country: Austria
       name: Oberkärnten
+      country: Austria
       nuts1: AT2
       nuts2: AT21
   - AT213:
-      country: Austria
       name: Unterkärnten
+      country: Austria
       nuts1: AT2
       nuts2: AT21
   - AT221:
-      country: Austria
       name: Graz
+      country: Austria
       nuts1: AT2
       nuts2: AT22
   - AT222:
-      country: Austria
       name: Liezen
+      country: Austria
       nuts1: AT2
       nuts2: AT22
   - AT223:
-      country: Austria
       name: Östliche Obersteiermark
+      country: Austria
       nuts1: AT2
       nuts2: AT22
   - AT224:
-      country: Austria
       name: Oststeiermark
+      country: Austria
       nuts1: AT2
       nuts2: AT22
   - AT225:
-      country: Austria
       name: West- und Südsteiermark
+      country: Austria
       nuts1: AT2
       nuts2: AT22
   - AT226:
-      country: Austria
       name: Westliche Obersteiermark
+      country: Austria
       nuts1: AT2
       nuts2: AT22
   - AT311:
-      country: Austria
       name: Innviertel
+      country: Austria
       nuts1: AT3
       nuts2: AT31
   - AT312:
-      country: Austria
       name: Linz-Wels
+      country: Austria
       nuts1: AT3
       nuts2: AT31
   - AT313:
-      country: Austria
       name: Mühlviertel
+      country: Austria
       nuts1: AT3
       nuts2: AT31
   - AT314:
-      country: Austria
       name: Steyr-Kirchdorf
+      country: Austria
       nuts1: AT3
       nuts2: AT31
   - AT315:
-      country: Austria
       name: Traunviertel
+      country: Austria
       nuts1: AT3
       nuts2: AT31
   - AT321:
-      country: Austria
       name: Lungau
+      country: Austria
       nuts1: AT3
       nuts2: AT32
   - AT322:
-      country: Austria
       name: Pinzgau-Pongau
+      country: Austria
       nuts1: AT3
       nuts2: AT32
   - AT323:
-      country: Austria
       name: Salzburg und Umgebung
+      country: Austria
       nuts1: AT3
       nuts2: AT32
   - AT331:
-      country: Austria
       name: Außerfern
+      country: Austria
       nuts1: AT3
       nuts2: AT33
   - AT332:
-      country: Austria
       name: Innsbruck
+      country: Austria
       nuts1: AT3
       nuts2: AT33
   - AT333:
-      country: Austria
       name: Osttirol
+      country: Austria
       nuts1: AT3
       nuts2: AT33
   - AT334:
-      country: Austria
       name: Tiroler Oberland
+      country: Austria
       nuts1: AT3
       nuts2: AT33
   - AT335:
-      country: Austria
       name: Tiroler Unterland
+      country: Austria
       nuts1: AT3
       nuts2: AT33
   - AT341:
-      country: Austria
       name: Bludenz-Bregenzer Wald
+      country: Austria
       nuts1: AT3
       nuts2: AT34
   - AT342:
-      country: Austria
       name: Rheintal-Bodenseegebiet
+      country: Austria
       nuts1: AT3
       nuts2: AT34
   - ATZZZ:
-      country: Austria
       name: Extra-Regio NUTS 3
+      country: Austria
       nuts1: ATZ
       nuts2: ATZZ
   - PL213:
-      country: Poland
       name: Miasto Kraków
+      country: Poland
       nuts1: PL2
       nuts2: PL21
   - PL214:
-      country: Poland
       name: Krakowski
+      country: Poland
       nuts1: PL2
       nuts2: PL21
   - PL217:
-      country: Poland
       name: Tarnowski
+      country: Poland
       nuts1: PL2
       nuts2: PL21
   - PL218:
-      country: Poland
       name: Nowosądecki
+      country: Poland
       nuts1: PL2
       nuts2: PL21
   - PL219:
-      country: Poland
       name: Nowotarski
+      country: Poland
       nuts1: PL2
       nuts2: PL21
   - PL21A:
-      country: Poland
       name: Oświęcimski
+      country: Poland
       nuts1: PL2
       nuts2: PL21
   - PL224:
-      country: Poland
       name: Częstochowski
+      country: Poland
       nuts1: PL2
       nuts2: PL22
   - PL225:
-      country: Poland
       name: Bielski
+      country: Poland
       nuts1: PL2
       nuts2: PL22
   - PL227:
-      country: Poland
       name: Rybnicki
+      country: Poland
       nuts1: PL2
       nuts2: PL22
   - PL228:
-      country: Poland
       name: Bytomski
+      country: Poland
       nuts1: PL2
       nuts2: PL22
   - PL229:
-      country: Poland
       name: Gliwicki
+      country: Poland
       nuts1: PL2
       nuts2: PL22
   - PL22A:
-      country: Poland
       name: Katowicki
+      country: Poland
       nuts1: PL2
       nuts2: PL22
   - PL22B:
-      country: Poland
       name: Sosnowiecki
+      country: Poland
       nuts1: PL2
       nuts2: PL22
   - PL22C:
-      country: Poland
       name: Tyski
+      country: Poland
       nuts1: PL2
       nuts2: PL22
   - PL411:
-      country: Poland
       name: Pilski
+      country: Poland
       nuts1: PL4
       nuts2: PL41
   - PL414:
-      country: Poland
       name: Koniński
+      country: Poland
       nuts1: PL4
       nuts2: PL41
   - PL415:
-      country: Poland
       name: Miasto Poznań
+      country: Poland
       nuts1: PL4
       nuts2: PL41
   - PL416:
-      country: Poland
       name: Kaliski
+      country: Poland
       nuts1: PL4
       nuts2: PL41
   - PL417:
-      country: Poland
       name: Leszczyński
+      country: Poland
       nuts1: PL4
       nuts2: PL41
   - PL418:
-      country: Poland
       name: Poznański
+      country: Poland
       nuts1: PL4
       nuts2: PL41
   - PL424:
-      country: Poland
       name: Miasto Szczecin
+      country: Poland
       nuts1: PL4
       nuts2: PL42
   - PL426:
-      country: Poland
       name: Koszaliński
+      country: Poland
       nuts1: PL4
       nuts2: PL42
   - PL427:
-      country: Poland
       name: Szczecinecko-pyrzycki
+      country: Poland
       nuts1: PL4
       nuts2: PL42
   - PL428:
-      country: Poland
       name: Szczeciński
+      country: Poland
       nuts1: PL4
       nuts2: PL42
   - PL431:
-      country: Poland
       name: Gorzowski
+      country: Poland
       nuts1: PL4
       nuts2: PL43
   - PL432:
-      country: Poland
       name: Zielonogórski
+      country: Poland
       nuts1: PL4
       nuts2: PL43
   - PL514:
-      country: Poland
       name: Miasto Wrocław
+      country: Poland
       nuts1: PL5
       nuts2: PL51
   - PL515:
-      country: Poland
       name: Jeleniogórski
+      country: Poland
       nuts1: PL5
       nuts2: PL51
   - PL516:
-      country: Poland
       name: Legnicko-głogowski
+      country: Poland
       nuts1: PL5
       nuts2: PL51
   - PL517:
-      country: Poland
       name: Wałbrzyski
+      country: Poland
       nuts1: PL5
       nuts2: PL51
   - PL518:
-      country: Poland
       name: Wrocławski
+      country: Poland
       nuts1: PL5
       nuts2: PL51
   - PL523:
-      country: Poland
       name: Nyski
+      country: Poland
       nuts1: PL5
       nuts2: PL52
   - PL524:
-      country: Poland
       name: Opolski
+      country: Poland
       nuts1: PL5
       nuts2: PL52
   - PL613:
-      country: Poland
       name: Bydgosko-toruński
+      country: Poland
       nuts1: PL6
       nuts2: PL61
   - PL616:
-      country: Poland
       name: Grudziądzki
+      country: Poland
       nuts1: PL6
       nuts2: PL61
   - PL617:
-      country: Poland
       name: Inowrocławski
+      country: Poland
       nuts1: PL6
       nuts2: PL61
   - PL618:
-      country: Poland
       name: Świecki
+      country: Poland
       nuts1: PL6
       nuts2: PL61
   - PL619:
-      country: Poland
       name: Włocławski
+      country: Poland
       nuts1: PL6
       nuts2: PL61
   - PL621:
-      country: Poland
       name: Elbląski
+      country: Poland
       nuts1: PL6
       nuts2: PL62
   - PL622:
-      country: Poland
       name: Olsztyński
+      country: Poland
       nuts1: PL6
       nuts2: PL62
   - PL623:
-      country: Poland
       name: Ełcki
+      country: Poland
       nuts1: PL6
       nuts2: PL62
   - PL633:
-      country: Poland
       name: Trójmiejski
+      country: Poland
       nuts1: PL6
       nuts2: PL63
   - PL634:
-      country: Poland
       name: Gdański
+      country: Poland
       nuts1: PL6
       nuts2: PL63
   - PL636:
-      country: Poland
       name: Słupski
+      country: Poland
       nuts1: PL6
       nuts2: PL63
   - PL637:
-      country: Poland
       name: Chojnicki
+      country: Poland
       nuts1: PL6
       nuts2: PL63
   - PL638:
-      country: Poland
       name: Starogardzki
+      country: Poland
       nuts1: PL6
       nuts2: PL63
   - PL711:
-      country: Poland
       name: Miasto Łódź
+      country: Poland
       nuts1: PL7
       nuts2: PL71
   - PL712:
-      country: Poland
       name: Łódzki
+      country: Poland
       nuts1: PL7
       nuts2: PL71
   - PL713:
-      country: Poland
       name: Piotrkowski
+      country: Poland
       nuts1: PL7
       nuts2: PL71
   - PL714:
-      country: Poland
       name: Sieradzki
+      country: Poland
       nuts1: PL7
       nuts2: PL71
   - PL715:
-      country: Poland
       name: Skierniewicki
+      country: Poland
       nuts1: PL7
       nuts2: PL71
   - PL721:
-      country: Poland
       name: Kielecki
+      country: Poland
       nuts1: PL7
       nuts2: PL72
   - PL722:
-      country: Poland
       name: Sandomiersko-jędrzejowski
+      country: Poland
       nuts1: PL7
       nuts2: PL72
   - PL811:
-      country: Poland
       name: Bialski
+      country: Poland
       nuts1: PL8
       nuts2: PL81
   - PL812:
-      country: Poland
       name: Chełmsko-zamojski
+      country: Poland
       nuts1: PL8
       nuts2: PL81
   - PL814:
-      country: Poland
       name: Lubelski
+      country: Poland
       nuts1: PL8
       nuts2: PL81
   - PL815:
-      country: Poland
       name: Puławski
+      country: Poland
       nuts1: PL8
       nuts2: PL81
   - PL821:
-      country: Poland
       name: Krośnieński
+      country: Poland
       nuts1: PL8
       nuts2: PL82
   - PL822:
-      country: Poland
       name: Przemyski
+      country: Poland
       nuts1: PL8
       nuts2: PL82
   - PL823:
-      country: Poland
       name: Rzeszowski
+      country: Poland
       nuts1: PL8
       nuts2: PL82
   - PL824:
-      country: Poland
       name: Tarnobrzeski
+      country: Poland
       nuts1: PL8
       nuts2: PL82
   - PL841:
-      country: Poland
       name: Białostocki
+      country: Poland
       nuts1: PL8
       nuts2: PL84
   - PL842:
-      country: Poland
       name: Łomżyński
+      country: Poland
       nuts1: PL8
       nuts2: PL84
   - PL843:
-      country: Poland
       name: Suwalski
+      country: Poland
       nuts1: PL8
       nuts2: PL84
   - PL911:
-      country: Poland
       name: Miasto Warszawa
+      country: Poland
       nuts1: PL9
       nuts2: PL91
   - PL912:
-      country: Poland
       name: Warszawski wschodni
+      country: Poland
       nuts1: PL9
       nuts2: PL91
   - PL913:
-      country: Poland
       name: Warszawski zachodni
+      country: Poland
       nuts1: PL9
       nuts2: PL91
   - PL921:
-      country: Poland
       name: Radomski
+      country: Poland
       nuts1: PL9
       nuts2: PL92
   - PL922:
-      country: Poland
       name: Ciechanowski
+      country: Poland
       nuts1: PL9
       nuts2: PL92
   - PL923:
-      country: Poland
       name: Płocki
+      country: Poland
       nuts1: PL9
       nuts2: PL92
   - PL924:
-      country: Poland
       name: Ostrołęcki
+      country: Poland
       nuts1: PL9
       nuts2: PL92
   - PL925:
-      country: Poland
       name: Siedlecki
+      country: Poland
       nuts1: PL9
       nuts2: PL92
   - PL926:
-      country: Poland
       name: Żyrardowski
+      country: Poland
       nuts1: PL9
       nuts2: PL92
   - PLZZZ:
-      country: Poland
       name: Extra-Regio NUTS 3
+      country: Poland
       nuts1: PLZ
       nuts2: PLZZ
   - PT111:
-      country: Portugal
       name: Alto Minho
+      country: Portugal
       nuts1: PT1
       nuts2: PT11
   - PT112:
-      country: Portugal
       name: Cávado
+      country: Portugal
       nuts1: PT1
       nuts2: PT11
   - PT119:
-      country: Portugal
       name: Ave
+      country: Portugal
       nuts1: PT1
       nuts2: PT11
   - PT11A:
-      country: Portugal
       name: Área Metropolitana do Porto
+      country: Portugal
       nuts1: PT1
       nuts2: PT11
   - PT11B:
-      country: Portugal
       name: Alto Tâmega
+      country: Portugal
       nuts1: PT1
       nuts2: PT11
   - PT11C:
-      country: Portugal
       name: Tâmega e Sousa
+      country: Portugal
       nuts1: PT1
       nuts2: PT11
   - PT11D:
-      country: Portugal
       name: Douro
+      country: Portugal
       nuts1: PT1
       nuts2: PT11
   - PT11E:
-      country: Portugal
       name: Terras de Trás-os-Montes
+      country: Portugal
       nuts1: PT1
       nuts2: PT11
   - PT150:
-      country: Portugal
       name: Algarve
+      country: Portugal
       nuts1: PT1
       nuts2: PT15
   - PT16B:
-      country: Portugal
       name: Oeste
+      country: Portugal
       nuts1: PT1
       nuts2: PT16
   - PT16D:
-      country: Portugal
       name: Região de Aveiro
+      country: Portugal
       nuts1: PT1
       nuts2: PT16
   - PT16E:
-      country: Portugal
       name: Região de Coimbra
+      country: Portugal
       nuts1: PT1
       nuts2: PT16
   - PT16F:
-      country: Portugal
       name: Região de Leiria
+      country: Portugal
       nuts1: PT1
       nuts2: PT16
   - PT16G:
-      country: Portugal
       name: Viseu Dão Lafões
+      country: Portugal
       nuts1: PT1
       nuts2: PT16
   - PT16H:
-      country: Portugal
       name: Beira Baixa
+      country: Portugal
       nuts1: PT1
       nuts2: PT16
   - PT16I:
-      country: Portugal
       name: Médio Tejo
+      country: Portugal
       nuts1: PT1
       nuts2: PT16
   - PT16J:
-      country: Portugal
       name: Beiras e Serra da Estrela
+      country: Portugal
       nuts1: PT1
       nuts2: PT16
   - PT170:
-      country: Portugal
       name: Área Metropolitana de Lisboa
+      country: Portugal
       nuts1: PT1
       nuts2: PT17
   - PT181:
-      country: Portugal
       name: Alentejo Litoral
+      country: Portugal
       nuts1: PT1
       nuts2: PT18
   - PT184:
-      country: Portugal
       name: Baixo Alentejo
+      country: Portugal
       nuts1: PT1
       nuts2: PT18
   - PT185:
-      country: Portugal
       name: Lezíria do Tejo
+      country: Portugal
       nuts1: PT1
       nuts2: PT18
   - PT186:
-      country: Portugal
       name: Alto Alentejo
+      country: Portugal
       nuts1: PT1
       nuts2: PT18
   - PT187:
-      country: Portugal
       name: Alentejo Central
+      country: Portugal
       nuts1: PT1
       nuts2: PT18
   - PT200:
-      country: Portugal
       name: Região Autónoma dos Açores
+      country: Portugal
       nuts1: PT2
       nuts2: PT20
   - PT300:
-      country: Portugal
       name: Região Autónoma da Madeira
+      country: Portugal
       nuts1: PT3
       nuts2: PT30
   - PTZZZ:
-      country: Portugal
       name: Extra-Regio NUTS 3
+      country: Portugal
       nuts1: PTZ
       nuts2: PTZZ
   - RO111:
-      country: Romania
       name: Bihor
+      country: Romania
       nuts1: RO1
       nuts2: RO11
   - RO112:
-      country: Romania
       name: Bistriţa-Năsăud
+      country: Romania
       nuts1: RO1
       nuts2: RO11
   - RO113:
-      country: Romania
       name: Cluj
+      country: Romania
       nuts1: RO1
       nuts2: RO11
   - RO114:
-      country: Romania
       name: Maramureş
+      country: Romania
       nuts1: RO1
       nuts2: RO11
   - RO115:
-      country: Romania
       name: Satu Mare
+      country: Romania
       nuts1: RO1
       nuts2: RO11
   - RO116:
-      country: Romania
       name: Sălaj
+      country: Romania
       nuts1: RO1
       nuts2: RO11
   - RO121:
-      country: Romania
       name: Alba
+      country: Romania
       nuts1: RO1
       nuts2: RO12
   - RO122:
-      country: Romania
       name: Braşov
+      country: Romania
       nuts1: RO1
       nuts2: RO12
   - RO123:
-      country: Romania
       name: Covasna
+      country: Romania
       nuts1: RO1
       nuts2: RO12
   - RO124:
-      country: Romania
       name: Harghita
+      country: Romania
       nuts1: RO1
       nuts2: RO12
   - RO125:
-      country: Romania
       name: Mureş
+      country: Romania
       nuts1: RO1
       nuts2: RO12
   - RO126:
-      country: Romania
       name: Sibiu
+      country: Romania
       nuts1: RO1
       nuts2: RO12
   - RO211:
-      country: Romania
       name: Bacău
+      country: Romania
       nuts1: RO2
       nuts2: RO21
   - RO212:
-      country: Romania
       name: Botoşani
+      country: Romania
       nuts1: RO2
       nuts2: RO21
   - RO213:
-      country: Romania
       name: Iaşi
+      country: Romania
       nuts1: RO2
       nuts2: RO21
   - RO214:
-      country: Romania
       name: Neamţ
+      country: Romania
       nuts1: RO2
       nuts2: RO21
   - RO215:
-      country: Romania
       name: Suceava
+      country: Romania
       nuts1: RO2
       nuts2: RO21
   - RO216:
-      country: Romania
       name: Vaslui
+      country: Romania
       nuts1: RO2
       nuts2: RO21
   - RO221:
-      country: Romania
       name: Brăila
+      country: Romania
       nuts1: RO2
       nuts2: RO22
   - RO222:
-      country: Romania
       name: Buzău
+      country: Romania
       nuts1: RO2
       nuts2: RO22
   - RO223:
-      country: Romania
       name: Constanţa
+      country: Romania
       nuts1: RO2
       nuts2: RO22
   - RO224:
-      country: Romania
       name: Galaţi
+      country: Romania
       nuts1: RO2
       nuts2: RO22
   - RO225:
-      country: Romania
       name: Tulcea
+      country: Romania
       nuts1: RO2
       nuts2: RO22
   - RO226:
-      country: Romania
       name: Vrancea
+      country: Romania
       nuts1: RO2
       nuts2: RO22
   - RO311:
-      country: Romania
       name: Argeş
+      country: Romania
       nuts1: RO3
       nuts2: RO31
   - RO312:
-      country: Romania
       name: Călăraşi
+      country: Romania
       nuts1: RO3
       nuts2: RO31
   - RO313:
-      country: Romania
       name: Dâmboviţa
+      country: Romania
       nuts1: RO3
       nuts2: RO31
   - RO314:
-      country: Romania
       name: Giurgiu
+      country: Romania
       nuts1: RO3
       nuts2: RO31
   - RO315:
-      country: Romania
       name: Ialomiţa
+      country: Romania
       nuts1: RO3
       nuts2: RO31
   - RO316:
-      country: Romania
       name: Prahova
+      country: Romania
       nuts1: RO3
       nuts2: RO31
   - RO317:
-      country: Romania
       name: Teleorman
+      country: Romania
       nuts1: RO3
       nuts2: RO31
   - RO321:
-      country: Romania
       name: Bucureşti
+      country: Romania
       nuts1: RO3
       nuts2: RO32
   - RO322:
-      country: Romania
       name: Ilfov
-      nuts1: RO3
+      country: Romania
+      nuts1: RO322
       nuts2: RO32
   - RO411:
-      country: Romania
       name: Dolj
+      country: Romania
       nuts1: RO4
       nuts2: RO41
   - RO412:
-      country: Romania
       name: Gorj
+      country: Romania
       nuts1: RO4
       nuts2: RO41
   - RO413:
-      country: Romania
       name: Mehedinţi
+      country: Romania
       nuts1: RO4
       nuts2: RO41
   - RO414:
-      country: Romania
       name: Olt
+      country: Romania
       nuts1: RO4
       nuts2: RO41
   - RO415:
-      country: Romania
       name: Vâlcea
+      country: Romania
       nuts1: RO4
       nuts2: RO41
   - RO421:
-      country: Romania
       name: Arad
+      country: Romania
       nuts1: RO4
       nuts2: RO42
   - RO422:
-      country: Romania
       name: Caraş-Severin
+      country: Romania
       nuts1: RO4
       nuts2: RO42
   - RO423:
-      country: Romania
       name: Hunedoara
+      country: Romania
       nuts1: RO4
       nuts2: RO42
   - RO424:
-      country: Romania
       name: Timiş
+      country: Romania
       nuts1: RO4
       nuts2: RO42
   - ROZZZ:
-      country: Romania
       name: Extra-Regio NUTS 3
+      country: Romania
       nuts1: ROZ
       nuts2: ROZZ
   - SI031:
-      country: Slovenia
       name: Pomurska
+      country: Slovenia
       nuts1: SI0
       nuts2: SI03
   - SI032:
-      country: Slovenia
       name: Podravska
+      country: Slovenia
       nuts1: SI0
       nuts2: SI03
   - SI033:
-      country: Slovenia
       name: Koroška
+      country: Slovenia
       nuts1: SI0
       nuts2: SI03
   - SI034:
-      country: Slovenia
       name: Savinjska
+      country: Slovenia
       nuts1: SI0
       nuts2: SI03
   - SI035:
-      country: Slovenia
       name: Zasavska
+      country: Slovenia
       nuts1: SI0
       nuts2: SI03
   - SI036:
-      country: Slovenia
       name: Posavska
+      country: Slovenia
       nuts1: SI0
       nuts2: SI03
   - SI037:
-      country: Slovenia
       name: Jugovzhodna Slovenija
+      country: Slovenia
       nuts1: SI0
       nuts2: SI03
   - SI038:
-      country: Slovenia
       name: Primorsko-notranjska
+      country: Slovenia
       nuts1: SI0
       nuts2: SI03
   - SI041:
-      country: Slovenia
       name: Osrednjeslovenska
+      country: Slovenia
       nuts1: SI0
       nuts2: SI04
   - SI042:
-      country: Slovenia
       name: Gorenjska
+      country: Slovenia
       nuts1: SI0
       nuts2: SI04
   - SI043:
-      country: Slovenia
       name: Goriška
+      country: Slovenia
       nuts1: SI0
       nuts2: SI04
   - SI044:
-      country: Slovenia
       name: Obalno-kraška
+      country: Slovenia
       nuts1: SI0
       nuts2: SI04
   - SIZZZ:
-      country: Slovenia
       name: Extra-Regio NUTS 3
+      country: Slovenia
       nuts1: SIZ
       nuts2: SIZZ
   - SK010:
-      country: Slovakia
       name: Bratislavský kraj
+      country: Slovakia
       nuts1: SK0
       nuts2: SK01
   - SK021:
-      country: Slovakia
       name: Trnavský kraj
+      country: Slovakia
       nuts1: SK0
       nuts2: SK02
   - SK022:
-      country: Slovakia
       name: Trenčiansky kraj
+      country: Slovakia
       nuts1: SK0
       nuts2: SK02
   - SK023:
-      country: Slovakia
       name: Nitriansky kraj
+      country: Slovakia
       nuts1: SK0
       nuts2: SK02
   - SK031:
-      country: Slovakia
       name: Žilinský kraj
+      country: Slovakia
       nuts1: SK0
       nuts2: SK03
   - SK032:
-      country: Slovakia
       name: Banskobystrický kraj
+      country: Slovakia
       nuts1: SK0
       nuts2: SK03
   - SK041:
-      country: Slovakia
       name: Prešovský kraj
+      country: Slovakia
       nuts1: SK0
       nuts2: SK04
   - SK042:
-      country: Slovakia
       name: Košický kraj
+      country: Slovakia
       nuts1: SK0
       nuts2: SK04
   - SKZZZ:
-      country: Slovakia
       name: Extra-Regio NUTS 3
+      country: Slovakia
       nuts1: SKZ
       nuts2: SKZZ
   - FI193:
-      country: Finland
       name: Keski-Suomi
+      country: Finland
       nuts1: FI1
       nuts2: FI19
   - FI194:
-      country: Finland
       name: Etelä-Pohjanmaa
+      country: Finland
       nuts1: FI1
       nuts2: FI19
   - FI195:
-      country: Finland
       name: Pohjanmaa
+      country: Finland
       nuts1: FI1
       nuts2: FI19
   - FI196:
-      country: Finland
       name: Satakunta
+      country: Finland
       nuts1: FI1
       nuts2: FI19
   - FI197:
-      country: Finland
       name: Pirkanmaa
+      country: Finland
       nuts1: FI1
       nuts2: FI19
   - FI1B1:
-      country: Finland
       name: Helsinki-Uusimaa
+      country: Finland
       nuts1: FI1
       nuts2: FI1B
   - FI1C1:
-      country: Finland
       name: Varsinais-Suomi
+      country: Finland
       nuts1: FI1
       nuts2: FI1C
   - FI1C2:
-      country: Finland
       name: Kanta-Häme
+      country: Finland
       nuts1: FI1
       nuts2: FI1C
   - FI1C3:
-      country: Finland
       name: Päijät-Häme
+      country: Finland
       nuts1: FI1
       nuts2: FI1C
   - FI1C4:
-      country: Finland
       name: Kymenlaakso
+      country: Finland
       nuts1: FI1
       nuts2: FI1C
   - FI1C5:
-      country: Finland
       name: Etelä-Karjala
+      country: Finland
       nuts1: FI1
       nuts2: FI1C
   - FI1D1:
-      country: Finland
       name: Etelä-Savo
+      country: Finland
       nuts1: FI1
       nuts2: FI1D
   - FI1D2:
-      country: Finland
       name: Pohjois-Savo
+      country: Finland
       nuts1: FI1
       nuts2: FI1D
   - FI1D3:
-      country: Finland
       name: Pohjois-Karjala
+      country: Finland
       nuts1: FI1
       nuts2: FI1D
   - FI1D5:
-      country: Finland
       name: Keski-Pohjanmaa
+      country: Finland
       nuts1: FI1
       nuts2: FI1D
   - FI1D7:
-      country: Finland
       name: Lappi
+      country: Finland
       nuts1: FI1
       nuts2: FI1D
   - FI1D8:
-      country: Finland
       name: Kainuu
+      country: Finland
       nuts1: FI1
       nuts2: FI1D
   - FI1D9:
-      country: Finland
       name: Pohjois-Pohjanmaa
+      country: Finland
       nuts1: FI1
       nuts2: FI1D
   - FI200:
-      country: Finland
       name: Åland
+      country: Finland
       nuts1: FI2
       nuts2: FI20
   - FIZZZ:
-      country: Finland
       name: Extra-Regio NUTS 3
+      country: Finland
       nuts1: FIZ
       nuts2: FIZZ
   - SE110:
-      country: Sweden
       name: Stockholms län
+      country: Sweden
       nuts1: SE1
       nuts2: SE11
   - SE121:
-      country: Sweden
       name: Uppsala län
+      country: Sweden
       nuts1: SE1
       nuts2: SE12
   - SE122:
-      country: Sweden
       name: Södermanlands län
+      country: Sweden
       nuts1: SE1
       nuts2: SE12
   - SE123:
-      country: Sweden
       name: Östergötlands län
+      country: Sweden
       nuts1: SE1
       nuts2: SE12
   - SE124:
-      country: Sweden
       name: Örebro län
+      country: Sweden
       nuts1: SE1
       nuts2: SE12
   - SE125:
-      country: Sweden
       name: Västmanlands län
+      country: Sweden
       nuts1: SE1
       nuts2: SE12
   - SE211:
-      country: Sweden
       name: Jönköpings län
+      country: Sweden
       nuts1: SE2
       nuts2: SE21
   - SE212:
-      country: Sweden
       name: Kronobergs län
+      country: Sweden
       nuts1: SE2
       nuts2: SE21
   - SE213:
-      country: Sweden
       name: Kalmar län
+      country: Sweden
       nuts1: SE2
       nuts2: SE21
   - SE214:
-      country: Sweden
       name: Gotlands län
+      country: Sweden
       nuts1: SE2
       nuts2: SE21
   - SE221:
-      country: Sweden
       name: Blekinge län
+      country: Sweden
       nuts1: SE2
       nuts2: SE22
   - SE224:
-      country: Sweden
       name: Skåne län
+      country: Sweden
       nuts1: SE2
       nuts2: SE22
   - SE231:
-      country: Sweden
       name: Hallands län
+      country: Sweden
       nuts1: SE2
       nuts2: SE23
   - SE232:
-      country: Sweden
       name: Västra Götalands län
+      country: Sweden
       nuts1: SE2
       nuts2: SE23
   - SE311:
-      country: Sweden
       name: Värmlands län
+      country: Sweden
       nuts1: SE3
       nuts2: SE31
   - SE312:
-      country: Sweden
       name: Dalarnas län
+      country: Sweden
       nuts1: SE3
       nuts2: SE31
   - SE313:
-      country: Sweden
       name: Gävleborgs län
+      country: Sweden
       nuts1: SE3
       nuts2: SE31
   - SE321:
-      country: Sweden
       name: Västernorrlands län
+      country: Sweden
       nuts1: SE3
       nuts2: SE32
   - SE322:
-      country: Sweden
       name: Jämtlands län
+      country: Sweden
       nuts1: SE3
       nuts2: SE32
   - SE331:
-      country: Sweden
       name: Västerbottens län
+      country: Sweden
       nuts1: SE3
       nuts2: SE33
   - SE332:
-      country: Sweden
       name: Norrbottens län
+      country: Sweden
       nuts1: SE3
       nuts2: SE33
   - SEZZZ:
-      country: Sweden
       name: Extra-Regio NUTS 3
+      country: Sweden
       nuts1: SEZ
       nuts2: SEZZ
   - UKC11:
-      country: United Kingdom
       name: Hartlepool and Stockton-on-Tees
+      country: United Kingdom
       nuts1: UKC
       nuts2: UKC1
   - UKC12:
-      country: United Kingdom
       name: South Teesside
+      country: United Kingdom
       nuts1: UKC
       nuts2: UKC1
   - UKC13:
-      country: United Kingdom
       name: Darlington
+      country: United Kingdom
       nuts1: UKC
       nuts2: UKC1
   - UKC14:
-      country: United Kingdom
       name: Durham CC
+      country: United Kingdom
       nuts1: UKC
       nuts2: UKC1
   - UKC21:
-      country: United Kingdom
       name: Northumberland
+      country: United Kingdom
       nuts1: UKC
       nuts2: UKC2
   - UKC22:
-      country: United Kingdom
       name: Tyneside
+      country: United Kingdom
       nuts1: UKC
       nuts2: UKC2
   - UKC23:
-      country: United Kingdom
       name: Sunderland
+      country: United Kingdom
       nuts1: UKC
       nuts2: UKC2
   - UKD11:
-      country: United Kingdom
       name: West Cumbria
+      country: United Kingdom
       nuts1: UKD
       nuts2: UKD1
   - UKD12:
-      country: United Kingdom
       name: East Cumbria
+      country: United Kingdom
       nuts1: UKD
       nuts2: UKD1
   - UKD33:
-      country: United Kingdom
       name: Manchester
+      country: United Kingdom
       nuts1: UKD
       nuts2: UKD3
   - UKD34:
-      country: United Kingdom
       name: Greater Manchester South West
+      country: United Kingdom
       nuts1: UKD
       nuts2: UKD3
   - UKD35:
-      country: United Kingdom
       name: Greater Manchester South East
+      country: United Kingdom
       nuts1: UKD
       nuts2: UKD3
   - UKD36:
-      country: United Kingdom
       name: Greater Manchester North West
+      country: United Kingdom
       nuts1: UKD
       nuts2: UKD3
   - UKD37:
-      country: United Kingdom
       name: Greater Manchester North East
+      country: United Kingdom
       nuts1: UKD
       nuts2: UKD3
   - UKD41:
-      country: United Kingdom
       name: Blackburn with Darwen
+      country: United Kingdom
       nuts1: UKD
       nuts2: UKD4
   - UKD42:
-      country: United Kingdom
       name: Blackpool
+      country: United Kingdom
       nuts1: UKD
       nuts2: UKD4
   - UKD44:
-      country: United Kingdom
       name: Lancaster and Wyre
+      country: United Kingdom
       nuts1: UKD
       nuts2: UKD4
   - UKD45:
-      country: United Kingdom
       name: Mid Lancashire
+      country: United Kingdom
       nuts1: UKD
       nuts2: UKD4
   - UKD46:
-      country: United Kingdom
       name: East Lancashire
+      country: United Kingdom
       nuts1: UKD
       nuts2: UKD4
   - UKD47:
-      country: United Kingdom
       name: Chorley and West Lancashire
+      country: United Kingdom
       nuts1: UKD
       nuts2: UKD4
   - UKD61:
-      country: United Kingdom
       name: Warrington
+      country: United Kingdom
       nuts1: UKD
       nuts2: UKD6
   - UKD62:
-      country: United Kingdom
       name: Cheshire East
+      country: United Kingdom
       nuts1: UKD
       nuts2: UKD6
   - UKD63:
-      country: United Kingdom
       name: Cheshire West and Chester
+      country: United Kingdom
       nuts1: UKD
       nuts2: UKD6
   - UKD71:
-      country: United Kingdom
       name: East Merseyside
+      country: United Kingdom
       nuts1: UKD
       nuts2: UKD7
   - UKD72:
-      country: United Kingdom
       name: Liverpool
+      country: United Kingdom
       nuts1: UKD
       nuts2: UKD7
   - UKD73:
-      country: United Kingdom
       name: Sefton
+      country: United Kingdom
       nuts1: UKD
       nuts2: UKD7
   - UKD74:
-      country: United Kingdom
       name: Wirral
+      country: United Kingdom
       nuts1: UKD
       nuts2: UKD7
   - UKE11:
-      country: United Kingdom
       name: Kingston upon Hull, City of
+      country: United Kingdom
       nuts1: UKE
       nuts2: UKE1
   - UKE12:
-      country: United Kingdom
       name: East Riding of Yorkshire
+      country: United Kingdom
       nuts1: UKE
       nuts2: UKE1
   - UKE13:
-      country: United Kingdom
       name: North and North East Lincolnshire
+      country: United Kingdom
       nuts1: UKE
       nuts2: UKE1
   - UKE21:
-      country: United Kingdom
       name: York
+      country: United Kingdom
       nuts1: UKE
       nuts2: UKE2
   - UKE22:
-      country: United Kingdom
       name: North Yorkshire CC
+      country: United Kingdom
       nuts1: UKE
       nuts2: UKE2
   - UKE31:
-      country: United Kingdom
       name: Barnsley, Doncaster and Rotherham
+      country: United Kingdom
       nuts1: UKE
       nuts2: UKE3
   - UKE32:
-      country: United Kingdom
       name: Sheffield
+      country: United Kingdom
       nuts1: UKE
       nuts2: UKE3
   - UKE41:
-      country: United Kingdom
       name: Bradford
+      country: United Kingdom
       nuts1: UKE
       nuts2: UKE4
   - UKE42:
-      country: United Kingdom
       name: Leeds
+      country: United Kingdom
       nuts1: UKE
       nuts2: UKE4
   - UKE44:
-      country: United Kingdom
       name: Calderdale and Kirklees
+      country: United Kingdom
       nuts1: UKE
       nuts2: UKE4
   - UKE45:
-      country: United Kingdom
       name: Wakefield
+      country: United Kingdom
       nuts1: UKE
       nuts2: UKE4
   - UKF11:
-      country: United Kingdom
       name: Derby
+      country: United Kingdom
       nuts1: UKF
       nuts2: UKF1
   - UKF12:
-      country: United Kingdom
       name: East Derbyshire
+      country: United Kingdom
       nuts1: UKF
       nuts2: UKF1
   - UKF13:
-      country: United Kingdom
       name: South and West Derbyshire
+      country: United Kingdom
       nuts1: UKF
       nuts2: UKF1
   - UKF14:
-      country: United Kingdom
       name: Nottingham
+      country: United Kingdom
       nuts1: UKF
       nuts2: UKF1
   - UKF15:
-      country: United Kingdom
       name: North Nottinghamshire
+      country: United Kingdom
       nuts1: UKF
       nuts2: UKF1
   - UKF16:
-      country: United Kingdom
       name: South Nottinghamshire
+      country: United Kingdom
       nuts1: UKF
       nuts2: UKF1
   - UKF21:
-      country: United Kingdom
       name: Leicester
+      country: United Kingdom
       nuts1: UKF
       nuts2: UKF2
   - UKF22:
-      country: United Kingdom
       name: Leicestershire CC and Rutland
+      country: United Kingdom
       nuts1: UKF
       nuts2: UKF2
   - UKF24:
-      country: United Kingdom
       name: West Northamptonshire
+      country: United Kingdom
       nuts1: UKF
       nuts2: UKF2
   - UKF25:
-      country: United Kingdom
       name: North Northamptonshire
+      country: United Kingdom
       nuts1: UKF
       nuts2: UKF2
   - UKF30:
-      country: United Kingdom
       name: Lincolnshire
+      country: United Kingdom
       nuts1: UKF
       nuts2: UKF3
   - UKG11:
-      country: United Kingdom
       name: Herefordshire, County of
+      country: United Kingdom
       nuts1: UKG
       nuts2: UKG1
   - UKG12:
-      country: United Kingdom
       name: Worcestershire
+      country: United Kingdom
       nuts1: UKG
       nuts2: UKG1
   - UKG13:
-      country: United Kingdom
       name: Warwickshire
+      country: United Kingdom
       nuts1: UKG
       nuts2: UKG1
   - UKG21:
-      country: United Kingdom
       name: Telford and Wrekin
+      country: United Kingdom
       nuts1: UKG
       nuts2: UKG2
   - UKG22:
-      country: United Kingdom
       name: Shropshire CC
+      country: United Kingdom
       nuts1: UKG
       nuts2: UKG2
   - UKG23:
-      country: United Kingdom
       name: Stoke-on-Trent
+      country: United Kingdom
       nuts1: UKG
       nuts2: UKG2
   - UKG24:
-      country: United Kingdom
       name: Staffordshire CC
+      country: United Kingdom
       nuts1: UKG
       nuts2: UKG2
   - UKG31:
-      country: United Kingdom
       name: Birmingham
+      country: United Kingdom
       nuts1: UKG
       nuts2: UKG3
   - UKG32:
-      country: United Kingdom
       name: Solihull
+      country: United Kingdom
       nuts1: UKG
       nuts2: UKG3
   - UKG33:
-      country: United Kingdom
       name: Coventry
+      country: United Kingdom
       nuts1: UKG
       nuts2: UKG3
   - UKG36:
-      country: United Kingdom
       name: Dudley
+      country: United Kingdom
       nuts1: UKG
       nuts2: UKG3
   - UKG37:
-      country: United Kingdom
       name: Sandwell
+      country: United Kingdom
       nuts1: UKG
       nuts2: UKG3
   - UKG38:
-      country: United Kingdom
       name: Walsall
+      country: United Kingdom
       nuts1: UKG
       nuts2: UKG3
   - UKG39:
-      country: United Kingdom
       name: Wolverhampton
+      country: United Kingdom
       nuts1: UKG
       nuts2: UKG3
   - UKH11:
-      country: United Kingdom
       name: Peterborough
+      country: United Kingdom
       nuts1: UKH
       nuts2: UKH1
   - UKH12:
-      country: United Kingdom
       name: Cambridgeshire CC
+      country: United Kingdom
       nuts1: UKH
       nuts2: UKH1
   - UKH14:
-      country: United Kingdom
       name: Suffolk
+      country: United Kingdom
       nuts1: UKH
       nuts2: UKH1
   - UKH15:
-      country: United Kingdom
       name: Norwich and East Norfolk
+      country: United Kingdom
       nuts1: UKH
       nuts2: UKH1
   - UKH16:
-      country: United Kingdom
       name: North and West Norfolk
+      country: United Kingdom
       nuts1: UKH
       nuts2: UKH1
   - UKH17:
-      country: United Kingdom
       name: Breckland and South Norfolk
+      country: United Kingdom
       nuts1: UKH
       nuts2: UKH1
   - UKH21:
-      country: United Kingdom
       name: Luton
+      country: United Kingdom
       nuts1: UKH
       nuts2: UKH2
   - UKH23:
-      country: United Kingdom
       name: Hertfordshire
+      country: United Kingdom
       nuts1: UKH
       nuts2: UKH2
   - UKH24:
-      country: United Kingdom
       name: Bedford
+      country: United Kingdom
       nuts1: UKH
       nuts2: UKH2
   - UKH25:
-      country: United Kingdom
       name: Central Bedfordshire
+      country: United Kingdom
       nuts1: UKH
       nuts2: UKH2
   - UKH31:
-      country: United Kingdom
       name: Southend-on-Sea
+      country: United Kingdom
       nuts1: UKH
       nuts2: UKH3
   - UKH32:
-      country: United Kingdom
       name: Thurrock
+      country: United Kingdom
       nuts1: UKH
       nuts2: UKH3
   - UKH34:
-      country: United Kingdom
       name: Essex Haven Gateway
+      country: United Kingdom
       nuts1: UKH
       nuts2: UKH3
   - UKH35:
-      country: United Kingdom
       name: West Essex
+      country: United Kingdom
       nuts1: UKH
       nuts2: UKH3
   - UKH36:
-      country: United Kingdom
       name: Heart of Essex
+      country: United Kingdom
       nuts1: UKH
       nuts2: UKH3
   - UKH37:
-      country: United Kingdom
       name: Essex Thames Gateway
+      country: United Kingdom
       nuts1: UKH
       nuts2: UKH3
   - UKI31:
-      country: United Kingdom
       name: Camden and City of London
+      country: United Kingdom
       nuts1: UKI
       nuts2: UKI3
   - UKI32:
-      country: United Kingdom
       name: Westminster
+      country: United Kingdom
       nuts1: UKI
       nuts2: UKI3
   - UKI33:
-      country: United Kingdom
       name: Kensington & Chelsea and Hammersmith & Fulham
+      country: United Kingdom
       nuts1: UKI
       nuts2: UKI3
   - UKI34:
-      country: United Kingdom
       name: Wandsworth
+      country: United Kingdom
       nuts1: UKI
       nuts2: UKI3
   - UKI41:
-      country: United Kingdom
       name: Hackney and Newham
+      country: United Kingdom
       nuts1: UKI
       nuts2: UKI4
   - UKI42:
-      country: United Kingdom
       name: Tower Hamlets
+      country: United Kingdom
       nuts1: UKI
       nuts2: UKI4
   - UKI43:
-      country: United Kingdom
       name: Haringey and Islington
+      country: United Kingdom
       nuts1: UKI
       nuts2: UKI4
   - UKI44:
-      country: United Kingdom
       name: Lewisham and Southwark
+      country: United Kingdom
       nuts1: UKI
       nuts2: UKI4
   - UKI45:
-      country: United Kingdom
       name: Lambeth
+      country: United Kingdom
       nuts1: UKI
       nuts2: UKI4
   - UKI51:
-      country: United Kingdom
       name: Bexley and Greenwich
+      country: United Kingdom
       nuts1: UKI
       nuts2: UKI5
   - UKI52:
-      country: United Kingdom
       name: Barking & Dagenham and Havering
+      country: United Kingdom
       nuts1: UKI
       nuts2: UKI5
   - UKI53:
-      country: United Kingdom
       name: Redbridge and Waltham Forest
+      country: United Kingdom
       nuts1: UKI
       nuts2: UKI5
   - UKI54:
-      country: United Kingdom
       name: Enfield
+      country: United Kingdom
       nuts1: UKI
       nuts2: UKI5
   - UKI61:
-      country: United Kingdom
       name: Bromley
+      country: United Kingdom
       nuts1: UKI
       nuts2: UKI6
   - UKI62:
-      country: United Kingdom
       name: Croydon
+      country: United Kingdom
       nuts1: UKI
       nuts2: UKI6
   - UKI63:
-      country: United Kingdom
       name: Merton, Kingston upon Thames and Sutton
+      country: United Kingdom
       nuts1: UKI
       nuts2: UKI6
   - UKI71:
-      country: United Kingdom
       name: Barnet
+      country: United Kingdom
       nuts1: UKI
       nuts2: UKI7
   - UKI72:
-      country: United Kingdom
       name: Brent
+      country: United Kingdom
       nuts1: UKI
       nuts2: UKI7
   - UKI73:
-      country: United Kingdom
       name: Ealing
+      country: United Kingdom
       nuts1: UKI
       nuts2: UKI7
   - UKI74:
-      country: United Kingdom
       name: Harrow and Hillingdon
+      country: United Kingdom
       nuts1: UKI
       nuts2: UKI7
   - UKI75:
-      country: United Kingdom
       name: Hounslow and Richmond upon Thames
+      country: United Kingdom
       nuts1: UKI
       nuts2: UKI7
   - UKJ11:
-      country: United Kingdom
       name: Berkshire
+      country: United Kingdom
       nuts1: UKJ
       nuts2: UKJ1
   - UKJ12:
-      country: United Kingdom
       name: Milton Keynes
+      country: United Kingdom
       nuts1: UKJ
       nuts2: UKJ1
   - UKJ13:
-      country: United Kingdom
       name: Buckinghamshire CC
+      country: United Kingdom
       nuts1: UKJ
       nuts2: UKJ1
   - UKJ14:
-      country: United Kingdom
       name: Oxfordshire
+      country: United Kingdom
       nuts1: UKJ
       nuts2: UKJ1
   - UKJ21:
-      country: United Kingdom
       name: Brighton and Hove
+      country: United Kingdom
       nuts1: UKJ
       nuts2: UKJ2
   - UKJ22:
-      country: United Kingdom
       name: East Sussex CC
+      country: United Kingdom
       nuts1: UKJ
       nuts2: UKJ2
   - UKJ25:
-      country: United Kingdom
       name: West Surrey
+      country: United Kingdom
       nuts1: UKJ
       nuts2: UKJ2
   - UKJ26:
-      country: United Kingdom
       name: East Surrey
+      country: United Kingdom
       nuts1: UKJ
       nuts2: UKJ2
   - UKJ27:
-      country: United Kingdom
       name: West Sussex (South West)
+      country: United Kingdom
       nuts1: UKJ
       nuts2: UKJ2
   - UKJ28:
-      country: United Kingdom
       name: West Sussex (North East)
+      country: United Kingdom
       nuts1: UKJ
       nuts2: UKJ2
   - UKJ31:
-      country: United Kingdom
       name: Portsmouth
+      country: United Kingdom
       nuts1: UKJ
       nuts2: UKJ3
   - UKJ32:
-      country: United Kingdom
       name: Southampton
+      country: United Kingdom
       nuts1: UKJ
       nuts2: UKJ3
   - UKJ34:
-      country: United Kingdom
       name: Isle of Wight
+      country: United Kingdom
       nuts1: UKJ
       nuts2: UKJ3
   - UKJ35:
-      country: United Kingdom
       name: South Hampshire
+      country: United Kingdom
       nuts1: UKJ
       nuts2: UKJ3
   - UKJ36:
-      country: United Kingdom
       name: Central Hampshire
+      country: United Kingdom
       nuts1: UKJ
       nuts2: UKJ3
   - UKJ37:
-      country: United Kingdom
       name: North Hampshire
+      country: United Kingdom
       nuts1: UKJ
       nuts2: UKJ3
   - UKJ41:
-      country: United Kingdom
       name: Medway
+      country: United Kingdom
       nuts1: UKJ
       nuts2: UKJ4
   - UKJ43:
-      country: United Kingdom
       name: Kent Thames Gateway
+      country: United Kingdom
       nuts1: UKJ
       nuts2: UKJ4
   - UKJ44:
-      country: United Kingdom
       name: East Kent
+      country: United Kingdom
       nuts1: UKJ
       nuts2: UKJ4
   - UKJ45:
-      country: United Kingdom
       name: Mid Kent
+      country: United Kingdom
       nuts1: UKJ
       nuts2: UKJ4
   - UKJ46:
-      country: United Kingdom
       name: West Kent
+      country: United Kingdom
       nuts1: UKJ
       nuts2: UKJ4
   - UKK11:
-      country: United Kingdom
       name: Bristol, City of
+      country: United Kingdom
       nuts1: UKK
       nuts2: UKK1
   - UKK12:
-      country: United Kingdom
       name: Bath and North East Somerset, North Somerset and South Gloucestershire
+      country: United Kingdom
       nuts1: UKK
       nuts2: UKK1
   - UKK13:
-      country: United Kingdom
       name: Gloucestershire
+      country: United Kingdom
       nuts1: UKK
       nuts2: UKK1
   - UKK14:
-      country: United Kingdom
       name: Swindon
+      country: United Kingdom
       nuts1: UKK
       nuts2: UKK1
   - UKK15:
-      country: United Kingdom
       name: Wiltshire CC
+      country: United Kingdom
       nuts1: UKK
       nuts2: UKK1
   - UKK23:
-      country: United Kingdom
       name: Somerset
+      country: United Kingdom
       nuts1: UKK
       nuts2: UKK2
   - UKK24:
-      country: United Kingdom
       name: Bournemouth, Christchurch and Poole
+      country: United Kingdom
       nuts1: UKK
       nuts2: UKK2
   - UKK25:
-      country: United Kingdom
       name: Dorset
+      country: United Kingdom
       nuts1: UKK
       nuts2: UKK2
   - UKK30:
-      country: United Kingdom
       name: Cornwall and Isles of Scilly
+      country: United Kingdom
       nuts1: UKK
       nuts2: UKK3
   - UKK41:
-      country: United Kingdom
       name: Plymouth
+      country: United Kingdom
       nuts1: UKK
       nuts2: UKK4
   - UKK42:
-      country: United Kingdom
       name: Torbay
+      country: United Kingdom
       nuts1: UKK
       nuts2: UKK4
   - UKK43:
-      country: United Kingdom
       name: Devon CC
+      country: United Kingdom
       nuts1: UKK
       nuts2: UKK4
   - UKL11:
-      country: United Kingdom
       name: Isle of Anglesey
+      country: United Kingdom
       nuts1: UKL
       nuts2: UKL1
   - UKL12:
-      country: United Kingdom
       name: Gwynedd
+      country: United Kingdom
       nuts1: UKL
       nuts2: UKL1
   - UKL13:
-      country: United Kingdom
       name: Conwy and Denbighshire
+      country: United Kingdom
       nuts1: UKL
       nuts2: UKL1
   - UKL14:
-      country: United Kingdom
       name: South West Wales
+      country: United Kingdom
       nuts1: UKL
       nuts2: UKL1
   - UKL15:
-      country: United Kingdom
       name: Central Valleys
+      country: United Kingdom
       nuts1: UKL
       nuts2: UKL1
   - UKL16:
-      country: United Kingdom
       name: Gwent Valleys
+      country: United Kingdom
       nuts1: UKL
       nuts2: UKL1
   - UKL17:
-      country: United Kingdom
       name: Bridgend and Neath Port Talbot
+      country: United Kingdom
       nuts1: UKL
       nuts2: UKL1
   - UKL18:
-      country: United Kingdom
       name: Swansea
+      country: United Kingdom
       nuts1: UKL
       nuts2: UKL1
   - UKL21:
-      country: United Kingdom
       name: Monmouthshire and Newport
+      country: United Kingdom
       nuts1: UKL
       nuts2: UKL2
   - UKL22:
-      country: United Kingdom
       name: Cardiff and Vale of Glamorgan
+      country: United Kingdom
       nuts1: UKL
       nuts2: UKL2
   - UKL23:
-      country: United Kingdom
       name: Flintshire and Wrexham
+      country: United Kingdom
       nuts1: UKL
       nuts2: UKL2
   - UKL24:
-      country: United Kingdom
       name: Powys
+      country: United Kingdom
       nuts1: UKL
       nuts2: UKL2
   - UKM50:
-      country: United Kingdom
       name: Aberdeen City and Aberdeenshire
+      country: United Kingdom
       nuts1: UKM
       nuts2: UKM5
   - UKM61:
-      country: United Kingdom
       name: Caithness & Sutherland and Ross & Cromarty
+      country: United Kingdom
       nuts1: UKM
       nuts2: UKM6
   - UKM62:
-      country: United Kingdom
       name: Inverness & Nairn and Moray, Badenoch & Strathspey
+      country: United Kingdom
       nuts1: UKM
       nuts2: UKM6
   - UKM63:
-      country: United Kingdom
       name: Lochaber, Skye & Lochalsh, Arran & Cumbrae and Argyll & Bute
+      country: United Kingdom
       nuts1: UKM
       nuts2: UKM6
   - UKM64:
-      country: United Kingdom
       name: Na h-Eileanan Siar (Western Isles)
+      country: United Kingdom
       nuts1: UKM
       nuts2: UKM6
   - UKM65:
-      country: United Kingdom
       name: Orkney Islands
+      country: United Kingdom
       nuts1: UKM
       nuts2: UKM6
   - UKM66:
-      country: United Kingdom
       name: Shetland Islands
+      country: United Kingdom
       nuts1: UKM
       nuts2: UKM6
   - UKM71:
-      country: United Kingdom
       name: Angus and Dundee City
+      country: United Kingdom
       nuts1: UKM
       nuts2: UKM7
   - UKM72:
-      country: United Kingdom
       name: Clackmannanshire and Fife
+      country: United Kingdom
       nuts1: UKM
       nuts2: UKM7
   - UKM73:
-      country: United Kingdom
       name: East Lothian and Midlothian
+      country: United Kingdom
       nuts1: UKM
       nuts2: UKM7
   - UKM75:
-      country: United Kingdom
       name: Edinburgh, City of
+      country: United Kingdom
       nuts1: UKM
       nuts2: UKM7
   - UKM76:
-      country: United Kingdom
       name: Falkirk
+      country: United Kingdom
       nuts1: UKM
       nuts2: UKM7
   - UKM77:
-      country: United Kingdom
       name: Perth & Kinross and Stirling
+      country: United Kingdom
       nuts1: UKM
       nuts2: UKM7
   - UKM78:
-      country: United Kingdom
       name: West Lothian
+      country: United Kingdom
       nuts1: UKM
       nuts2: UKM7
   - UKM81:
-      country: United Kingdom
       name: East Dunbartonshire, West Dunbartonshire and Helensburgh & Lomond
+      country: United Kingdom
       nuts1: UKM
       nuts2: UKM8
   - UKM82:
-      country: United Kingdom
       name: Glasgow City
+      country: United Kingdom
       nuts1: UKM
       nuts2: UKM8
   - UKM83:
-      country: United Kingdom
       name: Inverclyde, East Renfrewshire and Renfrewshire
+      country: United Kingdom
       nuts1: UKM
       nuts2: UKM8
   - UKM84:
-      country: United Kingdom
       name: North Lanarkshire
+      country: United Kingdom
       nuts1: UKM
       nuts2: UKM8
   - UKM91:
-      country: United Kingdom
       name: Scottish Borders
+      country: United Kingdom
       nuts1: UKM
       nuts2: UKM9
   - UKM92:
-      country: United Kingdom
       name: Dumfries & Galloway
+      country: United Kingdom
       nuts1: UKM
       nuts2: UKM9
   - UKM93:
-      country: United Kingdom
       name: East Ayrshire and North Ayrshire mainland
+      country: United Kingdom
       nuts1: UKM
       nuts2: UKM9
   - UKM94:
-      country: United Kingdom
       name: South Ayrshire
+      country: United Kingdom
       nuts1: UKM
       nuts2: UKM9
   - UKM95:
-      country: United Kingdom
       name: South Lanarkshire
+      country: United Kingdom
       nuts1: UKM
       nuts2: UKM9
   - UKN06:
-      country: United Kingdom
       name: Belfast
+      country: United Kingdom
       nuts1: UKN
       nuts2: UKN0
   - UKN07:
-      country: United Kingdom
       name: Armagh City, Banbridge and Craigavon
+      country: United Kingdom
       nuts1: UKN
       nuts2: UKN0
   - UKN08:
-      country: United Kingdom
       name: Newry, Mourne and Down
+      country: United Kingdom
       nuts1: UKN
       nuts2: UKN0
   - UKN09:
+      name: Ards and North Down 
       country: United Kingdom
-      name: Ards and North Down
       nuts1: UKN
       nuts2: UKN0
   - UKN0A:
-      country: United Kingdom
       name: Derry City and Strabane
+      country: United Kingdom
       nuts1: UKN
       nuts2: UKN0
   - UKN0B:
-      country: United Kingdom
       name: Mid Ulster
+      country: United Kingdom
       nuts1: UKN
       nuts2: UKN0
   - UKN0C:
-      country: United Kingdom
       name: Causeway Coast and Glens
+      country: United Kingdom
       nuts1: UKN
       nuts2: UKN0
   - UKN0D:
-      country: United Kingdom
       name: Antrim and Newtownabbey
+      country: United Kingdom
       nuts1: UKN
       nuts2: UKN0
   - UKN0E:
-      country: United Kingdom
       name: Lisburn and Castlereagh
+      country: United Kingdom
       nuts1: UKN
       nuts2: UKN0
   - UKN0F:
-      country: United Kingdom
       name: Mid and East Antrim
+      country: United Kingdom
       nuts1: UKN
       nuts2: UKN0
   - UKN0G:
-      country: United Kingdom
       name: Fermanagh and Omagh
+      country: United Kingdom
       nuts1: UKN
       nuts2: UKN0
   - UKZZZ:
-      country: United Kingdom
       name: Extra-Regio NUTS 3
+      country: United Kingdom
+      nuts1: UKZ
+      nuts2: UKZZ
+  - UKZZZ:
+      name: Extra-Regio NUTS 3
+      country: United Kingdom
+      nuts1: UKZ
+      nuts2: UKZZ
+  - UKZZZ:
+      name: Extra-Regio NUTS 3
+      country: United Kingdom
+      nuts1: UKZ
+      nuts2: UKZZ
+  - UKZZZ:
+      name: Extra-Regio NUTS 3
+      country: United Kingdom
       nuts1: UKZ
       nuts2: UKZZ
   - IS001:
-      country: Iceland
       name: Höfuðborgarsvæði
+      country: Iceland
       nuts1: IS0
       nuts2: IS00
   - IS002:
-      country: Iceland
       name: Landsbyggð
+      country: Iceland
       nuts1: IS0
       nuts2: IS00
   - ISZZZ:
-      country: Iceland
       name: Extra-Regio NUTS 3
+      country: Iceland
       nuts1: ISZ
       nuts2: ISZZ
   - LI000:
-      country: Liechtenstein
       name: Liechtenstein
+      country: Liechtenstein
       nuts1: LI0
       nuts2: LI00
   - LIZZZ:
-      country: Liechtenstein
       name: Extra-Regio NUTS 3
+      country: Liechtenstein
       nuts1: LIZ
       nuts2: LIZZ
   - NO020:
-      country: Norway
       name: Innlandet
+      country: Norway
       nuts1: NO0
       nuts2: NO02
   - NO060:
-      country: Norway
       name: Trøndelag
+      country: Norway
       nuts1: NO0
       nuts2: NO06
   - NO071:
-      country: Norway
       name: Nordland
+      country: Norway
       nuts1: NO0
       nuts2: NO07
   - NO074:
-      country: Norway
       name: Troms og Finnmark
+      country: Norway
       nuts1: NO0
       nuts2: NO07
   - NO081:
-      country: Norway
       name: Oslo
+      country: Norway
       nuts1: NO0
       nuts2: NO08
   - NO082:
-      country: Norway
       name: Viken
+      country: Norway
       nuts1: NO0
       nuts2: NO08
   - NO091:
-      country: Norway
       name: Vestfold og Telemark
+      country: Norway
       nuts1: NO0
       nuts2: NO09
   - NO092:
-      country: Norway
       name: Agder
+      country: Norway
       nuts1: NO0
       nuts2: NO09
   - NO0A1:
-      country: Norway
       name: Rogaland
+      country: Norway
       nuts1: NO0
       nuts2: NO0A
   - NO0A2:
-      country: Norway
       name: Vestland
+      country: Norway
       nuts1: NO0
       nuts2: NO0A
   - NO0A3:
-      country: Norway
       name: Møre og Romsdal
+      country: Norway
       nuts1: NO0
       nuts2: NO0A
   - NO0B1:
-      country: Norway
       name: Jan Mayen
+      country: Norway
       nuts1: NO0
       nuts2: NO0B
   - NO0B2:
-      country: Norway
       name: Svalbard
+      country: Norway
       nuts1: NO0
       nuts2: NO0B
   - NOZZZ:
-      country: Norway
       name: Extra-Regio NUTS 3
+      country: Norway
       nuts1: NOZ
       nuts2: NOZZ
   - CH011:
-      country: Switzerland
       name: Vaud
+      country: Switzerland
       nuts1: CH0
       nuts2: CH01
   - CH012:
-      country: Switzerland
       name: Valais / Wallis
+      country: Switzerland
       nuts1: CH0
       nuts2: CH01
   - CH013:
-      country: Switzerland
       name: Genève
+      country: Switzerland
       nuts1: CH0
       nuts2: CH01
   - CH021:
-      country: Switzerland
       name: Bern / Berne
+      country: Switzerland
       nuts1: CH0
       nuts2: CH02
   - CH022:
-      country: Switzerland
       name: Fribourg / Freiburg
+      country: Switzerland
       nuts1: CH0
       nuts2: CH02
   - CH023:
-      country: Switzerland
       name: Solothurn
+      country: Switzerland
       nuts1: CH0
       nuts2: CH02
   - CH024:
-      country: Switzerland
       name: Neuchâtel
+      country: Switzerland
       nuts1: CH0
       nuts2: CH02
   - CH025:
-      country: Switzerland
       name: Jura
+      country: Switzerland
       nuts1: CH0
       nuts2: CH02
   - CH031:
-      country: Switzerland
       name: Basel-Stadt
+      country: Switzerland
       nuts1: CH0
       nuts2: CH03
   - CH032:
-      country: Switzerland
       name: Basel-Landschaft
+      country: Switzerland
       nuts1: CH0
       nuts2: CH03
   - CH033:
-      country: Switzerland
       name: Aargau
+      country: Switzerland
       nuts1: CH0
       nuts2: CH03
   - CH040:
-      country: Switzerland
       name: Zürich
+      country: Switzerland
       nuts1: CH0
       nuts2: CH04
   - CH051:
-      country: Switzerland
       name: Glarus
+      country: Switzerland
       nuts1: CH0
       nuts2: CH05
   - CH052:
-      country: Switzerland
       name: Schaffhausen
+      country: Switzerland
       nuts1: CH0
       nuts2: CH05
   - CH053:
-      country: Switzerland
       name: Appenzell Ausserrhoden
+      country: Switzerland
       nuts1: CH0
       nuts2: CH05
   - CH054:
-      country: Switzerland
       name: Appenzell Innerrhoden
+      country: Switzerland
       nuts1: CH0
       nuts2: CH05
   - CH055:
-      country: Switzerland
       name: St. Gallen
+      country: Switzerland
       nuts1: CH0
       nuts2: CH05
   - CH056:
-      country: Switzerland
       name: Graubünden / Grigioni / Grischun
+      country: Switzerland
       nuts1: CH0
       nuts2: CH05
   - CH057:
-      country: Switzerland
       name: Thurgau
+      country: Switzerland
       nuts1: CH0
       nuts2: CH05
   - CH061:
-      country: Switzerland
       name: Luzern
+      country: Switzerland
       nuts1: CH0
       nuts2: CH06
   - CH062:
-      country: Switzerland
       name: Uri
+      country: Switzerland
       nuts1: CH0
       nuts2: CH06
   - CH063:
-      country: Switzerland
       name: Schwyz
+      country: Switzerland
       nuts1: CH0
       nuts2: CH06
   - CH064:
-      country: Switzerland
       name: Obwalden
+      country: Switzerland
       nuts1: CH0
       nuts2: CH06
   - CH065:
-      country: Switzerland
       name: Nidwalden
+      country: Switzerland
       nuts1: CH0
       nuts2: CH06
   - CH066:
-      country: Switzerland
       name: Zug
+      country: Switzerland
       nuts1: CH0
       nuts2: CH06
   - CH070:
-      country: Switzerland
       name: Ticino
+      country: Switzerland
       nuts1: CH0
       nuts2: CH07
   - CHZZZ:
-      country: Switzerland
       name: Extra-Regio NUTS 3
+      country: Switzerland
       nuts1: CHZ
       nuts2: CHZZ
   - ME000:
-      country: Montenegro
       name: Црна Гора
+      country: Montenegro
       nuts1: ME0
       nuts2: ME00
   - MEZZZ:
-      country: Montenegro
       name: Extra-Regio NUTS 3
+      country: Montenegro
       nuts1: MEZ
       nuts2: MEZZ
   - MK001:
-      country: North Macedonia
       name: Вардарски
+      country: North Macedonia
       nuts1: MK0
       nuts2: MK00
   - MK002:
-      country: North Macedonia
       name: Источен
+      country: North Macedonia
       nuts1: MK0
       nuts2: MK00
   - MK003:
-      country: North Macedonia
       name: Југозападен
+      country: North Macedonia
       nuts1: MK0
       nuts2: MK00
   - MK004:
-      country: North Macedonia
       name: Југоисточен
+      country: North Macedonia
       nuts1: MK0
       nuts2: MK00
   - MK005:
-      country: North Macedonia
       name: Пелагониски
+      country: North Macedonia
       nuts1: MK0
       nuts2: MK00
   - MK006:
-      country: North Macedonia
       name: Полошки
+      country: North Macedonia
       nuts1: MK0
       nuts2: MK00
   - MK007:
-      country: North Macedonia
       name: Североисточен
+      country: North Macedonia
       nuts1: MK0
       nuts2: MK00
   - MK008:
-      country: North Macedonia
       name: Скопски
+      country: North Macedonia
       nuts1: MK0
       nuts2: MK00
   - MKZZZ:
-      country: North Macedonia
       name: Extra-Regio NUTS 3
+      country: North Macedonia
       nuts1: MKZ
       nuts2: MKZZ
   - AL011:
-      country: Albania
       name: Dibër
+      country: Albania
       nuts1: AL0
       nuts2: AL01
   - AL012:
-      country: Albania
       name: Durrës
+      country: Albania
       nuts1: AL0
       nuts2: AL01
   - AL013:
-      country: Albania
       name: Kukës
+      country: Albania
       nuts1: AL0
       nuts2: AL01
   - AL014:
-      country: Albania
       name: Lezhë
+      country: Albania
       nuts1: AL0
       nuts2: AL01
   - AL015:
-      country: Albania
       name: Shkodër
+      country: Albania
       nuts1: AL0
       nuts2: AL01
   - AL021:
-      country: Albania
       name: Elbasan
+      country: Albania
       nuts1: AL0
       nuts2: AL02
   - AL022:
-      country: Albania
       name: Tiranë
+      country: Albania
       nuts1: AL0
       nuts2: AL02
   - AL031:
-      country: Albania
       name: Berat
+      country: Albania
       nuts1: AL0
       nuts2: AL03
   - AL032:
-      country: Albania
       name: Fier
+      country: Albania
       nuts1: AL0
       nuts2: AL03
   - AL033:
-      country: Albania
       name: Gjirokastër
+      country: Albania
       nuts1: AL0
       nuts2: AL03
   - AL034:
-      country: Albania
       name: Korcë
+      country: Albania
       nuts1: AL0
       nuts2: AL03
   - AL035:
-      country: Albania
       name: Vlorë
+      country: Albania
       nuts1: AL0
       nuts2: AL03
   - ALZZZ:
-      country: Albania
       name: Extra-Regio NUTS 3
+      country: Albania
       nuts1: ALZ
       nuts2: ALZZ
   - RS110:
-      country: Serbia
       name: Београдска област
+      country: Serbia
       nuts1: RS1
       nuts2: RS11
   - RS121:
-      country: Serbia
       name: Западнобачка област
+      country: Serbia
       nuts1: RS1
       nuts2: RS12
   - RS122:
-      country: Serbia
       name: Јужнобанатска област
+      country: Serbia
       nuts1: RS1
       nuts2: RS12
   - RS123:
-      country: Serbia
       name: Јужнобачка област
+      country: Serbia
       nuts1: RS1
       nuts2: RS12
   - RS124:
-      country: Serbia
       name: Севернобанатска област
+      country: Serbia
       nuts1: RS1
       nuts2: RS12
   - RS125:
-      country: Serbia
       name: Севернобачка област
+      country: Serbia
       nuts1: RS1
       nuts2: RS12
   - RS126:
-      country: Serbia
       name: Средњобанатска област
+      country: Serbia
       nuts1: RS1
       nuts2: RS12
   - RS127:
-      country: Serbia
       name: Сремска област
+      country: Serbia
       nuts1: RS1
       nuts2: RS12
   - RS211:
-      country: Serbia
       name: Златиборска област
+      country: Serbia
       nuts1: RS2
       nuts2: RS21
   - RS212:
-      country: Serbia
       name: Колубарска област
+      country: Serbia
       nuts1: RS2
       nuts2: RS21
   - RS213:
-      country: Serbia
       name: Мачванска област
+      country: Serbia
       nuts1: RS2
       nuts2: RS21
   - RS214:
-      country: Serbia
       name: Моравичка област
+      country: Serbia
       nuts1: RS2
       nuts2: RS21
   - RS215:
-      country: Serbia
       name: Поморавска област
+      country: Serbia
       nuts1: RS2
       nuts2: RS21
   - RS216:
-      country: Serbia
       name: Расинска област
+      country: Serbia
       nuts1: RS2
       nuts2: RS21
   - RS217:
-      country: Serbia
       name: Рашка област
+      country: Serbia
       nuts1: RS2
       nuts2: RS21
   - RS218:
-      country: Serbia
       name: Шумадијска област
+      country: Serbia
       nuts1: RS2
       nuts2: RS21
   - RS221:
-      country: Serbia
       name: Борска област
+      country: Serbia
       nuts1: RS2
       nuts2: RS22
   - RS222:
-      country: Serbia
       name: Браничевска област
+      country: Serbia
       nuts1: RS2
       nuts2: RS22
   - RS223:
-      country: Serbia
       name: Зајечарска област
+      country: Serbia
       nuts1: RS2
       nuts2: RS22
   - RS224:
-      country: Serbia
       name: Јабланичка област
+      country: Serbia
       nuts1: RS2
       nuts2: RS22
   - RS225:
-      country: Serbia
       name: Нишавска област
+      country: Serbia
       nuts1: RS2
       nuts2: RS22
   - RS226:
-      country: Serbia
       name: Пиротска област
+      country: Serbia
       nuts1: RS2
       nuts2: RS22
   - RS227:
-      country: Serbia
       name: Подунавска област
+      country: Serbia
       nuts1: RS2
       nuts2: RS22
   - RS228:
-      country: Serbia
       name: Пчињска област
+      country: Serbia
       nuts1: RS2
       nuts2: RS22
   - RS229:
-      country: Serbia
       name: Топличка област
+      country: Serbia
       nuts1: RS2
       nuts2: RS22
   - RSZZZ:
-      country: Serbia
       name: Extra-Regio NUTS 3
+      country: Serbia
       nuts1: RSZ
       nuts2: RSZZ
-  - TR100:
-      country: Turkey
+  - TR100 :
       name: İstanbul
-      nuts1: TR1
-      nuts2: TR10
-  - TR211:
       country: Turkey
+      nuts1: TR1
+      nuts2: TR10 
+  - TR211:
       name: Tekirdağ
+      country: Turkey
       nuts1: TR2
       nuts2: TR21
   - TR212:
-      country: Turkey
       name: Edirne
+      country: Turkey
       nuts1: TR2
       nuts2: TR21
   - TR213:
-      country: Turkey
       name: Kırklareli
+      country: Turkey
       nuts1: TR2
       nuts2: TR21
   - TR221:
-      country: Turkey
       name: Balıkesir
+      country: Turkey
       nuts1: TR2
       nuts2: TR22
   - TR222:
-      country: Turkey
       name: Çanakkale
+      country: Turkey
       nuts1: TR2
       nuts2: TR22
-  - TR310:
-      country: Turkey
+  - TR310 :
       name: İzmir
+      country: Turkey
       nuts1: TR3
       nuts2: TR31
   - TR321:
-      country: Turkey
       name: Aydın
+      country: Turkey
       nuts1: TR3
       nuts2: TR32
   - TR322:
-      country: Turkey
       name: Denizli
+      country: Turkey
       nuts1: TR3
       nuts2: TR32
   - TR323:
-      country: Turkey
       name: Muğla
+      country: Turkey
       nuts1: TR3
       nuts2: TR32
   - TR331:
-      country: Turkey
       name: Manisa
+      country: Turkey
       nuts1: TR3
       nuts2: TR33
   - TR332:
-      country: Turkey
       name: Afyonkarahisar
+      country: Turkey
       nuts1: TR3
       nuts2: TR33
   - TR333:
-      country: Turkey
       name: Kütahya
+      country: Turkey
       nuts1: TR3
       nuts2: TR33
   - TR334:
-      country: Turkey
       name: Uşak
+      country: Turkey
       nuts1: TR3
       nuts2: TR33
   - TR411:
-      country: Turkey
       name: Bursa
+      country: Turkey
       nuts1: TR4
       nuts2: TR41
   - TR412:
-      country: Turkey
       name: Eskişehir
+      country: Turkey
       nuts1: TR4
       nuts2: TR41
   - TR413:
-      country: Turkey
       name: Bilecik
+      country: Turkey
       nuts1: TR4
       nuts2: TR41
   - TR421:
-      country: Turkey
       name: Kocaeli
+      country: Turkey
       nuts1: TR4
       nuts2: TR42
   - TR422:
-      country: Turkey
       name: Sakarya
+      country: Turkey
       nuts1: TR4
       nuts2: TR42
   - TR423:
-      country: Turkey
       name: Düzce
+      country: Turkey
       nuts1: TR4
       nuts2: TR42
   - TR424:
-      country: Turkey
       name: Bolu
+      country: Turkey
       nuts1: TR4
       nuts2: TR42
   - TR425:
-      country: Turkey
       name: Yalova
+      country: Turkey
       nuts1: TR4
       nuts2: TR42
-  - TR510:
-      country: Turkey
+  - TR510 :
       name: Ankara
+      country: Turkey
       nuts1: TR5
       nuts2: TR51
   - TR521:
-      country: Turkey
       name: Konya
+      country: Turkey
       nuts1: TR5
       nuts2: TR52
   - TR522:
-      country: Turkey
       name: Karaman
+      country: Turkey
       nuts1: TR5
       nuts2: TR52
   - TR611:
-      country: Turkey
       name: Antalya
+      country: Turkey
       nuts1: TR6
       nuts2: TR61
   - TR612:
-      country: Turkey
       name: Isparta
+      country: Turkey
       nuts1: TR6
       nuts2: TR61
   - TR613:
-      country: Turkey
       name: Burdur
+      country: Turkey
       nuts1: TR6
       nuts2: TR61
   - TR621:
-      country: Turkey
       name: Adana
+      country: Turkey
       nuts1: TR6
       nuts2: TR62
   - TR622:
-      country: Turkey
       name: Mersin
+      country: Turkey
       nuts1: TR6
       nuts2: TR62
   - TR631:
-      country: Turkey
       name: Hatay
+      country: Turkey
       nuts1: TR6
       nuts2: TR63
   - TR632:
-      country: Turkey
       name: Kahramanmaraş
+      country: Turkey
       nuts1: TR6
       nuts2: TR63
   - TR633:
-      country: Turkey
       name: Osmaniye
+      country: Turkey
       nuts1: TR6
       nuts2: TR63
   - TR711:
-      country: Turkey
       name: Kırıkkale
+      country: Turkey
       nuts1: TR7
       nuts2: TR71
   - TR712:
-      country: Turkey
       name: Aksaray
+      country: Turkey
       nuts1: TR7
       nuts2: TR71
   - TR713:
-      country: Turkey
       name: Niğde
+      country: Turkey
       nuts1: TR7
       nuts2: TR71
   - TR714:
-      country: Turkey
       name: Nevşehir
+      country: Turkey
       nuts1: TR7
       nuts2: TR71
   - TR715:
-      country: Turkey
       name: Kırşehir
+      country: Turkey
       nuts1: TR7
       nuts2: TR71
   - TR721:
-      country: Turkey
       name: Kayseri
+      country: Turkey
       nuts1: TR7
       nuts2: TR72
   - TR722:
-      country: Turkey
       name: Sivas
+      country: Turkey
       nuts1: TR7
       nuts2: TR72
   - TR723:
-      country: Turkey
       name: Yozgat
+      country: Turkey
       nuts1: TR7
       nuts2: TR72
   - TR811:
-      country: Turkey
       name: Zonguldak
+      country: Turkey
       nuts1: TR8
       nuts2: TR81
   - TR812:
-      country: Turkey
       name: Karabük
+      country: Turkey
       nuts1: TR8
       nuts2: TR81
   - TR813:
-      country: Turkey
       name: Bartın
+      country: Turkey
       nuts1: TR8
       nuts2: TR81
   - TR821:
-      country: Turkey
       name: Kastamonu
+      country: Turkey
       nuts1: TR8
       nuts2: TR82
   - TR822:
-      country: Turkey
       name: Çankırı
+      country: Turkey
       nuts1: TR8
       nuts2: TR82
   - TR823:
-      country: Turkey
       name: Sinop
+      country: Turkey
       nuts1: TR8
       nuts2: TR82
   - TR831:
-      country: Turkey
       name: Samsun
+      country: Turkey
       nuts1: TR8
       nuts2: TR83
   - TR832:
-      country: Turkey
       name: Tokat
+      country: Turkey
       nuts1: TR8
       nuts2: TR83
   - TR833:
-      country: Turkey
       name: Çorum
+      country: Turkey
       nuts1: TR8
       nuts2: TR83
   - TR834:
-      country: Turkey
       name: Amasya
+      country: Turkey
       nuts1: TR8
       nuts2: TR83
   - TR901:
-      country: Turkey
       name: Trabzon
+      country: Turkey
       nuts1: TR9
-      nuts2: TR90
+      nuts2: TR90 
   - TR902:
-      country: Turkey
       name: Ordu
+      country: Turkey
       nuts1: TR9
-      nuts2: TR90
+      nuts2: TR90 
   - TR903:
-      country: Turkey
       name: Giresun
+      country: Turkey
       nuts1: TR9
-      nuts2: TR90
+      nuts2: TR90 
   - TR904:
-      country: Turkey
       name: Rize
+      country: Turkey
       nuts1: TR9
-      nuts2: TR90
+      nuts2: TR90 
   - TR905:
-      country: Turkey
       name: Artvin
+      country: Turkey
       nuts1: TR9
-      nuts2: TR90
+      nuts2: TR90 
   - TR906:
-      country: Turkey
       name: Gümüşhane
-      nuts1: TR9
-      nuts2: TR90
-  - TRA11:
       country: Turkey
+      nuts1: TR9
+      nuts2: TR90 
+  - TRA11:
       name: Erzurum
+      country: Turkey
       nuts1: TRA
       nuts2: TRA1
   - TRA12:
-      country: Turkey
       name: Erzincan
+      country: Turkey
       nuts1: TRA
       nuts2: TRA1
   - TRA13:
-      country: Turkey
       name: Bayburt
+      country: Turkey
       nuts1: TRA
       nuts2: TRA1
   - TRA21:
-      country: Turkey
       name: Ağrı
+      country: Turkey
       nuts1: TRA
       nuts2: TRA2
   - TRA22:
-      country: Turkey
       name: Kars
+      country: Turkey
       nuts1: TRA
       nuts2: TRA2
   - TRA23:
-      country: Turkey
       name: Iğdır
+      country: Turkey
       nuts1: TRA
       nuts2: TRA2
   - TRA24:
-      country: Turkey
       name: Ardahan
+      country: Turkey
       nuts1: TRA
       nuts2: TRA2
   - TRB11:
-      country: Turkey
       name: Malatya
+      country: Turkey
       nuts1: TRB
       nuts2: TRB1
   - TRB12:
-      country: Turkey
       name: Elazığ
+      country: Turkey
       nuts1: TRB
       nuts2: TRB1
   - TRB13:
-      country: Turkey
       name: Bingöl
+      country: Turkey
       nuts1: TRB
       nuts2: TRB1
   - TRB14:
-      country: Turkey
       name: Tunceli
+      country: Turkey
       nuts1: TRB
       nuts2: TRB1
   - TRB21:
-      country: Turkey
       name: Van
+      country: Turkey
       nuts1: TRB
       nuts2: TRB2
   - TRB22:
-      country: Turkey
       name: Muş
+      country: Turkey
       nuts1: TRB
       nuts2: TRB2
   - TRB23:
-      country: Turkey
       name: Bitlis
+      country: Turkey
       nuts1: TRB
       nuts2: TRB2
   - TRB24:
-      country: Turkey
       name: Hakkari
+      country: Turkey
       nuts1: TRB
       nuts2: TRB2
   - TRC11:
-      country: Turkey
       name: Gaziantep
+      country: Turkey
       nuts1: TRC
       nuts2: TRC1
   - TRC12:
-      country: Turkey
       name: Adıyaman
+      country: Turkey
       nuts1: TRC
       nuts2: TRC1
   - TRC13:
-      country: Turkey
       name: Kilis
+      country: Turkey
       nuts1: TRC
       nuts2: TRC1
   - TRC21:
-      country: Turkey
       name: Şanlıurfa
+      country: Turkey
       nuts1: TRC
       nuts2: TRC2
   - TRC22:
-      country: Turkey
       name: Diyarbakır
+      country: Turkey
       nuts1: TRC
       nuts2: TRC2
   - TRC31:
-      country: Turkey
       name: Mardin
+      country: Turkey
       nuts1: TRC
       nuts2: TRC3
   - TRC32:
-      country: Turkey
       name: Batman
+      country: Turkey
       nuts1: TRC
       nuts2: TRC3
   - TRC33:
-      country: Turkey
       name: Şırnak
+      country: Turkey
       nuts1: TRC
       nuts2: TRC3
   - TRC34:
-      country: Turkey
       name: Siirt
+      country: Turkey
       nuts1: TRC
       nuts2: TRC3
   - TRZZZ:
-      country: Turkey
       name: Extra-Regio NUTS 3
+      country: Turkey
       nuts1: TRZ
       nuts2: TRZZ

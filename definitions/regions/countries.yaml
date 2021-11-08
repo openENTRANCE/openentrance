@@ -1,3 +1,7 @@
+# This file was created using the script `data/write-countries.py`
+# DO NOT ALTER THIS FILE MANUALLY!
+
+# List of countries
 - Countries:
   - Albania:
       eu_member: false
@@ -66,7 +70,7 @@
   - Greece:
       eu_member: true
       iso2: GR
-      iso2_alt: EL
+      iso2_alt: EL # the European Commission uses alternative ISO2 codes
       iso3: GRC
   - Hungary:
       eu_member: true
@@ -126,7 +130,7 @@
       iso3: MKD
   - Norway:
       eu_member: false
-      iso2: 'NO'
+      iso2: 'NO' # interpreted as 'false' without quotes
       iso3: NOR
   - Poland:
       eu_member: true
@@ -172,8 +176,7 @@
       eu_member: true
       iso2: NL
       iso3: NLD
-      synonyms:
-      - Netherlands
+      synonyms: ['Netherlands']
   - Turkey:
       eu_member: false
       iso2: TR
@@ -185,7 +188,6 @@
   - United Kingdom:
       eu_member: false
       iso2: GB
-      iso2_alt: UK
+      iso2_alt: UK # the European Commission uses alternative ISO2 codes
       iso3: GBR
-      synonyms:
-      - Great Britain
+      synonyms: ['Great Britain']
