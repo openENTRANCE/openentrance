@@ -128,7 +128,7 @@ Minimum Storage|Electricity|Hydro|Reservoir:
 Pumping Efficiency|Electricity|Hydro|Reservoir:
   description: Efficiency of pumping for a hydro reservoir power plant
   unit: '%'
-   
+
 Turbine Efficiency|Electricity|Hydro|Reservoir:
   description: Efficiency of turbining for a hydro reservoir power plant
   unit: '%'
@@ -160,7 +160,7 @@ Minimum Storage|Electricity|Hydro|Pumped Storage:
 Pumping Efficiency|Electricity|Hydro|Pumped Storage:
    description: Efficiency of pumping for a pumped-storage hydro unit
    unit: '%'
-   
+
 Turbine Efficiency|Electricity|Hydro|Pumped Storage:
    description: Efficiency of turbining for a pumped-storage hydro unit
    unit: '%'
@@ -170,17 +170,17 @@ Turbine Efficiency|Electricity|Hydro|Pumped Storage:
 Load Factor|Electricity|Hydro|Run of River:
   description: Load factors for run-of-river power plants
   unit: '%'
-  
+
 Load Factor|Electricity|Solar:
-  description: Load factors for solar power plants 
+  description: Load factors for solar power plants
   unit: '%'
-  
+
 Load Factor|Electricity|Wind|Offshore:
-  description: Load factors for offshore wind power plants 
+  description: Load factors for offshore wind power plants
   unit: '%'
-  
+
 Load Factor|Electricity|Wind|Onshore:
-  description: Load factors for onshore wind power plants 
+  description: Load factors for onshore wind power plants
   unit: '%'
 
 # description of Energy Storage Systems
@@ -203,7 +203,7 @@ Maximum Discharge|Electricity|Energy Storage System:
 Maximum Storage|Electricity|Energy Storage System:
    description: Maximum energy that can be stored by the energy storage systems.
    unit: [MWh, GWh]
-   
+
 Maximum Storage|Electricity|Energy Storage System|Lithium-Ion:
    description: Maximum energy that can be stored by the Lithium Iron Batteries systems.
    unit: [MWh, GWh]
@@ -229,13 +229,13 @@ Storage Type|Electricity|Energy Storage System:
    unit: [Daily, Weekly, Monthly]
 
 Stored Energy Inventory|Electricity|Energy Storage System:
-   description: State of the stored energy by ESS
-   unit: [MWh, GWh]
-   
-Energy Charge|Electricity|Energy Storage System:
-   description: Storing energy in the energy storage system unit.
+   description: State of the stored energy by ESS.
    unit: [MWh, GWh]
 
-Energy Discharge|Electricity|Energy Storage System:
-   description: Consuming energy from the energy storage system unit.
+Energy Consumption|Electricity|Energy Storage System:
+   description: Energy consumption from the power grid to be stored into the ESS.
+   unit: [MWh, GWh]
+
+Energy Production|Electricity|Energy Storage System:
+   description: Energy discharged from the ESS to be inyected into the power grid.
    unit: [MWh, GWh]
