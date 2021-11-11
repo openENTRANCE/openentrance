@@ -42,6 +42,9 @@
     description: Anthracite and bituminous coal
     ccs: True
 
+  Energy Storage System:
+    description: Energy storage system, excl. hydro storage
+
   Gas:
     description: Natural gas (including methane from biomass or hydrogenation)
     ccs: True
@@ -77,10 +80,10 @@
 
   Hydrogen:
     description: Hydrogen
-    
+
   Hydrogen|Fuel Cell:
     description: Hydrogen via fuel cells
-    
+
   Hydrogen|OCGT:
     description: Hydrogen used in OCGT power plants
 
@@ -134,12 +137,12 @@
 
   Electricity:
     description: Energy generation from electricity
-   
+
   Electricity|Heatpump:
     description: Energy generation from Heatpumps
-   
+
   Electricity|Other:
     description: Energy generation from other electrification technologies
-    
+
   Other:
     description: Other energy sources and fuels not explicitely listed
