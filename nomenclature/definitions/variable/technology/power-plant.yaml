@@ -231,3 +231,11 @@ Storage Type|Electricity|Energy Storage System:
 Stored Energy Inventory|Electricity|Energy Storage System:
    description: State of the stored energy by ESS
    unit: [MWh, GWh]
+   
+Energy Charge|Electricity|Energy Storage System:
+   description: Storing energy in the energy storage system unit.
+   unit: [MWh, GWh]
+
+Energy Discharge|Electricity|Energy Storage System:
+   description: Consuming energy from the energy storage system unit.
+   unit: [MWh, GWh]
