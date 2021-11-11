@@ -231,11 +231,3 @@ Storage Type|Electricity|Energy Storage System:
 Stored Energy Inventory|Electricity|Energy Storage System:
    description: State of the stored energy by ESS.
    unit: [MWh, GWh]
-
-Energy Consumption|Electricity|Energy Storage System:
-   description: Energy consumption from the power grid to be stored into the ESS.
-   unit: [MWh, GWh]
-
-Energy Production|Electricity|Energy Storage System:
-   description: Energy discharged from the ESS to be injected into the power grid.
-   unit: [MWh, GWh]
