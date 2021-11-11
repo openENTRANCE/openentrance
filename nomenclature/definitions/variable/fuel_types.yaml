@@ -1,0 +1,148 @@
+# This list of fuels will replace any occurrence of `<Fuel>`
+# in a variable-definition yaml file
+
+# All fuels that have the attribute "ccs: True" have two sub-categories
+# "w/ CCS": with a CO2 capture component
+# "w/o CCS": with freely vented CO2 emissions (example "Coal|w/o CCS")
+#
+#   e.g., the energy type "Coal" used for electricity generation
+#   is described by three variables:
+#   - Secondary Energy|Electricity|Coal
+#   - Secondary Energy|Electricity|Coal|Coal|w/ CCS
+#   - Secondary Energy|Electricity|Coal|Coal|w/o CCS
+
+<Fuel>:
+  Biomass:
+    description: Purpose-grown biomass, crop residues, forest industry waste,
+      solid waste from domestic, agricultural or municipal sources
+    ccs: True
+
+  Biomass|Traditional:
+    description: Traditional biomass (domestic and agricultural waste,
+      forest residues)
+    ccs: True
+
+  Biomass|New and Imported:
+    description: Biomass from dedicated energy crops and biomass imports
+    ccs: True
+
+  Fossil:
+    description: All fossil fuels (crude oil, coal, natural gas)
+    ccs: True
+
+  Coal:
+    description: Coal (including hard coal and lignite)
+    ccs: True
+
+  Coal|Lignite:
+    description: Lignite coal and sub-bituminous coal
+    ccs: True
+
+  Coal|Hard coal:
+    description: Anthracite and bituminous coal
+    ccs: True
+
+  Energy Storage System:
+    description: Energy storage system, excl. hydro storage
+
+  Gas:
+    description: Natural gas (including methane from biomass or hydrogenation)
+    ccs: True
+
+  Gas|OCGT:
+    description: Natural gas (including methane from biomass or hydrogenation)
+      in an open-cycle gas turbine (OCGT) power plant
+    ccs: True
+
+  Gas|CCGT:
+     description: Natural gas (including methane from biomass or hydrogenation)
+       in a combined-cycle gas turbine (CCGT) power plant
+     ccs: True
+
+  Gas|Fossil:
+    description: Natural gas (excluding methane from biomass or hydrogenation)
+    ccs: True
+
+  Gas|Biomethane:
+    description: Biomethane (upgraded biogas)
+    ccs: True
+
+  Gas|Synthetic Methane:
+    description: Synthetic methane (methanation of hydrogen)
+    ccs: True
+
+  Oil:
+    description: Refined liquid oil products
+    ccs: True
+
+  Nuclear:
+    description: Nuclear energy
+
+  Hydrogen:
+    description: Hydrogen
+
+  Hydrogen|Fuel Cell:
+    description: Hydrogen via fuel cells
+
+  Hydrogen|OCGT:
+    description: Hydrogen used in OCGT power plants
+
+  Non-Biomass Renewables:
+    description: Hydro, wind, solar, geothermal, ocean, and other renewable
+      sources excluding bioenergy
+
+  Hydro:
+    description: Hydropower
+
+  Hydro|Run of River:
+    description: Hydropower from run-of-river power plants
+      (ie. without storage capacity)
+
+  Hydro|Pumped Storage:
+    description: Hydropower systems with short-term storage capacity
+      (including pumping turbines)
+    notes: This hydropower system has two water reservoirs at different
+      elevations. The definition follows the convention established
+      by the ENTSO-E transparency platform (https://transparency.entsoe.eu).
+
+  Hydro|Reservoir:
+    description: Hydropower systems with seasonal storage capacity
+      (possibly including pumping turbines)
+    notes: This definition follows the convention established
+      by the ENTSO-E transparency platform (https://transparency.entsoe.eu).
+
+  Solar:
+    description: Solar energy including PV and CSP
+
+  Solar|CSP:
+    description: Concentrating/concentrated solar power (CSP)
+
+  Solar|PV:
+    description: Solar photovoltaics (PV)
+
+  Wind:
+    description: Wind energy (on- and offshore)
+
+  Wind|Offshore:
+    description: Offshore wind energy
+
+  Wind|Onshore:
+    description: Onshore wind energy
+
+  Geothermal:
+    description: Geothermal energy (including hydrothermal systems)
+
+  Ocean:
+    description: Ocean energy
+
+  Electricity:
+    description: Energy generation from electricity
+
+  Electricity|Heatpump:
+    description: Energy generation from Heatpumps
+
+  Electricity|Other:
+    description: Energy generation from other electrification technologies
+
+  Other:
+    description: Other energy sources and fuels not explicitely listed
