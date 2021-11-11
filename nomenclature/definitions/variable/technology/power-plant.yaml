@@ -237,5 +237,5 @@ Energy Consumption|Electricity|Energy Storage System:
    unit: [MWh, GWh]
 
 Energy Production|Electricity|Energy Storage System:
-   description: Energy discharged from the ESS to be inyected into the power grid.
+   description: Energy discharged from the ESS to be injected into the power grid.
    unit: [MWh, GWh]
