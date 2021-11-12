@@ -2,7 +2,7 @@
     description: Total installed electricity generation capacity
     unit: GW
 - Capacity|Electricity|<Fuel>:
-    description: Total installed electricity generation capacity from <this fuel>
+    description: Total installed electricity generation capacity from <Fuel>
     unit: GW
 - Capacity|Heat|Residential and Commercial:
     description: Total installed heat generation capacity for the residential and
@@ -10,50 +10,50 @@
     unit: GW
 - Capacity|Heat|Residential and Commercial|<Fuel>:
     description: Total installed heat generation capacity for the residential and
-      commercial sectors from <this fuel>
+      commercial sectors from <Fuel>
     unit: GW
 - Capacity|Heat|Industrial:
     description: Total installed heat generation capacity for the industrial sector
     unit: GW
 - Capacity|Heat|Industrial|<Fuel>:
     description: Total installed heat generation capacity for the industrial sector
-      from <this fuel>
+      from <Fuel>
     unit: GW
 - Capital Cost|Electricity|<Fuel>:
-    description: Capital cost for <this fuel>
+    description: Capital cost for <Fuel>
     unit: USD_2010/kW
 - Capital Cost|Heat|Residential and Commercial|<Fuel>:
-    description: Capital cost for <this fuel>
+    description: Capital cost for <Fuel>
     unit: USD_2010/kW
 - Capital Cost|Heat|Industrial|<Fuel>:
-    description: Capital cost for <this fuel>
+    description: Capital cost for <Fuel>
     unit: USD_2010/kW
 - Capital Cost|Transportation|Freight|<Transport>:
-    description: Capital cost for freight <this transport mode>
+    description: Capital cost for freight <Transport>
     unit: USD_2010/tkm
 - Capital Cost|Transportation|Passenger|<Transport>:
-    description: Capital cost for passenger <this transport mode>
+    description: Capital cost for passenger <Transport>
     unit: USD_2010/pkm
 - Fixed Cost|Electricity|<Fuel>:
-    description: Fixed O&M cost for <this fuel>
+    description: Fixed O&M cost for <Fuel>
     unit: USD_2010/kW/yr
 - Fixed Cost|Heat|Residential and Commercial|<Fuel>:
-    description: Fixed O&M for <this fuel>
+    description: Fixed O&M for <Fuel>
     unit: USD_2010/kW/yr
 - Fixed Cost|Heat|Industrial|<Fuel>:
-    description: Fixed O&M for <this fuel>
+    description: Fixed O&M for <Fuel>
     unit: USD_2010/kW/yr
 - Fixed Cost|Transportation|Freight|<Transport>:
-    description: Capital cost for freight <this transport mode>
+    description: Capital cost for freight <Transport>
     unit: USD_2010/tkm/yr
 - Fixed Cost|Transportation|Passenger|<Transport>:
-    description: Capital cost for passenger <this transport mode>
+    description: Capital cost for passenger <Transport>
     unit: USD_2010/pkm/yr
 - Variable Cost|Heat|Residential and Commercial|<Fuel>:
-    description: Capital cost for <this fuel>
+    description: Capital cost for <Fuel>
     unit: USD_2010/MWh
 - Variable Cost|Heat|Industrial|<Fuel>:
-    description: Capital cost for <this fuel>
+    description: Capital cost for <Fuel>
     unit: USD_2010/MWh
 - Investment|Energy Efficiency:
     description: Investments into the efficiency-increasing components of energy demand

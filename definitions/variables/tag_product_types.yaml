@@ -7,52 +7,52 @@
 
 - <Product>:
   - pAGRI:
-      description: Agriculture
+      description: agriculture
 
   - pINDU:
-      description: Manufacturing industry
+      description: manufacturing industry
 
   - pALUM:
-      description: Aluminium production
+      description: aluminium production
 
   - pSERV:
-      description: Services
+      description: services
 
   - pTRAN:
-      description: Transport services
+      description: transport services
 
   - pELEC:
-      description: Electricity
+      description: electricity
 
   - pTRDI:
-      description: Trade and distribution services of electricity
+      description: trade and distribution services of electricity
 
   - pHTWT:
-      description: Steam and hot water supply
+      description: steam and hot water supply
 
   - pOIL:
-      description: Crude Oil
+      description: crude Oil
 
   - pGSL:
-      description: Gasoline
+      description: gasoline
 
   - pDSL:
-      description: Diesel
+      description: diesel
 
   - pHDI:
-      description: Heavy distillate
+      description: heavy distillate
 
   - pNG:
-      description: Natural gas
+      description: natural gas
 
   - pCOA:
-      description: Coal
+      description: coal
 
   - pBIO:
-      description: Biofuels
+      description: biofuels
 
   - pFUL:
-      description: Other fuels
+      description: other fuels
 
   - pH2:
-      description: Hydrogen
+      description: hydrogen

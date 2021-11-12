@@ -221,7 +221,7 @@
       category 3)
     unit: Mt CO2/yr
 - Emission Rate|CO2|Electricity|<Fuel>:
-    description: CO2 emissions of a <this fuel> power plant.
+    description: CO2 emissions of a <Fuel> power plant.
     unit: tons/MWh
 - Emissions|CO2|Energy:
     description: CO2 emissions from energy use on supply and demand side (IPCC category

@@ -13,132 +13,195 @@
 
 - <Fuel>:
   - Biomass:
-      description: Purpose-grown biomass, crop residues, forest industry waste,
+      description: purpose-grown biomass, crop residues, forest industry waste,
         solid waste from domestic, agricultural or municipal sources
-      ccs: True
+  - Biomass|w/ CCS:
+      description: purpose-grown biomass, crop residues, forest industry waste,
+        solid waste from domestic, agricultural or municipal sources
+        with a CO2 capture component
+  - Biomass|w/o CCS:
+      description: purpose-grown biomass, crop residues, forest industry waste,
+        solid waste from domestic, agricultural or municipal sources
+        with freely vented CO2 emissions
 
   - Biomass|Traditional:
-      description: Traditional biomass (domestic and agricultural waste,
+      description: traditional biomass (domestic and agricultural waste,
         forest residues)
-      ccs: True
+  - Biomass|Traditional|w/ CCS:
+      description: traditional biomass (domestic and agricultural waste,
+        forest residues) with a CO2 capture component
+  - Biomass|Traditional|w/o CCS:
+      description: traditional biomass (domestic and agricultural waste,
+        forest residues) with freely vented CO2 emissions
 
   - Biomass|New and Imported:
-      description: Biomass from dedicated energy crops and biomass imports
-      ccs: True
+      description: biomass from dedicated energy crops and biomass imports
+  - Biomass|New and Imported|w/ CCS:
+      description: biomass from dedicated energy crops and biomass imports
+        with a CO2 capture component
+  - Biomass|New and Imported|w/o CCS:
+      description: biomass from dedicated energy crops and biomass imports
+        with freely vented CO2 emissions
 
   - Fossil:
-      description: All fossil fuels (crude oil, coal, natural gas)
-      ccs: True
+      description: all fossil fuels (crude oil, coal, natural gas)
+  - Fossil|w/ CCS:
+      description: all fossil fuels (crude oil, coal, natural gas)
+        with a CO2 capture component
+  - Fossil|w/o CCS:
+      description: all fossil fuels (crude oil, coal, natural gas)
+        with freely vented CO2 emissions
 
   - Coal:
-      description: Coal (including hard coal and lignite)
-      ccs: True
+      description: coal (including hard coal and lignite)
+  - Coal|w/ CCS:
+      description: coal (including hard coal and lignite) with a CO2 capture component
+  - Coal|w/o CCS:
+      description: coal (including hard coal and lignite)
+        with freely vented CO2 emissions
 
   - Coal|Lignite:
-      description: Lignite coal and sub-bituminous coal
-      ccs: True
+      description: lignite coal and sub-bituminous coal
+  - Coal|Lignite|w/ CCS:
+      description: lignite coal and sub-bituminous coal with a CO2 capture component
+  - Coal|Lignite|w/o CCS:
+      description: lignite coal and sub-bituminous coal with freely vented CO2 emissions
 
   - Coal|Hard coal:
-      description: Anthracite and bituminous coal
-      ccs: True
+      description: anthracite and bituminous coal
+  - Coal|Hard coal|w/ CCS:
+      description: anthracite and bituminous coal with a CO2 capture component
+  - Coal|Hard coal|w/o CCS:
+      description: anthracite and bituminous coal with freely vented CO2 emissions
 
   - Gas:
-      description: Natural gas (including methane from biomass or hydrogenation)
-      ccs: True
+      description: natural gas (including methane from biomass or hydrogenation)
+  - Gas|w/ CCS:
+      description: natural gas (including methane from biomass or hydrogenation)
+        with a CO2 capture component
+  - Gas|w/o CCS:
+      description: natural gas (including methane from biomass or hydrogenation)
+        with freely vented CO2 emissions
 
   - Gas|OCGT:
-      description: Natural gas (including methane from biomass or hydrogenation)
+      description: natural gas (including methane from biomass or hydrogenation)
         in an open-cycle gas turbine (OCGT) power plant
-      ccs: True
+  - Gas|OCGT|w/ CCS:
+      description: natural gas (including methane from biomass or hydrogenation)
+        in an open-cycle gas turbine (OCGT) power plant with a CO2 capture component
+  - Gas|OCGT|w/o CCS:
+      description: natural gas (including methane from biomass or hydrogenation)
+        in an open-cycle gas turbine (OCGT) power plant with freely vented CO2 emissions
 
   - Gas|CCGT:
-      description: Natural gas (including methane from biomass or hydrogenation)
+      description: natural gas (including methane from biomass or hydrogenation)
         in a combined-cycle gas turbine (CCGT) power plant
-      ccs: True
+  - Gas|CCGT|w/ CCS:
+      description: natural gas (including methane from biomass or hydrogenation)
+        in a combined-cycle gas turbine (CCGT) power plant with a CO2 capture component
+  - Gas|CCGT|w/o CCS:
+      description: natural gas (including methane from biomass or hydrogenation)
+        in a combined-cycle gas turbine (CCGT) power plant with freely vented CO2 emissions
 
   - Gas|Fossil:
-      description: Natural gas (excluding methane from biomass or hydrogenation)
-      ccs: True
+      description: fossil natural gas (excluding methane from biomass or hydrogenation)
+  - Gas|Fossil|w/ CCS:
+      description: fossil natural gas (excluding methane from biomass or hydrogenation)
+        with a CO2 capture component
+  - Gas|Fossil|w/o CCS:
+      description: fossil natural gas (excluding methane from biomass or hydrogenation)
+        with freely vented CO2 emissions
 
   - Gas|Biomethane:
-      description: Biomethane (upgraded biogas)
-      ccs: True
+      description: biomethane (upgraded biogas)
+  - Gas|Biomethane|w/ CCS:
+      description: biomethane (upgraded biogas) with a CO2 capture component
+  - Gas|Biomethane|w/o CCS:
+      description: biomethane (upgraded biogas) with freely vented CO2 emissions
 
   - Gas|Synthetic Methane:
-      description: Synthetic methane (methanation of hydrogen)
-      ccs: True
+      description: synthetic methane (methanation of hydrogen)
+  - Gas|Synthetic Methane|w/ CCS:
+      description: synthetic methane (methanation of hydrogen)
+        with a CO2 capture component
+  - Gas|Synthetic Methane|w/o CCS:
+      description: synthetic methane (methanation of hydrogen)
+        with freely vented CO2 emissions
 
   - Oil:
-      description: Refined liquid oil products
-      ccs: True
+      description: refined liquid oil products
+  - Oil|w/ CCS:
+      description: refined liquid oil products with a CO2 capture component
+  - Oil|w/o CCS:
+      description: refined liquid oil products with freely vented CO2 emissions
 
   - Nuclear:
-      description: Nuclear energy
+      description: nuclear energy
 
   - Hydrogen:
-      description: Hydrogen
+      description: hydrogen
 
   - Hydrogen|Fuel Cell:
-      description: Hydrogen via fuel cells
+      description: hydrogen via fuel cells
 
   - Hydrogen|OCGT:
-      description: Hydrogen used in OCGT power plants
+      description: hydrogen used in OCGT power plants
 
   - Non-Biomass Renewables:
-      description: Hydro, wind, solar, geothermal, ocean, and other renewable sources
+      description: hydro, wind, solar, geothermal, ocean, and other renewable sources
         excluding bioenergy
 
   - Hydro:
-      description: Hydropower
+      description: hydropower
 
   - Hydro|Run of River:
-      description: Run-of-river hydro power plants (i.e. without storage capacity)
+      description: run-of-river hydro power plants (i.e. without storage capacity)
 
   - Hydro|Pumped Storage:
-      description: Hydropower systems with short-term storage capacity
+      description: hydropower systems with short-term storage capacity
         (including pumping turbines)
       notes: This hydropower system has two water reservoirs at different elevations.
         The definition follows the convention established
         by the ENTSO-E transparency platform (https://transparency.entsoe.eu).
 
   - Hydro|Reservoir:
-      description: Hydropower systems with seasonal storage capacity
+      description: hydropower systems with seasonal storage capacity
         (possibly including pumping turbines)
       notes: This definition follows the convention established
         by the ENTSO-E transparency platform (https://transparency.entsoe.eu).
 
   - Solar:
-      description: Solar energy including PV and CSP
+      description: solar energy including PV and CSP
 
   - Solar|CSP:
-      description: Concentrating/concentrated solar power (CSP)
+      description: concentrating/concentrated solar power (CSP)
 
   - Solar|PV:
-      description: Solar photovoltaics (PV)
+      description: solar photovoltaics (PV)
 
   - Wind:
-      description: Wind energy (on- and offshore)
+      description: wind energy (on- and offshore)
 
   - Wind|Offshore:
-      description: Offshore wind energy
+      description: offshore wind energy
 
   - Wind|Onshore:
-      description: Onshore wind energy
+      description: onshore wind energy
 
   - Geothermal:
-      description: Geothermal energy (including hydrothermal systems)
+      description: geothermal energy (including hydrothermal systems)
 
   - Ocean:
-      description: Ocean energy
+      description: ocean energy
 
   - Electricity:
-      description: Energy generation from electricity
+      description: energy generation from electricity
 
   - Electricity|Heatpump:
-      description: Energy generation from Heatpumps
+      description: energy generation from heatpumps
 
   - Electricity|Other:
-      description: Energy generation from other electrification technologies
+      description: energy generation from other electrification technologies
 
   - Other:
-      description: Other energy sources and fuels not explicitely listed
+      description: other energy sources and fuels not explicitely listed

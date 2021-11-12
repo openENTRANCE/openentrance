@@ -7,61 +7,61 @@
 
 - <Industry>:
   - iAGRI:
-      description: Agriculture
+      description: agriculture
 
   - iCOAL:
-      description: Coal extraction
+      description: coal extraction
 
   - iCOIL:
-      description: Crude oil and natural gas extraction
+      description: crude oil and natural gas extraction
 
   - iINDU:
-      description: Manufacturing industry
+      description: manufacturing industry
 
   - iALUM:
-      description: Aluminium production
+      description: aluminium production
 
   - iTRDI:
-      description: Trade and distribution services of electricity
+      description: trade and distribution services of electricity
 
   - iNGAS:
-      description: Natural Gas
+      description: natural gas
 
   - iSERV:
-      description: Services
+      description: services
 
   - iTRAN:
-      description: Transport services
+      description: transport services
 
   - iELCC:
-      description: Production of electricity by coal
+      description: production of electricity by coal
 
   - iELCG:
-      description: Production of electricity by gas
+      description: production of electricity by gas
 
   - iELCN:
-      description: Production of electricity by nuclear
+      description: production of electricity by nuclear
 
   - iELCH:
-      description: Production of electricity by hydro
+      description: production of electricity by hydro
 
   - iELCW:
-      description: Production of electricity by wind
+      description: production of electricity by wind
 
   - iELCO:
-      description: Production of electricity by petroleum and other oil derivatives
+      description: production of electricity by petroleum and other oil derivatives
 
   - iELCB:
-      description: Production of electricity by biomass and waste
+      description: production of electricity by biomass and waste
 
   - iELCS:
-      description: Production of electricity by solar photovoltaic
+      description: production of electricity by solar photovoltaic
 
   - iELCE:
-      description: Production of electricity
+      description: production of electricity
 
   - iELCT:
-      description: Production of electricity by Geothermal
+      description: production of electricity by geothermal
 
   - iH2:
-      description: Hydrogen
+      description: hydrogen

@@ -17,57 +17,57 @@
     unit: [million EUR_2020/yr, billion USD_2010/yr]
 
 - Consumption|Households|<Product>|Imported:
-    description: Consumption of imported <this product> by households
+    description: Consumption of imported <Product> by households
     unit: [million EUR_2020/yr, billion USD_2010/yr]
 
 - Consumption|Households|<Product>|Domestic:
-    description: Consumption of domestic <this product> by households
+    description: Consumption of domestic <Product> by households
     unit: [million EUR_2020/yr, billion USD_2010/yr]
 
 - Consumption|Government|<Product>|Imported:
-    description: Consumption of imported <this product> by government
+    description: Consumption of imported <Product> by government
     unit: [million EUR_2020/yr, billion USD_2010/yr]
 
 - Consumption|Government|<Product>|Domestic:
-    description: Consumption of domestic <this product> by government
+    description: Consumption of domestic <Product> by government
     unit: [million EUR_2020/yr, billion USD_2010/yr]
 
 - Consumption|Gross Capital Formation|<Product>|Imported:
-    description: Consumption of imported <this product> by gross capital formation
+    description: Consumption of imported <Product> by gross capital formation
     unit: [million EUR_2020/yr, billion USD_2010/yr]
 
 - Consumption|Gross Capital Formation|<Product>|Domestic:
-    description: Consumption of domestic <this product> by gross capital formation
+    description: Consumption of domestic <Product> by gross capital formation
     unit: [million EUR_2020/yr, billion USD_2010/yr]
 
 - Consumption|Industry|<Product>|Imported:
-    description: Consumption of imported <this product> by industries
+    description: Consumption of imported <Product> by industries
     unit: [million EUR_2020/yr, billion USD_2010/yr]
 
 - Consumption|Industry|<Product>|Domestic:
-    description: Consumption of domestic <this product> by industries
+    description: Consumption of domestic <Product> by industries
     unit: [million EUR_2020/yr, billion USD_2010/yr]
 
 - Output|Industry|<Industry>:
-    description: Total monetary value of production (output) by <this industry>.
+    description: Total monetary value of production (output) by <Industry>.
       The value includes cost of production, capital costs, labor costs and taxes.
     unit: [million EUR_2020/yr, billion USD_2010/yr]
 
 - Output|Product|<Product>:
-    description: Total monetary value of <this product> produced (output) and sold
+    description: Total monetary value of <Product> produced (output) and sold
       to industry, households and government
     unit: [million EUR_2020/yr, billion USD_2010/yr]
 
 - Capital|<Industry>:
-    description: Total capital costs spend by <this industry>
+    description: Total capital costs spend by <Industry>
     unit: [million EUR_2020/yr, billion USD_2010/yr]
 
 - Labor|<Industry>:
-    description: Total wages spent by <this industry>
+    description: Total wages spent by <Industry>
     unit: [million EUR_2020/yr, billion USD_2010/yr]
 
 - Product Price Index|<Product>:
-    description: Price index on <this product> level, relative to base year 2011
+    description: Price index on <Product> level, relative to base year 2011
     note: The index equals 1 in 2011, the reference year
     unit: index
 

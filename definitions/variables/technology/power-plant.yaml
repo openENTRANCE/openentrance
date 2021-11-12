@@ -71,8 +71,7 @@
     unit: second
 - Frequency Containment Reserve|Electricity|<Fuel>:
     description: Share of Maximum Active Power that can be committed to Frequency
-      Containment Reserve by a typical power plant generating electricity from <this
-      fuel>
+      Containment Reserve by a typical power plant generating electricity from <Fuel>
     unit: '%'
 - Automatic Frequency Restoration Reserve|Electricity|<Fuel>:
     description: Share of Maximum Active Power that can be committed to Automatic

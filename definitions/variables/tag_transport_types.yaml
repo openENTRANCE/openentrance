@@ -3,67 +3,67 @@
 
 - <Transport>:
   - Maritime:
-      description: Maritime transportation technologies
+      description: maritime transportation technologies
 
   - Maritime|Biofuels:
-      description: Maritime biofuels-based transportation technologies
+      description: maritime biofuels-based transportation technologies
 
   - Maritime|LNG:
-      description: Maritime lng-based transportation technologies
+      description: maritime lng-based transportation technologies
 
   - Maritime|Oil:
-      description: Maritime oil-based transportation technologies
+      description: maritime oil-based transportation technologies
 
   - Maritime|Hydrogen:
-      description: Maritime hydrogen-based transportation technologies
+      description: maritime hydrogen-based transportation technologies
 
   - Rail:
-      description: Rail-based transportation technologies
+      description: rail-based transportation technologies
 
   - Rail|Electric:
-      description: Rail-based transportation technologies using electricity
+      description: rail-based transportation technologies using electricity
 
   - Rail|Oil:
-      description: Rail-based transportation technologies using oil products
+      description: rail-based transportation technologies using oil products
 
   - Rail|Hydrogen:
-      description: Rail-based transportation technologies using hydrogen
+      description: rail-based transportation technologies using hydrogen
 
   - Road:
-      description: Road-based transportation technologies
+      description: road-based transportation technologies
 
   - Road|Electric:
-      description: Road-based transportation technologies using electricity
+      description: road-based transportation technologies using electricity
 
   - Road|Electric|Battery:
-      description: Road-based transportation technologies using battery electric vehicles
+      description: road-based transportation technologies using battery electric vehicles
 
   - Road|Electric|Fuel Cell:
-      description: Road-based transportation technologies using fuel cell electric vehicles
+      description: road-based transportation technologies using fuel cell electric vehicles
 
   - Road|Electric|Overhead:
-      description: Road-based transportation technologies using electricity via overhead trolley trucks
+      description: road-based transportation technologies using electricity via overhead trolley trucks
 
   - Road|Plugin Hybrid:
-      description: Road-based transportation technologies using plugin hybrid vehicles
+      description: road-based transportation technologies using plugin hybrid vehicles
 
   - Road|Internal Combustion Engine:
-      description: Road-based transportation technologies using internal combustion engines
+      description: road-based transportation technologies using internal combustion engines
 
   - Road|Internal Combustion Engine|LNG:
-      description: Road-based transportation technologies using LNG in internal combustion engines
+      description: road-based transportation technologies using LNG in internal combustion engines
 
   - Road|Internal Combustion Engine|Oil:
-      description: Road-based transportation technologies using oil-products in internal combustion engines
+      description: road-based transportation technologies using oil-products in internal combustion engines
 
   - Air:
-      description: Air-based transportation technologies
+      description: air-based transportation technologies
 
   - Air|Biofuels:
-      description: Air-based transportation technologies using biofuels
+      description: air-based transportation technologies using biofuels
 
   - Air|Hydrogen:
-      description: Air-based transportation technologies using hydrogen
+      description: air-based transportation technologies using hydrogen
 
   - Air|Oil:
-      description: Air-based transportation technologies using oil products
+      description: air-based transportation technologies using oil products
