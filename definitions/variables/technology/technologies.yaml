@@ -49,9 +49,6 @@
 - Fixed Cost|Transportation|Passenger|<Transport>:
     description: Capital cost for passenger <this transport mode>
     unit: USD_2010/pkm/yr
-- Variable Cost|Electricity|<Fuel>:
-    description: Capital cost for <this fuel>
-    unit: USD_2010/MWh
 - Variable Cost|Heat|Residential and Commercial|<Fuel>:
     description: Capital cost for <this fuel>
     unit: USD_2010/MWh
