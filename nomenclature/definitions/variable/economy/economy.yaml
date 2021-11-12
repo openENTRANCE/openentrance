@@ -125,14 +125,6 @@ GDP|MER:
 GDP|PPP:
    description: GDP at purchasing power parity
    unit: [million EUR/yr, billion US$2010/yr]
-   
-Unemployment:	
-   description: number of unemployed inhabitants
-   unit: million   
-
-Unemployment|Rate:	
-   description: fraction of unemployed inhabitants
-   unit: '%'
 
 Policy Cost|Additional Total Energy System Cost:
    description: Additional energy system cost associated with the policy
