@@ -49,7 +49,7 @@ The variables for prices should follow the structure shown below.
 As with other variables, it may depend on the context of the modelling
 framework whether this timeseries is an assumption (input)
 or a model result (output) -
-see the section on variables related to [technologies](../technology)
+see the section on variables related to [technologies](../../variable/technology)
 for further discussion.
 
 - `Price|Carbon`

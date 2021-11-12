@@ -71,7 +71,7 @@ chain (also called reference energy system):
 - `Secondary Energy`
 - `Final Energy`
 
-[More information](energy)
+[More information](../variable/energy)
 
 ### Characteristics of (energy) technologies
 
@@ -83,7 +83,7 @@ lines and pipelines.
 - `Capital Cost`
 - `Investment`
 
-[More information](technology)
+[More information](../variable/technology)
 
 ### Emissions, carbon sequestration and climate
 
@@ -95,7 +95,7 @@ carbon sequestration and the impact of emissions on the climate
 - `Carbon Sequestration`
 - `Temperature`
 
-[More information](emissions)
+[More information](../variable/emissions)
 
 ### Macro-economic indicators and societal drivers
 
