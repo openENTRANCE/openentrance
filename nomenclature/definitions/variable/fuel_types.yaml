@@ -77,6 +77,12 @@
 
   Hydrogen:
     description: Hydrogen
+    
+  Hydrogen|Fuel Cell:
+    description: Hydrogen via fuel cells
+    
+  Hydrogen|OCGT:
+    description: Hydrogen used in OCGT power plants
 
   Non-Biomass Renewables:
     description: Hydro, wind, solar, geothermal, ocean, and other renewable
@@ -126,5 +132,14 @@
   Ocean:
     description: Ocean energy
 
+  Electricity:
+    description: Energy generation from electricity
+   
+  Electricity|Heatpump:
+    description: Energy generation from Heatpumps
+   
+  Electricity|Other:
+    description: Energy generation from other electrification technologies
+    
   Other:
     description: Other energy sources and fuels not explicitely listed

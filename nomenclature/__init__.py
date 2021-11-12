@@ -1,4 +1,5 @@
 from pathlib import Path
+from collections.abc import Mapping
 import logging
 import yaml
 
@@ -25,6 +26,31 @@ CCS_TYPES = [
 ]
 
 
+class Definition(Mapping):
+    """A thin wrapper around a dictionary for nomenclature definitions"""
+
+    def __init__(self, name, data=None):
+        self._def = data or dict()
+        self._name = 'variables'
+
+    def __setitem__(self, key, value):
+        if key in self._def:
+            raise ValueError(f'Duplicate {self._name} key: {key}')
+        self._def[key] = value
+
+    def __getitem__(self, k):
+        return self._def[k]
+
+    def __iter__(self):
+        return iter(self._def)
+
+    def __len__(self):
+        return len(self._def)
+
+    def __repr__(self):
+        return self._def.__repr__()
+
+
 def _parse_yaml(path, file='**/*', ext='.yaml'):
     """Parse `file` in `path` (or all files in subfolders if `file='**/*'`)"""
     dct = {}
@@ -45,7 +71,7 @@ def _copy_dict(dct, description):
     return _dct
 
 
-variables = dict()
+variables = Definition('variable')
 """Dictionary of variables"""
 
 # read all variable definitions to auxiliary dictionary
@@ -57,19 +83,25 @@ fuel_types = _variables.pop('<Fuel>')
 industry_types = _variables.pop('<Industry>')
 # explode <product> tags to full lists
 product_types = _variables.pop('<Product>')
+# explode <Transport> tags to full lists
+transport_types = _variables.pop('<Transport>')
+
 d = 'description'
 key_types = [
     ('<Fuel>', fuel_types),
     ('<Industry>', industry_types),
-    ('<Product>', product_types)
+    ('<Product>', product_types),
+    ('<Transport>', transport_types)
 ]
 # corresponding label to replace onto the variable
 rep_value = {
     '<Fuel>': '<this fuel>',
     '<Industry>': '<this industry>',
-    '<Product>': '<this product>'
+    '<Product>': '<this product>',
+    '<Transport>': '<this transport mode>'
 }
 for key, value in _variables.items():
+    has_tag = False
     for k, types in key_types:
         # if the key contains the tag, loop over all types to add mapping
         if k in key:
@@ -87,22 +119,25 @@ for key, value in _variables.items():
                 if 'ccs' in attr and attr['ccs'] is True:
                     for sub, desc in CCS_TYPES:
                         _key_ccs = f'{_key}|{sub}'
-                        _description_ccs = f'{_description} {desc}'
-                        variables[_key_ccs] = _copy_dict(
-                            value, _description_ccs)
+                        _dict = _copy_dict(value, f'{_description} {desc}')
+                        variables[_key_ccs] = _dict
 
-        # otherwise, move items from auxiliary to public dictionary
-        else:
-            variables[key] = _variables[key]
+            has_tag = True
+            break
+
+    # if the variable does not contain a <tag>, move items to public dictionary
+    if not has_tag:
+        variables[key] = _variables[key]
 
 # remove auxiliary dictionary
 del _variables
 
-regions = _parse_yaml(DEF_PATH / 'region')
+regions = Definition('region', data=_parse_yaml(DEF_PATH / 'region'))
 """Dictionary of all regions"""
 
 
-countries = _parse_yaml(DEF_PATH / 'region', 'countries')
+countries = Definition('country',
+                       data=_parse_yaml(DEF_PATH / 'region', 'countries'))
 """Dictionary of countries"""
 
 
@@ -141,7 +176,7 @@ nuts_hierarchy = _create_nuts3_hierarchy()
 """Hierarchical dictionary of nuts region classification"""
 
 
-subannual = _parse_yaml(DEF_PATH / 'subannual')
+subannual = Definition('subannual', _parse_yaml(DEF_PATH / 'subannual'))
 """Dictionary of subannual timeslices"""
 
 
@@ -208,9 +243,10 @@ def validate(df):
             data = df.filter(subannual=invalid)\
                 .data[['year', 'subannual']].drop_duplicates()
             # call utility whether subannual can be cast to datetime
-            invalid, success = _validate_subannual_dt(
+            invalid, subannual_success = _validate_subannual_dt(
                 list(zip(data['year'], data['subannual']))
             )
+            success = success and subannual_success
 
         # check if any entries in the column are invalid and write to log
         if invalid:
