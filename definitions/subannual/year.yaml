@@ -1,4 +1,4 @@
 # Default entry for the subannual column
 
-Year:
-   duration: 1
+- Year:
+    duration: 1
