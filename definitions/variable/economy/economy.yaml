@@ -1,0 +1,283 @@
+# List of variables related to economic activity and societal drivers
+
+- Consumption:
+    description: Total consumption of all goods, by all consumers in a region
+    unit: [million EUR_2020/yr, billion  v/yr]
+
+- Consumption|Households:
+    description: Total consumption of all goods, by households in a region
+    unit: [million EUR_2020/yr, billion USD_2010/yr]
+
+- Consumption|Government:
+    description: Total consumption of all goods, by the government in a region
+    unit: [million EUR_2020/yr, billion USD_2010/yr]
+
+- Consumption|Industry:
+    description: Total consumption of all goods, by industries in a region
+    unit: [million EUR_2020/yr, billion USD_2010/yr]
+
+- Consumption|Households|<Product>|Imported:
+    description: Consumption of imported <Product> by households
+    unit: [million EUR_2020/yr, billion USD_2010/yr]
+
+- Consumption|Households|<Product>|Domestic:
+    description: Consumption of domestic <Product> by households
+    unit: [million EUR_2020/yr, billion USD_2010/yr]
+
+- Consumption|Government|<Product>|Imported:
+    description: Consumption of imported <Product> by government
+    unit: [million EUR_2020/yr, billion USD_2010/yr]
+
+- Consumption|Government|<Product>|Domestic:
+    description: Consumption of domestic <Product> by government
+    unit: [million EUR_2020/yr, billion USD_2010/yr]
+
+- Consumption|Gross Capital Formation|<Product>|Imported:
+    description: Consumption of imported <Product> by gross capital formation
+    unit: [million EUR_2020/yr, billion USD_2010/yr]
+
+- Consumption|Gross Capital Formation|<Product>|Domestic:
+    description: Consumption of domestic <Product> by gross capital formation
+    unit: [million EUR_2020/yr, billion USD_2010/yr]
+
+- Consumption|Industry|<Product>|Imported:
+    description: Consumption of imported <Product> by industries
+    unit: [million EUR_2020/yr, billion USD_2010/yr]
+
+- Consumption|Industry|<Product>|Domestic:
+    description: Consumption of domestic <Product> by industries
+    unit: [million EUR_2020/yr, billion USD_2010/yr]
+
+- Output|Industry|<Industry>:
+    description: Total monetary value of production (output) by <Industry>.
+      The value includes cost of production, capital costs, labor costs and taxes.
+    unit: [million EUR_2020/yr, billion USD_2010/yr]
+
+- Output|Product|<Product>:
+    description: Total monetary value of <Product> produced (output) and sold
+      to industry, households and government
+    unit: [million EUR_2020/yr, billion USD_2010/yr]
+
+- Capital|<Industry>:
+    description: Total capital costs spend by <Industry>
+    unit: [million EUR_2020/yr, billion USD_2010/yr]
+
+- Labor|<Industry>:
+    description: Total wages spent by <Industry>
+    unit: [million EUR_2020/yr, billion USD_2010/yr]
+
+- Product Price Index|<Product>:
+    description: Price index on <Product> level, relative to base year 2011
+    note: The index equals 1 in 2011, the reference year
+    unit: index
+
+- Capital Price Index:
+    description: Price index of capital, relative to base year 2011
+    note: The index equals 1 in 2011, the reference year
+    unit: index
+
+- Labor Price Index:
+    description: Price index of wages, relative to base year 2011
+    note: The index equals 1 in 2011, the reference year
+    unit: index
+
+- Discount rate|Buildings:
+    description: Discount rate for investments into residential and commercial buildings
+    unit: '%'
+
+- Discount rate|Economy:
+    description: Economy-wide discount rate (real interest rate of capital)
+    unit: '%'
+
+- Discount rate|Electricity:
+    description: Discount rate for investments in the electricity sector
+    unit: '%'
+
+- Discount rate|Energy Supply:
+    description: Discount rate for investments in energy supply sector
+    unit: '%'
+
+- Discount rate|Industry:
+    description: Discount rate for investments in installations in the industrial sector
+    unit: '%'
+
+- Discount rate|Mobility:
+    description: Discount rate for investments into mobility (e.g. vehicles),
+      not including transport infrastructure)
+    unit: '%'
+
+- Discount rate|Social:
+    description: Social discount rate (should be reported if different from capital
+      interest rate and used in the model to discount future costs and revenues)
+    unit: '%'
+
+- Discount rate|Transport Infrastructure:
+    description: Discount rate for investments into transport infrastructure
+      (roads, railways, ports, airports, waterways etc.)
+    unit: '%'
+
+- GDP|MER:
+    description: GDP at market exchange rate
+    unit: [million EUR_2020/yr, billion USD_2010/yr]
+
+- GDP|PPP:
+    description: GDP at purchasing power parity
+    unit: [million EUR_2020/yr, billion USD_2010/yr]
+
+- Policy Cost|Additional Total Energy System Cost:
+    description: Additional energy system cost associated with the policy
+    unit: [million EUR_2020/yr, billion USD_2010/yr]
+
+- Policy Cost|Area under MAC Curve:
+    description: Total costs of the policy,
+      i.e. the area under the Marginal Abatement Cost (MAC) curve
+    unit: [million EUR_2020/yr, billion USD_2010/yr]
+
+- Policy Cost|Consumption Loss:
+    description: Consumption loss in a policy scenario compared to the corresponding
+      baseline
+    notes: Losses should be reported as negative numbers)
+    unit: [million EUR_2020/yr, billion USD_2010/yr]
+
+- Policy Cost|GDP Loss:
+    description: GDP loss in a policy scenario compared to the corresponding baseline
+    notes: Losses should be reported as negative numbers
+    unit: [million EUR_2020/yr, billion USD_2010/yr]
+
+- Policy Cost|Other:
+    description: Any other indicator of policy cost (e.g., compensated variation)
+    unit: [million EUR_2020/yr, billion USD_2010/yr]
+
+- Population:
+    description: Total population
+    unit: million
+
+- Population|Risk of Hunger:
+    description: Population at risk of hunger
+    notes: Calculated by multipling total population and prevalence of undernourishment
+      computed from a probability distribution of daily dietary energy consumption
+      and minimum dietary energy requirement.
+    unit: million
+
+- Population|Rural:
+    description: Total population living in rural areas
+    unit: million
+
+- Population|Urban:
+    description: Total population living in urban areas
+    unit: million
+
+- Population|Urban|Share:
+    description: Share of population living in urban areas
+    unit: '%'
+
+- Price|Carbon:
+    description: Price of carbon (for regional aggregrates the weighted price of carbon
+     by subregion should be used)
+    unit: EUR_2020/t CO2
+
+- Price|Final Energy|Residential|Electricity:
+    description: Mean electricity price at the final level in the residential sector
+    notes: Prices should include the effect of carbon prices. This mean price should
+      reflect the variability of different prices that are accessible to end-users
+      (e.g., including regulated prices, prices by different competiting retailers).
+    unit: [EUR_2020/GJ, USD_2010/GJ, EUR_2020/kWh]
+
+- Price|Final Energy|Residential|Gases|Natural Gas:
+    description: Mean natural gas price at the final level in the residential sector
+    notes: Prices should include the effect of carbon prices. This mean price should
+      reflect the variability of different prices that are accessible to end-users
+      (e.g., including regulated prices, prices by different competiting retailers).
+    unit: [EUR_2020/GJ,  USD_2010/GJ]
+
+- Price|Final Energy|Residential|Liquids|Biomass:
+    description: Mean biofuel price at the final level in the residential sector
+    notes: Prices should include the effect of carbon prices. This mean price should
+      reflect the variability of different prices that are accessible to end-users
+      (e.g., including regulated prices, prices by different competiting retailers).
+    unit: [EUR_2020/GJ,  USD_2010/GJ]
+
+- Price|Final Energy|Residential|Liquids|Oil:
+    description: Mean light fuel oil price at the final level in the residential sector
+    notes: Prices should include the effect of carbon prices. This mean price should
+      reflect the variability of different prices that are accessible to end-users
+      (e.g., including regulated prices, prices by different competiting retailers).
+    unit: [EUR_2020/GJ,  USD_2010/GJ]
+
+- Price|Final Energy|Residential|Solids|Biomass:
+    description: Mean biomass price at the final level in the residential sector
+    notes: Prices should include the effect of carbon prices. This mean price should
+      reflect the variability of different prices that are accessible to end-users
+      (e.g., including regulated prices, prices by different competiting retailers).
+    unit: [EUR_2020/GJ,  USD_2010/GJ]
+
+- Price|Final Energy|Residential|Solids|Coal:
+    description: Mean coal price at the final level in the residential sector
+    notes: Prices should include the effect of carbon prices. This mean price should
+      reflect the variability of different prices that are accessible to end-users
+      (e.g., including regulated prices, prices by different competiting retailers).
+    unit: [EUR_2020/GJ,  USD_2010/GJ]
+
+- Price|Primary Energy|Biomass:
+    description: Biomass producer price
+    unit: [EUR_2020/GJ, USD_2010/GJ]
+
+- Price|Primary Energy|Coal:
+    description: Coal price at the primary level (i.e. the spot price at the global or
+      regional market)
+    unit: [EUR_2020/GJ, USD_2010/GJ]
+
+- Price|Primary Energy|Gas:
+    description: Natural gas price at the primary level (i.e. the spot price at
+      the global or regional market)
+    unit: [EUR_2020/GJ, USD_2010/GJ]
+
+- Price|Primary Energy|Oil:
+    description: Crude oil price at the primary level (i.e. the spot price at
+                the global or regional market)
+    unit: [EUR_2020/GJ, USD_2010/GJ]
+
+- Price|Secondary Energy|Electricity:
+    description: Electricity price at the secondary level, i.e. for large scale
+                consumers (e.g. aluminum production)
+    notes: Prices should include the effect of carbon prices.
+    unit: [EUR_2020/GJ, USD_2010/GJ]
+
+- Price|Secondary Energy|Gases|Natural Gas:
+    description: Natural gas price at the secondary level, i.e. for large-scale
+      consumers (e.g., gas power plant)
+    notes: Prices should include the effect of carbon prices.
+    unit: [EUR_2020/GJ, USD_2010/GJ]
+
+- Price|Secondary Energy|Hydrogen:
+    description: Hydrogen price at the secondary level
+    notes: Prices should include the effect of carbon prices.
+    unit: [EUR_2020/GJ, USD_2010/GJ]
+
+- Price|Secondary Energy|Liquids:
+    description: Liquid fuel price at the secondary level, i.e. petrol, diesel,
+                or weighted average
+    notes: Prices should include the effect of carbon prices.
+    unit: [EUR_2020/GJ, USD_2010/GJ]
+
+- Price|Secondary Energy|Liquids|Biomass:
+    description: Biofuel price at the secondary level, i.e. for biofuel consumers
+    unit: [EUR_2020/GJ, USD_2010/GJ]
+
+- Price|Secondary Energy|Liquids|Oil:
+    description: Light fuel oil price at the secondary level, i.e. for large-scale
+      consumers (e.g. oil power plant)
+    notes: Prices should include the effect of carbon prices.
+    unit: [EUR_2020/GJ, USD_2010/GJ]
+
+- Price|Secondary Energy|Solids|Biomass:
+    description: Biomass price at the secondary level, i.e. for large-scale consumers
+      (e.g. biomass power plant)
+    notes: Prices should include the effect of carbon prices.
+    unit: [EUR_2020/GJ, USD_2010/GJ]
+
+- Price|Secondary Energy|Solids|Coal:
+    description: Coal price at the secondary level, i.e. for large-scale consumers
+      (e.g. coal power plant)
+    notes: Prices should include the effect of carbon prices.
+    unit: [EUR_2020/GJ, USD_2010/GJ]

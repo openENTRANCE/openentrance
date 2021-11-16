@@ -1,0 +1,95 @@
+# List of variables related to the secondary energy sectors
+
+- Secondary Energy|Electricity:
+    description: Total net electricity production
+    unit: EJ/yr
+- Secondary Energy|Electricity|<Fuel>:
+    description: Net electricity production from <Fuel>
+    unit: EJ/yr
+- Secondary Energy|Gases:
+    description: Total production of gaseous fuels, including natural gas
+    unit: EJ/yr
+- Secondary Energy|Gases|Biomass:
+    description: Total production of biogas
+    unit: EJ/yr
+- Secondary Energy|Gases|Coal:
+    description: Total production of coal gas from coal gasification
+    unit: EJ/yr
+- Secondary Energy|Gases|Natural Gas:
+    description: Total production of fossil natural gas
+    unit: EJ/yr
+- Secondary Energy|Heat:
+    description: Total heat generation
+    unit: EJ/yr
+- Secondary Energy|Heat|<Fuel>:
+    description: Total heat generation from <Fuel>
+    unit: EJ/yr
+- Secondary Energy|Hydrogen:
+    description: Total hydrogen production
+    unit: EJ/yr
+- Secondary Energy|Hydrogen|Biomass:
+    description: Hydrogen production from biomass
+    unit: EJ/yr
+- Secondary Energy|Hydrogen|Biomass|w/ CCS:
+    description: Hydrogen production from biomass with a CO2 capture component
+    unit: EJ/yr
+- Secondary Energy|Hydrogen|Biomass|w/o CCS:
+    description: Hydrogen production from biomass with freely vented CO2 emissions
+    unit: EJ/yr
+- Secondary Energy|Hydrogen|Electricity:
+    description: Hydrogen production from electricity via electrolysis
+    unit: EJ/yr
+- Secondary Energy|Hydrogen|Fossil:
+    description: Hydrogen production from fossil fuels
+    unit: EJ/yr
+- Secondary Energy|Hydrogen|Fossil|w/ CCS:
+    description: Hydrogen production from fossil fuels with a CO2 capture component
+    unit: EJ/yr
+- Secondary Energy|Hydrogen|Fossil|w/o CCS:
+    description: Hydrogen production from fossil fuels with freely vented CO2 emissions
+    unit: EJ/yr
+- Secondary Energy|Liquids:
+    description: Total production of refined liquid fuels from all energy sources
+      (incl. oil products, synthetic fossil fuels from gas and coal, biofuels)
+    unit: EJ/yr
+- Secondary Energy|Liquids|Biomass:
+    description: Total liquid biofuels production
+    unit: EJ/yr
+- Secondary Energy|Liquids|Biomass|w/ CCS:
+    description: Total liquid biofuels production with ccs
+    unit: EJ/yr
+- Secondary Energy|Liquids|Biomass|w/o CCS:
+    description: Total liquid biofuels production without ccs
+    unit: EJ/yr
+- Secondary Energy|Liquids|Coal:
+    description: Total production of fossil liquid synfuels from coal-to-liquids (ctl)
+      technologies
+    unit: EJ/yr
+- Secondary Energy|Liquids|Coal|w/ CCS:
+    description: Total production of fossil liquid synfuels from coal-to-liquids (ctl)
+      technologies with ccs
+    unit: EJ/yr
+- Secondary Energy|Liquids|Coal|w/o CCS:
+    description: Total production of fossil liquid synfuels from coal-to-liquids (ctl)
+      technologies without ccs
+    unit: EJ/yr
+- Secondary Energy|Liquids|Gas:
+    description: Total production of fossil liquid synfuels from gas-to-liquids (gtl)
+      technologies
+    unit: EJ/yr
+- Secondary Energy|Liquids|Gas|w/ CCS:
+    description: Total production of fossil liquid synfuels from gas-to-liquids (gtl)
+      technologies with ccs
+    unit: EJ/yr
+- Secondary Energy|Liquids|Gas|w/o CCS:
+    description: Total production of fossil liquid synfuels from gas-to-liquids (gtl)
+      technologies without ccs
+    unit: EJ/yr
+- Secondary Energy|Liquids|Oil:
+    description: Total production of liquid fuels from petroleum, including both
+      conventional and unconventional sources
+    unit: EJ/yr
+- Secondary Energy|Solids:
+    description: Solid secondary energy carriers (e.g., briquettes, coke, wood chips,
+      wood pellets)
+    unit: EJ/yr

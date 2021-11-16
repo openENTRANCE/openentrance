@@ -1,0 +1,58 @@
+# refer to `countries.yaml` for the mapping of ISO2 codes to country names
+
+- Europe:
+
+  # generic definitions of Europe
+
+  - Europe:
+      definition: any of the aggregate-regions `Europe (*)`
+      notes: the definition used by a model must be specified in the model documentation
+  - Europe (excl. Turkey):
+      definition: EU27 + EFTA + AL + BA + BY + ME + MK + UA + UK + RS + XK
+  - Europe (incl. Turkey):
+      definition: EU27 + EFTA + AL + BA + BY + ME + MK + UA + UK + RS + TR + XK
+  - Pan-Europe:
+      definition: EU27 (excl. Malta & Cyprus) + AL + BA + CH + ME + MK + NO + RS + UK
+      notes: in ehighway2050, Liechtenstein (LI) is neglected; Kosovo (XK) is seen
+        as included in Serbia (RS)
+      source: definition of the pan-european electricity system used in e-highways2050
+        and plan4res
+
+  # definitions of European regions and groups of countries
+
+  - EU27 & UK:
+      definition: EU27 + UK
+      notes: Formerly known as EU28.
+  - EFTA:
+      definition: IS + LI + NO + CH
+      notes: European Free Trade Association
+      source: https://en.wikipedia.org/wiki/European_Free_Trade_Association
+  - Balkans:
+      definition: AL + BA + BG + GR + HR + ME + MK + RO + RS + SI
+      notes: includes also Kosovo (XK) as it is 'included' within Serbia (RS) (meaning
+        energy capacity/depands of Kosovo are included in serbian data)
+      source: plan4res public dataset (D4.5)
+  - Non-EU-Balkans:
+      definition: AL + BA + ME + MK + RS
+      notes: includes also Kosovo (XK) as it is 'included' within Serbia (RS) (meaning
+        energy capacity/depands of Kosovo are included in serbian data)
+  - Scandinavia:
+      definition: DK + FI + NO + SE
+      source: plan4res public dataset (D4.5)
+  - Baltics:
+      definition: EE + LT + LV
+      source: plan4res public dataset (D4.5)
+
+  # generic definition of the EU
+
+  - European Union:
+      definition: any of the aggregate-regions `EU*`
+      notes: the definition used by a model must be specified in the model documentation
+  - EU27:
+      definition: AT + BE + BG + HR + CY + CZ + DK + EE + FI + FR + DE + GR + HU +
+        IE + IT + LV + LT + LU + MT + PL + PT + RO + SK + SI + ES + SE + NL
+      notes: membership as of February 1, 2020
+  - EU27 (excl. Malta & Cyprus):
+      definition: EU27 excluding CY + MT
+
+  # add more definitions of `EU*` above this line

@@ -1,6 +1,6 @@
 #  Definitions of common terms for the openENTRANCE project
 
-Copyright 2020 openENTRANCE consortium
+Copyright 2020-2021 openENTRANCE consortium
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
@@ -38,13 +38,17 @@ There are several ways to interact with the nomenclature and definitions
 provided in this repository. The simplest approach is to just read the `yaml`
 files on GitHub - see the links [below](#Timeseries-data-dimensions).
 
+The repository is structured so that it can be parsed by the
+Python package **nomenclature** for scenario ensemble validation and processing.
+Read more on [GitHub](https://github.com/iamconsortium/nomenclature)!
+
 ### An installable Python package
 
 <img src="./_static/python.png" align="right" alt="Python logo" />
 
 To facilitate using the definitions in data processing workflows and scripts,
-the nomenclature can be installed as a Python package with several utility
-functions and dictionaries. [More information](nomenclature)
+there is an installable Python package with several utility
+functions and dictionaries. [More information](openentrance)
 
 ## Data format structure
 
@@ -60,14 +64,14 @@ industry or the building stock.
 
 In the data format, every timeseries is described by six dimensions (codes):
 
-1.	Model - [more information](nomenclature/definitions/model)
-2.	Scenario - [more information](nomenclature/definitions/scenario)
-3.	Region - [more information](nomenclature/definitions/region)
-4.	Variable - [more information](nomenclature/definitions/variable)
-5.	Unit - see the section on [variables](nomenclature/definitions/variable)
+1.	Model - [more information](definitions/model)
+2.	Scenario - [more information](definitions/scenario)
+3.	Region - [more information](definitions/region)
+4.	Variable - [more information](definitions/variable)
+5.	Unit - see the section on [variables](definitions/variable)
     for details
 6.	Subannual (optional, default 'Year')<sup>[1]</sup> -
-    [more information](nomenclature/definitions/subannual)
+    [more information](definitions/subannual)
 
 In addition to these six dimensions, every timeseries is described by
 a set of **year-value** pairs.
