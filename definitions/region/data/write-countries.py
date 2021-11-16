@@ -13,7 +13,7 @@ file.writelines(f"# This file was created using the script `data/{this}`\n")
 file.write("# DO NOT ALTER THIS FILE MANUALLY!\n\n")
 file.write("# List of countries\n")
 
-file.write(f"- Countries:\n")
+file.write("- Countries:\n")
 
 # the EU uses alternative ISO2 codes for some countries
 iso2_alternatives = {"GB": "UK", "GR": "EL"}

@@ -1,7 +1,6 @@
 from pathlib import Path
 
 from nomenclature import CodeList
-from datetime import datetime, timedelta
 
 
 # path to nomenclature definitions
