@@ -11,7 +11,6 @@ def main(df: pyam.IamDataFrame) -> pyam.IamDataFrame:
     """Main function for validation and processing"""
     logger.info("Starting openENTRANCE timeseries-upload processing workflow...")
 
-
     if "subannual" in df.dimensions:
         dimensions = ["region", "variable", "subannual"]
     else:
