@@ -1,18 +1,14 @@
-#  Definitions of common terms for the openENTRANCE project
+#  Project definitions for the openENTRANCE project
 
 Copyright 2020-2021 openENTRANCE consortium
 
-   Licensed under the Apache License, Version 2.0 (the "License");
-   you may not use this file except in compliance with the License.
-   You may obtain a copy of the License at
+This repository is licensed under the Apache License, Version 2.0 (the "License"); see
+the [LICENSE](LICENSE) for details.
 
-     http://www.apache.org/licenses/LICENSE-2.0
-
-   Unless required by applicable law or agreed to in writing, software
-   distributed under the License is distributed on an "AS IS" BASIS,
-   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-   See the License for the specific language governing permissions and
-   limitations under the License.
+[![license](https://img.shields.io/badge/License-Apache%202.0-black)](https://github.com/openENTRANCE/openentrance/blob/main/LICENSE)
+[![python](https://img.shields.io/badge/python-3.7_|_3.8_|_3.9-blue?logo=python&logoColor=white)](https://github.com/openENTRANCE/openentrance)
+[![Code style:
+black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
 ## Aim and scope of this repository
 
