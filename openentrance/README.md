@@ -18,7 +18,7 @@ Clone this repository to your machine by opening a command prompt and
 directing it to the folder where you want to have the files, then run:
 
 ```
-$ git clone git@github.com:openENTRANCE/nomenclature.git
+$ git clone git@github.com:openENTRANCE/openentrance.git
 ```
 
 Then navigate the command prompt to the new folder and install using pip.
@@ -57,7 +57,7 @@ If you see a few warnings, this is (probably) also ok...
 Open a command prompt and run
 
 ```
-pip install git+https://github.com/openENTRANCE/nomenclature
+pip install git+https://github.com/openENTRANCE/openentrance
 ```
 
 > :warning: You will have to repeat this step whenever you want
