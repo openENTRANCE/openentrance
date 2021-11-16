@@ -1,2 +1,3 @@
 pyam-iamc>=1.0  # the pyam package is released on pypi under this name
+iam-units>=2021.11.12
 git+git://github.com/IAMconsortium/nomenclature.git

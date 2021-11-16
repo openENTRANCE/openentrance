@@ -34,7 +34,7 @@ $ pip install --editable .
 You can test whether the installation worked successfully by running
 
 ```
-$ pytest nomenclature/tests/
+$ pytest openentrance/tests/
 ```
 
 The result should look similar to the following snippet:
@@ -45,7 +45,7 @@ platform darwin -- Python 3.7.7, pytest-5.3.5, py-1.8.1, pluggy-0.13.1
 rootdir: ...
 collected 4 items                                                              
 
-nomenclature/tests/test_core.py ....                                     [100%]
+openentrance/tests/test_core.py ....                                     [100%]
 
 ============================== 4 passed in 30.00s ==============================
 ```
@@ -61,19 +61,4 @@ pip install git+https://github.com/openENTRANCE/nomenclature
 ```
 
 > :warning: You will have to repeat this step whenever you want
-> to update the `nomenclature` package on your machine.
-
-### Known issues
-
-The `nomenclature` Python package requires
-the [pyam](https://pyam-iamc.readthedocs.io) package
-and installing as indicated above will automatically install **pyam**
-from [pypi](https://pypi.org/project/pyam-iamc/).
-
-However, some operating systems have dependency conflicts between **pyam**
-and **pypi** - if you experience any problems, please try to install
-with conda using
-
-```
-conda install -c conda-forge pyam
-```
+> to update the `openentrance` package on your machine.
