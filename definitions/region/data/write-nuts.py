@@ -5,8 +5,6 @@ import pyam
 
 this = Path(__file__).name
 
-# load mapping of iso2 to common country names
-import yaml
 
 with open("../countries.yaml", "r") as stream:
     country_mapping = yaml.load(stream, Loader=yaml.FullLoader)[0]["Countries"]
