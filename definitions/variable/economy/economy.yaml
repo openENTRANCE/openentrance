@@ -2,7 +2,7 @@
 
 - Consumption:
     description: Total consumption of all goods, by all consumers in a region
-    unit: [million EUR_2020/yr, billion  v/yr]
+    unit: [million EUR_2020/yr, billion USD_2010/yr]
 
 - Consumption|Households:
     description: Total consumption of all goods, by households in a region
