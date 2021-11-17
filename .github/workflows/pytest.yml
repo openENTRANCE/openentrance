@@ -1,7 +1,7 @@
-# This workflow will install Python dependencies and validate the project
+# This workflow will install Python dependencies and run the tests
 # For more information see: https://help.github.com/actions/language-and-framework-guides/using-python-with-github-actions
 
-name: Nomenclature
+name: Pytest
 
 on:
   push:
@@ -10,7 +10,7 @@ on:
     branches: [ '**' ]
 
 jobs:
-  validation:
+  tests:
 
     runs-on: ubuntu-latest
 
@@ -23,7 +23,11 @@ jobs:
         python-version: 3.9
 
     - name: Install dependencies
-      run: pip install -r requirements.txt
+      run: |
+        pip install -r requirements.txt
+        pip install pytest
 
-    - name: Run the nomenclature project validation
-      run: nomenclature validate-project .
+    - name: Install and test package functions
+      run: |
+        pip install --editable .
+        pytest tests
