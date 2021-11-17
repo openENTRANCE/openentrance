@@ -17,7 +17,7 @@ def main(df: pyam.IamDataFrame) -> pyam.IamDataFrame:
     """Main function for validation and processing"""
     logger.info("Starting openENTRANCE timeseries-upload processing workflow...")
 
-    if "subannual" in df.dimensions:
+    if "subannual" in df.dimensions or df.time_col == "time":
         dimensions = ["region", "variable", "subannual"]
     else:
         dimensions = ["region", "variable"]
@@ -29,7 +29,7 @@ def main(df: pyam.IamDataFrame) -> pyam.IamDataFrame:
     # convert to subannual format if data provided in datetime format
     if df.time_col == "time":
         logger.info('Re-casting from "time" column to categorical "subannual" format')
-        df.swap_time_for_year(inplace=True)
+        df = df.swap_time_for_year(subannual=True)
 
     # check that any datetime-like items in "subannual" are valid datetime and UTC+01:00
     if "subannual" in df.dimensions:

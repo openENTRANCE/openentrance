@@ -1,8 +1,10 @@
 import pandas as pd
 from pyam import IamDataFrame
+import pytest
 
 import sys
-sys.path.append('..')
+
+sys.path.append("..")
 
 from workflow import main as workflow
 
@@ -20,7 +22,8 @@ def validate(df):
     try:
         workflow(df)
         return True
-    except:
+    except ValueError as e:
+        print(e)
         return False
 
 
@@ -51,42 +54,36 @@ def test_validate_subannual_months():
     assert not validate(IamDataFrame(TEST_DF, subannual="foo"))
 
 
-def test_validate_subannual_datetime():
+@pytest.mark.parametrize(
+    "subannual, status",
+    [
+        ("01-01 00:00+01:00", True),
+        ("01-01 00:00", False),
+        ("01-01 00:00+02:00", False),
+        ("01-32 00:00+01:00", False),
+    ],
+)
+def test_validate_subannual_datetime(subannual, status):
     # test that validation works as expected with continuous time as subannual
-    assert validate(IamDataFrame(TEST_DF, subannual="01-01 00:00+01:00"))
-
-    # assert that missing timezone fails
-    assert not validate(IamDataFrame(TEST_DF, subannual="01-01 00:00"))
-
-    # assert that wrong timezone fails
-    assert not validate(IamDataFrame(TEST_DF, subannual="01-01 00:00+02:00"))
-
-    # assert that value not castable to datetime fails
-    assert not validate(IamDataFrame(TEST_DF, subannual="01-32 00:00+01:00"))
+    assert validate(IamDataFrame(TEST_DF, subannual=subannual)) == status
 
 
-def test_validate_time_entry():
-
+@pytest.mark.parametrize(
+    "rename_mapping, status",
+    [
+        ({2005: "2005-06-17 00:00+01:00", 2010: "2010-06-17 00:00+01:00"}, True),
+        ({2005: "2005-06-17 00:00+02:00", 2010: "2010-06-17 00:00+02:00"}, False),
+        ({2005: "2005-06-17 00:00", 2010: "2010-06-17 00:00"}, False),
+    ],
+)
+def test_validate_time_entry(rename_mapping, status):
+    # test that validation works as expected with datetime-domain
     _df = IamDataFrame(
         IamDataFrame(TEST_DF)
         .data.rename(columns={"year": "time"})
-        .replace({2005: "2005-06-17 00:00+01:00", 2010: "2010-06-17 00:00+01:00"})
-    ).swap_time_for_year()
-    assert validate(IamDataFrame(_df))
-
-    _df = IamDataFrame(
-        IamDataFrame(TEST_DF)
-        .data.rename(columns={"year": "time"})
-        .replace({2005: "2005-06-17 00:00+02:00", 2010: "2010-06-17 00:00+02:00"})
-    ).swap_time_for_year()
-    assert validate(IamDataFrame(_df))
-
-    _df = IamDataFrame(
-        IamDataFrame(TEST_DF)
-        .data.rename(columns={"year": "time"})
-        .replace({2005: "2005-06-17 00:00", 2010: "2010-06-17 00:00"})
-    ).swap_time_for_year()
-    assert validate(IamDataFrame(_df))
+        .replace(rename_mapping)
+    )
+    assert validate(_df) == status
 
 
 def test_validate_unit_entry():
