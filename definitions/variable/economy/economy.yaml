@@ -174,7 +174,7 @@
 - Price|Carbon:
     description: Price of carbon (for regional aggregrates the weighted price of carbon
      by subregion should be used)
-    unit: EUR_2020/t CO2
+    unit: [EUR_2020/t CO2, USD_2010/t CO2]
 
 - Price|Final Energy|Residential|Electricity:
     description: Mean electricity price at the final level in the residential sector
