@@ -36,16 +36,16 @@ common_regions:
      - EWN
      - FRA
      - UKI
-  - R5ASIA:
+  - Asia (R5):
       - CHA
       - IND
       - OAS
-  - R5LAM:
+  - Latin America (R5):
       - LAM
-  - R5MAF:
+  - Middle East & Africa (R5):
       - SSA
       - MEA
-  - R5OECD90+EU:
+  - OECD & EU (R5):
       - DEU
       - ECE
       - ENC
@@ -61,5 +61,5 @@ common_regions:
       - NEU
       - NEN
       - NES
-  - R5REF:
+  - Reforming Economies (R5):
       - REF
