@@ -59,6 +59,15 @@
     unit: GWh
     skip-region-aggregation: false
 
+- Reserve|Electricity|Frequency Containment|<Fuel>:
+    description: Frequency Containment Reserve available for <this fuel>
+     power plants; this amount is the maximum available for the grid operator considering
+     the commitment decisions taken by the model
+    unit:
+    - MWh
+    - GWh
+    skip-region-aggregation: true
+
 - Marginal Cost|CO2 Emissions|Electricity:
     description: Marginal Cost associated to the constraint in terms of CO2 emissions
       by the electricity power sector
