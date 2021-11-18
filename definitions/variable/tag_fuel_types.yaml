@@ -66,6 +66,15 @@
   - Coal|Hard coal|w/o CCS:
       description: anthracite and bituminous coal with freely vented CO2 emissions
 
+  - Energy Storage System:
+      description: Energy Storage System, excl. hydro storage
+  - Energy Storage System|Lithium-Ion:
+      description: Energy Storage System based on the lithium-ion batteries systems
+  - Energy Storage System|Redox Flow:
+      description: Energy Storage System based on the redox flow batteries systems
+  - Energy Storage System|Compressed Air:
+      description: Energy Storage System based on the compressed air energy storages systems
+
   - Gas:
       description: natural gas (including methane from biomass or hydrogenation)
   - Gas|w/ CCS:
