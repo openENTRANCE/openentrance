@@ -223,6 +223,7 @@
 - Emission Rate|CO2|Electricity|<Fuel>:
     description: CO2 emissions of a <Fuel> power plant.
     unit: tons/MWh
+    skip-region-aggregation: true
 - Emissions|CO2|Energy:
     description: CO2 emissions from energy use on supply and demand side (IPCC category
       1A, 1B)
@@ -581,3 +582,4 @@
 - Temperature|Global Mean:
     description: Change in global mean temperature relative to pre-industrial
     unit: °C
+    skip-region-aggregation: true

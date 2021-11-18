@@ -8,24 +8,30 @@
     description: Constant term (intercept) to compute operational cost for generating
       electricity from <Fuel>
     unit: Mcal/hour
+    skip-region-aggregation: true
 - Operational Cost|Linear Term|Electricity Generation|<Fuel>:
     description: Linear term (slope) to compute operational cost for generating electricity
       from <Fuel>
     unit: Mcal/MWh
+    skip-region-aggregation: true
 - Operation and Maintenance Cost|Electricity|<Fuel>:
     description: Operation and maintenance cost for generating electricity from <Fuel>
     unit: EUR/MWh
+    skip-region-aggregation: true
 - Shut-Down Cost|Electricity|<Fuel>:
     description: Shutdown cost for a typical power plant generating electricity from
       <Fuel>
     unit: EUR
+    skip-region-aggregation: true
 - Start-Up Cost|Electricity|<Fuel>:
     description: Startup cost for a typical power plant generating electricity from
       <Fuel>
     unit: EUR
+    skip-region-aggregation: true
 - Variable Cost|Electricity|<Fuel>:
     description: Variable cost for generating electricity from <Fuel>
     unit: EUR/MWh
+    skip-region-aggregation: true
 - Number of Units|Electricity|<Fuel>:
     description: Number of power plant units generating electricity from <Fuel>
     unit:
@@ -37,10 +43,12 @@
     description: Minimum duration that a typical power plant generating electricity
       from <Fuel> has to remain online after start-up
     unit: hour
+    skip-region-aggregation: true
 - Minimum Off Duration|Electricity|<Fuel>:
     description: Minimum duration that a typical power plant generating electricity
       from <Fuel> has to remain offline after shut-down
     unit: hour
+    skip-region-aggregation: true
 - Forced Outage Rate|Electricity|<Fuel>:
     description: Unavailability as a share relative to Maximum Active Power due to
       unexpected outages (e.g., failures) of a typical power plant generating electricity
@@ -50,6 +58,7 @@
       the level of minimum active power, the plant has to be shut down for the duration
       of the outage.
     unit: '%'
+    skip-region-aggregation: true
 - Planned Outage Rate|Electricity|<Fuel>:
     description: Unavailability as a share relative to Maximum Active Power due to
       planned outages (e.g., maintaince, revision) of a typical power plant generating
@@ -59,25 +68,30 @@
       the level of minimum active power, the plant has to be shut down for the duration
       of the outage.
     unit: '%'
+    skip-region-aggregation: true
 - Mean Outage Duration|Electricity|<Fuel>:
     description: Mean duration of an outage of a typical power plant generating electricity
       from <Fuel>
     unit:
     - day
     - hour
+    skip-region-aggregation: true
 - Inertia|Electricity|<Fuel>:
     description: Inertia provided to the system by a typical power plant generating
       electricity from <Fuel>
     unit: second
+    skip-region-aggregation: true
 - Frequency Containment Reserve|Electricity|<Fuel>:
     description: Share of Maximum Active Power that can be committed to Frequency
       Containment Reserve by a typical power plant generating electricity from <Fuel>
     unit: '%'
+    skip-region-aggregation: true
 - Automatic Frequency Restoration Reserve|Electricity|<Fuel>:
     description: Share of Maximum Active Power that can be committed to Automatic
       Frequency Restoration Reserve by a typical power plant generating electricity
       from <Fuel>
     unit: '%'
+    skip-region-aggregation: true
 - Operating Reserve|Up|Electricity|<Fuel>:
     description: Upwards operating reserve by a typical power plant generating electricity
       from <Fuel>
@@ -90,10 +104,12 @@
     description: Upward ramp limit by a typical power plant generating electricity
       from <Fuel>
     unit: MW/h
+    skip-region-aggregation: true
 - Maximum Ramping|Down|Electricity|<Fuel>:
     description: Downward ramp limit by a typical power plant generating electricity
       from <Fuel>
     unit: MW/h
+    skip-region-aggregation: true
 - Maximum Storage|Electricity|Hydro|Reservoir:
     description: Maximum volume of a reservoir expressed in energy
     unit:
@@ -107,9 +123,11 @@
 - Pumping Efficiency|Electricity|Hydro|Reservoir:
     description: Efficiency of pumping for a hydro reservoir power plant
     unit: '%'
+    skip-region-aggregation: true
 - Turbine Efficiency|Electricity|Hydro|Reservoir:
     description: Efficiency of turbining for a hydro reservoir power plant
     unit: '%'
+    skip-region-aggregation: true
 - Inflows|Electricity|Hydro|Reservoir:
     description: Inflows into a reservoir expressed in energy
     unit:
@@ -146,21 +164,27 @@
 - Pumping Efficiency|Electricity|Hydro|Pumped Storage:
     description: Efficiency of pumping for a pumped-storage hydro unit
     unit: '%'
+    skip-region-aggregation: true
 - Turbine Efficiency|Electricity|Hydro|Pumped Storage:
     description: Efficiency of turbining for a pumped-storage hydro unit
     unit: '%'
+    skip-region-aggregation: true
 - Load Factor|Electricity|Hydro|Run of River:
     description: Load factors for run-of-river power plants
     unit: '%'
+    skip-region-aggregation: true
 - Load Factor|Electricity|Solar:
     description: Load factors for solar power plants
     unit: '%'
+    skip-region-aggregation: true
 - Load Factor|Electricity|Wind|Offshore:
     description: Load factors for offshore wind power plants
     unit: '%'
+    skip-region-aggregation: true
 - Load Factor|Electricity|Wind|Onshore:
     description: Load factors for onshore wind power plants
     unit: '%'
+    skip-region-aggregation: true
 - Maximum Energy Charge|Electricity|Energy Storage System:
     description: This is the upper bound that energy storage system could charge energy
       at time "t".
