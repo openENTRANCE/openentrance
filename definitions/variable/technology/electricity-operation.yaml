@@ -95,63 +95,82 @@
 - Operation Cost|Electricity|Biomass:
     description: Operation Cost of Biomass power plants
     unit: EUR_2020
+    skip-region-aggregation: true
 - Operation Cost|Electricity|Biomass|Traditionnal:
     description: Operation Cost of  Traditionnal Biomass power plants biomass from
       local and pre-existing resources mostly waste :domestic and agricultural waste,
       forest residues.
     unit: EUR_2020
+    skip-region-aggregation: true
 - Operation Cost|Electricity|Biomass|New and imported:
     description: Operation Cost of New+Imported biomass power plants biomass from
       dedicated energy crops and biomass imports.
     unit: EUR_2020
+    skip-region-aggregation: true
 - Operation Cost|Electricity|Nuclear:
     description: Operation Cost of nuclear power plants
     unit: EUR_2020
+    skip-region-aggregation: true
 - Operation Cost|Electricity|Geothermal:
     description: Operation Cost of Geothermal power plants
     unit: EUR_2020
+    skip-region-aggregation: true
 - Operation Cost|Electricity|Gas:
     description: Operation Cost of Gas power plants
     unit: EUR_2020
+    skip-region-aggregation: true
 - Operation Cost|Electricity|Gas|OCGT:
     description: Operation Cost of Open Cycle Gas Turbine power plants
     unit: EUR_2020
+    skip-region-aggregation: true
 - Operation Cost|Electricity|Gas|CCGT:
     description: Operation Cost of Combined Cycle Gas Turbine power plants
     unit: EUR_2020
+    skip-region-aggregation: true
 - Operation Cost|Electricity|Coal:
     description: Operation Cost of coal power plants
     unit: EUR_2020
+    skip-region-aggregation: true
 - Operation Cost|Electricity|Lignite:
     description: Operation Cost of Lignite power plants
     unit: EUR_2020
+    skip-region-aggregation: true
 - Operation Cost|Electricity|Oil:
     description: Operation Cost of Oil power plants
     unit: EUR_2020
+    skip-region-aggregation: true
 - Operation Cost|Electricity|Hydro|Reservoir:
     description: Operation Cost of "simple Hydro reservoir " units
     unit: EUR_2020
+    skip-region-aggregation: true
 - Operation Cost|Electricity|Hydro|Pumped Storage:
     description: Operation Cost of "Pumped Storage " units
     unit: EUR_2020
+    skip-region-aggregation: true
 - Operation Cost|Electricity|Hydro|Run of River:
     description: Operation Cost of "Run of River" units
     unit: EUR_2020
+    skip-region-aggregation: true
 - Operation Cost|Electricity|Hydro|Ocean:
     description: Operation Cost of Ocean Power plants
     unit: EUR_2020
+    skip-region-aggregation: true
 - Operation Cost|Electricity|Solar:
     description: Operation Cost of Photovoltaic power plants
     unit: EUR_2020
+    skip-region-aggregation: true
 - Operation Cost|Electricity|Wind|OnShore:
     description: Operation Cost of  Wind Onshore power plants
     unit: EUR_2020
+    skip-region-aggregation: true
 - Operation Cost|Electricity|Wind|OffShore:
     description: Operation Cost of  Wind OffShore power plants
     unit: EUR_2020
+    skip-region-aggregation: true
 - Operation Cost|Electricity|Electricity Storage:
     description: Operation Cost of energy storage systems, excl. hydro storage
     unit: EUR_2020
+    skip-region-aggregation: true
 - Reserve|Electricity|Automatic Frequency Restoration|Biomass:
     description: Automatic Frequency Restoration Reserve available for Traditionnal
       Biomass power plants; this amount is the maximum available for the grid operator
@@ -351,21 +370,28 @@
     description: Marginal Cost associated to the constraint in terms of CO2 emissions
       by the electricity power sector
     unit: EUR_2020/MWh
+    skip-region-aggregation: true
 - Marginal Cost|Final Energy|Electricity:
     description: Marginal Cost associated to the electricity demand constraint
     unit: EUR_2020/MWh
+    skip-region-aggregation: true
 - Marginal Cost|Maximum Flow|Electricity|Transmission:
     description: Marginal Cost associated to the maximum flow constraint in a line
     unit: EUR_2020/MWh
+    skip-region-aggregation: true
 - Marginal Cost|Minimum Flow|Electricity|Transmission:
     description: Marginal Cost associated to the minimum flow constraint in a line
     unit: EUR_2020/MWh
+    skip-region-aggregation: true
 - Marginal Cost|Network|Electricity|Demand|Inertia:
     description: Marginal Cost associated to the inertia requirement
     unit: EUR_2020/MWh
+    skip-region-aggregation: true
 - Marginal Cost|Network|Electricity|Demand|Reserve|Automatic Frequency Restoration:
     description: Marginal Cost associated to the Automatic Frequency Restoration requirement
     unit: EUR_2020/MWh
+    skip-region-aggregation: true
 - Marginal Cost|Network|Electricity|Demand|Reserve|Frequency Containment:
     description: Marginal Cost associated to the Frequency Containment requirement
     unit: EUR_2020/MWh
+    skip-region-aggregation: true
