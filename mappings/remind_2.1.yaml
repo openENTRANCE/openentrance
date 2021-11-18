@@ -27,15 +27,15 @@ native_regions:
   - World
 common_regions:
   - EU27 & UK:
-     - DEU
-     - ECE
-     - ENC
-     - ECS
-     - ESC
-     - ESW
-     - EWN
-     - FRA
-     - UKI
+      - DEU
+      - ECE
+      - ENC
+      - ECS
+      - ESC
+      - ESW
+      - EWN
+      - FRA
+      - UKI
   - Asia (R5):
       - CHA
       - IND
