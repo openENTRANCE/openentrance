@@ -9,7 +9,6 @@ native_regions:
   - ESC: REMIND 2.1|ESC
   - ESW: REMIND 2.1|ESW
   - EU27: REMIND 2.1|EU27
-  - EUR: REMIND 2.1|EUR
   - EWN: REMIND 2.1|EWN
   - FRA: REMIND 2.1|FRA
   - IND: REMIND 2.1|IND
@@ -18,7 +17,6 @@ native_regions:
   - MEA: REMIND 2.1|MEA
   - NEN: REMIND 2.1|NEN
   - NES: REMIND 2.1|NES
-  - NEU: REMIND 2.1|NEU
   - OAS: REMIND 2.1|OAS
   - REF: REMIND 2.1|REF
   - SSA: REMIND 2.1|SSA
