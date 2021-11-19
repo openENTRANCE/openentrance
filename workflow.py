@@ -26,7 +26,10 @@ def main(df: pyam.IamDataFrame) -> pyam.IamDataFrame:
 
     # check variables, then perform region-processing, then check regions
     definition.validate(df, dimensions=["variable"])
-    RegionProcessor.from_directory(path=here / "mappings", definition=definition)
+    processor = RegionProcessor.from_directory(
+        path=here / "mappings", definition=definition
+    )
+    df = processor.apply(df)
     definition.validate(df, dimensions=["region"])
 
     # convert to subannual format if data provided in datetime format
