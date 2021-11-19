@@ -22,18 +22,9 @@ native_regions:
   - SSA: REMIND 2.1|SSA
   - UKI: REMIND 2.1|UKI
   - USA: REMIND 2.1|USA
+  - EUR: EU27 & UK
   - World
 common_regions:
-  - EU27 & UK:
-      - DEU
-      - ECE
-      - ENC
-      - ECS
-      - ESC
-      - ESW
-      - EWN
-      - FRA
-      - UKI
   - Asia (R5):
       - CHA
       - IND
