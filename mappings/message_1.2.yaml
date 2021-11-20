@@ -12,7 +12,7 @@ native_regions:
   - R11_SAS: MESSAGEix-GLOBIOM 1.2|SAS
   - R11_WEU: MESSAGEix-GLOBIOM 1.2|WEU
 common_regions:
-  - EU27 & UK:
+  - Europe (incl. Turkey):
     - R11_EEU
     - R11_WEU
   - Asia (R5):
