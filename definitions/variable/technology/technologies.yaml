@@ -1,0 +1,351 @@
+- Capacity|Electricity:
+    description: Total installed electricity generation capacity
+    unit: GW
+- Capacity|Electricity|<Fuel>:
+    description: Total installed electricity generation capacity from <Fuel>
+    unit: GW
+- Capacity|Heat|Residential and Commercial:
+    description: Total installed heat generation capacity for the residential and
+      commercial sectors
+    unit: GW
+- Capacity|Heat|Residential and Commercial|<Fuel>:
+    description: Total installed heat generation capacity for the residential and
+      commercial sectors from <Fuel>
+    unit: GW
+- Capacity|Heat|Industrial:
+    description: Total installed heat generation capacity for the industrial sector
+    unit: GW
+- Capacity|Heat|Industrial|<Fuel>:
+    description: Total installed heat generation capacity for the industrial sector
+      from <Fuel>
+    unit: GW
+- Capital Cost|Electricity|<Fuel>:
+    description: Capital cost for <Fuel>
+    unit: USD_2010/kW
+    skip-region-aggregation: true
+- Capital Cost|Heat|Residential and Commercial|<Fuel>:
+    description: Capital cost for <Fuel>
+    unit: USD_2010/kW
+    skip-region-aggregation: true
+- Capital Cost|Heat|Industrial|<Fuel>:
+    description: Capital cost for <Fuel>
+    unit: USD_2010/kW
+    skip-region-aggregation: true
+- Capital Cost|Transportation|Freight|<Transport>:
+    description: Capital cost for freight <Transport>
+    unit: USD_2010/tkm
+    skip-region-aggregation: true
+- Capital Cost|Transportation|Passenger|<Transport>:
+    description: Capital cost for passenger <Transport>
+    unit: USD_2010/pkm
+    skip-region-aggregation: true
+- Fixed Cost|Electricity|<Fuel>:
+    description: Fixed O&M cost for <Fuel>
+    unit: USD_2010/kW/yr
+    skip-region-aggregation: true
+- Fixed Cost|Heat|Residential and Commercial|<Fuel>:
+    description: Fixed O&M for <Fuel>
+    unit: USD_2010/kW/yr
+    skip-region-aggregation: true
+- Fixed Cost|Heat|Industrial|<Fuel>:
+    description: Fixed O&M for <Fuel>
+    unit: USD_2010/kW/yr
+    skip-region-aggregation: true
+- Fixed Cost|Transportation|Freight|<Transport>:
+    description: Capital cost for freight <Transport>
+    unit: USD_2010/tkm/yr
+    skip-region-aggregation: true
+- Fixed Cost|Transportation|Passenger|<Transport>:
+    description: Capital cost for passenger <Transport>
+    unit: USD_2010/pkm/yr
+    skip-region-aggregation: true
+- Variable Cost|Heat|Residential and Commercial|<Fuel>:
+    description: Capital cost for <Fuel>
+    unit: USD_2010/MWh
+    skip-region-aggregation: true
+- Variable Cost|Heat|Industrial|<Fuel>:
+    description: Capital cost for <Fuel>
+    unit: USD_2010/MWh
+    skip-region-aggregation: true
+- Investment|Energy Efficiency:
+    description: Investments into the efficiency-increasing components of energy demand
+      technologies
+    unit: billion USD_2010/yr
+- Investment|Energy Supply:
+    description: Investments into the energy supply system
+    unit: billion USD_2010/yr
+- Investment|Energy Supply|CO2 Transport and Storage:
+    description: Investment in CO2 transport and storage (note that investment in
+      the capturing equipment should be included along with the power plant technology)
+    unit: billion USD_2010/yr
+- Investment|Energy Supply|Electricity:
+    description: Investments into electricity generation and supply (including electricity
+      storage and transmission & distribution)
+    unit: billion USD_2010/yr
+- Investment|Energy Supply|Electricity|Biomass:
+    description: Investments in new power generation for the specified power plant
+      category. If the model features several sub-categories, the total investments
+      should be reported. For plants equipped with CCS, the investment in the capturing
+      equipment should be included but not the one on transport and storage.
+    unit: billion USD_2010/yr
+- Investment|Energy Supply|Electricity|Biomass|w/ CCS:
+    description: Investments in new power generation for the specified power plant
+      category. If the model features several sub-categories, the total investments
+      should be reported. For plants equipped with CCS, the investment in the capturing
+      equipment should be included but not the one on transport and storage.
+    unit: billion USD_2010/yr
+- Investment|Energy Supply|Electricity|Biomass|w/o CCS:
+    description: Investments in new power generation for the specified power plant
+      category. If the model features several sub-categories, the total investments
+      should be reported. For plants equipped with CCS, the investment in the capturing
+      equipment should be included but not the one on transport and storage.
+    unit: billion USD_2010/yr
+- Investment|Energy Supply|Electricity|Coal:
+    description: Investments in new power generation for the specified power plant
+      category. If the model features several sub-categories, the total investments
+      should be reported. For plants equipped with CCS, the investment in the capturing
+      equipment should be included but not the one on transport and storage.
+    unit: billion USD_2010/yr
+- Investment|Energy Supply|Electricity|Coal|w/ CCS:
+    description: Investments in new power generation for the specified power plant
+      category. If the model features several sub-categories, the total investments
+      should be reported. For plants equipped with CCS, the investment in the capturing
+      equipment should be included but not the one on transport and storage.
+    unit: billion USD_2010/yr
+- Investment|Energy Supply|Electricity|Coal|w/o CCS:
+    description: Investments in new power generation for the specified power plant
+      category. If the model features several sub-categories, the total investments
+      should be reported. For plants equipped with CCS, the investment in the capturing
+      equipment should be included but not the one on transport and storage.
+    unit: billion USD_2010/yr
+- Investment|Energy Supply|Electricity|Electricity Storage:
+    description: Investments in electricity storage technologies (e.g., batteries,
+      compressed air storage reservoirs, etc.)
+    unit: billion USD_2010/yr
+- Investment|Energy Supply|Electricity|Fossil:
+    description: Investments in new power generation for the specified power plant
+      category. If the model features several sub-categories, the total investments
+      should be reported. For plants equipped with CCS, the investment in the capturing
+      equipment should be included but not the one on transport and storage.
+    unit: billion USD_2010/yr
+- Investment|Energy Supply|Electricity|Gas:
+    description: Investments in new power generation for the specified power plant
+      category. If the model features several sub-categories, the total investments
+      should be reported. For plants equipped with CCS, the investment in the capturing
+      equipment should be included but not the one on transport and storage.
+    unit: billion USD_2010/yr
+- Investment|Energy Supply|Electricity|Gas|w/ CCS:
+    description: Investments in new power generation for the specified power plant
+      category. If the model features several sub-categories, the total investments
+      should be reported. For plants equipped with CCS, the investment in the capturing
+      equipment should be included but not the one on transport and storage.
+    unit: billion USD_2010/yr
+- Investment|Energy Supply|Electricity|Gas|w/o CCS:
+    description: Investments in new power generation for the specified power plant
+      category. If the model features several sub-categories, the total investments
+      should be reported. For plants equipped with CCS, the investment in the capturing
+      equipment should be included but not the one on transport and storage.
+    unit: billion USD_2010/yr
+- Investment|Energy Supply|Electricity|Geothermal:
+    description: Investments in new power generation for the specified power plant
+      category. If the model features several sub-categories, the total investments
+      should be reported. For plants equipped with CCS, the investment in the capturing
+      equipment should be included but not the one on transport and storage.
+    unit: billion USD_2010/yr
+- Investment|Energy Supply|Electricity|Hydro:
+    description: Investments in new power generation for the specified power plant
+      category. If the model features several sub-categories, the total investments
+      should be reported. For plants equipped with CCS, the investment in the capturing
+      equipment should be included but not the one on transport and storage.
+    unit: billion USD_2010/yr
+- Investment|Energy Supply|Electricity|Non-Biomass Renewables:
+    description: Investments in new power generation for the specified power plant
+      category. If the model features several sub-categories, the total investments
+      should be reported. For plants equipped with CCS, the investment in the capturing
+      equipment should be included but not the one on transport and storage.
+    unit: billion USD_2010/yr
+- Investment|Energy Supply|Electricity|Non-fossil:
+    description: Investments in new power generation for the specified power plant
+      category. If the model features several sub-categories, the total investments
+      should be reported. For plants equipped with CCS, the investment in the capturing
+      equipment should be included but not the one on transport and storage.
+    unit: billion USD_2010/yr
+- Investment|Energy Supply|Electricity|Nuclear:
+    description: Investments in new power generation for the specified power plant
+      category. If the model features several sub-categories, the total investments
+      should be reported. For plants equipped with CCS, the investment in the capturing
+      equipment should be included but not the one on transport and storage.
+    unit: billion USD_2010/yr
+- Investment|Energy Supply|Electricity|Ocean:
+    description: Investments in new power generation for the specified power plant
+      category. If the model features several sub-categories, the total investments
+      should be reported. For plants equipped with CCS, the investment in the capturing
+      equipment should be included but not the one on transport and storage.
+    unit: billion USD_2010/yr
+- Investment|Energy Supply|Electricity|Oil:
+    description: Investments in new power generation for the specified power plant
+      category. If the model features several sub-categories, the total investments
+      should be reported. For plants equipped with CCS, the investment in the capturing
+      equipment should be included but not the one on transport and storage.
+    unit: billion USD_2010/yr
+- Investment|Energy Supply|Electricity|Oil|w/ CCS:
+    description: Investments in new power generation for the specified power plant
+      category. If the model features several sub-categories, the total investments
+      should be reported. For plants equipped with CCS, the investment in the capturing
+      equipment should be included but not the one on transport and storage.
+    unit: billion USD_2010/yr
+- Investment|Energy Supply|Electricity|Oil|w/o CCS:
+    description: Investments in new power generation for the specified power plant
+      category. If the model features several sub-categories, the total investments
+      should be reported. For plants equipped with CCS, the investment in the capturing
+      equipment should be included but not the one on transport and storage.
+    unit: billion USD_2010/yr
+- Investment|Energy Supply|Electricity|Other:
+    description: Investments in new power generation for the specified power plant
+      category. If the model features several sub-categories, the total investments
+      should be reported. For plants equipped with CCS, the investment in the capturing
+      equipment should be included but not the one on transport and storage.
+    unit: billion USD_2010/yr
+- Investment|Energy Supply|Electricity|Solar:
+    description: Investments in new power generation for the specified power plant
+      category. If the model features several sub-categories, the total investments
+      should be reported. For plants equipped with CCS, the investment in the capturing
+      equipment should be included but not the one on transport and storage.
+    unit: billion USD_2010/yr
+- Investment|Energy Supply|Electricity|Transmission and Distribution:
+    description: Investments in transmission and distribution of power generation
+    unit: billion USD_2010/yr
+- Investment|Energy Supply|Electricity|Wind:
+    description: Investments in new power generation for the specified power plant
+      category. If the model features several sub-categories, the total investments
+      should be reported. For plants equipped with CCS, the investment in the capturing
+      equipment should be included but not the one on transport and storage.
+    unit: billion USD_2010/yr
+- Investment|Energy Supply|Extraction|Coal:
+    description: Investments for extraction and conversion of coal. These should include
+      mining, shipping and ports
+    unit: billion USD_2010/yr
+- Investment|Energy Supply|Extraction|Fossil:
+    description: Investments for all types of fossil extraction
+    unit: billion USD_2010/yr
+- Investment|Energy Supply|Extraction|Gas:
+    description: Investments for extraction and conversion of natural gas. These should
+      include upstream, LNG chain and transmission and distribution
+    unit: billion USD_2010/yr
+- Investment|Energy Supply|Extraction|Oil:
+    description: Investments for extraction and conversion of oil. These should include
+      upstream, transport and refining
+    unit: billion USD_2010/yr
+- Investment|Energy Supply|Heat:
+    description: Investments in heat generation facilities
+    unit: billion USD_2010/yr
+- Investment|Energy Supply|Hydrogen:
+    description: Investments for the production of hydrogen
+    unit: billion USD_2010/yr
+- Investment|Energy Supply|Hydrogen|Fossil:
+    description: Investments for the production of hydrogen from fossil fuels. For
+      plants equipped with CCS, the investment in the capturing equipment should be
+      included but not the one on transport and storage.
+    unit: billion USD_2010/yr
+- Investment|Energy Supply|Hydrogen|Other:
+    description: Investments for the production of hydrogen from biomass. For plants
+      equipped with CCS, the investment in the capturing equipment should be included
+      but not the one on transport and storage.
+    unit: billion USD_2010/yr
+- Investment|Energy Supply|Liquids:
+    description: Investments for the production of liquid fuels. For plants equipped
+      with CCS, the investment in the capturing equipment should be included but not
+      the one on transport and storage.
+    unit: billion USD_2010/yr
+- Investment|Energy Supply|Liquids|Biomass:
+    description: Investments for the production of biofuels. These should not include
+      the costs of the feedstock. For plants equipped with CCS, the investment in
+      the capturing equipment should be included but not the one on transport and
+      storage.
+    unit: billion USD_2010/yr
+- Investment|Energy Supply|Liquids|Coal and Gas:
+    description: Investments for the production of fossil-based synfuels (coal and
+      gas). For plants equipped with CCS, the investment in the capturing equipment
+      should be included but not the one on transport and storage.
+    unit: billion USD_2010/yr
+- Investment|Energy Supply|Liquids|Oil:
+    description: Investments for the production of fossil fuels from oil refineries
+      For plants equipped with CCS, the investment in the capturing equipment should
+      be included but not the one on transport and storage.
+    unit: billion USD_2010/yr
+- Demand Response|Maximum Reduction|Load Shifting|Electricity|Residential|Refrigeration:
+    description: Maximum load reduction due to changing household freezer/refrigerator
+      usage.
+    unit: MW
+- Demand Response|Maximum Reduction|Load Shifting|Electricity|Residential|Washing Machine:
+    description: Maximum load reduction due to changing household washing machine
+      usage.
+    unit: MW
+- Demand Response|Maximum Reduction|Load Shifting|Electricity|Residential|Dryer:
+    description: Maximum load reduction due to changing household tumble dryer usage.
+    unit: MW
+- Demand Response|Maximum Reduction|Load Shifting|Electricity|Residential|Dish Washer:
+    description: Maximum load reduction due to changing household dish washer usage.
+    unit: MW
+- Demand Response|Maximum Reduction|Load Shifting|Electricity|Residential|Air Conditioning:
+    description: Maximum load reduction due to changing household air conditioning
+      usage.
+    unit: MW
+- Demand Response|Maximum Reduction|Load Shifting|Electricity|Residential|Water Heater:
+    description: Maximum load reduction due to changing household water storage heater
+      usage.
+    unit: MW
+- Demand Response|Maximum Reduction|Load Shifting|Electricity|Residential|Space Heater:
+    description: Maximum load reduction due to changing household space heater usage.
+    unit: MW
+- Demand Response|Maximum Reduction|Load Shifting|Electricity|Residential|Heat Pump:
+    description: Maximum load reduction due to changing household heat circulation
+      pump usage.
+    unit: MW
+- Demand Response|Maximum Reduction|Load Shifting|Electricity|Residential|Electric Vehicle:
+    description: Maximum load reduction due to changing household electric vehicle
+      charging and usage.
+    unit: MW
+- Demand Response|Maximum Reduction|Load Shifting|Electricity|Residential|Cooking:
+    description: Maximum load reduction due to changing household electric stove,
+      oven and microwave usage.
+    unit: MW
+- Demand Response|Maximum Dispatch|Load Shifting|Electricity|Residential|Refrigeration:
+    description: Maximum dispatchable load due to changing household freezer/refrigerator
+      usage.
+    unit: MW
+- Demand Response|Maximum Dispatch|Load Shifting|Electricity|Residential|Washing Machine:
+    description: Maximum dispatchable load due to changing household washing machine
+      usage.
+    unit: MW
+- Demand Response|Maximum Dispatch|Load Shifting|Electricity|Residential|Dryer:
+    description: Maximum dispatchable load due to changing household tumble dryer
+      usage.
+    unit: MW
+- Demand Response|Maximum Dispatch|Load Shifting|Electricity|Residential|Dish Washer:
+    description: Maximum dispatchable load due to changing household dish washer usage.
+    unit: MW
+- Demand Response|Maximum Dispatch|Load Shifting|Electricity|Residential|Air Conditioning:
+    description: Maximum dispatchable load due to changing household air conditioning
+      usage.
+    unit: MW
+- Demand Response|Maximum Dispatch|Load Shifting|Electricity|Residential|Water Heater:
+    description: Maximum dispatchable load due to changing household water storage
+      heater usage.
+    unit: MW
+- Demand Response|Maximum Dispatch|Load Shifting|Electricity|Residential|Space Heater:
+    description: Maximum dispatchable load due to changing household space heater
+      usage.
+    unit: MW
+- Demand Response|Maximum Dispatch|Load Shifting|Electricity|Residential|Heat Pump:
+    description: Maximum dispatchable load due to changing household heat circulation
+      pump usage.
+    unit: MW
+- Demand Response|Maximum Dispatch|Load Shifting|Electricity|Residential|Electric Vehicle:
+    description: Maximum dispatchable load due to changing household electric vehicle
+      charging and usage.
+    unit: MW
+- Demand Response|Maximum Dispatch|Load Shifting|Electricity|Residential|Cooking:
+    description: Maximum dispatchable load due to changing household electric stove,
+      oven and microwave usage.
+    unit: MW
