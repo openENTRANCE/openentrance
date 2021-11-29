@@ -1,11 +1,4 @@
 model: MEESA v1.1
-
-  - USA: REMIND 2.1|USA
-  - EUR: EU27 & UK
-  - World
-common_regions:
-  - Asia (R5):
-      - CHA
 native_regions:
   - AUT: MEESA v1.1|AUT
   - BEL: MEESA v1.1|BEL
