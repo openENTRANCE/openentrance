@@ -1,7 +1,7 @@
 from pathlib import Path
 import logging
 import pyam
-from nomenclature import DataStructureDefinition
+from nomenclature import DataStructureDefinition, RegionProcessor
 
 here = Path(__file__).absolute().parent
 logger = logging.getLogger(__name__)
@@ -24,7 +24,13 @@ def main(df: pyam.IamDataFrame) -> pyam.IamDataFrame:
 
     definition = DataStructureDefinition(here / "definitions", dimensions=dimensions)
 
-    definition.validate(df, dimensions=["region", "variable"])
+    # check variables, then perform region-processing, then check regions
+    definition.validate(df, dimensions=["variable"])
+    processor = RegionProcessor.from_directory(
+        path=here / "mappings", definition=definition
+    )
+    df = processor.apply(df)
+    definition.validate(df, dimensions=["region"])
 
     # convert to subannual format if data provided in datetime format
     if df.time_col == "time":

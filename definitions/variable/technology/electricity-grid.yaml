@@ -38,6 +38,7 @@
 - Network|Electricity|Loss Factor:
     description: Transmission losses equal to the line flow times this factor
     unit:
+    skip-region-aggregation: true
 - Reserve|Electricity|Requirement|Manual Frequency Restoration:
     description: Manual frequency restoration reserve (mFRR) is used to relieve the
       automatic frequency restoration reserve during prolonged imbalances.
@@ -60,6 +61,7 @@
     description: Reactance. Lines need to have a reactance different from 0 in the
       case of a DC cable or a transportation modeling for an AC cable
     unit:
+    skip-region-aggregation: true
 - Reserve|Electricity|Replacement:
     description: Replacement reserve (RR) means the active power reserves available
       to restore or support the required level of frequency restoration reserve (FRR)
@@ -69,6 +71,8 @@
     description: Security factor to consider approximately N-1 contingencies. NTC
       = TTC x SecurityFactor
     unit:
+    skip-region-aggregation: true
 - Network|Electricity|Voltage Angle:
     description: Voltage angle at a node
     unit: Rad
+    skip-region-aggregation: true
