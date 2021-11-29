@@ -1,0 +1,67 @@
+model: MEESA v1.1
+
+  - USA: REMIND 2.1|USA
+  - EUR: EU27 & UK
+  - World
+common_regions:
+  - Asia (R5):
+      - CHA
+native_regions:
+  - AUT: MEESA v1.1|AUT
+  - BEL: MEESA v1.1|BEL
+  - BGR: MEESA v1.1|BGR
+  - CHE: MEESA v1.1|CHE
+  - CZE: MEESA v1.1|CZE
+  - DEU: MEESA v1.1|DEU
+  - DNK: MEESA v1.1|DNK
+  - EST: MEESA v1.1|EST
+  - ESP: MEESA v1.1|ESP
+  - FIN: MEESA v1.1|FIN
+  - FRA: MEESA v1.1|FRA
+  - GRC: MEESA v1.1|GRC
+  - HRV: MEESA v1.1|HRV
+  - HUN: MEESA v1.1|HUN
+  - IRL: MEESA v1.1|IRL
+  - ITA: MEESA v1.1|ITA
+  - LTU: MEESA v1.1|LTU
+  - LVA: MEESA v1.1|LVA
+  - NLD: MEESA v1.1|NLD
+  - NOR: MEESA v1.1|NOR
+  - POL: MEESA v1.1|POL
+  - PRT: MEESA v1.1|PRT
+  - ROM: MEESA v1.1|ROM
+  - SWE: MEESA v1.1|SWE
+  - SVN: MEESA v1.1|SVN
+  - SVK: MEESA v1.1|SVK
+  - GBR: MEESA v1.1|GBR
+common_regions:
+  - EU27:
+      - AUT
+      - BEL
+      - BGR
+      - CHE
+      - CZE
+      - DEU
+      - DNK
+      - EST
+      - ESP
+      - FIN
+      - FRA
+      - GRC
+      - HRV
+      - HUN
+      - IRL
+      - ITA
+      - LTU
+      - LVA
+      - NLD
+      - NOR
+      - POL
+      - PRT
+      - ROM
+      - SWE
+      - SVN
+      - SVK
+  - EU27 & UK:
+      - EU27
+      - GBR
