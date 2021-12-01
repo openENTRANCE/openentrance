@@ -149,6 +149,11 @@
     description: Efficiency of pumping for a pumped-storage hydro unit
     unit: '%'
     skip-region-aggregation: true
+- Inflows|Electricity|Hydro|Pumped Storage:
+    description: Inflows into a reservoir expressed in energy
+    unit:
+    - MWh
+    - GWh
 - Turbine Efficiency|Electricity|Hydro|Pumped Storage:
     description: Efficiency of turbining for a pumped-storage hydro unit
     unit: '%'
