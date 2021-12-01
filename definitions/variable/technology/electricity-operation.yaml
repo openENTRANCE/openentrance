@@ -57,7 +57,7 @@
     - GWh
 
 - Operation Cost|Electricity|<Fuel>:
-    description: Operation Cost of <this fuel> power plants
+    description: Operation Cost of <Fuel> power plants
     unit: EUR_2020
     skip-region-aggregation: true
 
