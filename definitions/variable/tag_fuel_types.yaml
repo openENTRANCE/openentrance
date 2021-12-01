@@ -74,9 +74,6 @@
   - Coal|Hard coal|w/o CCS:
       description: anthracite and bituminous coal with freely vented CO2 emissions
 
-  - Energy Storage System:
-      description: Energy Storage System, excl. hydro storage
-
   - Gas:
       description: natural gas (including methane from biomass or hydrogenation)
   - Gas|w/ CCS:
