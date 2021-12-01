@@ -64,7 +64,6 @@
      power plants; this amount is the maximum available for the grid operator considering
      the commitment decisions taken by the model
     unit:
-    - MWh
     - GWh
     skip-region-aggregation: true
 
