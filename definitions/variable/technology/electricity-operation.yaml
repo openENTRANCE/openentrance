@@ -15,54 +15,45 @@
 - Active Power|Electricity|<Fuel>:
     description: Active power of <this fuel> power plants
     unit:
-    - MWh
     - GWh
 
 - Active Power|Electricity|Load Curtailment:
     description: Energy curtailed - from the system point of view is equivalent to
       generation of Active Power
     unit:
-    - MWh
     - GWh
 
 - Active Power|Electricity|Load Shifting:
     description: Energy shifted - from the system point of view is equivalent to generation
       of Active Power
     unit:
-    - MWh
     - GWh
 
 - Active Power|Electricity|Electricity Storage:
     description: Active Power of energy storage systems, excl. hydro storage
     unit:
-    - MWh
     - GWh
 
 - Energy Consumption|Electricity|Energy Storage System:
     description: Energy consumption from the power grid to be stored into the ESS.
     unit:
-    - MWh
     - GWh
 
 - Storage|Electricity|Hydro|Reservoir:
     description: Available storage of "simple Hydro reservoir " units
     unit:
-    - MWh
     - GWh
 - Storage|Electricity|Hydro|Pumped Storage:
     description: Available storage of "Pumped Storage " units
     unit:
-    - MWh
     - GWh
 - Storage|Electricity|Energy Storage System:
     description: Available storage of energy storage systems, excl. hydro storage
     unit:
-    - MWh
     - GWh
 - Storage|Electricity|Load Curtailment:
     description: remaining amount of curtailement
     unit:
-    - MWh
     - GWh
 
 - Operation Cost|Electricity|<Fuel>:
@@ -75,7 +66,6 @@
      power plants; this amount is the maximum available for the grid operator considering
      the commitment decisions taken by the model
     unit:
-    - MWh
     - GWh
     skip-region-aggregation: true
 
@@ -84,7 +74,6 @@
      power plants; this amount is the maximum available for the grid operator considering
      the commitment decisions taken by the model
     unit:
-    - MWh
     - GWh
     skip-region-aggregation: true
 
