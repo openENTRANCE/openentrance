@@ -42,7 +42,7 @@
         
 - Carbon Removal|Land Use:
     description: total carbon dioxide sequestered through land-based sinks (e.g., 
-    afforestation, soil carbon enhancement, biochar)
+      afforestation, soil carbon enhancement, biochar)
     unit: Mt CO2/yr
 
 - Carbon Sequestration|CCS:

@@ -497,7 +497,7 @@
       energy.
     sector: all
     unit:
-	
+
 - Final Energy|Other:
     description: Final energy consumption of other energy sources that do not fit to any
       other category
