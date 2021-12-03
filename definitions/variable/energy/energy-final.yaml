@@ -189,15 +189,39 @@
     energy use: none
     sector: all
     unit: EJ/yr
-- Final Energy|Non-Energy Use|Gas:
-    description: Final energy consumption of gas by the non-combustion processes
+- Final Energy|Non-Energy Use|Gases:
+    description: Final energy consumption of gases by the non-combustion processes
     energy source: gases
+    energy use: none
+    sector: all
+    unit: EJ/yr
+- Final Energy|Non-Energy Use|Hydrogen:
+    description: Final energy consumption of hydrogen by the non-combustion processes
+    energy source: hydrogen
+    energy use: none
+    sector: all
+    unit: EJ/yr
+- Final Energy|Non-Energy Use|Liquids:
+    description: Final energy consumption of liquids by the non-combustion processes
+    energy source: liquids
     energy use: none
     sector: all
     unit: EJ/yr
 - Final Energy|Non-Energy Use|Oil:
     description: Final energy consumption of oil by the non-combustion processes
     energy source: oil
+    energy use: none
+    sector: all
+    unit: EJ/yr
+- Final Energy|Non-Energy Use|Solids:
+    description: Final energy consumption of solids by the non-combustion processes
+    energy source: solids
+    energy use: none
+    sector: all
+    unit: EJ/yr
+- Final Energy|Non-Energy Use|Other:
+    description: Final energy consumption of other feedstocks by the non-combustion processes
+    energy source: other
     energy use: none
     sector: all
     unit: EJ/yr
@@ -360,6 +384,12 @@
     energy use: freight transportation
     sector: all
     unit: EJ/yr
+- Final Energy|Transportation|Passenger:
+    description: Final energy consumed for passenger transportation 
+    energy source: all
+    energy use: freight transportation
+    sector: all
+    unit: EJ/yr
 - Final Energy|Transportation|Freight:
     description: Final energy consumed for freight transportation
     energy source: all
@@ -467,3 +497,43 @@
       energy.
     sector: all
     unit:
+	
+- Final Energy|Other:
+    description: Final energy consumption of other energy sources that do not fit to any
+      other category
+    unit: EJ/yr
+
+- Final Energy|Transportation|Bunkers:
+    description: Final energy consumption by transportation bunkers, excluding 
+      transmission/distribution losses
+    energy source: all
+    energy use: transportation
+    sector: all
+    unit: EJ/yr
+- Final Energy|Transportation|Bunkers|Electricity:
+    description: Final energy consumption by transportation bunkers of electricity (including
+      on-site solar PV), excluding transmission/distribution losses
+    energy source: electricity
+    energy use: transportation
+    sector: all
+    unit: EJ/yr
+- Final Energy|Transportation|Bunkers|Gases:
+    description: Final energy consumption by transportation bunkers of gases (natural gas, 
+      biogas, coal-gas), excluding transmission/distribution losses
+    energy source: gases
+    energy use: transportation
+    sector: all
+    unit: EJ/yr
+- Final Energy|Transportation|Bunkers|Hydrogen:
+    description: Final energy consumption by transportation bunkers of hydrogen
+    energy source: hydrogen
+    energy use: transportation
+    sector: all
+    unit: EJ/yr
+- Final Energy|Transportation|Bunkers|Liquids:
+    description: Final energy consumption by transportation bunkers of refined liquids
+      (conventional & unconventional oil, biofuels, coal-to-liquids, gas-to-liquids)
+    energy source: liquids
+    energy use: transportation
+    sector: all
+    unit: EJ/yr
