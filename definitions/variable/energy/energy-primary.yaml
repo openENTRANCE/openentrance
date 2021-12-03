@@ -8,6 +8,16 @@
       and forestry residue bioenergy, municipal solid waste bioenergy, traditional
       biomass
     unit: EJ/yr
+- Primary Energy|Biomass|w/ CCS:
+    description: Primary energy consumption of purpose-grown bioenergy crops, crop
+      and forestry residue bioenergy, municipal solid waste bioenergy, traditional
+      biomass used in combination with ccs
+    unit: EJ/yr
+- Primary Energy|Biomass|w/o CCS:
+    description: Primary energy consumption of purpose-grown bioenergy crops, crop
+      and forestry residue bioenergy, municipal solid waste bioenergy, traditional
+      biomass without ccs
+    unit: EJ/yr
 - Primary Energy|Biomass|Electricity:
     description: Primary energy input to electricity generation of purpose-grown bioenergy
       crops, crop and forestry residue bioenergy, municipal solid waste bioenergy,
