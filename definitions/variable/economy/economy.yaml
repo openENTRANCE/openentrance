@@ -189,6 +189,102 @@
     unit: [EUR_2020/t CO2, USD_2010/t CO2]
     skip-region-aggregation: true
 
+- Price|Final Energy|Industry|Electricity:
+    description: Electricity price at the final level in the industrial sector. 
+    notes: Prices should include the effect of carbon prices and all other taxes.
+    unit: [EUR_2020/GJ, USD_2010/GJ, EUR_2020/kWh]
+    skip-region-aggregation: true
+
+- Price|Final Energy|Industry|Gases:
+    description: Price for gases at the final level in the industrial sector. 
+    notes: Prices should include the effect of carbon prices and all other taxes.
+    unit: [EUR_2020/GJ, USD_2010/GJ, EUR_2020/kWh]
+    skip-region-aggregation: true
+
+- Price|Final Energy|Industry|Heat:
+    description: Heat price at the final level in the industrial sector. 
+    notes: Prices should include the effect of carbon prices and all other taxes.
+    unit: [EUR_2020/GJ, USD_2010/GJ, EUR_2020/kWh]
+    skip-region-aggregation: true
+
+- Price|Final Energy|Industry|Hydrogen:
+    description: Hydrogen price at the final level in the industrial sector. 
+    notes: Prices should include the effect of carbon prices and all other taxes.
+    unit: [EUR_2020/GJ, USD_2010/GJ, EUR_2020/kWh]
+    skip-region-aggregation: true
+
+- Price|Final Energy|Industry|Liquids:
+    description: Liquids price at the final level in the industrial sector. 
+    notes: Prices should include the effect of carbon prices and all other taxes.
+    unit: [EUR_2020/GJ, USD_2010/GJ, EUR_2020/kWh]
+    skip-region-aggregation: true
+
+- Price|Final Energy|Industry|Solids:
+    description: Solids price at the final level in the industrial sector. 
+    notes: Prices should include the effect of carbon prices and all other taxes.
+    unit: [EUR_2020/GJ, USD_2010/GJ, EUR_2020/kWh]
+    skip-region-aggregation: true
+
+- Price|Final Energy|Residential and Commercial|Electricity:
+    description: Electricity price at the final level in the residential and commercial sectors. 
+    notes: Prices should include the effect of carbon prices and all other taxes.
+    unit: [EUR_2020/GJ, USD_2010/GJ, EUR_2020/kWh]
+    skip-region-aggregation: true
+
+- Price|Final Energy|Residential and Commercial|Gases:
+    description: Price for gases at the final level in the residential and commercial sectors. 
+    notes: Prices should include the effect of carbon prices and all other taxes.
+    unit: [EUR_2020/GJ, USD_2010/GJ, EUR_2020/kWh]
+    skip-region-aggregation: true
+
+- Price|Final Energy|Residential and Commercial|Heat:
+    description: Heat price at the final level in the residential and commercial sectors. 
+    notes: Prices should include the effect of carbon prices and all other taxes.
+    unit: [EUR_2020/GJ, USD_2010/GJ, EUR_2020/kWh]
+    skip-region-aggregation: true
+
+- Price|Final Energy|Residential and Commercial|Hydrogen:
+    description: Hydrogen price at the final level in the residential and commercial sectors. 
+    notes: Prices should include the effect of carbon prices and all other taxes.
+    unit: [EUR_2020/GJ, USD_2010/GJ, EUR_2020/kWh]
+    skip-region-aggregation: true
+
+- Price|Final Energy|Residential and Commercial|Liquids:
+    description: Liquids price at the final level in the residential and commercial sectors. 
+    notes: Prices should include the effect of carbon prices and all other taxes.
+    unit: [EUR_2020/GJ, USD_2010/GJ, EUR_2020/kWh]
+    skip-region-aggregation: true
+
+- Price|Final Energy|Residential and Commercial|Solids:
+    description: Solids price at the final level in the residential and commercial sectors. 
+    notes: Prices should include the effect of carbon prices and all other taxes.
+    unit: [EUR_2020/GJ, USD_2010/GJ, EUR_2020/kWh]
+    skip-region-aggregation: true
+
+- Price|Final Energy|Transportation|Electricity:
+    description: Electricity price at the final level in the transportation sector. 
+    notes: Prices should include the effect of carbon prices and all other taxes.
+    unit: [EUR_2020/GJ, USD_2010/GJ, EUR_2020/kWh]
+    skip-region-aggregation: true
+
+- Price|Final Energy|Transportation|Gases:
+    description: Price for gases at the final level in the transportation sector. 
+    notes: Prices should include the effect of carbon prices and all other taxes.
+    unit: [EUR_2020/GJ, USD_2010/GJ, EUR_2020/kWh]
+    skip-region-aggregation: true
+
+- Price|Final Energy|Transportation|Hydrogen:
+    description: Hydrogen price at the final level in the transportation sector. 
+    notes: Prices should include the effect of carbon prices and all other taxes.
+    unit: [EUR_2020/GJ, USD_2010/GJ, EUR_2020/kWh]
+    skip-region-aggregation: true
+
+- Price|Final Energy|Transportation|Liquids:
+    description: Liquids price at the final level in the transportation sector. 
+    notes: Prices should include the effect of carbon prices and all other taxes.
+    unit: [EUR_2020/GJ, USD_2010/GJ, EUR_2020/kWh]
+    skip-region-aggregation: true
+
 - Price|Final Energy|Residential|Electricity:
     description: Mean electricity price at the final level in the residential sector
     notes: Prices should include the effect of carbon prices. This mean price should
@@ -267,6 +363,13 @@
     unit: [EUR_2020/GJ, USD_2010/GJ]
     skip-region-aggregation: true
 
+- Price|Secondary Energy|Gases:
+    description: Price for gases at the secondary level, i.e. for large scale
+      consumers (e.g., gas power plant)
+    notes: Prices should include the effect of carbon prices.
+    unit: [EUR_2020/GJ, USD_2010/GJ]
+    skip-region-aggregation: true
+
 - Price|Secondary Energy|Gases|Natural Gas:
     description: Natural gas price at the secondary level, i.e. for large-scale
       consumers (e.g., gas power plant)
@@ -295,6 +398,13 @@
 - Price|Secondary Energy|Liquids|Oil:
     description: Light fuel oil price at the secondary level, i.e. for large-scale
       consumers (e.g. oil power plant)
+    notes: Prices should include the effect of carbon prices.
+    unit: [EUR_2020/GJ, USD_2010/GJ]
+    skip-region-aggregation: true
+
+- Price|Secondary Energy|Solids:
+    description: Solids fuel price at the secondary level, i.e. for large-scale
+      consumers (e.g. biomass and coal power plant)
     notes: Prices should include the effect of carbon prices.
     unit: [EUR_2020/GJ, USD_2010/GJ]
     skip-region-aggregation: true
