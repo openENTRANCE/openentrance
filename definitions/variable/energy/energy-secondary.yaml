@@ -100,3 +100,16 @@
     description: Solid secondary energy carriers (e.g., briquettes, coke, wood chips,
       wood pellets)
     unit: EJ/yr
+
+- Trade|Secondary Energy|Electricity|Volume:
+    description: Net exports of electricity
+    notes: at the global level these should add up to the trade losses only
+    unit: EJ/yr
+- Trade|Secondary Energy|Hydrogen|Volume:
+    description: Net exports of hydrogen
+    notes: at the global level these should add up to the trade losses only
+    unit: EJ/yr
+- Trade|Secondary Energy|Liquids|Volume:
+    description: Net exports of liquids
+    notes: at the global level these should add up to the trade losses only
+    unit: EJ/yr

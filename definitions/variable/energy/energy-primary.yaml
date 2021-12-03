@@ -138,3 +138,21 @@
 - Primary Energy|Other:
     description: Total primary energy consumption
     unit: EJ/yr
+
+- Trade|Primary Energy|Biomass|Volume:
+    description: Net exports of solid, unprocessed biomass
+    notes: at the global level these should add up to the trade losses only
+    unit: EJ/yr
+- Trade|Primary Energy|Coal|Volume:
+    description: Net exports of coal
+    notes: at the global level these should add up to the trade losses only
+    unit: EJ/yr
+- Trade|Primary Energy|Gas|Volume:
+    description: Net exports of natural gas
+    notes: at the global level these should add up to the trade losses only
+    unit: EJ/yr
+- Trade|Primary Energy|Oil|Volume:
+    description: Net exports of crude oil
+    notes: at the global level these should add up to the trade losses only
+    unit: EJ/yr
+
