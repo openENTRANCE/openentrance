@@ -24,12 +24,29 @@ def main(df: pyam.IamDataFrame) -> pyam.IamDataFrame:
 
     definition = DataStructureDefinition(here / "definitions", dimensions=dimensions)
 
-    # check variables, then perform region-processing, then check regions
+    # check variables
     definition.validate(df, dimensions=["variable"])
+
+    # perform region processing
     processor = RegionProcessor.from_directory(
         path=here / "mappings", definition=definition
     )
     df = processor.apply(df)
+
+    # check if directional data exists in the scenario data, add to region codelist
+    if any([r for r in df.region if ">" in r]):
+        for r in df.region:
+            r_split = r.split(">")
+            if len(r_split) > 2:
+                raise ValueError(
+                    f"Directional data other than `origin>destination` not allowed: {r}"
+                )
+            elif len(r_split) == 2:
+                if all([_r in definition.region for _r in r_split]):
+                    # add the directional-region to the codelist (without attributes)
+                    definition.region[r] = None
+
+    # validate the regions (including the directional regions if they exist)
     definition.validate(df, dimensions=["region"])
 
     # convert to subannual format if data provided in datetime format
