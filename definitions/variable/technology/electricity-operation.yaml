@@ -13,7 +13,7 @@
 # Demand not served
 
 - Active Power|Electricity|<Fuel>:
-    description: Active power of <this fuel> power plants
+    description: Active power of <Fuel> power plants
     unit:
     - GWh
 
