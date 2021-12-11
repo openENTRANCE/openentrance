@@ -62,7 +62,7 @@
     skip-region-aggregation: true
 
 - Reserve|Electricity|Automatic Frequency Restoration|<Fuel>:
-    description: Automatic Frequency Restoration Reserve available for <this fuel>
+    description: Automatic Frequency Restoration Reserve available for <Fuel>
      power plants; this amount is the maximum available for the grid operator considering
      the commitment decisions taken by the model
     unit:
