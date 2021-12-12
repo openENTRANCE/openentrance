@@ -65,7 +65,7 @@
      the commitment decisions taken by the model
     unit:
     - GWh
-    skip-region-aggregation: false
+    skip-region-aggregation: true
 
 - Marginal Cost|CO2 Emissions|Electricity:
     description: Marginal Cost associated to the constraint in terms of CO2 emissions
