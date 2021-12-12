@@ -38,7 +38,7 @@ def test_validate_fail():
     assert not (validate(df.rename(region={"Europe": "foo"})))
 
 
-def _test_validate_directional():
+def test_validate_directional():
     # test that validation works as expected with directional data
     assert validate(df.rename(region={"Europe": "Austria>Germany"}))
     assert not validate(df.rename(region={"Europe": "Austria>foo"}))
