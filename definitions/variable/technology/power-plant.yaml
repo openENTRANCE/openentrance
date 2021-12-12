@@ -152,7 +152,6 @@
 - Inflows|Electricity|Hydro|Pumped Storage:
     description: Inflows into a reservoir expressed in energy
     unit:
-    - MWh
     - GWh
 - Turbine Efficiency|Electricity|Hydro|Pumped Storage:
     description: Efficiency of turbining for a pumped-storage hydro unit
@@ -205,7 +204,6 @@
 - Minimum Storage|Electricity|Energy Storage System:
     description: Minimum energy that can be stored by the energy storage system unit.
     unit:
-    - MWh
     - GWh
 - Spillage|Electricity|Energy Storage System:
     description: Energy spillage that could not be stored by an energy storage system
@@ -213,7 +211,6 @@
       energy production; however, another way is to include a spillage variable to
       the ESS unit since it is the last sink of the power network.
     unit:
-    - MWh
     - GWh
 - Storage Type|Electricity|Energy Storage System:
     description: Storage type (daily, weekly, monthly, etc.) for energy storage system
@@ -225,5 +222,4 @@
 - Stored Energy Inventory|Electricity|Energy Storage System:
     description: State of the stored energy by ESS
     unit:
-    - MWh
     - GWh
