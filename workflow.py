@@ -40,7 +40,7 @@ def main(df: pyam.IamDataFrame) -> pyam.IamDataFrame:
                     definition.region[r] = None
 
     # validate the region and variable dimensions, apply region processing
-    process(df, definition, dimensions=["region", "variable"], processor=processor)
+    df = process(df, definition, dimensions=["region", "variable"], processor=processor)
 
     # convert to subannual format if data provided in datetime format
     if df.time_col == "time":
