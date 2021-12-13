@@ -368,7 +368,7 @@
     sector: all
     unit: [EJ/yr, GWh]
 - Final Energy|Transportation:
-    description: Final energy consumed in the transportation sector, including bunker
+    description: Final energy consumed in the transportation sector, excluding bunker
       fuels, excluding pipelines
     energy source: all
     energy use: transportation
@@ -506,34 +506,34 @@
       other category
     unit: [EJ/yr, GWh]
 
-- Final Energy|Transportation|Bunkers:
+- Final Energy|Bunkers:
     description: Final energy consumption by transportation bunkers, excluding 
       transmission/distribution losses
     energy source: all
     energy use: transportation
     sector: all
     unit: [EJ/yr, GWh]
-- Final Energy|Transportation|Bunkers|Electricity:
+- Final Energy|Bunkers|Electricity:
     description: Final energy consumption by transportation bunkers of electricity (including
       on-site solar PV), excluding transmission/distribution losses
     energy source: electricity
     energy use: transportation
     sector: all
     unit: [EJ/yr, GWh]
-- Final Energy|Transportation|Bunkers|Gases:
+- Final Energy|Bunkers|Gases:
     description: Final energy consumption by transportation bunkers of gases (natural gas, 
       biogas, coal-gas), excluding transmission/distribution losses
     energy source: gases
     energy use: transportation
     sector: all
     unit: [EJ/yr, GWh]
-- Final Energy|Transportation|Bunkers|Hydrogen:
+- Final Energy|Bunkers|Hydrogen:
     description: Final energy consumption by transportation bunkers of hydrogen
     energy source: hydrogen
     energy use: transportation
     sector: all
     unit: [EJ/yr, GWh]
-- Final Energy|Transportation|Bunkers|Liquids:
+- Final Energy|Bunkers|Liquids:
     description: Final energy consumption by transportation bunkers of refined liquids
       (conventional & unconventional oil, biofuels, coal-to-liquids, gas-to-liquids)
     energy source: liquids
