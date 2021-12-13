@@ -1,7 +1,7 @@
 from pathlib import Path
 import logging
 import pyam
-from nomenclature import DataStructureDefinition, RegionProcessor
+from nomenclature import DataStructureDefinition, RegionProcessor, process
 
 here = Path(__file__).absolute().parent
 logger = logging.getLogger(__name__)
@@ -22,16 +22,9 @@ def main(df: pyam.IamDataFrame) -> pyam.IamDataFrame:
     else:
         dimensions = ["region", "variable"]
 
+    # import definitions and region-processor
     definition = DataStructureDefinition(here / "definitions", dimensions=dimensions)
-
-    # check variables
-    definition.validate(df, dimensions=["variable"])
-
-    # perform region processing
-    processor = RegionProcessor.from_directory(
-        path=here / "mappings", definition=definition
-    )
-    df = processor.apply(df)
+    processor = RegionProcessor.from_directory(path=here / "mappings")
 
     # check if directional data exists in the scenario data, add to region codelist
     if any([r for r in df.region if ">" in r]):
@@ -46,8 +39,8 @@ def main(df: pyam.IamDataFrame) -> pyam.IamDataFrame:
                     # add the directional-region to the codelist (without attributes)
                     definition.region[r] = None
 
-    # validate the regions (including the directional regions if they exist)
-    definition.validate(df, dimensions=["region"])
+    # validate the region and variable dimensions, apply region processing
+    process(df, definition, dimensions=["region", "variable"], processor=processor)
 
     # convert to subannual format if data provided in datetime format
     if df.time_col == "time":
