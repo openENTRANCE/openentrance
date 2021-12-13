@@ -1,7 +1,8 @@
 # List of variables related to the secondary energy sectors
 
 - Secondary Energy:
-    description: Total secondary energy
+    description: Total secondary energy, the sum of all secondary energy carrier 
+      production (for consistency checks).
     unit: EJ/yr
 - Secondary Energy|Electricity:
     description: Total net electricity production
