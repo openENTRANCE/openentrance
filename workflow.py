@@ -5,6 +5,7 @@ from nomenclature import DataStructureDefinition, RegionProcessor, process
 
 here = Path(__file__).absolute().parent
 logger = logging.getLogger(__name__)
+logger.setLevel(logging.INFO)
 from datetime import datetime, timedelta
 
 
