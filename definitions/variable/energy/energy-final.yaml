@@ -384,17 +384,17 @@
 - Final Energy|Transportation|Fossil:
     description: Final energy consumption by the transportation sector of fossil fuels
     energy source: fossil
-    energy use: freight transportation
+    energy use: transportation
     sector: all
     unit: [EJ/yr, GWh]
 - Final Energy|Transportation|Passenger:
-    description: Final energy consumed for passenger transportation 
+    description: Final energy consumed for passenger transportation, excluding bunkers 
     energy source: all
-    energy use: freight transportation
+    energy use: passenger transportation
     sector: all
     unit: [EJ/yr, GWh]
 - Final Energy|Transportation|Freight:
-    description: Final energy consumed for freight transportation
+    description: Final energy consumed for freight transportation, excluding bunkers 
     energy source: all
     energy use: freight transportation
     sector: all
@@ -540,3 +540,16 @@
     energy use: transportation
     sector: all
     unit: [EJ/yr, GWh]
+ - Final Energy|Bunkers|Passenger:
+    description: Final energy consumed for passenger transportation in international bunkers 
+    energy source: all
+    energy use: passenger transportation
+    sector: all
+    unit: [EJ/yr, GWh]
+- Final Energy|Bunkers|Freight:
+    description: Final energy consumed for freight transportation in international bunkers 
+    energy source: all
+    energy use: freight transportation
+    sector: all
+    unit: [EJ/yr, GWh]
+    
