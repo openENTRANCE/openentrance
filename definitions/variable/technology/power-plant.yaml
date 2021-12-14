@@ -205,21 +205,11 @@
     description: Minimum energy that can be stored by the energy storage system unit.
     unit:
     - GWh
-- Spillage|Electricity|Energy Storage System:
-    description: Energy spillage that could not be stored by an energy storage system
-      (ESS). Several energy models include spillage variables related to renewable
-      energy production; however, another way is to include a spillage variable to
-      the ESS unit since it is the last sink of the power network.
-    unit:
-    - GWh
-- Storage Type|Electricity|Energy Storage System:
+
+- Seasonality|Electricity|Energy Storage System:
     description: Storage type (daily, weekly, monthly, etc.) for energy storage system
       (ESS) that includes hydro, battery, etc.
     unit:
     - Daily
     - Weekly
     - Monthly
-- Stored Energy Inventory|Electricity|Energy Storage System:
-    description: State of the stored energy by ESS
-    unit:
-    - GWh
