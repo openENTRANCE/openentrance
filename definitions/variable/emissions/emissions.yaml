@@ -299,11 +299,11 @@
     unit: Mt CO2/yr
 - Emissions|CO2|Energy|Demand|Transportation:
     description: CO2 emissions from fuel combustion in transportation sector (IPCC
-      category 1A3), excluding pipeline emissions (IPCC category 1A3ei)
+      category 1A3), excluding pipeline emissions (IPCC category 1A3ei) and excluding bunkers
+      (IPCC category 1A3ai and 1A3di)
     unit: Mt CO2/yr
-- Emissions|CO2|Energy|Demand|Transportation|w/o Bunkers:
-    description: CO2 emissions from fuel combustion in transportation sector (IPCC
-      category 1A3), excluding pipeline emissions (IPCC category 1A3ei) and bunkers
+- Emissions|CO2|Energy|Demand|Bunkers:
+    description: CO2 emissions from fuel combustion in bunkers
       (IPCC category 1A3ai and 1A3di)
     unit: Mt CO2/yr
 - Emissions|CO2|Energy|Supply:
