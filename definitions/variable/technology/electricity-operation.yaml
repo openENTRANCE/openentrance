@@ -34,6 +34,19 @@
     unit:
     - GWh
 
+- Spillage|Electricity|Energy Storage System:
+    description: Energy spillage that could not be stored by an energy storage system
+      (ESS). Several energy models include spillage variables related to renewable
+      energy production; however, another way is to include a spillage variable to
+      the ESS unit since it is the last sink of the power network.
+    unit:
+    - GWh
+
+- Stored Energy Inventory|Electricity|Energy Storage System:
+    description: State of the stored energy by ESS
+    unit:
+    - GWh
+
 - Energy Consumption|Electricity|Energy Storage System:
     description: Energy consumption from the power grid to be stored into the ESS.
     unit:
