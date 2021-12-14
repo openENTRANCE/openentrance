@@ -540,7 +540,7 @@
     energy use: transportation
     sector: all
     unit: [EJ/yr, GWh]
- - Final Energy|Bunkers|Passenger:
+- Final Energy|Bunkers|Passenger:
     description: Final energy consumed for passenger transportation in international bunkers 
     energy source: all
     energy use: passenger transportation
