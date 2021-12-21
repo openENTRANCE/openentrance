@@ -35,44 +35,8 @@
 - Secondary Energy|Hydrogen:
     description: Total hydrogen production
     unit: EJ/yr
-- Secondary Energy|Hydrogen|Biomass:
-    description: Hydrogen production from biomass
-    unit: EJ/yr
-- Secondary Energy|Hydrogen|Biomass|w/ CCS:
-    description: Hydrogen production from biomass with a CO2 capture component
-    unit: EJ/yr
-- Secondary Energy|Hydrogen|Biomass|w/o CCS:
-    description: Hydrogen production from biomass with freely vented CO2 emissions
-    unit: EJ/yr
-- Secondary Energy|Hydrogen|Electricity:
-    description: Hydrogen production from electricity via electrolysis
-    unit: EJ/yr
-- Secondary Energy|Hydrogen|Fossil:
-    description: Hydrogen production from fossil fuels
-    unit: EJ/yr
-- Secondary Energy|Hydrogen|Fossil|w/ CCS:
-    description: Hydrogen production from fossil fuels with a CO2 capture component
-    unit: EJ/yr
-- Secondary Energy|Hydrogen|Fossil|w/o CCS:
-    description: Hydrogen production from fossil fuels with freely vented CO2 emissions
-    unit: EJ/yr
-- Secondary Energy|Hydrogen|Coal:
-    description: Total production of hydrogen from coal
-    unit: EJ/yr
-- Secondary Energy|Hydrogen|Coal|w/ CCS:
-    description: Total production of hydrogen from coal with a CO2 capture component
-    unit: EJ/yr
-- Secondary Energy|Hydrogen|Coal|w/o CCS:
-    description: Total production of hydrogen from coal with freely vented CO2 emissions
-    unit: EJ/yr
-- Secondary Energy|Hydrogen|Gas:
-    description: Total production of hydrogen from gas
-    unit: EJ/yr
-- Secondary Energy|Hydrogen|Gas|w/ CCS:
-    description: Total production of hydrogen from gas with a CO2 capture component
-    unit: EJ/yr
-- Secondary Energy|Hydrogen|Gas|w/o CCS:
-    description: Total production of hydrogen from gas with freely vented CO2 emissions
+- Secondary Energy|Hydrogen|<Fuel>:
+    description: Hydrogen production from <Fuel>
     unit: EJ/yr
 - Secondary Energy|Liquids:
     description: Total production of refined liquid fuels from all energy sources
