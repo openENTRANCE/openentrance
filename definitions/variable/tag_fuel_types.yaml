@@ -1,7 +1,7 @@
 # This list of inputs will replace any occurrence of `<Fuel>`
 # in a variable-definition yaml file
 
-# This list is intended for use as input fuel to the power sector
+# This list is intended for use as fuels except for the power sector
 
 - <Fuel>:
   - Biomass:
@@ -127,9 +127,6 @@
   - Oil|w/o CCS:
       description: refined liquid oil products with freely vented CO2 emissions
 
-  - Nuclear:
-      description: nuclear energy
-
   - Hydrogen:
       description: hydrogen
 
@@ -139,46 +136,8 @@
   - Hydrogen|OCGT:
       description: hydrogen used in OCGT power plants
 
-  - Non-Biomass Renewables:
-      description: hydro, wind, solar, geothermal, ocean, and other renewable sources
-        excluding bioenergy
-
-  - Hydro:
-      description: hydropower
-
-  - Hydro|Run of River:
-      description: run-of-river hydro power plants (i.e. without storage capacity)
-
-  - Hydro|Pumped Storage:
-      description: hydropower systems with short-term storage capacity
-        (including pumping turbines)
-      notes: This hydropower system has two water reservoirs at different elevations.
-        The definition follows the convention established
-        by the ENTSO-E transparency platform (https://transparency.entsoe.eu).
-
-  - Hydro|Reservoir:
-      description: hydropower systems with seasonal storage capacity
-        (possibly including pumping turbines)
-      notes: This definition follows the convention established
-        by the ENTSO-E transparency platform (https://transparency.entsoe.eu).
-
   - Solar:
-      description: solar energy including PV and CSP
-
-  - Solar|CSP:
-      description: concentrating/concentrated solar power (CSP)
-
-  - Solar|PV:
-      description: solar photovoltaics (PV)
-
-  - Wind:
-      description: wind energy (on- and offshore)
-
-  - Wind|Offshore:
-      description: offshore wind energy
-
-  - Wind|Onshore:
-      description: onshore wind energy
+      description: direct use of solar energy (heat)
 
   - Geothermal:
       description: geothermal energy (including hydrothermal systems)
@@ -188,9 +147,6 @@
 
   - Electricity:
       description: electricity
-
-  - Heatpump:
-      description: energy generation from heatpumps
 
   - Other:
       description: other energy sources and fuels not explicitely listed
