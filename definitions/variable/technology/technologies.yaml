@@ -19,8 +19,8 @@
     description: Total installed heat generation capacity for the industrial sector
       from <Fuel>
     unit: GW
-- Capital Cost|Electricity|<Fuel>:
-    description: Capital cost for <Fuel>
+- Capital Cost|Electricity|<Electricity Input>:
+    description: Capital cost for <Electricity Input>
     unit: [EUR_2020/kW, USD_2010/kW]
     skip-region-aggregation: true
 - Capital Cost|Heat|Residential and Commercial|<Fuel>:
