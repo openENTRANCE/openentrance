@@ -186,6 +186,9 @@
   - Ocean:
       description: ocean energy
 
+  - Electricity:
+      description: electricity
+
   - Heatpump:
       description: energy generation from heatpumps
 
