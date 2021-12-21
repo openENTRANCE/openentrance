@@ -78,148 +78,20 @@
     description: Investment in CO2 transport and storage (note that investment in
       the capturing equipment should be included along with the power plant technology)
     unit: [million EUR_2020/yr, billion USD_2010/yr]
+
 - Investment|Energy Supply|Electricity:
     description: Investments into electricity generation and supply (including electricity
       storage and transmission & distribution)
     unit: [million EUR_2020/yr, billion USD_2010/yr]
-- Investment|Energy Supply|Electricity|Biomass:
-    description: Investments in new power generation for the specified power plant
-      category. If the model features several sub-categories, the total investments
-      should be reported. For plants equipped with CCS, the investment in the capturing
-      equipment should be included but not the one on transport and storage.
+
+- Investment|Energy Supply|Electricity|<Electricity Input>:
+    description: Investments in new <Electricity Input> power generation capacity
+    notes: For plants with CCS, the investment in the capturing equipment should be
+      included but not the one on transport and storage.
     unit: [million EUR_2020/yr, billion USD_2010/yr]
-- Investment|Energy Supply|Electricity|Biomass|w/ CCS:
-    description: Investments in new power generation for the specified power plant
-      category. If the model features several sub-categories, the total investments
-      should be reported. For plants equipped with CCS, the investment in the capturing
-      equipment should be included but not the one on transport and storage.
-    unit: [million EUR_2020/yr, billion USD_2010/yr]
-- Investment|Energy Supply|Electricity|Biomass|w/o CCS:
-    description: Investments in new power generation for the specified power plant
-      category. If the model features several sub-categories, the total investments
-      should be reported. For plants equipped with CCS, the investment in the capturing
-      equipment should be included but not the one on transport and storage.
-    unit: [million EUR_2020/yr, billion USD_2010/yr]
-- Investment|Energy Supply|Electricity|Coal:
-    description: Investments in new power generation for the specified power plant
-      category. If the model features several sub-categories, the total investments
-      should be reported. For plants equipped with CCS, the investment in the capturing
-      equipment should be included but not the one on transport and storage.
-    unit: [million EUR_2020/yr, billion USD_2010/yr]
-- Investment|Energy Supply|Electricity|Coal|w/ CCS:
-    description: Investments in new power generation for the specified power plant
-      category. If the model features several sub-categories, the total investments
-      should be reported. For plants equipped with CCS, the investment in the capturing
-      equipment should be included but not the one on transport and storage.
-    unit: [million EUR_2020/yr, billion USD_2010/yr]
-- Investment|Energy Supply|Electricity|Coal|w/o CCS:
-    description: Investments in new power generation for the specified power plant
-      category. If the model features several sub-categories, the total investments
-      should be reported. For plants equipped with CCS, the investment in the capturing
-      equipment should be included but not the one on transport and storage.
-    unit: [million EUR_2020/yr, billion USD_2010/yr]
-- Investment|Energy Supply|Electricity|Electricity Storage:
-    description: Investments in electricity storage technologies (e.g., batteries,
-      compressed air storage reservoirs, etc.)
-    unit: [million EUR_2020/yr, billion USD_2010/yr]
-- Investment|Energy Supply|Electricity|Fossil:
-    description: Investments in new power generation for the specified power plant
-      category. If the model features several sub-categories, the total investments
-      should be reported. For plants equipped with CCS, the investment in the capturing
-      equipment should be included but not the one on transport and storage.
-    unit: [million EUR_2020/yr, billion USD_2010/yr]
-- Investment|Energy Supply|Electricity|Gas:
-    description: Investments in new power generation for the specified power plant
-      category. If the model features several sub-categories, the total investments
-      should be reported. For plants equipped with CCS, the investment in the capturing
-      equipment should be included but not the one on transport and storage.
-    unit: [million EUR_2020/yr, billion USD_2010/yr]
-- Investment|Energy Supply|Electricity|Gas|w/ CCS:
-    description: Investments in new power generation for the specified power plant
-      category. If the model features several sub-categories, the total investments
-      should be reported. For plants equipped with CCS, the investment in the capturing
-      equipment should be included but not the one on transport and storage.
-    unit: [million EUR_2020/yr, billion USD_2010/yr]
-- Investment|Energy Supply|Electricity|Gas|w/o CCS:
-    description: Investments in new power generation for the specified power plant
-      category. If the model features several sub-categories, the total investments
-      should be reported. For plants equipped with CCS, the investment in the capturing
-      equipment should be included but not the one on transport and storage.
-    unit: [million EUR_2020/yr, billion USD_2010/yr]
-- Investment|Energy Supply|Electricity|Geothermal:
-    description: Investments in new power generation for the specified power plant
-      category. If the model features several sub-categories, the total investments
-      should be reported. For plants equipped with CCS, the investment in the capturing
-      equipment should be included but not the one on transport and storage.
-    unit: [million EUR_2020/yr, billion USD_2010/yr]
-- Investment|Energy Supply|Electricity|Hydro:
-    description: Investments in new power generation for the specified power plant
-      category. If the model features several sub-categories, the total investments
-      should be reported. For plants equipped with CCS, the investment in the capturing
-      equipment should be included but not the one on transport and storage.
-    unit: [million EUR_2020/yr, billion USD_2010/yr]
-- Investment|Energy Supply|Electricity|Non-Biomass Renewables:
-    description: Investments in new power generation for the specified power plant
-      category. If the model features several sub-categories, the total investments
-      should be reported. For plants equipped with CCS, the investment in the capturing
-      equipment should be included but not the one on transport and storage.
-    unit: [million EUR_2020/yr, billion USD_2010/yr]
-- Investment|Energy Supply|Electricity|Non-fossil:
-    description: Investments in new power generation for the specified power plant
-      category. If the model features several sub-categories, the total investments
-      should be reported. For plants equipped with CCS, the investment in the capturing
-      equipment should be included but not the one on transport and storage.
-    unit: [million EUR_2020/yr, billion USD_2010/yr]
-- Investment|Energy Supply|Electricity|Nuclear:
-    description: Investments in new power generation for the specified power plant
-      category. If the model features several sub-categories, the total investments
-      should be reported. For plants equipped with CCS, the investment in the capturing
-      equipment should be included but not the one on transport and storage.
-    unit: [million EUR_2020/yr, billion USD_2010/yr]
-- Investment|Energy Supply|Electricity|Ocean:
-    description: Investments in new power generation for the specified power plant
-      category. If the model features several sub-categories, the total investments
-      should be reported. For plants equipped with CCS, the investment in the capturing
-      equipment should be included but not the one on transport and storage.
-    unit: [million EUR_2020/yr, billion USD_2010/yr]
-- Investment|Energy Supply|Electricity|Oil:
-    description: Investments in new power generation for the specified power plant
-      category. If the model features several sub-categories, the total investments
-      should be reported. For plants equipped with CCS, the investment in the capturing
-      equipment should be included but not the one on transport and storage.
-    unit: [million EUR_2020/yr, billion USD_2010/yr]
-- Investment|Energy Supply|Electricity|Oil|w/ CCS:
-    description: Investments in new power generation for the specified power plant
-      category. If the model features several sub-categories, the total investments
-      should be reported. For plants equipped with CCS, the investment in the capturing
-      equipment should be included but not the one on transport and storage.
-    unit: [million EUR_2020/yr, billion USD_2010/yr]
-- Investment|Energy Supply|Electricity|Oil|w/o CCS:
-    description: Investments in new power generation for the specified power plant
-      category. If the model features several sub-categories, the total investments
-      should be reported. For plants equipped with CCS, the investment in the capturing
-      equipment should be included but not the one on transport and storage.
-    unit: [million EUR_2020/yr, billion USD_2010/yr]
-- Investment|Energy Supply|Electricity|Other:
-    description: Investments in new power generation for the specified power plant
-      category. If the model features several sub-categories, the total investments
-      should be reported. For plants equipped with CCS, the investment in the capturing
-      equipment should be included but not the one on transport and storage.
-    unit: [million EUR_2020/yr, billion USD_2010/yr]
-- Investment|Energy Supply|Electricity|Solar:
-    description: Investments in new power generation for the specified power plant
-      category. If the model features several sub-categories, the total investments
-      should be reported. For plants equipped with CCS, the investment in the capturing
-      equipment should be included but not the one on transport and storage.
-    unit: [million EUR_2020/yr, billion USD_2010/yr]
+
 - Investment|Energy Supply|Electricity|Transmission and Distribution:
     description: Investments in transmission and distribution of power generation
-    unit: [million EUR_2020/yr, billion USD_2010/yr]
-- Investment|Energy Supply|Electricity|Wind:
-    description: Investments in new power generation for the specified power plant
-      category. If the model features several sub-categories, the total investments
-      should be reported. For plants equipped with CCS, the investment in the capturing
-      equipment should be included but not the one on transport and storage.
     unit: [million EUR_2020/yr, billion USD_2010/yr]
 - Investment|Energy Supply|Extraction|Coal:
     description: Investments for extraction and conversion of coal. These should include
