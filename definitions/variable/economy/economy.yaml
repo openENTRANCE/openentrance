@@ -2,69 +2,69 @@
 
 - Consumption:
     description: Total consumption of all goods, by all consumers in a region
-    unit: [million EUR_2020/yr, billion USD_2010/yr, billion EUR_2020/yr]
+    unit: [billion USD_2010/yr, billion EUR_2020/yr]
 
 - Consumption|Households:
     description: Total consumption of all goods, by households in a region
-    unit: [million EUR_2020/yr, billion USD_2010/yr, billion EUR_2020/yr]
+    unit: [billion USD_2010/yr, billion EUR_2020/yr]
 
 - Consumption|Government:
     description: Total consumption of all goods, by the government in a region
-    unit: [million EUR_2020/yr, billion USD_2010/yr, billion EUR_2020/yr]
+    unit: [billion USD_2010/yr, billion EUR_2020/yr]
 
 - Consumption|Industry:
     description: Total consumption of all goods, by industries in a region
-    unit: [million EUR_2020/yr, billion USD_2010/yr, billion EUR_2020/yr]
+    unit: [billion USD_2010/yr, billion EUR_2020/yr]
 
 - Consumption|Households|<Product>|Imported:
     description: Consumption of imported <Product> by households
-    unit: [million EUR_2020/yr, billion USD_2010/yr, billion EUR_2020/yr]
+    unit: [billion USD_2010/yr, billion EUR_2020/yr]
 
 - Consumption|Households|<Product>|Domestic:
     description: Consumption of domestic <Product> by households
-    unit: [million EUR_2020/yr, billion USD_2010/yr, billion EUR_2020/yr]
+    unit: [billion USD_2010/yr, billion EUR_2020/yr]
 
 - Consumption|Government|<Product>|Imported:
     description: Consumption of imported <Product> by government
-    unit: [million EUR_2020/yr, billion USD_2010/yr, billion EUR_2020/yr]
+    unit: [billion USD_2010/yr, billion EUR_2020/yr]
 
 - Consumption|Government|<Product>|Domestic:
     description: Consumption of domestic <Product> by government
-    unit: [million EUR_2020/yr, billion USD_2010/yr, billion EUR_2020/yr]
+    unit: [billion USD_2010/yr, billion EUR_2020/yr]
 
 - Consumption|Gross Capital Formation|<Product>|Imported:
     description: Consumption of imported <Product> by gross capital formation
-    unit: [million EUR_2020/yr, billion USD_2010/yr, billion EUR_2020/yr]
+    unit: [billion USD_2010/yr, billion EUR_2020/yr]
 
 - Consumption|Gross Capital Formation|<Product>|Domestic:
     description: Consumption of domestic <Product> by gross capital formation
-    unit: [million EUR_2020/yr, billion USD_2010/yr, billion EUR_2020/yr]
+    unit: [billion USD_2010/yr, billion EUR_2020/yr]
 
 - Consumption|Industry|<Product>|Imported:
     description: Consumption of imported <Product> by industries
-    unit: [million EUR_2020/yr, billion USD_2010/yr, billion EUR_2020/yr]
+    unit: [billion USD_2010/yr, billion EUR_2020/yr]
 
 - Consumption|Industry|<Product>|Domestic:
     description: Consumption of domestic <Product> by industries
-    unit: [million EUR_2020/yr, billion USD_2010/yr, billion EUR_2020/yr]
+    unit: [billion USD_2010/yr, billion EUR_2020/yr]
 
 - Output|Industry|<Industry>:
     description: Total monetary value of production (output) by <Industry>.
       The value includes cost of production, capital costs, labor costs and taxes.
-    unit: [million EUR_2020/yr, billion USD_2010/yr, billion EUR_2020/yr]
+    unit: [billion USD_2010/yr, billion EUR_2020/yr]
 
 - Output|Product|<Product>:
     description: Total monetary value of <Product> produced (output) and sold
       to industry, households and government
-    unit: [million EUR_2020/yr, billion USD_2010/yr, billion EUR_2020/yr]
+    unit: [billion USD_2010/yr, billion EUR_2020/yr]
 
 - Capital|<Industry>:
     description: Total capital costs spend by <Industry>
-    unit: [million EUR_2020/yr, billion USD_2010/yr, billion EUR_2020/yr]
+    unit: [billion USD_2010/yr, billion EUR_2020/yr]
 
 - Labor|<Industry>:
     description: Total wages spent by <Industry>
-    unit: [million EUR_2020/yr, billion USD_2010/yr, billion EUR_2020/yr]
+    unit: [billion USD_2010/yr, billion EUR_2020/yr]
 
 - Product Price Index|<Product>:
     description: Price index on <Product> level, relative to base year 2011
@@ -129,35 +129,35 @@
 
 - GDP|MER:
     description: GDP at market exchange rate
-    unit: [million EUR_2020/yr, billion USD_2010/yr, billion EUR_2020/yr]
+    unit: [billion USD_2010/yr, billion EUR_2020/yr]
 
 - GDP|PPP:
     description: GDP at purchasing power parity
-    unit: [million EUR_2020/yr, billion USD_2010/yr, billion EUR_2020/yr]
+    unit: [billion USD_2010/yr, billion EUR_2020/yr]
 
 - Policy Cost|Additional Total Energy System Cost:
     description: Additional energy system cost associated with the policy
-    unit: [million EUR_2020/yr, billion USD_2010/yr, billion EUR_2020/yr]
+    unit: [billion USD_2010/yr, billion EUR_2020/yr]
 
 - Policy Cost|Area under MAC Curve:
     description: Total costs of the policy,
       i.e. the area under the Marginal Abatement Cost (MAC) curve
-    unit: [million EUR_2020/yr, billion USD_2010/yr, billion EUR_2020/yr]
+    unit: [billion USD_2010/yr, billion EUR_2020/yr]
 
 - Policy Cost|Consumption Loss:
     description: Consumption loss in a policy scenario compared to the corresponding
       baseline
     notes: Losses should be reported as negative numbers)
-    unit: [million EUR_2020/yr, billion USD_2010/yr, billion EUR_2020/yr]
+    unit: [billion USD_2010/yr, billion EUR_2020/yr]
 
 - Policy Cost|GDP Loss:
     description: GDP loss in a policy scenario compared to the corresponding baseline
     notes: Losses should be reported as negative numbers
-    unit: [million EUR_2020/yr, billion USD_2010/yr, billion EUR_2020/yr]
+    unit: [billion USD_2010/yr, billion EUR_2020/yr]
 
 - Policy Cost|Other:
     description: Any other indicator of policy cost (e.g., compensated variation)
-    unit: [million EUR_2020/yr, billion USD_2010/yr, billion EUR_2020/yr]
+    unit: [billion USD_2010/yr, billion EUR_2020/yr]
 
 - Population:
     description: Total population
