@@ -1,8 +1,8 @@
 - Capacity|Electricity:
     description: Total installed electricity generation capacity
     unit: GW
-- Capacity|Electricity|<Fuel>:
-    description: Total installed electricity generation capacity from <Fuel>
+- Capacity|Electricity|<Electricity Input>:
+    description: Total installed electricity generation capacity from <Electricity Input>
     unit: GW
 - Capacity|Heat|Residential and Commercial:
     description: Total installed heat generation capacity for the residential and
