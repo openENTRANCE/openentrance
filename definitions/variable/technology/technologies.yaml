@@ -39,8 +39,8 @@
     description: Capital cost for passenger <Transport>
     unit: [EUR_2020/pkm, USD_2010/pkm]
     skip-region-aggregation: true
-- Fixed Cost|Electricity|<Fuel>:
-    description: Fixed O&M cost for <Fuel>
+- Fixed Cost|Electricity|<Electricity Input>:
+    description: Fixed O&M cost for <Electricity Input>
     unit: [EUR_2020/kW/yr, USD_2010/kW/yr]
     skip-region-aggregation: true
 - Fixed Cost|Heat|Residential and Commercial|<Fuel>:
