@@ -7,8 +7,8 @@
 - Secondary Energy|Electricity:
     description: Total net electricity production
     unit: EJ/yr
-- Secondary Energy|Electricity|<Fuel>:
-    description: Net electricity production from <Fuel>
+- Secondary Energy|Electricity|<Electricity Input>:
+    description: Net electricity production from <Electricity Input>
     unit: EJ/yr
 - Secondary Energy|Electricity|Curtailment:
     description: Curtailment of electricity production due to oversupply from
