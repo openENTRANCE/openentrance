@@ -1,15 +1,7 @@
-# This list of fuels will replace any occurrence of `<Fuel>`
+# This list of inputs will replace any occurrence of `<Fuel>`
 # in a variable-definition yaml file
 
-# All fuels that have the attribute "ccs: True" have two sub-categories
-# "w/ CCS": with a CO2 capture component
-# "w/o CCS": with freely vented CO2 emissions (example "Coal|w/o CCS")
-#
-#   e.g., the energy type "Coal" used for electricity generation
-#   is described by three variables:
-#   - Secondary Energy|Electricity|Coal
-#   - Secondary Energy|Electricity|Coal|Coal|w/ CCS
-#   - Secondary Energy|Electricity|Coal|Coal|w/o CCS
+# This list is intended for use as input fuel to the power sector
 
 - <Fuel>:
   - Biomass:
@@ -194,14 +186,8 @@
   - Ocean:
       description: ocean energy
 
-  - Electricity:
-      description: energy generation from electricity
-
-  - Electricity|Heatpump:
+  - Heatpump:
       description: energy generation from heatpumps
-
-  - Electricity|Other:
-      description: energy generation from other electrification technologies
 
   - Other:
       description: other energy sources and fuels not explicitely listed
