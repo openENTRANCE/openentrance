@@ -1,3 +1,5 @@
+# The model documentation for version 2.1.3 can be found at https://rse.pik-potsdam.de/doc/remind/2.1.3
+# REMIND 21 regions mapping can be found at https://git.io/JySgR and https://doi.org/10.1016/j.energy.2021.121908
 - REMIND 2.1:
   - REMIND 2.1|CAZ
   - REMIND 2.1|CHA
@@ -7,7 +9,6 @@
   - REMIND 2.1|ENC
   - REMIND 2.1|ESC
   - REMIND 2.1|ESW
-  - REMIND 2.1|EU27
   - REMIND 2.1|EWN
   - REMIND 2.1|FRA
   - REMIND 2.1|IND
