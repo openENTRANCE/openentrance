@@ -8,7 +8,6 @@ native_regions:
   - ENC: REMIND 2.1|ENC
   - ESC: REMIND 2.1|ESC
   - ESW: REMIND 2.1|ESW
-  - EU27: REMIND 2.1|EU27
   - EWN: REMIND 2.1|EWN
   - FRA: REMIND 2.1|FRA
   - IND: REMIND 2.1|IND
@@ -22,10 +21,14 @@ native_regions:
   - SSA: REMIND 2.1|SSA
   - UKI: REMIND 2.1|UKI
   - USA: REMIND 2.1|USA
-  - EU27 & UK: REMIND 2.1|EUR
-  - NEU: REMIND 2.1|NEU
-  - World: REMIND 2.1|World
+  - EUR: EU27 & UK
+  - EU27
+  - World
 common_regions:
+  - Germany:
+      - DEU
+  - France:
+      - FRA
   - Asia (R5):
       - CHA
       - IND
