@@ -10,7 +10,7 @@ Coming soon - for now, please have a look at [__init__.py](__init__.py)!
 
 ## Installation instructions
 
-### Option 1: Clone the repo and install from source (recommended)
+### Clone the repo and install from source
 
 This approach requires git to be installed on your machine.
 
@@ -18,20 +18,27 @@ Clone this repository to your machine by opening a command prompt and
 directing it to the folder where you want to have the files, then run:
 
 ```
-$ git clone git@github.com:openENTRANCE/nomenclature.git
+$ git clone git@github.com:openENTRANCE/openentrance.git
 ```
 
 Then navigate the command prompt to the new folder and install using pip.
 
 ```
-$ cd nomenclature
+$ cd openentrance
+$ pip install -r requirements.txt
 $ pip install --editable .
 ```
 
 > Pulling new commits in the cloned folder will immediately
 > make the latest version of the nomenclature available on your machine.
 
-You can test whether the installation worked successfully by running
+You can test whether the installation worked successfully by install **pytest** using
+
+```
+$ pip install pytest
+```
+
+and then running
 
 ```
 $ pytest openentrance/tests/
@@ -41,24 +48,14 @@ The result should look similar to the following snippet:
 
 ```
 ============================= test session starts ==============================
-platform darwin -- Python 3.7.7, pytest-5.3.5, py-1.8.1, pluggy-0.13.1
-rootdir: ...
-collected 4 items                                                              
+platform darwin -- Python 3.9.7, pytest-5.4.3, py-1.10.0, pluggy-0.13.1
+collected 20 items                                                             
 
-openentrance/tests/test_core.py ....                                     [100%]
+tests/test_core.py ..                                                    [ 10%]
+tests/test_definitions.py ......                                         [ 40%]
+tests/test_validate.py ............                                      [100%]
 
-============================== 4 passed in 30.00s ==============================
+============================= 20 passed in 40.83s ==============================
 ```
+
 If you see a few warnings, this is (probably) also ok...
-
-
-### Option 2: Install directly from GitHub
-
-Open a command prompt and run
-
-```
-pip install git+https://github.com/openENTRANCE/nomenclature
-```
-
-> :warning: You will have to repeat this step whenever you want
-> to update the `openentrance` package on your machine.
