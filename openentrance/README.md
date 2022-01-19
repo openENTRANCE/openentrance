@@ -47,6 +47,8 @@ $ pytest openentrance/tests/
 The result should look similar to the following snippet:
 
 ```
+============================= test session starts ==============================
+platform darwin -- Python 3.9.7, pytest-5.4.3, py-1.10.0, pluggy-0.13.1
 collected 20 items                                                             
 
 tests/test_core.py ..                                                    [ 10%]
