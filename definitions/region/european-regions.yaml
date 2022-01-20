@@ -27,6 +27,10 @@
       definition: IS + LI + NO + CH
       notes: European Free Trade Association
       source: https://en.wikipedia.org/wiki/European_Free_Trade_Association
+  - EU27 & EFTA:
+      definition: EU27 + EFTA
+      notes: In 2021 EU27 + EFTA comprise all countries that are participating in the EU ETS.
+      source: https://ec.europa.eu/clima/eu-action/eu-emissions-trading-system-eu-ets_en 
   - Balkans:
       definition: AL + BA + BG + GR + HR + ME + MK + RO + RS + SI
       notes: includes also Kosovo (XK) as it is 'included' within Serbia (RS) (meaning
