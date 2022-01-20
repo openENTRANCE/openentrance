@@ -29,7 +29,7 @@
       source: https://en.wikipedia.org/wiki/European_Free_Trade_Association
   - EU27 & EFTA:
       definition: EU27 + EFTA
-      notes: In 2021 EU27 + EFTA comprise all countries that are participating in the EU ETS.
+      notes: This region is the jurisdiction of the EU ETS as of 2021 (post-Brexit).
       source: https://ec.europa.eu/clima/eu-action/eu-emissions-trading-system-eu-ets_en 
   - Balkans:
       definition: AL + BA + BG + GR + HR + ME + MK + RO + RS + SI
