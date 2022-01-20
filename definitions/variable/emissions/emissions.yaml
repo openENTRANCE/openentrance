@@ -1,5 +1,50 @@
 # List of variables related to emissions
 
+- Carbon Capture:
+    description: total carbon dioxide emissions captured, i.e. captured CO2 
+      stream from bioenergy use, fossil fuel use, industrial processes, and 
+      direct air capture; should be reported as positive numbers
+    unit: Mt CO2/yr
+
+- Carbon Capture|Biomass:
+    description: total carbon dioxide emissions captured  from bioenergy use, 
+      should be reported as positive numbers
+    unit: Mt CO2/yr
+        
+- Carbon Capture|Direct Air Capture:
+    description: total carbon dioxide captured through direct air capture
+    unit: Mt CO2/yr
+        
+- Carbon Capture|Fossil:
+    description: total carbon dioxide emissions captured from fossil fuel use, 
+      should be reported as positive numbers
+    unit: Mt CO2/yr
+        
+- Carbon Capture|Industrial Processes:
+    description: total carbon dioxide emissions captured from industrial processes
+      (e.g., cement production, but not from fossil fuel burning) use, should be 
+      reported as positive numbers
+    unit: Mt CO2/yr
+        
+- Carbon Capture|Storage:
+    description: total carbon dioxide emissions captured and stored in geological 
+      deposits (e.g. in depleted oil and gas fields, unmined coal seams, saline aquifers)
+      and the deep ocean, stored amounts should be reported as positive numbers
+    unit: Mt CO2/yr
+        
+- Carbon Capture|Usage:
+    description: total carbon dioxide captured and used
+    unit: Mt CO2/yr
+        
+- Carbon Removal:
+    description: total carbon dioxide sequestered
+    unit: Mt CO2/yr
+        
+- Carbon Removal|Land Use:
+    description: total carbon dioxide sequestered through land-based sinks (e.g., 
+      afforestation, soil carbon enhancement, biochar)
+    unit: Mt CO2/yr
+
 - Carbon Sequestration|CCS:
     description: Total carbon dioxide emissions captured and stored in geological
       deposits (e.g. in depleted oil and gas fields, unmined coal seams, saline aquifers)
@@ -220,8 +265,8 @@
     description: CO2 emissions from agriculture, forestry and other land use (IPCC
       category 3)
     unit: Mt CO2/yr
-- Emission Rate|CO2|Electricity|<Fuel>:
-    description: CO2 emissions of a <Fuel> power plant.
+- Emission Rate|CO2|Electricity|<Electricity Input>:
+    description: CO2 emissions of a <Electricity Input> power plant
     unit: tons/MWh
     skip-region-aggregation: true
 - Emissions|CO2|Energy:
@@ -254,7 +299,12 @@
     unit: Mt CO2/yr
 - Emissions|CO2|Energy|Demand|Transportation:
     description: CO2 emissions from fuel combustion in transportation sector (IPCC
-      category 1A3), excluding pipeline emissions (IPCC category 1A3ei)
+      category 1A3), excluding pipeline emissions (IPCC category 1A3ei) and excluding bunkers
+      (IPCC category 1A3ai and 1A3di)
+    unit: Mt CO2/yr
+- Emissions|CO2|Energy|Demand|Bunkers:
+    description: CO2 emissions from fuel combustion in bunkers
+      (IPCC category 1A3ai and 1A3di)
     unit: Mt CO2/yr
 - Emissions|CO2|Energy|Supply:
     description: CO2 emissions from fuel combustion and fugitive emissions from fuels
@@ -267,6 +317,10 @@
 - Emissions|CO2|Energy|Supply|Electricity:
     description: CO2 emissions from electricity and CHP production and distribution
       (IPCC category 1A1ai and 1A1aii)
+    unit: Mt CO2/yr
+- Emissions|CO2|Energy|Supply|Hydrogen:
+    description: CO2 emissions from electricity and CHP production and distribution (IPCC
+      category 1A1ai and 1A1aii), net of negative emissions from Bioenergy with CCS (BECCS)
     unit: Mt CO2/yr
 - Emissions|CO2|Energy|Supply|Gases:
     description: CO2 emissions from fuel combustion and fugitive emissions from fuels
@@ -290,12 +344,22 @@
       - solid fuel extraction and processing (IPCC category 1A1ci, parts of 1A1cii,
       1B1)
     unit: Mt CO2/yr
+- Emissions|CO2|Energy|Supply|Other:
+    description: CO2 emissions from fuel combustion using other energy carriers
+    unit: Mt CO2/yr
 - Emissions|CO2|Industrial Processes:
     description: CO2 emissions from industrial processes (IPCC categories 2A, B, C,
       E)
     unit: Mt CO2/yr
+- Emissions|CO2|Waste: 
+    description: CO2 emissions from waste (IPCC categories 6C)
+    unit: Mt CO2/yr   
 - Emissions|CO2|Other:
     description: CO2 emissions from other sources
+    unit: Mt CO2/yr
+- Emissions|CO2|Industry:
+    description: CO2 emissions by the industrial sector (energy and process emissions),
+      net of negative emissions from Bioenergy with CCS (BECCS)
     unit: Mt CO2/yr
 - Emissions|CO:
     description: Total carbon monoxide (CO) emissions
@@ -377,6 +441,36 @@
 - Emissions|Kyoto Gases (SAR-GWP100):
     description: Total Kyoto GHG emissions, including CO2, CH4, N2O and F-gases (based
       on 100-year GWPs from SAR for aggregation of different gases)
+    unit: Mt CO2e/yr
+- Emissions|Kyoto Gases|AFOLU:
+    description: Kyoto GHG emissions from agriculture, forestry and other land use (IPCC
+      category 3 and 4), including CO2, CH4, N2O and F-gases (preferably use 100-year GWPs
+      from AR4 for aggregation of different gases)
+    unit: Mt CO2e/yr
+- Emissions|Kyoto Gases|Energy:
+    description: Kyoto GHG emissions from energy use on supply and demand side, including
+      fugitive emissions from fuels (IPCC category 1A, 1B), including CO2, CH4, N2O and 
+      F-gases (preferably use 100-year GWPs from AR4 for aggregation of different gases)
+    unit: Mt CO2e/yr
+- Emissions|Kyoto Gases|Energy and Industrial Processes:
+    description: Kyoto GHG emissions from energy use on supply and demand side, including
+      fugitive emissions from fuels (IPCC category 1A, 1B) and from industrial processes 
+      (IPCC categories 2A, B, C, E), including CO2, CH4, N2O and F-gases (preferably use 
+      100-year GWPs from AR4 for aggregation of different gases)
+    unit: Mt CO2e/yr
+- Emissions|Kyoto Gases|Industrial Processes:
+    description: Kyoto GHG emissions from industrial processes (IPCC categories 2A, B, C,
+      E), including CO2, CH4, N2O and F-gases (preferably use 100-year GWPs from AR4 for 
+      aggregation of different gases)
+    unit: Mt CO2e/yr
+- Emissions|Kyoto Gases|Waste:
+    description: Kyoto GHG emissions from waste (IPCC categories 6C), including CO2, CH4,
+      N2O and F-gases (preferably use 100-year GWPs from AR4 for aggregation of different gases)
+    unit: Mt CO2e/yr
+- Emissions|Kyoto Gases|Other:
+    description: Kyoto GHG emissions from other sources (please provide a definition of other
+      sources in this category in the 'comments' tab), including CO2, CH4, N2O and F-gases 
+      (preferably use 100-year GWPs from AR4 for aggregation of different gases)
     unit: Mt CO2e/yr
 - Emissions|N2O:
     description: Total nitrous oxide (N2O) emissions
@@ -579,6 +673,7 @@
     description: Volatile organic compounds Emissions from other energy end-use sectors
       that do not fit to any other category
     unit: Mt VOC/yr
+
 - Temperature|Global Mean:
     description: Change in global mean temperature relative to pre-industrial
     unit: °C

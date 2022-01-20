@@ -1,10 +1,18 @@
 # List of variables related to the secondary energy sectors
 
+- Secondary Energy:
+    description: Total secondary energy, the sum of all secondary energy carrier 
+      production (for consistency checks).
+    unit: EJ/yr
 - Secondary Energy|Electricity:
     description: Total net electricity production
     unit: EJ/yr
-- Secondary Energy|Electricity|<Fuel>:
-    description: Net electricity production from <Fuel>
+- Secondary Energy|Electricity|<Electricity Input>:
+    description: Net electricity production from <Electricity Input>
+    unit: EJ/yr
+- Secondary Energy|Electricity|Curtailment:
+    description: Curtailment of electricity production due to oversupply from
+      variable renewable sources (typically from wind and solar)
     unit: EJ/yr
 - Secondary Energy|Gases:
     description: Total production of gaseous fuels, including natural gas
@@ -27,26 +35,8 @@
 - Secondary Energy|Hydrogen:
     description: Total hydrogen production
     unit: EJ/yr
-- Secondary Energy|Hydrogen|Biomass:
-    description: Hydrogen production from biomass
-    unit: EJ/yr
-- Secondary Energy|Hydrogen|Biomass|w/ CCS:
-    description: Hydrogen production from biomass with a CO2 capture component
-    unit: EJ/yr
-- Secondary Energy|Hydrogen|Biomass|w/o CCS:
-    description: Hydrogen production from biomass with freely vented CO2 emissions
-    unit: EJ/yr
-- Secondary Energy|Hydrogen|Electricity:
-    description: Hydrogen production from electricity via electrolysis
-    unit: EJ/yr
-- Secondary Energy|Hydrogen|Fossil:
-    description: Hydrogen production from fossil fuels
-    unit: EJ/yr
-- Secondary Energy|Hydrogen|Fossil|w/ CCS:
-    description: Hydrogen production from fossil fuels with a CO2 capture component
-    unit: EJ/yr
-- Secondary Energy|Hydrogen|Fossil|w/o CCS:
-    description: Hydrogen production from fossil fuels with freely vented CO2 emissions
+- Secondary Energy|Hydrogen|<Fuel>:
+    description: Hydrogen production from <Fuel>
     unit: EJ/yr
 - Secondary Energy|Liquids:
     description: Total production of refined liquid fuels from all energy sources
@@ -92,4 +82,22 @@
 - Secondary Energy|Solids:
     description: Solid secondary energy carriers (e.g., briquettes, coke, wood chips,
       wood pellets)
+    unit: EJ/yr
+- Secondary Energy|Solids|Coal:
+    description: Solid secondary energy carriers made from coal
+    unit: EJ/yr
+- Secondary Energy|Solids|Biomass:
+    description: Solid secondary energy carriers made from biomass
+    unit: EJ/yr
+- Trade|Secondary Energy|Electricity|Volume:
+    description: Net exports of electricity
+    notes: at the global level these should add up to the trade losses only
+    unit: EJ/yr
+- Trade|Secondary Energy|Hydrogen|Volume:
+    description: Net exports of hydrogen
+    notes: at the global level these should add up to the trade losses only
+    unit: EJ/yr
+- Trade|Secondary Energy|Liquids|Volume:
+    description: Net exports of liquids
+    notes: at the global level these should add up to the trade losses only
     unit: EJ/yr
