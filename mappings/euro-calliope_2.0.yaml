@@ -1,3 +1,4 @@
+# Aggregate regions for Europe (such as EU27 and EU27+UK) do not include Malta
 model: Euro-Calliope 2.0
 native_regions:
   - Austria: Euro-Calliope 2.0|Austria
@@ -36,7 +37,7 @@ native_regions:
   - Montenegro: Euro-Calliope 2.0|Montenegro
   - Serbia: Euro-Calliope 2.0|Serbia
 common_regions:
-  - EU27 (excl. Malta):
+  - EU27:
     - Austria
     - Belgium
     - Bulgaria
@@ -64,7 +65,7 @@ common_regions:
     - Spain
     - Sweden
     - Iceland
-  - EU27+UK (excl.Malta):
+  - EU27+UK:
     - Austria
     - Belgium
     - Bulgaria
