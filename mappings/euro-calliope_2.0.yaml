@@ -65,7 +65,7 @@ common_regions:
     - Spain
     - Sweden
     - Iceland
-  - EU27+UK:
+  - EU27 & UK:
     - Austria
     - Belgium
     - Bulgaria
