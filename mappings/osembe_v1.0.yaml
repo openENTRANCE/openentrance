@@ -1,4 +1,4 @@
-model: OSeMBE v1.0
+model: OSeMBE v1.0.0
 native_regions:
   - AUT: OSeMBE v1.0|AUT
   - BEL: OSeMBE v1.0|BEL
