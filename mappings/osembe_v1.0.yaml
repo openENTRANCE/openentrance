@@ -1,0 +1,129 @@
+model: OSeMBE v1.0.0
+native_regions:
+  - AUT: OSeMBE v1.0|AUT
+  - BEL: OSeMBE v1.0|BEL
+  - BGR: OSeMBE v1.0|BGR
+  - HRV: OSeMBE v1.0|HRV
+  - CYP: OSeMBE v1.0|CYP
+  - CZE: OSeMBE v1.0|CZE
+  - DNK: OSeMBE v1.0|DNK
+  - EST: OSeMBE v1.0|EST
+  - FIN: OSeMBE v1.0|FIN
+  - FRA: OSeMBE v1.0|FRA
+  - DEU: OSeMBE v1.0|DEU
+  - GRC: OSeMBE v1.0|GRC
+  - HUN: OSeMBE v1.0|HUN
+  - IRL: OSeMBE v1.0|IRL
+  - ITA: OSeMBE v1.0|ITA
+  - LVA: OSeMBE v1.0|LVA
+  - LTU: OSeMBE v1.0|LTU
+  - LUX: OSeMBE v1.0|LUX
+  - MLT: OSeMBE v1.0|MLT
+  - NLD: OSeMBE v1.0|NLD
+  - POL: OSeMBE v1.0|POL
+  - PRT: OSeMBE v1.0|PRT
+  - ROU: OSeMBE v1.0|ROU
+  - SVK: OSeMBE v1.0|SVK
+  - SVN: OSeMBE v1.0|SVN
+  - ESP: OSeMBE v1.0|ESP
+  - SWE: OSeMBE v1.0|SWE
+  - CHE: OSeMBE v1.0|CHE
+  - GBR: OSeMBE v1.0|GBR
+  - NOR: OSeMBE v1.0|NOR
+common_regions:
+  - EU27:
+    - AUT
+    - BEL
+    - BGR
+    - HRV
+    - CYP
+    - CZE
+    - DNK
+    - EST
+    - FIN
+    - FRA
+    - DEU
+    - GRC
+    - HUN
+    - IRL
+    - ITA
+    - LVA
+    - LTU
+    - LUX
+    - MLT
+    - NLD
+    - POL
+    - PRT
+    - ROU
+    - SVK
+    - SVN
+    - ESP
+    - SWE
+  - EU27 & UK:
+    - AUT
+    - BEL
+    - BGR
+    - HRV
+    - CYP
+    - CZE
+    - DNK
+    - EST
+    - FIN
+    - FRA
+    - DEU
+    - GRC
+    - HUN
+    - IRL
+    - ITA
+    - LVA
+    - LTU
+    - LUX
+    - MLT
+    - NLD
+    - POL
+    - PRT
+    - ROU
+    - SVK
+    - SVN
+    - ESP
+    - SWE
+    - GBR
+  - EU27 & EFTA:
+    - AUT
+    - BEL
+    - BGR
+    - HRV
+    - CYP
+    - CZE
+    - DNK
+    - EST
+    - FIN
+    - FRA
+    - DEU
+    - GRC
+    - HUN
+    - IRL
+    - ITA
+    - LVA
+    - LTU
+    - LUX
+    - MLT
+    - NLD
+    - POL
+    - PRT
+    - ROU
+    - SVK
+    - SVN
+    - ESP
+    - SWE
+    - CHE
+    - NOR
+  - Scandinavia:
+    - DNK
+    - FIN
+    - NOR
+    - SWE
+  - Baltics:
+    - EST
+    - LTU
+    - LVA
