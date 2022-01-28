@@ -9,7 +9,7 @@ def test_variables():
 
 
 def test_variables_fuel_types():
-    # check that exploding of <Fuel> to fuels works (including CCS subcategory)
+    # check that exploding of {Fuel} to fuels works (including CCS subcategory)
     obs = definition.variable["Secondary Energy|Electricity|Gas"]
     exp = (
         "Net electricity production from natural gas "
@@ -26,14 +26,14 @@ def test_variables_fuel_types():
 
 
 def test_variables_industry_types():
-    # check that exploding of <industry> to industries works
+    # check that exploding of {industry} to industries works
     obs = definition.variable["Capital|iAGRI"]
     exp = "Total capital costs spend by agriculture"
     assert obs["description"] == exp
 
 
 def test_variables_transport_types():
-    # check that exploding of <transport> to transportation modes works
+    # check that exploding of {transport} to transportation modes works
     obs = definition.variable["Energy Service|Transportation|Freight|Rail"]
     exp = (
         "Provision of energy services related to freight "
@@ -43,7 +43,7 @@ def test_variables_transport_types():
 
 
 def test_variables_product_types():
-    # check that exploding of <product> to procuts works
+    # check that exploding of {product} to products works
     obs = definition.variable["Consumption|Households|pAGRI|Imported"]
     exp = "Consumption of imported agriculture by households"
     assert obs["description"] == exp

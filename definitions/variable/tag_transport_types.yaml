@@ -1,7 +1,7 @@
-# This list of fuels will replace any occurrence of `<Transport>`
+# This list of fuels will replace any occurrence of `{Transport}`
 # in a variable-definition yaml file
 
-- <Transport>:
+- Transport:
   - Maritime:
       description: maritime transportation technologies
 

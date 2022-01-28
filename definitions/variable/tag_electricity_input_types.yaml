@@ -1,9 +1,9 @@
-# This list of inputs will replace any occurrence of `<Electricity Input>`
+# This list of inputs will replace any occurrence of `{Electricity Input}`
 # in a variable-definition yaml file
 
 # This list is intended for use as input fuel to the power sector
 
-- <Electricity Input>:
+- Electricity Input:
   - Biomass:
       description: purpose-grown biomass, crop residues, forest industry waste,
         solid waste from domestic, agricultural or municipal sources

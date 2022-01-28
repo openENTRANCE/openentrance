@@ -11,8 +11,8 @@ of energy/fuels from renewables.
 The hierarchy of variables in this group should follow this style:
 
 - `Primary Energy`
-- `Primary Energy|<Fuel>`
-- `Primary Energy|<Fuel>|<Specification>`
+- `Primary Energy|{Fuel}`
+- `Primary Energy|{Fuel}|{Specification}`
 
 See [energy-primary.yaml](energy-primary.yaml) for the full codelist.
 
@@ -24,7 +24,7 @@ The hierarchy of variables in this group should follow this style:
 
 - `Secondary Energy|<Output Fuel>`
 - `Secondary Energy|<Output Fuel>|<Input Fuel>`
-- `Secondary Energy|<Output Fuel>|<Input Fuel>|<Specification>`
+- `Secondary Energy|<Output Fuel>|<Input Fuel>|{Specification}`
 
 See [energy-secondary.yaml](energy-secondary.yaml) for the full codelist.
 
@@ -38,15 +38,15 @@ and a by-uses dimension (uses=transportation, heating, industrial process...)
 The hierarchy of variables in this group should follow this style:
 
 - `Final Energy`
-- `Final Energy|<Fuel>`
-- `Final Energy|<Fuel>|<Specification>`
-- `Final Energy|<Sector>`
-- `Final Energy|<Sector>|<Specification>`
-- `Final Energy|<Sector>|<Fuel>|<Specification>`
+- `Final Energy|{Fuel}`
+- `Final Energy|{Fuel}|{Specification}`
+- `Final Energy|{Sector}`
+- `Final Energy|{Sector}|{Specification}`
+- `Final Energy|{Sector}|{Fuel}|{Specification}`
 
 To avoid overlap of variable definitions, data reported at the level
 of sector *and* fuel, the variable should follow the convention
-`Final Energy|<Sector>|<Fuel>|<Specification>`
-(not `Final Energy|<Fuel>|<Sector>|<Specification>`).
+`Final Energy|{Sector}|{Fuel}|{Specification}`
+(not `Final Energy|{Fuel}|{Sector}|{Specification}`).
 
 See [energy-final.yaml](energy-final.yaml) for the full codelist.

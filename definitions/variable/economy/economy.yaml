@@ -16,58 +16,58 @@
     description: Total consumption of all goods, by industries in a region
     unit: [billion USD_2010/yr, billion EUR_2020/yr]
 
-- Consumption|Households|<Product>|Imported:
-    description: Consumption of imported <Product> by households
+- Consumption|Households|{Product}|Imported:
+    description: Consumption of imported {Product} by households
     unit: [billion USD_2010/yr, billion EUR_2020/yr]
 
-- Consumption|Households|<Product>|Domestic:
-    description: Consumption of domestic <Product> by households
+- Consumption|Households|{Product}|Domestic:
+    description: Consumption of domestic {Product} by households
     unit: [billion USD_2010/yr, billion EUR_2020/yr]
 
-- Consumption|Government|<Product>|Imported:
-    description: Consumption of imported <Product> by government
+- Consumption|Government|{Product}|Imported:
+    description: Consumption of imported {Product} by government
     unit: [billion USD_2010/yr, billion EUR_2020/yr]
 
-- Consumption|Government|<Product>|Domestic:
-    description: Consumption of domestic <Product> by government
+- Consumption|Government|{Product}|Domestic:
+    description: Consumption of domestic {Product} by government
     unit: [billion USD_2010/yr, billion EUR_2020/yr]
 
-- Consumption|Gross Capital Formation|<Product>|Imported:
-    description: Consumption of imported <Product> by gross capital formation
+- Consumption|Gross Capital Formation|{Product}|Imported:
+    description: Consumption of imported {Product} by gross capital formation
     unit: [billion USD_2010/yr, billion EUR_2020/yr]
 
-- Consumption|Gross Capital Formation|<Product>|Domestic:
-    description: Consumption of domestic <Product> by gross capital formation
+- Consumption|Gross Capital Formation|{Product}|Domestic:
+    description: Consumption of domestic {Product} by gross capital formation
     unit: [billion USD_2010/yr, billion EUR_2020/yr]
 
-- Consumption|Industry|<Product>|Imported:
-    description: Consumption of imported <Product> by industries
+- Consumption|Industry|{Product}|Imported:
+    description: Consumption of imported {Product} by industries
     unit: [billion USD_2010/yr, billion EUR_2020/yr]
 
-- Consumption|Industry|<Product>|Domestic:
-    description: Consumption of domestic <Product> by industries
+- Consumption|Industry|{Product}|Domestic:
+    description: Consumption of domestic {Product} by industries
     unit: [billion USD_2010/yr, billion EUR_2020/yr]
 
-- Output|Industry|<Industry>:
-    description: Total monetary value of production (output) by <Industry>.
+- Output|Industry|{Industry}:
+    description: Total monetary value of production (output) by {Industry}.
       The value includes cost of production, capital costs, labor costs and taxes.
     unit: [billion USD_2010/yr, billion EUR_2020/yr]
 
-- Output|Product|<Product>:
-    description: Total monetary value of <Product> produced (output) and sold
+- Output|Product|{Product}:
+    description: Total monetary value of {Product} produced (output) and sold
       to industry, households and government
     unit: [billion USD_2010/yr, billion EUR_2020/yr]
 
-- Capital|<Industry>:
-    description: Total capital costs spend by <Industry>
+- Capital|{Industry}:
+    description: Total capital costs spend by {Industry}
     unit: [billion USD_2010/yr, billion EUR_2020/yr]
 
-- Labor|<Industry>:
-    description: Total wages spent by <Industry>
+- Labor|{Industry}:
+    description: Total wages spent by {Industry}
     unit: [billion USD_2010/yr, billion EUR_2020/yr]
 
-- Product Price Index|<Product>:
-    description: Price index on <Product> level, relative to base year 2011
+- Product Price Index|{Product}:
+    description: Price index on {Product} level, relative to base year 2011
     note: The index equals 1 in 2011, the reference year
     unit: index
     skip-region-aggregation: true

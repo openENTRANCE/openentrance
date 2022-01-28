@@ -7,13 +7,13 @@
     description: Provision of energy services related to all freight transportation
       modes
     unit: Gtkm/yr
-- Energy Service|Transportation|Freight|<Transport>:
-    description: Provision of energy services related to freight <Transport>
+- Energy Service|Transportation|Freight|{Transport}:
+    description: Provision of energy services related to freight {Transport}
     unit: Gtkm/yr
 - Energy Service|Transportation|Passenger:
     description: Provision of energy services related to all passenger transportation
       modes
     unit: Gpkm/yr
-- Energy Service|Transportation|Passenger|<Transport>:
-    description: Provision of energy services related to passenger <Transport>
+- Energy Service|Transportation|Passenger|{Transport}:
+    description: Provision of energy services related to passenger {Transport}
     unit: Gpkm/yr

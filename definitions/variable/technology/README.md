@@ -21,26 +21,26 @@ See [technologies.yaml](technologies.yaml) for the full codelist.
 Variables for the installed capacity of (energy) production/generation
 or transmission should follow the structure below.
 
-- `Capacity|<Fuel>`
-- `Capacity|<Fuel>|<Specification>`
-- `Capacity|<Fuel>|<Specification>|<Identifier Of A Specific Power Plant>`
+- `Capacity|{Fuel}`
+- `Capacity|{Fuel}|{Specification}`
+- `Capacity|{Fuel}|{Specification}|{Identifier Of A Specific Power Plant}`
 
 ## Capital Cost
 
 Variables for the overnight capital cost for new construction of power plants
 or tranmission lines should follow the structure below.
 
-- `Capital Cost|<Fuel>|<Specification>`
-- `Capital Cost|<Fuel>|<Specification>|<Identifier Of A Specific Power Plant>`
+- `Capital Cost|{Fuel}|{Specification}`
+- `Capital Cost|{Fuel}|{Specification}|{Identifier Of A Specific Power Plant}`
 
 Note that it usually does not make sense to report capital costs
-at a more aggregate level (i.e., `Capital Cost|<Fuel>`).
+at a more aggregate level (i.e., `Capital Cost|{Fuel}`).
 
 ## Investment expenditure
 
 Variables for the expenditure for new construction of power plants
 or tranmission lines should follow the structure below.
 
-- `Investment|<Type>`
-- `Investment|<Type>|<Fuel>`
-- `Investment|<Type>|<Fuel>|<Specification>`
+- `Investment|{Type}`
+- `Investment|{Type}|{Fuel}`
+- `Investment|{Type}|{Fuel}|{Specification}`

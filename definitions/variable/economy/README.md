@@ -12,7 +12,7 @@ See [economy.yaml](economy.yaml) for the full codelist.
 The discount rate should be distinguished by sector or (group of) firms
 and follow the structure below.
 
-- `Discount rate|<Sub-Category>`
+- `Discount rate|{Sub-Category}`
 
 For models assuming a social welfare maximization with a unique discount rate,
 please use `Discount rate|Social`.  
@@ -22,7 +22,7 @@ please use `Discount rate|Social`.
 The variables for population should follow the structure below.
 
 - `Population`
-- `Population|<Specification>`
+- `Population|{Specification}`
 
 Specifications can be linked to demographic characteristics (e.g., urban vs.
 rural) or socio-economic aspects such as population at risk of hunger.
@@ -33,7 +33,7 @@ The variables for Gross Domestic Product (GDP) should follow the structure
 below, where the method used for aggregation should be either
 market-based exchange rates (MER) or purchasing-power parity (PPP).
 
-- `GDP|<Method>`
+- `GDP|{Method}`
 
 ## Consumption
 
@@ -53,8 +53,8 @@ see the section on variables related to [technologies](../../variable/technology
 for further discussion.
 
 - `Price|Carbon`
-- `Price|<Fuel>`
-- `Price|<Fuel>|<Sector>`
+- `Price|{Fuel}`
+- `Price|{Fuel}|{Sector}`
 
 ## Policy Cost
 
@@ -62,4 +62,4 @@ The variables related to costs from policies (compared to a baseline)
 should follow the structure below. The policies included in the metric and
 the baseline used for comparison must be specified in the scenario protocol. 
 
-- `Policy Cost|<Metric>`
+- `Policy Cost|{Metric}`
