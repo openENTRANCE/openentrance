@@ -30,6 +30,7 @@ native_regions:
   - CHE: OSeMBE v1.0|CHE
   - GBR: OSeMBE v1.0|GBR
   - NOR: OSeMBE v1.0|NOR
+  - EU27 & EFTA: OSeMBE v1.0|EU27 & EFTA
 common_regions:
   - EU27:
     - AUT
