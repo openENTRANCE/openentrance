@@ -1,11 +1,11 @@
-# This list of products will replace any occurrence of `<Product>`
+# This list of products will replace any occurrence of `{Product}`
 # in a variable-definition yaml file
 
 #   i.e., The following standard structure in economic variables:
-#   Consumption|Households|<Product>|Imported:
-#   Consumption|Government|<Product>|Domestic:
+#   Consumption|Households|{Product}|Imported:
+#   Consumption|Government|{Product}|Domestic:
 
-- <Product>:
+- Product:
   - pAGRI:
       description: agriculture
 

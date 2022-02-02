@@ -7,8 +7,8 @@
 - Secondary Energy|Electricity:
     description: Total net electricity production
     unit: EJ/yr
-- Secondary Energy|Electricity|<Electricity Input>:
-    description: Net electricity production from <Electricity Input>
+- Secondary Energy|Electricity|{Electricity Input}:
+    description: Net electricity production from {Electricity Input}
     unit: EJ/yr
 - Secondary Energy|Electricity|Curtailment:
     description: Curtailment of electricity production due to oversupply from
@@ -29,14 +29,14 @@
 - Secondary Energy|Heat:
     description: Total heat generation
     unit: EJ/yr
-- Secondary Energy|Heat|<Fuel>:
-    description: Total heat generation from <Fuel>
+- Secondary Energy|Heat|{Fuel}:
+    description: Total heat generation from {Fuel}
     unit: EJ/yr
 - Secondary Energy|Hydrogen:
     description: Total hydrogen production
     unit: EJ/yr
-- Secondary Energy|Hydrogen|<Fuel>:
-    description: Hydrogen production from <Fuel>
+- Secondary Energy|Hydrogen|{Fuel}:
+    description: Hydrogen production from {Fuel}
     unit: EJ/yr
 - Secondary Energy|Liquids:
     description: Total production of refined liquid fuels from all energy sources

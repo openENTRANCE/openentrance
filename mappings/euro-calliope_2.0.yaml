@@ -1,0 +1,132 @@
+# Aggregate regions for Europe (such as EU27 and EU27+UK) do not include Malta
+model: Euro-Calliope 2.0
+native_regions:
+  - Austria: Euro-Calliope 2.0|Austria
+  - Belgium: Euro-Calliope 2.0|Belgium
+  - Bulgaria: Euro-Calliope 2.0|Bulgaria
+  - Croatia: Euro-Calliope 2.0|Croatia
+  - Cyprus: Euro-Calliope 2.0|Cyprus
+  - Czech Republic: Euro-Calliope 2.0|Czech Republic
+  - Denmark: Euro-Calliope 2.0|Denmark
+  - Estonia: Euro-Calliope 2.0|Estonia
+  - Finland: Euro-Calliope 2.0|Finland
+  - France: Euro-Calliope 2.0|France
+  - Germany: Euro-Calliope 2.0|Germany
+  - Greece: Euro-Calliope 2.0|Greece
+  - Hungary: Euro-Calliope 2.0|Hungary
+  - Ireland: Euro-Calliope 2.0|Ireland
+  - Italy: Euro-Calliope 2.0|Italy
+  - Latvia: Euro-Calliope 2.0|Latvia
+  - Lithuania: Euro-Calliope 2.0|Lithuania
+  - Luxembourg: Euro-Calliope 2.0|Luxembourg
+  - Netherlands: Euro-Calliope 2.0|Netherlands
+  - Poland: Euro-Calliope 2.0|Poland
+  - Portugal: Euro-Calliope 2.0|Portugal
+  - Romania: Euro-Calliope 2.0|Romania
+  - Slovakia: Euro-Calliope 2.0|Slovakia
+  - Slovenia: Euro-Calliope 2.0|Slovenia
+  - Spain: Euro-Calliope 2.0|Spain
+  - Sweden: Euro-Calliope 2.0|Sweden
+  - United Kingdom: Euro-Calliope 2.0|United Kingdom
+  - Iceland: Euro-Calliope 2.0|Iceland
+  - Norway: Euro-Calliope 2.0|Norway
+  - Switzerland: Euro-Calliope 2.0|Switzerland
+  - Albania: Euro-Calliope 2.0|Albania
+  - Bosnia and Herzegovina: Euro-Calliope 2.0|Bosnia and Herzegovina
+  - Northern Macedonia: Euro-Calliope 2.0|Northern Macedonia
+  - Montenegro: Euro-Calliope 2.0|Montenegro
+  - Serbia: Euro-Calliope 2.0|Serbia
+common_regions:
+  - EU27:
+    - Austria
+    - Belgium
+    - Bulgaria
+    - Croatia
+    - Cyprus
+    - Czech Republic
+    - Denmark
+    - Estonia
+    - Finland
+    - France
+    - Germany
+    - Greece
+    - Hungary
+    - Ireland
+    - Italy
+    - Latvia
+    - Lithuania
+    - Luxembourg
+    - Netherlands
+    - Poland
+    - Portugal
+    - Romania
+    - Slovakia
+    - Slovenia
+    - Spain
+    - Sweden
+    - Iceland
+  - EU27 & UK:
+    - Austria
+    - Belgium
+    - Bulgaria
+    - Croatia
+    - Cyprus
+    - Czech Republic
+    - Denmark
+    - Estonia
+    - Finland
+    - France
+    - Germany
+    - Greece
+    - Hungary
+    - Ireland
+    - Italy
+    - Latvia
+    - Lithuania
+    - Luxembourg
+    - Netherlands
+    - Poland
+    - Portugal
+    - Romania
+    - Slovakia
+    - Slovenia
+    - Spain
+    - Sweden
+    - Iceland
+    - United Kingdom
+  - Europe:
+    - Austria
+    - Belgium
+    - Bulgaria
+    - Croatia
+    - Cyprus
+    - Czech Republic
+    - Denmark
+    - Estonia
+    - Finland
+    - France
+    - Germany
+    - Greece
+    - Hungary
+    - Ireland
+    - Italy
+    - Latvia
+    - Lithuania
+    - Luxembourg
+    - Netherlands
+    - Poland
+    - Portugal
+    - Romania
+    - Slovakia
+    - Slovenia
+    - Spain
+    - Sweden
+    - United Kingdom
+    - Iceland
+    - Norway
+    - Switzerland
+    - Albania
+    - Bosnia and Herzegovina
+    - Northern Macedonia
+    - Montenegro
+    - Serbia

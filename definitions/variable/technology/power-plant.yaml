@@ -4,110 +4,110 @@
 # linear   term cost   [EUR/GWh] = Linear Var Cost [Mcal/MWh] * Price|Primary Energy [EUR/Mcal] + Operation and Maintenance Variable Cost [EUR/MWh] * 1e-3
 # constant term cost   [EUR/h]   = Constant Var Cost [Mcal/h] * Price|Primary Energy [EUR/Mcal]
 
-- Operational Cost|Constant Term|Electricity Generation|<Electricity Input>:
+- Operational Cost|Constant Term|Electricity Generation|{Electricity Input}:
     description: Constant term (intercept) to compute operational cost for generating
-      electricity from <Electricity Input>
+      electricity from {Electricity Input}
     unit: Mcal/hour
     skip-region-aggregation: true
-- Operational Cost|Linear Term|Electricity Generation|<Electricity Input>:
+- Operational Cost|Linear Term|Electricity Generation|{Electricity Input}:
     description: Linear term (slope) to compute operational cost for generating electricity
-      from <Electricity Input>
+      from {Electricity Input}
     unit: Mcal/MWh
     skip-region-aggregation: true
-- Operation and Maintenance Cost|Electricity|<Electricity Input>:
-    description: Operation and maintenance cost for generating electricity from <Electricity Input>
+- Operation and Maintenance Cost|Electricity|{Electricity Input}:
+    description: Operation and maintenance cost for generating electricity from {Electricity Input}
     unit: EUR/MWh
     skip-region-aggregation: true
-- Shut-Down Cost|Electricity|<Electricity Input>:
+- Shut-Down Cost|Electricity|{Electricity Input}:
     description: Shutdown cost for a typical power plant generating electricity from
-      <Electricity Input>
+      {Electricity Input}
     unit: EUR
     skip-region-aggregation: true
-- Start-Up Cost|Electricity|<Electricity Input>:
+- Start-Up Cost|Electricity|{Electricity Input}:
     description: Startup cost for a typical power plant generating electricity from
-      <Electricity Input>
+      {Electricity Input}
     unit: EUR
     skip-region-aggregation: true
-- Variable Cost|Electricity|<Electricity Input>:
-    description: Variable cost for generating electricity from <Electricity Input>
+- Variable Cost|Electricity|{Electricity Input}:
+    description: Variable cost for generating electricity from {Electricity Input}
     unit: EUR/MWh
     skip-region-aggregation: true
-- Number of Units|Electricity|<Electricity Input>:
-    description: Number of power plant units generating electricity from <Electricity Input>
+- Number of Units|Electricity|{Electricity Input}:
+    description: Number of power plant units generating electricity from {Electricity Input}
     unit:
-- Maximum Active Power|Electricity|<Electricity Input>:
+- Maximum Active Power|Electricity|{Electricity Input}:
     description: Maximum active power of a typical power plant generating electricity
-      from <Electricity Input>
+      from {Electricity Input}
     unit: MW
-- Minimum On Duration|Electricity|<Electricity Input>:
+- Minimum On Duration|Electricity|{Electricity Input}:
     description: Minimum duration that a typical power plant generating electricity
-      from <Electricity Input> has to remain online after start-up
+      from {Electricity Input} has to remain online after start-up
     unit: hour
     skip-region-aggregation: true
-- Minimum Off Duration|Electricity|<Electricity Input>:
+- Minimum Off Duration|Electricity|{Electricity Input}:
     description: Minimum duration that a typical power plant generating electricity
-      from <Electricity Input> has to remain offline after shut-down
+      from {Electricity Input} has to remain offline after shut-down
     unit: hour
     skip-region-aggregation: true
-- Forced Outage Rate|Electricity|<Electricity Input>:
+- Forced Outage Rate|Electricity|{Electricity Input}:
     description: Unavailability as a share relative to Maximum Active Power due to
       unexpected outages (e.g., failures) of a typical power plant generating electricity
-      from <Electricity Input>
+      from {Electricity Input}
     note: A value of 50 (%) means that the plant can generate at half of maximum active
       power (~installed capacity) during an outage. If the outage rate is lower than
       the level of minimum active power, the plant has to be shut down for the duration
       of the outage.
     unit: '%'
     skip-region-aggregation: true
-- Planned Outage Rate|Electricity|<Electricity Input>:
+- Planned Outage Rate|Electricity|{Electricity Input}:
     description: Unavailability as a share relative to Maximum Active Power due to
       planned outages (e.g., maintaince, revision) of a typical power plant generating
-      electricity from <Electricity Input>
+      electricity from {Electricity Input}
     note: A value of 50 (%) means that the plant can generate at half of maximum active
       power (~installed capacity) during an outage. If the outage rate is lower than
       the level of minimum active power, the plant has to be shut down for the duration
       of the outage.
     unit: '%'
     skip-region-aggregation: true
-- Mean Outage Duration|Electricity|<Electricity Input>:
+- Mean Outage Duration|Electricity|{Electricity Input}:
     description: Mean duration of an outage of a typical power plant generating electricity
-      from <Electricity Input>
+      from {Electricity Input}
     unit:
     - day
     - hour
     skip-region-aggregation: true
-- Inertia|Electricity|<Electricity Input>:
+- Inertia|Electricity|{Electricity Input}:
     description: Inertia provided to the system by a typical power plant generating
-      electricity from <Electricity Input>
+      electricity from {Electricity Input}
     unit: second
     skip-region-aggregation: true
-- Frequency Containment Reserve|Electricity|<Electricity Input>:
+- Frequency Containment Reserve|Electricity|{Electricity Input}:
     description: Share of Maximum Active Power that can be committed to Frequency
-      Containment Reserve by a typical power plant generating electricity from <Electricity Input>
+      Containment Reserve by a typical power plant generating electricity from {Electricity Input}
     unit: '%'
     skip-region-aggregation: true
-- Automatic Frequency Restoration Reserve|Electricity|<Electricity Input>:
+- Automatic Frequency Restoration Reserve|Electricity|{Electricity Input}:
     description: Share of Maximum Active Power that can be committed to Automatic
       Frequency Restoration Reserve by a typical power plant generating electricity
-      from <Electricity Input>
+      from {Electricity Input}
     unit: '%'
     skip-region-aggregation: true
-- Operating Reserve|Up|Electricity|<Electricity Input>:
+- Operating Reserve|Up|Electricity|{Electricity Input}:
     description: Upwards operating reserve by a typical power plant generating electricity
-      from <Electricity Input>
+      from {Electricity Input}
     unit: MWh
-- Operating Reserve|Down|Electricity|<Electricity Input>:
+- Operating Reserve|Down|Electricity|{Electricity Input}:
     description: Downward operating reserve by a typical power plant generating electricity
-      from <Electricity Input>
+      from {Electricity Input}
     unit: MWh
-- Maximum Ramping|Up|Electricity|<Electricity Input>:
+- Maximum Ramping|Up|Electricity|{Electricity Input}:
     description: Upward ramp limit by a typical power plant generating electricity
-      from <Electricity Input>
+      from {Electricity Input}
     unit: MW/h
     skip-region-aggregation: true
-- Maximum Ramping|Down|Electricity|<Electricity Input>:
+- Maximum Ramping|Down|Electricity|{Electricity Input}:
     description: Downward ramp limit by a typical power plant generating electricity
-      from <Electricity Input>
+      from {Electricity Input}
     unit: MW/h
     skip-region-aggregation: true
 - Maximum Storage|Electricity|Hydro|Reservoir:

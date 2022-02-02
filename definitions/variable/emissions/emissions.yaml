@@ -265,8 +265,8 @@
     description: CO2 emissions from agriculture, forestry and other land use (IPCC
       category 3)
     unit: Mt CO2/yr
-- Emission Rate|CO2|Electricity|<Electricity Input>:
-    description: CO2 emissions of a <Electricity Input> power plant
+- Emission Rate|CO2|Electricity|{Electricity Input}:
+    description: CO2 emissions of a {Electricity Input} power plant
     unit: tons/MWh
     skip-region-aggregation: true
 - Emissions|CO2|Energy:

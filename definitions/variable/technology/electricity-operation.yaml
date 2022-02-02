@@ -12,8 +12,8 @@
 #   - Flows in transmission lines
 # Demand not served
 
-- Active Power|Electricity|<Electricity Input>:
-    description: Active power of <Electricity Input> power plants
+- Active Power|Electricity|{Electricity Input}:
+    description: Active power of {Electricity Input} power plants
     unit: GWh
 
 - Active Power|Electricity|Load Curtailment:
@@ -40,20 +40,20 @@
     description: remaining amount of curtailement
     unit: GWh
 
-- Operation Cost|Electricity|<Electricity Input>:
-    description: Operation Cost of <Electricity Input> power plants
+- Operation Cost|Electricity|{Electricity Input}:
+    description: Operation Cost of {Electricity Input} power plants
     unit: EUR_2020
     skip-region-aggregation: true
 
-- Reserve|Electricity|Automatic Frequency Restoration|<Electricity Input>:
-    description: Automatic Frequency Restoration Reserve available for <Electricity Input>
+- Reserve|Electricity|Automatic Frequency Restoration|{Electricity Input}:
+    description: Automatic Frequency Restoration Reserve available for {Electricity Input}
      power plants; this amount is the maximum available for the grid operator considering
      the commitment decisions taken by the model
     unit: GWh
     skip-region-aggregation: false
 
-- Reserve|Electricity|Frequency Containment|<Electricity Input>:
-    description: Frequency Containment Reserve available for <Electricity Input>
+- Reserve|Electricity|Frequency Containment|{Electricity Input}:
+    description: Frequency Containment Reserve available for {Electricity Input}
      power plants; this amount is the maximum available for the grid operator considering
      the commitment decisions taken by the model
     unit: GWh

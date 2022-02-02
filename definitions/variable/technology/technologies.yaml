@@ -1,70 +1,70 @@
 - Capacity|Electricity:
     description: Total installed electricity generation capacity
     unit: GW
-- Capacity|Electricity|<Electricity Input>:
-    description: Total installed electricity generation capacity from <Electricity Input>
+- Capacity|Electricity|{Electricity Input}:
+    description: Total installed electricity generation capacity from {Electricity Input}
     unit: GW
 - Capacity|Heat|Residential and Commercial:
     description: Total installed heat generation capacity for the residential and
       commercial sectors
     unit: GW
-- Capacity|Heat|Residential and Commercial|<Fuel>:
+- Capacity|Heat|Residential and Commercial|{Fuel}:
     description: Total installed heat generation capacity for the residential and
-      commercial sectors from <Fuel>
+      commercial sectors from {Fuel}
     unit: GW
 - Capacity|Heat|Industrial:
     description: Total installed heat generation capacity for the industrial sector
     unit: GW
-- Capacity|Heat|Industrial|<Fuel>:
+- Capacity|Heat|Industrial|{Fuel}:
     description: Total installed heat generation capacity for the industrial sector
-      from <Fuel>
+      from {Fuel}
     unit: GW
-- Capital Cost|Electricity|<Electricity Input>:
-    description: Capital cost for <Electricity Input>
+- Capital Cost|Electricity|{Electricity Input}:
+    description: Capital cost for {Electricity Input}
     unit: [EUR_2020/kW, USD_2010/kW]
     skip-region-aggregation: true
-- Capital Cost|Heat|Residential and Commercial|<Fuel>:
-    description: Capital cost for <Fuel>
+- Capital Cost|Heat|Residential and Commercial|{Fuel}:
+    description: Capital cost for {Fuel}
     unit: [EUR_2020/kW, USD_2010/kW]
     skip-region-aggregation: true
-- Capital Cost|Heat|Industrial|<Fuel>:
-    description: Capital cost for <Fuel>
+- Capital Cost|Heat|Industrial|{Fuel}:
+    description: Capital cost for {Fuel}
     unit: [EUR_2020/kW, USD_2010/kW]
     skip-region-aggregation: true
-- Capital Cost|Transportation|Freight|<Transport>:
-    description: Capital cost for freight <Transport>
+- Capital Cost|Transportation|Freight|{Transport}:
+    description: Capital cost for freight {Transport}
     unit: [EUR_2020/tkm, USD_2010/tkm]
     skip-region-aggregation: true
-- Capital Cost|Transportation|Passenger|<Transport>:
-    description: Capital cost for passenger <Transport>
+- Capital Cost|Transportation|Passenger|{Transport}:
+    description: Capital cost for passenger {Transport}
     unit: [EUR_2020/pkm, USD_2010/pkm]
     skip-region-aggregation: true
-- Fixed Cost|Electricity|<Electricity Input>:
-    description: Fixed O&M cost for <Electricity Input>
+- Fixed Cost|Electricity|{Electricity Input}:
+    description: Fixed O&M cost for {Electricity Input}
     unit: [EUR_2020/kW/yr, USD_2010/kW/yr]
     skip-region-aggregation: true
-- Fixed Cost|Heat|Residential and Commercial|<Fuel>:
-    description: Fixed O&M for <Fuel>
+- Fixed Cost|Heat|Residential and Commercial|{Fuel}:
+    description: Fixed O&M for {Fuel}
     unit: [EUR_2020/kW/yr, USD_2010/kW/yr]
     skip-region-aggregation: true
-- Fixed Cost|Heat|Industrial|<Fuel>:
-    description: Fixed O&M for <Fuel>
+- Fixed Cost|Heat|Industrial|{Fuel}:
+    description: Fixed O&M for {Fuel}
     unit: [EUR_2020/kW/yr, USD_2010/kW/yr]
     skip-region-aggregation: true
-- Fixed Cost|Transportation|Freight|<Transport>:
-    description: Capital cost for freight <Transport>
+- Fixed Cost|Transportation|Freight|{Transport}:
+    description: Capital cost for freight {Transport}
     unit: [EUR_2020/tkm/yr, USD_2010/tkm/yr]
     skip-region-aggregation: true
-- Fixed Cost|Transportation|Passenger|<Transport>:
-    description: Capital cost for passenger <Transport>
+- Fixed Cost|Transportation|Passenger|{Transport}:
+    description: Capital cost for passenger {Transport}
     unit: [EUR_2020/pkm/yr, USD_2010/pkm/yr]
     skip-region-aggregation: true
-- Variable Cost|Heat|Residential and Commercial|<Fuel>:
-    description: Capital cost for <Fuel>
+- Variable Cost|Heat|Residential and Commercial|{Fuel}:
+    description: Capital cost for {Fuel}
     unit: [EUR_2020/MWh, USD_2010/MWh]
     skip-region-aggregation: true
-- Variable Cost|Heat|Industrial|<Fuel>:
-    description: Capital cost for <Fuel>
+- Variable Cost|Heat|Industrial|{Fuel}:
+    description: Capital cost for {Fuel}
     unit: [EUR_2020/MWh, USD_2010/MWh]
     skip-region-aggregation: true
 - Investment|Energy Efficiency:
@@ -84,8 +84,8 @@
       storage and transmission & distribution)
     unit: [million EUR_2020/yr, billion USD_2010/yr]
 
-- Investment|Energy Supply|Electricity|<Electricity Input>:
-    description: Investments in new <Electricity Input> power generation capacity
+- Investment|Energy Supply|Electricity|{Electricity Input}:
+    description: Investments in new {Electricity Input} power generation capacity
     notes: For plants with CCS, the investment in the capturing equipment should be
       included but not the one on transport and storage.
     unit: [million EUR_2020/yr, billion USD_2010/yr]

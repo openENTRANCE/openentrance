@@ -8,8 +8,8 @@ carbon sequestration and the impact of emissions on the climate
 
 Variables related to emissions should follow the structure below.
 
-- `Emissions|<Species>`
-- `Emissions|<Species>|<Specification>`
+- `Emissions|{Species}`
+- `Emissions|{Species}|{Specification}`
 
 Examples of species: `CO2`, `CH4`, `CO`, `NOx`
 
@@ -25,14 +25,14 @@ subcategories:
 
 Variables in this category should follow the structure below.
 
-- `Carbon Sequestration|<Type>`
-- `Carbon Sequestration|<Type>|<Specification>`
+- `Carbon Sequestration|{Type}`
+- `Carbon Sequestration|{Type}|{Specification}`
 
 ## Temperature
 
 Variables in this category should follow the structure below.
 
-- `Temperature|<Specification>`
+- `Temperature|{Specification}`
 
 ## Codelist
 

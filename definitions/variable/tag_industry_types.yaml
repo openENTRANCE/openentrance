@@ -1,11 +1,11 @@
-# This list of industries will replace any occurrence of `<Industry>`
+# This list of industries will replace any occurrence of `{Industry}`
 # in a variable-definition yaml file
 
 #   i.e., The following standard generic structure in economic variables:
-#   Capital Price Index|<Industry>:
-#   Labor Price Index|<Industry>:
+#   Capital Price Index|{Industry}:
+#   Labor Price Index|{Industry}:
 
-- <Industry>:
+- Industry:
   - iAGRI:
       description: agriculture
 
