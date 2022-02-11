@@ -183,7 +183,7 @@
     unit: '%'
     skip-region-aggregation: true
 
- - Price|Carbon:
+- Price|Carbon:
     definition: Price of carbon
     unit: [EUR_2020/t CO2, USD_2010/t CO2]
     region-aggregation:
