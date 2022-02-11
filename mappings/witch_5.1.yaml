@@ -37,11 +37,19 @@ native_regions:
   - EU27 & UK
   - EU27
   - World
- common_regions:
+common_regions:
   - Germany:
       - DEU
   - France:
       - FRA
+  - Austria:
+      - AUT
+  - Greece:
+      - GRC
+  - Italy:
+      - ITA
+  - Austria:
+      - POL
   - Asia (R5):
       - CHINA
       - SASIA
