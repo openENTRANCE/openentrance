@@ -190,20 +190,22 @@
         - Price|Carbon:
             weight: Emissions|CO2
             drop_negative_weights: False
+        - Price|Carbon (weighted by Final Energy):
+            weight: Final Energy
+        - Price|Carbon (weighted by Electricity Final Energy):
+            weight: Final Energy|Electricity
 
 - Price|Carbon (weighted by Final Energy):
     definition: Price of carbon
     notes: Spatial aggregation use final energy as weighting variable. This is weight method
      is preferable to avoid misleading aggregations when emissions are close to zero or negative.  
     unit: [EUR_2020/t CO2, USD_2010/t CO2]
-    weight: Final Energy
 
 - Price|Carbon (weighted by Electricity Final Energy):
     definition: Price of carbon
     notes: Spatial aggregation use electricity final energy as weighting variable. Used for
      bottom-up or partial equilibrium models that lack full energy system representation. 
     unit: [EUR_2020/t CO2, USD_2010/t CO2]
-    weight: Final Energy|Electricity
 
 - Price|Final Energy|Industry|Electricity:
     description: Electricity price at the final level in the industrial sector. 
