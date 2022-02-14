@@ -4,11 +4,11 @@ from nomenclature import CodeList
 
 
 # path to nomenclature definitions
-DEF_PATH = Path(__file__).parent.parent / "definitions"
+DEF_PATH = Path(__file__).parent.parent / "definitions" / "region"
 
 
 countries = CodeList.from_directory(
-    "region", path=DEF_PATH / "region", file="countries"
+    "region", path=DEF_PATH, file="countries.yaml"
 )
 """CodeList of countries"""
 
@@ -34,7 +34,7 @@ def _create_nuts_hierarchy():
     """Parse nuts3.yaml and create hierarchical dictionary"""
 
     hierarchy = dict()
-    nuts3 = CodeList.from_directory("region", path=DEF_PATH / "region", file="nuts3")
+    nuts3 = CodeList.from_directory("region", path=DEF_PATH, file="nuts3.yaml")
 
     for n3, mapping in nuts3.items():
         country, n1, n2 = [mapping.get(i) for i in ["country", "nuts1", "nuts2"]]
