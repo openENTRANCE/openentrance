@@ -198,14 +198,16 @@
 - Price|Carbon (weighted by Final Energy):
     definition: Price of carbon
     notes: Spatial aggregation use final energy as weighting variable. This is weight method
-     is preferable to avoid misleading aggregations when emissions are close to zero or negative.  
+     is preferable to avoid misleading aggregations when emissions are close to zero or negative.
+     This variable is computed as part of the region-processing from `Price|Carbon`.  
     unit: [EUR_2020/t CO2, USD_2010/t CO2]
     skip-region-aggregation: true
 
 - Price|Carbon (weighted by Electricity Final Energy):
     definition: Price of carbon
     notes: Spatial aggregation use electricity final energy as weighting variable. Used for
-     bottom-up or partial equilibrium models that lack full energy system representation. 
+     bottom-up or partial equilibrium models that lack full energy system representation.
+     This variable is computed as part of the region-processing from `Price|Carbon`.
     unit: [EUR_2020/t CO2, USD_2010/t CO2]
     skip-region-aggregation: true
 
