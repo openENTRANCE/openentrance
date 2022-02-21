@@ -36,8 +36,6 @@ native_regions:
   - VEN: TIAM-ECN 1.2|VEN
   - WEU: TIAM-ECN 1.2|WEU
   - ZAF: TIAM-ECN 1.2|ZAF
-  - Europe (excl. Turkey)
-  - World
 common_regions:
   - Europe (excl. Turkey)
       - WEU
