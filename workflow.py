@@ -25,10 +25,12 @@ def main(df: pyam.IamDataFrame, dimensions=["region", "variable"]) -> pyam.IamDa
     logger.info("Starting openENTRANCE timeseries-upload processing workflow...")
 
     if "subannual" in df.dimensions or df.time_col == "time":
-        dimensions = dimensions + ["subannual"]
+        _dimensions = dimensions + ["subannual"]
+    else:
+        _dimensions = dimensions
 
     # import definitions and region-processor
-    definition = DataStructureDefinition(here / "definitions", dimensions=dimensions)
+    definition = DataStructureDefinition(here / "definitions", dimensions=_dimensions)
     processor = RegionProcessor.from_directory(path=here / "mappings")
 
     # check if directional data exists in the scenario data, add to region codelist
