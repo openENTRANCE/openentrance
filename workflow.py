@@ -22,8 +22,6 @@ def ecemf(df: pyam.IamDataFrame) -> pyam.IamDataFrame:
 
 def main(df: pyam.IamDataFrame, dimensions=["region", "variable"]) -> pyam.IamDataFrame:
     """Main function for validation and processing"""
-    logger.info("Starting openENTRANCE timeseries-upload processing workflow...")
-
     if "subannual" in df.dimensions or df.time_col == "time":
         _dimensions = dimensions + ["subannual"]
     else:
