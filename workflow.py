@@ -23,12 +23,14 @@ def ecemf(df: pyam.IamDataFrame) -> pyam.IamDataFrame:
 def main(df: pyam.IamDataFrame, dimensions=["region", "variable"]) -> pyam.IamDataFrame:
     """Main function for validation and processing"""
     if "subannual" in df.dimensions or df.time_col == "time":
-        _dimensions = dimensions + ["subannual"]
+        dsd_dimensions = dimensions + ["subannual"]
     else:
-        _dimensions = dimensions
+        dsd_dimensions = dimensions
 
     # import definitions and region-processor
-    definition = DataStructureDefinition(here / "definitions", dimensions=_dimensions)
+    definition = DataStructureDefinition(
+        here / "definitions", dimensions=dsd_dimensions
+    )
     processor = RegionProcessor.from_directory(path=here / "mappings")
 
     # check if directional data exists in the scenario data, add to region codelist
