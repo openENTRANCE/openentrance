@@ -15,17 +15,22 @@ EXP_TIME_OFFSET = timedelta(seconds=3600)
 OE_SUBANNUAL_FORMAT = lambda x: x.strftime("%m-%d %H:%M%z").replace("+0100", "+01:00")
 
 
-def main(df: pyam.IamDataFrame) -> pyam.IamDataFrame:
-    """Main function for validation and processing"""
-    logger.info("Starting openENTRANCE timeseries-upload processing workflow...")
+def ecemf(df: pyam.IamDataFrame) -> pyam.IamDataFrame:
+    """Entrypoint for ECEMF scenario validation"""
+    return main(df, dimensions=["scenario", "region", "variable"])
 
+
+def main(df: pyam.IamDataFrame, dimensions=["region", "variable"]) -> pyam.IamDataFrame:
+    """Main function for validation and processing"""
     if "subannual" in df.dimensions or df.time_col == "time":
-        dimensions = ["region", "variable", "subannual"]
+        dsd_dimensions = dimensions + ["subannual"]
     else:
-        dimensions = ["region", "variable"]
+        dsd_dimensions = dimensions
 
     # import definitions and region-processor
-    definition = DataStructureDefinition(here / "definitions", dimensions=dimensions)
+    definition = DataStructureDefinition(
+        here / "definitions", dimensions=dsd_dimensions
+    )
     processor = RegionProcessor.from_directory(path=here / "mappings")
 
     # check if directional data exists in the scenario data, add to region codelist
@@ -42,7 +47,7 @@ def main(df: pyam.IamDataFrame) -> pyam.IamDataFrame:
                     definition.region[r] = None
 
     # validate the region and variable dimensions, apply region processing
-    df = process(df, definition, dimensions=["region", "variable"], processor=processor)
+    df = process(df, definition, dimensions=dimensions, processor=processor)
 
     # convert to subannual format if data provided in datetime format
     if df.time_col == "time":
