@@ -2,7 +2,7 @@
 # DO NOT ALTER THIS FILE MANUALLY!
 
 # List of countries
-- Countries:
+- country:
   - Albania:
       eu_member: false
       iso2: AL

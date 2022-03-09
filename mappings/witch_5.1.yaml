@@ -1,0 +1,91 @@
+model: WITCH 5.1
+native_regions:
+  - BRAZIL: WITCH 5.1|BRAZIL
+  - CANADA: WITCH 5.1|CANADA
+  - CHINA: WITCH 5.1|CHINA
+  - INDIA: WITCH 5.1|INDIA
+  - INDONESIA: WITCH 5.1|INDONESIA
+  - JPNKOR: WITCH 5.1|JPNKOR
+  - LACA: WITCH 5.1|LACA
+  - MENA: WITCH 5.1|MENA
+  - MEXICO: WITCH 5.1|MEXICO
+  - OCEANIA: WITCH 5.1|OCEANIA
+  - SASIA: WITCH 5.1|SASIA
+  - SEASIA: WITCH 5.1|SEASIA
+  - SOUTHAFRICA: WITCH 5.1|SOUTHAFRICA
+  - SSA: WITCH 5.1|SSA
+  - TE: WITCH 5.1|TE
+  - USA: WITCH 5.1|USA
+  - AUT: WITCH 5.1|AUT
+  - BALKAN: WITCH 5.1|BALKAN
+  - BNL: WITCH 5.1|BNL
+  - CHE: WITCH 5.1|CHE
+  - CZE: WITCH 5.1|CZE
+  - DEU: WITCH 5.1|DEU
+  - EASTEU: WITCH 5.1|EASTEU
+  - ESP: WITCH 5.1|ESP
+  - FRA: WITCH 5.1|FRA
+  - GBR: WITCH 5.1|GBR
+  - GRC: WITCH 5.1|GRC
+  - IRL: WITCH 5.1|IRL
+  - ITA: WITCH 5.1|ITA
+  - NORTHEU: WITCH 5.1|NORTHEU
+  - POL: WITCH 5.1|POL
+  - PRT: WITCH 5.1|PRT
+  - ROU: WITCH 5.1|ROU
+  - SWE: WITCH 5.1|SWE
+  - EU27 & UK
+  - EU27
+  - World
+common_regions:
+  - Germany:
+      - DEU
+  - France:
+      - FRA
+  - Austria:
+      - AUT
+  - Greece:
+      - GRC
+  - Italy:
+      - ITA
+  - Poland:
+      - POL
+  - Asia (R5):
+      - CHINA
+      - SASIA
+      - SEASIA
+      - INDIA
+      - INDONESIA
+  - Latin America (R5):
+      - LACA
+      - MEXICO
+      - BRAZIL
+  - Middle East & Africa (R5):
+      - MENA
+      - SSA
+      - SOUTHAFRICA
+  - OECD & EU (R5):
+      - CANADA
+      - USA
+      - AUT
+      - BALKAN
+      - BNL
+      - CHE
+      - CZE
+      - DEU
+      - EASTEU
+      - ESP
+      - FRA
+      - GBR
+      - GRC
+      - IRL
+      - ITA
+      - JPNKOR
+      - NORTHEU
+      - OCEANIA
+      - POL
+      - PRT
+      - ROU
+      - SWE
+  - Reforming Economies (R5):
+      - TE

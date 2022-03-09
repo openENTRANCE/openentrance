@@ -1,6 +1,6 @@
 # refer to `countries.yaml` for the mapping of ISO2 codes to country names
 
-- Europe:
+- aggregate regions:
 
   # generic definitions of Europe
 
