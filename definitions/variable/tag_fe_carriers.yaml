@@ -1,0 +1,64 @@
+# This list of inputs will replace any occurrence of `{Final Energy carrier}`
+# in a variable-definition yaml file
+
+- Final Energy carrier:
+  - Electricity:
+      description: electricity (including on-site solar PV), excluding transmission/distribution losses
+      
+  - Gases:
+      description: gases (natural gas, biogas, coal-gas), excluding transmission/distribution losses
+      
+  - Gases|Biomass:
+      description: biogas
+
+  - Gases|Electricity:
+      description: synthetic gaseous efuels ("power-to-gas")
+
+  - Gases|Fossil:
+      description: synthetic or derived gases of fossil origin
+
+  - Geothermal:
+      description: geothermal energy (e.g., from decentralized or small-scale geothermal heating systems) EXCLUDING geothermal heat pumps
+
+  - Heat:
+      description: heat (e.g., district heat, process heat, warm water), excluding transmission/distribution losses, excluding direct geothermal and solar heating
+
+  - Hydrogen:
+      description: hydrogen, excluding transmission/distribution losses
+
+  - Hydrogen|Biomass:
+      description: hydrogen from biomass
+
+  - Hydrogen|Electricity:
+      description: green hydrogen
+
+  - Hydrogen|Fossil:
+      description: fossil hydrogen
+
+  - Liquids:
+      description: refined liquids (conventional & unconventional oil, biofuels, coal-to-liquids, gas-to-liquids)
+
+  - Liquids|Biomass:
+      description: liquid biofuels
+
+  - Liquids|Electricity:
+      description: synthetic liquid efuels ("power-to-liquid")
+
+  - Liquids|Fossil:
+      description: liquids from fossil origin (conventional & unconventional petroleum, coal-to-liquids, gas-to-liquids)
+
+  - Solids:
+      description: solid fuel consumption (including coal and solid biomass)
+
+  - Solids|Biomass:
+      description: solid biomass (modern and traditional), excluding final energy consumption of bioliquids which are reported in the liquids category
+
+  - Solids|Biomass|Traditional:
+      description: solid fuel consumption of traditional biomass
+
+  - Solids|Fossil:
+      description: fossil solids
+
+  - Other:
+      description: other sources that do not fit to any other category
+
