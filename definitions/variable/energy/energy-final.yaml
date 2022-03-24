@@ -25,27 +25,6 @@
     description: Final energy consumption of {Final Energy carrier}
     unit: [EJ/yr, GWh]
 
-#    additional variables
-- Final Energy|Fossil:
-    description: Final energy consumption from fossil fuels
-    energy source: fossil fuels
-    energy use: all excl. losses
-    sector: all end-users
-    unit: [EJ/yr, GWh]
-- Final Energy|Solar:
-    description: Final energy consumption of solar energy (e.g., from roof-top solar
-      hot water collector systems)
-    energy source: solar
-    energy use: all excl. losses
-    sector: all
-    unit: [EJ/yr, GWh]
-- Final Energy|Solids|Coal:
-    description: Final energy coal consumption
-    energy source: coal
-    energy use: all excl. losses
-    sector: all
-    unit: [EJ/yr, GWh]
-
 # Final Energy per sector and carrier
 - Final Energy|Industry:
     description: Final energy consumed by the industrial sector, including feedstocks,
@@ -135,7 +114,27 @@
     sector: all
     unit: [EJ/yr, GWh]
 
-#    additional variables
+# additional variables
+- Final Energy|Fossil:
+    description: Final energy consumption from fossil fuels
+    energy source: fossil fuels
+    energy use: all excl. losses
+    sector: all end-users
+    unit: [EJ/yr, GWh]
+- Final Energy|Solar:
+    description: Final energy consumption of solar energy (e.g., from roof-top solar
+      hot water collector systems)
+    energy source: solar
+    energy use: all excl. losses
+    sector: all
+    unit: [EJ/yr, GWh]
+- Final Energy|Solids|Coal:
+    description: Final energy coal consumption
+    energy source: coal
+    energy use: all excl. losses
+    sector: all
+    unit: [EJ/yr, GWh]
+
 - Final Energy|Industry|Fossil:
     description: Final energy consumption by the industrial sector of fossil fuels
     energy source: fossil fuels
