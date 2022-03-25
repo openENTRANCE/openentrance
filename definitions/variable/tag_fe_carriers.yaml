@@ -59,6 +59,15 @@
   - Solids|Fossil:
       description: fossil solids
 
+  - Solar:
+      description: solar energy (e.g., from roof-top solar hot water collector systems)
+      note: only for industry and residential and commercial sectors
+
+  - Waste:
+      description: non-renewable waste
+      note: only for industry and non-energy use sectors
+      
   - Other:
       description: other sources that do not fit to any other category
+
 

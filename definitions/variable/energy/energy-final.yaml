@@ -19,22 +19,56 @@
     energy use: all excl. losses
     sector: all end-users
     unit: [EJ/yr, GWh]
+- Final Energy (w/o bunkers):
+    description: Total final energy consumption by all end-use sectors and all fuels,
+      excluding transmission/distribution losses, excluding bunker fuels, excluding pipelines 
+    energy source: all
+    energy use: all excl. losses
+    sector: all end-users
+    unit: [EJ/yr, GWh]
 
 # Final Energy per carrier
 - Final Energy|{Final Energy carrier}:
     description: Final energy consumption of {Final Energy carrier}
+    energy source: all
+    energy use: all excl. losses
     unit: [EJ/yr, GWh]
 
 # Final Energy per sector and carrier
+- Final Energy|Agriculture:
+    description: Final energy consumed by the agriculture sector, including fishing
+    energy source: all
+    energy use: all excl. losses
+    sector: agriculture
+    unit: [EJ/yr, GWh]
+- Final Energy|Agriculture|{Final Energy carrier}:
+    description: Final energy consumption by the agriculture sector of {Final Energy carrier}
+    note: include fishing
+    energy use: all excl. losses
+    sector: agriculture
+    unit: [EJ/yr, GWh]
+
 - Final Energy|Industry:
-    description: Final energy consumed by the industrial sector, including feedstocks,
-      including agriculture and fishing
+    description: Final energy consumed by the industrial sector, excluding non-energy use (e.g.feedstocks)
     energy source: all
     energy use: all excl. losses
     sector: industry
     unit: [EJ/yr, GWh]
 - Final Energy|Industry|{Final Energy carrier}:
     description: Final energy consumption by the industrial sector of {Final Energy carrier}
+    note: excluding non-energy use (e.g.feedstocks)
+    energy use: all excl. losses
+    sector: Industry
+    unit: [EJ/yr, GWh]
+- Final Energy|Industry|{Industry sectors}:
+    description: Final energy consumption by industry in {Industry sectors}
+    note: excluding non-energy use (e.g.feedstocks)
+    energy use: all excl. losses
+    sector: Industry
+    unit: [EJ/yr, GWh]
+- Final Energy|Industry|{Industry sectors}|{Final Energy carrier}:
+    description: Final energy consumption by industry in {Industry sectors} of {Final Energy carrier}
+    note: excluding non-energy use (e.g.feedstocks)
     energy use: all excl. losses
     sector: Industry
     unit: [EJ/yr, GWh]
@@ -50,6 +84,16 @@
     energy use: all excl. losses
     sector: Non-Energy Use
     unit: [EJ/yr, GWh]
+- Final Energy|Non-Energy Use|{Industry sectors}:
+    description: Final energy consumption by the non-combustion processes in the {Industry sectors}
+    energy use: all excl. losses
+    sector: Non-Energy Use
+    unit: [EJ/yr, GWh]
+- Final Energy|Non-Energy Use|{Industry sectors}|{Final Energy carrier}:
+    description: Final energy consumption by the non-combustion processes in the {Industry sectors} of {Final Energy carrier}
+    energy use: all excl. losses
+    sector: Non-Energy Use
+    unit: [EJ/yr, GWh]
 
 - Final Energy|Residential and Commercial:
     description: Final energy consumed in the residential & commercial sector
@@ -62,6 +106,41 @@
     energy use: all excl. losses
     sector: Residential and Commercial
     unit: [EJ/yr, GWh]
+- Final Energy|Residential and Commercial|Space Heating:
+    description: Final energy consumed for space heating in residential and commercial buildings
+    energy source: all
+    energy use: all excl. losses
+    sector: Residential and Commercial
+    unit: [EJ/yr, GWh]  
+- Final Energy|Commercial:
+    description: Final energy consumed in the commercial sector
+    energy source: all
+    energy use: all excl. losses
+    sector: Commercial
+    unit: [EJ/yr, GWh]
+- Final Energy|Commercial|{Final Energy carrier}:
+    description: Final energy consumption by the commercial sector of {Final Energy carrier}
+    energy use: all excl. losses
+    sector: Commercial
+    unit: [EJ/yr, GWh]
+- Final Energy|Residential:
+    description: Final energy consumed in the residential sector
+    energy source: all
+    energy use: all excl. losses
+    sector: Residential
+    unit: [EJ/yr, GWh]
+- Final Energy|Residential|{Final Energy carrier}:
+    description: Final energy consumption by the residential sector of {Final Energy carrier}
+    energy use: all excl. losses
+    sector: Residential
+    unit: [EJ/yr, GWh]
+
+- Final Energy|Transportation (w/ bunkers):
+    description: Final energy consumed in the transportation sector, including bunker fuels
+    energy source: all
+    energy use: transportation and bunkers
+    sector: all
+    unit: [EJ/yr, GWh]
 
 - Final Energy|Transportation:
     description: Final energy consumed in the transportation sector, excluding bunker
@@ -72,19 +151,51 @@
     unit: [EJ/yr, GWh]
 - Final Energy|Transportation|{Final Energy carrier}:
     description: Final energy consumption by the transportation sector of {Final Energy carrier}
+    note: exclude bunkers and pipelines
     energy use: transportation
     sector: all
     unit: [EJ/yr, GWh]
-
+- Final Energy|Transportation|{Transport mode}:
+    description: Final energy consumption by the transportation sector on {Transport mode}
+    note: exclude bunkers and pipelines
+    energy use: transportation
+    sector: all
+    unit: [EJ/yr, GWh]
 - Final Energy|Transportation|Passenger:
     description: Final energy consumed for passenger transportation, excluding bunkers 
+    note: exclude bunkers and pipelines
     energy source: all
+    energy use: passenger transportation
+    sector: all
+    unit: [EJ/yr, GWh]
+- Final Energy|Transportation|Passenger|{Final Energy carrier}:
+    description: Final energy consumed for passenger transportation of {Final Energy carrier}
+    note: exclude bunkers and pipelines
+    energy use: passenger transportation
+    sector: all
+    unit: [EJ/yr, GWh]
+- Final Energy|Transportation|Passenger|{Transport mode}:
+    description: Final energy consumed for passenger transportation on {Transport mode}
+    note: exclude bunkers and pipelines
     energy use: passenger transportation
     sector: all
     unit: [EJ/yr, GWh]
 - Final Energy|Transportation|Freight:
     description: Final energy consumed for freight transportation, excluding bunkers 
+    note: exclude bunkers and pipelines
     energy source: all
+    energy use: freight transportation
+    sector: all
+    unit: [EJ/yr, GWh]
+- Final Energy|Transportation|Freight|{Final Energy carrier}:
+    description: Final energy consumed for freight transportation of {Final Energy carrier}
+    note: exclude bunkers and pipelines
+    energy use: freight transportation
+    sector: all
+    unit: [EJ/yr, GWh]
+- Final Energy|Transportation|Freight|{Transport mode}:
+    description: Final energy consumed for freight transportation on {Transport mode}
+    note: exclude bunkers and pipelines
     energy use: freight transportation
     sector: all
     unit: [EJ/yr, GWh]
@@ -101,17 +212,88 @@
     energy use: bunkers
     sector: all
     unit: [EJ/yr, GWh]
+- Final Energy|Bunkers|{Bunkers mode}:
+    description: Final energy consumption by transportation bunkers on {Bunkers mode}
+    energy use: bunkers
+    sector: all
+    unit: [EJ/yr, GWh]
 - Final Energy|Bunkers|Passenger:
     description: Final energy consumed for passenger transportation in international bunkers 
     energy source: all
-    energy use: passenger transportation
+    energy use: bunkers passenger transportation
+    sector: all
+    unit: [EJ/yr, GWh]
+- Final Energy|Bunkers|Passenger|{Final Energy carrier}:
+    description: Final energy consumed for passenger transportation in international bunkers of {Final Energy carrier}
+    energy use: bunkers passenger transportation
+    sector: all
+    unit: [EJ/yr, GWh]
+- Final Energy|Bunkers|Passenger|{Bunkers mode}:
+    description: Final energy consumed for passenger transportation in international bunkers on {Bunkers mode}
+    energy use: bunkers passenger transportation
     sector: all
     unit: [EJ/yr, GWh]
 - Final Energy|Bunkers|Freight:
     description: Final energy consumed for freight transportation in international bunkers 
     energy source: all
-    energy use: freight transportation
+    energy use: bunkers freight transportation
     sector: all
+    unit: [EJ/yr, GWh]
+- Final Energy|Bunkers|Freight|{Final Energy carrier}:
+    description: Final energy consumed for freight transportation in international bunkers of {Final Energy carrier}
+    energy use: bunkers freight transportation
+    sector: all
+    unit: [EJ/yr, GWh]
+- Final Energy|Bunkers|Freight|{Bunkers mode}:
+    description: Final energy consumed for freight transportation in international bunkers on {Bunkers mode}
+    energy use: bunkers freight transportation
+    sector: all
+    unit: [EJ/yr, GWh]
+
+- Final Energy|Carbon Removal:
+    description: Final energy consumed by carbon dioxide removal processes
+    energy source: all
+    energy use: all excl. losses
+    sector: carbon removal
+    unit: [EJ/yr, GWh]
+- Final Energy|Carbon Removal|{Final Energy carrier}:
+    description: Final energy consumption by carbon dioxide removal processes of {Final Energy carrier}
+    energy use: all excl. losses
+    sector: carbon removal
+    unit: [EJ/yr, GWh]
+- Final Energy|Carbon Removal|Direct Air Capture:
+    description: Final energy consumed by carbon dioxide removal direct air capture
+    energy source: all
+    energy use: all excl. losses
+    sector: carbon removal
+    unit: [EJ/yr, GWh]
+- Final Energy|Carbon Removal|Direct Air Capture|{Final Energy carrier}:
+    description: Final energy consumed by carbon dioxide removal direct air capture of {Final Energy carrier}
+    energy use: all excl. losses
+    sector: carbon removal
+    unit: [EJ/yr, GWh]
+- Final Energy|Carbon Removal|Enhanced Weathering:
+    description: Final energy consumed by carbon dioxide removal enhanced weathering
+    energy source: all
+    energy use: all excl. losses
+    sector: carbon removal
+    unit: [EJ/yr, GWh]
+- Final Energy|Carbon Removal|Enhanced Weathering|{Final Energy carrier}:
+    description: Final energy consumed by carbon dioxide removal enhanced weathering of {Final Energy carrier}
+    energy use: all excl. losses
+    sector: carbon removal
+    unit: [EJ/yr, GWh]
+
+- Final Energy|Other Sector:
+    description: Final energy consumed by other sectors
+    energy source: all
+    energy use: all excl. losses
+    sector: other sectors
+    unit: [EJ/yr, GWh]
+- Final Energy|Other Sector|{Final Energy carrier}:
+    description: Final energy consumption by other sectors of {Final Energy carrier}
+    energy use: all excl. losses
+    sector: other sectors
     unit: [EJ/yr, GWh]
 
 # additional variables
@@ -120,13 +302,6 @@
     energy source: fossil fuels
     energy use: all excl. losses
     sector: all end-users
-    unit: [EJ/yr, GWh]
-- Final Energy|Solar:
-    description: Final energy consumption of solar energy (e.g., from roof-top solar
-      hot water collector systems)
-    energy source: solar
-    energy use: all excl. losses
-    sector: all
     unit: [EJ/yr, GWh]
 - Final Energy|Solids|Coal:
     description: Final energy coal consumption
@@ -145,12 +320,6 @@
     description: Final energy consumption by the industrial sector of liquid oil products
       (from conventional & unconventional oil)
     energy source: oil
-    energy use: all excl. losses
-    sector: industry
-    unit: [EJ/yr, GWh]
-- Final Energy|Industry|Solar:
-    description: Final energy consumption by the industrial sector of solar energy
-    energy source: solar
     energy use: all excl. losses
     sector: industry
     unit: [EJ/yr, GWh]
@@ -173,6 +342,12 @@
     energy use: none
     sector: all
     unit: [EJ/yr, GWh]
+- Final Energy|Non-Energy Use|Biomass:
+    description: Final energy consumption of biomass by the non-combustion processes
+    energy source: biomass
+    energy use: none
+    sector: all
+    unit: [EJ/yr, GWh]
 - Final Energy|Non-Energy Use|Oil:
     description: Final energy consumption of oil by the non-combustion processes
     energy source: oil
@@ -191,13 +366,6 @@
     description: Final energy consumption by the residential & commercial sector of
       liquid oil products (from conventional & unconventional oil)
     energy source: oil
-    energy use: all excl. losses
-    sector: Residential and Commercial
-    unit: [EJ/yr, GWh]
-- Final Energy|Residential and Commercial|Solar:
-    description: Final energy consumption by the residential & commercial sector of
-      solar energy
-    energy source: solar
     energy use: all excl. losses
     sector: Residential and Commercial
     unit: [EJ/yr, GWh]
