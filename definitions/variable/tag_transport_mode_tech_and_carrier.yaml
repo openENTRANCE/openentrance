@@ -82,6 +82,16 @@
   - 2W and 3W|Hybrid:
       description: 2W and 3W transportation using plugin hybrid vehicles
 
+  - 2W and 3W|Hybrid|Electricity:
+      description: electricity use in 2W and 3W transportation using plugin hybrid vehicles
+      note: this should not be included in emission variables 
+
+  - 2W and 3W|Hybrid|Gases:
+      description: gases use in 2W and 3W transportation using plugin hybrid vehicles 
+
+  - 2W and 3W|Hybrid|Liquids:
+      description: liquids use in 2W and 3W transportation using plugin hybrid vehicles 
+
   - 2W and 3W|ICE:
       description: 2W and 3W transportation using internal comLDVtion engines
 
@@ -101,6 +111,16 @@
 
   - LDV|Hybrid:
       description: light duty vehicles transportation using plugin hybrid vehicles
+
+  - LDV|Hybrid|Electricity:
+      description: electricity use in LDVtransportation using plugin hybrid vehicles
+      note: this should not be included in emission variables 
+
+  - LDV|Hybrid|Gases:
+      description: gases use in LDV transportation using plugin hybrid vehicles 
+
+  - LDV|Hybrid|Liquids:
+      description: liquids use in LDV transportation using plugin hybrid vehicles 
 
   - LDV|ICE:
       description: light duty vehicles transportation using internal comLDVtion engines
