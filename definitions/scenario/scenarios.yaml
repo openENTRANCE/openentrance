@@ -13,9 +13,9 @@
 - DIAG-NZero
 
 # Technology Constraint scenarios
-- DIAG-C400-LimBio
-- DIAG-C400-LimCCS
-- DIAG-C400-LimNuclear
+- DIAG-C400-lin-LimBio
+- DIAG-C400-lin-LimCCS
+- DIAG-C400-lin-LimNuclear
 
 # Paradigm Shift scenarios
 - DIAG-C400-lin-HighVRE
