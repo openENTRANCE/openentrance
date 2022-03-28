@@ -9,7 +9,7 @@
 - Energy Service|Transportation|Passenger|{Transport mode}:
     description: Provision of energy services related to passenger {Transport mode}
     unit: Gpkm/yr
-- Energy Service|Transportation|Bunkers|{Bunkers mode}:
+- Energy Service|Bunkers|{Bunkers mode}:
     description: Provision of energy services related to passenger bunkers {Bunkers mode}
     unit: Gpkm/yr
 - Energy Service|Transportation|Freight:
