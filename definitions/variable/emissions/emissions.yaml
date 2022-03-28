@@ -193,6 +193,9 @@
 - Carbon Capture|Usage:
     description: total carbon dioxide captured and used
     unit: Mt CO2/yr
+- Carbon Capture|Usage|Materials:
+    description: total carbon dioxide captured and used in short-lived and long-lived materials
+    unit: Mt CO2/yr
 - Carbon Capture|Usage|Materials|Long-lived:
     description: total carbon dioxide captured and used in long-lived materials (e.g. carbon fibers)
     unit: Mt CO2/yr
@@ -388,7 +391,7 @@
       transport and storage (IPCC category 1C), net of negative emissions from Bioenergy
       with CCS (BECCS), incl. industrial autoproduction
     unit: Mt CO2/yr
-- Emissions|CO2|Energy|Supply{Final Energy carrier}:
+- Emissions|CO2|Energy|Supply|{Final Energy carrier}:
     description: CO2 emissions from fuel combustion and fugitive emissions of {Final Energy carrier}
     unit: Mt CO2/yr
 - Emissions|CO2|Energy|Supply|Autoproduction:

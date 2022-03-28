@@ -1,0 +1,109 @@
+# This list of fuels will replace any occurrence of `{Bunkers mode}`
+# in a variable-definition yaml file
+
+- Bunkers mode:
+  - International Aviation:
+      description: International Aviations transportation
+
+  - International Aviation|Electricity:
+      description: electricity use in International Aviations transportation
+      note: this should not be included in emission variables
+      
+  - International Aviation|Gases:
+      description: gases (natural gas, biogas, coal-gas) use in International Aviations transportation
+      
+  - International Aviation|Gases|Biomass:
+      description: biogas use in International Aviations transportation
+      note: this should not be included in emission variables
+
+  - International Aviation|Gases|Electricity:
+      description: gaseous efuels use in International Aviations transportation
+      note: this should not be included in emission variables
+
+  - International Aviation|Gases|Fossil:
+      description: fossil gases use in International Aviations transportation
+      note: this should not be included in emission variables
+
+  - International Aviation|Hydrogen:
+      description: International Aviations transportation using hydrogen
+      note: this should not be included in emission variables
+
+  - International Aviation|Hydrogen|Biomass:
+      description: hydrogen from biomass use in International Aviations transportation
+      note: this should not be included in emission variables
+
+  - International Aviation|Hydrogen|Electricity:
+      description: green hydrogen use in International Aviations transportation
+      note: this should not be included in emission variables 
+
+  - International Aviation|Hydrogen|Fossil:
+      description: fossil Hydrogen use in International Aviations transportation
+      note: this should not be included in emission variables
+
+  - International Aviation|Liquids:
+      description: liquids use in International Aviations transportation
+
+  - International Aviation|Liquids|Biomass:
+      description: bioliquids use in International Aviations transportation
+      note: this should not be included in emission variables
+
+  - International Aviation|Liquids|Electricity:
+      description: liquid efuels use in International Aviations transportation
+      note: this should not be included in emission variables 
+
+  - International Aviation|Liquids|Fossil:
+      description: fossil Liquids use in International Aviations transportation
+      note: this should not be included in emission variables
+
+  - International Shipping:
+      description: International Shippings transportation
+
+  - International Shipping|Electricity:
+      description: electricity use in International Shippings transportation
+      note: this should not be included in emission variables
+      
+  - International Shipping|Gases:
+      description: gases (natural gas, biogas, coal-gas) use in International Shippings transportation
+      
+  - International Shipping|Gases|Biomass:
+      description: biogas use in International Shippings transportation
+      note: this should not be included in emission variables
+
+  - International Shipping|Gases|Electricity:
+      description: gaseous efuels use in International Shippings transportation
+      note: this should not be included in emission variables
+
+  - International Shipping|Gases|Fossil:
+      description: fossil gases use in International Shippings transportation
+      note: this should not be included in emission variables
+
+  - International Shipping|Hydrogen:
+      description: International Shippings transportation using hydrogen
+      note: this should not be included in emission variables
+
+  - International Shipping|Hydrogen|Biomass:
+      description: hydrogen from biomass use in International Shippings transportation
+      note: this should not be included in emission variables
+
+  - International Shipping|Hydrogen|Electricity:
+      description: green hydrogen use in International Shippings transportation
+      note: this should not be included in emission variables 
+
+  - International Shipping|Hydrogen|Fossil:
+      description: fossil Hydrogen use in International Shippings transportation
+      note: this should not be included in emission variables
+
+  - International Shipping|Liquids:
+      description: liquids use in International Shippings transportation
+
+  - International Shipping|Liquids|Biomass:
+      description: bioliquids use in International Shippings transportation
+      note: this should not be included in emission variables
+
+  - International Shipping|Liquids|Electricity:
+      description: liquid efuels use in International Shippings transportation
+      note: this should not be included in emission variables 
+
+  - International Shipping|Liquids|Fossil:
+      description: fossil Liquids use in International Shippings transportation
+      note: this should not be included in emission variables

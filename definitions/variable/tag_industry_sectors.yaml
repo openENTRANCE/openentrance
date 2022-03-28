@@ -1,0 +1,21 @@
+# This list of fuels will replace any occurrence of `{Industry sectors}`
+# in a variable-definition yaml file
+
+- Industry sectors:
+  - Chemicals:
+      description: chemicals sector, excluding feedstocks
+
+  - Iron and Steel:
+      description: iron and steel sector
+
+  - Non-Ferrous Metals:
+      description: non-ferrous metals sector
+
+  - Non-Metallic Minerals:
+      description: non-metallic minerals sector
+
+  - Pulp and Paper:
+      description: pulp and paper sector
+
+  - Other Sector:
+      description: other industry sectors
