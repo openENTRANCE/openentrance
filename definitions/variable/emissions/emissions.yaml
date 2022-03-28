@@ -408,6 +408,9 @@
 - Emissions|CO2|Energy|Supply|{Final Energy carrier}:
     description: CO2 emissions from fuel combustion and fugitive emissions of {Final Energy carrier}
     unit: Mt CO2/yr
+- Emissions|CO2|Energy|Supply|Electricity and Heat:
+    description: CO2 emissions from fuel combustion and fugitive emissions of electricity and heat
+    unit: Mt CO2/yr
 - Emissions|CO2|Energy|Supply|Autoproduction:
     description: CO2 emissions from electricty/heat production for own use
     unit: Mt CO2/yr
@@ -473,6 +476,9 @@
     unit: Mt CO2/yr
 - Gross Emissions|CO2|Energy|Supply|{Final Energy carrier}:
     description: Gross CO2 emissions from fuel combustion and fugitive emissions of {Final Energy carrier}
+    unit: Mt CO2/yr
+- Gross Emissions|CO2|Energy|Supply|Electricity and Heat:
+    description: Gross CO2 emissions from fuel combustion and fugitive emissions of electricity and heat
     unit: Mt CO2/yr
 - Gross Emissions|CO2|Industrial Processes:
     description: Gross CO2 emissions from industrial processes (IPCC categories 2A, B, C, E),
