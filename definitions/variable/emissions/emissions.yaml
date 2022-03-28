@@ -364,8 +364,18 @@
       international bunkers (IPCC category 1A3ai and 1A3di) 
     unit: Mt CO2/yr
 - Emissions|CO2|Energy|Demand|Transportation|{Transport mode}:
-    description: CO2 emissions from fuel combustion on {Transport mode} in transportation sector (IPCC
-      category 1A3), excluding pipeline emissions (IPCC category 1A3ei), excluding emissions from
+    description: CO2 emissions from fuel combustion on {Transport mode} in transportation sector 
+      (IPCC category 1A3), excluding pipeline emissions (IPCC category 1A3ei), excluding emissions from
+      international bunkers (IPCC category 1A3ai and 1A3di) 
+    unit: Mt CO2/yr
+- Emissions|CO2|Energy|Demand|Transportation|{Transport mode and carrier}:
+    description: CO2 emissions from fuel combustion on {Transport mode and carrier} in transportation sector
+      (IPCC category 1A3), excluding pipeline emissions (IPCC category 1A3ei), excluding emissions from
+      international bunkers (IPCC category 1A3ai and 1A3di) 
+    unit: Mt CO2/yr
+- Emissions|CO2|Energy|Demand|Transportation|{Transport mode, tech and carrier}:
+    description: CO2 emissions from fuel combustion on {Transport mode, tech and carrier} in transportation sector
+      (IPCC category 1A3), excluding pipeline emissions (IPCC category 1A3ei), excluding emissions from
       international bunkers (IPCC category 1A3ai and 1A3di) 
     unit: Mt CO2/yr
 - Emissions|CO2|Energy|Demand|Bunkers:
@@ -376,7 +386,11 @@
      (IPCC category 1A3ai and 1A3di) 
     unit: Mt CO2/yr
 - Emissions|CO2|Energy|Demand|Bunkers|{Bunkers mode}:
-    description: CO2 emissions from fuel combustion on {Transport mode} in international bunkers 
+    description: CO2 emissions from fuel combustion on {Bunkers mode} in international bunkers 
+     (IPCC category 1A3ai and 1A3di) 
+    unit: Mt CO2/yr
+- Emissions|CO2|Energy|Demand|Bunkers|{Bunkers mode and carrier}:
+    description: CO2 emissions from fuel combustion on {Bunkers mode and carrier} in international bunkers 
      (IPCC category 1A3ai and 1A3di) 
     unit: Mt CO2/yr
 - Emissions|CO2|Energy|Demand|Other Sector:
