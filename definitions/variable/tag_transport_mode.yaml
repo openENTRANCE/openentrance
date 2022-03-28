@@ -1,0 +1,29 @@
+# This list of fuels will replace any occurrence of `{Transport mode}`
+# in a variable-definition yaml file
+
+- Transport mode:
+
+# directly referenced in energy services
+#  - Bicycling and Walking:
+#      description: bicycles and by foot transportation
+
+  - Bus:
+      description: bus transportation
+
+  - Truck:
+      description: trucks transportation
+
+  - 2W and 3W:
+      description:  two- and three-wheel vehicles  transportation
+
+  - LDV:
+      description: light duty vehicles transportation
+
+  - Rail:
+      description: rail-based transportation
+
+  - Domestic Aviation:
+      description: Domestic Aviations transportation
+
+  - Domestic Shipping:
+      description: Domestic Shippings transportation

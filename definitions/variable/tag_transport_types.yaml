@@ -17,8 +17,9 @@
   - Maritime|Hydrogen:
       description: maritime hydrogen-based transportation technologies
 
-  - Rail:
-      description: rail-based transportation technologies
+# already in {transport mode}
+#  - Rail:
+#      description: rail-based transportation technologies
 
   - Rail|Electric:
       description: rail-based transportation technologies using electricity

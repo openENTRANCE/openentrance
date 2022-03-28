@@ -1,0 +1,9 @@
+# This list of fuels will replace any occurrence of `{Bunkers mode}`
+# in a variable-definition yaml file
+
+- Bunkers mode:
+  - International Aviation:
+      description: International Aviations transportation
+
+  - International Shipping:
+      description: International Shippings transportation
