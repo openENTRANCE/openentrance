@@ -58,6 +58,9 @@
 - Secondary Energy|Heat|Gases|Biomass:
     description: centralized heat generation from gas from biomass
     unit: EJ/yr
+- Secondary Energy|Heat|Gases|Fossil:
+    description: centralized heat generation from gas from fossil fuels
+    unit: EJ/yr
 - Secondary Energy|Heat|Gases|Coal:
     description: centralized heat generation from gas from coal
     unit: EJ/yr
