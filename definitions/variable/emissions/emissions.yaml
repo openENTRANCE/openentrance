@@ -438,7 +438,6 @@
 - Emissions|CO2|Other:
     description: CO2 emissions from other sources
     unit: Mt CO2/yr
-
 - Emissions|CO2|Industry and Industrial Processes:
     description: CO2 emissions from fuel combustion in industry (IPCC category 1A2) and from industrial processes
      (IPCC categories 2A, B, C, E), net of negative emissions from Bioenergy with CCS (BECCS)
@@ -483,6 +482,10 @@
 - Gross Emissions|CO2|Industrial Processes:
     description: Gross CO2 emissions from industrial processes (IPCC categories 2A, B, C, E),
      not accounting for negative emissions from BECCS
+    unit: Mt CO2/yr
+- Gross Emissions|CO2|Industry and Industrial Processes:
+    description: Gross CO2 emissions from fuel combustion in industry (IPCC category 1A2) and from industrial processes
+     (IPCC categories 2A, B, C, E), net of negative emissions from Bioenergy with CCS (BECCS)
     unit: Mt CO2/yr
 
 #non-CO2 emissions
