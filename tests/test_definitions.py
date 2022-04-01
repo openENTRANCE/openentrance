@@ -32,14 +32,14 @@ def test_variables_industry_types():
     assert obs["description"] == exp
 
 
-def test_variables_transport_types():
-    # check that exploding of {transport} to transportation modes works
-    obs = definition.variable["Energy Service|Transportation|Freight|Rail"]
-    exp = (
-        "Provision of energy services related to freight "
-        "rail-based transportation technologies"
-    )
-    assert obs["description"] == exp
+#def test_variables_transport_types():
+#    # check that exploding of {transport} to transportation modes works
+#    obs = definition.variable["Energy Service|Transportation|Freight|Rail"]
+#    exp = (
+#        "Provision of energy services related to freight "
+#        "rail-based transportation technologies"
+#    )
+#    assert obs["description"] == exp
 
 
 def test_variables_product_types():
