@@ -131,4 +131,64 @@
   - LDV|ICE|Liquids:
       description: liquids use in light duty vehicles transportation using internal comLDVtion engines
 
+  - LDV|Passenger|BEV:
+      description: light duty vehicles passenger transportation using battery electric 
+      note: this should not be included in emission variables
+
+  - LDV|Passenger|FCEV:
+      description: light duty vehicles passenger transportation using fuel cell electric vehicles
+      note: this should not be included in emission variables
+
+  - LDV|Passenger|Hybrid:
+      description: light duty vehicles passenger transportation using plugin hybrid vehicles
+
+  - LDV|Passenger|Hybrid|Electricity:
+      description: electricity use in LDV passenger transportation using plugin hybrid vehicles
+      note: this should not be included in emission variables 
+
+  - LDV|Passenger|Hybrid|Gases:
+      description: gases use in LDV passenger transportation using plugin hybrid vehicles 
+
+  - LDV|Passenger|Hybrid|Liquids:
+      description: liquids use in LDV passenger transportation using plugin hybrid vehicles 
+
+  - LDV|Passenger|ICE:
+      description: light duty vehicles passenger transportation using internal comLDVtion engines
+
+  - LDV|Passenger|ICE|Gases:
+      description: gases use in light duty vehicles passenger transportation using internal comLDVtion engines
+
+  - LDV|Passenger|ICE|Liquids:
+      description: liquids use in light duty vehicles passenger transportation using internal comLDVtion engines
+
+  - LDV|Freight|BEV:
+      description: light duty vehicles freight transportation using battery electric 
+      note: this should not be included in emission variables
+
+  - LDV|Freight|FCEV:
+      description: light duty vehicles freight transportation using fuel cell electric vehicles
+      note: this should not be included in emission variables
+
+  - LDV|Freight|Hybrid:
+      description: light duty vehicles freight transportation using plugin hybrid vehicles
+
+  - LDV|Freight|Hybrid|Electricity:
+      description: electricity use in LDV freight transportation using plugin hybrid vehicles
+      note: this should not be included in emission variables 
+
+  - LDV|Freight|Hybrid|Gases:
+      description: gases use in LDV freight transportation using plugin hybrid vehicles 
+
+  - LDV|Freight|Hybrid|Liquids:
+      description: liquids use in LDV freight transportation using plugin hybrid vehicles 
+
+  - LDV|Freight|ICE:
+      description: light duty vehicles freight transportation using internal comLDVtion engines
+
+  - LDV|Freight|ICE|Gases:
+      description: gases use in light duty vehicles freight transportation using internal comLDVtion engines
+
+  - LDV|Freight|ICE|Liquids:
+      description: liquids use in light duty vehicles freight transportation using internal comLDVtion engines
+
 

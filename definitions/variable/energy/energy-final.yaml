@@ -186,24 +186,6 @@
     energy use: passenger transportation
     sector: all
     unit: [EJ/yr, GWh]
-- Final Energy|Transportation|Passenger|{Transport mode}:
-    description: Final energy consumed for passenger transportation on {Transport mode}
-    note: exclude bunkers and pipelines
-    energy use: passenger transportation
-    sector: all
-    unit: [EJ/yr, GWh]
-- Final Energy|Transportation|Passenger|{Transport mode and carrier}:
-    description: Final energy consumed for passenger transportation on {Transport mode and carrier}
-    note: exclude bunkers and pipelines
-    energy use: passenger transportation
-    sector: all
-    unit: [EJ/yr, GWh]
-- Final Energy|Transportation|Passenger|{Transport mode, tech and carrier}:
-    description: Final energy consumed for passenger transportation on {Transport mode, tech and carrier}
-    note: exclude bunkers and pipelines
-    energy use: passenger transportation
-    sector: all
-    unit: [EJ/yr, GWh]
 - Final Energy|Transportation|Freight:
     description: Final energy consumed for freight transportation, excluding bunkers 
     note: exclude bunkers and pipelines
@@ -213,24 +195,6 @@
     unit: [EJ/yr, GWh]
 - Final Energy|Transportation|Freight|{Final Energy carrier}:
     description: Final energy consumed for freight transportation of {Final Energy carrier}
-    note: exclude bunkers and pipelines
-    energy use: freight transportation
-    sector: all
-    unit: [EJ/yr, GWh]
-- Final Energy|Transportation|Freight|{Transport mode}:
-    description: Final energy consumed for freight transportation on {Transport mode}
-    note: exclude bunkers and pipelines
-    energy use: freight transportation
-    sector: all
-    unit: [EJ/yr, GWh]
-- Final Energy|Transportation|Freight|{Transport mode and carrier}:
-    description: Final energy consumed for freight transportation on {Transport mode and carrier}
-    note: exclude bunkers and pipelines
-    energy use: freight transportation
-    sector: all
-    unit: [EJ/yr, GWh]
-- Final Energy|Transportation|Freight|{Transport mode, tech and carrier}:
-    description: Final energy consumed for freight transportation on {Transport mode, tech and carrier}
     note: exclude bunkers and pipelines
     energy use: freight transportation
     sector: all
@@ -269,16 +233,6 @@
     energy use: bunkers passenger transportation
     sector: all
     unit: [EJ/yr, GWh]
-- Final Energy|Bunkers|Passenger|{Bunkers mode}:
-    description: Final energy consumed for passenger transportation in international bunkers on {Bunkers mode}
-    energy use: bunkers passenger transportation
-    sector: all
-    unit: [EJ/yr, GWh]
-- Final Energy|Bunkers|Passenger|{Bunkers mode and carrier}:
-    description: Final energy consumed for passenger transportation in international bunkers on {Bunkers mode and carrier}
-    energy use: bunkers passenger transportation
-    sector: all
-    unit: [EJ/yr, GWh]
 - Final Energy|Bunkers|Freight:
     description: Final energy consumed for freight transportation in international bunkers 
     energy source: all
@@ -287,16 +241,6 @@
     unit: [EJ/yr, GWh]
 - Final Energy|Bunkers|Freight|{Final Energy carrier}:
     description: Final energy consumed for freight transportation in international bunkers of {Final Energy carrier}
-    energy use: bunkers freight transportation
-    sector: all
-    unit: [EJ/yr, GWh]
-- Final Energy|Bunkers|Freight|{Bunkers mode}:
-    description: Final energy consumed for freight transportation in international bunkers on {Bunkers mode}
-    energy use: bunkers freight transportation
-    sector: all
-    unit: [EJ/yr, GWh]
-- Final Energy|Bunkers|Freight|{Bunkers mode and carrier}:
-    description: Final energy consumed for freight transportation in international bunkers on {Bunkers mode and carrier}
     energy use: bunkers freight transportation
     sector: all
     unit: [EJ/yr, GWh]
