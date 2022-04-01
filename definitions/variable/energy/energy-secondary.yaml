@@ -43,6 +43,9 @@
 - Secondary Energy|Gases|Coal:
     description: Total production of coal gas from coal gasification
     unit: EJ/yr
+- Secondary Energy|Gases|Gas:
+    description: Total production of fossil natural gas
+    unit: EJ/yr
 - Secondary Energy|Gases|Natural Gas:
     description: Total production of fossil natural gas
     unit: EJ/yr
@@ -163,6 +166,9 @@
     unit: EJ/yr
 - Secondary Energy|Solids|Biomass:
     description: Solid secondary energy carriers made from biomass
+    unit: EJ/yr
+- Secondary Energy|Solids|Biomass|Traditional:
+    description: Solid secondary energy carriers made from traditional biomass
     unit: EJ/yr
 - Secondary Energy|Solids|Fossil:
     description: solid secondary energy carriers produced from fossils (e.g., briquettes, coke)
