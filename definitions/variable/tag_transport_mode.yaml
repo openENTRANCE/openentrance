@@ -18,12 +18,36 @@
 
   - LDV:
       description: light duty vehicles transportation
+  
+  - LDV|Passenger:
+      description: light duty vehicles passenger transportation
 
+  - LDV|Freight:
+      description: light duty vehicles freight transportation
+  
   - Rail:
       description: rail-based transportation
 
+  - Rail|Passenger:
+      description: rail-based passenger transportation
+
+  - Rail|Freight:
+      description: rail-based freight transportation
+
   - Domestic Aviation:
-      description: Domestic Aviations transportation
+      description: Domestic Aviation transportation
+
+  - Domestic Aviation|Passenger:
+      description: Domestic Aviation passenger transportation
+
+  - Domestic Aviation|Freight:
+      description: Domestic Aviation freight transportation
 
   - Domestic Shipping:
-      description: Domestic Shippings transportation
+      description: Domestic Shipping transportation
+
+  - Domestic Shipping|Passenger:
+      description: Domestic Shipping passenger transportation
+
+  - Domestic Shipping|Freight:
+      description: Domestic Shipping freight transportation

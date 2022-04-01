@@ -203,6 +203,106 @@
       description: fossil Liquids use in light duty vehicles transportation
       note: this should not be included in emission variables
 
+  - LDV|Passenger|Electricity:
+      description: electricity use in light duty vehicles passenger transportation
+      note: this should not be included in emission variables
+      
+  - LDV|Passenger|Gases:
+      description: gases use in light duty vehicles passenger transportation
+      
+  - LDV|Passenger|Gases|Biomass:
+      description: biogas use in light duty vehicles passenger transportation
+      note: this should not be included in emission variables
+
+  - LDV|Passenger|Gases|Electricity:
+      description: gaseous efuels use in light duty vehicles passenger transportation
+      note: this should not be included in emission variables
+
+  - LDV|Passenger|Gases|Fossil:
+      description: fossil gases use in light duty vehicles passenger transportation
+      note: this should not be included in emission variables
+
+  - LDV|Passenger|Hydrogen:
+      description: light duty vehicles passenger transportation using hydrogen
+      note: this should not be included in emission variables
+
+  - LDV|Passenger|Hydrogen|Biomass:
+      description: hydrogen from biomass use in light duty vehicles passenger transportation
+      note: this should not be included in emission variables
+
+  - LDV|Passenger|Hydrogen|Electricity:
+      description: green hydrogen use in light duty vehicles passenger transportation
+      note: this should not be included in emission variables 
+
+  - LDV|Passenger|Hydrogen|Fossil:
+      description: fossil Hydrogen use in light duty vehicles passenger transportation
+      note: this should not be included in emission variables
+
+  - LDV|Passenger|Liquids:
+      description: liquids use in light duty vehicles passenger transportation
+
+  - LDV|Passenger|Liquids|Biomass:
+      description: bioliquids use in light duty vehicles passenger transportation
+      note: this should not be included in emission variables
+
+  - LDV|Passenger|Liquids|Electricity:
+      description: liquid efuels use in light duty vehicles passenger transportation
+      note: this should not be included in emission variables 
+
+  - LDV|Passenger|Liquids|Fossil:
+      description: fossil Liquids use in light duty vehicles passenger transportation
+      note: this should not be included in emission variables
+
+  - LDV|Freight|Electricity:
+      description: electricity use in light duty vehicles freight transportation
+      note: this should not be included in emission variables
+      
+  - LDV|Freight|Gases:
+      description: gases use in light duty vehicles freight transportation
+      
+  - LDV|Freight|Gases|Biomass:
+      description: biogas use in light duty vehicles freight transportation
+      note: this should not be included in emission variables
+
+  - LDV|Freight|Gases|Electricity:
+      description: gaseous efuels use in light duty vehicles freight transportation
+      note: this should not be included in emission variables
+
+  - LDV|Freight|Gases|Fossil:
+      description: fossil gases use in light duty vehicles freight transportation
+      note: this should not be included in emission variables
+
+  - LDV|Freight|Hydrogen:
+      description: light duty vehicles freight transportation using hydrogen
+      note: this should not be included in emission variables
+
+  - LDV|Freight|Hydrogen|Biomass:
+      description: hydrogen from biomass use in light duty vehicles freight transportation
+      note: this should not be included in emission variables
+
+  - LDV|Freight|Hydrogen|Electricity:
+      description: green hydrogen use in light duty vehicles freight transportation
+      note: this should not be included in emission variables 
+
+  - LDV|Freight|Hydrogen|Fossil:
+      description: fossil Hydrogen use in light duty vehicles freight transportation
+      note: this should not be included in emission variables
+
+  - LDV|Freight|Liquids:
+      description: liquids use in light duty vehicles freight transportation
+
+  - LDV|Freight|Liquids|Biomass:
+      description: bioliquids use in light duty vehicles freight transportation
+      note: this should not be included in emission variables
+
+  - LDV|Freight|Liquids|Electricity:
+      description: liquid efuels use in light duty vehicles freight transportation
+      note: this should not be included in emission variables 
+
+  - LDV|Freight|Liquids|Fossil:
+      description: fossil Liquids use in light duty vehicles freight transportation
+      note: this should not be included in emission variables
+
   - Rail|Electricity:
       description: electricity use in rail-based transportation
       note: this should not be included in emission variables
@@ -253,102 +353,402 @@
       description: fossil Liquids use in rail-based transportation
       note: this should not be included in emission variables
 
+  - Rail|Passenger|Electricity:
+      description: electricity use in rail-based passenger transportation
+      note: this should not be included in emission variables
+      
+  - Rail|Passenger|Gases:
+      description: gases use in rail-based passenger transportation
+      
+  - Rail|Passenger|Gases|Biomass:
+      description: biogas use in rail-based passenger transportation
+      note: this should not be included in emission variables
+
+  - Rail|Passenger|Gases|Electricity:
+      description: gaseous efuels use in rail-based passenger transportation
+      note: this should not be included in emission variables
+
+  - Rail|Passenger|Gases|Fossil:
+      description: fossil gases use in rail-based passenger transportation
+      note: this should not be included in emission variables
+
+  - Rail|Passenger|Hydrogen:
+      description: rail-based passenger transportation using hydrogen
+      note: this should not be included in emission variables
+
+  - Rail|Passenger|Hydrogen|Biomass:
+      description: hydrogen from biomass use in rail-based passenger transportation
+      note: this should not be included in emission variables
+
+  - Rail|Passenger|Hydrogen|Electricity:
+      description: green hydrogen use in rail-based passenger transportation
+      note: this should not be included in emission variables 
+
+  - Rail|Passenger|Hydrogen|Fossil:
+      description: fossil Hydrogen use in rail-based passenger transportation
+      note: this should not be included in emission variables
+
+  - Rail|Passenger|Liquids:
+      description: liquids use in rail-based passenger transportation
+
+  - Rail|Passenger|Liquids|Biomass:
+      description: bioliquids use in rail-based passenger transportation
+      note: this should not be included in emission variables
+
+  - Rail|Passenger|Liquids|Electricity:
+      description: liquid efuels use in rail-based passenger transportation
+      note: this should not be included in emission variables 
+
+  - Rail|Passenger|Liquids|Fossil:
+      description: fossil Liquids use in rail-based passenger transportation
+      note: this should not be included in emission variables
+
+  - Rail|Freight|Electricity:
+      description: electricity use in rail-based freight transportation
+      note: this should not be included in emission variables
+      
+  - Rail|Freight|Gases:
+      description: gases use in rail-based freight transportation
+      
+  - Rail|Freight|Gases|Biomass:
+      description: biogas use in rail-based freight transportation
+      note: this should not be included in emission variables
+
+  - Rail|Freight|Gases|Electricity:
+      description: gaseous efuels use in rail-based freight transportation
+      note: this should not be included in emission variables
+
+  - Rail|Freight|Gases|Fossil:
+      description: fossil gases use in rail-based freight transportation
+      note: this should not be included in emission variables
+
+  - Rail|Freight|Hydrogen:
+      description: rail-based freight transportation using hydrogen
+      note: this should not be included in emission variables
+
+  - Rail|Freight|Hydrogen|Biomass:
+      description: hydrogen from biomass use in rail-based freight transportation
+      note: this should not be included in emission variables
+
+  - Rail|Freight|Hydrogen|Electricity:
+      description: green hydrogen use in rail-based freight transportation
+      note: this should not be included in emission variables 
+
+  - Rail|Freight|Hydrogen|Fossil:
+      description: fossil Hydrogen use in rail-based freight transportation
+      note: this should not be included in emission variables
+
+  - Rail|Freight|Liquids:
+      description: liquids use in rail-based freight transportation
+
+  - Rail|Freight|Liquids|Biomass:
+      description: bioliquids use in rail-based freight transportation
+      note: this should not be included in emission variables
+
+  - Rail|Freight|Liquids|Electricity:
+      description: liquid efuels use in rail-based freight transportation
+      note: this should not be included in emission variables 
+
+  - Rail|Freight|Liquids|Fossil:
+      description: fossil Liquids use in rail-based freight transportation
+      note: this should not be included in emission variables
+
   - Domestic Aviation|Electricity:
-      description: electricity use in Domestic Aviations transportation
+      description: electricity use in Domestic Aviation transportation
       note: this should not be included in emission variables
       
   - Domestic Aviation|Gases:
-      description: gases (natural gas, biogas, coal-gas) use in Domestic Aviations transportation
+      description: gases (natural gas, biogas, coal-gas) use in Domestic Aviation transportation
       
   - Domestic Aviation|Gases|Biomass:
-      description: biogas use in Domestic Aviations transportation
+      description: biogas use in Domestic Aviation transportation
       note: this should not be included in emission variables
 
   - Domestic Aviation|Gases|Electricity:
-      description: gaseous efuels use in Domestic Aviations transportation
+      description: gaseous efuels use in Domestic Aviation transportation
       note: this should not be included in emission variables
 
   - Domestic Aviation|Gases|Fossil:
-      description: fossil gases use in Domestic Aviations transportation
+      description: fossil gases use in Domestic Aviation transportation
       note: this should not be included in emission variables
 
   - Domestic Aviation|Hydrogen:
-      description: Domestic Aviations transportation using hydrogen
+      description: Domestic Aviation transportation using hydrogen
       note: this should not be included in emission variables
 
   - Domestic Aviation|Hydrogen|Biomass:
-      description: hydrogen from biomass use in Domestic Aviations transportation
+      description: hydrogen from biomass use in Domestic Aviation transportation
       note: this should not be included in emission variables
 
   - Domestic Aviation|Hydrogen|Electricity:
-      description: green hydrogen use in Domestic Aviations transportation
+      description: green hydrogen use in Domestic Aviation transportation
       note: this should not be included in emission variables 
 
   - Domestic Aviation|Hydrogen|Fossil:
-      description: fossil Hydrogen use in Domestic Aviations transportation
+      description: fossil Hydrogen use in Domestic Aviation transportation
       note: this should not be included in emission variables
 
   - Domestic Aviation|Liquids:
-      description: liquids use in Domestic Aviations transportation
+      description: liquids use in Domestic Aviation transportation
 
   - Domestic Aviation|Liquids|Biomass:
-      description: bioliquids use in Domestic Aviations transportation
+      description: bioliquids use in Domestic Aviation transportation
       note: this should not be included in emission variables
 
   - Domestic Aviation|Liquids|Electricity:
-      description: liquid efuels use in Domestic Aviations transportation
+      description: liquid efuels use in Domestic Aviation transportation
       note: this should not be included in emission variables 
 
   - Domestic Aviation|Liquids|Fossil:
-      description: fossil Liquids use in Domestic Aviations transportation
+      description: fossil Liquids use in Domestic Aviation transportation
+      note: this should not be included in emission variables
+
+  - Domestic Aviation|Passenger|Electricity:
+      description: electricity use in Domestic Aviation passenger transportation
+      note: this should not be included in emission variables
+      
+  - Domestic Aviation|Passenger|Gases:
+      description: gases (natural gas, biogas, coal-gas) use in Domestic Aviation passenger transportation
+      
+  - Domestic Aviation|Passenger|Gases|Biomass:
+      description: biogas use in Domestic Aviation passenger transportation
+      note: this should not be included in emission variables
+
+  - Domestic Aviation|Passenger|Gases|Electricity:
+      description: gaseous efuels use in Domestic Aviation passenger transportation
+      note: this should not be included in emission variables
+
+  - Domestic Aviation|Passenger|Gases|Fossil:
+      description: fossil gases use in Domestic Aviation passenger transportation
+      note: this should not be included in emission variables
+
+  - Domestic Aviation|Passenger|Hydrogen:
+      description: Domestic Aviation passenger transportation using hydrogen
+      note: this should not be included in emission variables
+
+  - Domestic Aviation|Passenger|Hydrogen|Biomass:
+      description: hydrogen from biomass use in Domestic Aviation passenger transportation
+      note: this should not be included in emission variables
+
+  - Domestic Aviation|Passenger|Hydrogen|Electricity:
+      description: green hydrogen use in Domestic Aviation passenger transportation
+      note: this should not be included in emission variables 
+
+  - Domestic Aviation|Passenger|Hydrogen|Fossil:
+      description: fossil Hydrogen use in Domestic Aviation passenger transportation
+      note: this should not be included in emission variables
+
+  - Domestic Aviation|Passenger|Liquids:
+      description: liquids use in Domestic Aviation passenger transportation
+
+  - Domestic Aviation|Passenger|Liquids|Biomass:
+      description: bioliquids use in Domestic Aviation passenger transportation
+      note: this should not be included in emission variables
+
+  - Domestic Aviation|Passenger|Liquids|Electricity:
+      description: liquid efuels use in Domestic Aviation passenger transportation
+      note: this should not be included in emission variables 
+
+  - Domestic Aviation|Passenger|Liquids|Fossil:
+      description: fossil Liquids use in Domestic Aviation passenger transportation
+      note: this should not be included in emission variables
+
+  - Domestic Aviation|Freight|Electricity:
+      description: electricity use in Domestic Aviation freight transportation
+      note: this should not be included in emission variables
+      
+  - Domestic Aviation|Freight|Gases:
+      description: gases (natural gas, biogas, coal-gas) use in Domestic Aviation freight transportation
+      
+  - Domestic Aviation|Freight|Gases|Biomass:
+      description: biogas use in Domestic Aviation freight transportation
+      note: this should not be included in emission variables
+
+  - Domestic Aviation|Freight|Gases|Electricity:
+      description: gaseous efuels use in Domestic Aviation freight transportation
+      note: this should not be included in emission variables
+
+  - Domestic Aviation|Freight|Gases|Fossil:
+      description: fossil gases use in Domestic Aviation freight transportation
+      note: this should not be included in emission variables
+
+  - Domestic Aviation|Freight|Hydrogen:
+      description: Domestic Aviation freight transportation using hydrogen
+      note: this should not be included in emission variables
+
+  - Domestic Aviation|Freight|Hydrogen|Biomass:
+      description: hydrogen from biomass use in Domestic Aviation freight transportation
+      note: this should not be included in emission variables
+
+  - Domestic Aviation|Freight|Hydrogen|Electricity:
+      description: green hydrogen use in Domestic Aviation freight transportation
+      note: this should not be included in emission variables 
+
+  - Domestic Aviation|Freight|Hydrogen|Fossil:
+      description: fossil Hydrogen use in Domestic Aviation freight transportation
+      note: this should not be included in emission variables
+
+  - Domestic Aviation|Freight|Liquids:
+      description: liquids use in Domestic Aviation freight transportation
+
+  - Domestic Aviation|Freight|Liquids|Biomass:
+      description: bioliquids use in Domestic Aviation freight transportation
+      note: this should not be included in emission variables
+
+  - Domestic Aviation|Freight|Liquids|Electricity:
+      description: liquid efuels use in Domestic Aviation freight transportation
+      note: this should not be included in emission variables 
+
+  - Domestic Aviation|Freight|Liquids|Fossil:
+      description: fossil Liquids use in Domestic Aviation freight transportation
       note: this should not be included in emission variables
 
   - Domestic Shipping|Electricity:
-      description: electricity use in Domestic Shippings transportation
+      description: electricity use in Domestic Shipping transportation
       note: this should not be included in emission variables
       
   - Domestic Shipping|Gases:
-      description: gases (natural gas, biogas, coal-gas) use in Domestic Shippings transportation
+      description: gases (natural gas, biogas, coal-gas) use in Domestic Shipping transportation
       
   - Domestic Shipping|Gases|Biomass:
-      description: biogas use in Domestic Shippings transportation
+      description: biogas use in Domestic Shipping transportation
       note: this should not be included in emission variables
 
   - Domestic Shipping|Gases|Electricity:
-      description: gaseous efuels use in Domestic Shippings transportation
+      description: gaseous efuels use in Domestic Shipping transportation
       note: this should not be included in emission variables
 
   - Domestic Shipping|Gases|Fossil:
-      description: fossil gases use in Domestic Shippings transportation
+      description: fossil gases use in Domestic Shipping transportation
       note: this should not be included in emission variables
 
   - Domestic Shipping|Hydrogen:
-      description: Domestic Shippings transportation using hydrogen
+      description: Domestic Shipping transportation using hydrogen
       note: this should not be included in emission variables
 
   - Domestic Shipping|Hydrogen|Biomass:
-      description: hydrogen from biomass use in Domestic Shippings transportation
+      description: hydrogen from biomass use in Domestic Shipping transportation
       note: this should not be included in emission variables
 
   - Domestic Shipping|Hydrogen|Electricity:
-      description: green hydrogen use in Domestic Shippings transportation
+      description: green hydrogen use in Domestic Shipping transportation
       note: this should not be included in emission variables 
 
   - Domestic Shipping|Hydrogen|Fossil:
-      description: fossil Hydrogen use in Domestic Shippings transportation
+      description: fossil Hydrogen use in Domestic Shipping transportation
       note: this should not be included in emission variables
 
   - Domestic Shipping|Liquids:
-      description: liquids use in Domestic Shippings transportation
+      description: liquids use in Domestic Shipping transportation
 
   - Domestic Shipping|Liquids|Biomass:
-      description: bioliquids use in Domestic Shippings transportation
+      description: bioliquids use in Domestic Shipping transportation
       note: this should not be included in emission variables
 
   - Domestic Shipping|Liquids|Electricity:
-      description: liquid efuels use in Domestic Shippings transportation
+      description: liquid efuels use in Domestic Shipping transportation
       note: this should not be included in emission variables 
 
   - Domestic Shipping|Liquids|Fossil:
-      description: fossil Liquids use in Domestic Shippings transportation
+      description: fossil Liquids use in Domestic Shipping transportation
+      note: this should not be included in emission variables
+
+  - Domestic Shipping|Passenger|Electricity:
+      description: electricity use in Domestic Shipping passenger transportation
+      note: this should not be included in emission variables
+      
+  - Domestic Shipping|Passenger|Gases:
+      description: gases (natural gas, biogas, coal-gas) use in Domestic Shipping passenger transportation
+      
+  - Domestic Shipping|Passenger|Gases|Biomass:
+      description: biogas use in Domestic Shipping passenger transportation
+      note: this should not be included in emission variables
+
+  - Domestic Shipping|Passenger|Gases|Electricity:
+      description: gaseous efuels use in Domestic Shipping passenger transportation
+      note: this should not be included in emission variables
+
+  - Domestic Shipping|Passenger|Gases|Fossil:
+      description: fossil gases use in Domestic Shipping passenger transportation
+      note: this should not be included in emission variables
+
+  - Domestic Shipping|Passenger|Hydrogen:
+      description: Domestic Shipping passenger transportation using hydrogen
+      note: this should not be included in emission variables
+
+  - Domestic Shipping|Passenger|Hydrogen|Biomass:
+      description: hydrogen from biomass use in Domestic Shipping passenger transportation
+      note: this should not be included in emission variables
+
+  - Domestic Shipping|Passenger|Hydrogen|Electricity:
+      description: green hydrogen use in Domestic Shipping passenger transportation
+      note: this should not be included in emission variables 
+
+  - Domestic Shipping|Passenger|Hydrogen|Fossil:
+      description: fossil Hydrogen use in Domestic Shipping passenger transportation
+      note: this should not be included in emission variables
+
+  - Domestic Shipping|Passenger|Liquids:
+      description: liquids use in Domestic Shipping passenger transportation
+
+  - Domestic Shipping|Passenger|Liquids|Biomass:
+      description: bioliquids use in Domestic Shipping passenger transportation
+      note: this should not be included in emission variables
+
+  - Domestic Shipping|Passenger|Liquids|Electricity:
+      description: liquid efuels use in Domestic Shipping passenger transportation
+      note: this should not be included in emission variables 
+
+  - Domestic Shipping|Passenger|Liquids|Fossil:
+      description: fossil Liquids use in Domestic Shipping passenger transportation
+      note: this should not be included in emission variables
+
+  - Domestic Shipping|Freight|Electricity:
+      description: electricity use in Domestic Shipping freight transportation
+      note: this should not be included in emission variables
+      
+  - Domestic Shipping|Freight|Gases:
+      description: gases (natural gas, biogas, coal-gas) use in Domestic Shipping freight transportation
+      
+  - Domestic Shipping|Freight|Gases|Biomass:
+      description: biogas use in Domestic Shipping freight transportation
+      note: this should not be included in emission variables
+
+  - Domestic Shipping|Freight|Gases|Electricity:
+      description: gaseous efuels use in Domestic Shipping freight transportation
+      note: this should not be included in emission variables
+
+  - Domestic Shipping|Freight|Gases|Fossil:
+      description: fossil gases use in Domestic Shipping freight transportation
+      note: this should not be included in emission variables
+
+  - Domestic Shipping|Freight|Hydrogen:
+      description: Domestic Shipping freight transportation using hydrogen
+      note: this should not be included in emission variables
+
+  - Domestic Shipping|Freight|Hydrogen|Biomass:
+      description: hydrogen from biomass use in Domestic Shipping freight transportation
+      note: this should not be included in emission variables
+
+  - Domestic Shipping|Freight|Hydrogen|Electricity:
+      description: green hydrogen use in Domestic Shipping freight transportation
+      note: this should not be included in emission variables 
+
+  - Domestic Shipping|Freight|Hydrogen|Fossil:
+      description: fossil Hydrogen use in Domestic Shipping freight transportation
+      note: this should not be included in emission variables
+
+  - Domestic Shipping|Freight|Liquids:
+      description: liquids use in Domestic Shipping freight transportation
+
+  - Domestic Shipping|Freight|Liquids|Biomass:
+      description: bioliquids use in Domestic Shipping freight transportation
+      note: this should not be included in emission variables
+
+  - Domestic Shipping|Freight|Liquids|Electricity:
+      description: liquid efuels use in Domestic Shipping freight transportation
+      note: this should not be included in emission variables 
+
+  - Domestic Shipping|Freight|Liquids|Fossil:
+      description: fossil Liquids use in Domestic Shipping freight transportation
       note: this should not be included in emission variables
