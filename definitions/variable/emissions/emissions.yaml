@@ -14,15 +14,17 @@
     description: total carbon dioxide emissions captured from fossil fuel use,
      should be reported as positive numbers
     unit: Mt CO2/yr
-- Carbon Capture|Industry:
-    description: total carbon dioxide emissions captured from industry, 
+- Carbon Capture|Industry and Industrial Processes:
+    description: total carbon dioxide emissions captured from industry (including industrial processes),
      should be reported as positive numbers
     unit: Mt CO2/yr
-- Carbon Capture|Industry|Biomass:
-    description: total carbon dioxide emissions from biomass captured in industry sector
+- Carbon Capture|Industry and Industrial Processes|Biomass:
+    description: total carbon dioxide emissions from biomass captured in
+     industry (including industrial processes), should be reported as positive numbers
     unit: Mt CO2/yr
-- Carbon Capture|Industry|Fossil:
-    description: total carbon dioxide emissions from fossils (incl. minerals) captured in industry sector
+- Carbon Capture|Industry and Industrial Processes|Fossil:
+    description: total carbon dioxide emissions from fossils (incl. minerals) captured in
+     industry (including industrial processes), should be reported as positive numbers
     unit: Mt CO2/yr
 - Carbon Capture|Industrial Processes:
     description: total carbon dioxide emissions captured from industrial processes
