@@ -176,7 +176,7 @@
 - Secondary Energy|Solids|Coal:
     description: Solid secondary energy carriers made from coal
     unit: EJ/yr
-- Secondary Energy|Other Carrier:
+- Secondary Energy|Other:
     description: generation of other secondary energy carriers that do not fit any other category
     unit: EJ/yr
  
