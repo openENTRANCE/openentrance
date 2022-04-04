@@ -49,7 +49,7 @@
     description: price at the final level in the residential and commercial sector of {Final Energy carrier}. 
     notes: Prices should include the effect of carbon prices and all other taxes.
     unit: [EUR_2020/GJ, USD_2010/GJ, EUR_2020/kWh]
-    weight: Final Energy|Industry|{Final Energy carrier}
+    weight: Final Energy|Residential and Commercial|{Final Energy carrier}
 
 - Price|Final Energy|Residential|{Final Energy carrier}:
     description: price at the final level in the residential sector of {Final Energy carrier}. 
