@@ -35,8 +35,16 @@
     description: Capital cost for freight {Transport}
     unit: [EUR_2020/tkm, USD_2010/tkm]
     skip-region-aggregation: true
+- Capital Cost|Transportation|Freight|Rail:
+    description: Capital cost for freight rail-based transportation technologies
+    unit: [EUR_2020/tkm, USD_2010/tkm]
+    skip-region-aggregation: true
 - Capital Cost|Transportation|Passenger|{Transport}:
     description: Capital cost for passenger {Transport}
+    unit: [EUR_2020/pkm, USD_2010/pkm]
+    skip-region-aggregation: true
+- Capital Cost|Transportation|Passenger|Rail:
+    description: Capital cost for passenger rail-based transportation technologies
     unit: [EUR_2020/pkm, USD_2010/pkm]
     skip-region-aggregation: true
 - Fixed Cost|Electricity|{Electricity Input}:
@@ -55,8 +63,16 @@
     description: Capital cost for freight {Transport}
     unit: [EUR_2020/tkm/yr, USD_2010/tkm/yr]
     skip-region-aggregation: true
+- Fixed Cost|Transportation|Freight|Rail:
+    description: Capital cost for freight rail-based transportation technologies
+    unit: [EUR_2020/tkm/yr, USD_2010/tkm/yr]
+    skip-region-aggregation: true
 - Fixed Cost|Transportation|Passenger|{Transport}:
     description: Capital cost for passenger {Transport}
+    unit: [EUR_2020/pkm/yr, USD_2010/pkm/yr]
+    skip-region-aggregation: true
+- Fixed Cost|Transportation|Passenger|Rail:
+    description: Capital cost for passenger rail-based transportation technologies
     unit: [EUR_2020/pkm/yr, USD_2010/pkm/yr]
     skip-region-aggregation: true
 - Variable Cost|Heat|Residential and Commercial|{Fuel}:
