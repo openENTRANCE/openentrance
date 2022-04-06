@@ -10,11 +10,23 @@ Coming soon - for now, please have a look at [__init__.py](__init__.py)!
 
 ## Installation instructions
 
+### Install using pip directly from the Github repository
+
+Using the following command, you can install the package into your Python environment
+from the Github repository.
+
+Note that this doesn't place the source code in a user-editable location, so use the
+next method if you wish to develop the source code.
+
+```
+pip install -e git+https://github.com/openENTRANCE/openentrance.git@main#egg=openentrance
+```
+
 ### Clone the repo and install from source
 
 This approach requires git to be installed on your machine.
 
-Clone this repository to your machine by opening a command prompt and 
+Clone this repository to your machine by opening a command prompt and
 directing it to the folder where you want to have the files, then run:
 
 ```
@@ -49,7 +61,7 @@ The result should look similar to the following snippet:
 ```
 ============================= test session starts ==============================
 platform darwin -- Python 3.9.7, pytest-5.4.3, py-1.10.0, pluggy-0.13.1
-collected 20 items                                                             
+collected 20 items
 
 tests/test_core.py ..                                                    [ 10%]
 tests/test_definitions.py ......                                         [ 40%]
