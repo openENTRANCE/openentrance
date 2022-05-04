@@ -46,6 +46,18 @@
   - Baltics:
       definition: EE + LT + LV
       source: plan4res public dataset (D4.5)
+  - Iberia:
+      definition: ES + PT
+      source: plan4res validation study (D2.4)
+  - Benelux:
+      definition: BE + LU + NL
+      source: plan4res public dataset (D4.5)
+  - Britain:
+      definition: IE + UK
+      source: plan4res public dataset (D4.5)
+  - EasternEurope:
+      definition: AT + CZ + HU + PL + SK
+      source: plan4res public dataset (D4.5)
 
   # generic definition of the EU
 
