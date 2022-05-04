@@ -414,7 +414,7 @@
 - Final Energy|Electricity|Profile:
     description: Time series of Final electricity consumption profiles.
     energy source: electricity
-    energy use: cooling
+    energy use: all
     note: Those coefficients, if hourly, when multiplied by a yearly energy give hourly
       energy profiles.
     sector: all
