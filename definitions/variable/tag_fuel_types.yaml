@@ -141,7 +141,7 @@
       description: fossil natural gas (excluding methane from biomass or hydrogenation)
       in Gas Engines power plant
       with a CO2 capture component
-    - Gas|Fossil|OCGT|w/o CCS:
+  - Gas|Fossil|OCGT|w/o CCS:
       description: fossil natural gas (excluding methane from biomass or hydrogenation)
       in an open-cycle gas turbine (OCGT) power plant with a CO2 capture component
        with freely vented CO2 emissions
@@ -175,7 +175,7 @@
       description: biomethane (upgraded biogas)
       in Gas Engines power plant
       with a CO2 capture component
-    - Gas|Biomethane|OCGT|w/o CCS:
+  - Gas|Biomethane|OCGT|w/o CCS:
       description: biomethane (upgraded biogas)
       in an open-cycle gas turbine (OCGT) power plant with a CO2 capture component
        with freely vented CO2 emissions
