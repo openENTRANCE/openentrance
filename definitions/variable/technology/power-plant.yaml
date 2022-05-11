@@ -177,9 +177,6 @@
     description: This is the upper bound that energy storage system could charge energy
       at time "t".
     unit: GWh
-- Initial Storage Level|Electricity|Energy Storage System:
-    description: Initial energy stored in the energy storage system unit at first
-      load level. (ESS that includes hydro, battery, etc.)
     unit: GWh
 - Maximum Charge|Electricity|Energy Storage System:
     description: Maximum charge when storing energy the energy storage system unit.
