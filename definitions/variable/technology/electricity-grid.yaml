@@ -1,5 +1,8 @@
 # List of variables related to the electricity grid
 
+- Network|Electricity|Length:
+    description: length of a line
+    unit: Mkm
 - Network|Electricity|Value of Lost Load:
     description: Cost of demand-not-served. Cost of load curtailment. Value of Lost
       Load (VoLL)
