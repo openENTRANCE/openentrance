@@ -59,6 +59,20 @@
     unit: GWh
     skip-region-aggregation: false
 
+- Reserve|Electricity|Automatic Frequency Restoration|Energy Storage System|{Energy Storage System Type}:
+    description: Automatic Frequency Restoration Reserve available for storage systems
+     this amount is the maximum available for the grid operator considering
+     the commitment decisions taken by the model
+    unit:
+    - GWh
+    
+- Reserve|Electricity|Frequency Containment|Energy Storage System|{Energy Storage System Type}:
+    description: Frequency Containment Reserve available for storage systems
+     this amount is the maximum available for the grid operator considering
+     the commitment decisions taken by the model
+    unit:
+    - GWh
+    
 - Reserve|Electricity|Frequency Containment|<Fuel>:
     description: Frequency Containment Reserve available for <Fuel>
      power plants; this amount is the maximum available for the grid operator considering
