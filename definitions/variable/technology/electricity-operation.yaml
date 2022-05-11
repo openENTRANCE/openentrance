@@ -47,7 +47,7 @@ Active Power|Electricity|Demand Response|Load Shifting|Electricity|Residential|{
     unit:
     - GWh
 
-- Stored Energy Inventory|Electricity|Energy Storage System:
+- Storage|Electricity|Energy Storage System:
     description: State of the stored energy by ESS
     unit:
     - GWh
