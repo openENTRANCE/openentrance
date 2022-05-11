@@ -16,7 +16,12 @@
     description: Active power of <Fuel> power plants
     unit:
     - GWh
-
+Active Power|Electricity|Energy Storage System|{Energy Storage System Type}:
+   description: Active Power "generated" or "collected" by an energy storage system
+   unit: MWh
+Active Power|Electricity|Demand Response|Load Shifting|Electricity|Residential|{Residential Load Shifting Asset}:
+   description: Active Power "generated" or "collected" within a load shifting process
+   unit: MWh
 - Active Power|Electricity|Load Curtailment:
     description: Energy curtailed - from the system point of view is equivalent to
       generation of Active Power
