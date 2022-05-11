@@ -66,8 +66,20 @@ Active Power|Electricity|Demand Response|Load Shifting|Electricity|Residential|{
     unit:
     - GWh
 
-- Operation Cost|Electricity|<Fuel>:
-    description: Operation Cost of <Fuel> power plants
+- Operation Cost|Electricity|{Electricity_Input}:
+    description: Operation Cost of <Electricity Input> power plants
+    unit: EUR_2020
+    skip-region-aggregation: true
+ - Operation Cost|Electricity|Energy Storage System|{Energy Storage System Type}:
+    description: Operation Cost of {Energy Storage System Type} storages
+    unit: EUR_2020
+    skip-region-aggregation: true
+ - Operation Cost|Electricity|Demand Response|Load Shifting|Residential|{Residential Load Shifting Asset}:
+    description: Operation Cost of {Residential Load Shifting Asset} Load shifting assets
+    unit: EUR_2020
+    skip-region-aggregation: true
+- Operation Cost|Electricity|Demand Response|Load Curtailment:
+    description: Operation Cost of {Residential Load Shifting Asset} Load shifting assets
     unit: EUR_2020
     skip-region-aggregation: true
 
