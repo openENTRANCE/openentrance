@@ -26,7 +26,7 @@ Active Power|Electricity|Demand Response|Load Shifting|Electricity|Residential|{
     description: Energy curtailed - from the system point of view is equivalent to
       generation of Active Power
     unit:
-    - GWh
+    - [GWh, MWh]
 
 - Active Power|Electricity|Load Shifting:
     description: Energy shifted - from the system point of view is equivalent to generation
