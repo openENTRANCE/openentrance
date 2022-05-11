@@ -58,6 +58,9 @@ Active Power|Electricity|Demand Response|Load Shifting|Electricity|Residential|{
     description: Available storage of energy storage systems, excl. hydro storage
     unit:
     - GWh
+- Storage|Electricity|Energy Storage System|{Energy Storage System Type}:
+    description: Available storage of energy storage systems, excl. hydro storage, per storage type
+    unit: GWh
 - Storage|Electricity|Load Curtailment:
     description: remaining amount of curtailement
     unit:
