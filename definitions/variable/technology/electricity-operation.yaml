@@ -1,0 +1,121 @@
+# Variables needed for plan4EU results in terms of electricity system operation
+# Schedules per power generation technologies, storages and demand-response
+# includes for each technology:
+#   - Active Power
+#   - Operation Cost
+#   - Reserves committed and Inertia provided
+#   - Levels of storages
+# Marginal costs for:
+#   - Demand in ACtive Power
+#   - Demand in reserves
+#   - Demand in inertia
+#   - Flows in transmission lines
+# Demand not served
+
+- Active Power|Electricity|<Fuel>:
+    description: Active power of <Fuel> power plants
+    unit:
+    - GWh
+
+- Active Power|Electricity|Load Curtailment:
+    description: Energy curtailed - from the system point of view is equivalent to
+      generation of Active Power
+    unit:
+    - GWh
+
+- Active Power|Electricity|Load Shifting:
+    description: Energy shifted - from the system point of view is equivalent to generation
+      of Active Power
+    unit:
+    - GWh
+
+- Active Power|Electricity|Electricity Storage:
+    description: Active Power of energy storage systems, excl. hydro storage
+    unit:
+    - GWh
+
+- Spillage|Electricity|Energy Storage System:
+    description: Energy spillage that could not be stored by an energy storage system
+      (ESS). Several energy models include spillage variables related to renewable
+      energy production; however, another way is to include a spillage variable to
+      the ESS unit since it is the last sink of the power network.
+    unit:
+    - GWh
+
+- Stored Energy Inventory|Electricity|Energy Storage System:
+    description: State of the stored energy by ESS
+    unit:
+    - GWh
+
+- Energy Consumption|Electricity|Energy Storage System:
+    description: Energy consumption from the power grid to be stored into the ESS.
+    unit:
+    - GWh
+
+- Storage|Electricity|Hydro|Reservoir:
+    description: Available storage of "simple Hydro reservoir " units
+    unit:
+    - GWh
+- Storage|Electricity|Hydro|Pumped Storage:
+    description: Available storage of "Pumped Storage " units
+    unit:
+    - GWh
+- Storage|Electricity|Energy Storage System:
+    description: Available storage of energy storage systems, excl. hydro storage
+    unit:
+    - GWh
+- Storage|Electricity|Load Curtailment:
+    description: remaining amount of curtailement
+    unit:
+    - GWh
+
+- Operation Cost|Electricity|<Fuel>:
+    description: Operation Cost of <Fuel> power plants
+    unit: EUR_2020
+    skip-region-aggregation: true
+
+- Reserve|Electricity|Automatic Frequency Restoration|<Fuel>:
+    description: Automatic Frequency Restoration Reserve available for <Fuel>
+     power plants; this amount is the maximum available for the grid operator considering
+     the commitment decisions taken by the model
+    unit:
+    - GWh
+    skip-region-aggregation: false
+
+- Reserve|Electricity|Frequency Containment|<Fuel>:
+    description: Frequency Containment Reserve available for <Fuel>
+     power plants; this amount is the maximum available for the grid operator considering
+     the commitment decisions taken by the model
+    unit:
+    - GWh
+    skip-region-aggregation: false
+
+- Marginal Cost|CO2 Emissions|Electricity:
+    description: Marginal Cost associated to the constraint in terms of CO2 emissions
+      by the electricity power sector
+    unit: EUR_2020/MWh
+    skip-region-aggregation: true
+- Marginal Cost|Final Energy|Electricity:
+    description: Marginal Cost associated to the electricity demand constraint
+    unit: EUR_2020/MWh
+    skip-region-aggregation: true
+- Marginal Cost|Maximum Flow|Electricity|Transmission:
+    description: Marginal Cost associated to the maximum flow constraint in a line
+    unit: EUR_2020/MWh
+    skip-region-aggregation: true
+- Marginal Cost|Minimum Flow|Electricity|Transmission:
+    description: Marginal Cost associated to the minimum flow constraint in a line
+    unit: EUR_2020/MWh
+    skip-region-aggregation: true
+- Marginal Cost|Network|Electricity|Demand|Inertia:
+    description: Marginal Cost associated to the inertia requirement
+    unit: EUR_2020/MWh
+    skip-region-aggregation: true
+- Marginal Cost|Network|Electricity|Demand|Reserve|Automatic Frequency Restoration:
+    description: Marginal Cost associated to the Automatic Frequency Restoration requirement
+    unit: EUR_2020/MWh
+    skip-region-aggregation: true
+- Marginal Cost|Network|Electricity|Demand|Reserve|Frequency Containment:
+    description: Marginal Cost associated to the Frequency Containment requirement
+    unit: EUR_2020/MWh
+    skip-region-aggregation: true

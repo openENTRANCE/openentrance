@@ -1,0 +1,37 @@
+# List of months
+
+- January:
+    duration: 31 / 365
+
+- February:
+    duration: 28 / 365
+
+- March:
+    duration: 31 / 365
+
+- April:
+    duration: 30 / 365
+
+- May:
+    duration: 31 / 365
+
+- June:
+    duration: 30 / 365
+
+- July:
+    duration: 30 / 365
+
+- August:
+    duration: 31 / 365
+
+- September:
+    duration: 30 / 365
+
+- October:
+    duration: 31 / 365
+
+- November:
+    duration: 30 / 365
+
+- December:
+   duration: 31 / 365
