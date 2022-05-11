@@ -32,7 +32,7 @@ Active Power|Electricity|Demand Response|Load Shifting|Electricity|Residential|{
     description: Energy shifted - from the system point of view is equivalent to generation
       of Active Power
     unit:
-    - GWh
+    - [GWh, MWh]
 
 - Active Power|Electricity|Electricity Storage:
     description: Active Power of energy storage systems, excl. hydro storage
