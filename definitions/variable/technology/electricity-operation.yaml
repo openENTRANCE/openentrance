@@ -47,7 +47,6 @@
     unit:
     - GWh
 
-- Energy Consumption|Electricity|Energy Storage System:
     description: Energy consumption from the power grid to be stored into the ESS.
     unit:
     - GWh
