@@ -34,7 +34,7 @@ Active Power|Electricity|Demand Response|Load Shifting|Electricity|Residential|{
     unit:
     - [GWh, MWh]
 
-- Active Power|Electricity|Electricity Storage:
+- Active Power|Electricity|Energy Storage System:
     description: Active Power of energy storage systems, excl. hydro storage
     unit:
     - GWh
