@@ -237,3 +237,6 @@
     description: Maximum dispatchable load due to changing household electric stove,
       oven and microwave usage.
     unit: MW
+- Levelized Cost|Electricity|Energy Storage System|{Energy Storage System Type}:
+    description: levelized cost of storage
+    unit: [MEUR_2020/MWh, MUSD_2010/MWh, MEUR_2020/PJ, MUSD_2010/PJ]
