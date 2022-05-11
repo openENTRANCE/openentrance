@@ -95,6 +95,26 @@
     description: Variable cost for {Electricity Input}, without the emission cost
     unit: [EUR_2020/MWh, USD_2010/MWh]
     skip-region-aggregation: true
+- Levelized Cost|Capex|Electricity|{Electricity Input}:
+    description: Levelized cost for investment in {Electricity Input}
+    unit: [MEUR_2020/GW, MUSD_2010/GW, MEUR_2020/PJ, MUSD_2010/PJ]
+    skip-region-aggregation: true
+- Levelized Cost|Generation|Electricity|{Electricity Input}:
+    description: Levelized cost for generation of electricity by {Electricity Input}
+    unit: [MEUR_2020/MWh, MUSD_2010/MWh, MEUR_2020/PJ, MUSD_2010/PJ]
+    skip-region-aggregation: true
+- Levelized Cost|Emissions|Electricity|{Electricity Input}:
+    description: Levelized cost for investment in {Electricity Input}
+    unit: [MEUR_2020/MWh, MUSD_2010/MWh, MEUR_2020/PJ, MUSD_2010/PJ]
+    skip-region-aggregation: true
+- Levelized Cost|Total (incl. Emissions)|Electricity|{Electricity Input}:
+    description: Levelized cost for investment in {Electricity Input}
+    unit: [MEUR_2020/MWh, MUSD_2010/MWh, MEUR_2020/PJ, MUSD_2010/PJ]
+    skip-region-aggregation: true
+- Levelized Cost|Total (excl. Emissions)|Electricity|{Electricity Input}:
+    description: Levelized cost for investment in {Electricity Input}
+    unit: [MEUR_2020/MWh, MUSD_2010/MWh, MEUR_2020/PJ, MUSD_2010/PJ]
+    skip-region-aggregation: true
 - Investment|Energy Efficiency:
     description: Investments into the efficiency-increasing components of energy demand
       technologies
