@@ -47,9 +47,6 @@
     unit:
     - GWh
 
-    description: Energy consumption from the power grid to be stored into the ESS.
-    unit:
-    - GWh
 
 - Storage|Electricity|Hydro|Reservoir:
     description: Available storage of "simple Hydro reservoir " units
