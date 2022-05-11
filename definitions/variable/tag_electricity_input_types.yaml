@@ -269,8 +269,15 @@
       description: concentrating/concentrated solar power (CSP)
 
   - Solar|PV:
-      description: solar photovoltaics (PV)
-
+      description: solar photovoltaics (PV)   
+  - Solar|PV|Rooftop:
+      description: solar photovoltaics (PV) on rooftops      
+  - Solar|PV|Rooftop|Residential:
+      description: solar photovoltaics (PV) on rooftops of residential buildings
+  - Solar|PV|Rooftop|Commercial:
+      description: solar photovoltaics (PV) on rooftops of Commercial buildings
+  - Solar|PV|Utility:
+      description: Utilities solar photovoltaics (PV)  
   - Wind:
       description: wind energy (on- and offshore)
 
