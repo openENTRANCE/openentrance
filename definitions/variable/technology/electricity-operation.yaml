@@ -12,7 +12,7 @@
 #   - Flows in transmission lines
 # Demand not served
 
-- Active Power|Electricity|<Fuel>:
+- Active Power|Electricity|{Electricity_Input}:
     description: Active power of <Fuel> power plants
     unit:
     - GWh
