@@ -83,12 +83,12 @@
     description: Variable cost for {Fuel}
     unit: [EUR_2020/MWh, USD_2010/MWh]
     skip-region-aggregation: true
-- Variable Cost (incl. Emission Cost)|Electricity|{Electricity Input}:
-    description: Variable cost for {Electricity Input}, including the emission cost
+- Variable Cost (incl. Fuel Cost)|Electricity|{Electricity Input}:
+    description: Variable cost for {Electricity Input}, including the fuel cost
     unit: [EUR_2020/MWh, USD_2010/MWh]
     skip-region-aggregation: true
-- Variable Cost (excl. Emission Cost)|Electricity|{Electricity Input}:
-    description: Variable cost for {Electricity Input}, without the emission cost
+- Variable Cost (excl. Fuel Cost)|Electricity|{Electricity Input}:
+    description: Variable cost for {Electricity Input}, without the fuel cost
     unit: [EUR_2020/MWh, USD_2010/MWh]
     skip-region-aggregation: true
 - Levelized Cost|Capex|Electricity|{Electricity Input}:
