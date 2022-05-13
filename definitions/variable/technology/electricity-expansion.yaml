@@ -1,27 +1,27 @@
 # List of variables related to the evolution of the electricity system
 # results of capacity expansion models
 
-- New Capacity|Electricity|{Electricity Input}:
+- Capacity Addition|Electricity|{Electricity Input}:
     description: New capacity for {Electricity Input}
       this capacity is added to the existing capacity
-    unit: MWh
-- New Storage|Electricity|Enegy Storage System|{Energy Storage System Type}:
+    unit: MW
+- Storage Addition|Electricity|Enegy Storage System|{Energy Storage System Type}:
     description: New storage capacity for {Enery Storage System Type},
       this capacity is added to the existing capacity
     unit: MWh
-- New Capacity|Network|Electricity:
+- Capacity Addition|Network|Electricity:
     description: New capacity for the electricity network, 
       this capacity is added to the existing capacity
-    unit: MWh
-- Removed Capacity|Electricity|{Electricity Input}:
+    unit: MW
+- Capacity Decommissioning|Electricity|{Electricity Input}:
     description: Removed capacity for {Electricity Input},
       this capacity is substracted from the existing capacity
-    unit: MWh
-- Removed Storage|Electricity|Enegy Storage System|{Energy Storage System Type}:
+    unit: MW
+- Storage Decommissioning|Electricity|Enegy Storage System|{Energy Storage System Type}:
     description: Removed storage capacity for {Energy Storage System Type},
       this capacity is substracted from the existing capacity
     unit: MWh
-- Removed Capacity|Network|Electricity:
+- Capacity Decommissioning|Network|Electricity:
     description: Removed capacity for the electricity network,
       this capacity is substracted from the existing capacity
-    unit: MWh
+    unit: MW
