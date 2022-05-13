@@ -239,4 +239,4 @@
     unit: MW
 - Levelized Cost|Electricity|Energy Storage System|{Energy Storage System Type}:
     description: levelized cost of storage for {Energy Storage System Type}
-    unit: [MEUR_2020/MWh, MUSD_2010/MWh, MEUR_2020/PJ, MUSD_2010/PJ]
+    unit: [million EUR_2020/MWh, million USD_2010/MWh, million EUR_2020/PJ, million USD_2010/PJ]
