@@ -22,6 +22,6 @@
       this capacity is substracted from the existing capacity
     unit: MWh
 - Removed Capacity|Network|Electricity:
-    description: Removed capacity for Electricity Input
+    description: Removed capacity for the electricity network,
       this capacity is substracted from the existing capacity
     unit: MWh
