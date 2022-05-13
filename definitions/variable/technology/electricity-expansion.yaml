@@ -6,7 +6,7 @@
       this capacity is added to the existing capacity
     unit: MWh
 - New Storage|Electricity|Enegy Storage System|{Energy Storage System Type}:
-    description: New storage capacity for Electricity Input
+    description: New storage capacity for {Enery Storage System Type},
       this capacity is added to the existing capacity
     unit: MWh
 - New Capacity|Network|Electricity:
