@@ -14,7 +14,7 @@
       this capacity is added to the existing capacity
     unit: MWh
 - Removed Capacity|Electricity|{Electricity Input}:
-    description: Removed capacity for Electricity Input
+    description: Removed capacity for {Electricity Input},
       this capacity is substracted from the existing capacity
     unit: MWh
 - Removed Storage|Electricity|Enegy Storage System|{Energy Storage System Type}:
