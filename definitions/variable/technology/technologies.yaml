@@ -238,5 +238,5 @@
       oven and microwave usage.
     unit: MW
 - Levelized Cost|Electricity|Energy Storage System|{Energy Storage System Type}:
-    description: levelized cost of storage
+    description: levelized cost of storage for {Energy Storage System Type}
     unit: [MEUR_2020/MWh, MUSD_2010/MWh, MEUR_2020/PJ, MUSD_2010/PJ]
