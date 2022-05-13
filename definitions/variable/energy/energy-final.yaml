@@ -411,10 +411,16 @@
     energy use: all excl.heating, cooling, transportation
     sector: all
     unit: [EJ/yr, GWh]
+- Share|Final Energy|Electricity|Cooling:
+    description: Share of the Final electricity energy consumption for cooling compared to the final electricity energy
+    energy source: electricity
+    energy use: cooling
+    sector: all
+    unit: 
 - Final Energy|Electricity|Profile:
     description: Time series of Final electricity consumption profiles.
     energy source: electricity
-    energy use: cooling
+    energy use: all
     note: Those coefficients, if hourly, when multiplied by a yearly energy give hourly
       energy profiles.
     sector: all
