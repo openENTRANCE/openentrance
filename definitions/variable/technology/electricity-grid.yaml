@@ -2,10 +2,10 @@
 
 - Network|Electricity|Length:
     description: length of a line
-    unit: Mkm
+    unit: km
 - Network|Electricity|Expansion Cost:
     description: Cost for increasing the line capacity
-    unit: MEUR/GW/km
+    unit: million EUR/GW/km
 - Network|Electricity|Capacity:
     description: Capacity of the line
     unit: MW
