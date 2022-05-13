@@ -2,7 +2,7 @@
 # results of capacity expansion models
 
 - New Capacity|Electricity|{Electricity Input}:
-    description: New capacity for Electricity Input
+    description: New capacity for {Electricity Input}
       this capacity is added to the existing capacity
     unit: MWh
 - New Storage|Electricity|Enegy Storage System|{Energy Storage System Type}:
