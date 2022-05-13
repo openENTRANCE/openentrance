@@ -18,7 +18,7 @@
       this capacity is substracted from the existing capacity
     unit: MWh
 - Removed Storage|Electricity|Enegy Storage System|{Energy Storage System Type}:
-    description: Removed storage capacity for Electricity Input
+    description: Removed storage capacity for {Energy Storage System Type},
       this capacity is substracted from the existing capacity
     unit: MWh
 - Removed Capacity|Network|Electricity:
