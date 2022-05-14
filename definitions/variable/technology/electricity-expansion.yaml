@@ -1,7 +1,7 @@
 # List of variables related to the evolution of the electricity system
 # results of capacity expansion models
 
-- Capacity Addition|Electricity|{Electricity Input}:
+- Commissioned Capacity|Electricity|{Electricity Input}:
     description: New capacity for {Electricity Input}
       this capacity is added to the existing capacity
     unit: MW
