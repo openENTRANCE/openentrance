@@ -201,7 +201,7 @@
     unit: GWh
 - Seasonality|Electricity|Energy Storage System|{Energy Storage System Type}:
     description: seasonality (daily, weekly, monthly, etc.) of {Energy Storage System Type}
-    unit: [days,weeks,months]
+    unit: [daily,weekly,monthly]
 - Seasonality|Electricity|Hydro|Reservoir:
     description: seasonality (daily, weekly, monthly, etc.) of Reservoir
     unit: [daily,weekly,monthly]
