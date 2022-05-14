@@ -29,12 +29,13 @@
     unit: EUR
     skip-region-aggregation: true
 - Variable Cost|Electricity|{Electricity Input}:
-    description: Variable cost for generating electricity from {Electricity Input}
+    description: Variable cost for generating electricity from {Electricity Input} without the Fuel cost
     unit: EUR/MWh
     skip-region-aggregation: true
-- Number of Units|Electricity|{Electricity Input}:
-    description: Number of power plant units generating electricity from {Electricity Input}
-    unit:
+- Variable Cost (incl. Fuel Cost)|Electricity|{Electricity Input}:
+    description: Variable cost for generating electricity from {Electricity Input} with the fuel cost
+    unit: EUR/MWh
+    skip-region-aggregation: true
 - Maximum Active Power|Electricity|{Electricity Input}:
     description: Maximum active power of a typical power plant generating electricity
       from {Electricity Input}
@@ -143,10 +144,8 @@
 - Inflows|Electricity|Hydro|Reservoir:
     description: Inflows into a reservoir expressed in energy
     unit: GWh
-- Initial Storage Level|Electricity|Hydro|Pumped Storage:
-    description: This is the amount of stored energy in the storage of a pumped-storage
-      hydro unit at the beginning of the first hour into a time series with hourly
-      steps.
+- Inflows|Electricity|Hydro|Pumped Storage:
+    description: Inflows into a reservoir expressed in energy
     unit: GWh
 - Maximum Charge|Electricity|Hydro|Pumped Storage:
     description: Maximum charge when storing energy in the pumped-storage hydro unit.
@@ -177,10 +176,6 @@
     description: This is the upper bound that energy storage system could charge energy
       at time "t".
     unit: GWh
-- Initial Storage Level|Electricity|Energy Storage System:
-    description: Initial energy stored in the energy storage system unit at first
-      load level. (ESS that includes hydro, battery, etc.)
-    unit: GWh
 - Maximum Charge|Electricity|Energy Storage System:
     description: Maximum charge when storing energy the energy storage system unit.
     unit: GW
@@ -199,26 +194,28 @@
     unit: GWh
 - Minimum Storage|Electricity|Energy Storage System:
     description: Minimum energy that can be stored by the energy storage system unit.
-    unit:
-    - MWh
-    - GWh
+    unit: GWh
 - Spillage|Electricity|Energy Storage System:
     description: Energy spillage that could not be stored by an energy storage system
       (ESS). Several energy models include spillage variables related to renewable
       energy production; however, another way is to include a spillage variable to
       the ESS unit since it is the last sink of the power network.
-    unit:
-    - MWh
-    - GWh
-- Storage Type|Electricity|Energy Storage System:
-    description: Storage type (daily, weekly, monthly, etc.) for energy storage system
-      (ESS) that includes hydro, battery, etc.
+    unit: GWh
+- Seasonality|Electricity|Energy Storage System|{Energy Storage System Type}:
+    description: seasonality (daily, weekly, monthly, etc.) of {Energy Storage System Type}
     unit:
     - Daily
     - Weekly
     - Monthly
-- Stored Energy Inventory|Electricity|Energy Storage System:
-    description: State of the stored energy by ESS
+ - Seasonality|Electricity|Hydro|Reservoir:
+    description: seasonality (daily, weekly, monthly, etc.) of Reservoir
     unit:
-    - MWh
-    - GWh
+    - Daily
+    - Weekly
+    - Monthly
+  - Seasonality|Electricity|Hydro|Pumped Storage:
+    description: seasonality (daily, weekly, monthly, etc.) of Pumped Storage
+    unit:
+    - Daily
+    - Weekly
+    - Monthly
