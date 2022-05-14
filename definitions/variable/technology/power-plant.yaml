@@ -73,9 +73,7 @@
 - Mean Outage Duration|Electricity|{Electricity Input}:
     description: Mean duration of an outage of a typical power plant generating electricity
       from {Electricity Input}
-    unit:
-    - day
-    - hour
+    unit: [days, hours]
     skip-region-aggregation: true
 - Inertia|Electricity|{Electricity Input}:
     description: Inertia provided to the system by a typical power plant generating
@@ -203,19 +201,10 @@
     unit: GWh
 - Seasonality|Electricity|Energy Storage System|{Energy Storage System Type}:
     description: seasonality (daily, weekly, monthly, etc.) of {Energy Storage System Type}
-    unit:
-    - Daily
-    - Weekly
-    - Monthly
- - Seasonality|Electricity|Hydro|Reservoir:
+    unit: [days,weeks,months]
+- Seasonality|Electricity|Hydro|Reservoir:
     description: seasonality (daily, weekly, monthly, etc.) of Reservoir
-    unit:
-    - Daily
-    - Weekly
-    - Monthly
-  - Seasonality|Electricity|Hydro|Pumped Storage:
+    unit: [days,weeks,months]
+- Seasonality|Electricity|Hydro|Pumped Storage:
     description: seasonality (daily, weekly, monthly, etc.) of Pumped Storage
-    unit:
-    - Daily
-    - Weekly
-    - Monthly
+    unit: [days,weeks,months]
