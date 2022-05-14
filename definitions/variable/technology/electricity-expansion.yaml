@@ -5,7 +5,7 @@
     description: New capacity for {Electricity Input}
       this capacity is added to the existing capacity
     unit: MW
-- Storage Addition|Electricity|Enegy Storage System|{Energy Storage System Type}:
+- Commissioned Storage|Electricity|Enegy Storage System|{Energy Storage System Type}:
     description: New storage capacity for {Enery Storage System Type},
       this capacity is added to the existing capacity
     unit: MWh
