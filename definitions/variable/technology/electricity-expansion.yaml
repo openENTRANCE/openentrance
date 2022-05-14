@@ -21,7 +21,7 @@
     description: Removed storage capacity for {Energy Storage System Type},
       this capacity is substracted from the existing capacity
     unit: MWh
-- Capacity Decommissioning|Network|Electricity:
+- Decommissioned Capacity|Network|Electricity:
     description: Removed capacity for the electricity network,
       this capacity is substracted from the existing capacity
     unit: MW
