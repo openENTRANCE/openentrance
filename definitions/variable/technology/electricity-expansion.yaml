@@ -13,7 +13,7 @@
     description: New capacity for the electricity network, 
       this capacity is added to the existing capacity
     unit: MW
-- Capacity Decommissioning|Electricity|{Electricity Input}:
+- Decommissioned Capacity|Electricity|{Electricity Input}:
     description: Removed capacity for {Electricity Input},
       this capacity is substracted from the existing capacity
     unit: MW
