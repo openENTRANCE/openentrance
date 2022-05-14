@@ -9,7 +9,7 @@
     description: New storage capacity for {Enery Storage System Type},
       this capacity is added to the existing capacity
     unit: MWh
-- Capacity Addition|Network|Electricity:
+- Commissioned Capacity|Network|Electricity:
     description: New capacity for the electricity network, 
       this capacity is added to the existing capacity
     unit: MW
