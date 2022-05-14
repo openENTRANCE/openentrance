@@ -17,7 +17,7 @@
     description: Removed capacity for {Electricity Input},
       this capacity is substracted from the existing capacity
     unit: MW
-- Storage Decommissioning|Electricity|Enegy Storage System|{Energy Storage System Type}:
+- Decommissioned Storage|Electricity|Enegy Storage System|{Energy Storage System Type}:
     description: Removed storage capacity for {Energy Storage System Type},
       this capacity is substracted from the existing capacity
     unit: MWh
