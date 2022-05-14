@@ -207,4 +207,4 @@
     unit: [days,weeks,months]
 - Seasonality|Electricity|Hydro|Pumped Storage:
     description: seasonality (daily, weekly, monthly, etc.) of Pumped Storage
-    unit: [days,weeks,months]
+    unit: [daily,weekly,monthly]
