@@ -204,7 +204,7 @@
     unit: [days,weeks,months]
 - Seasonality|Electricity|Hydro|Reservoir:
     description: seasonality (daily, weekly, monthly, etc.) of Reservoir
-    unit: [days,weeks,months]
+    unit: [daily,weekly,monthly]
 - Seasonality|Electricity|Hydro|Pumped Storage:
     description: seasonality (daily, weekly, monthly, etc.) of Pumped Storage
     unit: [daily,weekly,monthly]
