@@ -24,8 +24,11 @@
     description: Energy shifted - from the system point of view is equivalent to generation
       of Active Power
     unit: GWh
-- Active Power|Electricity|Electricity Storage:
+- Active Power|Electricity|Electricity Storage System:
     description: Active Power of energy storage systems, excl. hydro storage
+    unit: GWh
+- Active Power|Electricity|Electricity Storage System|{Energy Storage System Type}:
+    description: Active Power of {Energy Storage System Type}
     unit: GWh
 - Storage|Electricity|Hydro|Reservoir:
     description: Available storage of "simple Hydro reservoir " units
