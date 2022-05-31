@@ -40,13 +40,13 @@
       Fixed Charge Rate (FCR) is the percentage of the total investment cost that
       is required over the project life per year to cover the minimal annual revenue
       requirements.
-    unit:
+    unit: -
 - Network|Electricity|Line Losses:
     description: Total ohmic losses of a transmission line.
     unit: MW
 - Network|Electricity|Loss Factor:
     description: Transmission losses equal to the line flow times this factor
-    unit:
+    unit: -
     skip-region-aggregation: true
 - Reserve|Electricity|Requirement|Manual Frequency Restoration:
     description: Manual frequency restoration reserve (mFRR) is used to relieve the
@@ -69,7 +69,7 @@
 - Network|Electricity|Reactance:
     description: Reactance. Lines need to have a reactance different from 0 in the
       case of a DC cable or a transportation modeling for an AC cable
-    unit:
+    unit: -
     skip-region-aggregation: true
 - Reserve|Electricity|Replacement:
     description: Replacement reserve (RR) means the active power reserves available
@@ -79,7 +79,7 @@
 - Network|Electricity|Security Factor:
     description: Security factor to consider approximately N-1 contingencies. NTC
       = TTC x SecurityFactor
-    unit:
+    unit: -
     skip-region-aggregation: true
 - Network|Electricity|Voltage Angle:
     description: Voltage angle at a node
