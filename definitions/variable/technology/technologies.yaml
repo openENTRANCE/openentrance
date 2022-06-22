@@ -87,7 +87,7 @@
     description: Variable cost for {Electricity Input}, including the fuel cost
     unit: [EUR_2020/MWh, USD_2010/MWh]
     skip-region-aggregation: true
-- Variable Cost (excl. Fuel Cost)|Electricity|{Electricity Input}:
+- Variable Cost|Electricity|{Electricity Input}:
     description: Variable cost for {Electricity Input}, without the fuel cost
     unit: [EUR_2020/MWh, USD_2010/MWh]
     skip-region-aggregation: true
