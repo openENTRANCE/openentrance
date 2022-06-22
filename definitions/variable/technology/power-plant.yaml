@@ -28,10 +28,6 @@
       {Electricity Input}
     unit: EUR
     skip-region-aggregation: true
-- Variable Cost|Electricity|{Electricity Input}:
-    description: Variable cost for generating electricity from {Electricity Input}
-    unit: EUR/MWh
-    skip-region-aggregation: true
 - Number of Units|Electricity|{Electricity Input}:
     description: Number of power plant units generating electricity from {Electricity Input}
     unit:
