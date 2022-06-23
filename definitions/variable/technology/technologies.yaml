@@ -4,7 +4,10 @@
 - Capacity|Electricity|{Electricity Input}:
     description: Total installed electricity generation capacity from {Electricity Input}
     unit: GW
-- Capacity|Electricity|{Energy Storage System Type}:
+- Capacity|Electricity|Energy Storage System:
+    description: Total installed electricity generation capacity from all {Energy Storage System Type} storage systems
+    unit: GW
+- Capacity|Electricity|Energy Storage System|{Energy Storage System Type}:
     description: Total installed electricity generation capacity from {Energy Storage System Type}
     unit: GW
 - Capacity|Heat|Residential and Commercial:
