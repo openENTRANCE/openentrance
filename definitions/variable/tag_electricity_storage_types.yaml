@@ -4,6 +4,7 @@
 # This list is intended for use as input energy storage system to the power sector
 
 - Electricity Storage Type:
+
   - Energy Storage System:
       description: Mainly to refer to the batteries
   - Energy Storage System|Lithium-Ion:
@@ -12,6 +13,7 @@
       description: Redox Flow batteries
   - Energy Storage System|Compressed Air:
       description: Compressed Air batteries
+
   - Hydro:
       description: hydropower
   - Hydro|Run of River:
@@ -27,3 +29,6 @@
         (possibly including pumping turbines)
       notes: This definition follows the convention established
         by the ENTSO-E transparency platform (https://transparency.entsoe.eu).
+
+  - Solar|CSP:
+      description: concentrating/concentrated solar power (CSP)
