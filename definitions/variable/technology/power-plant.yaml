@@ -89,17 +89,6 @@
       Containment Reserve by a typical power plant generating electricity from {Electricity Input}
     unit: '%'
     skip-region-aggregation: true
-- Automatic Frequency Restoration Reserve|Electricity|{Electricity Storage Type}:
-    description: Share of Maximum Active Power that can be committed to Automatic
-      Frequency Restoration Reserve by a storage system
-      electricity from {Electricity Storage Type}
-    unit: '%'
-    skip-region-aggregation: true
-- Frequency Containment Reserve|Electricity|{Electricity Storage Type}:
-    description: Share of Maximum Active Power that can be committed to Frequency
-      Containment Reserve by a storage system 
-    unit: '%'
-    skip-region-aggregation: true
 - Automatic Frequency Restoration Reserve|Electricity|{Electricity Input}:
     description: Share of Maximum Active Power that can be committed to Automatic
       Frequency Restoration Reserve by a typical power plant generating electricity
