@@ -84,11 +84,6 @@
       electricity from {Electricity Input}
     unit: second
     skip-region-aggregation: true
-- Inertia|Electricity|{Electricity Storage Type}:
-    description: Inertia provided to the system by a storage system discharging (usually 0)
-      electricity from {Electricity Storage Type}
-    unit: second
-    skip-region-aggregation: true
 - Frequency Containment Reserve|Electricity|{Electricity Input}:
     description: Share of Maximum Active Power that can be committed to Frequency
       Containment Reserve by a typical power plant generating electricity from {Electricity Input}
