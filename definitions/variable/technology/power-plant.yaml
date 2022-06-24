@@ -95,6 +95,20 @@
       from {Electricity Input}
     unit: '%'
     skip-region-aggregation: true
+- Inertia|Electricity|{Electricity Storage Type}:
+    description: Inertia provided to the system by a {Electricity Storage Type} unit
+    unit: second
+    skip-region-aggregation: true
+- Frequency Containment Reserve|Electricity|{Electricity Storage Type}:
+    description: Share of Maximum Active Power that can be committed to Frequency
+      Containment Reserve by a {Electricity Storage Type} unit
+    unit: '%'
+    skip-region-aggregation: true
+- Automatic Frequency Restoration Reserve|Electricity|{Electricity Storage Type}:
+    description: Share of Maximum Active Power that can be committed to Automatic
+      Frequency Restoration Reserve by a {Electricity Storage Type} unit
+    unit: '%'
+    skip-region-aggregation: true
 - Operating Reserve|Up|Electricity|{Electricity Input}:
     description: Upwards operating reserve by a typical power plant generating electricity
       from {Electricity Input}
