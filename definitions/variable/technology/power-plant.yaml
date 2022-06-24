@@ -84,9 +84,9 @@
       electricity from {Electricity Input}
     unit: second
     skip-region-aggregation: true
-- Inertia|Electricity|Energy Storage System|{Energy Storage System Type}:
+- Inertia|Electricity|{Electricity Storage Type}:
     description: Inertia provided to the system by a storage system discharging (usually 0)
-      electricity from {Energy Storage System Type}
+      electricity from {Electricity Storage Type}
     unit: second
     skip-region-aggregation: true
 - Frequency Containment Reserve|Electricity|{Electricity Input}:
@@ -94,13 +94,13 @@
       Containment Reserve by a typical power plant generating electricity from {Electricity Input}
     unit: '%'
     skip-region-aggregation: true
-- Automatic Frequency Restoration Reserve|Electricity|Energy Storage System|{Energy Storage System Type}:
+- Automatic Frequency Restoration Reserve|Electricity|{Electricity Storage Type}:
     description: Share of Maximum Active Power that can be committed to Automatic
       Frequency Restoration Reserve by a storage system
-      electricity from {Energy Storage System Type}
+      electricity from {Electricity Storage Type}
     unit: '%'
     skip-region-aggregation: true
-- Frequency Containment Reserve|Electricity|Energy Storage System|{Energy Storage System Type}:
+- Frequency Containment Reserve|Electricity|{Electricity Storage Type}:
     description: Share of Maximum Active Power that can be committed to Frequency
       Containment Reserve by a storage system 
     unit: '%'
@@ -129,86 +129,61 @@
       from {Electricity Input}
     unit: MW/h
     skip-region-aggregation: true
-- Maximum Storage|Electricity|Hydro|Reservoir:
-    description: Maximum volume of a reservoir expressed in energy
+- Maximum Storage|Electricity|{Electricity Storage Type}:
+    description: Maximum volume of a storage expressed in energy
     unit: GWh
-- Minimum Storage|Electricity|Hydro|Reservoir:
-    description: Minimum volume of a reservoir expressed in energy
+- Minimum Storage|Electricity|{Electricity Storage Type}:
+    description: Minimum volume of a storage expressed in energy
     unit: GWh
-- Pumping Efficiency|Electricity|Hydro|Reservoir:
-    description: Efficiency of pumping for a hydro reservoir power plant
+- Charging Efficiency|Electricity|{Electricity Storage Type}:
+    description: Efficiency of charging energy for a {Electricity Storage Type}
     unit: '%'
     skip-region-aggregation: true
-- Turbine Efficiency|Electricity|Hydro|Reservoir:
-    description: Efficiency of turbining for a hydro reservoir power plant
+- Discharging Efficiency|Electricity|{Electricity Storage Type}:
+    description: Efficiency of discharging for a {Electricity Storage Type}
     unit: '%'
     skip-region-aggregation: true
-- Inflows|Electricity|Hydro|Reservoir:
-    description: Inflows into a reservoir expressed in energy
+- Inflows|Electricity|{Electricity Storage Type}:
+    description: Inflows into a storage of a {Electricity Storage Type}, expressed in energy
     unit: GWh
-- Inflows|Electricity|Hydro|Pumped Storage:
-    description: Inflows into a reservoir expressed in energy
+- Outflows|Electricity|{Electricity Storage Type}:
+    description: Outflows from a storage of a {Electricity Storage Type}, expressed in energy to cover a demand outside of the electricity system
     unit: GWh
-- Maximum Charge|Electricity|Hydro|Pumped Storage:
-    description: Maximum charge when storing energy in the pumped-storage hydro unit.
+- Initial Storage Level|Electricity|{Electricity Storage Type}:
+    description: This is the amount of stored energy in the storage of a {Electricity Storage Type} at the beginning of the first hour into a time series with hourly
+      steps.
+    unit: GWh
+- Maximum Charge|Electricity|{Electricity Storage Type}:
+    description: Maximum charge when storing energy for a {Electricity Storage Type} unit
     unit: GW
-- Maximum Discharge|Electricity|Hydro|Pumped Storage:
-    description: Maximum discharge when consuming energy from the pumped-storage hydro
+- Maximum Discharge|Electricity|{Electricity Storage Type}:
+    description: Maximum discharge when consuming energy from a {Electricity Storage Type} unit
       unit.
     unit: GW
-- Maximum Storage|Electricity|Hydro|Pumped Storage:
-    description: Maximum volume of a pumped-storage hydro unit expressed in energy
-    unit: GWh
-- Minimum Storage|Electricity|Hydro|Pumped Storage:
-    description: Minimum volume of a pumped-storage hydro unit expressed in energy
-    unit: GWh
-- Pumping Efficiency|Electricity|Hydro|Pumped Storage:
-    description: Efficiency of pumping for a pumped-storage hydro unit
-    unit: '%'
-    skip-region-aggregation: true
-- Turbine Efficiency|Electricity|Hydro|Pumped Storage:
-    description: Efficiency of turbining for a pumped-storage hydro unit
-    unit: '%'
-    skip-region-aggregation: true
+- Maximum Storage|Electricity|{Electricity Storage Type}:
+    description: Maximum volume of a {Electricity Storage Type} unit expressed in energy
+    unit:
+    - MWh
+    - GWh
+- Minimum Storage|Electricity|{Electricity Storage Type}:
+    description: Minimum volume of a {Electricity Storage Type} unit expressed in energy
+    unit:
+    - MWh
+    - GWh
 - Load Factor|Electricity|{Variable Renewable Power Type}:
-    description: Load factors for onshore wind power plants
+    description: Load factors for {Variable Renewable Power Type} power plants
     unit: '%'
     skip-region-aggregation: true
-- Maximum Energy Charge|Electricity|Energy Storage System:
-    description: This is the upper bound that energy storage system could charge energy
-      at time "t".
-    unit: GWh
-- Maximum Charge|Electricity|Energy Storage System:
-    description: Maximum charge when storing energy the energy storage system unit.
-    unit: GW
-- Roundtrip Efficiency|Electricity|Energy Storage System|{Energy Storage System Type}:
+- Seasonality|Electricity|{Electricity Storage Type}:
+    description: seasonality (daily, weekly, monthly, etc.) of {Electricity Storage Type}
+    unit: [daily,weekly,monthly]
+- Roundtrip Efficiency|Electricity|{Electricity Storage Type}:
     description: Efficiency when charging energy from the grid to the system.
-    unit: 
-- Maximum Discharge|Electricity|Energy Storage System:
-    description: Maximum discharge when consuming energy from the energy storage system
-      unit.
-    unit: GW
-- Maximum Storage|Electricity|Energy Storage System:
-    description: Maximum energy that can be stored by the energy storage systems.
-    unit: GWh
-- Maximum Storage|Electricity|Energy Storage System|{Energy Storage System Type}:
-    description: Maximum energy that can be stored by the Lithium Iron Batteries systems.
-    unit: GWh
-- Minimum Storage|Electricity|Energy Storage System:
-    description: Minimum energy that can be stored by the energy storage system unit.
-    unit: GWh
-- Spillage|Electricity|Energy Storage System:
-    description: Energy spillage that could not be stored by an energy storage system
-      (ESS). Several energy models include spillage variables related to renewable
+    unit:
+- Spillage|Electricity|{Electricity Storage Type}:
+    description: Energy spillage that could not be stored by a {Electricity Storage Type} unit. Several energy models include spillage variables related to renewable
       energy production; however, another way is to include a spillage variable to
-      the ESS unit since it is the last sink of the power network.
-    unit: GWh
-- Seasonality|Electricity|Energy Storage System|{Energy Storage System Type}:
-    description: seasonality (daily, weekly, monthly, etc.) of {Energy Storage System Type}
-    unit: [daily,weekly,monthly]
-- Seasonality|Electricity|Hydro|Reservoir:
-    description: seasonality (daily, weekly, monthly, etc.) of Reservoir
-    unit: [daily,weekly,monthly]
-- Seasonality|Electricity|Hydro|Pumped Storage:
-    description: seasonality (daily, weekly, monthly, etc.) of Pumped Storage
-    unit: [daily,weekly,monthly]
+      the {Electricity Storage Type} unit since it is the last sink of the power network
+    unit:
+    - MW
+    - GW
