@@ -114,11 +114,15 @@
     unit: MW/h
     skip-region-aggregation: true
 - Maximum Storage|Electricity|{Electricity Storage Type}:
-    description: Maximum volume of a storage expressed in energy
-    unit: GWh
+    description: Maximum volume of a {Electricity Storage Type} unit expressed in energy
+    unit:
+    - MWh
+    - GWh
 - Minimum Storage|Electricity|{Electricity Storage Type}:
-    description: Minimum volume of a storage expressed in energy
-    unit: GWh
+    description: Minimum volume of a {Electricity Storage Type} unit expressed in energy
+    unit:
+    - MWh
+    - GWh
 - Charging Efficiency|Electricity|{Electricity Storage Type}:
     description: Efficiency of charging energy for a {Electricity Storage Type}
     unit: '%'
@@ -144,16 +148,6 @@
     description: Maximum discharge when consuming energy from a {Electricity Storage Type} unit
       unit.
     unit: GW
-- Maximum Storage|Electricity|{Electricity Storage Type}:
-    description: Maximum volume of a {Electricity Storage Type} unit expressed in energy
-    unit:
-    - MWh
-    - GWh
-- Minimum Storage|Electricity|{Electricity Storage Type}:
-    description: Minimum volume of a {Electricity Storage Type} unit expressed in energy
-    unit:
-    - MWh
-    - GWh
 - Load Factor|Electricity|{Variable Renewable Power Type}:
     description: Load factors for {Variable Renewable Power Type} power plants
     unit: '%'
