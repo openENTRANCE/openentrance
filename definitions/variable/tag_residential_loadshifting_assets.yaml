@@ -6,7 +6,7 @@
 - Residential Load Shifting Asset:
   - Electric Vehicle:
       description: electric vehicles
-   - Electric Vehicle_55:
+   
       description: electric vehicles using Fit for 55 scenario
   - Air Conditioning:
       description: air conditionning
