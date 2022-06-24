@@ -39,6 +39,11 @@
     unit: EUR_2020
     skip-region-aggregation: true
 
+- Operation Cost|Electricity|{Electricity Storage Type}:
+    description: Operation Cost of {Electricity Storage Type} units
+    unit: EUR_2020
+    skip-region-aggregation: true
+
 - Reserve|Electricity|Automatic Frequency Restoration|{Electricity Input}:
     description: Automatic Frequency Restoration Reserve available for {Electricity Input}
      power plants; this amount is the maximum available for the grid operator considering
@@ -49,6 +54,13 @@
 - Reserve|Electricity|Frequency Containment|{Electricity Input}:
     description: Frequency Containment Reserve available for {Electricity Input}
      power plants; this amount is the maximum available for the grid operator considering
+     the commitment decisions taken by the model
+    unit: GWh
+    skip-region-aggregation: false
+
+- Reserve|Electricity|Frequency Containment|{Electricity Storage Type}:
+    description: Frequency Containment Reserve available for {Electricity Storage Type}
+     units; this amount is the maximum available for the grid operator considering
      the commitment decisions taken by the model
     unit: GWh
     skip-region-aggregation: false
