@@ -4,11 +4,8 @@
 - Capacity|Electricity|{Electricity Input}:
     description: Total installed electricity generation capacity from {Electricity Input}
     unit: GW
-- Capacity|Electricity|Energy Storage System:
-    description: Total installed electricity generation capacity from all storage systems
-    unit: GW
-- Capacity|Electricity|Energy Storage System|{Energy Storage System Type}:
-    description: Total installed electricity generation capacity from {Energy Storage System Type}
+- Capacity|Electricity|{Electricity Storage Type}:
+    description: Total installed electricity generation capacity from {Electricity Storage Type}
     unit: GW
 - Capacity|Heat|Residential and Commercial:
     description: Total installed heat generation capacity for the residential and
@@ -27,6 +24,10 @@
     unit: GW
 - Capital Cost|Electricity|{Electricity Input}:
     description: Capital cost for {Electricity Input}
+    unit: [EUR_2020/kW, USD_2010/kW]
+    skip-region-aggregation: true
+- Capital Cost|Electricity|{Electricity Storage Type}:
+    description: Capital cost for {Electricity Storage Type}
     unit: [EUR_2020/kW, USD_2010/kW]
     skip-region-aggregation: true
 - Capital Cost|Heat|Residential and Commercial|{Fuel}:
@@ -108,6 +109,12 @@
 
 - Investment|Energy Supply|Electricity|{Electricity Input}:
     description: Investments in new {Electricity Input} power generation capacity
+    notes: For plants with CCS, the investment in the capturing equipment should be
+      included but not the one on transport and storage.
+    unit: [million EUR_2020/yr, billion USD_2010/yr]
+
+- Investment|Energy Supply|Electricity|{Electricity Storage Type}:
+    description: Investments in new {Electricity Storage Type} power generation capacity
     notes: For plants with CCS, the investment in the capturing equipment should be
       included but not the one on transport and storage.
     unit: [million EUR_2020/yr, billion USD_2010/yr]
