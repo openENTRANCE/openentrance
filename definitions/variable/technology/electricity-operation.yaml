@@ -24,20 +24,11 @@
     description: Energy shifted - from the system point of view is equivalent to generation
       of Active Power
     unit: GWh
-- Active Power|Electricity|Electricity Storage System:
-    description: Active Power of energy storage systems, excl. hydro storage
+- Active Power|Electricity|{Electricity Storage Type}:
+    description: Active Power of a {Electricity Storage Type} unit
     unit: GWh
-- Active Power|Electricity|Electricity Storage System|{Energy Storage System Type}:
-    description: Active Power of {Energy Storage System Type}
-    unit: GWh
-- Storage|Electricity|Hydro|Reservoir:
-    description: Available storage of "simple Hydro reservoir " units
-    unit: GWh
-- Storage|Electricity|Hydro|Pumped Storage:
-    description: Available storage of "Pumped Storage " units
-    unit: GWh
-- Storage|Electricity|Energy Storage System:
-    description: Available storage of energy storage systems, excl. hydro storage
+- Storage|Electricity|{Electricity Storage Type}:
+    description: Available storage of a {Electricity Storage Type} unit
     unit: GWh
 - Storage|Electricity|Load Curtailment:
     description: remaining amount of curtailement
