@@ -95,12 +95,12 @@
 - Export|Electricity:
     description: Exported electricity from a given region
     unit:MWh
-    skip-region-aggregation: true 
+    skip-region-aggregation: true
 - Import|Electricity:
     description: Exported electricity from a given region
     unit:MWh
-    skip-region-aggregation: true 
-- Non Served Demand|Electricity:
+    skip-region-aggregation: true
+- Non served Demand|Electricity:
     description: Not served demand
     unit:MWh
-    skip-region-aggregation: true 
+    skip-region-aggregation: true
