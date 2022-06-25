@@ -10,7 +10,8 @@
 #   - Demand in reserves
 #   - Demand in inertia
 #   - Flows in transmission lines
-# Demand not served
+# 
+
 
 - Active Power|Electricity|{Electricity Input}:
     description: Active power of {Electricity Input} power plants
@@ -91,3 +92,15 @@
     description: Marginal Cost associated to the Frequency Containment requirement
     unit: EUR_2020/MWh
     skip-region-aggregation: true
+- Export|Electricity:
+    description: Exported electricity from a given region
+    unit:MWh
+    skip-region-aggregation: true 
+- Import|Electricity:
+    description: Exported electricity from a given region
+    unit:MWh
+    skip-region-aggregation: true 
+- Non Served Demand|Electricity:
+    description: Not served demand
+    unit:MWh
+    skip-region-aggregation: true 
