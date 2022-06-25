@@ -40,6 +40,10 @@
     description: Maximum active power of a typical power plant generating electricity
       from {Electricity Input}
     unit: MW
+- Minimum Active Power|Electricity|{Electricity Input}:
+    description: Minimum active power of a typical power plant generating electricity
+      from {Electricity Input}
+    unit: MW
 - Minimum On Duration|Electricity|{Electricity Input}:
     description: Minimum duration that a typical power plant generating electricity
       from {Electricity Input} has to remain online after start-up
