@@ -17,7 +17,7 @@
   - Dish Washer:
       description: dish washers
   - Water Heater:
-      description: electric water heaters
+      description: electric water heaters with storage capability
   - Refrigeration:
       description: refrigerators and freezers
   - Storage Heater:
