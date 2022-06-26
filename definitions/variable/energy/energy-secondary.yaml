@@ -11,6 +11,9 @@
 - Secondary Energy|Electricity|{Electricity Input}:
     description: Net electricity production from {Electricity Input}
     unit: EJ/yr
+- Secondary Energy|Electricity|{Electricity Storage Type}:
+    description: Net electricity production from {Electricity Storage Type}
+    unit: EJ/yr
 - Secondary Energy|Electricity|Curtailment:
     description: Curtailment of electricity production due to oversupply from
       variable renewable sources (typically from wind and solar)
