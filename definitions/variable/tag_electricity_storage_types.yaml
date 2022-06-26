@@ -16,8 +16,6 @@
 
   - Hydro:
       description: hydropower
-  - Hydro|Run of River:
-      description: run-of-river hydro power plants (i.e. without storage capacity)
   - Hydro|Pumped Storage:
       description: hydropower systems with short-term storage capacity
         (including pumping turbines)
