@@ -111,7 +111,32 @@
     energy source: all
     energy use: all excl. losses
     sector: Residential and Commercial
-    unit: [EJ/yr, GWh]  
+    unit: [EJ/yr, GWh]
+- Final Energy|Residential and Commercial|Space Heating|{Final Energy carrier}:
+    description: Final energy consumed for space heating in residential and commercial buildings
+      from {Final Energy carrier}
+    energy use: all excl. losses
+    sector: Residential and Commercial
+    unit: [EJ/yr, GWh]
+- Final Energy|Residential and Commercial|Space Cooling:
+    description: Final energy consumed for space cooling in residential and commercial buildings
+    energy source: all
+    energy use: all excl. losses
+    sector: Residential and Commercial
+    unit: [EJ/yr, GWh]
+- Final Energy|Residential and Commercial|Water Heating:
+    description: Final energy consumed for water heating in residential and commercial buildings
+    energy source: all
+    energy use: all excl. losses
+    sector: Residential and Commercial
+    unit: [EJ/yr, GWh]
+- Final Energy|Residential and Commercial|Water Heating|{Final Energy carrier}:
+    description: Final energy consumed for water heating in residential and commercial buildings
+      from {Final Energy carrier}
+    energy use: all excl. losses
+    sector: Residential and Commercial
+    unit: [EJ/yr, GWh]
+
 - Final Energy|Commercial:
     description: Final energy consumed in the commercial sector
     energy source: all
@@ -411,10 +436,16 @@
     energy use: all excl.heating, cooling, transportation
     sector: all
     unit: [EJ/yr, GWh]
+- Share|Final Energy|Electricity|Cooling:
+    description: Share of the Final electricity energy consumption for cooling compared to the final electricity energy
+    energy source: electricity
+    energy use: cooling
+    sector: all
+    unit: 
 - Final Energy|Electricity|Profile:
     description: Time series of Final electricity consumption profiles.
     energy source: electricity
-    energy use: cooling
+    energy use: all
     note: Those coefficients, if hourly, when multiplied by a yearly energy give hourly
       energy profiles.
     sector: all

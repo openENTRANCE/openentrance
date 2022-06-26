@@ -31,6 +31,14 @@
 - Number of Units|Electricity|{Electricity Input}:
     description: Number of power plant units generating electricity from {Electricity Input}
     unit:
+- Variable Cost|Electricity|{Electricity Input}:
+    description: Variable cost for generating electricity from {Electricity Input} without the Fuel cost
+    unit: EUR/MWh
+    skip-region-aggregation: true
+- Variable Cost (incl. Fuel Cost)|Electricity|{Electricity Input}:
+    description: Variable cost for generating electricity from {Electricity Input} with the fuel cost
+    unit: EUR/MWh
+    skip-region-aggregation: true
 - Maximum Active Power|Electricity|{Electricity Input}:
     description: Maximum active power of a typical power plant generating electricity
       from {Electricity Input}
@@ -68,18 +76,32 @@
 - Mean Outage Duration|Electricity|{Electricity Input}:
     description: Mean duration of an outage of a typical power plant generating electricity
       from {Electricity Input}
-    unit:
-    - day
-    - hour
+    unit: [days, hours]
     skip-region-aggregation: true
 - Inertia|Electricity|{Electricity Input}:
     description: Inertia provided to the system by a typical power plant generating
       electricity from {Electricity Input}
     unit: second
     skip-region-aggregation: true
+- Inertia|Electricity|Energy Storage System|{Energy Storage System Type}:
+    description: Inertia provided to the system by a storage system discharging (usually 0)
+      electricity from {Energy Storage System Type}
+    unit: second
+    skip-region-aggregation: true
 - Frequency Containment Reserve|Electricity|{Electricity Input}:
     description: Share of Maximum Active Power that can be committed to Frequency
       Containment Reserve by a typical power plant generating electricity from {Electricity Input}
+    unit: '%'
+    skip-region-aggregation: true
+- Automatic Frequency Restoration Reserve|Electricity|Energy Storage System|{Energy Storage System Type}:
+    description: Share of Maximum Active Power that can be committed to Automatic
+      Frequency Restoration Reserve by a storage system
+      electricity from {Energy Storage System Type}
+    unit: '%'
+    skip-region-aggregation: true
+- Frequency Containment Reserve|Electricity|Energy Storage System|{Energy Storage System Type}:
+    description: Share of Maximum Active Power that can be committed to Frequency
+      Containment Reserve by a storage system 
     unit: '%'
     skip-region-aggregation: true
 - Automatic Frequency Restoration Reserve|Electricity|{Electricity Input}:
@@ -123,10 +145,8 @@
 - Inflows|Electricity|Hydro|Reservoir:
     description: Inflows into a reservoir expressed in energy
     unit: GWh
-- Initial Storage Level|Electricity|Hydro|Pumped Storage:
-    description: This is the amount of stored energy in the storage of a pumped-storage
-      hydro unit at the beginning of the first hour into a time series with hourly
-      steps.
+- Inflows|Electricity|Hydro|Pumped Storage:
+    description: Inflows into a reservoir expressed in energy
     unit: GWh
 - Maximum Charge|Electricity|Hydro|Pumped Storage:
     description: Maximum charge when storing energy in the pumped-storage hydro unit.
@@ -149,19 +169,7 @@
     description: Efficiency of turbining for a pumped-storage hydro unit
     unit: '%'
     skip-region-aggregation: true
-- Load Factor|Electricity|Hydro|Run of River:
-    description: Load factors for run-of-river power plants
-    unit: '%'
-    skip-region-aggregation: true
-- Load Factor|Electricity|Solar:
-    description: Load factors for solar power plants
-    unit: '%'
-    skip-region-aggregation: true
-- Load Factor|Electricity|Wind|Offshore:
-    description: Load factors for offshore wind power plants
-    unit: '%'
-    skip-region-aggregation: true
-- Load Factor|Electricity|Wind|Onshore:
+- Load Factor|Electricity|{Variable Renewable Power Type}:
     description: Load factors for onshore wind power plants
     unit: '%'
     skip-region-aggregation: true
@@ -169,13 +177,12 @@
     description: This is the upper bound that energy storage system could charge energy
       at time "t".
     unit: GWh
-- Initial Storage Level|Electricity|Energy Storage System:
-    description: Initial energy stored in the energy storage system unit at first
-      load level. (ESS that includes hydro, battery, etc.)
-    unit: GWh
 - Maximum Charge|Electricity|Energy Storage System:
     description: Maximum charge when storing energy the energy storage system unit.
     unit: GW
+- Roundtrip Efficiency|Electricity|Energy Storage System|{Energy Storage System Type}:
+    description: Efficiency when charging energy from the grid to the system.
+    unit: 
 - Maximum Discharge|Electricity|Energy Storage System:
     description: Maximum discharge when consuming energy from the energy storage system
       unit.
@@ -183,38 +190,24 @@
 - Maximum Storage|Electricity|Energy Storage System:
     description: Maximum energy that can be stored by the energy storage systems.
     unit: GWh
-- Maximum Storage|Electricity|Energy Storage System|Lithium-Ion:
+- Maximum Storage|Electricity|Energy Storage System|{Energy Storage System Type}:
     description: Maximum energy that can be stored by the Lithium Iron Batteries systems.
-    unit: GWh
-- Maximum Storage|Electricity|Energy Storage System|Redox Flow:
-    description: Maximum energy that can be stored by the Redox Flow Batteries systems.
-    unit: GWh
-- Maximum Storage|Electricity|Energy Storage System|Compressed Air:
-    description: Maximum energy that can be stored by the Compressed air energy storages
-      systems.
     unit: GWh
 - Minimum Storage|Electricity|Energy Storage System:
     description: Minimum energy that can be stored by the energy storage system unit.
-    unit:
-    - MWh
-    - GWh
+    unit: GWh
 - Spillage|Electricity|Energy Storage System:
     description: Energy spillage that could not be stored by an energy storage system
       (ESS). Several energy models include spillage variables related to renewable
       energy production; however, another way is to include a spillage variable to
       the ESS unit since it is the last sink of the power network.
-    unit:
-    - MWh
-    - GWh
-- Storage Type|Electricity|Energy Storage System:
-    description: Storage type (daily, weekly, monthly, etc.) for energy storage system
-      (ESS) that includes hydro, battery, etc.
-    unit:
-    - Daily
-    - Weekly
-    - Monthly
-- Stored Energy Inventory|Electricity|Energy Storage System:
-    description: State of the stored energy by ESS
-    unit:
-    - MWh
-    - GWh
+    unit: GWh
+- Seasonality|Electricity|Energy Storage System|{Energy Storage System Type}:
+    description: seasonality (daily, weekly, monthly, etc.) of {Energy Storage System Type}
+    unit: [daily,weekly,monthly]
+- Seasonality|Electricity|Hydro|Reservoir:
+    description: seasonality (daily, weekly, monthly, etc.) of Reservoir
+    unit: [daily,weekly,monthly]
+- Seasonality|Electricity|Hydro|Pumped Storage:
+    description: seasonality (daily, weekly, monthly, etc.) of Pumped Storage
+    unit: [daily,weekly,monthly]

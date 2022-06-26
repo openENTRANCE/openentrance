@@ -1,0 +1,12 @@
+# This list of inputs will replace any occurrence of `{Energy Storage System Type}`
+# in a variable-definition yaml file
+
+# This list is intended for use as input energy storage system to the power sector
+
+- Energy Storage System Type:
+  - Lithium-Ion:
+      description: Lithium-Ion batteries
+  - Redox Flow:
+      description: Redox Flow batteries
+  - Compressed Air:
+      description: Compressed Air storage system

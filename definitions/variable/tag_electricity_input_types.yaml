@@ -103,6 +103,39 @@
   - Gas|Fossil|w/o CCS:
       description: fossil natural gas (excluding methane from biomass or hydrogenation)
         with freely vented CO2 emissions
+  - Gas|Fossil|OCGT:
+      description: fossil natural gas (excluding methane from biomass or hydrogenation)
+        in an open-cycle gas turbine (OCGT) power plant 
+  - Gas|Fossil|CCGT:
+      description: fossil natural gas (excluding methane from biomass or hydrogenation)
+        in a combined-cycle gas turbine (CCGT) power plant
+  - Gas|Fossil|Gas Engines:
+      description: fossil natural gas (excluding methane from biomass or hydrogenation)
+        in Gas Engines power plant
+  - Gas|Fossil|OCGT|w/ CCS:
+      description: fossil natural gas (excluding methane from biomass or hydrogenation)
+        in an open-cycle gas turbine (OCGT) power plant
+        with a CO2 capture component
+  - Gas|Fossil|OCGT|w/o CCS:
+      description: fossil natural gas (excluding methane from biomass or hydrogenation)
+        in an open-cycle gas turbine (OCGT) power plant 
+        with freely vented CO2 emissions
+  - Gas|Fossil|CCGT|w/ CCS:
+      description: fossil natural gas (excluding methane from biomass or hydrogenation)
+        in a combined-cycle gas turbine (CCGT) power plant
+        with a CO2 capture component
+  - Gas|Fossil|CCGT|w/o CCS:
+      description: fossil natural gas (excluding methane from biomass or hydrogenation)
+        in a combined-cycle gas turbine (CCGT) power plant
+        with freely vented CO2 emissions
+  - Gas|Fossil|Gas Engines|w/ CCS:
+      description: fossil natural gas (excluding methane from biomass or hydrogenation)
+        in Gas Engines power plant
+        with a CO2 capture component
+  - Gas|Fossil|Gas Engines|w/o CCS:
+      description: fossil natural gas (excluding methane from biomass or hydrogenation)
+        in Gas Engines power plant
+        with freely vented CO2 emissions
 
   - Gas|Biomethane:
       description: biomethane (upgraded biogas)
@@ -110,7 +143,40 @@
       description: biomethane (upgraded biogas) with a CO2 capture component
   - Gas|Biomethane|w/o CCS:
       description: biomethane (upgraded biogas) with freely vented CO2 emissions
-
+  - Gas|Biomethane|OCGT:
+      description: biomethane (upgraded biogas)
+        in an open-cycle gas turbine (OCGT) power plant 
+  - Gas|Biomethane|OCGT|w/ CCS:
+      description: biomethane (upgraded biogas)
+        in an open-cycle gas turbine (OCGT) power plant
+        with a CO2 capture component
+  - Gas|Biomethane|OCGT|w/o CCS:
+      description: biomethane (upgraded biogas)
+        in an open-cycle gas turbine (OCGT) power plant 
+        with freely vented CO2 emissions
+  - Gas|Biomethane|CCGT:
+      description: biomethane (upgraded biogas)
+        in a combined-cycle gas turbine (CCGT) power plant 
+  - Gas|Biomethane|CCGT|w/ CCS:
+      description: biomethane (upgraded biogas)
+        in a combined-cycle gas turbine (CCGT) power plant
+        with a CO2 capture component
+  - Gas|Biomethane|CCGT|w/o CCS:
+      description: biomethane (upgraded biogas)
+        in a combined-cycle gas turbine (CCGT) power plant
+        with freely vented CO2 emissions
+  - Gas|Biomethane|Gas Engines:
+      description: biomethane (upgraded biogas)
+        in Gas Engines power plant
+  - Gas|Biomethane|Gas Engines|w/o CCS:
+      description: biomethane (upgraded biogas)
+        in Gas Engines power plant
+        with freely vented CO2 emissions
+  - Gas|Biomethane|Gas Engines|w/ CCS:
+      description: biomethane (upgraded biogas)
+        in Gas Engines power plant
+        with a CO2 capture component
+        
   - Gas|Synthetic Methane:
       description: synthetic methane (methanation of hydrogen)
   - Gas|Synthetic Methane|w/ CCS:
@@ -118,6 +184,40 @@
         with a CO2 capture component
   - Gas|Synthetic Methane|w/o CCS:
       description: synthetic methane (methanation of hydrogen)
+        with freely vented CO2 emissions
+  - Gas|Synthetic Methane|OCGT:
+      description: synthetic methane (methanation of hydrogen)
+        in an open-cycle gas turbine (OCGT) power plant 
+        with a CO2 capture component
+  - Gas|Synthetic Methane|OCGT|w/ CCS:
+      description: synthetic methane (methanation of hydrogen)
+        in an open-cycle gas turbine (OCGT) power plant 
+        with a CO2 capture component
+  - Gas|Synthetic Methane|OCGT|w/o CCS:
+      description: synthetic methane (methanation of hydrogen)
+        in an open-cycle gas turbine (OCGT) power plant 
+        with freely vented CO2 emissions
+  - Gas|Synthetic Methane|CCGT:
+      description: synthetic methane (methanation of hydrogen)
+        in a combined-cycle gas turbine (CCGT) power plant
+  - Gas|Synthetic Methane|CCGT|w/ CCS:
+      description: synthetic methane (methanation of hydrogen)
+        in a combined-cycle gas turbine (CCGT) power plant
+        with a CO2 capture component
+  - Gas|Synthetic Methane|CCGT|w/o CCS:
+      description: synthetic methane (methanation of hydrogen)
+        in a combined-cycle gas turbine (CCGT) power plant
+        with freely vented CO2 emissions     
+  - Gas|Synthetic Methane|Gas Engines:
+      description: synthetic methane (methanation of hydrogen)
+        in Gas Engines power plant
+  - Gas|Synthetic Methane|Gas Engines|w/ CCS:
+      description: synthetic methane (methanation of hydrogen)
+        in Gas Engines power plant
+        with a CO2 capture component
+  - Gas|Synthetic Methane|Gas Engines|w/o CCS:
+      description: synthetic methane (methanation of hydrogen)
+        in Gas Engines power plant
         with freely vented CO2 emissions
 
   - Oil:
@@ -169,8 +269,15 @@
       description: concentrating/concentrated solar power (CSP)
 
   - Solar|PV:
-      description: solar photovoltaics (PV)
-
+      description: solar photovoltaics (PV)   
+  - Solar|PV|Rooftop:
+      description: solar photovoltaics (PV) on rooftops      
+  - Solar|PV|Rooftop|Residential:
+      description: solar photovoltaics (PV) on rooftops of residential buildings
+  - Solar|PV|Rooftop|Commercial:
+      description: solar photovoltaics (PV) on rooftops of Commercial buildings
+  - Solar|PV|Utility:
+      description: Utilities solar photovoltaics (PV)  
   - Wind:
       description: wind energy (on- and offshore)
 
