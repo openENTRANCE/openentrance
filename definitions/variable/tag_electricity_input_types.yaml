@@ -230,6 +230,9 @@
   - Nuclear:
       description: nuclear energy
 
+  - Hydro|Run of River:
+      description: run-of-river hydro power plants (i.e. without storage capacity)
+
   - Hydrogen:
       description: hydrogen
 
