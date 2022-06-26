@@ -96,12 +96,15 @@
 - Export|Electricity:
     description: Exported electricity from a given region
     unit: MWh
-    skip-region-aggregation: true
 - Import|Electricity:
     description: Exported electricity from a given region
     unit: MWh
-    skip-region-aggregation: true
 - Non served Demand|Electricity:
     description: Not served demand
     unit: MWh
-    skip-region-aggregation: true
+- Charged Energy|Electricity|{Electricity Input}:
+    description: Amount of energy charged to the storage during the period
+    unit: GWh
+- Discharged Energy|Electricity|{Electricity Input}:
+    description: Amount of energy charged to the storage during the period
+    unit: GWh
