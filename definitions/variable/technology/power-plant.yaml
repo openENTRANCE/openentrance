@@ -151,10 +151,6 @@
 - Outflows|Electricity|{Electricity Storage Type}:
     description: Outflows from a storage of a {Electricity Storage Type}, expressed in energy to cover a demand outside of the electricity system
     unit: GWh
-- Initial Storage Level|Electricity|{Electricity Storage Type}:
-    description: This is the amount of stored energy in the storage of a {Electricity Storage Type} at the beginning of the first hour into a time series with hourly
-      steps.
-    unit: GWh
 - Maximum Charge|Electricity|{Electricity Storage Type}:
     description: Maximum charge when storing energy for a {Electricity Storage Type} unit
     unit: GW
