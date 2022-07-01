@@ -99,7 +99,7 @@
 - Import|Electricity:
     description: Exported electricity from a given region
     unit: MWh
-- Non served Demand|Electricity:
+- Unserved Demand|Electricity:
     description: Not served demand
     unit: MWh
 - Charged Energy|Electricity|{Electricity Input}:
