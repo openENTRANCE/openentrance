@@ -107,4 +107,6 @@
     unit: GWh
 - Discharged Energy|Electricity|{Electricity Input}:
     description: Amount of energy charged to the storage during the period
+    notes: This has to be a positive value. If more energy is charged into storage than discharged from storage , please used the variable "Charged Energy"
+
     unit: GWh
