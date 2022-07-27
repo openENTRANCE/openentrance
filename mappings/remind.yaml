@@ -1,0 +1,62 @@
+model: 
+  - REMIND 2.1
+  - REMIND 3.0.0
+  - REMIND-Buildings 3.0.0
+  - REMIND-Industry 3.0.0
+  - EDGE-T 0.15.0
+native_regions:
+  - CAZ: REMIND|CAZ
+  - CHA: REMIND|CHA
+  - DEU: REMIND|DEU
+  - ECE: REMIND|ECE
+  - ECS: REMIND|ECS
+  - ENC: REMIND|ENC
+  - ESC: REMIND|ESC
+  - ESW: REMIND|ESW
+  - EWN: REMIND|EWN
+  - FRA: REMIND|FRA
+  - IND: REMIND|IND
+  - JPN: REMIND|JPN
+  - LAM: REMIND|LAM
+  - MEA: REMIND|MEA
+  - NEN: REMIND|NEN
+  - NES: REMIND|NES
+  - OAS: REMIND|OAS
+  - REF: REMIND|REF
+  - SSA: REMIND|SSA
+  - UKI: REMIND|UKI
+  - USA: REMIND|USA
+  - EUR: EU27 & UK
+  - EU27
+  - World
+common_regions:
+  - Germany:
+      - DEU
+  - France:
+      - FRA
+  - Asia (R5):
+      - CHA
+      - IND
+      - OAS
+  - Latin America (R5):
+      - LAM
+  - Middle East & Africa (R5):
+      - SSA
+      - MEA
+  - OECD & EU (R5):
+      - DEU
+      - ECE
+      - ENC
+      - ECS
+      - ESC
+      - ESW
+      - EWN
+      - FRA
+      - UKI
+      - JPN
+      - USA
+      - CAZ
+      - NEN
+      - NES
+  - Reforming Economies (R5):
+      - REF
