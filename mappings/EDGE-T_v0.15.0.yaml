@@ -1,0 +1,57 @@
+model: EDGE-T 0.15.0
+native_regions:
+  - CAZ: EDGE-T 0.15.0|CAZ
+  - CHA: EDGE-T 0.15.0|CHA
+  - DEU: EDGE-T 0.15.0|DEU
+  - ECE: EDGE-T 0.15.0|ECE
+  - ECS: EDGE-T 0.15.0|ECS
+  - ENC: EDGE-T 0.15.0|ENC
+  - ESC: EDGE-T 0.15.0|ESC
+  - ESW: EDGE-T 0.15.0|ESW
+  - EWN: EDGE-T 0.15.0|EWN
+  - FRA: EDGE-T 0.15.0|FRA
+  - IND: EDGE-T 0.15.0|IND
+  - JPN: EDGE-T 0.15.0|JPN
+  - LAM: EDGE-T 0.15.0|LAM
+  - MEA: EDGE-T 0.15.0|MEA
+  - NEN: EDGE-T 0.15.0|NEN
+  - NES: EDGE-T 0.15.0|NES
+  - OAS: EDGE-T 0.15.0|OAS
+  - REF: EDGE-T 0.15.0|REF
+  - SSA: EDGE-T 0.15.0|SSA
+  - UKI: EDGE-T 0.15.0|UKI
+  - USA: EDGE-T 0.15.0|USA
+  - EUR: EU27 & UK
+  - EU27
+  - World
+common_regions:
+  - Germany:
+      - DEU
+  - France:
+      - FRA
+  - Asia (R5):
+      - CHA
+      - IND
+      - OAS
+  - Latin America (R5):
+      - LAM
+  - Middle East & Africa (R5):
+      - SSA
+      - MEA
+  - OECD & EU (R5):
+      - DEU
+      - ECE
+      - ENC
+      - ECS
+      - ESC
+      - ESW
+      - EWN
+      - FRA
+      - UKI
+      - JPN
+      - USA
+      - CAZ
+      - NEN
+      - NES
+  - Reforming Economies (R5):
+      - REF
