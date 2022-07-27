@@ -24,14 +24,6 @@
     unit: [EUR_2020/GJ, USD_2010/GJ]
     weight: Primary Energy|Oil
 
-# Secondary energy prices:
-- Price|Secondary Energy|{Final Energy carrier}:
-    description: price at the secondary level of {Final Energy carrier}, i.e. for large scale
-                consumers (e.g. aluminum production, gas power plant)
-    notes: Prices should include the effect of carbon prices.
-    unit: [EUR_2020/GJ, USD_2010/GJ]
-    weight: Secondary Energy|{Final Energy carrier}
-
 # Final energy prices:
 - Price|Final Energy|Industry|{Final Energy carrier}:
     description: price at the final level in the industrial sector of {Final Energy carrier}. 
@@ -84,27 +76,3 @@
     notes: Prices should include the effect of carbon prices.
     unit: [EUR_2020/GJ, USD_2010/GJ]
     weight: Secondary Energy|Solids|Coal
-
-- Price|Final Energy|Residential|Gases|Natural Gas:
-    description: Mean natural gas price at the final level in the residential sector
-    notes: Prices should include the effect of carbon prices. This mean price should
-      reflect the variability of different prices that are accessible to end-users
-      (e.g., including regulated prices, prices by different competiting retailers).
-    unit: [EUR_2020/GJ,  USD_2010/GJ]
-    weight: Final Energy|Residential|Gases|Natural Gas
-
-- Price|Final Energy|Residential|Liquids|Oil:
-    description: Mean light fuel oil price at the final level in the residential sector
-    notes: Prices should include the effect of carbon prices. This mean price should
-      reflect the variability of different prices that are accessible to end-users
-      (e.g., including regulated prices, prices by different competiting retailers).
-    unit: [EUR_2020/GJ,  USD_2010/GJ]
-    weight: Final Energy|Residential|Liquids|Oil
-
-- Price|Final Energy|Residential|Solids|Coal:
-    description: Mean coal price at the final level in the residential sector
-    notes: Prices should include the effect of carbon prices. This mean price should
-      reflect the variability of different prices that are accessible to end-users
-      (e.g., including regulated prices, prices by different competiting retailers).
-    unit: [EUR_2020/GJ,  USD_2010/GJ]
-    weight: Final Energy|Residential|Solids|Coal
