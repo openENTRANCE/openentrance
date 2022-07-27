@@ -1,4 +1,9 @@
-model: REMIND 2.1
+model: 
+  - REMIND 2.1
+  - REMIND 3.0.0
+  - REMIND-Industry 3.0.0
+  - REMIND-Buildings 3.0.0
+  - EDGE-T 0.15.0
 native_regions:
   - CAZ: REMIND 2.1|CAZ
   - CHA: REMIND 2.1|CHA
