@@ -1,24 +1,24 @@
 # The model documentation can be found at https://github.com/remindmodel/remind
 # REMIND regions mapping can be found at https://git.io/JySgR and https://doi.org/10.1016/j.energy.2021.121908
-- REMIND:
-  - REMIND|CAZ
-  - REMIND|CHA
-  - REMIND|DEU
-  - REMIND|ECE
-  - REMIND|ECS
-  - REMIND|ENC
-  - REMIND|ESC
-  - REMIND|ESW
-  - REMIND|EWN
-  - REMIND|FRA
-  - REMIND|IND
-  - REMIND|JPN
-  - REMIND|LAM
-  - REMIND|MEA
-  - REMIND|NEN
-  - REMIND|NES
-  - REMIND|OAS
-  - REMIND|REF
-  - REMIND|SSA
-  - REMIND|UKI
-  - REMIND|USA
+- REMIND 3.0:
+  - REMIND 3.0|CAZ
+  - REMIND 3.0|CHA
+  - REMIND 3.0|DEU
+  - REMIND 3.0|ECE
+  - REMIND 3.0|ECS
+  - REMIND 3.0|ENC
+  - REMIND 3.0|ESC
+  - REMIND 3.0|ESW
+  - REMIND 3.0|EWN
+  - REMIND 3.0|FRA
+  - REMIND 3.0|IND
+  - REMIND 3.0|JPN
+  - REMIND 3.0|LAM
+  - REMIND 3.0|MEA
+  - REMIND 3.0|NEN
+  - REMIND 3.0|NES
+  - REMIND 3.0|OAS
+  - REMIND 3.0|REF
+  - REMIND 3.0|SSA
+  - REMIND 3.0|UKI
+  - REMIND 3.0|USA
