@@ -104,9 +104,14 @@
     unit: MWh
 - Charged Energy|Electricity|{Electricity Input}:
     description: Amount of energy charged to the storage during the period
+    notes: this represents the total energy which is charged into the storage during the period, the energy which is discharged during 
+     that same period is not substracted from this total. This means that the Net Charged Energy can be computed as Charged Energy - Discharged Energy
+     if Charged Energy > Discharged Energy, 0 if not
     unit: GWh
 - Discharged Energy|Electricity|{Electricity Input}:
     description: Amount of energy charged to the storage during the period
-    notes: This has to be a positive value. If more energy is charged into storage than discharged from storage , please used the variable "Charged Energy"
+    notes: this represents the total energy which is discharged from the storage during the period, the energy which is charged into the storage during 
+     that same period is not substracted from this total. This means that the Net Discharged Energy can be computed as Discharged Energy - Charged Energy,
+     if Discharged Energy > Charged Energy, 0 if not
 
     unit: GWh
