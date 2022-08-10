@@ -55,7 +55,13 @@
     unit: [EUR_2020/GJ, USD_2010/GJ, EUR_2020/kWh]
     weight: Final Energy|Commercial|{Final Energy carrier}
 
-# additional variables    
+# Prices at the secondary-energy level
+- Price|Secondary Energy|Electricity:
+    description: Electricity price at the wholesale-market level, e.g. spot market price
+    notes: Prices should include the effect of carbon prices.
+    unit: [EUR_2020/GJ, USD_2010/GJ]
+    weight: Secondary Energy|Electricity
+
 - Price|Secondary Energy|Gases|Natural Gas:
     description: Natural gas price at the secondary level, i.e. for large-scale
       consumers (e.g., gas power plant)
