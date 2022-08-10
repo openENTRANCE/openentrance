@@ -166,7 +166,7 @@
     description: seasonality (daily, weekly, monthly, etc.) of {Electricity Storage Type}
     unit: [daily,weekly,monthly]
 - Roundtrip Efficiency|Electricity|{Electricity Storage Type}:
-    description: Efficiency when charging energy from the grid to the system.
+    description: Efficiency when charging energy from the grid to the system
     unit:
 - Spillage|Electricity|{Electricity Storage Type}:
     description: Energy spillage that could not be stored by a {Electricity Storage Type} unit. Several energy models include spillage variables related to renewable
