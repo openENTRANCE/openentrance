@@ -27,6 +27,3 @@
         (possibly including pumping turbines)
       notes: This definition follows the convention established
         by the ENTSO-E transparency platform (https://transparency.entsoe.eu).
-
-  - Solar|CSP:
-      description: concentrating/concentrated solar power (CSP)
