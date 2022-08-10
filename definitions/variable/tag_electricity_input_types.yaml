@@ -258,7 +258,10 @@
   - Solar|PV|Rooftop|Commercial:
       description: solar photovoltaics (PV) on rooftops of Commercial buildings
   - Solar|PV|Utility:
-      description: Utilities solar photovoltaics (PV)  
+      description: Utilities solar photovoltaics (PV)
+  - Solar|CSP:
+      description: concentrating/concentrated solar power (CSP)  
+
   - Wind:
       description: wind energy (on- and offshore)
 
