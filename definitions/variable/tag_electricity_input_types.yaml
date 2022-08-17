@@ -2,6 +2,8 @@
 # in a variable-definition yaml file
 
 # This list is intended for use as input fuel to the power sector
+# only assets generating electricity from another fuel should be included in this list
+# in particular storages which only store and not produce electricity (such as batteries) should not be in this list
 
 - Electricity Input:
   - Biomass:
@@ -293,8 +295,7 @@
   - Ocean:
       description: ocean energy
 
-  - Heatpump:
-      description: energy generation from heatpumps
+ 
 
   - Other:
       description: other energy sources and fuels not explicitely listed
