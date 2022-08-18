@@ -230,6 +230,19 @@
   - Nuclear:
       description: nuclear energy
 
+  - Hydro:
+      description: hydropower
+  - Hydro|Pumped Storage:
+      description: hydropower systems with short-term storage capacity
+        (including pumping turbines)
+      notes: This hydropower system has two water reservoirs at different elevations.
+        The definition follows the convention established
+        by the ENTSO-E transparency platform (https://transparency.entsoe.eu).
+  - Hydro|Reservoir:
+      description: hydropower systems with seasonal storage capacity
+        (possibly including pumping turbines)
+      notes: This definition follows the convention established
+        by the ENTSO-E transparency platform (https://transparency.entsoe.eu).
   - Hydro|Run of River:
       description: run-of-river hydro power plants (i.e. without storage capacity)
 
