@@ -2,6 +2,8 @@
 # in a variable-definition yaml file
 
 # This list is intended for use as input fuel to the power sector
+# only assets generating electricity from another fuel should be included in this list
+# in particular storages which only store and not produce electricity (such as batteries) should not be in this list
 
 - Electricity Input:
   - Biomass:
@@ -58,6 +60,15 @@
       description: lignite coal and sub-bituminous coal with a CO2 capture component
   - Coal|Lignite|w/o CCS:
       description: lignite coal and sub-bituminous coal with freely vented CO2 emissions
+      
+  - Coal|Lignite|CCGT|w/ CHP:
+      description: lignite coal and sub-bituminous coal in a combined-cycle gas turbine (CCGT) power plant, generating Power and Heat
+  - Coal|Lignite|CCGT|w/o CHP:
+      description: lignite coal and sub-bituminous coal in a combined-cycle gas turbine (CCGT) power plant, not generating Heat
+  - Coal|Lignite|OCGT|w/ CHP:
+      description: lignite coal and sub-bituminous coal in an open-cycle gas turbine (OCGT) power plant, generating Power and Heat
+  - Coal|Lignite|OCGT|w/o CHP:
+      description: lignite coal and sub-bituminous coal in an open-cycle gas turbine (OCGT) power plant, not generating Heat
 
   - Coal|Hard coal:
       description: anthracite and bituminous coal
@@ -65,6 +76,15 @@
       description: anthracite and bituminous coal with a CO2 capture component
   - Coal|Hard coal|w/o CCS:
       description: anthracite and bituminous coal with freely vented CO2 emissions
+      
+  - Coal|Hard coal|CCGT|w/ CHP:
+      description: anthracite and bituminous coal in a combined-cycle gas turbine (CCGT) power plant, generating Power and Heat
+  - Coal|Hard coal|CCGT|w/o CHP:
+      description: anthracite and bituminous coal in a combined-cycle gas turbine (CCGT) power plant, not generating Heat
+  - Coal|Hard coal|OCGT|w/ CHP:
+      description: anthracite and bituminous coal in an open-cycle gas turbine (OCGT) power plant, generating Power and Heat
+  - Coal|Hard coal|OCGT|w/o CHP:
+      description: anthracite and bituminous coal in an open-cycle gas turbine (OCGT) power plant, not generating Heat
 
   - Gas:
       description: natural gas (including methane from biomass or hydrogenation)
@@ -84,6 +104,12 @@
   - Gas|OCGT|w/o CCS:
       description: natural gas (including methane from biomass or hydrogenation)
         in an open-cycle gas turbine (OCGT) power plant with freely vented CO2 emissions
+  - Gas|OCGT|w/ CHP:
+      description: natural gas (including methane from biomass or hydrogenation)
+        in an open-cycle gas turbine (OCGT) power plant generating power and heat
+  - Gas|OCGT|w/o CHP:
+      description: natural gas (including methane from biomass or hydrogenation)
+        in an open-cycle gas turbine (OCGT) power plant not generating heat
 
   - Gas|CCGT:
       description: natural gas (including methane from biomass or hydrogenation)
@@ -94,6 +120,12 @@
   - Gas|CCGT|w/o CCS:
       description: natural gas (including methane from biomass or hydrogenation)
         in a combined-cycle gas turbine (CCGT) power plant with freely vented CO2 emissions
+  - Gas|CCGT|w/ CHP:
+      description: natural gas (including methane from biomass or hydrogenation)
+        in a combined-cycle gas turbine (CCGT) power plant generating power and heat
+  - Gas|CCGT|w/o CHP:
+      description: natural gas (including methane from biomass or hydrogenation)
+        in a combined-cycle gas turbine (CCGT) power plant not generating heat
 
   - Gas|Fossil:
       description: fossil natural gas (excluding methane from biomass or hydrogenation)
@@ -230,6 +262,29 @@
   - Nuclear:
       description: nuclear energy
 
+  - Hydrogen:
+      description: hydrogen
+
+  - Hydrogen|Fuel Cell:
+      description: hydrogen via fuel cells
+
+  - Hydrogen|OCGT:
+      description: hydrogen used in open cycle gas turbine (OCGT) power plants
+  - Hydrogen|CCGT:
+      description: hydrogen used in combined cycle gas turbine (CCGT) power plants
+  - Hydrogen|OCGT|w/ CHP:
+      description: hydrogen used in open cycle gas turbine (OCGT) power plants generating power and heat
+  - Hydrogen|CCGT|w/ CHP:
+      description: hydrogen used in combined cycle gas turbine (CCGT) power plants generating power and heat
+  - Hydrogen|OCGT|w/o CHP:
+      description: hydrogen used in open cycle gas turbine (OCGT) power plants not generating heat
+  - Hydrogen|CCGT|w/o CHP:
+      description: hydrogen used in combined cycle gas turbine (CCGT) power plants not generating heat
+
+  - Non-Biomass Renewables:
+      description: hydro, wind, solar, geothermal, ocean, and other renewable sources
+        excluding bioenergy
+
   - Hydro:
       description: hydropower
   - Hydro|Pumped Storage:
@@ -290,8 +345,7 @@
   - Ocean:
       description: ocean energy
 
-  - Heatpump:
-      description: energy generation from heatpumps
+ 
 
   - Other:
       description: other energy sources and fuels not explicitely listed
