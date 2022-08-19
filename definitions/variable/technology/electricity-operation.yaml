@@ -24,27 +24,31 @@
     description: Energy shifted - from the system point of view is equivalent to generation
       of Active Power
     unit: GWh
-- Active Power|Electricity|Electricity Storage System:
-    description: Active Power of energy storage systems, excl. hydro storage
+- Active Power|Electricity|{Electricity Storage Type}:
+    description: Active Power of a {Electricity Storage Type} unit
     unit: GWh
-- Active Power|Electricity|Electricity Storage System|{Energy Storage System Type}:
-    description: Active Power of {Energy Storage System Type}
-    unit: GWh
-- Storage|Electricity|Hydro|Reservoir:
-    description: Available storage of "simple Hydro reservoir " units
-    unit: GWh
-- Storage|Electricity|Hydro|Pumped Storage:
-    description: Available storage of "Pumped Storage " units
-    unit: GWh
-- Storage|Electricity|Energy Storage System:
-    description: Available storage of energy storage systems, excl. hydro storage
+- Storage|Electricity|{Electricity Storage Type}:
+    description: Available storage of a {Electricity Storage Type} unit
     unit: GWh
 - Storage|Electricity|Load Curtailment:
     description: remaining amount of curtailement
     unit: GWh
 
+- Spillage|Electricity|{Electricity Storage Type}:
+    description: Energy spillage that could not be stored by a {Electricity Storage Type} unit. Several energy models include spillage variables related to renewable
+      energy production; however, another way is to include a spillage variable to
+      the {Electricity Storage Type} unit since it is the last sink of the power network
+    unit:
+    - MW
+    - GW
+
 - Operation Cost|Electricity|{Electricity Input}:
     description: Operation Cost of {Electricity Input} power plants
+    unit: EUR_2020
+    skip-region-aggregation: true
+
+- Operation Cost|Electricity|{Electricity Storage Type}:
+    description: Operation Cost of {Electricity Storage Type} units
     unit: EUR_2020
     skip-region-aggregation: true
 
@@ -58,6 +62,13 @@
 - Reserve|Electricity|Frequency Containment|{Electricity Input}:
     description: Frequency Containment Reserve available for {Electricity Input}
      power plants; this amount is the maximum available for the grid operator considering
+     the commitment decisions taken by the model
+    unit: GWh
+    skip-region-aggregation: false
+
+- Reserve|Electricity|Frequency Containment|{Electricity Storage Type}:
+    description: Frequency Containment Reserve available for {Electricity Storage Type}
+     units; this amount is the maximum available for the grid operator considering
      the commitment decisions taken by the model
     unit: GWh
     skip-region-aggregation: false

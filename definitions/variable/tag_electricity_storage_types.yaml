@@ -3,10 +3,13 @@
 
 # This list is intended for use as input energy storage system to the power sector
 
-- Energy Storage System Type:
-  - Lithium-Ion:
+- Electricity Storage Type:
+
+  - Energy Storage System:
+      description: Mainly to refer to the batteries
+  - Energy Storage System|Lithium-Ion:
       description: Lithium-Ion batteries
-  - Redox Flow:
+  - Energy Storage System|Redox Flow:
       description: Redox Flow batteries
-  - Compressed Air:
-      description: Compressed Air storage system
+  - Energy Storage System|Compressed Air:
+      description: Compressed Air batteries
