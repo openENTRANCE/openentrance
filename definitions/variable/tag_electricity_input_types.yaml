@@ -264,10 +264,8 @@
 
   - Hydrogen:
       description: hydrogen
-
   - Hydrogen|Fuel Cell:
       description: hydrogen via fuel cells
-
   - Hydrogen|OCGT:
       description: hydrogen used in open cycle gas turbine (OCGT) power plants
   - Hydrogen|CCGT:
@@ -280,10 +278,6 @@
       description: hydrogen used in open cycle gas turbine (OCGT) power plants not generating heat
   - Hydrogen|CCGT|w/o CHP:
       description: hydrogen used in combined cycle gas turbine (CCGT) power plants not generating heat
-
-  - Non-Biomass Renewables:
-      description: hydro, wind, solar, geothermal, ocean, and other renewable sources
-        excluding bioenergy
 
   - Hydro:
       description: hydropower
@@ -301,22 +295,12 @@
   - Hydro|Run of River:
       description: run-of-river hydro power plants (i.e. without storage capacity)
 
-  - Hydrogen:
-      description: hydrogen
-
-  - Hydrogen|Fuel Cell:
-      description: hydrogen via fuel cells
-
-  - Hydrogen|OCGT:
-      description: hydrogen used in OCGT power plants
-
   - Non-Biomass Renewables:
       description: hydro, wind, solar, geothermal, ocean, and other renewable sources
         excluding bioenergy
 
   - Solar:
       description: solar energy including PV and CSP
-
   - Solar|PV:
       description: solar photovoltaics (PV)   
   - Solar|PV|Rooftop:
@@ -332,10 +316,8 @@
 
   - Wind:
       description: wind energy (on- and offshore)
-
   - Wind|Offshore:
       description: offshore wind energy
-
   - Wind|Onshore:
       description: onshore wind energy
 
@@ -344,8 +326,6 @@
 
   - Ocean:
       description: ocean energy
-
- 
 
   - Other:
       description: other energy sources and fuels not explicitely listed
