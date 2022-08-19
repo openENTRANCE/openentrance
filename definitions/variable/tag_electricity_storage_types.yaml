@@ -6,12 +6,12 @@
 - Electricity Storage Type:
 
   - Energy Storage System:
-      description: Mainly to refer to the batteries
+      description: all types of energy storage including pumped hydro and batteries
   - Energy Storage System|Pumped Hydro Storage:
       description: pumped-hydro storage
   - Energy Storage System|Lithium-Ion:
-      description: Lithium-Ion batteries
+      description: lithium-ion batteries
   - Energy Storage System|Redox Flow:
-      description: Redox Flow batteries
+      description: redox flow batteries
   - Energy Storage System|Compressed Air:
-      description: Compressed Air batteries
+      description: compressed air storage systems
