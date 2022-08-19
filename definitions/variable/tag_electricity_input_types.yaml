@@ -284,7 +284,10 @@
   - Hydro|Pumped Storage:
       description: hydropower systems with short-term storage capacity
         (including pumping turbines)
-      notes: This hydropower system has two water reservoirs at different elevations.
+      notes: This variable should only include electricity generation from natural
+        inflow of water into the upper reservoir. Electricity from storage operation
+        should be denoted by *"Injected Energy|.."* and *Discharded Energy|..*.
+        This hydropower system has two water reservoirs at different elevations.
         The definition follows the convention established
         by the ENTSO-E transparency platform (https://transparency.entsoe.eu).
   - Hydro|Reservoir:

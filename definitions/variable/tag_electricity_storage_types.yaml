@@ -7,6 +7,8 @@
 
   - Energy Storage System:
       description: Mainly to refer to the batteries
+  - Energy Storage System|Pumped Hydro Storage:
+      description: pumped-hydro storage
   - Energy Storage System|Lithium-Ion:
       description: Lithium-Ion batteries
   - Energy Storage System|Redox Flow:
