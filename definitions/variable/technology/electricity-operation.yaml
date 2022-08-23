@@ -10,7 +10,8 @@
 #   - Demand in reserves
 #   - Demand in inertia
 #   - Flows in transmission lines
-# Demand not served
+# 
+
 
 - Active Power|Electricity|{Electricity Input}:
     description: Active power of {Electricity Input} power plants
@@ -102,3 +103,26 @@
     description: Marginal Cost associated to the Frequency Containment requirement
     unit: EUR_2020/MWh
     skip-region-aggregation: true
+    
+- Export|Electricity:
+    description: Exported electricity from a given region
+    unit: MWh
+- Import|Electricity:
+    description: Exported electricity from a given region
+    unit: MWh
+- Unserved Demand|Electricity:
+    description: Not served demand
+    unit: MWh
+- Injected Energy|Electricity|{Electricity Storage Type}:
+    description: Amount of energy charged to the storage during the period
+    notes: this represents the total energy which is charged into the storage during the period, the energy which is discharged during 
+     that same period is not substracted from this total. This means that the Net Charged Energy can be computed as Charged Energy - Discharged Energy
+     if Charged Energy > Discharged Energy, 0 if not
+    unit: GWh
+- Discharged Energy|Electricity|{Electricity Storage Type}:
+    description: Amount of energy charged to the storage during the period
+    notes: this represents the total energy which is discharged from the storage during the period, the energy which is charged into the storage during 
+     that same period is not substracted from this total. This means that the Net Discharged Energy can be computed as Discharged Energy - Charged Energy,
+     if Discharged Energy > Charged Energy, 0 if not
+
+    unit: GWh
