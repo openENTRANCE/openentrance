@@ -23,8 +23,6 @@
         (possibly including pumping turbines)
       notes: This definition follows the convention established
         by the ENTSO-E transparency platform (https://transparency.entsoe.eu).
-  - Energy Storage System|Pumped Hydro Storage:
-      description: pumped-hydro storage
   - Energy Storage System|Lithium-Ion:
       description: lithium-ion batteries
   - Energy Storage System|Redox Flow:
