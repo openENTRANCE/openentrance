@@ -102,7 +102,7 @@
 - Unserved Demand|Electricity:
     description: Not served demand
     unit: MWh
-- Charged Energy|Electricity|{Electricity Input}:
+- Injected Energy|Electricity|{Electricity Storage Type}:
     description: Amount of energy charged to the storage during the period
     notes: this represents the total energy which is charged into the storage during the period, the energy which is discharged during 
      that same period is not substracted from this total. This means that the Net Charged Energy can be computed as Charged Energy - Discharged Energy
