@@ -69,16 +69,33 @@
     unit: [EUR_2020/GJ, USD_2010/GJ]
     weight: Secondary Energy|Gases|Natural Gas
 
-- Price|Secondary Energy|Liquids|Oil:
-    description: Light fuel oil price at the secondary level, i.e. for large-scale
-      consumers (e.g. oil power plant)
-    notes: Prices should include the effect of carbon prices.
-    unit: [EUR_2020/GJ, USD_2010/GJ]
-    weight: Secondary Energy|Liquids|Oil
-
 - Price|Secondary Energy|Solids|Coal:
     description: Coal price at the secondary level, i.e. for large-scale consumers
       (e.g. coal power plant)
     notes: Prices should include the effect of carbon prices.
     unit: [EUR_2020/GJ, USD_2010/GJ]
     weight: Secondary Energy|Solids|Coal
+
+- Price|Secondary Energy|Solids|Biomass:
+    description: Biomass price at the secondary level, i.e. for large-scale consumers
+    notes: Prices should include the effect of carbon prices.
+    unit: [EUR_2020/GJ, USD_2010/GJ]
+    weight: Secondary Energy|Solids|Biomass
+
+- Price|Secondary Energy|Hydrogen:
+    description: Hydrogen price at the secondary level, i.e. for large-scale consumers
+    notes: Prices should include the effect of carbon prices.
+    unit: [EUR_2020/GJ, USD_2010/GJ]
+    weight: Secondary Energy|Hydrogen
+
+- Price|Secondary Energy|Liquids|Biomass:
+    description: Biofuels price at the secondary level, i.e. for large-scale consumers
+    notes: Prices should include the effect of carbon prices.
+    unit: [EUR_2020/GJ, USD_2010/GJ]
+    weight: Secondary Energy|Liquids|Biomass
+
+- Price|Secondary Energy|Liquids|Oil:
+    description: Price for oil products at the secondary level, i.e. for large-scale consumers
+    notes: Prices should include the effect of carbon prices.
+    unit: [EUR_2020/GJ, USD_2010/GJ]
+    weight: Secondary Energy|Liquids|Oil
