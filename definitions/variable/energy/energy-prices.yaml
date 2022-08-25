@@ -69,12 +69,12 @@
     unit: [EUR_2020/GJ, USD_2010/GJ]
     weight: Secondary Energy|Gases
 
-- Price|Secondary Energy|Gases|Natural Gas:
+- Price|Secondary Energy|Gases|Fossil:
     description: Natural gas price at the secondary level, i.e. for large-scale
       consumers (e.g., gas power plant)
     notes: Prices should include the effect of carbon prices.
     unit: [EUR_2020/GJ, USD_2010/GJ]
-    weight: Secondary Energy|Gases|Natural Gas
+    weight: Secondary Energy|Gases|Fossil
 
 - Price|Secondary Energy|Gases|Biomass:
     description: Biogas price at the secondary level, i.e. for large-scale consumers
@@ -108,6 +108,11 @@
     notes: Prices should include the effect of carbon prices.
     unit: [EUR_2020/GJ, USD_2010/GJ]
     weight: Secondary Energy|Solids|Biomass
+
+- Price|Secondary Energy|Solids|Biomass|Traditional:
+    description: Price for traditional biomass at the secondary level
+    unit: [EUR_2020/GJ, USD_2010/GJ]
+    weight: Secondary Energy|Solids|Biomass|Traditional
 
 - Price|Secondary Energy|Hydrogen:
     description: Hydrogen price at the secondary level, i.e. for large-scale consumers

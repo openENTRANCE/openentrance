@@ -43,9 +43,6 @@
 - Secondary Energy|Gases|Coal:
     description: Total production of coal gas from coal gasification
     unit: EJ/yr
-- Secondary Energy|Gases|Gas:
-    description: Total production of fossil natural gas
-    unit: EJ/yr
 - Secondary Energy|Gases|Natural Gas:
     description: Total production of fossil natural gas
     unit: EJ/yr
