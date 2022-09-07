@@ -31,3 +31,15 @@ common_regions:
     - R11_WEU
   - Reforming Economies (R5):
     - R11_FSU
+  - World:
+    - R11_AFR
+    - R11_CPA
+    - R11_EEU
+    - R11_FSU
+    - R11_LAM
+    - R11_MEA
+    - R11_NAM
+    - R11_PAO
+    - R11_PAS
+    - R11_SAS
+    - R11_WEU
