@@ -550,7 +550,7 @@
   - Sweden|Subgrid 89:
       country: Sweden
       definition: SE212 + SE221 + SE224 + SE231
-      ehighway2050: 88_SE
+      ehighway2050: 89_SE
       note: This region was defined and used in the ehighway2050 public datasets
   - United Kingdom|Subgrid 90:
       country: United Kingdom

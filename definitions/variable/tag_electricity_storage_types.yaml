@@ -1,0 +1,31 @@
+# This list of inputs will replace any occurrence of `{Energy Storage System Type}`
+# in a variable-definition yaml file
+
+# This list is intended for use as input energy storage system to the power sector
+
+- Electricity Storage Type:
+
+  - Energy Storage System:
+      description: all types of energy storage including pumped hydro and batteries
+  - Energy Storage System|Hydro:
+      description: all hydropower storage systems
+  - Energy Storage System|Hydro|Pumped Storage:
+      description: hydropower systems with short-term storage capacity
+        (including pumping turbines)
+      notes: This variable should only include electricity generation from natural
+        inflow of water into the upper reservoir. Electricity from storage operation
+        should be denoted by *"Injected Energy|.."* and *Discharded Energy|..*.
+        This hydropower system has two water reservoirs at different elevations.
+        The definition follows the convention established
+        by the ENTSO-E transparency platform (https://transparency.entsoe.eu).
+  - Energy Storage System|Hydro|Reservoir:
+      description: hydropower systems with seasonal storage capacity
+        (possibly including pumping turbines)
+      notes: This definition follows the convention established
+        by the ENTSO-E transparency platform (https://transparency.entsoe.eu).
+  - Energy Storage System|Lithium-Ion:
+      description: lithium-ion batteries
+  - Energy Storage System|Redox Flow:
+      description: redox flow batteries
+  - Energy Storage System|Compressed Air:
+      description: compressed air storage systems

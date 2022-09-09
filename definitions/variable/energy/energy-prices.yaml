@@ -1,0 +1,173 @@
+# List of variables related to energy prices
+
+# Primary energy prices:
+- Price|Primary Energy|Biomass:
+    description: Biomass producer price
+    unit: [EUR_2020/GJ, USD_2010/GJ]
+    weight: Primary Energy|Biomass
+
+- Price|Primary Energy|Coal:
+    description: Coal price at the primary level (i.e. the spot price at the global or
+      regional market)
+    unit: [EUR_2020/GJ, USD_2010/GJ]
+    weight: Primary Energy|Coal
+
+- Price|Primary Energy|Gas:
+    description: Natural gas price at the primary level (i.e. the spot price at
+      the global or regional market)
+    unit: [EUR_2020/GJ, USD_2010/GJ]
+    weight: Primary Energy|Gas
+
+- Price|Primary Energy|Oil:
+    description: Crude oil price at the primary level (i.e. the spot price at
+                the global or regional market)
+    unit: [EUR_2020/GJ, USD_2010/GJ]
+    weight: Primary Energy|Oil
+
+# Final energy prices:
+- Price|Final Energy|Industry|{Final Energy carrier}:
+    description: price at the final level in the industrial sector of {Final Energy carrier}. 
+    notes: Prices should include the effect of carbon prices and all other taxes.
+    unit: [EUR_2020/GJ, USD_2010/GJ, EUR_2020/kWh]
+    weight: Final Energy|Industry|{Final Energy carrier}
+
+- Price|Final Energy|Transportation|{Final Energy carrier}:
+    description: price at the final level in the transport sector of {Final Energy carrier}. 
+    notes: Prices should include the effect of carbon prices and all other taxes.
+    unit: [EUR_2020/GJ, USD_2010/GJ, EUR_2020/kWh]
+    weight: Final Energy|Transportation|{Final Energy carrier}
+
+- Price|Final Energy|Residential and Commercial|{Final Energy carrier}:
+    description: price at the final level in the residential and commercial sector of {Final Energy carrier}. 
+    notes: Prices should include the effect of carbon prices and all other taxes.
+    unit: [EUR_2020/GJ, USD_2010/GJ, EUR_2020/kWh]
+    weight: Final Energy|Residential and Commercial|{Final Energy carrier}
+
+- Price|Final Energy|Residential|{Final Energy carrier}:
+    description: price at the final level in the residential sector of {Final Energy carrier}. 
+    notes: Prices should include the effect of carbon prices and all other taxes.
+    unit: [EUR_2020/GJ, USD_2010/GJ, EUR_2020/kWh]
+    weight: Final Energy|Residential|{Final Energy carrier}
+
+- Price|Final Energy|Commercial|{Final Energy carrier}:
+    description: price at the final level in the commercial sector of {Final Energy carrier}. 
+    notes: Prices should include the effect of carbon prices and all other taxes.
+    unit: [EUR_2020/GJ, USD_2010/GJ, EUR_2020/kWh]
+    weight: Final Energy|Commercial|{Final Energy carrier}
+
+# Prices at the secondary-energy level
+- Price|Secondary Energy|Electricity:
+    description: Electricity price at the wholesale-market level, e.g. spot market price
+    notes: Prices should include the effect of carbon prices.
+    unit: [EUR_2020/GJ, USD_2010/GJ]
+    weight: Secondary Energy|Electricity
+
+- Price|Secondary Energy|Gases:
+    description: Price for gaseous fuels at the secondary level, i.e. for large-scale
+      consumers (e.g., gas power plant)
+    notes: Prices should include the effect of carbon prices.
+    unit: [EUR_2020/GJ, USD_2010/GJ]
+    weight: Secondary Energy|Gases
+
+- Price|Secondary Energy|Gases|Fossil:
+    description: Natural gas price at the secondary level, i.e. for large-scale
+      consumers (e.g., gas power plant)
+    notes: Prices should include the effect of carbon prices.
+    unit: [EUR_2020/GJ, USD_2010/GJ]
+    weight: Secondary Energy|Gases|Fossil
+
+- Price|Secondary Energy|Gases|Biomass:
+    description: Biogas price at the secondary level, i.e. for large-scale consumers
+    notes: Prices should include the effect of carbon prices.
+    unit: [EUR_2020/GJ, USD_2010/GJ]
+    weight: Secondary Energy|Gases|Biomass
+
+- Price|Secondary Energy|Gases|Electricity:
+    description: Price for synthetic gas at the secondary level,
+      i.e. for large-scale consumers
+    notes: Prices should include the effect of carbon prices.
+    unit: [EUR_2020/GJ, USD_2010/GJ]
+    weight: Secondary Energy|Gases|Biomass
+
+- Price|Secondary Energy|Solids:
+    description: Price for solid fuels at the secondary level, i.e. for large-scale consumers
+      (e.g. coal power plant)
+    notes: Prices should include the effect of carbon prices.
+    unit: [EUR_2020/GJ, USD_2010/GJ]
+    weight: Secondary Energy|Solids
+
+- Price|Secondary Energy|Solids|Fossil:
+    description: Coal price at the secondary level, i.e. for large-scale consumers
+      (e.g. coal power plant)
+    notes: Prices should include the effect of carbon prices.
+    unit: [EUR_2020/GJ, USD_2010/GJ]
+    weight: Secondary Energy|Solids|Coal
+
+- Price|Secondary Energy|Solids|Biomass:
+    description: Biomass price at the secondary level, i.e. for large-scale consumers
+    notes: Prices should include the effect of carbon prices.
+    unit: [EUR_2020/GJ, USD_2010/GJ]
+    weight: Secondary Energy|Solids|Biomass
+
+- Price|Secondary Energy|Solids|Biomass|Traditional:
+    description: Price for traditional biomass at the secondary level
+    unit: [EUR_2020/GJ, USD_2010/GJ]
+    weight: Secondary Energy|Solids|Biomass|Traditional
+
+- Price|Secondary Energy|Hydrogen:
+    description: Hydrogen price at the secondary level, i.e. for large-scale consumers
+    notes: Prices should include the effect of carbon prices.
+    unit: [EUR_2020/GJ, USD_2010/GJ]
+    weight: Secondary Energy|Hydrogen
+
+- Price|Secondary Energy|Hydrogen|Biomass:
+    description: Price for hydrogen from biomass at the secondary level, i.e. for
+      large-scale consumers
+    notes: Prices should include the effect of carbon prices.
+    unit: [EUR_2020/GJ, USD_2010/GJ]
+    weight: Secondary Energy|Hydrogen|Biomass
+
+- Price|Secondary Energy|Hydrogen|Electricity:
+    description: Price for synthetic hydrogen at the secondary level, i.e. for
+      large-scale consumers
+    notes: Prices should include the effect of carbon prices.
+    unit: [EUR_2020/GJ, USD_2010/GJ]
+    weight: Secondary Energy|Hydrogen|Electricity
+
+- Price|Secondary Energy|Hydrogen|Fossil:
+    description: Price for hydrogen from natural gas ("grey hydrogen") at the secondary
+      level, i.e. for large-scale consumers
+    notes: Prices should include the effect of carbon prices.
+    unit: [EUR_2020/GJ, USD_2010/GJ]
+    weight: Secondary Energy|Hydrogen|Fossil
+
+- Price|Secondary Energy|Liquids:
+    description: Price for liquid fuels at the secondary level, i.e. for large-scale
+      consumers
+    notes: Prices should include the effect of carbon prices.
+    unit: [EUR_2020/GJ, USD_2010/GJ]
+    weight: Secondary Energy|Liquids
+
+- Price|Secondary Energy|Liquids|Biomass:
+    description: Biofuels price at the secondary level, i.e. for large-scale consumers
+    notes: Prices should include the effect of carbon prices.
+    unit: [EUR_2020/GJ, USD_2010/GJ]
+    weight: Secondary Energy|Liquids|Biomass
+
+- Price|Secondary Energy|Liquids|Electricity:
+    description: Price for e-fuels at the secondary level, i.e. for large-scale consumers
+    notes: Prices should include the effect of carbon prices.
+    unit: [EUR_2020/GJ, USD_2010/GJ]
+    weight: Secondary Energy|Liquids|Biomass
+
+- Price|Secondary Energy|Liquids|Fossil:
+    description: Price for oil products at the secondary level, i.e. for large-scale consumers
+    notes: Prices should include the effect of carbon prices.
+    unit: [EUR_2020/GJ, USD_2010/GJ]
+    weight: Secondary Energy|Liquids|Oil
+
+- Price|Secondary Energy|Heat:
+    description: Price for heat at the secondary level, i.e. for large-scale consumers
+    notes: Prices should include the effect of carbon prices.
+    unit: [EUR_2020/GJ, USD_2010/GJ]
+    weight: Secondary Energy|Heat

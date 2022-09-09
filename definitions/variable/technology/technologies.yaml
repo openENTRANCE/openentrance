@@ -4,6 +4,9 @@
 - Capacity|Electricity|{Electricity Input}:
     description: Total installed electricity generation capacity from {Electricity Input}
     unit: GW
+- Capacity|Electricity|{Electricity Storage Type}:
+    description: Total installed electricity generation capacity from {Electricity Storage Type}
+    unit: GW
 - Capacity|Heat|Residential and Commercial:
     description: Total installed heat generation capacity for the residential and
       commercial sectors
@@ -23,6 +26,10 @@
     description: Capital cost for {Electricity Input}
     unit: [EUR_2020/kW, USD_2010/kW]
     skip-region-aggregation: true
+- Capital Cost|Electricity|{Electricity Storage Type}:
+    description: Capital cost for {Electricity Storage Type}
+    unit: [EUR_2020/kW, USD_2010/kW]
+    skip-region-aggregation: true
 - Capital Cost|Heat|Residential and Commercial|{Fuel}:
     description: Capital cost for {Fuel}
     unit: [EUR_2020/kW, USD_2010/kW]
@@ -35,8 +42,16 @@
     description: Capital cost for freight {Transport}
     unit: [EUR_2020/tkm, USD_2010/tkm]
     skip-region-aggregation: true
+- Capital Cost|Transportation|Freight|Rail:
+    description: Capital cost for freight rail-based transportation technologies
+    unit: [EUR_2020/tkm, USD_2010/tkm]
+    skip-region-aggregation: true
 - Capital Cost|Transportation|Passenger|{Transport}:
     description: Capital cost for passenger {Transport}
+    unit: [EUR_2020/pkm, USD_2010/pkm]
+    skip-region-aggregation: true
+- Capital Cost|Transportation|Passenger|Rail:
+    description: Capital cost for passenger rail-based transportation technologies
     unit: [EUR_2020/pkm, USD_2010/pkm]
     skip-region-aggregation: true
 - Fixed Cost|Electricity|{Electricity Input}:
@@ -55,8 +70,16 @@
     description: Capital cost for freight {Transport}
     unit: [EUR_2020/tkm/yr, USD_2010/tkm/yr]
     skip-region-aggregation: true
+- Fixed Cost|Transportation|Freight|Rail:
+    description: Capital cost for freight rail-based transportation technologies
+    unit: [EUR_2020/tkm/yr, USD_2010/tkm/yr]
+    skip-region-aggregation: true
 - Fixed Cost|Transportation|Passenger|{Transport}:
     description: Capital cost for passenger {Transport}
+    unit: [EUR_2020/pkm/yr, USD_2010/pkm/yr]
+    skip-region-aggregation: true
+- Fixed Cost|Transportation|Passenger|Rail:
+    description: Capital cost for passenger rail-based transportation technologies
     unit: [EUR_2020/pkm/yr, USD_2010/pkm/yr]
     skip-region-aggregation: true
 - Variable Cost|Heat|Residential and Commercial|{Fuel}:
@@ -86,6 +109,12 @@
 
 - Investment|Energy Supply|Electricity|{Electricity Input}:
     description: Investments in new {Electricity Input} power generation capacity
+    notes: For plants with CCS, the investment in the capturing equipment should be
+      included but not the one on transport and storage.
+    unit: [million EUR_2020/yr, billion USD_2010/yr]
+
+- Investment|Energy Supply|Electricity|{Electricity Storage Type}:
+    description: Investments in new {Electricity Storage Type} power generation capacity
     notes: For plants with CCS, the investment in the capturing equipment should be
       included but not the one on transport and storage.
     unit: [million EUR_2020/yr, billion USD_2010/yr]
@@ -145,79 +174,35 @@
       For plants equipped with CCS, the investment in the capturing equipment should
       be included but not the one on transport and storage.
     unit: [million EUR_2020/yr, billion USD_2010/yr]
-- Demand Response|Maximum Reduction|Load Shifting|Electricity|Residential|Refrigeration:
-    description: Maximum load reduction due to changing household freezer/refrigerator
+- Demand Response|Maximum Reduction|Load Shifting|Electricity|Residential|{Residential Load Shifting Asset}:
+    description: Maximum load reduction due to changing household {Residential Load Shifting Asset}
       usage.
     unit: MW
-- Demand Response|Maximum Reduction|Load Shifting|Electricity|Residential|Washing Machine:
-    description: Maximum load reduction due to changing household washing machine
+- Demand Response|Maximum Dispatch|Load Shifting|Electricity|Residential|{Residential Load Shifting Asset}:
+    description: Maximum dispatchable load due to changing household {Residential Load Shifting Asset}
       usage.
     unit: MW
-- Demand Response|Maximum Reduction|Load Shifting|Electricity|Residential|Dryer:
-    description: Maximum load reduction due to changing household tumble dryer usage.
-    unit: MW
-- Demand Response|Maximum Reduction|Load Shifting|Electricity|Residential|Dish Washer:
-    description: Maximum load reduction due to changing household dish washer usage.
-    unit: MW
-- Demand Response|Maximum Reduction|Load Shifting|Electricity|Residential|Air Conditioning:
-    description: Maximum load reduction due to changing household air conditioning
-      usage.
-    unit: MW
-- Demand Response|Maximum Reduction|Load Shifting|Electricity|Residential|Water Heater:
-    description: Maximum load reduction due to changing household water storage heater
-      usage.
-    unit: MW
-- Demand Response|Maximum Reduction|Load Shifting|Electricity|Residential|Space Heater:
-    description: Maximum load reduction due to changing household space heater usage.
-    unit: MW
-- Demand Response|Maximum Reduction|Load Shifting|Electricity|Residential|Heat Pump:
-    description: Maximum load reduction due to changing household heat circulation
-      pump usage.
-    unit: MW
-- Demand Response|Maximum Reduction|Load Shifting|Electricity|Residential|Electric Vehicle:
-    description: Maximum load reduction due to changing household electric vehicle
-      charging and usage.
-    unit: MW
-- Demand Response|Maximum Reduction|Load Shifting|Electricity|Residential|Cooking:
-    description: Maximum load reduction due to changing household electric stove,
-      oven and microwave usage.
-    unit: MW
-- Demand Response|Maximum Dispatch|Load Shifting|Electricity|Residential|Refrigeration:
-    description: Maximum dispatchable load due to changing household freezer/refrigerator
-      usage.
-    unit: MW
-- Demand Response|Maximum Dispatch|Load Shifting|Electricity|Residential|Washing Machine:
-    description: Maximum dispatchable load due to changing household washing machine
-      usage.
-    unit: MW
-- Demand Response|Maximum Dispatch|Load Shifting|Electricity|Residential|Dryer:
-    description: Maximum dispatchable load due to changing household tumble dryer
-      usage.
-    unit: MW
-- Demand Response|Maximum Dispatch|Load Shifting|Electricity|Residential|Dish Washer:
-    description: Maximum dispatchable load due to changing household dish washer usage.
-    unit: MW
-- Demand Response|Maximum Dispatch|Load Shifting|Electricity|Residential|Air Conditioning:
-    description: Maximum dispatchable load due to changing household air conditioning
-      usage.
-    unit: MW
-- Demand Response|Maximum Dispatch|Load Shifting|Electricity|Residential|Water Heater:
-    description: Maximum dispatchable load due to changing household water storage
-      heater usage.
-    unit: MW
-- Demand Response|Maximum Dispatch|Load Shifting|Electricity|Residential|Space Heater:
-    description: Maximum dispatchable load due to changing household space heater
-      usage.
-    unit: MW
-- Demand Response|Maximum Dispatch|Load Shifting|Electricity|Residential|Heat Pump:
-    description: Maximum dispatchable load due to changing household heat circulation
-      pump usage.
-    unit: MW
-- Demand Response|Maximum Dispatch|Load Shifting|Electricity|Residential|Electric Vehicle:
-    description: Maximum dispatchable load due to changing household electric vehicle
-      charging and usage.
-    unit: MW
-- Demand Response|Maximum Dispatch|Load Shifting|Electricity|Residential|Cooking:
-    description: Maximum dispatchable load due to changing household electric stove,
-      oven and microwave usage.
-    unit: MW
+- Levelized Cost|Capex|Electricity|{Electricity Input}:
+    description: Levelized cost for investment in {Electricity Input}
+    unit: [MEUR_2020/GW, MUSD_2010/GW, MEUR_2020/PJ, MUSD_2010/PJ]
+    skip-region-aggregation: true
+- Levelized Cost|Generation|Electricity|{Electricity Input}:
+    description: Levelized cost for generation of electricity by {Electricity Input}
+    unit: [MEUR_2020/MWh, MUSD_2010/MWh, MEUR_2020/PJ, MUSD_2010/PJ]
+    skip-region-aggregation: true
+- Levelized Cost|Emissions|Electricity|{Electricity Input}:
+    description: Levelized cost for investment in {Electricity Input}
+    unit: [MEUR_2020/MWh, MUSD_2010/MWh, MEUR_2020/PJ, MUSD_2010/PJ]
+    skip-region-aggregation: true
+- Levelized Cost|Total (incl. Emissions)|Electricity|{Electricity Input}:
+    description: Levelized cost for investment in {Electricity Input}
+    unit: [MEUR_2020/MWh, MUSD_2010/MWh, MEUR_2020/PJ, MUSD_2010/PJ]
+    skip-region-aggregation: true
+- Levelized Cost|Total (excl. Emissions)|Electricity|{Electricity Input}:
+    description: Levelized cost for investment in {Electricity Input}
+    unit: [MEUR_2020/MWh, MUSD_2010/MWh, MEUR_2020/PJ, MUSD_2010/PJ]
+    skip-region-aggregation: true
+- Levelized Cost|Electricity|Energy Storage System|{Electricity Storage Type}:
+    description: Levelized cost of storage for {Energy Storage System Type}
+    unit: [MEUR_2020/MWh, MUSD_2010/MWh, MEUR_2020/PJ, MUSD_2010/PJ]
+    skip-region-aggregation: true

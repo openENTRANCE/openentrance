@@ -1,0 +1,18 @@
+# This list of inputs will replace any occurrence of `{Variable Renewable Power Type}`
+# in a variable-definition yaml file
+
+# This list is intended for use as input variable res to the power sector
+
+- Variable Renewable Power Type:
+  - Hydro|Run of River:
+      description: hydropower unit with no storage nor pumping capacity
+  - Solar:
+      description: Solar power
+  - Solar|PV:
+      description: Solar PV power
+  - Wind:
+      description: Wind power
+  - Wind|Onshore:
+      description: Wind power
+  - Wind|Offshore:
+      description: Wind power

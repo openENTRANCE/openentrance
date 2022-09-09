@@ -1,0 +1,28 @@
+# This list of inputs will replace any occurrence of `{Residential Load Shifting Asset}`
+# in a variable-definition yaml file
+
+# This list is intended for use as input assets to residential load shfting demand response
+
+- Residential Load Shifting Asset:
+  - Electric Vehicle:
+      description: electric vehicles
+   
+    
+  - Air Conditioning:
+      description: air conditionning
+  - Dryer:
+      description: dryers
+  - Washing Machine:
+      description: washing machines
+  - Dish Washer:
+      description: dish washers
+  - Water Heater:
+      description: electric water heaters with storage capability
+  - Refrigeration:
+      description: refrigerators and freezers
+  - Storage Heater:
+      description: electric storage heaters
+  - Heat Pump:
+      description: heat pumps
+  - Circulation Pump:
+      description: heat circulation pumps
