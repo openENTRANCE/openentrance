@@ -2,7 +2,34 @@ model: IMAGE 3.2
 native_regions:
   - im_WEU: IMAGE 3.2|WEU # this includes Andorra, Austria, Belgium, Denmark, Faeroe Islands, Finland, France, Germany, Gibraltar, Greece, Iceland,, Ireland, Italy, Liechtenstein, Luxembourg, Malta, Monaco, Netherlands, Norway, Portugal, San Marino, Spain, Sweden, Switzerland, United Kingdom, Vatican City State
   - im_CEU: IMAGE 3.2|CEU # this includes Albania, Bosnia and Herzegovina, Bulgaria, Croatia, Cyprus, Czech Republic, Estonia, Hungary, Latvia, Lithuania, Macedonia, FYR, Poland, Romania, Serbia and Montenegro, Slovak Republic, Slovenia
+  - im_BRA: IMAGE 3.2|BRA
+  - im_CAN: IMAGE 3.2|CAN 
+  - im_CHN: IMAGE 3.2|CHN 
+  - im_EAF: IMAGE 3.2|EAF 
+  - im_INDA: IMAGE 3.2|INDIA 
+  - im_INDO: IMAGE 3.2|INDO
+  - im_JAP: IMAGE 3.2|JAP
+  - im_KOR: IMAGE 3.2|KOR 
+  - im_ME: IMAGE 3.2|ME 
+  - im_MEX: IMAGE 3.2|MEX
+  - im_NAF: IMAGE 3.2|NAF 
+  - im_OCE: IMAGE 3.2|OCE
+  - im_RCAM: IMAGE 3.2|RCAM
+  - im_RSAF: IMAGE 3.2|RSAF
+  - im_RSAM: IMAGE 3.2|RSAM
+  - im_RSAS: IMAGE 3.2|RSAS
+  - im_RUS: IMAGE 3.2|RUS
+  - im_SAF: IMAGE 3.2|SAF
+  - im_SEAS: IMAGE 3.2|SEAS
+  - im_STAN: IMAGE 3.2|STAN
+  - im_TUR: IMAGE 3.2|TUR
+  - im_UKR: IMAGE 3.2|UKR
+  - im_USA: IMAGE 3.2|USA
+  - im_WAF: IMAGE 3.2|WAF
+  - im_World: IMAGE 3.2|World
 common_regions:
   - Europe (excl. Turkey): # An imperfect but reasonably accurate description
       - im_WEU
       - im_CEU
+  - World:
+      - im_World
