@@ -26,10 +26,8 @@ native_regions:
   - im_UKR: IMAGE 3.2|UKR
   - im_USA: IMAGE 3.2|USA
   - im_WAF: IMAGE 3.2|WAF
-  - im_World: IMAGE 3.2|World
+  - im_World: World
 common_regions:
   - Europe (excl. Turkey): # An imperfect but reasonably accurate description
       - im_WEU
       - im_CEU
-  - World:
-      - im_World
