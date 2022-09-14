@@ -36,6 +36,8 @@ def main(df: pyam.IamDataFrame, dimensions=["region", "variable"]) -> pyam.IamDa
     # check if directional data exists in the scenario data, add to region codelist
     if any([r for r in df.region if ">" in r]):
         for r in df.region:
+            if r in definition.region:
+                continue
             r_split = r.split(">")
             if len(r_split) > 2:
                 raise ValueError(
