@@ -1,5 +1,7 @@
 model:
   - FORECAST v1.0
+  - FORECAST-Industry v1.0
+  - FORECAST-Buildings v1.0
 native_regions:
   - Austria
   - Belgium
