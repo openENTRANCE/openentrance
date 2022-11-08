@@ -1,36 +1,35 @@
 model: OSeMBE v1.0.0
 native_regions:
-  - Austria: OSeMBE v1.0|AUT
-  - Belgium: OSeMBE v1.0|BEL
-  - Bulgaria: OSeMBE v1.0|BGR
-  - Croatia: OSeMBE v1.0|HRV
-  - Cyprus: OSeMBE v1.0|CYP
-  - Czech Republic: OSeMBE v1.0|CZE
-  - Denmark: OSeMBE v1.0|DNK
-  - Estonia: OSeMBE v1.0|EST
-  - Finland: OSeMBE v1.0|FIN
-  - France: OSeMBE v1.0|FRA
-  - Germany: OSeMBE v1.0|DEU
-  - Greece: OSeMBE v1.0|GRC
-  - Hungary: OSeMBE v1.0|HUN
-  - Ireland: OSeMBE v1.0|IRL
-  - Italy: OSeMBE v1.0|ITA
-  - Latvia: OSeMBE v1.0|LVA
-  - Lithuania: OSeMBE v1.0|LTU
-  - Luxembourg: OSeMBE v1.0|LUX
-  - Malta: OSeMBE v1.0|MLT
-  - The Netherlands: OSeMBE v1.0|NLD
-  - Poland: OSeMBE v1.0|POL
-  - Portugal: OSeMBE v1.0|PRT
-  - Romania: OSeMBE v1.0|ROU
-  - Slovakia: OSeMBE v1.0|SVK
-  - Slovenia: OSeMBE v1.0|SVN
-  - Spain: OSeMBE v1.0|ESP
-  - Sweden: OSeMBE v1.0|SWE
-  - Switzerland: OSeMBE v1.0|CHE
-  - United Kingdom: OSeMBE v1.0|GBR
-  - Norway: OSeMBE v1.0|NOR
-  - EU27 & EFTA: OSeMBE v1.0|EU27 & EFTA
+  - Austria
+  - Belgium
+  - Bulgaria
+  - Croatia
+  - Cyprus
+  - Czech Republic
+  - Denmark
+  - Estonia
+  - Finland
+  - France
+  - Germany
+  - Greece
+  - Hungary
+  - Ireland
+  - Italy
+  - Latvia
+  - Lithuania
+  - Luxembourg
+  - Malta
+  - The Netherlands
+  - Poland
+  - Portugal
+  - Romania
+  - Slovakia
+  - Slovenia
+  - Spain
+  - Sweden
+  - Switzerland
+  - United Kingdom
+  - Norway
 common_regions:
   - EU27:
     - Austria
