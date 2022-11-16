@@ -16,7 +16,11 @@ iso_mapping = dict(
     [(countries[c].iso3, c) for c in countries]
     + [(countries[c].iso2, c) for c in countries]
     # add alternative iso2 codes used by the European Commission to the mapping
-    + [(countries[c].iso2_alt, c) for c in countries if "iso2_alt" in countries[c]]
+    + [
+        (countries[c].iso2_alt, c)
+        for c in countries
+        if hasattr(countries[c], "iso2_alt")
+    ]
 )
 """Dictionary of iso2/iso3/alternative-iso2 codes to country names"""
 
