@@ -441,7 +441,7 @@
     energy_source: electricity
     energy_use: cooling
     sector: all
-    unit: 
+    unit: '-'
 - Final Energy|Electricity|Profile:
     description: Time series of Final electricity consumption profiles.
     energy_source: electricity
@@ -449,7 +449,7 @@
     note: Those coefficients, if hourly, when multiplied by a yearly energy give hourly
       energy profiles.
     sector: all
-    unit:
+    unit: '-'
 - Final Energy|Electricity|Cooling|Profile:
     description: Time series of Final electricity consumption profiles for cooling.
     energy_source: electricity
@@ -457,7 +457,7 @@
     note: Those coefficients, if hourly, when multiplied by a yearly energy give hourly
       energy profiles.
     sector: all
-    unit:
+    unit: '-'
 - Final Energy|Electricity|Heat|Profile:
     description: Time series of Final electricity consumption profiles for heating.
     energy_source: electricity
@@ -465,7 +465,7 @@
     note: Those coefficients, if hourly, when multiplied by a yearly energy give hourly
       energy.
     sector: all
-    unit:
+    unit: '-'
 - Final Energy|Electricity|Transportation|Profile:
     description: Time series of Final electricity consumption profiles for electric-transport(including
       e-cars, e-trucks).
@@ -474,7 +474,7 @@
     note: Those coefficients, if hourly, when multiplied by a yearly energy give hourly
       energy.
     sector: all
-    unit:
+    unit: '-'
 - Final Energy|Electricity|Other (excl. Heat, Cooling, Transport)|Profile:
     description: Time series of Final electricity consumption profile for non heating,
       non cooling, non e-transport uses.
@@ -483,6 +483,4 @@
     note: Those coefficients, if hourly, when multiplied by a yearly energy give hourly
       energy.
     sector: all
-    unit:
-
-    
+    unit: '-'

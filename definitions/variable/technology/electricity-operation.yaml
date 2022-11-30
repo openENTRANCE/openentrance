@@ -39,9 +39,7 @@
     description: Energy spillage that could not be stored by a {Electricity Storage Type} unit. Several energy models include spillage variables related to renewable
       energy production; however, another way is to include a spillage variable to
       the {Electricity Storage Type} unit since it is the last sink of the power network
-    unit:
-    - MW
-    - GW
+    unit: [MWh, GWh]
 
 - Operation Cost|Electricity|{Electricity Input}:
     description: Operation Cost of {Electricity Input} power plants
