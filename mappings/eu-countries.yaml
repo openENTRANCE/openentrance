@@ -1,4 +1,6 @@
-model: OSeMBE v1.0.0
+model:
+  - OSeMBE v1.0.0
+  - Euro-Calliope 2.0
 native_regions:
   - Austria
   - Belgium
@@ -29,7 +31,13 @@ native_regions:
   - Sweden
   - Switzerland
   - United Kingdom
+  - Iceland
   - Norway
+  - Albania
+  - Bosnia and Herzegovina
+  - North Macedonia
+  - Montenegro
+  - Serbia
 common_regions:
   - EU27:
     - Austria
@@ -118,6 +126,7 @@ common_regions:
     - Sweden
     - Switzerland
     - The Netherlands
+    - Iceland
   - Scandinavia:
     - Denmark
     - Finland
