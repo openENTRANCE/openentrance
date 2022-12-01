@@ -129,14 +129,10 @@
     skip-region-aggregation: true
 - Maximum Storage|Electricity|{Electricity Storage Type}:
     description: Maximum volume of a {Electricity Storage Type} unit expressed in energy
-    unit:
-    - MWh
-    - GWh
+    unit: [MWh, GWh]
 - Minimum Storage|Electricity|{Electricity Storage Type}:
     description: Minimum volume of a {Electricity Storage Type} unit expressed in energy
-    unit:
-    - MWh
-    - GWh
+    unit: [MWh, GWh]
 - Charging Efficiency|Electricity|{Electricity Storage Type}:
     description: Efficiency of charging energy for a {Electricity Storage Type}
     unit: '%'
@@ -167,4 +163,4 @@
     unit: [daily,weekly,monthly]
 - Roundtrip Efficiency|Electricity|{Electricity Storage Type}:
     description: Efficiency when charging energy from the grid to the system
-    unit:
+    unit: '-'
