@@ -25,6 +25,17 @@
 - DIAG-C400-lin-ResidualFossil
 - DIAG-C400-lin-HighEff
 
+# Net-zero scenarios
+- NPI
+- NetZero
+- NetZero-LimBio
+- NetZero-LimCCS
+- NetZero-LimNuc
+- NetZero-ElecPush
+- NetZero-H2Push
+- NetZero-SynfPush
+- NetZero-HighEfficiency
+
 # ECEMF - Work package 2
 - WP2 Boundary Condition|Initial
 - WP2 Sensitivity|High Electricity Price
