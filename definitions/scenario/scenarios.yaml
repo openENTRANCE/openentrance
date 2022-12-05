@@ -25,16 +25,16 @@
 - DIAG-C400-lin-ResidualFossil
 - DIAG-C400-lin-HighEff
 
-# Net-zero scenarios
-- NPI
-- NetZero
-- NetZero-LimBio
-- NetZero-LimCCS
-- NetZero-LimNuc
-- NetZero-ElecPush
-- NetZero-H2Push
-- NetZero-SynfPush
-- NetZero-HighEfficiency
+# Work package 1 Net-zero scenarios
+- WP1 NPI
+- WP1 NetZero
+- WP1 NetZero-LimBio
+- WP1 NetZero-LimCCS
+- WP1 NetZero-LimNuc
+- WP1 NetZero-ElecPush
+- WP1 NetZero-H2Push
+- WP1 NetZero-SynfPush
+- WP1 NetZero-HighEfficiency
 
 # ECEMF - Work package 2
 - WP2 Boundary Condition|Initial
