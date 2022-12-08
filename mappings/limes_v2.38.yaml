@@ -1,0 +1,123 @@
+model: LIMES 2.38
+native_regions:
+ - AUT: Austria
+ - BEL: Belgium
+ - BGR: Bulgaria
+ - CHE: Switzerland
+ - CZE: Czech Republic
+ - DEU: Germany
+ - DNK: Denmark
+ - ESP: Spain
+ - EST: Estonia
+ - FIN: Finland
+ - FRA: France
+ - GBR: United Kingdom
+ - GRC: Greece
+ - HRV: Croatia
+ - HUN: Hungary
+ - IRL: Ireland
+ - ITA: Italy
+ - LTU: Lithuania
+ - LUX: Luxembourg
+ - LVA: Latvia
+ - NLD: The Netherlands
+ - NOR: Norway
+ - POL: Poland
+ - PRT: Portugal
+ - ROU: Romania
+ - SVK: Slovakia
+ - SVN: Slovenia
+ - SWE: Sweden
+common_regions:
+  - EU27:
+    - Austria
+    - Belgium
+    - Bulgaria
+    - Croatia
+    - Cyprus
+    - Czech Republic
+    - Denmark
+    - Estonia
+    - Finland
+    - France
+    - Germany
+    - Greece
+    - Hungary
+    - Ireland
+    - Italy
+    - Latvia
+    - Lithuania
+    - Luxembourg
+    - Malta
+    - Poland
+    - Portugal
+    - Romania
+    - Slovakia
+    - Slovenia
+    - Spain
+    - Sweden
+    - The Netherlands
+  - EU27 & UK:
+    - Austria
+    - Belgium
+    - Bulgaria
+    - Croatia
+    - Czech Republic
+    - Denmark
+    - Estonia
+    - Finland
+    - France
+    - Germany
+    - Greece
+    - Hungary
+    - Ireland
+    - Italy
+    - Latvia
+    - Lithuania
+    - Luxembourg
+    - Poland
+    - Portugal
+    - Romania
+    - Slovakia
+    - Slovenia
+    - Spain
+    - Sweden
+    - The Netherlands
+    - United Kingdom
+  - EU27 & EFTA:
+    - Austria
+    - Belgium
+    - Bulgaria
+    - Croatia
+    - Czech Republic
+    - Denmark
+    - Estonia
+    - Finland
+    - France
+    - Germany
+    - Greece
+    - Hungary
+    - Ireland
+    - Italy
+    - Latvia
+    - Lithuania
+    - Luxembourg
+    - Norway
+    - Poland
+    - Portugal
+    - Romania
+    - Slovakia
+    - Slovenia
+    - Spain
+    - Sweden
+    - Switzerland
+    - The Netherlands
+  - Scandinavia:
+    - Denmark
+    - Finland
+    - Norway
+    - Sweden
+  - Baltics:
+    - Estonia
+    - Lithuania
+    - Latvia
