@@ -1,0 +1,93 @@
+model: LIMES 2.38
+native_regions:
+  - AUT: LIMES 2.38|AT
+  - BEL: LIMES 2.38|BE
+  - BGR: LIMES 2.38|BG
+  - CHE: LIMES 2.38|CH
+  - CZE: LIMES 2.38|CZ
+  - DEU: LIMES 2.38|DE
+  - DNK: LIMES 2.38|DK
+  - EST: LIMES 2.38|EE
+  - ESP: LIMES 2.38|ES
+  - FIN: LIMES 2.38|FI
+  - FRA: LIMES 2.38|FR
+  - GBR: LIMES 2.38|GB
+  - GRC: LIMES 2.38|GR
+  - HRV: LIMES 2.38|HR
+  - HUN: LIMES 2.38|HU
+  - IRL: LIMES 2.38|IE
+  - ITA: LIMES 2.38|IT
+  - LTU: LIMES 2.38|LT
+  - LUX: LIMES 2.38|LU
+  - LVA: LIMES 2.38|LV
+  - NLD: LIMES 2.38|NL
+  - NOR: LIMES 2.38|NO
+  - POL: LIMES 2.38|PL
+  - PRT: LIMES 2.38|PT
+  - ROU: LIMES 2.38|RO
+  - SWE: LIMES 2.38|SE
+  - SVN: LIMES 2.38|SI
+  - SVK: LIMES 2.38|SK
+  
+common_regions:
+  - Austria:
+      - AUT
+  - Belgium:
+      - BEL
+  - Bulgaria:
+      - BGR
+  - Switzerland:
+      - CHE
+  - Czech Republic:
+      - CZE
+  - Germany:
+      - DEU
+  - Denmark:
+      - DNK
+  - Estonia:
+      - EST
+  - Spain:
+      - ESP
+  - Finland:
+      - FIN
+  - France:
+      - FRA
+  - United Kingdom:
+      - GBR
+  - Greece:
+      - GRC
+  - Croatia:
+      - HRV
+  - Hungary:
+      - HUN
+  - Ireland:
+      - IRL
+  - Italy:
+      - ITA
+  - Lithuania:
+      - LTU
+  - Luxembourg:
+      - LUX
+  - Latvia:
+      - LVA
+  - The Netherlands:
+      - NLD
+  - Norway:
+      - NOR
+  - Poland:
+      - POL
+  - Portugal:
+      - PRT
+  - Romania:
+      - ROU
+  - Sweden: 
+      - SWE
+  - Slovenia:
+      - SVN
+  - Slovakia:
+      - SVK
+
+exclude_regions:
+  - LIMES 2.38|Balkan
+
+      
