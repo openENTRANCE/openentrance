@@ -73,7 +73,7 @@
     sector: Industry
     unit: [EJ/yr, GWh]
 
-- Final Energy|Non-energy_use:
+- Final Energy|Non-Energy Use:
     description: Final energy consumption by the non-combustion processes
     energy_source: all
     energy_use: none
