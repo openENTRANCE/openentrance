@@ -102,3 +102,11 @@
   - United Kingdom & Ireland (IP):
       innopaths: UKI
       countries: UK, Ireland
+
+- European (non-EU) north countries (IP):
+      innopaths: NEN
+      countries: Iceland, Liechtenstein, Norway, Switzerland
+
+- European (non-EU) south countries (IP):
+      innopaths: NES
+      countries: Albania, Andorra, Bosnia and Herzegovina, North Macedonia, Monaco, Montenegro, Serbia, Turkey
