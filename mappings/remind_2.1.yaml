@@ -55,3 +55,25 @@ common_regions:
       - NES
   - Reforming Economies (R5):
       - REF
+  - Germany (IP):
+      - DEU  
+  - Eastern Europe (IP):
+      - ECE
+  - Scandinavia (IP):
+      - ENC
+  - South-East Europe (IP):
+      - ECS
+  - Southern Europe (IP):
+      - ESC
+  - Iberian Peninsula (IP):
+      - ESW
+  - Central Europe (IP):
+      - EWN
+  - France (IP):
+      - FRA
+  - United Kingdom & Ireland (IP):
+      - UKI
+  - Northern non-EU Europe (IP):
+      - NEN
+  - Southern non-EU Europe (IP):
+      - NES
