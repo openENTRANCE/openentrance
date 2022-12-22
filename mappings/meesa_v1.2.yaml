@@ -1,0 +1,44 @@
+model: MEESA v1.2
+native_regions:
+  - DEU: MEESA v1.2|DEU
+  - FRA: MEESA v1.2|FRA
+  - UKI: MEESA v1.2|UKI
+  - ECE: MEESA v1.2|ECE
+  - ECS: MEESA v1.2|ECS
+  - ENC: MEESA v1.2|ENC
+  - ESC: MEESA v1.2|ESC
+  - ESW: MEESA v1.2|ESW
+  - EWN: MEESA v1.2|EWN
+  - NEN: MEESA v1.2|NEN
+common_regions:
+  - EU27 & UK:
+    - FRA
+    - UKI
+    - ECE
+    - ECS
+    - ENC
+    - ESC
+    - ESW
+    - EWN
+
+# INNOPATHS regions
+  - Germany (IP):
+    - DEU
+  - Eastern Europe (IP):
+    - ECE
+  - Scandinavia (IP):
+    - ENC
+  - South-East Europe (IP):
+    - ECS
+  - Southern Europe (IP):
+    - ESC
+  - Iberian Peninsula (IP):
+    - ESW
+  - Central Europe (IP):
+    - EWN
+  - France (IP):
+    - FRA
+  - United Kingdom & Ireland (IP):
+    - UKI
+  - Northern non-EU Europe (IP):
+    - NEN
