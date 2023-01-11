@@ -15,6 +15,9 @@
     description: Total installed heat generation capacity for the residential and
       commercial sectors from {Fuel}
     unit: GW
+- Capacity|Heat|{Residential/Commercial}|Heat Pumps:
+    description: Total installed capacity of heat pumps for {Residential/Commercial} buildings
+    unit: GW
 - Capacity|Heat|Industrial:
     description: Total installed heat generation capacity for the industrial sector
     unit: GW
@@ -90,10 +93,18 @@
     description: Capital cost for {Fuel}
     unit: [EUR_2020/MWh, USD_2010/MWh]
     skip-region-aggregation: true
+
 - Investment|Energy Efficiency:
     description: Investments into the efficiency-increasing components of energy demand
       technologies
     unit: [million EUR_2020/yr, billion USD_2010/yr]
+- Investment|Heat Pumps:
+    description: Investments into heat pumps
+    unit: [million EUR_2020/yr, billion USD_2010/yr]
+- Investment|{Residential/Commercial}|Heat Pumps:
+    description: Investments into heat pumps for use in {Residential/Commercial} buildings
+    unit: [million EUR_2020/yr, billion USD_2010/yr]
+
 - Investment|Energy Supply:
     description: Investments into the energy supply system
     unit: [million EUR_2020/yr, billion USD_2010/yr]
@@ -174,6 +185,18 @@
       For plants equipped with CCS, the investment in the capturing equipment should
       be included but not the one on transport and storage.
     unit: [million EUR_2020/yr, billion USD_2010/yr]
+
+- Renovation Rate|{Residential/Commercial}|Envelope:
+    description: Rate of renovation of the envelope of {Residential/Commercial} buildings
+    unit: '%'
+- Renovation Rate|{Residential/Commercial}|Heating System:
+    description: Rate of renovation of the heating system of {Residential/Commercial} buildings
+    unit: '%'
+
+- Number|{Residential/Commercial}|Heat Pumps:
+    description: Number of total installed heat pumps in {Residential/Commercial} buildings
+    unit: million
+
 - Demand Response|Maximum Reduction|Load Shifting|Electricity|Residential|{Residential Load Shifting Asset}:
     description: Maximum load reduction due to changing household {Residential Load Shifting Asset}
       usage.
