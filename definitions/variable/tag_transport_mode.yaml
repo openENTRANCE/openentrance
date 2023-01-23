@@ -11,7 +11,13 @@
       description: bus transportation
 
   - Truck:
-      description: trucks transportation
+      description: truck transportation
+  - Truck|Truck (0-3.5t):
+      description: transportation with trucks up to 3.5 tonnes
+  - Truck|Truck (3.5-12t):
+      description: transportation with trucks from 3.5 to 12 tonnes
+  - Truck|Truck (12-40t):
+      description: transportation with trucks above 12 tonnes
 
   - 2W and 3W:
       description:  two- and three-wheel vehicles  transportation
