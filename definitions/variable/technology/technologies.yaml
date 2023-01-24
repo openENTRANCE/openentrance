@@ -186,6 +186,13 @@
       be included but not the one on transport and storage.
     unit: [million EUR_2020/yr, billion USD_2010/yr]
 
+- Stock|Transportation|{Transport mode, tech and carrier}:
+    description: Number of registered vehicles with {Transport mode, tech and carrier}
+    unit: million
+- Sales|Transportation|{Transport mode, tech and carrier}:
+    description: Number of sold (new) vehicles with {Transport mode, tech and carrier}
+    unit: million
+
 - Renovation Rate|{Residential/Commercial}|Envelope:
     description: Rate of renovation of the envelope of {Residential/Commercial} buildings
     unit: '%'
