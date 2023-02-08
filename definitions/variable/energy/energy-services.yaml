@@ -22,14 +22,12 @@
     description: Provision of energy services related to freight bunkers {Bunkers mode}
     unit: Gtkm/yr
 
-- Energy Service|Residential and Commercial|Floor Space:
-    description: Provision of energy services for conditioned floor space in residential and commercial buildings
+- Energy Service|{Residential/Commercial}|Floor Space:
+    description: Provision of energy services for conditioned floor space in {Residential/Commercial} buildings
     unit: bn m2/yr
-- Energy Service|Residential|Floor Space:
-    description: Provision of energy services for conditioned floor space in residential buildings
-    unit: bn m2/yr
-- Energy Service|Commercial|Floor Space:
-    description: Provision of energy services for conditioned floor space in commercial buildings
+- Energy Service|{Residential/Commercial}|Floor Space|Heat Pumps:
+    description: Provision of energy services for conditioned floor space in {Residential/Commercial} buildings
+      using heat pumps
     unit: bn m2/yr
 
 # additional variables
