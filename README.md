@@ -1,6 +1,6 @@
 #  Project definitions for the openENTRANCE project
 
-Copyright 2020-2021 openENTRANCE consortium
+Copyright 2020-2023 openENTRANCE consortium
 
 This repository is licensed under the Apache License, Version 2.0 (the "License"); see
 the [LICENSE](LICENSE) for details.
