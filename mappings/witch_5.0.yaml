@@ -1,0 +1,45 @@
+model: WITCH 5.0
+native_regions:
+  - BRAZIL: WITCH 5.0|BRAZIL
+  - CANADA: WITCH 5.0|CANADA
+  - CHINA: WITCH 5.0|CHINA
+  - EUROPE: WITCH 5.0|EUROPE
+  - INDIA: WITCH 5.0|INDIA
+  - INDONESIA: WITCH 5.0|INDONESIA
+  - JPNKOR: WITCH 5.0|JPNKOR
+  - LACA: WITCH 5.0|LACA
+  - MENA: WITCH 5.0|MENA
+  - MEXICO: WITCH 5.0|MEXICO
+  - OCEANIA: WITCH 5.0|OCEANIA
+  - SASIA: WITCH 5.0|SASIA
+  - SEASIA: WITCH 5.0|SEASIA
+  - SOUTHAFRICA: WITCH 5.0|SOUTHAFRICA
+  - SSA: WITCH 5.0|SSA
+  - TE: WITCH 5.0|TE
+  - USA: WITCH 5.0|USA
+  - EU27 & UK
+  - EU27
+  - World
+common_regions:
+  - Asia (R5):
+    - CHINA
+    - INDIA
+    - INDONESIA
+    - SASIA
+    - SEASIA
+  - Latin America (R5):
+    - BRAZIL
+    - LACA
+    - MEXICO
+  - Middle East & Africa (R5):
+    - MENA
+    - SOUTHAFRICA
+    - SSA
+  - OECD & EU (R5):
+    - CANADA
+    - EUROPE
+    - JPNKOR
+    - OCEANIA
+    - USA
+  - Reforming Economies (R5):
+    - TE
