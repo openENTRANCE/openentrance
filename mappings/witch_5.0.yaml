@@ -7,14 +7,14 @@ native_regions:
   - INDIA: WITCH 5.0|India
   - INDONESIA: WITCH 5.0|Indonesia
   - JPNKOR: WITCH 5.0|Japan and South Korea
-  - LACA: WITCH 5.0|Latin america and Caraibes (except Brasil and Mexico)
-  - MENA: WITCH 5.0|Moyen-Orient and North Africa
+  - LACA: WITCH 5.0|Latin America and the Caribbean (except Brazil and Mexico)
+  - MENA: WITCH 5.0|Middle East and North Africa
   - MEXICO: WITCH 5.0|Mexico
   - OCEANIA: WITCH 5.0|Oceania
   - SASIA: WITCH 5.0|South Asia
   - SEASIA: WITCH 5.0|South-East Asia
   - SOUTHAFRICA: WITCH 5.0|South Africa
-  - SSA: WITCH 5.0|Sub-Saharian African (except South Africa)
+  - SSA: WITCH 5.0|Sub-Saharan Africa (except South Africa)
   - TE: WITCH 5.0|Transition Economies (including Russia)
   - USA: WITCH 5.0|United States of America
   - EU27 & UK
