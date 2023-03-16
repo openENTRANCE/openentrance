@@ -71,3 +71,15 @@
 
 # EMF-ECEMF collaboration scenarios
 - EMFECEMF_NZero
+
+# ECEMF - Work package 5 task 5.1 trade limitation scenarios
+- WP5 Default-2C
+- WP5 Default-15C
+- WP5 Short-OECD-2C
+- WP5 Short-OECD-15C
+- WP5 Long-OECD-2C
+- WP5 Long-OECD-15C
+- WP5 Short-Groups-2C
+- WP5 Short-Groups-15C
+- WP5 Long-Groups-2C
+- WP5 Long-Groups-15C
