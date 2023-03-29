@@ -5,12 +5,13 @@
   # generic definitions of Europe
 
   - Europe:
-      definition: any of the aggregate-regions `Europe (*)`
+      definition: any of the regions in this section
       notes: the definition used by a model must be specified in the model documentation
+        or the mapping file
   - Europe (*):
       definition: a close match to `Europe`
       notes: the definition used by a model must be specified in the model documentation
-        or the mapping files
+        or the mapping file
   - Europe (excl. Turkey):
       definition: EU27 + EFTA + AL + BA + BY + ME + MK + UA + UK + RS + XK
   - Europe (incl. Turkey):
@@ -30,7 +31,7 @@
   - EU27 & UK (*):
       definition: a close match to `EU27 & UK`
       notes: the definition used by a model must be specified in the model documentation
-        or the mapping files
+        or the mapping file
   - EFTA:
       definition: IS + LI + NO + CH
       notes: European Free Trade Association
@@ -70,16 +71,16 @@
   # generic definition of the EU
 
   - European Union:
-      definition: any of the aggregate-regions `EU*`
+      definition: any of the regions in this section
       notes: the definition used by a model must be specified in the model documentation
-  - EU27 (*):
-      definition: a close match to `EU27`
-      notes: the definition used by a model must be specified in the model documentation
-        or the mapping files
   - EU27:
       definition: AT + BE + BG + HR + CY + CZ + DK + EE + FI + FR + DE + GR + HU +
         IE + IT + LV + LT + LU + MT + PL + PT + RO + SK + SI + ES + SE + NL
       notes: membership as of February 1, 2020
+  - EU27 (*):
+      definition: a close match to `EU27`
+      notes: the definition used by a model must be specified in the model documentation
+        or the mapping file
   - EU27 (excl. Malta & Cyprus):
       definition: EU27 excluding CY + MT
 
