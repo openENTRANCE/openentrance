@@ -7,6 +7,10 @@
   - Europe:
       definition: any of the aggregate-regions `Europe (*)`
       notes: the definition used by a model must be specified in the model documentation
+  - Europe (*):
+      definition: a close match to `Europe`
+      notes: the definition used by a model must be specified in the model documentation
+        or the mapping files
   - Europe (excl. Turkey):
       definition: EU27 + EFTA + AL + BA + BY + ME + MK + UA + UK + RS + XK
   - Europe (incl. Turkey):
@@ -23,6 +27,10 @@
   - EU27 & UK:
       definition: EU27 + UK
       notes: Formerly known as EU28.
+  - EU27 & UK (*):
+      definition: a close match to `EU27 & UK`
+      notes: the definition used by a model must be specified in the model documentation
+        or the mapping files
   - EFTA:
       definition: IS + LI + NO + CH
       notes: European Free Trade Association
@@ -64,6 +72,10 @@
   - European Union:
       definition: any of the aggregate-regions `EU*`
       notes: the definition used by a model must be specified in the model documentation
+  - EU27 (*):
+      definition: a close match to `EU27`
+      notes: the definition used by a model must be specified in the model documentation
+        or the mapping files
   - EU27:
       definition: AT + BE + BG + HR + CY + CZ + DK + EE + FI + FR + DE + GR + HU +
         IE + IT + LV + LT + LU + MT + PL + PT + RO + SK + SI + ES + SE + NL
