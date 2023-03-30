@@ -106,6 +106,18 @@
     energy_use: all excl. losses
     sector: Residential and Commercial
     unit: [EJ/yr, GWh]
+- Final Energy|Residential and Commercial|Space and Water Heating:
+    description: Final energy consumed for space and water heating in residential and commercial buildings
+    energy_source: all
+    energy_use: all excl. losses
+    sector: Residential and Commercial
+    unit: EJ/yr
+- Final Energy|Residential and Commercial|Space and Water Heating|{Final Energy carrier}:
+    description: Final energy consumed for space and water heating in residential and commercial buildings
+      from {Final Energy carrier}
+    energy_use: all excl. losses
+    sector: Residential and Commercial
+    unit: EJ/yr
 - Final Energy|Residential and Commercial|Space Heating:
     description: Final energy consumed for space heating in residential and commercial buildings
     energy_source: all
