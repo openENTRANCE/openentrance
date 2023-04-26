@@ -72,7 +72,7 @@
 # EMF-ECEMF collaboration scenarios
 - EMFECEMF_NZero
 
-# ECEMF - Work package 5 task 5.1 trade limitation scenarios (<= can be removed in the final iteration, but keep it for now)
+# ECEMF - Work package 5 task 5.1 trade limitation scenarios (<= initial scenario names, deprecated)
 - WP5 Default-2C
 - WP5 Default-15C
 - WP5 Short-OECD-2C
