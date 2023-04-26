@@ -5,7 +5,7 @@ import pytest
 
 import sys
 
-sys.path.append(Path(__file__).parent)
+sys.path.append(Path(__file__).parents[1])
 print(sys.path)
 from workflow import main as workflow
 
