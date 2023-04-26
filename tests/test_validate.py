@@ -5,8 +5,8 @@ import pytest
 
 import sys
 
+# this is necessary to make tests pass on GitHub Actions
 sys.path.append(str(Path(__file__).parents[1]))
-print(sys.path)
 from workflow import main as workflow
 
 
