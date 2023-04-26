@@ -1,11 +1,12 @@
+from pathlib import Path
 import pandas as pd
 from pyam import IamDataFrame
 import pytest
 
 import sys
 
-sys.path.append("..")
-
+# this is necessary to make tests pass on GitHub Actions
+sys.path.append(str(Path(__file__).parents[1]))
 from workflow import main as workflow
 
 
