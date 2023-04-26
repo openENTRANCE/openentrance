@@ -1,11 +1,12 @@
+from pathlib import Path
 import pandas as pd
 from pyam import IamDataFrame
 import pytest
 
 import sys
 
-sys.path.append("..")
-
+sys.path.append(Path(__file__).parent)
+print(sys.path)
 from workflow import main as workflow
 
 
