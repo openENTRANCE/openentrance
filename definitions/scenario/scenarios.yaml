@@ -72,7 +72,7 @@
 # EMF-ECEMF collaboration scenarios
 - EMFECEMF_NZero
 
-# ECEMF - Work package 5 task 5.1 trade limitation scenarios
+# ECEMF - Work package 5 task 5.1 trade limitation scenarios (<= initial scenario names, deprecated)
 - WP5 Default-2C
 - WP5 Default-15C
 - WP5 Short-OECD-2C
@@ -83,3 +83,11 @@
 - WP5 Short-Groups-15C
 - WP5 Long-Groups-2C
 - WP5 Long-Groups-15C
+
+# ECEMF - Work package 5 task 5.1 trade limitation scenarios (<= new scenario names)
+- WP5 Default-650
+- WP5 Default-1150
+- WP5 Russia-650
+- WP5 Russia-1150
+- WP5 EastWest-650
+- WP5 EastWest-1150
