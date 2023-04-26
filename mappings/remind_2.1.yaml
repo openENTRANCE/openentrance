@@ -25,6 +25,10 @@ native_regions:
   - EU27
   - World
 common_regions:
+  - EU27 & UK (*): 
+      - EUR
+  - EU27 (*): 
+      - EU27
   - Germany:
       - DEU
   - France:
