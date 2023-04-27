@@ -21,6 +21,10 @@ native_regions:
   - EU27
   - World
 common_regions:
+  - EU27 & UK (*): 
+      - EU27 & UK
+  - EU27 (*): 
+      - EU27
   - Asia (R5):
     - CHINA
     - INDIA
