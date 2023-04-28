@@ -72,6 +72,11 @@
 # EMF-ECEMF collaboration scenarios
 - EMFECEMF_NZero
 
+# ECEMF - Work package 3 task 3.2 scenarios
+- WP3_Task3.2|Infrastructures|Medium EV flexibility
+- WP3_Task3.2|Infrastructures|High EV flexibility
+- WP3_Task3.2|Infrastructures|Conservative EV flexibility
+
 # ECEMF - Work package 5 task 5.1 trade limitation scenarios (<= initial scenario names, deprecated)
 - WP5 Default-2C
 - WP5 Default-15C
