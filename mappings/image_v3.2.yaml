@@ -31,3 +31,9 @@ common_regions:
   - Europe (excl. Turkey): # An imperfect but reasonably accurate description
       - im_WEU
       - im_CEU
+  - EU27 & UK (*): 
+      - im_WEU
+      - im_CEU
+  - EU27 (*): 
+      - im_WEU
+      - im_CEU
