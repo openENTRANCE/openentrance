@@ -20,7 +20,21 @@ common_regions:
     - ESC
     - ESW
     - EWN
-
+  - EU27 & UK (*):
+    - FRA
+    - UKI
+    - ECE
+    - ECS
+    - ENC
+    - ESC
+    - ESW
+  - EU27 (*):
+    - FRA
+    - ECE
+    - ECS
+    - ENC
+    - ESC
+    - ESW
 # INNOPATHS regions
   - Germany (IP):
     - DEU
