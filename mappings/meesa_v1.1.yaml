@@ -20,3 +20,22 @@ common_regions:
       - DEU
       - FRA
       - POL
+  - EU27 & UK (*):
+      - BEN
+      - CEU
+      - IBI
+      - NTH
+      - STH
+      - UKI
+      - DEU
+      - FRA
+      - POL
+  - EU27 (*):
+      - BEN
+      - CEU
+      - IBI
+      - NTH
+      - STH
+      - DEU
+      - FRA
+      - POL
