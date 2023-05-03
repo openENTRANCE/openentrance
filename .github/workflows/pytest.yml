@@ -22,12 +22,8 @@ jobs:
       with:
         python-version: 3.9
 
-    - name: Install dependencies
+    - name: Install the package and run the tests
       run: |
         pip install --upgrade pip
-        pip install pytest
-
-    - name: Install and test package functions
-      run: |
-        pip install --editable .
+        pip install --editable .[tests]
         pytest tests
