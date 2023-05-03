@@ -25,6 +25,7 @@ jobs:
     - name: Install dependencies
       run: |
         pip install --upgrade pip
+        pip install pytest
 
     - name: Install and test package functions
       run: |
