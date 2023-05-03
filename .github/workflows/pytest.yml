@@ -22,13 +22,8 @@ jobs:
       with:
         python-version: 3.9
 
-    - name: Install dependencies
+    - name: Install the package and run the tests
       run: |
         pip install --upgrade pip
-        pip install -r requirements.txt
-        pip install "pytest<7.2.3"
-
-    - name: Install and test package functions
-      run: |
-        pip install --editable .
+        pip install --editable .[tests]
         pytest tests
