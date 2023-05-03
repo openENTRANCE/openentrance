@@ -25,7 +25,6 @@ Then navigate the command prompt to the new folder and install using pip.
 
 ```
 $ cd openentrance
-$ pip install -r requirements.txt
 $ pip install --editable .
 ```
 
