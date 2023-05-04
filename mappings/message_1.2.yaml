@@ -15,6 +15,9 @@ common_regions:
   - Europe (incl. Turkey):
     - R11_EEU
     - R11_WEU
+  - EU27 & UK (*):
+    - R11_EEU
+    - R11_WEU 
   - Asia (R5):
     - R11_CPA
     - R11_PAS
