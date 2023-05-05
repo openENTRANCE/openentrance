@@ -1,10 +1,10 @@
 - Season Input:
-  - Winter:
+  - winter:
       description: winter season
-  - Summer:
+  - summer:
       description: summer season
-  - Autumn:
+  - autumn:
       description: autumn season
-  - Spring:
+  - spring:
       description: spring season
 
