@@ -1,5 +1,5 @@
 # List of seasons
 # the seasons changing dates was chosen here as to minimise the difference of length between seasons as the objective is to compare energy amounts per seasons
 
-- {Input Season}:
+- {Season Input}:
     description: defines seasons (Winter, Spring, Autumn and Summer) as subannual segmentation of the year ; see details in tag_time_input_types.yaml
