@@ -8,14 +8,14 @@
     duration: 168 hours
     description: average value of the weekly values of the variable, for the weeks belonging to <season>, which are defined as the weeks with at least 4 days belonging to the considered season
     
-- hhh|Average week:
+- Average week|Hour {i}:
     duration: 1 hour
-    description: hhh is the index of each of the ith hour of the average week. An average week will be fully described by 168 rows with the value of the variable at each hour of the week
+    description: i is the index of each of the ith hour of the average week. An average week will be fully described by 168 rows with the value of the variable at each hour of the week
     note: a week starts on Monday and ends on Sunday
     
-- hhh|Average week|{Season Input}:
+- Average week|{Season}|Hour {i}:
     duration: 1 hour
-    description: hhh is the index of each of the ith hour of the average week. An average week will be fully described by 168 rows with the value of the variable at each hour of the week
+    description: i is the index of each of the ith hour of the average week. An average week will be fully described by 168 rows with the value of the variable at each hour of the week
     note: a week starts on Monday and ends on Sunday
     
 - Representative week:
@@ -27,12 +27,12 @@
     duration: 168 hours
     description: Representative week over a yearly period, chosen amongst weeks belnging to {season} for the given variable 
     
-- hhh|Representative week:
+- Representative week|Hour {i}:
     duration: 1 hour
-    description: hhh is the index of each of the ith hour of the representative week. 
+    description: i is the index of each of the ith hour of the representative week. 
     note: a week starts on Monday and ends on Sunday
     
-- hhh|Representative week|{Season Input}:
+- Representative week|{Season Input}|Hour {i}:
     duration: 1 hour
-    description: hhh is the index of each of the ith hour of the representative week for the given <season>
+    description: i is the index of each of the ith hour of the representative week for the given <season>
     note: a week starts on Monday and ends on Sunday
