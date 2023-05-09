@@ -1,10 +1,17 @@
 - Season Input:
-  - winter:
-      description: winter season
-  - summer:
-      description: summer season
-  - autumn:
-      description: autumn season
-  - spring:
-      description: spring season
+  - Winter:
+      duration: 90 / 365
+      description: period between January 1st (included) and March 20 (included) plus period between Dec. 21 (included)  and Dec 31 (included)
+
+  - Spring:
+      duration: 92 / 365
+      description: period between March 21 (included) and June 20 (included)
+
+  - Summer:
+      duration: 92 / 365
+      description: period between June 21 (included) and Sept. 20 (included)
+
+  - Autumn:
+      duration: 91 / 365
+      description: period between Sept 21 (included) and Dec. 20 (included)
 
