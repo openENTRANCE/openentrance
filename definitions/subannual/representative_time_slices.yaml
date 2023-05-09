@@ -13,7 +13,7 @@
     description: {Week Hour Index Input} is the index of each of the ith hour of the average week. An average week will be fully described by 168 rows with the value of the variable at each hour of the week
     note: a week starts on Monday and ends on Sunday
     
-- Average week|{Season}|Hour {Week Hour Index Input}:
+- Average week|{Season Input}|Hour {Week Hour Index Input}:
     duration: 1 hour
     description: {Week Hour Index Input} is the index of each of the ith hour of the average week. An average week will be fully described by 168 rows with the value of the variable at each hour of the week
     note: a week starts on Monday and ends on Sunday
