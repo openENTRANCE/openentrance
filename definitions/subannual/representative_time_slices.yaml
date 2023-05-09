@@ -11,7 +11,8 @@
     
 - Average week|Hour {Week Hour Index Input}:
     duration: 1 hour
-    description: timeseries of the hourly values over one week (168 values): eg for {Week Hour Index Input}=0, 
+    description: timeseries of the hourly values over one week (168 values)
+        for example, for {Week Hour Index Input}=0, 
         average of the value of the variable for all 1st hour of all weeks of the year
         {Week Hour Index Input} is the index of the ith hour of the average week. 
         An average week will be fully described by 168 rows with the value of the variable at each hour of the week
@@ -19,7 +20,8 @@
     
 - Average week|{Season Input}|Hour {Week Hour Index Input}:
     duration: 1 hour
-    description: timeseries of the hourly values over one week (168 values): eg for {Week Hour Index Input}=0, 
+    description: timeseries of the hourly values over one week (168 values)
+        for example, for {Week Hour Index Input}=0, 
         average of the value of the variable for all 1st hour of all weeks of the year, for the weeks
         belonging to {Season Input}.
         {Week Hour Index Input} is the index of the ith hour of the average week. 
@@ -37,7 +39,8 @@
     
 - Representative week|Hour {Week Hour Index Input}:
     duration: 1 hour
-    description: timeseries of the hourly values over one week (168 values): eg for {Week Hour Index Input}=0, 
+    description: timeseries of the hourly values over one week (168 values)
+        for example, for {Week Hour Index Input}=0, 
         value of the variable for the 1st hour of the chosen week of the year
         {Week Hour Index Input} is the index of the ith hour of the average week. 
         An average week will be fully described by 168 rows with the value of the variable at each hour of the week
@@ -45,7 +48,8 @@
     
 - Representative week|{Season Input}|Hour {Week Hour Index Input}:
     duration: 1 hour
-    description: timeseries of the hourly values over one week (168 values): eg for {Week Hour Index Input}=0, 
+    description: timeseries of the hourly values over one week (168 values)
+        for example, for {Week Hour Index Input}=0, 
         value of the variable for the 1st hour of the chosen week of the year
         {Week Hour Index Input} is the index of the ith hour of the average week. 
         An average week will be fully described by 168 rows with the value of the variable at each hour of the week
