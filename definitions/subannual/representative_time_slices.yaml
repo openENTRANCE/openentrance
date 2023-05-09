@@ -25,7 +25,7 @@
 
 - Representative week|{Season Input}:
     duration: 168 hours
-    description: Representative week over a yearly period, chosen amongst weeks belnging to <season> for the given variable 
+    description: Representative week over a yearly period, chosen amongst weeks belnging to {season} for the given variable 
     
 - hhh|Representative week:
     duration: 1 hour
