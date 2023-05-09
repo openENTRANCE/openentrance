@@ -8,12 +8,12 @@
     duration: 168 hours
     description: average value of the weekly values of the variable, for the weeks belonging to <season>, which are defined as the weeks with at least 4 days belonging to the considered season
     
-- Average week|Hour {i}:
+- Average week|Hour {Week Hour Index Input}:
     duration: 1 hour
     description: i is the index of each of the ith hour of the average week. An average week will be fully described by 168 rows with the value of the variable at each hour of the week
     note: a week starts on Monday and ends on Sunday
     
-- Average week|{Season}|Hour {i}:
+- Average week|{Season}|Hour {Week Hour Index Input}:
     duration: 1 hour
     description: i is the index of each of the ith hour of the average week. An average week will be fully described by 168 rows with the value of the variable at each hour of the week
     note: a week starts on Monday and ends on Sunday
@@ -27,12 +27,12 @@
     duration: 168 hours
     description: Representative week over a yearly period, chosen amongst weeks belnging to {season} for the given variable 
     
-- Representative week|Hour {i}:
+- Representative week|Hour {Week Hour Index Input}:
     duration: 1 hour
     description: i is the index of each of the ith hour of the representative week. 
     note: a week starts on Monday and ends on Sunday
     
-- Representative week|{Season Input}|Hour {i}:
+- Representative week|{Season Input}|Hour {Week Hour Index Input}:
     duration: 1 hour
     description: i is the index of each of the ith hour of the representative week for the given <season>
     note: a week starts on Monday and ends on Sunday
