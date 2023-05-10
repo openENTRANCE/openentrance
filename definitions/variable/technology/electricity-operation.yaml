@@ -25,11 +25,18 @@
     description: Energy shifted - from the system point of view is equivalent to generation
       of Active Power
     unit: GWh
+- Active Power|Electricity|Load Shifting|{Residential Load Shifting Asset}:
+    description: Energy shifted by assets of kind {Residential Load Shifting Asset} - from the system point of view is equivalent to generation
+      of Active Power
+    unit: GWh
 - Active Power|Electricity|{Electricity Storage Type}:
     description: Active Power of a {Electricity Storage Type} unit
     unit: GWh
 - Storage|Electricity|{Electricity Storage Type}:
     description: Available storage of a {Electricity Storage Type} unit
+    unit: GWh
+- Storage|Electricity|Load Shifting|{Residential Load Shifting Asset}:
+    description: Available (virtual) storage of a {Residential Load Shifting Asset} unit
     unit: GWh
 - Storage|Electricity|Load Curtailment:
     description: remaining amount of curtailement
@@ -123,7 +130,7 @@
      that same period is not substracted from this total. This means that the Net Discharged Energy can be computed as Discharged Energy - Charged Energy,
      if Discharged Energy > Charged Energy, 0 if not
     unit: GWh
-- Injected Energy|Electricity|{Residential Load Shifting Asset}:
+- Injected Energy|Electricity|Load Shifting|{Residential Load Shifting Asset}:
     description: Surplus of energy consumed by the {Residential Load Shifting Asset} during the period,
         compared to nominal consumption profile. This means that the <Residential Load Shifting Asset> is advancing some consumption
         i.e. consuming earlier than in the nominal profile, or that the consumption had been lowered in an earlier period and is
@@ -133,7 +140,7 @@
      that same period is not substracted from this total. This means that the Net Charged Energy can be computed as Charged Energy - Discharged Energy
      if Charged Energy > Discharged Energy, 0 if not
     unit: GWh
-- Discharged Energy|Electricity|{Residential Load Shifting Asset}:
+- Discharged Energy|Electricity|Load Shifting|{Residential Load Shifting Asset}:
     description: Amount of energy not consumed by the {Residential Load Shifting Asset} during the period,
         compared to nominal consumption profile. This means that the <Residential Load Shifting Asset> is delaying some consumption
         i.e. consuming later than in the nominal profile, or that the consumption had been increased in an earlier period and is
