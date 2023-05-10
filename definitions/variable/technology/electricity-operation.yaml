@@ -112,15 +112,35 @@
     description: Not served demand
     unit: MWh
 - Injected Energy|Electricity|{Electricity Storage Type}:
-    description: Amount of energy charged to the storage during the period
+    description: Amount of energy charged from the grid to the storage during the period
     notes: this represents the total energy which is charged into the storage during the period, the energy which is discharged during 
      that same period is not substracted from this total. This means that the Net Charged Energy can be computed as Charged Energy - Discharged Energy
      if Charged Energy > Discharged Energy, 0 if not
     unit: GWh
 - Discharged Energy|Electricity|{Electricity Storage Type}:
-    description: Amount of energy charged to the storage during the period
-    notes: this represents the total energy which is discharged from the storage during the period, the energy which is charged into the storage during 
+    description: Amount of energy discharged from the storage to the grid during the period
+    notes: this represents the total energy which is discharged from the storage to the grid during the period, the energy which is charged into the storage during 
      that same period is not substracted from this total. This means that the Net Discharged Energy can be computed as Discharged Energy - Charged Energy,
      if Discharged Energy > Charged Energy, 0 if not
-
     unit: GWh
+- Injected Energy|Electricity|{Residential Load Shifting Asset}:
+    description: Surplus of energy consumed by the {Residential Load Shifting Asset} during the period,
+        compared to nominal consumption profile. This means that the <Residential Load Shifting Asset> is advancing some consumption
+        i.e. consuming earlier than in the nominal profile, or that the consumption had been lowered in an earlier period and is
+        consumed later (delayed)
+    notes: this is equivalent to modelling the <Residential Load Shifting Asset> as a virtual storage 
+      this represents the total energy which is charged into the storage during the period, the energy which is discharged during 
+     that same period is not substracted from this total. This means that the Net Charged Energy can be computed as Charged Energy - Discharged Energy
+     if Charged Energy > Discharged Energy, 0 if not
+    unit: GWh
+- Discharged Energy|Electricity|{Residential Load Shifting Asset}:
+    description: Amount of energy not consumed by the {Residential Load Shifting Asset} during the period,
+        compared to nominal consumption profile. This means that the <Residential Load Shifting Asset> is delaying some consumption
+        i.e. consuming later than in the nominal profile, or that the consumption had been increased in an earlier period and is
+        not consumed later (delayed)
+    notes: this is equivalent to modelling the <Residential Load Shifting Asset> as a virtual storage
+     this represents the total energy which is discharged from the storage during the period, the energy which is charged into the storage during 
+     that same period is not substracted from this total. This means that the Net Discharged Energy can be computed as Discharged Energy - Charged Energy,
+     if Discharged Energy > Charged Energy, 0 if not
+    unit: GWh
+
