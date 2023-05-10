@@ -26,7 +26,7 @@
       of Active Power
     unit: GWh
 - Active Power|Electricity|Load Shifting|{Residential Load Shifting Asset}:
-    description: Energy shifted by assets of kind {Residential Load Shifting Asset} - from the system point of view is equivalent to generation
+    description: Energy shifted by assets of kind {Residential Load Shifting Asset} - from the system point of view is equivalent to generation of active power
       of Active Power
     unit: GWh
 - Active Power|Electricity|{Electricity Storage Type}:
