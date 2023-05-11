@@ -1,0 +1,54 @@
+# description of representative periods
+
+- Average Week:
+    duration: 168 hours
+    description: A synthetically computed week that represents an average week
+      over the entire year.
+    note: A week starts on Monday and ends on Sunday.
+
+- Average Week|{Season}:
+    duration: 168 hours
+    description: A synthetically computed week that represents an average week
+      in the {Season}.
+    note: A week starts on Monday and ends on Sunday. The selected week must have
+      at least 4 days in the considered season.
+
+- Average Week|Hour {Week Hour Index Counter}:
+    duration: 1 hour
+    description: Hour {Week Hour Index Counter} from a synthetically computed week
+      that represents an average week over the entire year.
+    note: A week starts on Monday and ends on Sunday.
+
+- Average Week|{Season}|Hour {Week Hour Index Counter}:
+    duration: 1 hour
+    description: Hour {Week Hour Index Counter} from a synthetically computed week
+        that represents an average week in the {Season}.
+    note: A week starts on Monday and ends on Sunday. The selected week must have
+      at least 4 days in the considered season.
+
+- Representative Week:
+    duration: 168 hours
+    description: A week (comprised of 168 consecutive hours) that represents a typical
+      week over the entire year.
+    note: A week starts on Monday and ends on Sunday.
+
+- Representative Week|{Season}:
+    duration: 168 hours
+    description: A week (comprised of 168 consecutive hours) that represents a typical
+      week in the {Season}.
+    note: A week starts on Monday and ends on Sunday. The selected week must have
+      at least 4 days in the considered season.
+
+- Representative Week|Hour {Week Hour Index Counter}:
+    duration: 1 hour
+    description: Hour {Week Hour Index Counter} from a week (comprised of 168
+      consecutive hours) that represents a typical week over the entire year.
+    note: A week starts on Monday and ends on Sunday. The selected week must have
+      at least 4 days in the considered season.
+
+- Representative Week|{Season}|Hour {Week Hour Index Counter}:
+    duration: 1 hour
+    description: Hour {Week Hour Index Counter} from a week (comprised of 168
+      consecutive hours) that represents a typical week in the {Season}.
+    note: A week starts on Monday and ends on Sunday. The selected week must have
+      at least 4 days in the considered season.
