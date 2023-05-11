@@ -7,23 +7,33 @@
 
 - Secondary Energy|Electricity:
     description: Total net electricity production
-    unit: EJ/yr
+    unit: [EJ/yr, GWh]
 - Secondary Energy|Electricity|{Electricity Input}:
     description: Net electricity production from {Electricity Input}
-    unit: EJ/yr
+    unit: [EJ/yr, GWh]
+ - Available Secondary Energy|Electricity:
+    description: Total net potential electricity production
+      this is equivalent to the total electricity mix capacity multiplied by the number of hours in the period multiplied by the maximum achievable load factor
+      this is also equivalent to the Secondary Energy if all the generation assets would produce at maximum capacity during the period
+    unit: [EJ/yr, GWh]
+- Available Secondary Energy|Electricity|{Electricity Input}:
+    description: Net electricity potential production from {Electricity Input}
+      this is equivalent to the total {Electricity Input} capacity multiplied by the number of hours in the period multiplied by the maximum achievable load factor for 
+      this is also equivalent to the Secondary Energy of {Electricity Input} if all the generation assets would produce at maximum capacity during the period
+    unit: [EJ/yr, GWh]
 - Secondary Energy|Electricity|Curtailment:
     description: Curtailment of electricity production due to oversupply from
       variable renewable sources (typically from wind and solar)
-    unit: EJ/yr
+    unit: [EJ/yr, GWh]
 - Secondary Energy|Electricity|Storage:
     description: electricity storage from other periods used
-    unit: EJ/yr
+    unit: [EJ/yr, GWh]
 - Secondary Energy|Electricity|Storage Losses:
     description: losses from electricity storage
-    unit: EJ/yr
+    unit: [EJ/yr, GWh]
 - Secondary Energy|Electricity|Transmission Losses:
     description: electricity losses from long-range high-voltage transmission
-    unit: EJ/yr
+    unit: [EJ/yr, GWh]
 
 - Secondary Energy|Gases:
     description: Total production of gaseous fuels, including natural gas
