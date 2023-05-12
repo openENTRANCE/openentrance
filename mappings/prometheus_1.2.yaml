@@ -8,3 +8,9 @@ common_regions:
   - Europe:
     - WEU
     - CEU
+   - EU27 & UK (*): 
+    - WEU
+    - CEU
+    
+   
+
