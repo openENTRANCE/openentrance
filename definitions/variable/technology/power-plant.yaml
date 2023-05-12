@@ -130,6 +130,12 @@
 - Maximum Storage|Electricity|{Electricity Storage Type}:
     description: Maximum volume of a {Electricity Storage Type} unit expressed in energy
     unit: [MWh, GWh]
+- Maximum Storage|Electricity|Hydro|Reservoir:
+    description: Maximum volume of Hydro Reservoir technology  expressed in energy
+    unit: [MWh, GWh]
+- Maximum Storage|Electricity|Hydro|Pumped Storage:
+    description: Maximum volume of Pumped Storage technology expressed in energy
+    unit: [MWh, GWh]
 - Minimum Storage|Electricity|{Electricity Storage Type}:
     description: Minimum volume of a {Electricity Storage Type} unit expressed in energy
     unit: [MWh, GWh]
