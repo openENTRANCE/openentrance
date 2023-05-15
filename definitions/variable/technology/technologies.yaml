@@ -26,7 +26,7 @@
       from {Fuel}
     unit: GW
 - Maximum Storage|Heat:
-    description: Maximum volume of a heat storage expressed in energy
+    description: Maximum volume of heat storage expressed in energy
     unit: [MWh, GWh]
 - Capital Cost|Electricity|{Electricity Input}:
     description: Capital cost for {Electricity Input}
