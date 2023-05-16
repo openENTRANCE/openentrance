@@ -25,7 +25,7 @@
     description: Total installed heat generation capacity for the industrial sector
       from {Fuel}
     unit: GW
-- Maximum Storage|Heat:
+- Maximum Storage|{Heat Storage Type}:
     description: Maximum volume of heat storage expressed in energy
     unit: [MWh, GWh]
 - Capital Cost|Electricity|{Electricity Input}:
