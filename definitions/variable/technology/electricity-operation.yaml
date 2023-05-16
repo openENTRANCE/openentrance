@@ -108,7 +108,7 @@
 - Import|Electricity:
     description: Exported electricity from a given region
     unit: MWh
-- Flow|Electricity|{Region}|{Region}:
+- Flow|Electricity:
     description: Flow from electricity from the former to latter region
     unit: MWh
 - Unserved Demand|Electricity:
