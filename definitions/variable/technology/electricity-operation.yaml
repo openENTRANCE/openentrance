@@ -110,7 +110,7 @@
     unit: MWh
 - Flow|Electricity:
     description: Flow from electricity from the former to latter region
-    unit: MWh
+    unit: [MWh, GWh]
 - Unserved Demand|Electricity:
     description: Not served demand
     unit: MWh
