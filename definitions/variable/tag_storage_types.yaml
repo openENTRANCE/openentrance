@@ -14,5 +14,5 @@
       description: compressed air storage systems
   - Heat:
       description: all types of heat storage systems
-  - Hydrogen:
-      description: hydrogen system with short-term storage capacity
+  #- Hydrogen:
+  #    description: hydrogen system with short-term storage capacity
