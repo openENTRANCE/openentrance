@@ -5,7 +5,8 @@
 # constant term cost   [EUR/h]   = Constant Var Cost [Mcal/h] * Price|Primary Energy [EUR/Mcal]
 
 - Operational Cost|Constant Term|Electricity Generation|{Electricity Input}:
-    description: Constant term (intercept) to compute operational cost for generating
+    description: Constant term (intercept) to compute op
+    erational cost for generating
       electricity from {Electricity Input}
     unit: Mcal/hour
     skip-region-aggregation: true
@@ -95,18 +96,18 @@
       from {Electricity Input}
     unit: '%'
     skip-region-aggregation: true
-- Inertia|Electricity|{Electricity Storage Type}:
-    description: Inertia provided to the system by a {Electricity Storage Type} unit
+- Inertia|Electricity|{Storage Type}:
+    description: Inertia provided to the system by a {Storage Type} unit
     unit: second
     skip-region-aggregation: true
-- Frequency Containment Reserve|Electricity|{Electricity Storage Type}:
+- Frequency Containment Reserve|Electricity|{Storage Type}:
     description: Share of Maximum Active Power that can be committed to Frequency
-      Containment Reserve by a {Electricity Storage Type} unit
+      Containment Reserve by a {Storage Type} unit
     unit: '%'
     skip-region-aggregation: true
-- Automatic Frequency Restoration Reserve|Electricity|{Electricity Storage Type}:
+- Automatic Frequency Restoration Reserve|Electricity|{Storage Type}:
     description: Share of Maximum Active Power that can be committed to Automatic
-      Frequency Restoration Reserve by a {Electricity Storage Type} unit
+      Frequency Restoration Reserve by a {Storage Type} unit
     unit: '%'
     skip-region-aggregation: true
 - Operating Reserve|Up|Electricity|{Electricity Input}:
@@ -171,13 +172,13 @@
     description: Inflows into Pumped storage, expressed in energy
     unit: GWh
 - Outflows|Electricity|{Storage Type}:
-    description: Outflows from a storage of a {Electricity Storage Type}, expressed in energy to cover a demand outside of the electricity system
+    description: Outflows from a storage of a {Storage Type}, expressed in energy to cover a demand outside of the electricity system
     unit: GWh
-- Maximum Charge|Electricity|{Electricity Storage Type}:
-    description: Maximum charge when storing energy for a {Electricity Storage Type} unit
+- Maximum Charge|Electricity|{Storage Type}:
+    description: Maximum charge when storing energy for a {Storage Type} unit
     unit: GW
-- Maximum Discharge|Electricity|{Electricity Storage Type}:
-    description: Maximum discharge when consuming energy from a {Electricity Storage Type} unit
+- Maximum Discharge|Electricity|{Storage Type}:
+    description: Maximum discharge when consuming energy from a {Storage Type} unit
       unit.
     unit: GW
 - Load Factor|Electricity|{Variable Renewable Power Type}:
