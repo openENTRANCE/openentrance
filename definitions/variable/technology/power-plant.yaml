@@ -127,24 +127,50 @@
       from {Electricity Input}
     unit: MW/h
     skip-region-aggregation: true
-- Maximum Storage|Electricity|{Electricity Storage Type}:
-    description: Maximum volume of a {Electricity Storage Type} unit expressed in energy
+- Maximum Storage|Electricity|{Storage Type}:
+    description: Maximum volume of a {Storage Type} unit expressed in energy
     unit: [MWh, GWh]
-- Minimum Storage|Electricity|{Electricity Storage Type}:
-    description: Minimum volume of a {Electricity Storage Type} unit expressed in energy
+- Maximum Storage|Electricity|Hydro|Reservoir:
+    description: Maximum volume of hydro reservoir expressed in energy
     unit: [MWh, GWh]
-- Charging Efficiency|Electricity|{Electricity Storage Type}:
-    description: Efficiency of charging energy for a {Electricity Storage Type}
+- Maximum Storage|Electricity|Hydro|Pumped Storage:
+    description: Maximum volume of hydro reservoir expressed in energy
+    unit: [MWh, GWh]
+- Minimum Storage|Electricity|{Storage Type}:
+    description: Minimum volume of a {Storage Type} unit expressed in energy
+    unit: [MWh, GWh]
+- Minimum Storage|Electricity|Hydro|Reservoir:
+    description: Minimum volume of Hydro reservoir  expressed in energy
+    unit: [MWh, GWh]
+- Minimum Storage|Electricity|Hydro|Pumped Storage:
+    description: Minimum volume of pumped storage expressed in energy
+    unit: [MWh, GWh]
+- Charging Efficiency|Electricity|{Storage Type}:
+    description: Efficiency of charging energy for a {Storage Type}
     unit: '%'
     skip-region-aggregation: true
-- Discharging Efficiency|Electricity|{Electricity Storage Type}:
+- Charging Efficiency|Electricity|Hydro|Pumped Storage:
+    description: Efficiency of charging energy for pumped storage
+    unit: '%'
+    skip-region-aggregation: true
+- Discharging Efficiency|Electricity|{Storage Type}:
     description: Efficiency of discharging for a {Electricity Storage Type}
     unit: '%'
     skip-region-aggregation: true
-- Inflows|Electricity|{Electricity Storage Type}:
+- Discharging Efficiency|Electricity|Hydro|Pumped Storage:
+    description: Efficiency of discharging for pumped storage
+    unit: '%'
+    skip-region-aggregation: true
+- Inflows|Electricity|{Storage Type}:
     description: Inflows into a storage of a {Electricity Storage Type}, expressed in energy
     unit: GWh
-- Outflows|Electricity|{Electricity Storage Type}:
+- Inflows|Electricity|Hydro|Reservoir:
+    description: Inflows into a hydro reservoir, expressed in energy
+    unit: GWh
+- Inflows|Electricity|Hydro|Pumped Storage:
+    description: Inflows into Pumped storage, expressed in energy
+    unit: GWh
+- Outflows|Electricity|{Storage Type}:
     description: Outflows from a storage of a {Electricity Storage Type}, expressed in energy to cover a demand outside of the electricity system
     unit: GWh
 - Maximum Charge|Electricity|{Electricity Storage Type}:
@@ -158,9 +184,12 @@
     description: Load factors for {Variable Renewable Power Type} power plants
     unit: '%'
     skip-region-aggregation: true
-- Seasonality|Electricity|{Electricity Storage Type}:
+- Seasonality|Electricity|{Storage Type}:
     description: seasonality (daily, weekly, monthly, etc.) of {Electricity Storage Type}
     unit: [daily,weekly,monthly]
-- Roundtrip Efficiency|Electricity|{Electricity Storage Type}:
+- Roundtrip Efficiency|Electricity|{Storage Type}:
     description: Efficiency when charging energy from the grid to the system
+    unit: '-'
+- Roundtrip Efficiency|Electricity|Hydro|Pumped Storage:
+    description: Efficiency when charging energy from the grid to the pumped storage
     unit: '-'
