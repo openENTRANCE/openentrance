@@ -28,11 +28,17 @@
 - Active Power|Electricity|Load Shifting|{Residential Load Shifting Asset}:
     description: Energy shifted by assets of kind {Residential Load Shifting Asset} - from the system point of view is equivalent to generation of active power
     unit: [MWh, GWh]
-- Active Power|Electricity|{Electricity Storage Type}:
-    description: Active Power of a {Electricity Storage Type} unit
+- Active Power|Electricity|{Storage Type}:
+    description: Active Power of a {Storage Type} unit
     unit: [MWh, GWh]
-- Storage|Electricity|{Electricity Storage Type}:
-    description: Available storage of a {Electricity Storage Type} unit
+- Storage|Electricity|{Storage Type}:
+    description: Available storage of a {Storage Type} unit
+    unit: [MWh, GWh]
+- Storage|Electricity|Hydro|Reservoir:
+    description: Available storage of a Hydro Reservoir unit
+    unit: [MWh, GWh]
+- Storage|Electricity|Hydro|Pumped Storage:
+    description: Available storage of a Pumped storage unit
     unit: [MWh, GWh]
 - Storage|Electricity|Load Shifting|{Residential Load Shifting Asset}:
     description: Available (virtual) storage of a {Residential Load Shifting Asset} unit
@@ -41,10 +47,20 @@
     description: remaining amount of curtailement
     unit: [MWh, GWh]
 
-- Spillage|Electricity|{Electricity Storage Type}:
-    description: Energy spillage that could not be stored by a {Electricity Storage Type} unit. Several energy models include spillage variables related to renewable
+- Spillage|Electricity|{Storage Type}:
+    description: Energy spillage that could not be stored by a {Storage Type} unit. Several energy models include spillage variables related to renewable
       energy production; however, another way is to include a spillage variable to
-      the {Electricity Storage Type} unit since it is the last sink of the power network
+      the {Storage Type} unit since it is the last sink of the power network
+    unit: [MWh, GWh]
+- Spillage|Electricity|Hydro|Reservoir:
+    description: Energy spillage that could not be stored by  Hydro Reservoir . Several energy models include spillage variables related to renewable
+      energy production; however, another way is to include a spillage variable to
+      the {Storage Type} unit since it is the last sink of the power network
+    unit: [MWh, GWh]
+ - Spillage|Electricity|Hydro|Pumped Storage:
+    description: Energy spillage that could not be stored by  pumped storage . Several energy models include spillage variables related to renewable
+      energy production; however, another way is to include a spillage variable to
+      the {Storage Type} unit since it is the last sink of the power network
     unit: [MWh, GWh]
 
 - Operation Cost|Electricity|{Electricity Input}:
@@ -52,8 +68,8 @@
     unit: EUR_2020
     skip-region-aggregation: true
 
-- Operation Cost|Electricity|{Electricity Storage Type}:
-    description: Operation Cost of {Electricity Storage Type} units
+- Operation Cost|Electricity|{Storage Type}:
+    description: Operation Cost of {Storage Type} units
     unit: EUR_2020
     skip-region-aggregation: true
 
@@ -71,8 +87,8 @@
     unit: [MWh, GWh]
     skip-region-aggregation: false
 
-- Reserve|Electricity|Frequency Containment|{Electricity Storage Type}:
-    description: Frequency Containment Reserve available for {Electricity Storage Type}
+- Reserve|Electricity|Frequency Containment|{Storage Type}:
+    description: Frequency Containment Reserve available for {Storage Type}
      units; this amount is the maximum available for the grid operator considering
      the commitment decisions taken by the model
     unit: [MWh, GWh]
@@ -121,13 +137,13 @@
     description: balance of energy exchanges for a given line, described as region1>region2
       if the variable is positive it means that more energy has been sent from region 1 to region 2 than from region2 to region1
     unit: [MWh, GWh]
-- Injected Energy|Electricity|{Electricity Storage Type}:
+- Injected Energy|Electricity|{Storage Type}:
     description: Amount of energy charged from the grid to the storage during the period
     notes: this represents the total energy which is charged into the storage during the period, the energy which is discharged during 
      that same period is not substracted from this total. This means that the Net Charged Energy can be computed as Charged Energy - Discharged Energy
      if Charged Energy > Discharged Energy, 0 if not
     unit: [MWh, GWh]
-- Discharged Energy|Electricity|{Electricity Storage Type}:
+- Discharged Energy|Electricity|{Storage Type}:
     description: Amount of energy discharged from the storage to the grid during the period
     notes: this represents the total energy which is discharged from the storage to the grid during the period, the energy which is charged into the storage during 
      that same period is not substracted from this total. This means that the Net Discharged Energy can be computed as Discharged Energy - Charged Energy,
