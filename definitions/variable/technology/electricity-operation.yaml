@@ -12,7 +12,6 @@
 #   - Flows in transmission lines
 # 
 
-
 - Active Power|Electricity|{Electricity Input}:
     description: Active power of {Electricity Input} power plants
     unit: [MWh, GWh]
@@ -57,7 +56,7 @@
       energy production; however, another way is to include a spillage variable to
       the {Storage Type} unit since it is the last sink of the power network
     unit: [MWh, GWh]
- - Spillage|Electricity|Hydro|Pumped Storage:
+- Spillage|Electricity|Hydro|Pumped Storage:
     description: Energy spillage that could not be stored by  pumped storage . Several energy models include spillage variables related to renewable
       energy production; however, another way is to include a spillage variable to
       the {Storage Type} unit since it is the last sink of the power network
