@@ -5,8 +5,7 @@
 # constant term cost   [EUR/h]   = Constant Var Cost [Mcal/h] * Price|Primary Energy [EUR/Mcal]
 
 - Operational Cost|Constant Term|Electricity Generation|{Electricity Input}:
-    description: Constant term (intercept) to compute op
-    erational cost for generating
+    description: Constant term (intercept) to compute operational cost for generating
       electricity from {Electricity Input}
     unit: Mcal/hour
     skip-region-aggregation: true
