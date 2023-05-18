@@ -4,8 +4,8 @@
 - Capacity|Electricity|{Electricity Input}:
     description: Total installed electricity generation capacity from {Electricity Input}
     unit: GW
-- Capacity|Electricity|{Electricity Storage Type}:
-    description: Total installed electricity generation capacity from {Electricity Storage Type}
+- Capacity|Electricity|{Storage Type}:
+    description: Total installed electricity generation capacity from {Storage Type}
     unit: GW
 - Capacity|Heat|Residential and Commercial:
     description: Total installed heat generation capacity for the residential and
@@ -29,8 +29,8 @@
     description: Capital cost for {Electricity Input}
     unit: [EUR_2020/kW, USD_2010/kW]
     skip-region-aggregation: true
-- Capital Cost|Electricity|{Electricity Storage Type}:
-    description: Capital cost for {Electricity Storage Type}
+- Capital Cost|Electricity|{Storage Type}:
+    description: Capital cost for {Storage Type}
     unit: [EUR_2020/kW, USD_2010/kW]
     skip-region-aggregation: true
 - Capital Cost|Heat|Residential and Commercial|{Fuel}:
@@ -124,8 +124,8 @@
       included but not the one on transport and storage.
     unit: [million EUR_2020/yr, billion USD_2010/yr]
 
-- Investment|Energy Supply|Electricity|{Electricity Storage Type}:
-    description: Investments in new {Electricity Storage Type} power generation capacity
+- Investment|Energy Supply|Electricity|{Storage Type}:
+    description: Investments in new {Storage Type} power generation capacity
     notes: For plants with CCS, the investment in the capturing equipment should be
       included but not the one on transport and storage.
     unit: [million EUR_2020/yr, billion USD_2010/yr]
@@ -232,7 +232,7 @@
     description: Levelized cost for investment in {Electricity Input}
     unit: [MEUR_2020/MWh, MUSD_2010/MWh, MEUR_2020/PJ, MUSD_2010/PJ]
     skip-region-aggregation: true
-- Levelized Cost|Electricity|Energy Storage System|{Electricity Storage Type}:
-    description: Levelized cost of storage for {Energy Storage System Type}
+- Levelized Cost|Electricity|Energy Storage System|{Storage Type}:
+    description: Levelized cost of storage for {Storage Type}
     unit: [MEUR_2020/MWh, MUSD_2010/MWh, MEUR_2020/PJ, MUSD_2010/PJ]
     skip-region-aggregation: true
