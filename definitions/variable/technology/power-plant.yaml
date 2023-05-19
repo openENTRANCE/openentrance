@@ -158,6 +158,10 @@
     description: Efficiency of charging energy for pumped storage
     unit: '%'
     skip-region-aggregation: true
+- Charging Efficiency|Electricity|Hydrogen:
+    description: Efficiency of charging energy for hydrogen storage
+    unit: '%'
+    skip-region-aggregation: true
 - Discharging Efficiency|Electricity|{Storage Type}:
     description: Efficiency of discharging for a {Electricity Storage Type}
     unit: '%'
