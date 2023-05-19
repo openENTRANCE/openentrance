@@ -147,6 +147,9 @@
 - Minimum Storage|Electricity|Hydro|Pumped Storage:
     description: Minimum volume of pumped storage expressed in energy
     unit: [MWh, GWh]
+- Minimum Storage|Electricity|Hydrogen:
+    description: Minimum volume of hydrogen storage expressed in energy
+    unit: [MWh, GWh]
 - Charging Efficiency|Electricity|{Storage Type}:
     description: Efficiency of charging energy for a {Storage Type}
     unit: '%'
