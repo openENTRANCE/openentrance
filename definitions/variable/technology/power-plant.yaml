@@ -209,3 +209,6 @@
 - Roundtrip Efficiency|Electricity|Hydro|Pumped Storage:
     description: Efficiency when charging energy from the grid to the pumped storage
     unit: '-'
+- Roundtrip Efficiency|Electricity|Hydrogen:
+    description: Efficiency when charging energy from the grid to the hydrogen storage
+    unit: '-'
