@@ -135,6 +135,9 @@
 - Maximum Storage|Electricity|Hydro|Pumped Storage:
     description: Maximum volume of hydro reservoir expressed in energy
     unit: [MWh, GWh]
+- Maximum Storage|Electricity|Hydrogen:
+    description: Maximum volume of hydrogen storage expressed in energy
+    unit: [MWh, GWh] 
 - Minimum Storage|Electricity|{Storage Type}:
     description: Minimum volume of a {Storage Type} unit expressed in energy
     unit: [MWh, GWh]
