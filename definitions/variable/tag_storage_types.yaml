@@ -14,5 +14,16 @@
       description: compressed air storage systems
   - Heat:
       description: all types of heat storage systems
-  #- Hydrogen:
-  #    description: hydrogen system with short-term storage capacity
+  - Electric Vehicle:
+      description: all type of electric vehicle 
+  - Electric Vehicle|Battery:
+      description: Battery electric vehicle 
+  - Electric Vehicle|Hybrid:
+      description: Hybrid electric vehicle, including both an electric motor and a combustion engine running on gas, that cannot be plugeed in to charge
+  - Electric Vehicle|Plug-in hybrid:
+      description: Hybrid electric vehicle that can be plugged in to charge
+  - Electric Vehicle|Range extended:
+      description: Electric vehicle that also includes a generator (extender) whose function is to use gas to output electric energy to
+          the motor when the electric power in the battery is to low. The range extender does not drive the vehicle directly.
+      
+       
