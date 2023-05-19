@@ -61,7 +61,7 @@
       power (~installed capacity) during an outage. If the outage rate is lower than
       the level of minimum active power, the plant has to be shut down for the duration
       of the outage.
-    unit: '%'
+    unit: '-'
     skip-region-aggregation: true
 - Planned Outage Rate|Electricity|{Electricity Input}:
     description: Unavailability as a share relative to Maximum Active Power due to
@@ -71,7 +71,7 @@
       power (~installed capacity) during an outage. If the outage rate is lower than
       the level of minimum active power, the plant has to be shut down for the duration
       of the outage.
-    unit: '%'
+    unit: '-'
     skip-region-aggregation: true
 - Mean Outage Duration|Electricity|{Electricity Input}:
     description: Mean duration of an outage of a typical power plant generating electricity
@@ -86,13 +86,13 @@
 - Frequency Containment Reserve|Electricity|{Electricity Input}:
     description: Share of Maximum Active Power that can be committed to Frequency
       Containment Reserve by a typical power plant generating electricity from {Electricity Input}
-    unit: '%'
+    unit: '-'
     skip-region-aggregation: true
 - Automatic Frequency Restoration Reserve|Electricity|{Electricity Input}:
     description: Share of Maximum Active Power that can be committed to Automatic
       Frequency Restoration Reserve by a typical power plant generating electricity
       from {Electricity Input}
-    unit: '%'
+    unit: '-'
     skip-region-aggregation: true
 - Inertia|Electricity|{Storage Type}:
     description: Inertia provided to the system by a {Storage Type} unit
@@ -101,12 +101,12 @@
 - Frequency Containment Reserve|Electricity|{Storage Type}:
     description: Share of Maximum Active Power that can be committed to Frequency
       Containment Reserve by a {Storage Type} unit
-    unit: '%'
+    unit: '-'
     skip-region-aggregation: true
 - Automatic Frequency Restoration Reserve|Electricity|{Storage Type}:
     description: Share of Maximum Active Power that can be committed to Automatic
       Frequency Restoration Reserve by a {Storage Type} unit
-    unit: '%'
+    unit: '-'
     skip-region-aggregation: true
 - Operating Reserve|Up|Electricity|{Electricity Input}:
     description: Upwards operating reserve by a typical power plant generating electricity
@@ -152,27 +152,27 @@
     unit: [MWh, GWh]
 - Charging Efficiency|Electricity|{Storage Type}:
     description: Efficiency of charging energy for a {Storage Type}
-    unit: '%'
+    unit: '-'
     skip-region-aggregation: true
 - Charging Efficiency|Electricity|Hydro|Pumped Storage:
     description: Efficiency of charging energy for pumped storage
-    unit: '%'
+    unit: '-'
     skip-region-aggregation: true
 - Charging Efficiency|Electricity|Hydrogen:
     description: Efficiency of charging energy for hydrogen storage
-    unit: '%'
+    unit: '-'
     skip-region-aggregation: true
 - Discharging Efficiency|Electricity|{Storage Type}:
     description: Efficiency of discharging for a {Electricity Storage Type}
-    unit: '%'
+    unit: '-'
     skip-region-aggregation: true
 - Discharging Efficiency|Electricity|Hydro|Pumped Storage:
     description: Efficiency of discharging for pumped storage
-    unit: '%'
+    unit: '-'
     skip-region-aggregation: true
 - Discharging Efficiency|Electricity|Hydrogen:
     description: Efficiency of discharging for hydrogen storage
-    unit: '%'
+    unit: '-'
     skip-region-aggregation: true
 - Inflows|Electricity|{Storage Type}:
     description: Inflows into a storage of a {Electricity Storage Type}, expressed in energy
@@ -198,7 +198,7 @@
     unit: GW
 - Load Factor|Electricity|{Variable Renewable Power Type}:
     description: Load factors for {Variable Renewable Power Type} power plants
-    unit: '%'
+    unit: '-'
     skip-region-aggregation: true
 - Seasonality|Electricity|{Storage Type}:
     description: seasonality (daily, weekly, monthly, etc.) of {Electricity Storage Type}
