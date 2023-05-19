@@ -186,6 +186,9 @@
 - Outflows|Electricity|{Storage Type}:
     description: Outflows from a storage of a {Storage Type}, expressed in energy to cover a demand outside of the electricity system
     unit: GWh
+- Outflows|Electricity|Hydrogen:
+    description: Outflows from a storage of a hydrogen unit, expressed in energy to cover a demand outside of the electricity system
+    unit: GWh
 - Maximum Charge|Electricity|{Storage Type}:
     description: Maximum charge when storing energy for a {Storage Type} unit
     unit: GW
