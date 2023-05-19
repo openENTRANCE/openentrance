@@ -170,6 +170,10 @@
     description: Efficiency of discharging for pumped storage
     unit: '%'
     skip-region-aggregation: true
+- Discharging Efficiency|Electricity|Hydrogen:
+    description: Efficiency of discharging for hydrogen storage
+    unit: '%'
+    skip-region-aggregation: true
 - Inflows|Electricity|{Storage Type}:
     description: Inflows into a storage of a {Electricity Storage Type}, expressed in energy
     unit: GWh
