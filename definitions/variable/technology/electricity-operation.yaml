@@ -39,9 +39,9 @@
 - Storage|Electricity|Hydro|Pumped Storage:
     description: Available storage of a Pumped storage unit
     unit: [MWh, GWh]
-    - Storage|Electricity|Hydrogen:
-         description: Available storage of a Hydrogen unit
-         unit: [MWh, GWh]
+- Storage|Electricity|Hydrogen:
+    description: Available storage of a Hydrogen unit
+    unit: [MWh, GWh]
 - Storage|Electricity|Load Shifting|{Residential Load Shifting Asset}:
     description: Available (virtual) storage of a {Residential Load Shifting Asset} unit
     unit: [MWh, GWh]
