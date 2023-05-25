@@ -27,6 +27,7 @@ for i, (name, iso2, iso3, eu, syn) in countries.iterrows():
         file.write(f"      iso2_alt: {iso2_alternatives[iso2]}")
         file.write(" # the European Commission uses alternative ISO2 codes\n")
     file.write(f"      iso3: {iso3}\n")
+    file.write(f"      iso3_codes: {iso3}\n")
     if isinstance(syn, str):
         file.write(f"      synonyms: {syn}\n")
 
