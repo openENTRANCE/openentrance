@@ -23,7 +23,7 @@ jobs:
         python-version: 3.9
 
     - name: Install dependencies
-      run: pip install nomenclature-iamc
+      run: pip install nomenclature-iamc==0.9.0
 
     - name: Run the nomenclature project validation
       run: nomenclature validate-project . --dimensions "['region', 'scenario', 'variable']"
