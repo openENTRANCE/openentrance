@@ -1,0 +1,27 @@
+# This list of inputs will replace any occurrence of `{Energy Storage System Type}`
+# in a variable-definition yaml file
+
+# This list is intended for use as input energy storage system to the power sector
+# it only accounts for  storage options which are not "generating" energy , meaning that it
+# does not include hydro 
+
+- Storage Type:
+  - Battery|Lithium-Ion:
+      description: lithium-ion batteries
+  - Battery|Redox Flow:
+      description: redox flow batteries
+  - Compressed Air:
+      description: compressed air storage systems
+  - Heat:
+      description: all types of heat storage systems
+  - Electric Vehicle:
+      description: all type of electric vehicle (EV)
+  - Electric Vehicle|Battery:
+      description: Battery electric vehicle (BEV)
+  - Electric Vehicle|Plug-in hybrid:
+      description: Hybrid electric vehicle that can be plugged in to charge (PHEV)
+  - Electric Vehicle|Range extended:
+      description: (REEV) Electric vehicle that also includes a generator (extender) whose function is to use gas to output electric energy to
+          the motor when the electric power in the battery is to low. The range extender does not drive the vehicle directly.
+      
+       

@@ -5,7 +5,7 @@
     description: New capacity for {Electricity Input}
       this capacity is added to the existing capacity
     unit: MW
-- Commissioned Storage|Electricity|{Electricity Storage Type}:
+- Commissioned Storage|Electricity|{Storage Type}:
     description: New storage capacity for {Electricity Storage Type},
       this capacity is added to the existing capacity
     unit: MWh
@@ -17,7 +17,7 @@
     description: Removed capacity for {Electricity Input},
       this capacity is substracted from the existing capacity
     unit: MW
-- Decommissioned Storage|Electricity|{Electricity Storage Type}:
+- Decommissioned Storage|Electricity|{Storage Type}:
     description: Removed storage capacity for {Electricity Storage Type},
       this capacity is substracted from the existing capacity
     unit: MWh
