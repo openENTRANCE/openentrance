@@ -18,8 +18,6 @@
       description: all type of electric vehicle (EV)
   - Electric Vehicle|Battery:
       description: Battery electric vehicle (BEV)
-  - Electric Vehicle|Hybrid:
-      description: Hybrid electric vehicle (HEV), including both an electric motor and a combustion engine running on gas, that cannot be plugeed in to charge
   - Electric Vehicle|Plug-in hybrid:
       description: Hybrid electric vehicle that can be plugged in to charge (PHEV)
   - Electric Vehicle|Range extended:
