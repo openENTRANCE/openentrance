@@ -145,6 +145,9 @@
      that same period is not substracted from this total. This means that the Net Charged Energy can be computed as Charged Energy - Discharged Energy
      if Charged Energy > Discharged Energy, 0 if not
     unit: [MWh, GWh]
+- Injected Energy|Electricity|Hydro|Pumped Storage:
+    description: Amount of energy charged from the grid to the pumped storage during the period
+    unit: [MWh, GWh]
 - Discharged Energy|Electricity|{Storage Type}:
     description: Amount of energy discharged from the storage to the grid during the period
     notes: this represents the total energy which is discharged from the storage to the grid during the period, the energy which is charged into the storage during 
