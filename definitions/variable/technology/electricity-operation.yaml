@@ -74,6 +74,11 @@
     description: Operation Cost of {Storage Type} units
     unit: EUR_2020
     skip-region-aggregation: true
+    
+- Operation Cost|Electricity:
+    description: Operation Cost of all electricity assets
+    unit: EUR_2020
+    skip-region-aggregation: true
 
 - Reserve|Electricity|Automatic Frequency Restoration|{Electricity Input}:
     description: Automatic Frequency Restoration Reserve available for {Electricity Input}
