@@ -3,28 +3,28 @@ model:
 
 native_regions:
   - Austria
-  - BosniaH: Bosnia and Herzegovina
+  - Bosnia and Herzegovina
   - Belgium
   - Bulgaria
   - Switzerland
-  - CzechR: Czech Republic
+  - Czech Republic
   - Germany
   - Denmark
   - Estonia
   - Spain
   - Finland
   - France
-  - GreatBrit.: United Kingdom
+  - United Kingdom
   - Greece
   - Croatia
   - Hungary
   - Ireland
   - Italy
   - Lithuania
-  - Luxemb.: Luxembourg
+  - Luxembourg
   - Latvia
-  - Macedonia: North Macedonia
-  - Netherlands: The Netherlands
+  - North Macedonia
+  - The Netherlands
   - Norway
   - Poland
   - Portugal
