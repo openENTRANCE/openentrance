@@ -3,28 +3,28 @@ model:
 
 native_regions:
   - Austria
-  - BosniaH: Bosnia and Herzegovina
+  - Bosnia and Herzegovina
   - Belgium
   - Bulgaria
   - Switzerland
-  - CzechR: Czech Republic
+  - Czech Republic
   - Germany
   - Denmark
   - Estonia
   - Spain
   - Finland
   - France
-  - GreatBrit.: United Kingdom
+  - United Kingdom
   - Greece
   - Croatia
   - Hungary
   - Ireland
   - Italy
   - Lithuania
-  - Luxemb.: Luxembourg
+  - Luxembourg
   - Latvia
-  - Macedonia: North Macedonia
-  - Netherlands: The Netherlands
+  - North Macedonia
+  - The Netherlands
   - Norway
   - Poland
   - Portugal
@@ -33,11 +33,11 @@ native_regions:
   - Sweden
   - Slovenia
   - Slovakia
-  - NO1: EMPIRE v1|Norway|Ostland
-  - NO2: EMPIRE v1|Norway|Sorland
-  - NO3: EMPIRE v1|Norway|Norgemidt
-  - NO4: EMPIRE v1|Norway|Troms
-  - NO5: EMPIRE v1|Norway|Vestmidt
+  - Norway|Ostland: EMPIRE v1|Norway|Ostland
+  - Norway|Sorland: EMPIRE v1|Norway|Sorland
+  - Norway|Norgemidt: EMPIRE v1|Norway|Norgemidt
+  - Norway|Troms: EMPIRE v1|Norway|Troms
+  - Norway|Vestmidt: EMPIRE v1|Norway|Vestmidt
 
 # allow directional connections explicitly
   - Austria>Czech Republic
