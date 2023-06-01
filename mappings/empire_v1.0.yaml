@@ -212,6 +212,39 @@ native_regions:
   - United Kingdom>The Netherlands
 
 common_regions:
+  # includes all native regions
+  - Europe:
+      - Austria
+      - Bosnia and Herzegovina
+      - Belgium
+      - Bulgaria
+      - Switzerland
+      - Czech Republic
+      - Germany
+      - Denmark
+      - Estonia
+      - Spain
+      - Finland
+      - France
+      - United Kingdom
+      - Greece
+      - Croatia
+      - Hungary
+      - Ireland
+      - Italy
+      - Lithuania
+      - Luxembourg
+      - Latvia
+      - North Macedonia
+      - The Netherlands
+      - Norway
+      - Poland
+      - Portugal
+      - Romania
+      - Serbia
+      - Sweden
+      - Slovenia
+      - Slovakia
   - EU27 & UK:
       - Austria
       - Belgium
