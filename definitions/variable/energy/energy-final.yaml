@@ -448,6 +448,13 @@
     energy_use: all excl.heating, cooling, transportation
     sector: all
     unit: [EJ/yr, GWh]
+- Final Energy|Electricity|Other (excl. Heat, Transport):
+    description: Final electricity consumption for non heating, non e-transport
+      uses,
+    energy_source: electricity
+    energy_use: all excl.heating, transportation
+    sector: all
+    unit: [EJ/yr, GWh]
 - Share|Final Energy|Electricity|Cooling:
     description: Share of the Final electricity energy consumption for cooling compared to the final electricity energy
     energy_source: electricity
