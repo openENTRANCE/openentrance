@@ -441,6 +441,12 @@
     energy_use: transportation
     sector: all
     unit: [EJ/yr, GWh]
+- Final Energy|Electricity|Electrolyzer:
+    description: Final electricity consumption for creation of Hydrogen via Electrolysis
+    energy_source: electricity
+    energy_use: electrolisis
+    sector: all
+    unit: [EJ/yr, GWh]
 - Final Energy|Electricity|Other (excl. Heat, Cooling, Transport):
     description: Final electricity consumption for non heating, non cooling, non e-transport
       uses,
