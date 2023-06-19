@@ -124,8 +124,11 @@
       from {Electricity Input}
     unit: MW/h
     skip-region-aggregation: true
-- Maximum Storage|Electricity|{Storage Type}:
+- Maximum Storage|{Storage Type}:
     description: Maximum volume of a {Storage Type} unit expressed in energy
+    unit: [MWh, GWh]
+- Maximum Storage|Electricity|{Storage Type}:
+    description: Maximum volume of an electricity {Storage Type} unit expressed in energy
     unit: [MWh, GWh]
 - Maximum Storage|Electricity|Hydro|Reservoir:
     description: Maximum volume of hydro reservoir expressed in energy
