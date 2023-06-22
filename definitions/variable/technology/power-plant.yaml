@@ -124,8 +124,8 @@
       from {Electricity Input}
     unit: MW/h
     skip-region-aggregation: true
-- Maximum Storage|{Storage Type}:
-    description: Maximum volume of a {Storage Type} unit expressed in energy
+- Maximum Storage|Heat:
+    description: Maximum volume of heat storage unit expressed in energy
     unit: [MWh, GWh]
 - Maximum Storage|Electricity|{Storage Type}:
     description: Maximum volume of an electricity {Storage Type} unit expressed in energy
