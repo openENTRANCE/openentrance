@@ -1,0 +1,48 @@
+model: MESSAGEix-GLOBIOM 1.2
+native_regions:
+  - R11_AFR: MESSAGEix-GLOBIOM 1.2|AFR
+  - R11_CPA: MESSAGEix-GLOBIOM 1.2|CPA
+  - R11_EEU: MESSAGEix-GLOBIOM 1.2|EEU
+  - R11_FSU: MESSAGEix-GLOBIOM 1.2|FSU
+  - R11_LAM: MESSAGEix-GLOBIOM 1.2|LAM
+  - R11_MEA: MESSAGEix-GLOBIOM 1.2|MEA
+  - R11_NAM: MESSAGEix-GLOBIOM 1.2|NAM
+  - R11_PAO: MESSAGEix-GLOBIOM 1.2|PAO
+  - R11_PAS: MESSAGEix-GLOBIOM 1.2|PAS
+  - R11_SAS: MESSAGEix-GLOBIOM 1.2|SAS
+  - R11_WEU: MESSAGEix-GLOBIOM 1.2|WEU
+common_regions:
+  - Europe (incl. Turkey):
+    - R11_EEU
+    - R11_WEU
+  - EU27 & UK (*):
+    - R11_EEU
+    - R11_WEU 
+  - Asia (R5):
+    - R11_CPA
+    - R11_PAS
+    - R11_SAS
+  - Latin America (R5):
+    - R11_LAM
+  - Middle East & Africa (R5):
+    - R11_AFR
+    - R11_MEA
+  - OECD & EU (R5):
+    - R11_EEU
+    - R11_NAM
+    - R11_PAO
+    - R11_WEU
+  - Reforming Economies (R5):
+    - R11_FSU
+  - World:
+    - R11_AFR
+    - R11_CPA
+    - R11_EEU
+    - R11_FSU
+    - R11_LAM
+    - R11_MEA
+    - R11_NAM
+    - R11_PAO
+    - R11_PAS
+    - R11_SAS
+    - R11_WEU

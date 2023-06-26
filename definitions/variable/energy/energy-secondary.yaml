@@ -1,0 +1,276 @@
+# List of variables related to the secondary energy sectors
+- Secondary Energy:
+    description: Total secondary energy, the sum of all secondary energy carrier 
+      production (for consistency checks).
+    unit: EJ/yr
+    
+- Secondary Energy|Electricity:
+    description: Total net electricity production
+    unit: [EJ/yr, GWh]
+- Secondary Energy|Electricity|{Electricity Input}:
+    description: Net electricity production from {Electricity Input}
+    unit: [EJ/yr, GWh]
+- Available Secondary Energy|Electricity:
+    description: Total net potential electricity production
+      this is equivalent to the total electricity mix capacity multiplied by the number of hours in the period multiplied by the maximum achievable load factor
+      this is also equivalent to the Secondary Energy if all the generation assets would produce at maximum capacity during the period
+    unit: [EJ/yr, GWh]
+- Available Secondary Energy|Electricity|{Electricity Input}:
+    description: Net electricity potential production from {Electricity Input}
+      this is equivalent to the total {Electricity Input} capacity multiplied by the number of hours in the period multiplied by the maximum achievable load factor for 
+      this is also equivalent to the Secondary Energy of {Electricity Input} if all the generation assets would produce at maximum capacity during the period
+    unit: [EJ/yr, GWh]
+- Secondary Energy|Electricity|Curtailment:
+    description: Curtailment of electricity production due to oversupply from
+      variable renewable sources (typically from wind and solar)
+    unit: [EJ/yr, GWh]
+- Secondary Energy|Electricity|Storage:
+    description: electricity storage from other periods used
+    unit: [EJ/yr, GWh]
+- Secondary Energy|Electricity|Storage Losses:
+    description: losses from electricity storage
+    unit: [EJ/yr, GWh]
+- Secondary Energy|Electricity|Transmission Losses:
+    description: electricity losses from long-range high-voltage transmission
+    unit: [EJ/yr, GWh]
+
+- Secondary Energy|Gases:
+    description: Total production of gaseous fuels, including natural gas
+    unit: EJ/yr
+- Secondary Energy|Gases|Biomass:
+    description: Total production of biogas
+    unit: EJ/yr
+- Secondary Energy|Gases|Fossil:
+    description: total production of gas from fossils
+    unit: EJ/yr
+- Secondary Energy|Gases|Electricity:
+    description: total production of gas from electricity (power to gas)
+    unit: EJ/yr
+- Secondary Energy|Gases|Other:
+    description: total production of gases from sources that do not fit any other category
+    unit: EJ/yr
+- Secondary Energy|Gases|Coal:
+    description: Total production of coal gas from coal gasification
+    unit: EJ/yr
+- Secondary Energy|Gases|Gas:
+    description: Total production of fossil natural gas
+    unit: EJ/yr
+- Secondary Energy|Heat:
+    description: Total heat generation
+    unit: EJ/yr
+- Secondary Energy|Heat|{Fuel}:
+    description: Total heat generation from {Fuel}
+    unit: EJ/yr
+- Secondary Energy|Heat|Nuclear:
+    description: centralized heat generation from nuclear energy
+    unit: EJ/yr
+- Secondary Energy|Heat|Gases|Biomass:
+    description: centralized heat generation from gas from biomass
+    unit: EJ/yr
+- Secondary Energy|Heat|Gases|Fossil:
+    description: centralized heat generation from gas from fossil fuels
+    unit: EJ/yr
+- Secondary Energy|Heat|Gases|Coal:
+    description: centralized heat generation from gas from coal
+    unit: EJ/yr
+- Secondary Energy|Heat|Gases|Electricity:
+    description: centralized heat generation from gas of electricity (power to gas)
+    unit: EJ/yr
+- Secondary Energy|Heat|Gases|Gas:
+    description: centralized heat generation from natural gas origin
+    unit: EJ/yr
+- Secondary Energy|Hydrogen:
+    description: Total hydrogen production
+    unit: EJ/yr
+- Secondary Energy|Hydrogen|{Fuel}:
+    description: Hydrogen production from {Fuel}
+    unit: EJ/yr
+- Secondary Energy|Hydrogen|Nuclear:
+    description: total hydrogen production from nuclear energy (e.g. 
+     thermochemical water splitting with nucelar heat)
+    unit: EJ/yr
+- Secondary Energy|Liquids:
+    description: Total production of refined liquid fuels from all energy sources
+      (incl. oil products, synthetic fossil fuels from gas and coal, biofuels)
+    unit: EJ/yr
+- Secondary Energy|Liquids|Biomass:
+    description: Total liquid biofuels production
+    unit: EJ/yr
+- Secondary Energy|Liquids|Biomass|w/ CCS:
+    description: Total liquid biofuels production with ccs
+    unit: EJ/yr
+- Secondary Energy|Liquids|Biomass|w/o CCS:
+    description: Total liquid biofuels production without ccs
+    unit: EJ/yr
+- Secondary Energy|Liquids|Biomass|1st Generation:
+    description: liquid biofuels production from 1st generation technologies, 
+     relying on e.g. corn, sugar, oil 
+    unit: EJ/yr
+- Secondary Energy|Liquids|Biomass|Energy Crops:
+    description: liquid biofuels production from energy crops
+    unit: EJ/yr
+- Secondary Energy|Liquids|Biomass|Other:
+    description: biofuel production from biomass that does not fit to any other category
+    unit: EJ/yr
+- Secondary Energy|Liquids|Biomass|Residues:
+    description: liquid biofuels production from residues (forest and agriculture)
+    unit: EJ/yr
+- Secondary Energy|Liquids|Fossil:
+    description: total production of fossil liquid synfuels
+    unit: EJ/yr
+- Secondary Energy|Liquids|Fossil|w/ CCS:
+    description: total production of fossil liquid synfuels from facilities with CCS
+    unit: EJ/yr
+- Secondary Energy|Liquids|Fossil|w/o CCS:
+    description: total production of fossil liquid synfuels from facilities without CCS
+    unit: EJ/yr
+- Secondary Energy|Liquids|Electricity:
+    description: total production of liquid fuels from electricity (efuels)
+    unit: EJ/yr
+- Secondary Energy|Liquids|Other:
+    description: total production of liquids from sources that do not fit any other category
+    unit: EJ/yr
+- Secondary Energy|Liquids|Coal:
+    description: Total production of fossil liquid synfuels from coal-to-liquids (ctl)
+      technologies
+    unit: EJ/yr
+- Secondary Energy|Liquids|Coal|w/ CCS:
+    description: Total production of fossil liquid synfuels from coal-to-liquids (ctl)
+      technologies with ccs
+    unit: EJ/yr
+- Secondary Energy|Liquids|Coal|w/o CCS:
+    description: Total production of fossil liquid synfuels from coal-to-liquids (ctl)
+      technologies without ccs
+    unit: EJ/yr
+- Secondary Energy|Liquids|Gas:
+    description: Total production of fossil liquid synfuels from gas-to-liquids (gtl)
+      technologies
+    unit: EJ/yr
+- Secondary Energy|Liquids|Gas|w/ CCS:
+    description: Total production of fossil liquid synfuels from gas-to-liquids (gtl)
+      technologies with ccs
+    unit: EJ/yr
+- Secondary Energy|Liquids|Gas|w/o CCS:
+    description: Total production of fossil liquid synfuels from gas-to-liquids (gtl)
+      technologies without ccs
+    unit: EJ/yr
+- Secondary Energy|Liquids|Oil:
+    description: Total production of liquid fuels from petroleum, including both
+      conventional and unconventional sources
+    unit: EJ/yr
+- Secondary Energy|Liquids|Oil|w/ CCS:
+    description: Total production of liquid fuels from petroleum, including both
+      conventional and unconventional sources with ccs
+    unit: EJ/yr
+- Secondary Energy|Liquids|Oil|w/o CCS:
+    description: Total production of liquid fuels from petroleum, including both
+      conventional and unconventional sources without ccs
+    unit: EJ/yr
+- Secondary Energy|Solids:
+    description: Solid secondary energy carriers (e.g., briquettes, coke, wood chips,
+      wood pellets)
+    unit: EJ/yr
+- Secondary Energy|Solids|Biomass:
+    description: Solid secondary energy carriers made from biomass
+    unit: EJ/yr
+- Secondary Energy|Solids|Biomass|Traditional:
+    description: Solid secondary energy carriers made from traditional biomass
+    unit: EJ/yr
+- Secondary Energy|Solids|Fossil:
+    description: solid secondary energy carriers produced from fossils (e.g., briquettes, coke)
+    unit: EJ/yr
+- Secondary Energy|Solids|Coal:
+    description: Solid secondary energy carriers made from coal
+    unit: EJ/yr
+- Secondary Energy|Other:
+    description: generation of other secondary energy carriers that do not fit any other category
+    unit: EJ/yr
+ 
+- Conversion Input|Liquids|Electricity:
+    description: secondary energy consumption of efuels for the production of electricity
+    unit: EJ/yr
+- Conversion Input|Hydrogen|Electricity:
+    description: secondary energy consumption of hydrogen for the production of electricity
+    unit: EJ/yr
+- Conversion Input|Hydrogen|Liquids:
+    description: secondary energy consumption of hydrogen for the production of liquids (synfuels)
+    unit: EJ/yr
+- Conversion Input|Hydrogen|Gases:
+    description: secondary energy consumption of hydrogen for the production of gases (syngases)
+    unit: EJ/yr
+- Conversion Input|Electricity|Hydrogen:
+    description: secondary energy consumption of electricity for the production of hydrogen
+    unit: EJ/yr
+- Conversion Input|Electricity|Heat:
+    description: secondary energy consumption of electricity for the production of heat (large-scale heat pumps)
+    unit: EJ/yr
+- Conversion Input|Electricity|Hydrogen|Autoproduction:
+    description: secondary energy consumption of electricity for the autoproduction of hydrogen
+    unit: EJ/yr
+- Conversion Input|Hydrogen|Liquids|Autoproduction:
+    description: secondary energy consumption of hydrogen for the autoproduction of liquids,
+     incl. hydrocarbon inputs for olefine production
+    unit: EJ/yr
+
+- Trade|Secondary Energy|Electricity|Volume:
+    description: Net exports of electricity
+    notes: at the global level these should add up to the trade losses only
+    unit: EJ/yr
+- Trade|Secondary Energy|Hydrogen|Volume:
+    description: Net exports of hydrogen
+    notes: at the global level these should add up to the trade losses only
+    unit: EJ/yr
+- Trade|Secondary Energy|Liquids|Volume:
+    description: Net exports of liquids
+    notes: at the global level these should add up to the trade losses only
+    unit: EJ/yr
+- Trade|Secondary Energy|Liquids|Biomass|Volume:
+    description: net exports of liquid biofuels, at the global level these should
+     add up to the trade losses only (for those models that are able to split solid and liquid bioenergy)
+    unit: EJ/yr
+- Trade|Secondary Energy|Liquids|Electricity|Volume:
+    description: net exports of liquid from electricity (efuels), at the global level these should
+     add up to the trade losses only
+    unit: EJ/yr
+- Trade|Secondary Energy|Liquids|Coal|Volume:
+    description: net exports of fossil liquid synfuels from coal-to-liquids (CTL) technologies,
+     at the global level these should add up to the trade losses only
+    unit: EJ/yr
+- Trade|Secondary Energy|Liquids|Gas|Volume:
+    description: net exports of fossil liquid synfuels from gas-to-liquids (GTL) technologies,
+     at the global level these should add up to the trade losses only
+    unit: EJ/yr
+- Trade|Secondary Energy|Liquids|Oil|Volume:
+    description: net exports of liquid fuels from petroleum including both conventional and
+     unconventional sources, at the global level these should add up to the trade losses only
+    unit: EJ/yr
+
+- Trade|Secondary Energy|Electricity|Value:
+    description: value of net exports of electricity, at the global level these should 
+     add up to the trade losses only
+    unit: [ billion USD_2010/yr,  billion EUR_2020/yr]
+- Trade|Secondary Energy|Hydrogen|Value:
+    description: value of net exports of hydrogen, at the global level these should
+     add up to the trade losses only
+    unit: [ billion USD_2010/yr,  billion EUR_2020/yr]
+- Trade|Secondary Energy|Liquids|Electricity|Value:
+    description: net exports of liquid from electricity (efuels), at the global level these should
+     add up to the trade losses only
+    unit: [ billion USD_2010/yr,  billion EUR_2020/yr]
+- Trade|Secondary Energy|Liquids|Biomass|Value:
+    description: value of net exports of liquid biofuels, at the global level these should
+     add up to the trade losses only (for those models that are able to split solid and liquid bioenergy)
+    unit: [ billion USD_2010/yr,  billion EUR_2020/yr]
+- Trade|Secondary Energy|Liquids|Coal|Value:
+    description: value of net exports of fossil liquid synfuels from coal-to-liquids (CTL) technologies,
+     at the global level these should add up to the trade losses only
+    unit: [ billion USD_2010/yr,  billion EUR_2020/yr]
+- Trade|Secondary Energy|Liquids|Gas|Value:
+    description: value of net exports of fossil liquid synfuels from gas-to-liquids (GTL) technologies,
+     at the global level these should add up to the trade losses only
+    unit: [ billion USD_2010/yr,  billion EUR_2020/yr]
+- Trade|Secondary Energy|Liquids|Oil|Value:
+    description: value of net exports of liquid fuels from petroleum including both conventional and
+     unconventional sources, at the global level these should add up to the trade losses only
+    unit: [ billion USD_2010/yr,  billion EUR_2020/yr]
+   

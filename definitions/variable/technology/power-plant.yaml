@@ -1,0 +1,215 @@
+# List of variables related to power plants
+# Variables related to the production cost of a power plant
+# Note that:
+# linear   term cost   [EUR/GWh] = Linear Var Cost [Mcal/MWh] * Price|Primary Energy [EUR/Mcal] + Operation and Maintenance Variable Cost [EUR/MWh] * 1e-3
+# constant term cost   [EUR/h]   = Constant Var Cost [Mcal/h] * Price|Primary Energy [EUR/Mcal]
+
+- Operational Cost|Constant Term|Electricity Generation|{Electricity Input}:
+    description: Constant term (intercept) to compute operational cost for generating electricity from {Electricity Input}
+    unit: Mcal/hour
+    skip-region-aggregation: true
+- Operational Cost|Linear Term|Electricity Generation|{Electricity Input}:
+    description: Linear term (slope) to compute operational cost for generating electricity
+      from {Electricity Input}
+    unit: Mcal/MWh
+    skip-region-aggregation: true
+- Operation and Maintenance Cost|Electricity|{Electricity Input}:
+    description: Operation and maintenance cost for generating electricity from {Electricity Input}
+    unit: EUR/MWh
+    skip-region-aggregation: true
+- Shut-Down Cost|Electricity|{Electricity Input}:
+    description: Shutdown cost for a typical power plant generating electricity from
+      {Electricity Input}
+    unit: EUR
+    skip-region-aggregation: true
+- Start-Up Cost|Electricity|{Electricity Input}:
+    description: Startup cost for a typical power plant generating electricity from
+      {Electricity Input}
+    unit: EUR
+    skip-region-aggregation: true
+- Variable Cost|Electricity|{Electricity Input}:
+    description: Variable cost for generating electricity from {Electricity Input} without the Fuel cost
+    unit: EUR/MWh
+    skip-region-aggregation: true
+- Variable Cost (incl. Fuel Cost)|Electricity|{Electricity Input}:
+    description: Variable cost for generating electricity from {Electricity Input} with the fuel cost
+    unit: EUR/MWh
+    skip-region-aggregation: true
+- Maximum Active Power|Electricity|{Electricity Input}:
+    description: Maximum active power of a typical power plant generating electricity from {Electricity Input}
+    unit: MW
+- Minimum Active Power|Electricity|{Electricity Input}:
+    description: Minimum active power of a typical power plant generating electricity from {Electricity Input}
+    unit: MW
+- Minimum On Duration|Electricity|{Electricity Input}:
+    description: Minimum duration that a typical power plant generating electricity 
+        from {Electricity Input} has to remain online after start-up
+    unit: hour
+    skip-region-aggregation: true
+- Minimum Off Duration|Electricity|{Electricity Input}:
+    description: Minimum duration that a typical power plant generating electricity
+      from {Electricity Input} has to remain offline after shut-down
+    unit: hour
+    skip-region-aggregation: true
+- Forced Outage Rate|Electricity|{Electricity Input}:
+    description: Unavailability as a share relative to Maximum Active Power due to
+      unexpected outages (e.g., failures) of a typical power plant generating electricity
+      from {Electricity Input}
+    note: A value of 50 (%) means that the plant can generate at half of maximum active
+      power (~installed capacity) during an outage. If the outage rate is lower than
+      the level of minimum active power, the plant has to be shut down for the duration
+      of the outage.
+    unit: '-'
+    skip-region-aggregation: true
+- Planned Outage Rate|Electricity|{Electricity Input}:
+    description: Unavailability as a share relative to Maximum Active Power due to
+      planned outages (e.g., maintaince, revision) of a typical power plant generating
+      electricity from {Electricity Input}
+    note: A value of 50 (%) means that the plant can generate at half of maximum active
+      power (~installed capacity) during an outage. If the outage rate is lower than
+      the level of minimum active power, the plant has to be shut down for the duration
+      of the outage.
+    unit: '-'
+    skip-region-aggregation: true
+- Mean Outage Duration|Electricity|{Electricity Input}:
+    description: Mean duration of an outage of a typical power plant generating electricity
+      from {Electricity Input}
+    unit: [days, hours]
+    skip-region-aggregation: true
+- Inertia|Electricity|{Electricity Input}:
+    description: Inertia provided to the system by a typical power plant generating
+      electricity from {Electricity Input}
+    unit: second
+    skip-region-aggregation: true
+- Frequency Containment Reserve|Electricity|{Electricity Input}:
+    description: Share of Maximum Active Power that can be committed to Frequency
+      Containment Reserve by a typical power plant generating electricity from {Electricity Input}
+    unit: '-'
+    skip-region-aggregation: true
+- Automatic Frequency Restoration Reserve|Electricity|{Electricity Input}:
+    description: Share of Maximum Active Power that can be committed to Automatic
+      Frequency Restoration Reserve by a typical power plant generating electricity
+      from {Electricity Input}
+    unit: '-'
+    skip-region-aggregation: true
+- Inertia|Electricity|{Storage Type}:
+    description: Inertia provided to the system by a {Storage Type} unit
+    unit: second
+    skip-region-aggregation: true
+- Frequency Containment Reserve|Electricity|{Storage Type}:
+    description: Share of Maximum Active Power that can be committed to Frequency
+      Containment Reserve by a {Storage Type} unit
+    unit: '-'
+    skip-region-aggregation: true
+- Automatic Frequency Restoration Reserve|Electricity|{Storage Type}:
+    description: Share of Maximum Active Power that can be committed to Automatic
+      Frequency Restoration Reserve by a {Storage Type} unit
+    unit: '-'
+    skip-region-aggregation: true
+- Operating Reserve|Up|Electricity|{Electricity Input}:
+    description: Upwards operating reserve by a typical power plant generating electricity
+      from {Electricity Input}
+    unit: MWh
+- Operating Reserve|Down|Electricity|{Electricity Input}:
+    description: Downward operating reserve by a typical power plant generating electricity
+      from {Electricity Input}
+    unit: MWh
+- Maximum Ramping|Up|Electricity|{Electricity Input}:
+    description: Upward ramp limit by a typical power plant generating electricity
+      from {Electricity Input}
+    unit: MW/h
+    skip-region-aggregation: true
+- Maximum Ramping|Down|Electricity|{Electricity Input}:
+    description: Downward ramp limit by a typical power plant generating electricity
+      from {Electricity Input}
+    unit: MW/h
+    skip-region-aggregation: true
+- Maximum Storage|Heat:
+    description: Maximum volume of heat storage unit expressed in energy
+    unit: [MWh, GWh]
+- Maximum Storage|Electricity|{Storage Type}:
+    description: Maximum volume of an electricity {Storage Type} unit expressed in energy
+    unit: [MWh, GWh]
+- Maximum Storage|Electricity|Hydro|Reservoir:
+    description: Maximum volume of hydro reservoir expressed in energy
+    unit: [MWh, GWh]
+- Maximum Storage|Electricity|Hydro|Pumped Storage:
+    description: Maximum volume of hydro reservoir expressed in energy
+    unit: [MWh, GWh]
+- Maximum Storage|Electricity|Hydrogen:
+    description: Maximum volume of hydrogen storage expressed in energy
+    unit: [MWh, GWh] 
+- Minimum Storage|Electricity|{Storage Type}:
+    description: Minimum volume of a {Storage Type} unit expressed in energy
+    unit: [MWh, GWh]
+- Minimum Storage|Electricity|Hydro|Reservoir:
+    description: Minimum volume of Hydro reservoir  expressed in energy
+    unit: [MWh, GWh]
+- Minimum Storage|Electricity|Hydro|Pumped Storage:
+    description: Minimum volume of pumped storage expressed in energy
+    unit: [MWh, GWh]
+- Minimum Storage|Electricity|Hydrogen:
+    description: Minimum volume of hydrogen storage expressed in energy
+    unit: [MWh, GWh]
+- Charging Efficiency|Electricity|{Storage Type}:
+    description: Efficiency of charging energy for a {Storage Type}
+    unit: '-'
+    skip-region-aggregation: true
+- Charging Efficiency|Electricity|Hydro|Pumped Storage:
+    description: Efficiency of charging energy for pumped storage
+    unit: '-'
+    skip-region-aggregation: true
+- Charging Efficiency|Electricity|Hydrogen:
+    description: Efficiency of charging energy for hydrogen storage
+    unit: '-'
+    skip-region-aggregation: true
+- Discharging Efficiency|Electricity|{Storage Type}:
+    description: Efficiency of discharging for a {Electricity Storage Type}
+    unit: '-'
+    skip-region-aggregation: true
+- Discharging Efficiency|Electricity|Hydro|Pumped Storage:
+    description: Efficiency of discharging for pumped storage
+    unit: '-'
+    skip-region-aggregation: true
+- Discharging Efficiency|Electricity|Hydrogen:
+    description: Efficiency of discharging for hydrogen storage
+    unit: '-'
+    skip-region-aggregation: true
+- Inflows|Electricity|{Storage Type}:
+    description: Inflows into a storage of a {Electricity Storage Type}, expressed in energy
+    unit: GWh
+- Inflows|Electricity|Hydro|Reservoir:
+    description: Inflows into a hydro reservoir, expressed in energy
+    unit: GWh
+- Inflows|Electricity|Hydro|Pumped Storage:
+    description: Inflows into Pumped storage, expressed in energy
+    unit: GWh
+- Outflows|Electricity|{Storage Type}:
+    description: Outflows from a storage of a {Storage Type}, expressed in energy to cover a demand outside of the electricity system
+    unit: GWh
+- Outflows|Electricity|Hydrogen:
+    description: Outflows from a storage of a hydrogen unit, expressed in energy to cover a demand outside of the electricity system
+    unit: GWh
+- Maximum Charge|Electricity|{Storage Type}:
+    description: Maximum charge when storing energy for a {Storage Type} unit
+    unit: GW
+- Maximum Discharge|Electricity|{Storage Type}:
+    description: Maximum discharge when consuming energy from a {Storage Type} unit
+      unit.
+    unit: GW
+- Load Factor|Electricity|{Variable Renewable Power Type}:
+    description: Load factors for {Variable Renewable Power Type} power plants
+    unit: '-'
+    skip-region-aggregation: true
+- Seasonality|Electricity|{Storage Type}:
+    description: seasonality (daily, weekly, monthly, etc.) of {Electricity Storage Type}
+    unit: [daily,weekly,monthly]
+- Roundtrip Efficiency|Electricity|{Storage Type}:
+    description: Efficiency when charging energy from the grid to the system
+    unit: '-'
+- Roundtrip Efficiency|Electricity|Hydro|Pumped Storage:
+    description: Efficiency when charging energy from the grid to the pumped storage
+    unit: '-'
+- Roundtrip Efficiency|Electricity|Hydrogen:
+    description: Efficiency when charging energy from the grid to the hydrogen storage
+    unit: '-'

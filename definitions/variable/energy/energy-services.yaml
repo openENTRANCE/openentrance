@@ -1,0 +1,44 @@
+# List of variables related to energy services
+
+- Energy Service|Transportation|Passenger:
+    description: Provision of energy services related to all passenger transportation modes
+    unit: Gpkm/yr
+- Energy Service|Transportation|Passenger|Bicycling and Walking:
+    description: Provision of energy services related to passenger transport on bicycles and by foot
+    unit: Gpkm/yr
+- Energy Service|Transportation|Passenger|{Transport mode}:
+    description: Provision of energy services related to passenger {Transport mode}
+    unit: Gpkm/yr
+- Energy Service|Bunkers|Passenger|{Bunkers mode}:
+    description: Provision of energy services related to passenger bunkers {Bunkers mode}
+    unit: Gpkm/yr
+- Energy Service|Transportation|Freight:
+    description: Provision of energy services related to all freight transportation modes
+    unit: Gtkm/yr
+- Energy Service|Transportation|Freight|{Transport mode}:
+    description: Provision of energy services related to freight {Transport mode}
+    unit: Gtkm/yr
+- Energy Service|Bunkers|Freight|{Bunkers mode}:
+    description: Provision of energy services related to freight bunkers {Bunkers mode}
+    unit: Gtkm/yr
+
+- Energy Service|Residential and Commercial|Floor Space:
+    description: Provision of energy services for conditioned floor space in residential and commercial buildings
+    unit: bn m2/yr
+- Energy Service|Residential|Floor Space:
+    description: Provision of energy services for conditioned floor space in residential buildings
+    unit: bn m2/yr
+- Energy Service|Commercial|Floor Space:
+    description: Provision of energy services for conditioned floor space in commercial buildings
+    unit: bn m2/yr
+
+# additional variables
+- Energy Service|Transportation:
+    description: Provision of energy services related to all transportation modes
+    unit: Gvkm/yr
+- Energy Service|Transportation|Freight|{Transport}:
+    description: Provision of energy services related to freight {Transport}
+    unit: Gtkm/yr
+- Energy Service|Transportation|Passenger|{Transport}:
+    description: Provision of energy services related to passenger {Transport}
+    unit: Gpkm/yr

@@ -1,0 +1,195 @@
+model:
+  - OSeMBE v1.0.0
+  - Euro-Calliope 2.0
+native_regions:
+  - Austria
+  - Belgium
+  - Bulgaria
+  - Croatia
+  - Cyprus
+  - Czech Republic
+  - Denmark
+  - Estonia
+  - Finland
+  - France
+  - Germany
+  - Greece
+  - Hungary
+  - Ireland
+  - Italy
+  - Latvia
+  - Lithuania
+  - Luxembourg
+  - Malta
+  - The Netherlands
+  - Poland
+  - Portugal
+  - Romania
+  - Slovakia
+  - Slovenia
+  - Spain
+  - Sweden
+  - Switzerland
+  - United Kingdom
+  - Iceland
+  - Norway
+  - Albania
+  - Bosnia and Herzegovina
+  - North Macedonia
+  - Montenegro
+  - Serbia
+common_regions:
+  - EU27:
+    - Austria
+    - Belgium
+    - Bulgaria
+    - Croatia
+    - Cyprus
+    - Czech Republic
+    - Denmark
+    - Estonia
+    - Finland
+    - France
+    - Germany
+    - Greece
+    - Hungary
+    - Ireland
+    - Italy
+    - Latvia
+    - Lithuania
+    - Luxembourg
+    - Malta
+    - Poland
+    - Portugal
+    - Romania
+    - Slovakia
+    - Slovenia
+    - Spain
+    - Sweden
+    - The Netherlands
+  - EU27 & UK:
+    - Austria
+    - Belgium
+    - Bulgaria
+    - Croatia
+    - Cyprus
+    - Czech Republic
+    - Denmark
+    - Estonia
+    - Finland
+    - France
+    - Germany
+    - Greece
+    - Hungary
+    - Ireland
+    - Italy
+    - Latvia
+    - Lithuania
+    - Luxembourg
+    - Malta
+    - Poland
+    - Portugal
+    - Romania
+    - Slovakia
+    - Slovenia
+    - Spain
+    - Sweden
+    - The Netherlands
+    - United Kingdom
+  - EU27 (*):
+    - Austria
+    - Belgium
+    - Bulgaria
+    - Croatia
+    - Cyprus
+    - Czech Republic
+    - Denmark
+    - Estonia
+    - Finland
+    - France
+    - Germany
+    - Greece
+    - Hungary
+    - Ireland
+    - Italy
+    - Latvia
+    - Lithuania
+    - Luxembourg
+    - Malta
+    - Poland
+    - Portugal
+    - Romania
+    - Slovakia
+    - Slovenia
+    - Spain
+    - Sweden
+    - The Netherlands
+  - EU27 & UK (*):
+    - Austria
+    - Belgium
+    - Bulgaria
+    - Croatia
+    - Cyprus
+    - Czech Republic
+    - Denmark
+    - Estonia
+    - Finland
+    - France
+    - Germany
+    - Greece
+    - Hungary
+    - Ireland
+    - Italy
+    - Latvia
+    - Lithuania
+    - Luxembourg
+    - Malta
+    - Poland
+    - Portugal
+    - Romania
+    - Slovakia
+    - Slovenia
+    - Spain
+    - Sweden
+    - The Netherlands
+    - United Kingdom
+  - EU27 & EFTA:
+    - Austria
+    - Belgium
+    - Bulgaria
+    - Croatia
+    - Cyprus
+    - Czech Republic
+    - Denmark
+    - Estonia
+    - Finland
+    - France
+    - Germany
+    - Greece
+    - Hungary
+    - Ireland
+    - Italy
+    - Latvia
+    - Lithuania
+    - Luxembourg
+    - Malta
+    - Norway
+    - Poland
+    - Portugal
+    - Romania
+    - Slovakia
+    - Slovenia
+    - Spain
+    - Sweden
+    - Switzerland
+    - The Netherlands
+    - Iceland
+  - Scandinavia:
+    - Denmark
+    - Finland
+    - Norway
+    - Sweden
+  - Baltics:
+    - Estonia
+    - Lithuania
+    - Latvia

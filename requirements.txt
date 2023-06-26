@@ -1,2 +1,0 @@
-pyyaml
-pyam-iamc  # the pyam package is released on pypi under this name

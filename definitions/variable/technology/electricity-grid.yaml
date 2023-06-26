@@ -1,0 +1,87 @@
+# List of variables related to the electricity grid
+
+- Network|Electricity|Length:
+    description: length of a line
+    unit: km
+- Network|Electricity|Expansion Cost:
+    description: Cost for increasing the line capacity
+    unit: million EUR/GW/km
+- Network|Electricity|Capacity:
+    description: Capacity of the line
+    unit: MW
+- Network|Electricity|Value of Lost Load:
+    description: Cost of demand-not-served. Cost of load curtailment. Value of Lost
+      Load (VoLL)
+    unit: EUR_2020/MWh
+- Network|Electricity|Demand not served:
+    description: Demand-not-served.
+    unit: MWh
+- Network|Electricity|Reserve|Requirement|Frequency Containment:
+    description: Demand in frequency containment reserve (FCR)
+    unit: MW
+- Network|Electricity|Reserve|Requirement|Automatic Frequency Restoration:
+    description: Demand in automatic frequency restoration reserve (AFRR)
+    unit: MW
+- Network|Electricity|Requirement|Inertia:
+    description: Demand in inertia
+    unit: second
+- Network|Electricity|Active Power Flow:
+    description: Active power flow through a line
+    unit: MW
+- Network|Electricity|Impedance:
+    description: Impedance of an interconnection between 2 regions
+    unit: S
+- Network|Electricity|Investment:
+    description: Overnight investment (capital) cost in transmission lines of the
+      power network
+    unit: [million EUR_2020/yr, billion USD_2010/yr]
+- Network|Electricity|Fixed Charge Rate:
+    description: Fixed charge rate to annualize the overnight investment cost. The
+      Fixed Charge Rate (FCR) is the percentage of the total investment cost that
+      is required over the project life per year to cover the minimal annual revenue
+      requirements.
+    unit: '-'
+- Network|Electricity|Line Losses:
+    description: Total ohmic losses of a transmission line.
+    unit: MW
+- Network|Electricity|Loss Factor:
+    description: Transmission losses equal to the line flow times this factor
+    unit: '-'
+    skip-region-aggregation: true
+- Reserve|Electricity|Requirement|Manual Frequency Restoration:
+    description: Manual frequency restoration reserve (mFRR) is used to relieve the
+      automatic frequency restoration reserve during prolonged imbalances.
+    unit: MW
+- Network|Electricity|Maximum Flow:
+    description: Maximum flow of electricity on a transmission line
+    unit: MW
+- Network|Electricity|Minimum Flow:
+    description: Minimum flow of electricity on a transmission line
+    unit: MW
+- Network|Electricity|Reserve|Requirement|Operating Reserve|Down:
+    description: Operating reserve down of the system for each load level. It is the
+      sum of aFRR (or secondary reserve), FRR & RR (FRR+RR = tertiary reserve).
+    unit: MW
+- Network|Electricity|Reserve|Requirement|Operating Reserve|Up:
+    description: Operating reserve up of the system for each load level. It is the
+      sum of aFRR (or secondary reserve), FRR & RR (FRR+RR = tertiary reserve).
+    unit: MW
+- Network|Electricity|Reactance:
+    description: Reactance. Lines need to have a reactance different from 0 in the
+      case of a DC cable or a transportation modeling for an AC cable
+    unit: '-'
+    skip-region-aggregation: true
+- Reserve|Electricity|Replacement:
+    description: Replacement reserve (RR) means the active power reserves available
+      to restore or support the required level of frequency restoration reserve (FRR)
+      to be prepared for additional system imbalances, including generation reserves.
+    unit: MW
+- Network|Electricity|Security Factor:
+    description: Security factor to consider approximately N-1 contingencies. NTC
+      = TTC x SecurityFactor
+    unit: '-'
+    skip-region-aggregation: true
+- Network|Electricity|Voltage Angle:
+    description: Voltage angle at a node
+    unit: Rad
+    skip-region-aggregation: true

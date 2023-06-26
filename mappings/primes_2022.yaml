@@ -1,0 +1,19 @@
+model:
+  - PRIMES 2022
+
+native_regions:
+  - EU27
+  - EU27 & UK
+  - Central Europe (IP)
+  - Eastern Europe (IP)
+  - Iberian Peninsula (IP)
+  - Scandinavia (IP)
+  - South-East Europe (IP)
+  - Southern Europe (IP)
+  - United Kingdom & Ireland (IP)
+
+common_regions:
+  - EU27 (*):
+      - EU27
+  - EU27 & UK (*):
+      - EU27 & UK

@@ -1,0 +1,124 @@
+# refer to `countries.yaml` for the mapping of ISO2 codes to country names
+
+- aggregate regions:
+
+  # generic definitions of Europe
+
+  - Europe:
+      definition: any of the regions in this section
+      notes: the definition used by a model must be specified in the model documentation
+        or the mapping file
+  - Europe (*):
+      definition: a close match to `Europe`
+      notes: the definition used by a model must be specified in the model documentation
+        or the mapping file
+  - Europe (excl. Turkey):
+      definition: EU27 + EFTA + AL + BA + BY + ME + MK + UA + UK + RS + XK
+  - Europe (incl. Turkey):
+      definition: EU27 + EFTA + AL + BA + BY + ME + MK + UA + UK + RS + TR + XK
+  - Pan-Europe:
+      definition: EU27 (excl. Malta & Cyprus) + AL + BA + CH + ME + MK + NO + RS + UK
+      notes: in ehighway2050, Liechtenstein (LI) is neglected; Kosovo (XK) is seen
+        as included in Serbia (RS)
+      source: definition of the pan-european electricity system used in e-highways2050
+        and plan4res
+
+  # definitions of European regions and groups of countries
+
+  - EU27 & UK:
+      definition: EU27 + UK
+      notes: Formerly known as EU28.
+  - EU27 & UK (*):
+      definition: a close match to `EU27 & UK`
+      notes: the definition used by a model must be specified in the model documentation
+        or the mapping file
+  - EFTA:
+      definition: IS + LI + NO + CH
+      notes: European Free Trade Association
+      source: https://en.wikipedia.org/wiki/European_Free_Trade_Association
+  - EU27 & EFTA:
+      definition: EU27 + EFTA
+      notes: This region is the jurisdiction of the EU ETS as of 2021 (post-Brexit).
+      source: https://ec.europa.eu/clima/eu-action/eu-emissions-trading-system-eu-ets_en 
+  - Balkans:
+      definition: AL + BA + BG + GR + HR + ME + MK + RO + RS + SI
+      notes: includes also Kosovo (XK) as it is 'included' within Serbia (RS) (meaning
+        energy capacity/depands of Kosovo are included in serbian data)
+      source: plan4res public dataset (D4.5)
+  - Non-EU-Balkans:
+      definition: AL + BA + ME + MK + RS
+      notes: includes also Kosovo (XK) as it is 'included' within Serbia (RS) (meaning
+        energy capacity/depands of Kosovo are included in serbian data)
+  - Scandinavia:
+      definition: DK + FI + NO + SE
+      source: plan4res public dataset (D4.5)
+  - Baltics:
+      definition: EE + LT + LV
+      source: plan4res public dataset (D4.5)
+  - Iberia:
+      definition: ES + PT
+      source: plan4res validation study (D2.4)
+  - Benelux:
+      definition: BE + LU + NL
+      source: plan4res public dataset (D4.5)
+  - Britain:
+      definition: IE + UK
+      source: plan4res public dataset (D4.5)
+  - Eastern Europe:
+      definition: AT + CZ + HU + PL + SK
+      source: plan4res public dataset (D4.5)
+
+  # generic definition of the EU
+
+  - European Union:
+      definition: any of the regions in this section
+      notes: the definition used by a model must be specified in the model documentation
+  - EU27:
+      definition: AT + BE + BG + HR + CY + CZ + DK + EE + FI + FR + DE + GR + HU +
+        IE + IT + LV + LT + LU + MT + PL + PT + RO + SK + SI + ES + SE + NL
+      notes: membership as of February 1, 2020
+  - EU27 (*):
+      definition: a close match to `EU27`
+      notes: the definition used by a model must be specified in the model documentation
+        or the mapping file
+  - EU27 (excl. Malta & Cyprus):
+      definition: EU27 excluding CY + MT
+
+  # add more definitions of `EU*` above this line
+
+  # region definition from the INNOPATHS project
+- INNOPATHS regions:
+  - Germany (IP):
+      innopaths: DEU
+      countries: Germany
+  - Eastern Europe (IP):
+      innopaths: ECE
+      countries: Czech Republic, Estonia, Latvia, Lithuania, Poland, Slovakia
+  - Scandinavia (IP):
+      innopaths: ENC
+      countries: Denmark, Finland, Sweden
+  - South-East Europe (IP):
+      innopaths: ECS
+      countries: Bulgaria, Croatia, Hungary, Romania, Slovenia
+  - Southern Europe (IP):
+      innopaths: ESC
+      countries: Cyprus, Greece, Italy, Malta
+  - Iberian Peninsula (IP):
+      innopaths: ESW
+      countries: Portugal, Spain
+  - Central Europe (IP):
+      innopaths: EWN
+      countries: Austria, Belgium, Luxembourg, Netherlands
+  - France (IP):
+      innopaths: FRA
+      countries: France
+  - United Kingdom & Ireland (IP):
+      innopaths: UKI
+      countries: UK, Ireland
+  - Northern non-EU Europe (IP):
+      innopaths: NEN
+      countries: Iceland, Liechtenstein, Norway, Switzerland
+  - Southern non-EU Europe (IP):
+      innopaths: NES
+      countries: Albania, Andorra, Bosnia and Herzegovina, North Macedonia, Monaco,
+        Montenegro, Serbia, Turkey

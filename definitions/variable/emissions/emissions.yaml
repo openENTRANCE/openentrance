@@ -1,0 +1,988 @@
+# List of variables related to emissions
+
+# Carbon management
+- Carbon Capture:
+    description: total carbon dioxide emissions captured, i.e. captured CO2
+     stream from bioenergy use, fossil fuel use, industrial processes, and
+     direct air capture; should be reported as positive numbers
+    unit: Mt CO2/yr
+- Carbon Capture|Biomass:
+    description: total carbon dioxide emissions captured  from bioenergy use,
+     should be reported as positive numbers
+    unit: Mt CO2/yr
+- Carbon Capture|Fossil:
+    description: total carbon dioxide emissions captured from fossil fuel use,
+     should be reported as positive numbers
+    unit: Mt CO2/yr
+- Carbon Capture|Industry and Industrial Processes:
+    description: total carbon dioxide emissions captured from industry (including industrial processes),
+     should be reported as positive numbers
+    unit: Mt CO2/yr
+- Carbon Capture|Industry and Industrial Processes|Biomass:
+    description: total carbon dioxide emissions from biomass captured in
+     industry (including industrial processes), should be reported as positive numbers
+    unit: Mt CO2/yr
+- Carbon Capture|Industry and Industrial Processes|Fossil:
+    description: total carbon dioxide emissions from fossils (incl. minerals) captured in
+     industry (including industrial processes), should be reported as positive numbers
+    unit: Mt CO2/yr
+- Carbon Capture|Industrial Processes:
+    description: total carbon dioxide emissions captured from industrial processes
+     (e.g., cement production, but not from fossil fuel burning) use,
+     should be reported as positive numbers
+    unit: Mt CO2/yr
+- Carbon Capture|Biomass|Energy|Demand|Industry:
+    description: total carbon dioxide emissions captured from bioenergy use in industry (IPCC category 1A2),
+     should be reported as positive numbers
+    unit: Mt CO2/yr
+- Carbon Capture|Biomass|Energy|Supply:
+    description: total carbon dioxide emissions captured  from bioenergy use,
+     should be reported as positive numbers
+    unit: Mt CO2/yr
+- Carbon Capture|Biomass|Energy|Supply|Electricity:
+    description: total carbon dioxide emissions captured from bioenergy use in electricity production
+     (part of IPCC category 1A1a), should be reported as positive numbers
+    unit: Mt CO2/yr
+- Carbon Capture|Biomass|Energy|Supply|Gases:
+    description: total carbon dioxide emissions captured from bioenergy use in gaseous fuel production,
+     excl. hydrogen (part of IPCC category 1A), should be reported as positive numbers
+    unit: Mt CO2/yr
+- Carbon Capture|Biomass|Energy|Supply|Hydrogen:
+    description: total carbon dioxide emissions captured from bioenergy use in hydrogen production
+     (part of IPCC category 1A), should be reported as positive numbers
+    unit: Mt CO2/yr
+- Carbon Capture|Biomass|Energy|Supply|Liquids:
+    description: total carbon dioxide emissions captured from bioenergy use in liquid fuel production
+     (part of IPCC category 1A), should be reported as positive numbers
+    unit: Mt CO2/yr
+- Carbon Capture|Biomass|Energy|Supply|Other:
+    description: total carbon dioxide emissions captured from bioenergy use in other energy supply
+     (part of IPCC category 1A), should be reported as positive numbers
+    unit: Mt CO2/yr
+    description: total carbon dioxide emissions captured from fossil fuel use in industry 
+     (IPCC category 1A2), should be reported as positive numbers
+    unit: Mt CO2/yr
+- Carbon Capture|Fossil|Energy|Supply:
+    description: total carbon dioxide emissions captured from fossil fuel use in energy supply
+     (IPCC category 1A), should be reported as positive numbers
+    unit: Mt CO2/yr
+- Carbon Capture|Fossil|Energy|Supply|Electricity:
+    description: total carbon dioxide emissions captured from fossil fuel use in electricity production
+     (part of IPCC category 1A1a), should be reported as positive numbers
+    unit: Mt CO2/yr
+- Carbon Capture|Fossil|Energy|Supply|Gases:
+    description: total carbon dioxide emissions captured from fossil fuel use in gaseous fuel production,
+     excl. hydrogen (part of IPCC category 1A), should be reported as positive numbers
+    unit: Mt CO2/yr
+- Carbon Capture|Fossil|Energy|Supply|Hydrogen:
+    description: total carbon dioxide emissions captured from fossil fuel use in hydrogen production
+     (part of IPCC category 1A), should be reported as positive numbers
+    unit: Mt CO2/yr
+- Carbon Capture|Fossil|Energy|Supply|Liquids:
+    description: total carbon dioxide emissions captured from fossil fuel use in liquid fuel production
+     (part of IPCC category 1A), should be reported as positive numbers
+    unit: Mt CO2/yr
+- Carbon Capture|Fossil|Energy|Supply|Other:
+    description: total carbon dioxide emissions captured from fossil fuel use in other energy supply
+     (part of IPCC category 1A), should be reported as positive numbers
+    unit: Mt CO2/yr
+- Carbon Capture|Direct Air Capture:
+    description: total carbon dioxide captured through direct air capture
+    unit: Mt CO2/yr
+- Carbon Capture|Other:
+    description: total carbon dioxide captured through other techniques
+    unit: Mt CO2/yr
+- Carbon Capture|Storage:
+    description: total carbon dioxide emissions captured and stored in geological deposits
+     (e.g. in depleted oil and gas fields, unmined coal seams, saline aquifers) and the deep ocean,
+     stored amounts should be reported as positive numbers
+    unit: Mt CO2/yr
+- Carbon Capture|Storage|Biomass:
+    description: total carbon dioxide emissions captured  from bioenergy use and stored in geological deposits
+     (e.g. in depleted oil and gas fields, unmined coal seams, saline aquifers) and the deep ocean,
+     stored amounts should be reported as positive numbers
+    unit: Mt CO2/yr
+- Carbon Capture|Storage|Fossil:
+    description: total carbon dioxide emissions captured from fossil fuel use and stored in geological deposits
+     (e.g. in depleted oil and gas fields, unmined coal seams, saline aquifers) and the deep ocean,
+     stored amounts should be reported as positive numbers
+    unit: Mt CO2/yr
+- Carbon Capture|Storage|Industrial Processes:
+    description: total carbon dioxide emissions captured from industrial processes 
+     (e.g., cement production, but not from fossil fuel burning) use and stored in geological deposits
+     (e.g. in depleted oil and gas fields, unmined coal seams, saline aquifers) and the deep ocean,
+     stored amounts should be reported as positive numbers
+    unit: Mt CO2/yr
+- Carbon Capture|Storage|Biomass|Energy|Demand|Industry:
+    description: total carbon dioxide emissions captured from bioenergy use in industry (IPCC category 1A2)
+     and stored in geological deposits (e.g. in depleted oil and gas fields, unmined coal seams, saline aquifers)
+     and the deep ocean, stored amounts should be reported as positive numbers
+    unit: Mt CO2/yr
+- Carbon Capture|Storage|Biomass|Energy|Supply:
+    description: total carbon dioxide emissions captured  from bioenergy use and stored in geological deposits
+     (e.g. in depleted oil and gas fields, unmined coal seams, saline aquifers) and the deep ocean,
+     stored amounts should be reported as positive numbers
+    unit: Mt CO2/yr
+- Carbon Capture|Storage|Biomass|Energy|Supply|Electricity:
+    description: total carbon dioxide emissions captured from bioenergy use in electricity production (part of IPCC category 1A1a)
+     and stored in geological deposits (e.g. in depleted oil and gas fields, unmined coal seams, saline aquifers)
+     and the deep ocean, stored amounts should be reported as positive numbers
+    unit: Mt CO2/yr
+- Carbon Capture|Storage|Biomass|Energy|Supply|Gases:
+    description: total carbon dioxide emissions captured from bioenergy use in gaseous fuel production,
+     excl. hydrogen (part of IPCC category 1A) and stored in geological deposits
+     (e.g. in depleted oil and gas fields, unmined coal seams, saline aquifers) and the deep ocean,
+     stored amounts should be reported as positive numbers
+    unit: Mt CO2/yr
+- Carbon Capture|Storage|Biomass|Energy|Supply|Hydrogen:
+    description: total carbon dioxide emissions captured from bioenergy use in hydrogen production (part of IPCC category 1A)
+     and stored in geological deposits (e.g. in depleted oil and gas fields, unmined coal seams, saline aquifers)
+     and the deep ocean, stored amounts should be reported as positive numbers
+    unit: Mt CO2/yr
+- Carbon Capture|Storage|Biomass|Energy|Supply|Liquids:
+    description: total carbon dioxide emissions captured from bioenergy use in liquid fuel production (part of IPCC category 1A)
+     and stored in geological deposits (e.g. in depleted oil and gas fields, unmined coal seams, saline aquifers)
+     and the deep ocean, stored amounts should be reported as positive numbers
+    unit: Mt CO2/yr
+- Carbon Capture|Storage|Biomass|Energy|Supply|Other:
+    description: total carbon dioxide emissions captured from bioenergy use in other energy supply (part of IPCC category 1A)
+     and stored in geological deposits (e.g. in depleted oil and gas fields, unmined coal seams, saline aquifers)
+     and the deep ocean, stored amounts should be reported as positive numbers
+    unit: Mt CO2/yr
+- Carbon Capture|Storage|Fossil|Energy|Demand|Industry:
+    description: total carbon dioxide emissions captured from fossil fuel use in industry (IPCC category 1A2)
+     and stored in geological deposits (e.g. in depleted oil and gas fields, unmined coal seams, saline aquifers)
+     and the deep ocean, stored amounts should be reported as positive numbers
+    unit: Mt CO2/yr
+- Carbon Capture|Storage|Fossil|Energy|Supply:
+    description: total carbon dioxide emissions captured from fossil fuel use in energy supply (IPCC category 1A)
+     and stored in geological deposits (e.g. in depleted oil and gas fields, unmined coal seams, saline aquifers)
+     and the deep ocean, stored amounts should be reported as positive numbers
+    unit: Mt CO2/yr
+- Carbon Capture|Storage|Fossil|Energy|Supply|Electricity:
+    description: total carbon dioxide emissions captured from fossil fuel use in electricity production (part of IPCC category 1A1a)
+     and stored in geological deposits (e.g. in depleted oil and gas fields, unmined coal seams, saline aquifers)
+     and the deep ocean, stored amounts should be reported as positive numbers
+    unit: Mt CO2/yr
+- Carbon Capture|Storage|Fossil|Energy|Supply|Gases:
+    description: total carbon dioxide emissions captured from fossil fuel use in gaseous fuel production, 
+     excl. hydrogen (part of IPCC category 1A) and stored in geological deposits
+     (e.g. in depleted oil and gas fields, unmined coal seams, saline aquifers) and the deep ocean,
+     stored amounts should be reported as positive numbers
+    unit: Mt CO2/yr
+- Carbon Capture|Storage|Fossil|Energy|Supply|Hydrogen:
+    description: total carbon dioxide emissions captured from fossil fuel use in hydrogen production (part of IPCC category 1A)
+     and stored in geological deposits (e.g. in depleted oil and gas fields, unmined coal seams, saline aquifers)
+     and the deep ocean, stored amounts should be reported as positive numbers
+    unit: Mt CO2/yr
+- Carbon Capture|Storage|Fossil|Energy|Supply|Liquids:
+    description: total carbon dioxide emissions captured from fossil fuel use in liquid fuel production (part of IPCC category 1A)
+     and stored in geological deposits (e.g. in depleted oil and gas fields, unmined coal seams, saline aquifers)
+     and the deep ocean, stored amounts should be reported as positive numbers
+    unit: Mt CO2/yr
+- Carbon Capture|Storage|Fossil|Energy|Supply|Other:
+    description: total carbon dioxide emissions captured from fossil fuel use in other energy supply (part of IPCC category 1A)
+     and stored in geological deposits (e.g. in depleted oil and gas fields, unmined coal seams, saline aquifers)
+     and the deep ocean, stored amounts should be reported as positive numbers
+    unit: Mt CO2/yr
+- Carbon Capture|Storage|Direct Air Capture:
+    description: total carbon dioxide sequestered through direct air capture
+    unit: Mt CO2/yr
+- Carbon Capture|Storage|Other:
+    description: total carbon dioxide captured  and stored in geological deposits (e.g. in depleted oil and gas fields, unmined coal seams, saline aquifers)
+     and the deep ocean, stored amounts should be reported as positive numbers through other techniques
+    unit: Mt CO2/yr
+- Carbon Capture|Usage:
+    description: total carbon dioxide captured and used
+    unit: Mt CO2/yr
+- Carbon Capture|Usage|Materials:
+    description: total carbon dioxide captured and used in short-lived and long-lived materials
+    unit: Mt CO2/yr
+- Carbon Capture|Usage|Materials|Long-lived:
+    description: total carbon dioxide captured and used in long-lived materials (e.g. carbon fibers)
+    unit: Mt CO2/yr
+- Carbon Capture|Usage|Materials|Short-lived:
+    description: total carbon dioxide captured and used in short-lived materials (e.g. plastics)
+    unit: Mt CO2/yr
+- Carbon Capture|Usage|Liquids:
+    description: total carbon dioxide captured and used in synthetic liquids 
+     (e.g. as feedstock in industry or for synthetic fuels)
+    unit: Mt CO2/yr
+- Carbon Capture|Usage|Gases:
+    description: total carbon dioxide captured and used in synthetic gases
+     (e.g. as feedstock in industry or for synthetic fuels)
+    unit: Mt CO2/yr
+- Carbon Capture|Usage|Other:
+    description: total carbon dioxide captured and used in other short-lived products
+    unit: Mt CO2/yr
+- Carbon Removal:
+    description: total carbon dioxide sequestered
+    unit: Mt CO2/yr
+- Carbon Removal|Geological Storage:
+    description: total non-fossil carbon dioxide sequestered through geological storage, i.e. BECCS + DACCS
+    unit: Mt CO2/yr
+- Carbon Removal|Enhanced Weathering:
+    description: total carbon dioxide sequestered through enhanced weathering
+    unit: Mt CO2/yr
+- Carbon Removal|Land Use:
+    description: total carbon dioxide sequestered through land-based sinks
+     (e.g., afforestation, soil carbon enhancement, biochar)
+    unit: Mt CO2/yr
+- Carbon Removal|Land Use|Afforestation:
+    description: total carbon dioxide sequestered through afforestation
+    unit: Mt CO2/yr
+- Carbon Removal|Land Use|Biochar:
+    description: total carbon dioxide sequestered through biochar
+    unit: Mt CO2/yr
+- Carbon Removal|Land Use|Soil Carbon Management:
+    description: total carbon dioxide sequestered through soil carbon management techniques
+    unit: Mt CO2/yr
+- Carbon Removal|Land Use|Agroforestry:
+    description: total carbon dioxide sequestered through agroforestry
+    unit: Mt CO2/yr
+- Carbon Removal|Land Use|Other:
+    description: total carbon dioxide sequestered through other land use methods
+    unit: Mt CO2/yr
+- Carbon Removal|Ocean:
+    description: total carbon dioxide sequestered through ocean sinks
+    unit: Mt CO2/yr
+- Carbon Removal|Ocean|Alkalinization:
+    description: total carbon dioxide sequestered through ocean alkalinization
+    unit: Mt CO2/yr
+- Carbon Removal|Ocean|Other:
+    description: total carbon dioxide sequestered through other ocean methods
+    unit: Mt CO2/yr
+- Carbon Removal|Materials:
+    description: total non-fossil carbon dioxide sequestered through long-lived materials
+    unit: Mt CO2/yr
+- Carbon Removal|Materials|Timber:
+    description: total non-fossil carbon dioxide sequestered through long-lived wood products
+    unit: Mt CO2/yr
+- Carbon Removal|Materials|Plastics:
+    description: total non-fossil carbon dioxide sequestered through both short- and long-lived plastic products.
+     Emissions from incineration of plastic should be reported under Emissions|CO2|Waste|Biomass
+    unit: Mt CO2/yr
+- Carbon Removal|Materials|Other:
+    description: total non-fossil carbon dioxide sequestered through other long-lived materials
+    unit: Mt CO2/yr
+- Carbon Removal|Other:
+    description: total non-fossil carbon dioxide sequestered through other techniques
+    unit: Mt CO2/yr
+
+#CO2 emissions
+- Emissions|CO2:
+    description: Total net CO2 emissions
+    unit: Mt CO2/yr
+- Emissions|CO2 (w/o bunkers):
+    description: Total net CO2 emissions excluding emissions from international bunkers
+     (IPCC category 1A3ai and 1A3di) 
+    unit: Mt CO2/yr
+
+- Emissions|CO2|AFOLU:
+    description: CO2 emissions from agriculture, forestry and other land use (IPCC category 3),
+     exlcuding energy-related emissions from these sectors
+    unit: Mt CO2/yr
+- Emissions|CO2|AFOLU|Agriculture:
+    description: CO2 emissions from agriculture
+    unit: Mt CO2/yr
+- Emissions|CO2|AFOLU|Land:
+    description: net CO2 emissions from Land Use, Land-Use Change and Forestry (LULUCF)
+    unit: Mt CO2/yr
+- Emissions|CO2|AFOLU|Land|Negative:
+    description: negative CO2 emissions from Land Use, Land-Use Change and Forestry (LULUCF),
+     e.g. from afforestation
+    unit: Mt CO2/yr
+- Emissions|CO2|AFOLU|Land|Positive:
+    description: positive CO2 emissions from Land Use, Land-Use Change and Forestry (LULUCF),
+     e.g. from deforestation
+    unit: Mt CO2/yr
+- Emissions|CO2|AFOLU|Land|Wetlands:
+    description: CO2 emissions from managed peatlands (drained and rewetted)
+    unit: Mt CO2/yr
+- Emissions|CO2|Energy and Industrial Processes:
+    description: CO2 emissions from energy use on supply and demand side (IPCC category
+      1A, 1B) and from industrial processes (IPCC categories 2A, B, C, E), including 
+      emissions from international bunkers, net of negative emissions from Bioenergy with CCS (BECCS)
+    unit: Mt CO2/yr
+- Emissions|CO2|Energy:
+    description: CO2 emissions from energy use on supply and demand side (IPCC category 1A, 1B),
+     net of negative emissions from Bioenergy with CCS (BECCS), including emissions from international bunkers
+    unit: Mt CO2/yr
+- Emissions|CO2|Energy|Demand:
+    description: CO2 emissions from fuel combustion in industry (IPCC category 1A2),
+      residential, commercial, institutional sectors and agriculture, forestry, fishing
+      (AFOFI) (IPCC category 1A4a, 1A4b, 1A4c), and transportation sector (IPCC category
+      1A3), excluding pipeline emissions (IPCC category 1A3ei), net of negative emissions (incl. demand-side BECCS)
+    unit: Mt CO2/yr
+- Emissions|CO2|Energy|Demand|AFOFI:
+    description: CO2 emissions from fuel combustion in agriculture, forestry, fishing
+      (AFOFI) (IPCC category 1A4c)
+    unit: Mt CO2/yr
+- Emissions|CO2|Energy|Demand|Industry:
+    description: CO2 emissions from fuel combustion in industry (IPCC category 1A2),
+     net of negative emissions from Bioenergy with CCS (BECCS),
+     excluding emissions related to feedstocks
+    unit: Mt CO2/yr
+- Emissions|CO2|Energy|Demand|Industry|{Industry sectors}:
+    description: CO2 emissions from fuel combustion in industry {Industry sectors},
+     net of negative emissions from Bioenergy with CCS (BECCS),
+     excluding emissions related to feedstocks
+    unit: Mt CO2/yr
+- Emissions|CO2|Energy|Demand|Residential and Commercial:
+    description: CO2 emissions from fuel combustion in residential, commercial, institutional
+      sectors (IPCC category 1A4a, 1A4b)
+    unit: Mt CO2/yr
+- Emissions|CO2|Energy|Demand|Residential and Commercial|{Final Energy carrier}:
+    description: CO2 emissions from fuel combustion in residential, commercial, institutional
+      sectors of {Final Energy carrier}
+    unit: Mt CO2/yr
+- Emissions|CO2|Energy|Demand|Commercial:
+    description: CO2 emissions from fuel combustion in commercial and institutional
+      sectors (IPCC category 1A4a)
+    unit: Mt CO2/yr
+- Emissions|CO2|Energy|Demand|Commercial|{Final Energy carrier}:
+    description: CO2 emissions from fuel combustion in commercial and institutional
+      sectors of {Final Energy carrier}
+    unit: Mt CO2/yr
+- Emissions|CO2|Energy|Demand|Residential:
+    description: CO2 emissions from fuel combustion in the residential sectors (IPCC category 1A4b)
+    unit: Mt CO2/yr
+- Emissions|CO2|Energy|Demand|Residential|{Final Energy carrier}:
+    description: CO2 emissions from fuel combustion in the residential sector of {Final Energy carrier}
+    unit: Mt CO2/yr
+- Emissions|CO2|Energy|Demand|Transportation (w/ bunkers):
+    description: CO2 emissions from fuel combustion in transportation sector (IPCC
+      category 1A3), excluding pipeline emissions (IPCC category 1A3ei), including emissions from
+      international bunkers (IPCC category 1A3ai and 1A3di) 
+    unit: Mt CO2/yr
+- Emissions|CO2|Energy|Demand|Transportation:
+    description: CO2 emissions from fuel combustion in transportation sector (IPCC
+      category 1A3), excluding pipeline emissions (IPCC category 1A3ei), excluding emissions from
+      international bunkers (IPCC category 1A3ai and 1A3di) 
+    unit: Mt CO2/yr
+- Emissions|CO2|Energy|Demand|Transportation|{Final Energy carrier}:
+    description: CO2 emissions from fuel combustion of {Final Energy carrier} in transportation sector (IPCC
+      category 1A3), excluding pipeline emissions (IPCC category 1A3ei), excluding emissions from
+      international bunkers (IPCC category 1A3ai and 1A3di) 
+    unit: Mt CO2/yr
+- Emissions|CO2|Energy|Demand|Transportation|{Transport mode}:
+    description: CO2 emissions from fuel combustion on {Transport mode} in transportation sector 
+      (IPCC category 1A3), excluding pipeline emissions (IPCC category 1A3ei), excluding emissions from
+      international bunkers (IPCC category 1A3ai and 1A3di) 
+    unit: Mt CO2/yr
+- Emissions|CO2|Energy|Demand|Transportation|{Transport mode and carrier}:
+    description: CO2 emissions from fuel combustion on {Transport mode and carrier} in transportation sector
+      (IPCC category 1A3), excluding pipeline emissions (IPCC category 1A3ei), excluding emissions from
+      international bunkers (IPCC category 1A3ai and 1A3di) 
+    unit: Mt CO2/yr
+- Emissions|CO2|Energy|Demand|Transportation|{Transport mode, tech and carrier}:
+    description: CO2 emissions from fuel combustion on {Transport mode, tech and carrier} in transportation sector
+      (IPCC category 1A3), excluding pipeline emissions (IPCC category 1A3ei), excluding emissions from
+      international bunkers (IPCC category 1A3ai and 1A3di) 
+    unit: Mt CO2/yr
+- Emissions|CO2|Energy|Demand|Bunkers:
+    description: CO2 emissions from fuel combustion in international bunkers (IPCC category 1A3ai and 1A3di) 
+    unit: Mt CO2/yr
+- Emissions|CO2|Energy|Demand|Bunkers|{Final Energy carrier}:
+    description: CO2 emissions from fuel combustion of {Final Energy carrier} in international bunkers
+     (IPCC category 1A3ai and 1A3di) 
+    unit: Mt CO2/yr
+- Emissions|CO2|Energy|Demand|Bunkers|{Bunkers mode}:
+    description: CO2 emissions from fuel combustion on {Bunkers mode} in international bunkers 
+     (IPCC category 1A3ai and 1A3di) 
+    unit: Mt CO2/yr
+- Emissions|CO2|Energy|Demand|Bunkers|{Bunkers mode and carrier}:
+    description: CO2 emissions from fuel combustion on {Bunkers mode and carrier} in international bunkers 
+     (IPCC category 1A3ai and 1A3di) 
+    unit: Mt CO2/yr
+- Emissions|CO2|Energy|Demand|Other Sector:
+    description: CO2 emissions from fuel combustion in other energy supply sectors
+    unit: Mt CO2/yr
+- Emissions|CO2|Energy|Supply:
+    description: CO2 emissions from fuel combustion and fugitive emissions from fuels
+      - electricity and heat production and distribution (IPCC category 1A1a), other
+      energy conversion (e.g. refineries, synfuel production, solid fuel processing,
+      IPCC category 1Ab, 1Ac), incl. pipeline transportation (IPCC category 1A3ei),
+      fugitive emissions from fuels (IPCC category 1B) and emissions from carbon dioxide
+      transport and storage (IPCC category 1C), net of negative emissions from Bioenergy
+      with CCS (BECCS), incl. industrial autoproduction
+    unit: Mt CO2/yr
+- Emissions|CO2|Energy|Supply|{Final Energy carrier}:
+    description: CO2 emissions from fuel combustion and fugitive emissions of {Final Energy carrier}
+    unit: Mt CO2/yr
+- Emissions|CO2|Energy|Supply|Electricity and Heat:
+    description: CO2 emissions from fuel combustion and fugitive emissions of electricity and heat
+    unit: Mt CO2/yr
+- Emissions|CO2|Energy|Supply|Autoproduction:
+    description: CO2 emissions from electricty/heat production for own use
+    unit: Mt CO2/yr
+- Emissions|CO2|Industrial Processes:
+    description: CO2 emissions from industrial processes (IPCC categories 2A, B, C,
+      E)
+    unit: Mt CO2/yr
+- Emissions|CO2|Industrial Processes|{Industry sectors}:
+    description: CO2 emissions from industrial processes in {Industry sectors}
+    unit: Mt CO2/yr
+- Emissions|CO2|Other Removal:
+    description: CO2 emissions from carbon removal not reported in the other categories 
+     (i.e. without BECCS and land use), should be reported as negative values
+    unit: Mt CO2/yr
+- Emissions|CO2|Waste: 
+    description: CO2 emissions from waste (IPCC categories 6C), not including the burning of waste
+     for electricity or heat supply (these emissions should be reported under the respective categories of CO2|Energy)
+    unit: Mt CO2/yr 
+- Emissions|CO2|Waste|Biomass: 
+    description: CO2 emissions from waste of biogenic origin, e.g. bioplastics
+    unit: Mt CO2/yr 
+- Emissions|CO2|Waste|Fossil: 
+    description: CO2 emissions from waste of fossil origin
+    unit: Mt CO2/yr 
+- Emissions|CO2|Other:
+    description: CO2 emissions from other sources
+    unit: Mt CO2/yr
+- Emissions|CO2|Industry and Industrial Processes:
+    description: CO2 emissions from fuel combustion in industry (IPCC category 1A2) and from industrial processes
+     (IPCC categories 2A, B, C, E), net of negative emissions from Bioenergy with CCS (BECCS)
+    unit: Mt CO2/yr
+
+- Gross Emissions|CO2:
+    description: Gross CO2 emissions, not accounting for negative emissions e.g. from BECCS or AFOLU
+    unit: Mt CO2/yr
+- Gross Emissions|CO2|Energy:
+    description: Gross Fossil CO2 emissions from energy use on supply and demand side (IPCC category 1A, 1B),
+     not accounting for negative emissions from BECCS
+    unit: Mt CO2/yr
+- Gross Emissions|CO2|Energy and Industrial Processes:
+    description: Gross Fossil CO2 emissions from energy use on supply and demand side (IPCC category 1A, 1B) and
+     from industrial processes (IPCC categories 2A, B, C, E), including emissions from international bunkers,
+     not accounting for negative emissions from BECCS
+    unit: Mt CO2/yr
+- Gross Emissions|CO2|Energy|Demand:
+    description: Gross Fossil CO2 emissions from fuel combustion in industry (IPCC category 1A2), residential,
+     commercial, institutional sectors and agriculture, forestry, fishing (AFOFI) (IPCC category 1A4a, 1A4b, 1A4c),
+     and transportation sector (IPCC category 1A3), excluding pipeline emissions (IPCC category 1A3ei),
+     not accounting for negative emissions from BECCS
+    unit: Mt CO2/yr
+- Gross Emissions|CO2|Energy|Demand|Industry:
+    description: Gross Fossil CO2 emissions from fuel combustion in industry (IPCC category 1A2), 
+     not accounting for negative emissions from BECCS, excluding emissions related to feedstocks
+    unit: Mt CO2/yr
+- Gross Emissions|CO2|Energy|Supply:
+    description: Fossil CO2 emissions from fuel combustion and fugitive emissions from fuels 
+     - electricity and heat production and distribution (IPCC category 1A1a), other energy conversion 
+     (e.g. refineries, synfuel production, solid fuel processing, IPCC category 1Ab, 1Ac),
+     incl. pipeline transportation (IPCC category 1A3ei), fugitive emissions from fuels (IPCC category 1B)
+     and emissions from carbon dioxide transport and storage (IPCC category 1C),
+     not accounting for negative emissions from BECCS
+    unit: Mt CO2/yr
+- Gross Emissions|CO2|Energy|Supply|{Final Energy carrier}:
+    description: Gross CO2 emissions from fuel combustion and fugitive emissions of {Final Energy carrier}
+    unit: Mt CO2/yr
+- Gross Emissions|CO2|Energy|Supply|Electricity and Heat:
+    description: Gross CO2 emissions from fuel combustion and fugitive emissions of electricity and heat
+    unit: Mt CO2/yr
+- Gross Emissions|CO2|Industrial Processes:
+    description: Gross CO2 emissions from industrial processes (IPCC categories 2A, B, C, E),
+     not accounting for negative emissions from BECCS
+    unit: Mt CO2/yr
+- Gross Emissions|CO2|Industry and Industrial Processes:
+    description: Gross CO2 emissions from fuel combustion in industry (IPCC category 1A2) and from industrial processes
+     (IPCC categories 2A, B, C, E), net of negative emissions from Bioenergy with CCS (BECCS)
+    unit: Mt CO2/yr
+
+#non-CO2 emissions
+- Emissions|BC:
+    description: Total black carbon emissions
+    unit: Mt BC/yr
+- Emissions|BC|AFOLU:
+    description: Black carbon emissions from agriculture, forestry and other land
+      use (IPCC category 3)
+    unit: Mt BC/yr
+- Emissions|BC|Energy:
+    description: Black carbon emissions from energy use on supply and demand side,
+      including fugitive emissions from fuels (IPCC category 1A, 1B)
+    unit: Mt BC/yr
+- Emissions|BC|Energy|Demand|Industry:
+    description: Black carbon emissions from fuel combustion in industry (IPCC category
+      1A2)
+    unit: Mt BC/yr
+- Emissions|BC|Energy|Demand|Residential and Commercial:
+    description: Black carbon emissions from fuel combustion in residential, commercial,
+      institutional sectors and agriculture (IPCC category 1A4a, 1A4b)
+    unit: Mt BC/yr
+- Emissions|BC|Energy|Demand|Transportation:
+    description: Black carbon emissions from fuel combustion in transportation sector
+      (IPCC category 1A3), excluding pipeline emissions (IPCC category 1A3ei)
+    unit: Mt BC/yr
+- Emissions|BC|Energy|Supply:
+    description: Black carbon emissions from fuel combustion and fugitive emissions
+      from fuels - electricity and heat production and distribution (IPCC category
+      1A1a), other energy conversion (e.g. refineries, synfuel production, solid fuel
+      processing, IPCC category 1Ab, 1Ac), incl. pipeline transportation (IPCC category
+      1A3ei), fugitive emissions from fuels (IPCC category 1B) and emissions from
+      carbon dioxide transport and storage (IPCC category 1C)
+    unit: Mt BC/yr
+- Emissions|BC|Waste:
+    description: Black carbon emissions from waste (IPCC category 6)
+    unit: Mt BC/yr    
+- Emissions|BC|Other:
+    description: Black carbon emissions from other sources
+    unit: Mt BC/yr
+
+- Emissions|CH4:
+    description: Total CH4 emissions
+    unit: Mt CH4/yr
+- Emissions|CH4|AFOLU:
+    description: CH4 emissions from agriculture, forestry and other land use (IPCC
+      category 3)
+    unit: Mt CH4/yr
+- Emissions|CH4|AFOLU|Agriculture:
+    description: CH4 emissions from Livestock in the agriculture sector
+    unit: Mt CH4/yr
+- Emissions|CH4|AFOLU|Agriculture|Livestock:
+    description: CH4 emissions from Livestock in the agriculture sector
+    unit: Mt CH4/yr
+- Emissions|CH4|AFOLU|Agriculture|Livestock|Enteric Fermentation:
+    description: CH4 emissions from enteric fermentation in  Livestock in the agriculture sector
+    unit: Mt CH4/yr
+- Emissions|CH4|AFOLU|Agriculture|Livestock|Manure Management:
+    description: CH4 emissions from processes involving manure (waste) management  in Livestock in the agriculture sector
+    unit: Mt CH4/yr
+- Emissions|CH4|AFOLU|Agriculture|Rice:
+    description: CH4 emissions from rice cultivation in the agriculture sector
+    unit: Mt CH4/yr
+- Emissions|CH4|AFOLU|Land:
+    description: CH4 emissions from forestry and other land use
+    unit: Mt CH4/yr
+- Emissions|CH4|AFOLU|Land|Wetlands:
+    description: CH4 emissions from managed peatlands (drained and rewetted)
+    unit: Mt CH4/yr
+- Emissions|CH4|Energy:
+    description: CH4 emissions from energy use on supply and demand side, including
+      fugitive emissions from fuels (IPCC category 1A, 1B)
+    unit: Mt CH4/yr
+- Emissions|CH4|Energy|Demand|Industry:
+    description: CH4 emissions from fuel combustion in industry (IPCC category 1A2)
+    unit: Mt CH4/yr
+- Emissions|CH4|Energy|Demand|Residential and Commercial:
+    description: CH4 emissions from fuel combustion in residential, commercial, institutional
+      sectors (IPCC category 1A4a, 1A4b)
+    unit: Mt CH4/yr
+- Emissions|CH4|Energy|Demand|Transportation:
+    description: CH4 emissions from fuel combustion in transportation sector (IPCC
+      category 1A3), excluding pipeline emissions (IPCC category 1A3ei)
+    unit: Mt CH4/yr
+- Emissions|CH4|Energy|Supply:
+    description: CH4 emissions from fuel combustion and fugitive emissions from fuels
+      - electricity and heat production and distribution (IPCC category 1A1a), other
+      energy conversion (e.g. refineries, synfuel production, solid fuel processing,
+      IPCC category 1Ab, 1Ac), incl. pipeline transportation (IPCC category 1A3ei),
+      fugitive emissions from fuels (IPCC category 1B) and emissions from carbon dioxide
+      transport and storage (IPCC category 1C)
+    unit: Mt CH4/yr
+- Emissions|CH4|Waste:
+    description: CH4 emissions from waste (IPCC category 6)
+    unit: Mt CH4/yr
+- Emissions|CH4|Industrial Processes:
+    description: CH4 emissions from industrial processes
+    unit: Mt CH4/yr
+- Emissions|CH4|Other:
+    description: CH4 emissions from other sources
+    unit: Mt CH4/yr
+
+- Emissions|CO:
+    description: Total carbon monoxide (CO) emissions
+    unit: Mt CO/yr
+- Emissions|CO|AFOLU:
+    description: Land-use based carbon monoxide emissions
+    unit: Mt CO/yr
+- Emissions|CO|Energy:
+    description: Carbon monoxide emissions from energy use on supply and demand side,
+      including fugitive emissions from fuels (IPCC category 1A, 1B)
+    unit: Mt CO/yr
+- Emissions|CO|Energy|Demand|Industry:
+    description: Carbon monoxide emissions from Combustion in industry (IPCC 1A2)
+      and industrial processes (IPCC 2C1-2C5)
+    unit: Mt CO/yr
+- Emissions|CO|Energy|Demand|Residential and Commercial:
+    description: Carbon monoxide emissions from Combustion in Residential and Commercial/Institutional
+      Sectors (IPCC 1A4A, 1A4B)
+    unit: Mt CO/yr
+- Emissions|CO|Energy|Demand|Transportation:
+    description: Carbon monoxide emissions from Combustion in Transportation Sector
+      (IPCC category 1A3)
+    unit: Mt CO/yr
+- Emissions|CO|Energy|Supply:
+    description: Carbon monoxide emissions from Extraction and Distribution of Fossil
+      Fuels (including fugitive emissions, IPCC category 1B); Electricity production
+      and distribution, district heating and other energy conversion (e.g. refineries,
+      synfuel production)
+    unit: Mt CO/yr
+- Emissions|CO|Waste:
+    description: arbon Monoxide Emissions from waste (IPCC category 6)
+    unit: Mt CO/yr
+- Emissions|CO|Other:
+    description: Carbon monoxide emissions from other energy end-use sectors that
+      do not fit to any other category
+    unit: Mt CO/yr
+
+- Emissions|F-Gases:
+    description: Total F-gas emissions, including sulfur hexafluoride (SF6), hydrofluorocarbons
+      (HFCs), perfluorocarbons (PFCs) (preferably use 100-year GWPs from AR4 for aggregation
+      of different F-gases)
+    unit: Mt CO2e/yr
+
+- Emissions|HFC:
+    description: Total emissions of hydrofluorocarbons (HFCs), provided as aggregate
+      HFC134a-equivalents
+    unit: kt HFC134a-equiv/yr
+
+- Emissions|Kyoto Gases:
+    description: Total Kyoto GHG emissions, including CO2, CH4, N2O and F-gases (preferably
+      use 100-year GWPs from AR4 for aggregation of different gases)
+    unit: Mt CO2e/yr
+- Emissions|Kyoto Gases|AFOLU:
+    description: Kyoto GHG emissions from agriculture, forestry and other land use (IPCC
+      category 3 and 4), including CO2, CH4, N2O and F-gases (preferably use 100-year GWPs
+      from AR4 for aggregation of different gases)
+    unit: Mt CO2e/yr
+- Emissions|Kyoto Gases|AFOLU|Agriculture:
+    description: Kyoto GHG emissions from agriculture, including CO2, CH4, N2O and F-gases 
+     (preferably use 100-year GWPs from AR4 for aggregation of different gases)
+    unit: Mt CO2e/yr
+- Emissions|Kyoto Gases|AFOLU|Land:
+    description: Kyoto GHG emissions from forestry and other land use, including CO2, CH4, N2O and F-gases 
+     (preferably use 100-year GWPs from AR4 for aggregation of different gases)
+    unit: Mt CO2e/yr
+- Emissions|Kyoto Gases|Energy:
+    description: Kyoto GHG emissions from energy use on supply and demand side, including
+      fugitive emissions from fuels (IPCC category 1A, 1B), including CO2, CH4, N2O and 
+      F-gases (preferably use 100-year GWPs from AR4 for aggregation of different gases)
+    unit: Mt CO2e/yr
+- Emissions|Kyoto Gases|Industry and Industrial Processes:
+    description: Kyoto GHG emissions from fuel combustion in industry, and Kyoto GHG emissions
+     from industrial processes (IPCC categories 2A, B, C, E), including CO2, CH4, N2O and F-gases
+     (preferably use 100-year GWPs from AR4 for aggregation of different gases,
+     net of bioenergy with CCS (BECCS)
+    unit: Mt CO2e/yr
+- Emissions|Kyoto Gases|Industrial Processes:
+    description: Kyoto GHG emissions from industrial processes (IPCC categories 2A, B, C,
+      E), including CO2, CH4, N2O and F-gases (preferably use 100-year GWPs from AR4 for 
+      aggregation of different gases)
+    unit: Mt CO2e/yr
+- Emissions|Kyoto Gases|Waste:
+    description: Kyoto GHG emissions from waste (IPCC categories 6C), including CO2, CH4,
+      N2O and F-gases (preferably use 100-year GWPs from AR4 for aggregation of different gases)
+    unit: Mt CO2e/yr
+- Emissions|Kyoto Gases|Other:
+    description: Kyoto GHG emissions from other sources, including CO2, CH4, N2O and F-gases 
+      (preferably use 100-year GWPs from AR4 for aggregation of different gases)
+    unit: Mt CO2e/yr
+
+- Emissions|N2O:
+    description: Total nitrous oxide (N2O) emissions
+    unit: kt N2O/yr
+- Emissions|N2O|AFOLU:
+    description: Nitrous oxide emissions from agriculture, forestry and other land
+      use (IPCC category 3)
+    unit: kt N2O/yr
+- Emissions|N2O|AFOLU|Agriculture:
+    description: Nitrous oxide emissions from agriculture
+    unit: kt N2O/yr
+- Emissions|N2O|AFOLU|Agriculture|Livestock|Manure Management:
+    description: Nitrous oxide emissions from livestock manure management in the agriculture sector
+    unit: kt N2O/yr
+- Emissions|N2O|AFOLU|Agriculture|Managed Soils:
+    description: Nitrous oxide emissions from soil management practices in the agriculture sector
+    unit: kt N2O/yr
+- Emissions|N2O|AFOLU|Land:
+    description: Nitrous oxide emissions from forestry and other land use
+    unit: kt N2O/yr
+- Emissions|N2O|AFOLU|Land|Wetlands:
+    description: Nitrous oxide emissions from managed peatlands (drained and rewetted)
+    unit: kt N2O/yr
+- Emissions|N2O|Energy:
+    description: Nitrous oxide emissions from energy use on supply and demand side,
+      including fugitive emissions from fuels (IPCC category 1A, 1B)
+    unit: kt N2O/yr
+- Emissions|N2O|Waste:
+    description: Nitrous oxide emissions from waste (IPCC category 6)
+    unit: kt N2O/yr   
+- Emissions|N2O|Other:
+    description: Nitrous oxide emissions from other sources
+    unit: kt N2O/yr
+
+- Emissions|NH3:
+    description: Total ammonium (NH3) emissions
+    unit: Mt NH3/yr
+- Emissions|NH3|AFOLU:
+    description: Land use based ammonia emissions
+    unit: Mt NH3/yr
+- Emissions|NH3|Energy:
+    description: Ammonia emissions from energy use on supply and demand side, including
+      fugitive emissions from fuels (IPCC category 1A, 1B)
+    unit: Mt NH3/yr
+- Emissions|NH3|Energy|Demand|Industry:
+    description: Ammonia Emissions from Combustion in industry (IPCC 1A2) and industrial
+      processes (IPCC 2C1-2C5)
+    unit: Mt NH3/yr
+- Emissions|NH3|Energy|Demand|Residential and Commercial:
+    description: Ammonia Emissions from Combustion in Residential and Commercial/Institutional
+      Sectors (IPCC 1A4A, 1A4B)
+    unit: Mt NH3/yr
+- Emissions|NH3|Energy|Demand|Transportation:
+    description: Ammonia Emissions from Combustion in Transportation Sector (IPCC
+      category 1A3)
+    unit: Mt NH3/yr
+- Emissions|NH3|Energy|Supply:
+    description: Ammonia Emissions from Extraction and Distribution of Fossil Fuels
+      (including fugitive Emissions, IPCC category 1B); Electricity production and
+      distribution, district heating and other energy conversion (e.g. refineries,
+      synfuel production)
+    unit: Mt NH3/yr
+- Emissions|NH3|Waste:
+    description: Ammonia Emissions from waste (IPCC category 6)
+    unit: Mt NH3/yr
+- Emissions|NH3|Other:
+    description: Ammonia Emissions from other energy end-use sectors that do not fit
+      to any other category
+    unit: Mt NH3/yr
+
+- Emissions|NOx:
+    description: Total nitrogen oxides (NOx) emissions
+    unit: Mt NO2/yr
+- Emissions|NOx|AFOLU:
+    description: Nitrogen oxides emissions from agriculture, forestry and other land
+      use (IPCC category 3)
+    unit: Mt NO2/yr
+- Emissions|NOx|Energy:
+    description: NOx emissions from energy use on supply and demand side, including
+      fugitive emissions from fuels (IPCC category 1A, 1B)
+    unit: Mt NO2/yr
+- Emissions|NOx|Energy|Demand|Industry:
+    description: NOx emissions from fuel combustion in industry (IPCC category 1A2)
+    unit: Mt NO2/yr
+- Emissions|NOx|Energy|Demand|Residential and Commercial:
+    description: NOx emissions from fuel combustion in residential, commercial, institutional
+      sectors (IPCC category 1A4a, 1A4b)
+    unit: Mt NO2/yr
+- Emissions|NOx|Energy|Demand|Transportation:
+    description: NOx emissions from fuel combustion in transportation sector (IPCC
+      category 1A3), excluding pipeline emissions (IPCC category 1A3ei)
+    unit: Mt NO2/yr
+- Emissions|NOx|Energy|Supply:
+    description: NOx emissions from fuel combustion and fugitive emissions from fuels
+      - electricity and heat production and distribution (IPCC category 1A1a), other
+      energy conversion (e.g. refineries, synfuel production, solid fuel processing,
+      IPCC category 1Ab, 1Ac), incl. pipeline transportation (IPCC category 1A3ei),
+      fugitive emissions from fuels (IPCC category 1B) and emissions from carbon dioxide
+      transport and storage (IPCC category 1C)
+    unit: Mt NO2/yr
+- Emissions|NOx|Waste:
+    description: NOx emissions from waste (IPCC category 6)
+    unit: Mt NO2/yr
+- Emissions|NOx|Other:
+    description: NOx emissions from other sources
+    unit: Mt NO2/yr
+
+- Emissions|OC:
+    description: Total organic carbon emissions
+    unit: Mt OC/yr
+- Emissions|OC|AFOLU:
+    description: Organic carbon emissions from agriculture, forestry and other land
+      use (IPCC category 3)
+    unit: Mt OC/yr
+- Emissions|OC|Energy:
+    description: Organic carbon emissions from energy use on supply and demand side,
+      including fugitive emissions from fuels (IPCC category 1A, 1B)
+    unit: Mt OC/yr
+- Emissions|OC|Energy|Demand|Industry:
+    description: Organic carbon emissions from fuel combustion in industry (IPCC category
+      1A2)
+    unit: Mt OC/yr
+- Emissions|OC|Energy|Demand|Residential and Commercial:
+    description: Organic carbon emissions from fuel combustion in residential, commercial,
+      institutional sectors (IPCC category 1A4a, 1A4b)
+    unit: Mt OC/yr
+- Emissions|OC|Energy|Demand|Transportation:
+    description: Organic carbon emissions from fuel combustion in transportation sector
+      (IPCC category 1A3), excluding pipeline emissions (IPCC category 1A3ei)
+    unit: Mt OC/yr
+- Emissions|OC|Energy|Supply:
+    description: Organic carbon emissions from fuel combustion and fugitive emissions
+      from fuels - electricity and heat production and distribution (IPCC category
+      1A1a), other energy conversion (e.g. refineries, synfuel production, solid fuel
+      prorganic carbonessing, IPCC category 1Ab, 1Ac), incl. pipeline transportation
+      (IPCC category 1A3ei), fugitive emissions from fuels (IPCC category 1B) and
+      emissions from carbon dioxide transport and storage (IPCC category 1C)
+    unit: Mt OC/yr
+- Emissions|OC|Waste:
+    description: Organic carbon emissions from waste (IPCC category 6)
+    unit: Mt OC/yr
+- Emissions|OC|Other:
+    description: Organic carbon emissions from other sources
+    unit: Mt OC/yr
+
+- Emissions|PFC:
+    description: Total emissions of perfluorocarbons (PFCs), provided as aggregate
+      CF4-equivalents
+    unit: kt CF4-equiv/yr
+
+- Emissions|SF6:
+    description: Total emissions of sulfur hexafluoride (SF6)
+    unit: kt SF6/yr
+
+- Emissions|Sulfur:
+    description: Total sulfur (SO2) emissions
+    unit: Mt SO2/yr
+- Emissions|Sulfur|AFOLU:
+    description: Sulfur emissions from agriculture, forestry and other land use (IPCC
+      category 3)
+    unit: Mt SO2/yr
+- Emissions|Sulfur|Energy:
+    description: Sulfur emissions from energy use on supply and demand side, including
+      fugitive emissions from fuels (IPCC category 1A, 1B)
+    unit: Mt SO2/yr
+- Emissions|Sulfur|Energy|Demand|Industry:
+    description: Sulfur emissions from fuel combustion in industry (IPCC category
+      1A2)
+    unit: Mt SO2/yr
+- Emissions|Sulfur|Energy|Demand|Residential and Commercial:
+    description: Sulfur emissions from fuel combustion in residential, commercial,
+      institutional sectors (IPCC category 1A4a, 1A4b)
+    unit: Mt SO2/yr
+- Emissions|Sulfur|Energy|Demand|Transportation:
+    description: Sulfur emissions from fuel combustion in transportation sector (IPCC
+      category 1A3), excluding pipeline emissions (IPCC category 1A3ei)
+    unit: Mt SO2/yr
+- Emissions|Sulfur|Energy|Supply:
+    description: Sulfur emissions from fuel combustion and fugitive emissions from
+      fuels - electricity and heat production and distribution (IPCC category 1A1a),
+      other energy conversion (e.g. refineries, synfuel production, solid fuel processing,
+      IPCC category 1Ab, 1Ac), incl. pipeline transportation (IPCC category 1A3ei),
+      fugitive emissions from fuels (IPCC category 1B) and emissions from carbon dioxide
+      transport and storage (IPCC category 1C)
+    unit: Mt SO2/yr
+- Emissions|Sulfur|Waste:
+    description: Sulfur emissions from waste (IPCC category 6)
+    unit: Mt SO2/yr
+- Emissions|Sulfur|Other:
+    description: Sulfur emissions from other sources
+    unit: Mt SO2/yr
+
+- Emissions|VOC:
+    description: Total volatile organic compound (VOC) emissions
+    unit: Mt VOC/yr
+- Emissions|VOC|AFOLU:
+    description: Land use based volatile organic compounds Emissions
+    unit: Mt VOC/yr
+- Emissions|VOC|Energy:
+    description: Volatile organic compounds emissions from energy use on supply and
+      demand side, including fugitive emissions from fuels (IPCC category 1A, 1B)
+    unit: Mt VOC/yr
+- Emissions|VOC|Energy|Demand|Industry:
+    description: Volatile organic compounds Emissions from Combustion in industry
+      (IPCC 1A2) and industrial processes (IPCC 2C1-2C5)
+    unit: Mt VOC/yr
+- Emissions|VOC|Energy|Demand|Residential and Commercial:
+    description: Volatile organic compounds Emissions from Combustion in Residential
+      and Commercial/Institutional Sectors (IPCC 1A4A, 1A4B)
+    unit: Mt VOC/yr
+- Emissions|VOC|Energy|Demand|Transportation:
+    description: Volatile organic compounds Emissions from Combustion in Transportation
+      Sector (IPCC category 1A3)
+    unit: Mt VOC/yr
+- Emissions|VOC|Energy|Supply:
+    description: Volatile organic compounds Emissions from Extraction and Distribution
+      of Fossil Fuels (including fugitive Emissions, IPCC category 1B); Electricity
+      production and distribution, district heating and other energy conversion (e.g.
+      refineries, synfuel production)
+    unit: Mt VOC/yr
+- Emissions|VOC|Waste:
+    description: Volatile organic compounds Emissions from waste (IPCC category 6)
+    unit: Mt VOC/yr
+- Emissions|VOC|Other:
+    description: Volatile organic compounds Emissions from other energy end-use sectors
+      that do not fit to any other category
+    unit: Mt VOC/yr
+
+- Temperature|Global Mean:
+    description: Change in global mean temperature relative to pre-industrial
+    unit: °C
+    skip-region-aggregation: true
+
+# additional variables
+- Emission Rate|CO2|Electricity|{Electricity Input}:
+    description: CO2 emissions of a {Electricity Input} power plant
+    unit: tons/MWh
+    skip-region-aggregation: true
+
+- Emissions|CO2|Energy|Supply|Other Sector:
+    description: CO2 emissions from fuel combustion in other energy supply sectors
+    unit: Mt CO2/yr  
+- Emissions|CO2|Industry:
+    description: CO2 emissions by the industrial sector (energy and process emissions),
+      net of negative emissions from Bioenergy with CCS (BECCS)
+    unit: Mt CO2/yr
+
+- Emissions|HFC|HFC125:
+    description: Total emissions of HFC125
+    unit: kt HFC125/yr
+- Emissions|HFC|HFC134a:
+    description: Total emissions of HFC134a
+    unit: kt HFC134a/yr
+- Emissions|HFC|HFC143a:
+    description: Total emissions of HFC143a
+    unit: kt HFC143a/yr
+- Emissions|HFC|HFC227ea:
+    description: Total emissions of HFC227ea
+    unit: kt HFC227ea/yr
+- Emissions|HFC|HFC23:
+    description: Total emissions of HFC23
+    unit: kt HFC23/yr
+- Emissions|HFC|HFC245fa:
+    description: Total emissions of HFC245fa
+    unit: kt HFC245fa/yr
+- Emissions|HFC|HFC32:
+    description: Total emissions of HFC32
+    unit: kt HFC32/yr
+- Emissions|HFC|HFC43-10:
+    description: Total emissions of HFC343-10
+    unit: kt HFC43-10/yr
+
+- Emissions|Kyoto Gases (AR4-GWP100):
+    description: Total Kyoto GHG emissions, including CO2, CH4, N2O and F-gases (based
+      on 100-year GWPs from AR4 for aggregation of different gases)
+    unit: Mt CO2e/yr
+- Emissions|Kyoto Gases (AR5-GWP100):
+    description: Total Kyoto GHG emissions, including CO2, CH4, N2O and F-gases (based
+      on 100-year GWPs from AR5 for aggregation of different gases)
+    unit: Mt CO2e/yr
+- Emissions|Kyoto Gases (SAR-GWP100):
+    description: Total Kyoto GHG emissions, including CO2, CH4, N2O and F-gases (based
+      on 100-year GWPs from SAR for aggregation of different gases)
+    unit: Mt CO2e/yr
+
+- Emissions|Kyoto Gases|Energy and Industrial Processes:
+    description: Kyoto GHG emissions from energy use on supply and demand side, including
+      fugitive emissions from fuels (IPCC category 1A, 1B) and from industrial processes 
+      (IPCC categories 2A, B, C, E), including CO2, CH4, N2O and F-gases (preferably use 
+      100-year GWPs from AR4 for aggregation of different gases)
+    unit: Mt CO2e/yr
+
+- Emissions|PFC|C2F6:
+    description: Total emissions of C2F6
+    unit: kt C2F6/yr
+- Emissions|PFC|C6F14:
+    description: Total emissions of CF6F14
+    unit: kt C6F14/yr
+- Emissions|PFC|CF4:
+    description: Total emissions of CF4
+    unit: kt CF4/yr
+
+- Emissions|PM2.5:
+    description: Total emissions of particulate matter 2.5 (PM2.5)
+    unit: Mt PM2.5
+- Emissions|PM2.5|Energy|Supply|Electricity:
+    description: Particulate matter 2.5 emissions originating from electricity generation.
+    unit: Mt PM2.5

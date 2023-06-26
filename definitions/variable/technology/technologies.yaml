@@ -1,0 +1,238 @@
+- Capacity|Electricity:
+    description: Total installed electricity generation capacity
+    unit: GW
+- Capacity|Electricity|{Electricity Input}:
+    description: Total installed electricity generation capacity from {Electricity Input}
+    unit: GW
+- Capacity|Electricity|{Storage Type}:
+    description: Total installed electricity generation capacity from {Storage Type}
+    unit: GW
+- Capacity|Heat|Residential and Commercial:
+    description: Total installed heat generation capacity for the residential and
+      commercial sectors
+    unit: GW
+- Capacity|Heat|Residential and Commercial|{Fuel}:
+    description: Total installed heat generation capacity for the residential and
+      commercial sectors from {Fuel}
+    unit: GW
+- Capacity|Heat|{Residential/Commercial}|Heat Pumps:
+    description: Total installed capacity of heat pumps for {Residential/Commercial} buildings
+    unit: GW
+- Capacity|Heat|Industrial:
+    description: Total installed heat generation capacity for the industrial sector
+    unit: GW
+- Capacity|Heat|Industrial|{Fuel}:
+    description: Total installed heat generation capacity for the industrial sector
+      from {Fuel}
+    unit: GW
+- Capital Cost|Electricity|{Electricity Input}:
+    description: Capital cost for {Electricity Input}
+    unit: [EUR_2020/kW, USD_2010/kW]
+    skip-region-aggregation: true
+- Capital Cost|Electricity|{Storage Type}:
+    description: Capital cost for {Storage Type}
+    unit: [EUR_2020/kW, USD_2010/kW]
+    skip-region-aggregation: true
+- Capital Cost|Heat|Residential and Commercial|{Fuel}:
+    description: Capital cost for {Fuel}
+    unit: [EUR_2020/kW, USD_2010/kW]
+    skip-region-aggregation: true
+- Capital Cost|Heat|Industrial|{Fuel}:
+    description: Capital cost for {Fuel}
+    unit: [EUR_2020/kW, USD_2010/kW]
+    skip-region-aggregation: true
+- Capital Cost|Transportation|Freight|{Transport}:
+    description: Capital cost for freight {Transport}
+    unit: [EUR_2020/tkm, USD_2010/tkm]
+    skip-region-aggregation: true
+- Capital Cost|Transportation|Freight|Rail:
+    description: Capital cost for freight rail-based transportation technologies
+    unit: [EUR_2020/tkm, USD_2010/tkm]
+    skip-region-aggregation: true
+- Capital Cost|Transportation|Passenger|{Transport}:
+    description: Capital cost for passenger {Transport}
+    unit: [EUR_2020/pkm, USD_2010/pkm]
+    skip-region-aggregation: true
+- Capital Cost|Transportation|Passenger|Rail:
+    description: Capital cost for passenger rail-based transportation technologies
+    unit: [EUR_2020/pkm, USD_2010/pkm]
+    skip-region-aggregation: true
+- Fixed Cost|Electricity|{Electricity Input}:
+    description: Fixed O&M cost for {Electricity Input}
+    unit: [EUR_2020/kW/yr, USD_2010/kW/yr]
+    skip-region-aggregation: true
+- Fixed Cost|Heat|Residential and Commercial|{Fuel}:
+    description: Fixed O&M for {Fuel}
+    unit: [EUR_2020/kW/yr, USD_2010/kW/yr]
+    skip-region-aggregation: true
+- Fixed Cost|Heat|Industrial|{Fuel}:
+    description: Fixed O&M for {Fuel}
+    unit: [EUR_2020/kW/yr, USD_2010/kW/yr]
+    skip-region-aggregation: true
+- Fixed Cost|Transportation|Freight|{Transport}:
+    description: Capital cost for freight {Transport}
+    unit: [EUR_2020/tkm/yr, USD_2010/tkm/yr]
+    skip-region-aggregation: true
+- Fixed Cost|Transportation|Freight|Rail:
+    description: Capital cost for freight rail-based transportation technologies
+    unit: [EUR_2020/tkm/yr, USD_2010/tkm/yr]
+    skip-region-aggregation: true
+- Fixed Cost|Transportation|Passenger|{Transport}:
+    description: Capital cost for passenger {Transport}
+    unit: [EUR_2020/pkm/yr, USD_2010/pkm/yr]
+    skip-region-aggregation: true
+- Fixed Cost|Transportation|Passenger|Rail:
+    description: Capital cost for passenger rail-based transportation technologies
+    unit: [EUR_2020/pkm/yr, USD_2010/pkm/yr]
+    skip-region-aggregation: true
+- Variable Cost|Heat|Residential and Commercial|{Fuel}:
+    description: Capital cost for {Fuel}
+    unit: [EUR_2020/MWh, USD_2010/MWh]
+    skip-region-aggregation: true
+- Variable Cost|Heat|Industrial|{Fuel}:
+    description: Capital cost for {Fuel}
+    unit: [EUR_2020/MWh, USD_2010/MWh]
+    skip-region-aggregation: true
+
+- Investment|Energy Efficiency:
+    description: Investments into the efficiency-increasing components of energy demand
+      technologies
+    unit: [million EUR_2020/yr, billion USD_2010/yr]
+- Investment|Heat Pumps:
+    description: Investments into heat pumps
+    unit: [million EUR_2020/yr, billion USD_2010/yr]
+- Investment|{Residential/Commercial}|Heat Pumps:
+    description: Investments into heat pumps for use in {Residential/Commercial} buildings
+    unit: [million EUR_2020/yr, billion USD_2010/yr]
+
+- Investment|Energy Supply:
+    description: Investments into the energy supply system
+    unit: [million EUR_2020/yr, billion USD_2010/yr]
+- Investment|Energy Supply|CO2 Transport and Storage:
+    description: Investment in CO2 transport and storage (note that investment in
+      the capturing equipment should be included along with the power plant technology)
+    unit: [million EUR_2020/yr, billion USD_2010/yr]
+
+- Investment|Energy Supply|Electricity:
+    description: Investments into electricity generation and supply (including electricity
+      storage and transmission & distribution)
+    unit: [million EUR_2020/yr, billion USD_2010/yr]
+
+- Investment|Energy Supply|Electricity|{Electricity Input}:
+    description: Investments in new {Electricity Input} power generation capacity
+    notes: For plants with CCS, the investment in the capturing equipment should be
+      included but not the one on transport and storage.
+    unit: [million EUR_2020/yr, billion USD_2010/yr]
+
+- Investment|Energy Supply|Electricity|{Storage Type}:
+    description: Investments in new {Storage Type} power generation capacity
+    notes: For plants with CCS, the investment in the capturing equipment should be
+      included but not the one on transport and storage.
+    unit: [million EUR_2020/yr, billion USD_2010/yr]
+
+- Investment|Energy Supply|Electricity|Transmission and Distribution:
+    description: Investments in transmission and distribution of power generation
+    unit: [million EUR_2020/yr, billion USD_2010/yr]
+- Investment|Energy Supply|Extraction|Coal:
+    description: Investments for extraction and conversion of coal. These should include
+      mining, shipping and ports
+    unit: [million EUR_2020/yr, billion USD_2010/yr]
+- Investment|Energy Supply|Extraction|Fossil:
+    description: Investments for all types of fossil extraction
+    unit: [million EUR_2020/yr, billion USD_2010/yr]
+- Investment|Energy Supply|Extraction|Gas:
+    description: Investments for extraction and conversion of natural gas. These should
+      include upstream, LNG chain and transmission and distribution
+    unit: [million EUR_2020/yr, billion USD_2010/yr]
+- Investment|Energy Supply|Extraction|Oil:
+    description: Investments for extraction and conversion of oil. These should include
+      upstream, transport and refining
+    unit: [million EUR_2020/yr, billion USD_2010/yr]
+- Investment|Energy Supply|Heat:
+    description: Investments in heat generation facilities
+    unit: [million EUR_2020/yr, billion USD_2010/yr]
+- Investment|Energy Supply|Hydrogen:
+    description: Investments for the production of hydrogen
+    unit: [million EUR_2020/yr, billion USD_2010/yr]
+- Investment|Energy Supply|Hydrogen|Fossil:
+    description: Investments for the production of hydrogen from fossil fuels. For
+      plants equipped with CCS, the investment in the capturing equipment should be
+      included but not the one on transport and storage.
+    unit: [million EUR_2020/yr, billion USD_2010/yr]
+- Investment|Energy Supply|Hydrogen|Other:
+    description: Investments for the production of hydrogen from biomass. For plants
+      equipped with CCS, the investment in the capturing equipment should be included
+      but not the one on transport and storage.
+    unit: [million EUR_2020/yr, billion USD_2010/yr]
+- Investment|Energy Supply|Liquids:
+    description: Investments for the production of liquid fuels. For plants equipped
+      with CCS, the investment in the capturing equipment should be included but not
+      the one on transport and storage.
+    unit: [million EUR_2020/yr, billion USD_2010/yr]
+- Investment|Energy Supply|Liquids|Biomass:
+    description: Investments for the production of biofuels. These should not include
+      the costs of the feedstock. For plants equipped with CCS, the investment in
+      the capturing equipment should be included but not the one on transport and
+      storage.
+    unit: [million EUR_2020/yr, billion USD_2010/yr]
+- Investment|Energy Supply|Liquids|Coal and Gas:
+    description: Investments for the production of fossil-based synfuels (coal and
+      gas). For plants equipped with CCS, the investment in the capturing equipment
+      should be included but not the one on transport and storage.
+    unit: [million EUR_2020/yr, billion USD_2010/yr]
+- Investment|Energy Supply|Liquids|Oil:
+    description: Investments for the production of fossil fuels from oil refineries
+      For plants equipped with CCS, the investment in the capturing equipment should
+      be included but not the one on transport and storage.
+    unit: [million EUR_2020/yr, billion USD_2010/yr]
+
+- Stock|Transportation|{Transport mode, tech and carrier}:
+    description: Number of registered vehicles with {Transport mode, tech and carrier}
+    unit: million
+- Sales|Transportation|{Transport mode, tech and carrier}:
+    description: Number of sold (new) vehicles with {Transport mode, tech and carrier}
+    unit: million
+
+- Renovation Rate|{Residential/Commercial}|Envelope:
+    description: Rate of renovation of the envelope of {Residential/Commercial} buildings
+    unit: '%'
+- Renovation Rate|{Residential/Commercial}|Heating System:
+    description: Rate of renovation of the heating system of {Residential/Commercial} buildings
+    unit: '%'
+
+- Number|{Residential/Commercial}|Heat Pumps:
+    description: Number of total installed heat pumps in {Residential/Commercial} buildings
+    unit: million
+
+- Demand Response|Maximum Reduction|Load Shifting|Electricity|Residential|{Residential Load Shifting Asset}:
+    description: Maximum load reduction due to changing household {Residential Load Shifting Asset}
+      usage.
+    unit: MW
+- Demand Response|Maximum Dispatch|Load Shifting|Electricity|Residential|{Residential Load Shifting Asset}:
+    description: Maximum dispatchable load due to changing household {Residential Load Shifting Asset}
+      usage.
+    unit: MW
+- Levelized Cost|Capex|Electricity|{Electricity Input}:
+    description: Levelized cost for investment in {Electricity Input}
+    unit: [MEUR_2020/GW, MUSD_2010/GW, MEUR_2020/PJ, MUSD_2010/PJ]
+    skip-region-aggregation: true
+- Levelized Cost|Generation|Electricity|{Electricity Input}:
+    description: Levelized cost for generation of electricity by {Electricity Input}
+    unit: [MEUR_2020/MWh, MUSD_2010/MWh, MEUR_2020/PJ, MUSD_2010/PJ]
+    skip-region-aggregation: true
+- Levelized Cost|Emissions|Electricity|{Electricity Input}:
+    description: Levelized cost for investment in {Electricity Input}
+    unit: [MEUR_2020/MWh, MUSD_2010/MWh, MEUR_2020/PJ, MUSD_2010/PJ]
+    skip-region-aggregation: true
+- Levelized Cost|Total (incl. Emissions)|Electricity|{Electricity Input}:
+    description: Levelized cost for investment in {Electricity Input}
+    unit: [MEUR_2020/MWh, MUSD_2010/MWh, MEUR_2020/PJ, MUSD_2010/PJ]
+    skip-region-aggregation: true
+- Levelized Cost|Total (excl. Emissions)|Electricity|{Electricity Input}:
+    description: Levelized cost for investment in {Electricity Input}
+    unit: [MEUR_2020/MWh, MUSD_2010/MWh, MEUR_2020/PJ, MUSD_2010/PJ]
+    skip-region-aggregation: true
+- Levelized Cost|Electricity|Energy Storage System|{Storage Type}:
+    description: Levelized cost of storage for {Storage Type}
+    unit: [MEUR_2020/MWh, MUSD_2010/MWh, MEUR_2020/PJ, MUSD_2010/PJ]
+    skip-region-aggregation: true

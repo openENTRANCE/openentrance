@@ -1,0 +1,27 @@
+# List of variables related to the evolution of the electricity system
+# results of capacity expansion models
+
+- Commissioned Capacity|Electricity|{Electricity Input}:
+    description: New capacity for {Electricity Input}
+      this capacity is added to the existing capacity
+    unit: MW
+- Commissioned Storage|Electricity|{Storage Type}:
+    description: New storage capacity for {Electricity Storage Type},
+      this capacity is added to the existing capacity
+    unit: MWh
+- Commissioned Capacity|Network|Electricity:
+    description: New capacity for the electricity network, 
+      this capacity is added to the existing capacity
+    unit: MW
+- Decommissioned Capacity|Electricity|{Electricity Input}:
+    description: Removed capacity for {Electricity Input},
+      this capacity is substracted from the existing capacity
+    unit: MW
+- Decommissioned Storage|Electricity|{Storage Type}:
+    description: Removed storage capacity for {Electricity Storage Type},
+      this capacity is substracted from the existing capacity
+    unit: MWh
+- Decommissioned Capacity|Network|Electricity:
+    description: Removed capacity for the electricity network,
+      this capacity is substracted from the existing capacity
+    unit: MW

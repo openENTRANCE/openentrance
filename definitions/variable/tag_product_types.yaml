@@ -1,0 +1,58 @@
+# This list of products will replace any occurrence of `{Product}`
+# in a variable-definition yaml file
+
+#   i.e., The following standard structure in economic variables:
+#   Consumption|Households|{Product}|Imported:
+#   Consumption|Government|{Product}|Domestic:
+
+- Product:
+  - pAGRI:
+      description: agriculture
+
+  - pINDU:
+      description: manufacturing industry
+
+  - pALUM:
+      description: aluminium production
+
+  - pSERV:
+      description: services
+
+  - pTRAN:
+      description: transport services
+
+  - pELEC:
+      description: electricity
+
+  - pTRDI:
+      description: trade and distribution services of electricity
+
+  - pHTWT:
+      description: steam and hot water supply
+
+  - pOIL:
+      description: crude Oil
+
+  - pGSL:
+      description: gasoline
+
+  - pDSL:
+      description: diesel
+
+  - pHDI:
+      description: heavy distillate
+
+  - pNG:
+      description: natural gas
+
+  - pCOA:
+      description: coal
+
+  - pBIO:
+      description: biofuels
+
+  - pFUL:
+      description: other fuels
+
+  - pH2:
+      description: hydrogen

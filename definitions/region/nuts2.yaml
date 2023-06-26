@@ -1,0 +1,1489 @@
+# This file was created using the script `data/write-nuts.py`
+# DO NOT ALTER THIS FILE MANUALLY!
+
+# List of NUTS2 regions: basic regions for the application of regional policies
+- NUTS2:
+  - BE10:
+      area_name: Région de Bruxelles-Capitale/ Brussels Hoofdstedelijk Gewest
+      country: Belgium
+      nuts1: BE1
+  - BE21:
+      area_name: Prov. Antwerpen
+      country: Belgium
+      nuts1: BE2
+  - BE22:
+      area_name: Prov. Limburg (BE)
+      country: Belgium
+      nuts1: BE2
+  - BE23:
+      area_name: Prov. Oost-Vlaanderen
+      country: Belgium
+      nuts1: BE2
+  - BE24:
+      area_name: Prov. Vlaams-Brabant
+      country: Belgium
+      nuts1: BE2
+  - BE25:
+      area_name: Prov. West-Vlaanderen
+      country: Belgium
+      nuts1: BE2
+  - BE31:
+      area_name: Prov. Brabant Wallon
+      country: Belgium
+      nuts1: BE3
+  - BE32:
+      area_name: Prov. Hainaut
+      country: Belgium
+      nuts1: BE3
+  - BE33:
+      area_name: Prov. Liège
+      country: Belgium
+      nuts1: BE3
+  - BE34:
+      area_name: Prov. Luxembourg (BE)
+      country: Belgium
+      nuts1: BE3
+  - BE35:
+      area_name: Prov. Namur
+      country: Belgium
+      nuts1: BE3
+  - BEZZ:
+      area_name: Extra-Regio NUTS 2
+      country: Belgium
+      nuts1: BEZ
+  - BG31:
+      area_name: Северозападен
+      country: Bulgaria
+      nuts1: BG3
+  - BG32:
+      area_name: Северен централен
+      country: Bulgaria
+      nuts1: BG3
+  - BG33:
+      area_name: Североизточен
+      country: Bulgaria
+      nuts1: BG3
+  - BG34:
+      area_name: Югоизточен
+      country: Bulgaria
+      nuts1: BG3
+  - BG41:
+      area_name: Югозападен
+      country: Bulgaria
+      nuts1: BG4
+  - BG42:
+      area_name: Южен централен
+      country: Bulgaria
+      nuts1: BG4
+  - BGZZ:
+      area_name: Extra-Regio NUTS 2
+      country: Bulgaria
+      nuts1: BGZ
+  - CZ01:
+      area_name: Praha
+      country: Czech Republic
+      nuts1: CZ0
+  - CZ02:
+      area_name: Střední Čechy
+      country: Czech Republic
+      nuts1: CZ0
+  - CZ03:
+      area_name: Jihozápad
+      country: Czech Republic
+      nuts1: CZ0
+  - CZ04:
+      area_name: Severozápad
+      country: Czech Republic
+      nuts1: CZ0
+  - CZ05:
+      area_name: Severovýchod
+      country: Czech Republic
+      nuts1: CZ0
+  - CZ06:
+      area_name: Jihovýchod
+      country: Czech Republic
+      nuts1: CZ0
+  - CZ07:
+      area_name: Střední Morava
+      country: Czech Republic
+      nuts1: CZ0
+  - CZ08:
+      area_name: Moravskoslezsko
+      country: Czech Republic
+      nuts1: CZ0
+  - CZZZ:
+      area_name: Extra-Regio NUTS 2
+      country: Czech Republic
+      nuts1: CZZ
+  - DK01:
+      area_name: Hovedstaden
+      country: Denmark
+      nuts1: DK0
+  - DK02:
+      area_name: Sjælland
+      country: Denmark
+      nuts1: DK0
+  - DK03:
+      area_name: Syddanmark
+      country: Denmark
+      nuts1: DK0
+  - DK04:
+      area_name: Midtjylland
+      country: Denmark
+      nuts1: DK0
+  - DK05:
+      area_name: Nordjylland
+      country: Denmark
+      nuts1: DK0
+  - DKZZ:
+      area_name: Extra-Regio NUTS 2
+      country: Denmark
+      nuts1: DKZ
+  - DE11:
+      area_name: Stuttgart
+      country: Germany
+      nuts1: DE1
+  - DE12:
+      area_name: Karlsruhe
+      country: Germany
+      nuts1: DE1
+  - DE13:
+      area_name: Freiburg
+      country: Germany
+      nuts1: DE1
+  - DE14:
+      area_name: Tübingen
+      country: Germany
+      nuts1: DE1
+  - DE21:
+      area_name: Oberbayern
+      country: Germany
+      nuts1: DE2
+  - DE22:
+      area_name: Niederbayern
+      country: Germany
+      nuts1: DE2
+  - DE23:
+      area_name: Oberpfalz
+      country: Germany
+      nuts1: DE2
+  - DE24:
+      area_name: Oberfranken
+      country: Germany
+      nuts1: DE2
+  - DE25:
+      area_name: Mittelfranken
+      country: Germany
+      nuts1: DE2
+  - DE26:
+      area_name: Unterfranken
+      country: Germany
+      nuts1: DE2
+  - DE27:
+      area_name: Schwaben
+      country: Germany
+      nuts1: DE2
+  - DE30:
+      area_name: Berlin
+      country: Germany
+      nuts1: DE3
+  - DE40:
+      area_name: Brandenburg
+      country: Germany
+      nuts1: DE4
+  - DE50:
+      area_name: Bremen
+      country: Germany
+      nuts1: DE5
+  - DE60:
+      area_name: Hamburg
+      country: Germany
+      nuts1: DE6
+  - DE71:
+      area_name: Darmstadt
+      country: Germany
+      nuts1: DE7
+  - DE72:
+      area_name: Gießen
+      country: Germany
+      nuts1: DE7
+  - DE73:
+      area_name: Kassel
+      country: Germany
+      nuts1: DE7
+  - DE80:
+      area_name: Mecklenburg-Vorpommern
+      country: Germany
+      nuts1: DE8
+  - DE91:
+      area_name: Braunschweig
+      country: Germany
+      nuts1: DE9
+  - DE92:
+      area_name: Hannover
+      country: Germany
+      nuts1: DE9
+  - DE93:
+      area_name: Lüneburg
+      country: Germany
+      nuts1: DE9
+  - DE94:
+      area_name: Weser-Ems
+      country: Germany
+      nuts1: DE9
+  - DEA1:
+      area_name: Düsseldorf
+      country: Germany
+      nuts1: DEA
+  - DEA2:
+      area_name: Köln
+      country: Germany
+      nuts1: DEA
+  - DEA3:
+      area_name: Münster
+      country: Germany
+      nuts1: DEA
+  - DEA4:
+      area_name: Detmold
+      country: Germany
+      nuts1: DEA
+  - DEA5:
+      area_name: Arnsberg
+      country: Germany
+      nuts1: DEA
+  - DEB1:
+      area_name: Koblenz
+      country: Germany
+      nuts1: DEB
+  - DEB2:
+      area_name: Trier
+      country: Germany
+      nuts1: DEB
+  - DEB3:
+      area_name: Rheinhessen-Pfalz
+      country: Germany
+      nuts1: DEB
+  - DEC0:
+      area_name: Saarland
+      country: Germany
+      nuts1: DEC
+  - DED2:
+      area_name: Dresden
+      country: Germany
+      nuts1: DED
+  - DED4:
+      area_name: Chemnitz
+      country: Germany
+      nuts1: DED
+  - DED5:
+      area_name: Leipzig
+      country: Germany
+      nuts1: DED
+  - DEE0:
+      area_name: Sachsen-Anhalt
+      country: Germany
+      nuts1: DEE
+  - DEF0:
+      area_name: Schleswig-Holstein
+      country: Germany
+      nuts1: DEF
+  - DEG0:
+      area_name: Thüringen
+      country: Germany
+      nuts1: DEG
+  - DEZZ:
+      area_name: Extra-Regio NUTS 2
+      country: Germany
+      nuts1: DEZ
+  - EE00:
+      area_name: Eesti
+      country: Estonia
+      nuts1: EE0
+  - EEZZ:
+      area_name: Extra-Regio NUTS 2
+      country: Estonia
+      nuts1: EEZ
+  - IE04:
+      area_name: Northern and Western
+      country: Ireland
+      nuts1: IE0
+  - IE05:
+      area_name: Southern
+      country: Ireland
+      nuts1: IE0
+  - IE06:
+      area_name: Eastern and Midland
+      country: Ireland
+      nuts1: IE0
+  - IEZZ:
+      area_name: Extra-Regio NUTS 2
+      country: Ireland
+      nuts1: IEZ
+  - EL30:
+      area_name: Aττική
+      country: Greece
+      nuts1: EL3
+  - EL41:
+      area_name: Βόρειο Αιγαίο
+      country: Greece
+      nuts1: EL4
+  - EL42:
+      area_name: Νότιο Αιγαίο
+      country: Greece
+      nuts1: EL4
+  - EL43:
+      area_name: Κρήτη
+      country: Greece
+      nuts1: EL4
+  - EL51:
+      area_name: Aνατολική Μακεδονία, Θράκη
+      country: Greece
+      nuts1: EL5
+  - EL52:
+      area_name: Κεντρική Μακεδονία
+      country: Greece
+      nuts1: EL5
+  - EL53:
+      area_name: Δυτική Μακεδονία
+      country: Greece
+      nuts1: EL5
+  - EL54:
+      area_name: Ήπειρος
+      country: Greece
+      nuts1: EL5
+  - EL61:
+      area_name: Θεσσαλία
+      country: Greece
+      nuts1: EL6
+  - EL62:
+      area_name: Ιόνια Νησιά
+      country: Greece
+      nuts1: EL6
+  - EL63:
+      area_name: Δυτική Ελλάδα
+      country: Greece
+      nuts1: EL6
+  - EL64:
+      area_name: Στερεά Ελλάδα
+      country: Greece
+      nuts1: EL6
+  - EL65:
+      area_name: Πελοπόννησος
+      country: Greece
+      nuts1: EL6
+  - ELZZ:
+      area_name: Extra-Regio NUTS 2
+      country: Greece
+      nuts1: ELZ
+  - ES11:
+      area_name: Galicia
+      country: Spain
+      nuts1: ES1
+  - ES12:
+      area_name: Principado de Asturias
+      country: Spain
+      nuts1: ES1
+  - ES13:
+      area_name: Cantabria
+      country: Spain
+      nuts1: ES1
+  - ES21:
+      area_name: País Vasco
+      country: Spain
+      nuts1: ES2
+  - ES22:
+      area_name: Comunidad Foral de Navarra
+      country: Spain
+      nuts1: ES2
+  - ES23:
+      area_name: La Rioja
+      country: Spain
+      nuts1: ES2
+  - ES24:
+      area_name: Aragón
+      country: Spain
+      nuts1: ES2
+  - ES30:
+      area_name: Comunidad de Madrid
+      country: Spain
+      nuts1: ES3
+  - ES41:
+      area_name: Castilla y León
+      country: Spain
+      nuts1: ES4
+  - ES42:
+      area_name: Castilla-La Mancha
+      country: Spain
+      nuts1: ES4
+  - ES43:
+      area_name: Extremadura
+      country: Spain
+      nuts1: ES4
+  - ES51:
+      area_name: Cataluña
+      country: Spain
+      nuts1: ES5
+  - ES52:
+      area_name: Comunitat Valenciana 
+      country: Spain
+      nuts1: ES5
+  - ES53:
+      area_name: Illes Balears
+      country: Spain
+      nuts1: ES5
+  - ES61:
+      area_name: Andalucía
+      country: Spain
+      nuts1: ES6
+  - ES62:
+      area_name: Región de Murcia
+      country: Spain
+      nuts1: ES6
+  - ES63:
+      area_name: Ciudad de Ceuta
+      country: Spain
+      nuts1: ES6
+  - ES64:
+      area_name: Ciudad de Melilla
+      country: Spain
+      nuts1: ES6
+  - ES70:
+      area_name: Canarias
+      country: Spain
+      nuts1: ES7
+  - ESZZ:
+      area_name: Extra-Regio NUTS 2
+      country: Spain
+      nuts1: ESZ
+  - FR10:
+      area_name: Ile-de-France
+      country: France
+      nuts1: FR1
+  - FRB0:
+      area_name: Centre — Val de Loire
+      country: France
+      nuts1: FRB
+  - FRC1:
+      area_name: Bourgogne
+      country: France
+      nuts1: FRC
+  - FRC2:
+      area_name: Franche-Comté
+      country: France
+      nuts1: FRC
+  - FRD1:
+      area_name: Basse-Normandie 
+      country: France
+      nuts1: FRD
+  - FRD2:
+      area_name: Haute-Normandie 
+      country: France
+      nuts1: FRD
+  - FRE1:
+      area_name: Nord-Pas de Calais
+      country: France
+      nuts1: FRE
+  - FRE2:
+      area_name: Picardie
+      country: France
+      nuts1: FRE
+  - FRF1:
+      area_name: Alsace
+      country: France
+      nuts1: FRF
+  - FRF2:
+      area_name: Champagne-Ardenne
+      country: France
+      nuts1: FRF
+  - FRF3:
+      area_name: Lorraine
+      country: France
+      nuts1: FRF
+  - FRG0:
+      area_name: Pays de la Loire
+      country: France
+      nuts1: FRG
+  - FRH0:
+      area_name: Bretagne
+      country: France
+      nuts1: FRH
+  - FRI1:
+      area_name: Aquitaine
+      country: France
+      nuts1: FRI
+  - FRI2:
+      area_name: Limousin
+      country: France
+      nuts1: FRI
+  - FRI3:
+      area_name: Poitou-Charentes
+      country: France
+      nuts1: FRI
+  - FRJ1:
+      area_name: Languedoc-Roussillon
+      country: France
+      nuts1: FRJ
+  - FRJ2:
+      area_name: Midi-Pyrénées
+      country: France
+      nuts1: FRJ
+  - FRK1:
+      area_name: Auvergne
+      country: France
+      nuts1: FRK
+  - FRK2:
+      area_name: Rhône-Alpes
+      country: France
+      nuts1: FRK
+  - FRL0:
+      area_name: Provence-Alpes-Côte d’Azur
+      country: France
+      nuts1: FRL
+  - FRM0:
+      area_name: Corse
+      country: France
+      nuts1: FRM
+  - FRY1:
+      area_name: Guadeloupe
+      country: France
+      nuts1: FRY
+  - FRY2:
+      area_name: Martinique 
+      country: France
+      nuts1: FRY
+  - FRY3:
+      area_name: Guyane
+      country: France
+      nuts1: FRY
+  - FRY4:
+      area_name: La Réunion 
+      country: France
+      nuts1: FRY
+  - FRY5:
+      area_name: Mayotte
+      country: France
+      nuts1: FRY
+  - FRZZ:
+      area_name: Extra-Regio NUTS 2
+      country: France
+      nuts1: FRZ
+  - HR02:
+      area_name: Panonska Hrvatska
+      country: Croatia
+      nuts1: HR0
+  - HR03:
+      area_name: Jadranska Hrvatska
+      country: Croatia
+      nuts1: HR0
+  - HR05:
+      area_name: Grad Zagreb
+      country: Croatia
+      nuts1: HR0
+  - HR06:
+      area_name: Sjeverna Hrvatska
+      country: Croatia
+      nuts1: HR0
+  - HRZZ:
+      area_name: Extra-Regio NUTS 2
+      country: Croatia
+      nuts1: HRZ
+  - ITC1:
+      area_name: Piemonte
+      country: Italy
+      nuts1: ITC
+  - ITC2:
+      area_name: Valle d’Aosta/Vallée d’Aoste
+      country: Italy
+      nuts1: ITC
+  - ITC3:
+      area_name: Liguria
+      country: Italy
+      nuts1: ITC
+  - ITC4:
+      area_name: Lombardia
+      country: Italy
+      nuts1: ITC
+  - ITF1:
+      area_name: Abruzzo
+      country: Italy
+      nuts1: ITF
+  - ITF2:
+      area_name: Molise
+      country: Italy
+      nuts1: ITF
+  - ITF3:
+      area_name: Campania
+      country: Italy
+      nuts1: ITF
+  - ITF4:
+      area_name: Puglia
+      country: Italy
+      nuts1: ITF
+  - ITF5:
+      area_name: Basilicata
+      country: Italy
+      nuts1: ITF
+  - ITF6:
+      area_name: Calabria
+      country: Italy
+      nuts1: ITF
+  - ITG1:
+      area_name: Sicilia
+      country: Italy
+      nuts1: ITG
+  - ITG2:
+      area_name: Sardegna
+      country: Italy
+      nuts1: ITG
+  - ITH1:
+      area_name: Provincia Autonoma di Bolzano/Bozen
+      country: Italy
+      nuts1: ITH
+  - ITH2:
+      area_name: Provincia Autonoma di Trento
+      country: Italy
+      nuts1: ITH
+  - ITH3:
+      area_name: Veneto
+      country: Italy
+      nuts1: ITH
+  - ITH4:
+      area_name: Friuli-Venezia Giulia
+      country: Italy
+      nuts1: ITH
+  - ITH5:
+      area_name: Emilia-Romagna
+      country: Italy
+      nuts1: ITH
+  - ITI1:
+      area_name: Toscana
+      country: Italy
+      nuts1: ITI
+  - ITI2:
+      area_name: Umbria
+      country: Italy
+      nuts1: ITI
+  - ITI3:
+      area_name: Marche
+      country: Italy
+      nuts1: ITI
+  - ITI4:
+      area_name: Lazio
+      country: Italy
+      nuts1: ITI
+  - ITZZ:
+      area_name: Extra-Regio NUTS 2
+      country: Italy
+      nuts1: ITZ
+  - CY00:
+      area_name: Κύπρος
+      country: Cyprus
+      nuts1: CY0
+  - CYZZ:
+      area_name: Extra-Regio NUTS 2
+      country: Cyprus
+      nuts1: CYZ
+  - LV00:
+      area_name: Latvija
+      country: Latvia
+      nuts1: LV0
+  - LVZZ:
+      area_name: Extra-Regio NUTS 2
+      country: Latvia
+      nuts1: LVZ
+  - LT01:
+      area_name: Sostinės regionas
+      country: Lithuania
+      nuts1: LT0
+  - LT02:
+      area_name: Vidurio ir vakarų Lietuvos regionas 
+      country: Lithuania
+      nuts1: LT0
+  - LTZZ:
+      area_name: Extra-Regio NUTS 2
+      country: Lithuania
+      nuts1: LTZ
+  - LU00:
+      area_name: Luxembourg
+      country: Luxembourg
+      nuts1: LU0
+  - LUZZ:
+      area_name: Extra-Regio NUTS 2
+      country: Luxembourg
+      nuts1: LUZ
+  - HU11:
+      area_name: Budapest
+      country: Hungary
+      nuts1: HU1
+  - HU12:
+      area_name: Pest
+      country: Hungary
+      nuts1: HU1
+  - HU21:
+      area_name: Közép-Dunántúl
+      country: Hungary
+      nuts1: HU2
+  - HU22:
+      area_name: Nyugat-Dunántúl
+      country: Hungary
+      nuts1: HU2
+  - HU23:
+      area_name: Dél-Dunántúl
+      country: Hungary
+      nuts1: HU2
+  - HU31:
+      area_name: Észak-Magyarország
+      country: Hungary
+      nuts1: HU3
+  - HU32:
+      area_name: Észak-Alföld
+      country: Hungary
+      nuts1: HU3
+  - HU33:
+      area_name: Dél-Alföld
+      country: Hungary
+      nuts1: HU3
+  - HUZZ:
+      area_name: Extra-Regio NUTS 2
+      country: Hungary
+      nuts1: HUZ
+  - MT00:
+      area_name: Malta
+      country: Malta
+      nuts1: MT0
+  - MTZZ:
+      area_name: Extra-Regio NUTS 2
+      country: Malta
+      nuts1: MTZ
+  - NL11:
+      area_name: Groningen
+      country: The Netherlands
+      nuts1: NL1
+  - NL12:
+      area_name: Friesland (NL)
+      country: The Netherlands
+      nuts1: NL1
+  - NL13:
+      area_name: Drenthe
+      country: The Netherlands
+      nuts1: NL1
+  - NL21:
+      area_name: Overijssel
+      country: The Netherlands
+      nuts1: NL2
+  - NL22:
+      area_name: Gelderland
+      country: The Netherlands
+      nuts1: NL2
+  - NL23:
+      area_name: Flevoland
+      country: The Netherlands
+      nuts1: NL2
+  - NL31:
+      area_name: Utrecht
+      country: The Netherlands
+      nuts1: NL3
+  - NL32:
+      area_name: Noord-Holland
+      country: The Netherlands
+      nuts1: NL3
+  - NL33:
+      area_name: Zuid-Holland
+      country: The Netherlands
+      nuts1: NL3
+  - NL34:
+      area_name: Zeeland
+      country: The Netherlands
+      nuts1: NL3
+  - NL41:
+      area_name: Noord-Brabant
+      country: The Netherlands
+      nuts1: NL4
+  - NL42:
+      area_name: Limburg (NL)
+      country: The Netherlands
+      nuts1: NL4
+  - NLZZ:
+      area_name: Extra-Regio NUTS 2
+      country: The Netherlands
+      nuts1: NLZ
+  - AT11:
+      area_name: Burgenland
+      country: Austria
+      nuts1: AT1
+  - AT12:
+      area_name: Niederösterreich
+      country: Austria
+      nuts1: AT1
+  - AT13:
+      area_name: Wien
+      country: Austria
+      nuts1: AT1
+  - AT21:
+      area_name: Kärnten
+      country: Austria
+      nuts1: AT2
+  - AT22:
+      area_name: Steiermark
+      country: Austria
+      nuts1: AT2
+  - AT31:
+      area_name: Oberösterreich
+      country: Austria
+      nuts1: AT3
+  - AT32:
+      area_name: Salzburg
+      country: Austria
+      nuts1: AT3
+  - AT33:
+      area_name: Tirol
+      country: Austria
+      nuts1: AT3
+  - AT34:
+      area_name: Vorarlberg
+      country: Austria
+      nuts1: AT3
+  - ATZZ:
+      area_name: Extra-Regio NUTS 2
+      country: Austria
+      nuts1: ATZ
+  - PL21:
+      area_name: Małopolskie
+      country: Poland
+      nuts1: PL2
+  - PL22:
+      area_name: Śląskie
+      country: Poland
+      nuts1: PL2
+  - PL41:
+      area_name: Wielkopolskie
+      country: Poland
+      nuts1: PL4
+  - PL42:
+      area_name: Zachodniopomorskie
+      country: Poland
+      nuts1: PL4
+  - PL43:
+      area_name: Lubuskie
+      country: Poland
+      nuts1: PL4
+  - PL51:
+      area_name: Dolnośląskie
+      country: Poland
+      nuts1: PL5
+  - PL52:
+      area_name: Opolskie
+      country: Poland
+      nuts1: PL5
+  - PL61:
+      area_name: Kujawsko-pomorskie
+      country: Poland
+      nuts1: PL6
+  - PL62:
+      area_name: Warmińsko-mazurskie
+      country: Poland
+      nuts1: PL6
+  - PL63:
+      area_name: Pomorskie
+      country: Poland
+      nuts1: PL6
+  - PL71:
+      area_name: Łódzkie
+      country: Poland
+      nuts1: PL7
+  - PL72:
+      area_name: Świętokrzyskie
+      country: Poland
+      nuts1: PL7
+  - PL81:
+      area_name: Lubelskie
+      country: Poland
+      nuts1: PL8
+  - PL82:
+      area_name: Podkarpackie
+      country: Poland
+      nuts1: PL8
+  - PL84:
+      area_name: Podlaskie
+      country: Poland
+      nuts1: PL8
+  - PL91:
+      area_name: Warszawski stołeczny
+      country: Poland
+      nuts1: PL9
+  - PL92:
+      area_name: Mazowiecki regionalny
+      country: Poland
+      nuts1: PL9
+  - PLZZ:
+      area_name: Extra-Regio NUTS 2
+      country: Poland
+      nuts1: PLZ
+  - PT11:
+      area_name: Norte
+      country: Portugal
+      nuts1: PT1
+  - PT15:
+      area_name: Algarve
+      country: Portugal
+      nuts1: PT1
+  - PT16:
+      area_name: Centro (PT)
+      country: Portugal
+      nuts1: PT1
+  - PT17:
+      area_name: Área Metropolitana de Lisboa
+      country: Portugal
+      nuts1: PT1
+  - PT18:
+      area_name: Alentejo
+      country: Portugal
+      nuts1: PT1
+  - PT20:
+      area_name: Região Autónoma dos Açores
+      country: Portugal
+      nuts1: PT2
+  - PT30:
+      area_name: Região Autónoma da Madeira
+      country: Portugal
+      nuts1: PT3
+  - PTZZ:
+      area_name: Extra-Regio NUTS 2
+      country: Portugal
+      nuts1: PTZ
+  - RO11:
+      area_name: Nord-Vest
+      country: Romania
+      nuts1: RO1
+  - RO12:
+      area_name: Centru
+      country: Romania
+      nuts1: RO1
+  - RO21:
+      area_name: Nord-Est
+      country: Romania
+      nuts1: RO2
+  - RO22:
+      area_name: Sud-Est
+      country: Romania
+      nuts1: RO2
+  - RO31:
+      area_name: Sud-Muntenia
+      country: Romania
+      nuts1: RO3
+  - RO32:
+      area_name: Bucureşti-Ilfov
+      country: Romania
+      nuts1: RO3
+  - RO41:
+      area_name: Sud-Vest Oltenia
+      country: Romania
+      nuts1: RO4
+  - RO42:
+      area_name: Vest
+      country: Romania
+      nuts1: RO4
+  - ROZZ:
+      area_name: Extra-Regio NUTS 2
+      country: Romania
+      nuts1: ROZ
+  - SI03:
+      area_name: Vzhodna Slovenija
+      country: Slovenia
+      nuts1: SI0
+  - SI04:
+      area_name: Zahodna Slovenija
+      country: Slovenia
+      nuts1: SI0
+  - SIZZ:
+      area_name: Extra-Regio NUTS 2
+      country: Slovenia
+      nuts1: SIZ
+  - SK01:
+      area_name: Bratislavský kraj
+      country: Slovakia
+      nuts1: SK0
+  - SK02:
+      area_name: Západné Slovensko
+      country: Slovakia
+      nuts1: SK0
+  - SK03:
+      area_name: Stredné Slovensko
+      country: Slovakia
+      nuts1: SK0
+  - SK04:
+      area_name: Východné Slovensko
+      country: Slovakia
+      nuts1: SK0
+  - SKZZ:
+      area_name: Extra-Regio NUTS 2
+      country: Slovakia
+      nuts1: SKZ
+  - FI19:
+      area_name: Länsi-Suomi
+      country: Finland
+      nuts1: FI1
+  - FI1B:
+      area_name: Helsinki-Uusimaa
+      country: Finland
+      nuts1: FI1
+  - FI1C:
+      area_name: Etelä-Suomi
+      country: Finland
+      nuts1: FI1
+  - FI1D:
+      area_name: Pohjois- ja Itä-Suomi
+      country: Finland
+      nuts1: FI1
+  - FI20:
+      area_name: Åland
+      country: Finland
+      nuts1: FI2
+  - FIZZ:
+      area_name: Extra-Regio NUTS 2
+      country: Finland
+      nuts1: FIZ
+  - SE11:
+      area_name: Stockholm
+      country: Sweden
+      nuts1: SE1
+  - SE12:
+      area_name: Östra Mellansverige
+      country: Sweden
+      nuts1: SE1
+  - SE21:
+      area_name: Småland med öarna
+      country: Sweden
+      nuts1: SE2
+  - SE22:
+      area_name: Sydsverige
+      country: Sweden
+      nuts1: SE2
+  - SE23:
+      area_name: Västsverige
+      country: Sweden
+      nuts1: SE2
+  - SE31:
+      area_name: Norra Mellansverige
+      country: Sweden
+      nuts1: SE3
+  - SE32:
+      area_name: Mellersta Norrland
+      country: Sweden
+      nuts1: SE3
+  - SE33:
+      area_name: Övre Norrland
+      country: Sweden
+      nuts1: SE3
+  - SEZZ:
+      area_name: Extra-Regio NUTS 2
+      country: Sweden
+      nuts1: SEZ
+  - UKC1:
+      area_name: Tees Valley and Durham
+      country: United Kingdom
+      nuts1: UKC
+  - UKC2:
+      area_name: Northumberland and Tyne and Wear
+      country: United Kingdom
+      nuts1: UKC
+  - UKD1:
+      area_name: Cumbria
+      country: United Kingdom
+      nuts1: UKD
+  - UKD3:
+      area_name: Greater Manchester
+      country: United Kingdom
+      nuts1: UKD
+  - UKD4:
+      area_name: Lancashire
+      country: United Kingdom
+      nuts1: UKD
+  - UKD6:
+      area_name: Cheshire
+      country: United Kingdom
+      nuts1: UKD
+  - UKD7:
+      area_name: Merseyside
+      country: United Kingdom
+      nuts1: UKD
+  - UKE1:
+      area_name: East Yorkshire and Northern Lincolnshire
+      country: United Kingdom
+      nuts1: UKE
+  - UKE2:
+      area_name: North Yorkshire
+      country: United Kingdom
+      nuts1: UKE
+  - UKE3:
+      area_name: South Yorkshire
+      country: United Kingdom
+      nuts1: UKE
+  - UKE4:
+      area_name: West Yorkshire
+      country: United Kingdom
+      nuts1: UKE
+  - UKF1:
+      area_name: Derbyshire and Nottinghamshire
+      country: United Kingdom
+      nuts1: UKF
+  - UKF2:
+      area_name: Leicestershire, Rutland and Northamptonshire
+      country: United Kingdom
+      nuts1: UKF
+  - UKF3:
+      area_name: Lincolnshire
+      country: United Kingdom
+      nuts1: UKF
+  - UKG1:
+      area_name: Herefordshire, Worcestershire and Warwickshire
+      country: United Kingdom
+      nuts1: UKG
+  - UKG2:
+      area_name: Shropshire and Staffordshire
+      country: United Kingdom
+      nuts1: UKG
+  - UKG3:
+      area_name: West Midlands
+      country: United Kingdom
+      nuts1: UKG
+  - UKH1:
+      area_name: East Anglia
+      country: United Kingdom
+      nuts1: UKH
+  - UKH2:
+      area_name: Bedfordshire and Hertfordshire
+      country: United Kingdom
+      nuts1: UKH
+  - UKH3:
+      area_name: Essex
+      country: United Kingdom
+      nuts1: UKH
+  - UKI3:
+      area_name: Inner London — West
+      country: United Kingdom
+      nuts1: UKI
+  - UKI4:
+      area_name: Inner London — East
+      country: United Kingdom
+      nuts1: UKI
+  - UKI5:
+      area_name: Outer London — East and North East
+      country: United Kingdom
+      nuts1: UKI
+  - UKI6:
+      area_name: Outer London — South
+      country: United Kingdom
+      nuts1: UKI
+  - UKI7:
+      area_name: Outer London — West and North West
+      country: United Kingdom
+      nuts1: UKI
+  - UKJ1:
+      area_name: Berkshire, Buckinghamshire and Oxfordshire
+      country: United Kingdom
+      nuts1: UKJ
+  - UKJ2:
+      area_name: Surrey, East and West Sussex
+      country: United Kingdom
+      nuts1: UKJ
+  - UKJ3:
+      area_name: Hampshire and Isle of Wight
+      country: United Kingdom
+      nuts1: UKJ
+  - UKJ4:
+      area_name: Kent
+      country: United Kingdom
+      nuts1: UKJ
+  - UKK1:
+      area_name: Gloucestershire, Wiltshire and Bristol/Bath area
+      country: United Kingdom
+      nuts1: UKK
+  - UKK2:
+      area_name: Dorset and Somerset
+      country: United Kingdom
+      nuts1: UKK
+  - UKK3:
+      area_name: Cornwall and Isles of Scilly
+      country: United Kingdom
+      nuts1: UKK
+  - UKK4:
+      area_name: Devon
+      country: United Kingdom
+      nuts1: UKK
+  - UKL1:
+      area_name: West Wales and The Valleys
+      country: United Kingdom
+      nuts1: UKL
+  - UKL2:
+      area_name: East Wales
+      country: United Kingdom
+      nuts1: UKL
+  - UKM5:
+      area_name: North Eastern Scotland
+      country: United Kingdom
+      nuts1: UKM
+  - UKM6:
+      area_name: Highlands and Islands
+      country: United Kingdom
+      nuts1: UKM
+  - UKM7:
+      area_name: Eastern Scotland
+      country: United Kingdom
+      nuts1: UKM
+  - UKM8:
+      area_name: West Central Scotland
+      country: United Kingdom
+      nuts1: UKM
+  - UKM9:
+      area_name: Southern Scotland
+      country: United Kingdom
+      nuts1: UKM
+  - UKN0:
+      area_name: Northern Ireland
+      country: United Kingdom
+      nuts1: UKN
+  - UKZZ:
+      area_name: Extra-Regio NUTS 2
+      country: United Kingdom
+      nuts1: UKZ
+  - IS00:
+      area_name: Ísland
+      country: Iceland
+      nuts1: IS0
+  - ISZZ:
+      area_name: Extra-Regio NUTS 2
+      country: Iceland
+      nuts1: ISZ
+  - LI00:
+      area_name: Liechtenstein
+      country: Liechtenstein
+      nuts1: LI0
+  - LIZZ:
+      area_name: Extra-Regio NUTS 2
+      country: Liechtenstein
+      nuts1: LIZ
+  - NO02:
+      area_name: Innlandet
+      country: Norway
+      nuts1: NO0
+  - NO06:
+      area_name: Trøndelag
+      country: Norway
+      nuts1: NO0
+  - NO07:
+      area_name: Nord-Norge
+      country: Norway
+      nuts1: NO0
+  - NO08:
+      area_name: Oslo og Viken
+      country: Norway
+      nuts1: NO0
+  - NO09:
+      area_name: Agder og Sør-Østlandet
+      country: Norway
+      nuts1: NO0
+  - NO0A:
+      area_name: Vestlandet
+      country: Norway
+      nuts1: NO0
+  - NO0B:
+      area_name: Jan Mayen and Svalbard
+      country: Norway
+      nuts1: NO0
+  - NOZZ:
+      area_name: Extra-Regio NUTS 2
+      country: Norway
+      nuts1: NOZ
+  - CH01:
+      area_name: Région lémanique
+      country: Switzerland
+      nuts1: CH0
+  - CH02:
+      area_name: Espace Mittelland
+      country: Switzerland
+      nuts1: CH0
+  - CH03:
+      area_name: Nordwestschweiz
+      country: Switzerland
+      nuts1: CH0
+  - CH04:
+      area_name: Zürich
+      country: Switzerland
+      nuts1: CH0
+  - CH05:
+      area_name: Ostschweiz
+      country: Switzerland
+      nuts1: CH0
+  - CH06:
+      area_name: Zentralschweiz
+      country: Switzerland
+      nuts1: CH0
+  - CH07:
+      area_name: Ticino
+      country: Switzerland
+      nuts1: CH0
+  - CHZZ:
+      area_name: Extra-Regio NUTS 2
+      country: Switzerland
+      nuts1: CHZ
+  - ME00:
+      area_name: Црна Гора
+      country: Montenegro
+      nuts1: ME0
+  - MEZZ:
+      area_name: Extra-Regio NUTS 2
+      country: Montenegro
+      nuts1: MEZ
+  - MK00:
+      area_name: Северна Македонија
+      country: North Macedonia
+      nuts1: MK0
+  - MKZZ:
+      area_name: Extra-Regio NUTS 2
+      country: North Macedonia
+      nuts1: MKZ
+  - AL01:
+      area_name: Veri
+      country: Albania
+      nuts1: AL0
+  - AL02:
+      area_name: Qender
+      country: Albania
+      nuts1: AL0
+  - AL03:
+      area_name: Jug
+      country: Albania
+      nuts1: AL0
+  - ALZZ:
+      area_name: Extra-Regio NUTS 2
+      country: Albania
+      nuts1: ALZ
+  - RS11:
+      area_name: Београдски регион
+      country: Serbia
+      nuts1: RS1
+  - RS12:
+      area_name: Регион Војводине
+      country: Serbia
+      nuts1: RS1
+  - RS21:
+      area_name: Регион Шумадије и Западне Србије
+      country: Serbia
+      nuts1: RS2
+  - RS22:
+      area_name: Регион Јужне и Источне Србије
+      country: Serbia
+      nuts1: RS2
+  - RSZZ:
+      area_name: Extra-Regio NUTS 2
+      country: Serbia
+      nuts1: RSZ
+  - TR10 :
+      area_name: İstanbul
+      country: Turkey
+      nuts1: TR1
+  - TR21:
+      area_name: Tekirdağ, Edirne, Kırklareli
+      country: Turkey
+      nuts1: TR2
+  - TR22:
+      area_name: Balıkesir, Çanakkale
+      country: Turkey
+      nuts1: TR2
+  - TR31:
+      area_name: İzmir
+      country: Turkey
+      nuts1: TR3
+  - TR32:
+      area_name: Aydın, Denizli, Muğla
+      country: Turkey
+      nuts1: TR3
+  - TR33:
+      area_name: Manisa, Afyonkarahisar, Kütahya, Uşak
+      country: Turkey
+      nuts1: TR3
+  - TR41:
+      area_name: Bursa, Eskişehir, Bilecik
+      country: Turkey
+      nuts1: TR4
+  - TR42:
+      area_name: Kocaeli, Sakarya, Düzce, Bolu, Yalova
+      country: Turkey
+      nuts1: TR4
+  - TR51:
+      area_name: Ankara
+      country: Turkey
+      nuts1: TR5
+  - TR52:
+      area_name: Konya, Karaman
+      country: Turkey
+      nuts1: TR5
+  - TR61:
+      area_name: Antalya, Isparta, Burdur
+      country: Turkey
+      nuts1: TR6
+  - TR62:
+      area_name: Adana, Mersin
+      country: Turkey
+      nuts1: TR6
+  - TR63:
+      area_name: Hatay, Kahramanmaraş, Osmaniye
+      country: Turkey
+      nuts1: TR6
+  - TR71:
+      area_name: Kırıkkale, Aksaray, Niğde, Nevşehir, Kırşehir
+      country: Turkey
+      nuts1: TR7
+  - TR72:
+      area_name: Kayseri, Sivas, Yozgat
+      country: Turkey
+      nuts1: TR7
+  - TR81:
+      area_name: Zonguldak, Karabük, Bartın
+      country: Turkey
+      nuts1: TR8
+  - TR82:
+      area_name: Kastamonu, Çankırı, Sinop
+      country: Turkey
+      nuts1: TR8
+  - TR83:
+      area_name: Samsun, Tokat, Çorum, Amasya
+      country: Turkey
+      nuts1: TR8
+  - TR90 :
+      area_name: Trabzon, Ordu, Giresun, Rize, Artvin, Gümüşhane
+      country: Turkey
+      nuts1: TR9
+  - TRA1:
+      area_name: Erzurum, Erzincan, Bayburt
+      country: Turkey
+      nuts1: TRA
+  - TRA2:
+      area_name: Ağrı, Kars, Iğdır, Ardahan
+      country: Turkey
+      nuts1: TRA
+  - TRB1:
+      area_name: Malatya, Elazığ, Bingöl, Tunceli
+      country: Turkey
+      nuts1: TRB
+  - TRB2:
+      area_name: Van, Muş, Bitlis, Hakkari
+      country: Turkey
+      nuts1: TRB
+  - TRC1:
+      area_name: Gaziantep, Adıyaman, Kilis
+      country: Turkey
+      nuts1: TRC
+  - TRC2:
+      area_name: Şanlıurfa, Diyarbakır
+      country: Turkey
+      nuts1: TRC
+  - TRC3:
+      area_name: Mardin, Batman, Şırnak, Siirt
+      country: Turkey
+      nuts1: TRC
+  - TRZZ:
+      area_name: Extra-Regio NUTS 2
+      country: Turkey
+      nuts1: TRZ

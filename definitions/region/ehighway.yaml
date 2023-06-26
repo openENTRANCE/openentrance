@@ -1,0 +1,741 @@
+# e-highway2050 clusters
+
+# e-highway2050 was an EU-funded project (2012-2015) whose objective was to provide a
+# modular and robust expansion plan for the Pan-European Transmission Network from 2020 to 2050
+# In particular it defined a cluster model of the Pan-European transmission grid  (D2.2)
+# See https://docs.entsoe.eu/baltic-conf/bites/www.e-highway2050.eu/e-highway2050/
+
+# e-highway clusters were used in the plan4res project (www.plan4res.eu) to create its
+# public dataset
+
+# Clusters are defined as aggregations of NUTS[1-3] regions
+# refer to `nuts1.yaml`, `nuts2.yaml` & `nuts3.yaml` for the definition of NUTS regions
+
+- e-highway2050:
+  - Spain|Subgrid 01:
+      country: Spain
+      definition: ES111 + ES112 + ES113 + ES114
+      ehighway2050: 01_ES
+      note: This region was defined and used in the ehighway2050 public datasets
+  - Spain|Subgrid 02:
+      country: Spain
+      definition: ES120 + ES130 + ES413 + ES415 + ES419
+      ehighway2050: 02_ES
+      note: This region was defined and used in the ehighway2050 public datasets
+  - Spain|Subgrid 03:
+      country: Spain
+      definition: ES411 + ES412 + ES414 + ES416 + ES417 + ES418 + ES424
+      ehighway2050: 03_ES
+      note: This region was defined and used in the ehighway2050 public datasets
+  - Spain|Subgrid 04:
+      country: Spain
+      definition: ES211 +ES212 + ES213 + ES220 + ES230
+      ehighway2050: 04_ES
+      note: This region was defined and used in the ehighway2050 public datasets
+  - Spain|Subgrid 05:
+      country: Spain
+      definition: ES241 + ES242 + ES243
+      ehighway2050: 05_ES
+      note: This region was defined and used in the ehighway2050 public datasets
+  - Spain|Subgrid 06:
+      country: Spain
+      definition: ES511 + ES512 + ES513 + ES514
+      ehighway2050: 06_ES
+      note: This region was defined and used in the ehighway2050 public datasets
+  - Spain|Subgrid 07:
+      country: Spain
+      definition: ES300
+      ehighway2050: 07_ES
+      note: This region was defined and used in the ehighway2050 public datasets
+  - Spain|Subgrid 08:
+      country: Spain
+      definition: ES422 + ES425 + ES431 + ES432
+      ehighway2050: 08_ES
+      note: This region was defined and used in the ehighway2050 public datasets
+  - Spain|Subgrid 09:
+      country: Spain
+      definition: ES612 + ES615 + ES617 + ES618
+      ehighway2050: 09_ES
+      note: This region was defined and used in the ehighway2050 public datasets
+  - Spain|Subgrid 10:
+      country: Spain
+      definition: ES611 + ES613 + ES614 + ES616
+      ehighway2050: 10_ES
+      note: This region was defined and used in the ehighway2050 public datasets
+  - Spain|Subgrid 11:
+      country: Spain
+      definition: ES421 + ES423 + ES521 + ES522 + ES523 + ES620
+      ehighway2050: 11_ES
+      note: This region was defined and used in the ehighway2050 public datasets
+  - Portugal|Subgrid 12:
+      country: Portugal
+      definition: PT111 + PT112 + PT119 + PT11A + PT11B + PT11C + PT11D + PT11E +
+        PT16D + PT16E + PT16G + PT16H + PT16J
+      ehighway2050: 12_PT
+      note: This region was defined and used in the ehighway2050 public datasets
+  - Portugal|Subgrid 13:
+      country: Portugal
+      definition: PT150 + PT16B + PT16F + PT16I + PT170 + PT181 + PT184 + PT185 +
+        PT186 + PT187
+      ehighway2050: 13_PT
+      note: This region was defined and used in the ehighway2050 public datasets
+  - France|Subgrid 14:
+      country: France
+      definition: FRI11 + FRI12 + FRI13 + FRI14 + FRI15 + FRJ21 + FRJ23 + FRJ24 +
+        FRJ26 + FRJ28
+      ehighway2050: 14_FR
+      note: This region was defined and used in the ehighway2050 public datasets
+  - France|Subgrid 15:
+      country: France
+      definition: FRJ22 + FRJ25 + FRJ27 + FRI21 + FRK12 + FRJ11 + FRJ13 + FRJ14 +
+        FRJ15
+      ehighway2050: 15_FR
+      note: This region was defined and used in the ehighway2050 public datasets
+  - France|Subgrid 16:
+      country: France
+      definition: FRL01 + FRL03 + FRL04 + FRL05 + FRL06 + FRJ12
+      ehighway2050: 16_FR
+      note: This region was defined and used in the ehighway2050 public datasets
+  - France|Subgrid 17:
+      country: France
+      definition: FRG02 + FRG04 + FRG05 + FRB04 + FRI33 + FRI32 + FRI31 + FRI34
+      ehighway2050: 17_FR
+      note: This region was defined and used in the ehighway2050 public datasets
+  - France|Subgrid 18:
+      country: France
+      definition: FRB02 + FRB05 + FRB06 + FRB01 + FRB03 + FRC12 + FRI22 + FRI23 +
+        FRK11 + FRK14
+      ehighway2050: 18_FR
+      note: This region was defined and used in the ehighway2050 public datasets
+  - France|Subgrid 19:
+      country: France
+      definition: FRK22 + FRK23 + FRK25 + FRK26 + FRK13
+      ehighway2050: 19_FR
+      note: This region was defined and used in the ehighway2050 public datasets
+  - France|Subgrid 20:
+      country: France
+      definition: FRC22 + FRK21 + FRK24 + FRK27 + FRK28 + FRL02
+      ehighway2050: 20_FR
+      note: This region was defined and used in the ehighway2050 public datasets
+  - France|Subgrid 21:
+      country: France
+      definition: FRG01 + FRG03 + FRH01 + FRH02 + FRH03 + FRH04
+      ehighway2050: 21_FR
+      note: This region was defined and used in the ehighway2050 public datasets
+  - France|Subgrid 22:
+      country: France
+      definition: FRD21 + FRD11 + FRD12 + FRD13
+      ehighway2050: 22_FR
+      note: This region was defined and used in the ehighway2050 public datasets
+  - France|Subgrid 23:
+      country: France
+      definition: FR101 + FR102 + FR103 + FR104 + FR105 + FR106 + FR107 + FR108
+      ehighway2050: 23_FR
+      note: This region was defined and used in the ehighway2050 public datasets
+  - France|Subgrid 24:
+      country: France
+      definition: FRF22 + FRF24 + FRC11 + FRC13 + FRC14
+      ehighway2050: 24_FR
+      note: This region was defined and used in the ehighway2050 public datasets
+  - France|Subgrid 25:
+      country: France
+      definition: FRF31 + FRF32 + FRF33 + FRF34 + FRF11 + FRF12 + FRC21 + FRC23 +
+        FRC24
+      ehighway2050: 25_FR
+      note: This region was defined and used in the ehighway2050 public datasets
+  - France|Subgrid 26:
+      country: France
+      definition: FRE11 + FRE12 + FRE23 + FRD22 + FRE22 + FRE21
+      ehighway2050: 26_FR
+      note: This region was defined and used in the ehighway2050 public datasets
+  - France|Subgrid 27:
+      country: France
+      definition: FRF21 + FRF23
+      ehighway2050: 27_FR
+      note: This region was defined and used in the ehighway2050 public datasets
+  - France|Subgrid 99:
+      country: France
+      definition: FRM01 + FRM02
+      ehighway2050: 99_FR
+      note: This region was defined and used in the ehighway2050 public datasets
+  - Belgium|Subgrid 28:
+      country: Belgium
+      definition: BE100 + BE211 + BE212 + BE213 + BE223 + BE224 + BE225 + BE231 +
+        BE232 + BE233 + BE234 + BE235 + BE236 + BE241 + BE251 + BE252 + BE253 + BE254
+        + BE255 + BE256 + BE257 + BE258 + BE310 + BE32A + BE32B + BE32C + BE32D +
+        BE323 + BE328 + BE329 + BE331 + BE332 + BE334 + BE335 + BE336 + BE341 + BE342
+        + BE343 + BE344 + BE345 + BE351 + BE352 + BE353
+      ehighway2050: 28_BE
+      note: This region was defined and used in the ehighway2050 public datasets
+  - Luxembourg|Subgrid 29:
+      country: Luxembourg
+      definition: LU00
+      ehighway2050: 29_LU
+      note: This region was defined and used in the ehighway2050 public datasets
+  - The Netherlands|Subgrid 30:
+      country: The Netherlands
+      definition: NL111 + NL112 + NL113 + NL124 + NL125 + NL126 + NL131 + NL132 +
+        NL133 + NL211 + NL212 + NL213 + NL221 + NL224 + NL225 + NL226 + NL230 + NL310
+        + NL321 + NL323 + NL324 + NL325 + NL327 + NL328 + NL329 + NL332 + NL333 +
+        NL337 + NL33A + NL33B + NL33C + NL341 + NL342 + NL411 + NL412 + NL413 + NL414
+        + NL421 + NL422 + NL423
+      ehighway2050: 30_NL
+      note: This region was defined and used in the ehighway2050 public datasets
+  - Germany|Subgrid 31:
+      country: Germany
+      definition: DE501 + DE502 + DE600 + DE911 + DE912 + DE913 + DE914 + DE916 +
+        DE917 + DE918 + DE91A + DE91B + DE91C + DE922 + DE923 + DE925 + DE926 + DE927
+        + DE928 + DE929 + DE931 + DE932 + DE933 + DE934 + DE935 + DE936 + DE937 +
+        DE938 + DE939 + DE93A + DE93B + DE941 + DE942 + DE943 + DE944 + DE945 + DE946
+        + DE947 + DE948 + DE949 + DE94A + DE94B + DE94C + DE94D + DE94E + DE94F +
+        DE94G + DE94H + DEF01 + DEF02 + DEF03 + DEF04 + DEF05 + DEF06 + DEF07 + DEF08
+        + DEF09 + DEF0A + DEF0B + DEF0C + DEF0D + DEF0E + DEF0F + DEF0F
+      ehighway2050: 31_DE
+      note: This region was defined and used in the ehighway2050 public datasets
+  - Germany|Subgrid 32:
+      country: Germany
+      definition: DE300 + DE401 + DE403 + DE404 + DE405 + DE406 + DE408 + DE409 +
+        DE40A + DE40C + DE40D + DE40E + DE40F + DE40H + DE40I + DE803 + DE804 + DE80J
+        + DE80K + DE80L + DE80M + DE80N + DE80O + DEE03 + DEE04 + DEE06 + DEE07 +
+        DEE0D
+      ehighway2050: 32_DE
+      note: This region was defined and used in the ehighway2050 public datasets
+  - Germany|Subgrid 33:
+      country: Germany
+      definition: DEA11 + DEA12 + DEA13 + DEA14 + DEA15 + DEA16 + DEA17 + DEA18 +
+        DEA19 + DEA1A + DEA1B + DEA1C + DEA1D + DEA1E + DEA1F + DEA22 + DEA23 + DEA24
+        + DEA26 + DEA27 + DEA28 + DEA29 + DEA2A + DEA2B + DEA2C + DEA2D + DEA31 +
+        DEA32 + DEA33 + DEA34 + DEA35 + DEA36 + DEA37 + DEA38 + DEA41 + DEA42 + DEA43
+        + DEA44 + DEA45 + DEA46 + DEA47 + DEA51 + DEA52 + DEA53 + DEA54 + DEA55 +
+        DEA56 + DEA57 + DEA58 + DEA59 + DEA5A + DEA5B + DEA5C
+      ehighway2050: 33_DE
+      note: This region was defined and used in the ehighway2050 public datasets
+  - Germany|Subgrid 34:
+      country: Germany
+      definition: DE402 + DE407 + DE40B + DE40G + DED21 + DED2C + DED2D + DED2E +
+        DED2F + DED41 + DED42 + DED43 + DED44 + DED45 + DED51 + DED52 + DED52 + DED53
+        + DEE01 + DEE02 + DEE05 + DEE08 + DEE09 + DEE0A + DEE0B + DEE0C + DEE0E +
+        DEG01 + DEG02 + DEG03 + DEG04 + DEG05 + DEG06 + DEG07 + DEG09 + DEG0A + DEG0B
+        + DEG0C + DEG0D + DEG0E + DEG0F + DEG0G + DEG0H + DEG0I + DEG0J + DEG0K +
+        DEG0L + DEG0M + DEG0N + DEG0P
+      ehighway2050: 34_DE
+      note: This region was defined and used in the ehighway2050 public datasets
+  - Germany|Subgrid 35:
+      country: Germany
+      definition: DE711 + DE712 + DE713 + DE714 + DE715 + DE716 + DE717 + DE718 +
+        DE719 + DE71A + DE71B + DE71C + DE71D + DE71E + DE721 + DE722 + DE723 + DE724
+        + DE725 + DE731 + DE732 + DE733 + DE734 + DE735 + DE736 + DE737 + DEB11 +
+        DEB12 + DEB13 + DEB14 + DEB15 + DEB17 + DEB18 + DEB1A + DEB1B + DEB1C + DEB1D
+        + DEB21 + DEB22 + DEB23 + DEB24 + DEB25 + DEB31 + DEB32 + DEB33 + DEB34 +
+        DEB35 + DEB36 + DEB37 + DEB38 + DEB39 + DEB3A + DEB3B + DEB3C + DEB3D + DEB3E
+        + DEB3F + DEB3G + DEB3H + DEB3I + DEB3J + DEB3K + DEC01 + DEC02 + DEC03 +
+        DEC04 + DEC05 + DEC06
+      ehighway2050: 35_DE
+      note: This region was defined and used in the ehighway2050 public datasets
+  - Germany|Subgrid 36:
+      country: Germany
+      definition: DE111 + DE112 + DE113 + DE114 + DE115 + DE116 + DE117 + DE118 +
+        DE119 + DE11A + DE11B + DE11C + DE11D + DE121 + DE122 + DE123 + DE124 + DE125
+        + DE126 + DE127 + DE128 + DE129 + DE12A + DE12B + DE12C + DE131 + DE132 +
+        DE133 + DE134 + DE135 + DE136 + DE137 + DE138 + DE139 + DE13A + DE141 + DE142
+        + DE143 + DE144 + DE145 + DE146 + DE147 + DE148 + DE149
+      ehighway2050: 36_DE
+      note: This region was defined and used in the ehighway2050 public datasets
+  - Germany|Subgrid 37:
+      country: Germany
+      definition: DE211 + DE212 + DE213 + DE214 + DE215 + DE216 + DE217 + DE218 +
+        DE219 + DE21A + DE21B + DE21C + DE21D + DE21E + DE21F + DE21G + DE21H + DE21I
+        + DE21J + DE21K + DE21L + DE21M + DE21N + DE221 + DE222 + DE223 + DE224 +
+        DE225 + DE226 + DE227 + DE228 + DE229 + DE22A + DE22B + DE22C + DE231 + DE232
+        + DE233 + DE234 + DE235 + DE236 + DE237 + DE238 + DE239 + DE23A + DE241 +
+        DE242 + DE243 + DE244 + DE245 + DE246 + DE247 + DE248 + DE249 + DE24A + DE24B
+        + DE24C + DE24D + DE251 + DE252 + DE253 + DE254 + DE255 + DE256 + DE257 +
+        DE258 + DE259 + DE25A + DE25B + DE25C + DE261 + DE262 + DE263 + DE264 + DE265
+        + DE266 + DE267 + DE268 + DE269 + DE26A + DE26B + DE26C + DE271 + DE272 +
+        DE273 + DE274 + DE275 + DE276 + DE277 + DE278 + DE279 + DE27A + DE27B + DE27C
+        + DE27D + DE27E
+      ehighway2050: 37_DE
+      note: This region was defined and used in the ehighway2050 public datasets
+  - Denmark|Subgrid 38:
+      country: Denmark
+      definition: DK031 + DK032 + DK041 + DK042 + DK050
+      ehighway2050: 38_DK
+      note: This region was defined and used in the ehighway2050 public datasets
+  - Denmark|Subgrid 72:
+      country: Denmark
+      definition: DK011 + DK012 + DK013 + DK014 + DK021 + DK022
+      ehighway2050: 72_DK
+      note: This region was defined and used in the ehighway2050 public datasets
+  - Czech Republic|Subgrid 39:
+      country: Czech Republic
+      definition: CZ010 + CZ020 + CZ031 + CZ032 + CZ041 + CZ042 + CZ051 + CZ052
+      ehighway2050: 39_CZ
+      note: This region was defined and used in the ehighway2050 public datasets
+  - Czech Republic|Subgrid 40:
+      country: Czech Republic
+      definition: CZ053 + CZ063 + CZ064 + CZ071 + CZ072 + CZ080
+      ehighway2050: 40_CZ
+      note: This region was defined and used in the ehighway2050 public datasets
+  - Poland|Subgrid 41:
+      country: Poland
+      definition: PL711 + PL712 + PL713 + PL714 + PL715 + PL841 + PL842 + PL843 +
+        PL911 + PL912 + PL913 + PL922 + PL923 + PL924 + PL925 + PL926
+      ehighway2050: 41_PL
+      note: This region was defined and used in the ehighway2050 public datasets
+  - Poland|Subgrid 42:
+      country: Poland
+      definition: PL721 + PL722 + PL811 + PL812 + PL814 + PL815 + PL821 + PL822 +
+        PL823 + PL824 + PL921
+      ehighway2050: 42_PL
+      note: This region was defined and used in the ehighway2050 public datasets
+  - Poland|Subgrid 43:
+      country: Poland
+      definition: PL213 + PL214 + PL217 + PL218 + PL219 + PL21A + PL224 + PL225 +
+        PL22A + PL22B + PL22C + PL227 + PL228 + PL229
+      ehighway2050: 43_PL
+      note: This region was defined and used in the ehighway2050 public datasets
+  - Poland|Subgrid 44:
+      country: Poland
+      definition: PL411 + PL414 + PL415 + PL416 + PL417 + PL418 + PL424 + PL426 +
+        PL427 + PL428 + PL431 + PL432 + PL514 + PL515 + PL516 + PL517 + PL518
+      ehighway2050: 44_PL
+      note: This region was defined and used in the ehighway2050 public datasets
+  - Poland|Subgrid 45:
+      country: Poland
+      definition: PL613 + PL616 + PL617 + PL618 + PL619 + PL621 + PL622 + PL623 +
+        PL633 + PL634 + PL636 + PL637 + PL638
+      ehighway2050: 45_PL
+      note: This region was defined and used in the ehighway2050 public datasets
+  - Slovakia|Subgrid 46:
+      country: Slovakia
+      definition: SK010 + SK021 + SK022 + SK023 + SK031 + SK032 + SK041 + SK042
+      ehighway2050: 46_SK
+      note: This region was defined and used in the ehighway2050 public datasets
+  - Switzerland|Subgrid 47:
+      country: Switzerland
+      definition: CH011 + CH013 + CH021 + CH022 + CH023 + CH024 + CH025 + CH031 +
+        CH032 + CH033 + CH040 + CH051 + CH052 + CH053 + CH054 + CH057 + CH061 + CH063
+        + CH066
+      ehighway2050: 47_CH
+      note: This region was defined and used in the ehighway2050 public datasets
+  - Switzerland|Subgrid 48:
+      country: Switzerland
+      definition: CH012 + CH056 + CH062 + CH064 + CH065 + CH070
+      ehighway2050: 48_CH
+      note: This region was defined and used in the ehighway2050 public datasets
+  - Austria|Subgrid 49:
+      country: Austria
+      definition: AT211 + AT212 + AT321 + AT322 + AT323 + AT331 + AT332 + AT333 +
+        AT334 + AT335 + AT341 + AT342
+      ehighway2050: 49_AT
+      note: This region was defined and used in the ehighway2050 public datasets
+  - Austria|Subgrid 50:
+      country: Austria
+      definition: AT213 + AT221 + AT222 + AT223 + AT224 + AT225 + AT226 + AT311 +
+        AT312 + AT313 + AT314 + AT315
+      ehighway2050: 50_AT
+      note: This region was defined and used in the ehighway2050 public datasets
+  - Austria|Subgrid 51:
+      country: Austria
+      definition: AT111 + AT112 + AT113 + AT121 + AT122 + AT123 + AT124 + AT125 +
+        AT126 + AT127 + AT130
+      ehighway2050: 51_AT
+      note: This region was defined and used in the ehighway2050 public datasets
+  - Italy|Subgrid 52:
+      country: Italy
+      definition: ITC11 + ITC12 + ITC13 + ITC14 + ITC15 + ITC16 + ITC17 + ITC18 +
+        ITC20 + ITC31 + ITC32 + ITC33 + ITC34 + ITC41 + ITC42 + ITC43 + ITC44 + ITC46
+        + ITC47 + ITC48 + ITC49 + ITC4A + ITC4B + ITC4C + ITC4D + ITH10 + ITH20 +
+        ITH31 + ITH32 + ITH33 + ITH34 + ITH35 + ITH36 + ITH37 + ITH41 + ITH42 + ITH43
+        + ITH44 + ITH51 + ITH52 + ITH53 + ITH54 + ITH55 + ITH56 + ITH57 + ITH58 +
+        ITH59
+      ehighway2050: 52_IT
+      note: This region was defined and used in the ehighway2050 public datasets
+  - Italy|Subgrid 53:
+      country: Italy
+      definition: ITI11 + ITI12 + ITI13 + ITI14 + ITI15 + ITI16 + ITI17 + ITI18 +
+        ITI19 + ITI1A + ITI21 + ITI22 + ITI31 + ITI32 + ITI33 + ITI34 + ITI35
+      ehighway2050: 53_IT
+      note: This region was defined and used in the ehighway2050 public datasets
+  - Italy|Subgrid 54:
+      country: Italy
+      definition: ITI41 + ITI42 + ITI43 + ITI44 + ITI45 + ITF11 + ITF12 + ITF13 +
+        ITF14 + ITF31 + ITF32 + ITF33 + ITF34 + ITF35
+      ehighway2050: 54_IT
+      note: This region was defined and used in the ehighway2050 public datasets
+  - Italy|Subgrid 55:
+      country: Italy
+      definition: ITF21 + ITF22 + ITF43 + ITF44 + ITF45 + ITF46 + ITF47 + ITF48 +
+        ITF51 + ITF52 + ITF61 + ITF62 + ITF63 + ITF64 + ITF65
+      ehighway2050: 55_IT
+      note: This region was defined and used in the ehighway2050 public datasets
+  - Italy|Subgrid 56:
+      country: Italy
+      definition: ITG11 + ITG12 + ITG13 + ITG14 + ITG15 + ITG16 + ITG17 + ITG18 +
+        ITG19
+      ehighway2050: 56_IT
+      note: This region was defined and used in the ehighway2050 public datasets
+  - Italy|Subgrid 98:
+      country: Italy
+      definition: ITG2D + ITG2E + ITG2F + ITG2G + ITG2H
+      ehighway2050: 98_IT
+      note: This region was defined and used in the ehighway2050 public datasets
+  - Slovenia|Subgrid 57:
+      country: Slovenia
+      definition: SI031 + SI032 + SI033 + SI034 + SI035 + SI036 + SI037 + SI038 +
+        SI041 + SI042 + SI043 + SI044
+      ehighway2050: 57_SI
+      note: This region was defined and used in the ehighway2050 public datasets
+  - Hungary|Subgrid 58:
+      country: Hungary
+      definition: HU110 + HU120 + HU211 + HU212 + HU213 + HU221 + HU222 + HU223 +
+        HU231 + HU232 + HU233 + HU311 + HU312 + HU313 + HU321 + HU322 + HU323 + HU331
+        + HU332 + HU333
+      ehighway2050: 58_HU
+      note: This region was defined and used in the ehighway2050 public datasets
+  - Romania|Subgrid 59:
+      country: Romania
+      definition: RO111 + RO112 + RO113 + RO114 + RO115 + RO116 + RO121 + RO122 +
+        RO123 + RO124 + RO125 + RO126 + RO421 + RO422 + RO423 + RO424
+      ehighway2050: 59_RO
+      note: This region was defined and used in the ehighway2050 public datasets
+  - Romania|Subgrid 60:
+      country: Romania
+      definition: RO311 + RO313 + RO314 + RO316 + RO317 + RO321 + RO322 + RO411 +
+        RO412 + RO413 + RO414 + RO415
+      ehighway2050: 60_RO
+      note: This region was defined and used in the ehighway2050 public datasets
+  - Romania|Subgrid 61:
+      country: Romania
+      definition: RO211 + RO212 + RO213 + RO214 + RO215 + RO216 + RO221 + RO222 +
+        RO223 + RO224 + RO225 + RO226 + RO312 + RO315
+      ehighway2050: 61_RO
+      note: This region was defined and used in the ehighway2050 public datasets
+  - Croatia|Subgrid 62:
+      country: Croatia
+      definition: HR021 + HR022 + HR023 + HR024 + HR025 + HR026 + HR027 + HR028 +
+        HR031 + HR032 + HR033 + HR034 + HR035 + HR036 + HR050 + HR061 + HR062 + HR063
+        + HR064 + HR065
+      ehighway2050: 62_HR
+      note: This region was defined and used in the ehighway2050 public datasets
+  - Bosnia and Herzegovina|Subgrid 63:
+      country: Bosnia and Herzegovina
+      definition: null
+      ehighway2050: 63_HR
+      note: This region was defined and used in the ehighway2050 public datasets
+  - Montenegro|Subgrid 64:
+      country: Montenegro
+      definition: ME000
+      ehighway2050: 64_ME
+      note: This region was defined and used in the ehighway2050 public datasets
+  - Serbia|Subgrid 65:
+      country: Serbia
+      definition: RS110 + RS121 + RS122 + RS123 + RS124 + RS125 + RS126 + RS127 +
+        RS211 + RS212 + RS213 + RS214 + RS215 + RS216 + RS217 + RS218 + RS221 + RS222
+        + RS223 + RS224 + RS225 + RS226 + RS227 + RS228 + RS229
+      ehighway2050: 65_RS
+      note: This region was defined and used in the ehighway2050 public datasets
+  - Bulgaria|Subgrid 66:
+      country: Bulgaria
+      definition: BG311 + BG312 + BG313 + BG314 + BG315 + BG321 + BG322 + BG323 +
+        BG324 + BG325 + BG331 + BG332 + BG333 + BG334 + BG341 + BG342 + BG343 + BG344
+        + BG421 + BG422 + BG423 + BG424 + BG425 + BG411 + BG412 + BG413 + BG414 +
+        BG415
+      ehighway2050: 66_BG
+      note: This region was defined and used in the ehighway2050 public datasets
+  - North Macedonia|Subgrid 67:
+      country: North Macedonia
+      definition: MK001 + MK002 + MK003 + MK004 + MK005 + MK006 + MK007 + MK008
+      ehighway2050: 67_MK
+      note: This region was defined and used in the ehighway2050 public datasets
+  - Greece|Subgrid 68:
+      country: Greece
+      definition: EL511 + EL512 + EL513 + EL514 + EL515 + EL521 + EL522 + EL523 +
+        EL524 + EL525 + EL526 + EL527 + EL531 + EL532 + EL533 + EL541 + EL542 + EL543
+        + EL611 + EL612 + EL622 + EL631
+      ehighway2050: 68_GR
+      note: This region was defined and used in the ehighway2050 public datasets
+  - Greece|Subgrid 69:
+      country: Greece
+      definition: EL301 + EL302 + EL303 + EL304 + EL305 + EL306 + EL307 + EL411 +
+        EL412 + EL413 + EL421 + EL422 + EL431 + EL432 + EL433 + EL434 + EL621 + EL622
+        + EL623 + EL632 + EL633 + EL641 + EL642 + EL643 + EL644 + EL645 + EL651 +
+        EL652 + EL653
+      ehighway2050: 69_GR
+      note: This region was defined and used in the ehighway2050 public datasets
+  - Albania|Subgrid 70:
+      country: Albania
+      definition: AL011 + AL012 + AL013 + AL014 + AL015 + AL021 + AL022 + AL031 +
+        AL032 + AL033 + AL034 + AL035
+      ehighway2050: 70_AL
+      note: This region was defined and used in the ehighway2050 public datasets
+  - Estonia|Subgrid 73:
+      country: Estonia
+      definition: EE001 + EE004 + EE008 + EE009 + EE00A
+      ehighway2050: 73_EE
+      note: This region was defined and used in the ehighway2050 public datasets
+  - Finland|Subgrid 74:
+      country: Finland
+      definition: FI1D7 + FI1D8 + FI1D9
+      ehighway2050: 74_FI
+      note: This region was defined and used in the ehighway2050 public datasets
+  - Finland|Subgrid 75:
+      country: Finland
+      definition: FI193 + FI194 + FI195 + FI196 + FI197 +FI1B1 + FI1C1 + FI1C2 + FI1C3
+        + FI1C4 + FI1C5 + FI1D1 + FI1D2 + FI1D3 + FI1D5 + FI200
+      ehighway2050: 75_FI
+      note: This region was defined and used in the ehighway2050 public datasets
+  - Lithuania|Subgrid 77:
+      country: Lithuania
+      definition: LT011 + LT021 + LT022 + LT023 + LT024 + LT025 + LT026 + LT027 +
+        LT028 + LT029
+      ehighway2050: 77_LT
+      note: This region was defined and used in the ehighway2050 public datasets
+  - Latvia|Subgrid 78:
+      country: Latvia
+      definition: LV003 + LV005 + LV006 + LV007 + LV008 + LV009
+      ehighway2050: 78_LV
+      note: This region was defined and used in the ehighway2050 public datasets
+  - Norway|Subgrid 79:
+      country: Norway
+      definition: NO0A1 + NO092
+      ehighway2050: 79_NO
+      note: This region was defined and used in the ehighway2050 public datasets
+  - Norway|Subgrid 80:
+      country: Norway
+      definition: NO082 + NO091
+      ehighway2050: 80_NO
+      note: This region was defined and used in the ehighway2050 public datasets
+  - Norway|Subgrid 81:
+      country: Norway
+      definition: NO0A2
+      ehighway2050: 81_NO
+      note: This region was defined and used in the ehighway2050 public datasets
+  - Norway|Subgrid 82:
+      country: Norway
+      definition: NO081 + NO020
+      ehighway2050: 82_NO
+      note: This region was defined and used in the ehighway2050 public datasets
+  - Norway|Subgrid 83:
+      country: Norway
+      definition: NO060 + NO0A3
+      ehighway2050: 83_NO
+      note: This region was defined and used in the ehighway2050 public datasets
+  - Norway|Subgrid 84:
+      country: Norway
+      definition: NO071
+      ehighway2050: 84_NO
+      note: This region was defined and used in the ehighway2050 public datasets
+  - Norway|Subgrid 85:
+      country: Norway
+      definition: NO074
+      ehighway2050: 85_NO
+      note: This region was defined and used in the ehighway2050 public datasets
+  - Sweden|Subgrid 86:
+      country: Sweden
+      definition: SE332
+      ehighway2050: 86_SE
+      note: This region was defined and used in the ehighway2050 public datasets
+  - Sweden|Subgrid 87:
+      country: Sweden
+      definition: SE313 + SE322 + SE321 + SE331
+      ehighway2050: 87_SE
+      note: This region was defined and used in the ehighway2050 public datasets
+  - Sweden|Subgrid 88:
+      country: Sweden
+      definition: SE110 + SE111 + SE113 + SE214 + SE121 + SE122 + SE123 + SE124 +
+        SE125 + SE232 + SE311 + SE312
+      ehighway2050: 88_SE
+      note: This region was defined and used in the ehighway2050 public datasets
+  - Sweden|Subgrid 89:
+      country: Sweden
+      definition: SE212 + SE221 + SE224 + SE231
+      ehighway2050: 89_SE
+      note: This region was defined and used in the ehighway2050 public datasets
+  - United Kingdom|Subgrid 90:
+      country: United Kingdom
+      definition: UKH11 + UKH12 + UKH14 + UKH15 + UKH16 + UKH17 + UKH21 + UKH23 +
+        UKH24 + UKH25 + UKH31 + UKH32 + UKH34 + UKH35 + UKH36 + UKH37 + UKI31 + UKI32
+        + UKI33 + UKI34 + UKI41 + UKI42 + UKI43 + UKI44 + UKI45 + UKI51 + UKI52 +
+        UKI53 + UKI54 + UKI61 + UKI62 + UKI63 + UKI71 + UKI72 + UKI73 + UKI74 + UKI75
+        + UKJ11 + UKJ12 + UKJ13 + UKJ14 + UKJ21 + UKJ22 + UKJ25 + UKJ26 + UKJ27 +
+        UKJ28 + UKJ31 + UKJ32 + UKJ34 + UKJ35 + UKJ36 + UKJ37 + UKJ41 + UKJ43 + UKJ44
+        + UKJ45 + UKJ46
+      ehighway2050: 90_UK
+      note: This region was defined and used in the ehighway2050 public datasets
+  - United Kingdom|Subgrid 91:
+      country: United Kingdom
+      definition: UKK11 + UKK12 + UKK13 + UKK14 + UKK15 + UKK23 + UKK24 + UKK25 +
+        UKK30 + UKK41 + UKK42 + UKK43
+      ehighway2050: 91_UK
+      note: This region was defined and used in the ehighway2050 public datasets
+  - United Kingdom|Subgrid 92:
+      country: United Kingdom
+      definition: UKD33 + UKD34 + UKD35 + UKD36 + UKD37 + UKD41 + UKD42 + UKD44 +
+        UKD45 + UKD46 + UKD47 + UKD61 + UKD62 + UKD63 + UKD71 + UKD72 + UKD73 + UKD74
+        + UKE13 + UKE31 + UKE32 + UKE41 + UKE42 + UKE44 + UKE45 + UKF11 + UKF12 +
+        UKF13 + UKF14 + UKF15 + UKF16 + UKF21 + UKF22 + UKF24 + UKF25 + UKF30 + UKG11
+        + UKG12 + UKG13 + UKG21 + UKG22 + UKG23 + UKG24 + UKG31 + UKG32 + UKG33 +
+        UKG36 + UKG37 + UKG38 + UKG39 + UKL11 + UKL12 + UKL13 + UKL14 + UKL15 + UKL16
+        + UKL17 + UKL18 + UKL21 + UKL22 + UKL23 + UKL24
+      ehighway2050: 92_UK
+      note: This region was defined and used in the ehighway2050 public datasets
+  - United Kingdom|Subgrid 93:
+      country: United Kingdom
+      definition: UKC11 + UKC12 + UKC13 + UKC14 + UKC21 + UKC22 + UKC23 + UKD11 +
+        UKD12 + UKE11 + UKE12 + UKE21 + UKE22 + UKM73 + UKM75 + UKM78 + UKM91 + UKM92
+        + UKM93 + UKM94 + UKM95
+      ehighway2050: 93_UK
+      note: This region was defined and used in the ehighway2050 public datasets
+  - United Kingdom|Subgrid 94:
+      country: United Kingdom
+      definition: UKM50 + UKM61 + UKM62 + UKM63 + UKM64 + UKM65 + UKM66 + UKM71 +
+        UKM72 + UKM76 + UKM77 + UKM81 + UKM82 + UKM83 + UKM84
+      ehighway2050: 94_UK
+      note: This region was defined and used in the ehighway2050 public datasets
+  - United Kingdom|Subgrid 95:
+      country: United Kingdom
+      definition: UKN06 + UKN07 + UKN08 + UKN09 + UKN0A + UKN0B + UKN0C + UKN0D +
+        UKN0E + UKN0F + UKN0G
+      ehighway2050: 95_UK
+      note: This region was defined and used in the ehighway2050 public datasets
+  - Ireland|Subgrid 96:
+      country: United Kingdom
+      definition: IE041 + IE042 + IE051 + IE052 + IE053 + IE061 + IE062 + IE063
+      ehighway2050: 96_IE
+      note: This region was defined and used in the ehighway2050 public datasets
+  - Russia|Subgrid 100:
+      country: Russia
+      definition: Russia West of the Urals
+      ehighway2050: 100_RU
+      note: This region was defined and used in the ehighway2050 public datasets
+  - Ukraine|Subgrid 100:
+      country: Ukraine
+      definition: Western Ukraine
+      ehighway2050: 100_UA
+      note: This region was defined and used in the ehighway2050 public datasets
+  - Turkey|Subgrid 101:
+      country: Turkey
+      definition: Marmara Region of Turkey
+      ehighway2050: 101_MI
+      note: This region was defined and used in the ehighway2050 public datasets
+  - Morocco|Subgrid 102:
+      country: Morocco
+      definition: Northern Region of Morocco
+      ehighway2050: 102_MA
+      note: This region was defined and used in the ehighway2050 public datasets
+  - Algeria|Subgrid 103:
+      country: Algeria
+      definition: Northern Region of Algeria
+      ehighway2050: 103_DZ
+      note: This region was defined and used in the ehighway2050 public datasets
+  - Tunisia|Subgrid 104:
+      country: Tunisia
+      definition: Northern Region of Tunisia
+      ehighway2050: 104_TN
+      note: This region was defined and used in the ehighway2050 public datasets
+  - Libya|Subgrid 105:
+      country: Libya
+      definition: Northern Region of Libya
+      ehighway2050: 105_LY
+      note: This region was defined and used in the ehighway2050 public datasets
+  - Italy|Subgrid north:
+      country: Italy
+      definition: Italy|Subgrid 52 + Italy|Subgrid 53
+      ehighway2050: 52_IT + 53_IT
+      note: This region was defined and used in the plan4res public datasets, it is
+        built as aggregation of ehighway2050 regions; ITN+ITS=IT
+      plan4res: ITN
+  - Italy|Subgrid south:
+      country: Italy
+      definition: Italy|Subgrid 54 + Italy|Subgrid 55 + Italy|Subgrid 56 + Italy|Subgrid
+        98
+      ehighway2050: 54_IT + 55_IT + 56_IT + 98_IT
+      note: This region was defined and used in the plan4res public datasets, it is
+        built as aggregation of ehighway2050 regions; ITN+ITS=IT
+      plan4res: ITS
+  - United Kingdom|North Sea:
+      country: United Kingdom
+      definition: This 'virtual' region represents the offshore windpower of the UK
+        in the North Sea
+      ehighway2050: 106_NS + 107_NS + 108_NS + 109_NS
+      notes: This region was defined and used in the plan4res public datasets, it
+        is built as aggregation of ehighway2050 regions.
+      plan4res: NSUK
+  - United Kingdom|North Sea|Subgrid 106:
+      country: United Kingdom
+      definition: This 'virtual' region represents the offshore windpower in the North
+        Sea near to the south of UK
+      ehighway2050: 106_NS
+      notes: This region was defined and used in the ehighway2050 public datasets
+  - United Kingdom|North Sea|Subgrid 107:
+      country: United Kingdom
+      definition: This 'virtual' region represents the offshore windpower in the North
+        Sea near to the centre-south of UK
+      ehighway2050: 107_NS
+      notes: This region was defined and used in the ehighway2050 public datasets
+  - United Kingdom|North Sea|Subgrid 108:
+      country: United Kingdom
+      definition: This 'virtual' region represents the offshore windpower in the North
+        Sea near to the centre-north of UK
+      ehighway2050: 108_NS
+      notes: This region was defined and used in the ehighway2050 public datasets
+  - United Kingdom|North Sea|Subgrid 109:
+      country: United Kingdom
+      definition: This 'virtual' region represents the offshore windpower in the North
+        Sea near to the north of UK
+      ehighway2050: 109_NS
+      notes: This region was defined and used in the ehighway2050 public datasets
+  - Belgium|North Sea:
+      country: Belgium
+      definition: This 'virtual' region represents offshore wind generation of Belgium
+        in the North Sea
+      ehighway2050: 110_NS
+      plan4res: NSBE
+  - The Netherlands|North Sea:
+      country: The Netherlands
+      definition: This 'virtual' region represents the offshore windpower of
+        The Netherlands in the  North Sea
+      ehighway2050: 111_NS
+      notes: This region was defined and used in the plan4res public datasets, it
+        is built as aggregation of ehighway2050 regions
+      plan4res: NSNL
+  - Germany|North Sea:
+      country: Germany
+      definition: This 'virtual' region represents the offshore windpower of Germany
+        in the North Sea
+      ehighway2050: 112_NS
+      notes: This region was defined and used in the plan4res public datasets, it
+        is built as aggregation of ehighway2050 regions
+      plan4res: NSDE
+  - Denmark|North Sea|Subgrid 113:
+      country: Denmark
+      definition: This 'virtual' region represents the offshore windpower in the North
+        Sea near to Denmark
+      ehighway2050: 113_NS
+      notes: This region was defined and used in the ehighway2050 public datasets
+  - Denmark|North Sea|Subgrid 114:
+      country: Denmark
+      definition: This 'virtual' region represents the offshore windpower in the North
+        Sea near to Denmark
+      ehighway2050: 114_NS
+      notes: This region was defined and used in the ehighway2050 public datasets
+  - Norway|North Sea|Subgrid 115:
+      country: Norway
+      definition: This 'virtual' region represents the offshore windpower in the North
+        Sea near to Norway
+      ehighway2050: 115_NS
+      notes: This region was defined and used in the ehighway2050 public datasets
+  - Sweden|North Sea|Subgrid 116:
+      country: Sweden
+      definition: This 'virtual' region represents the offshore windpower in the North
+        Sea near to Sweden
+      ehighway2050: 116_NS
+      notes: This region was defined and used in the ehighway2050 public datasets
+  - Scandinavia|North Sea:
+      definition: This 'virtual' region holds the offshore windpower of Scandinavia
+        in the North Sea
+      ehighway2050: 113_NS + 114_NS + 115_NS + 116_NS
+      note: This region was defined and used in the plan4res public datasets, it is
+        built as aggregation of ehighway2050 regions.
+      plan4res: NSSCAND

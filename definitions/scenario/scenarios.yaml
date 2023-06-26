@@ -1,0 +1,99 @@
+# Valid scenario names
+
+# ECEMF - Work package 1
+
+# Baseline scenario and current policy
+- DIAG-Base
+- DIAG-NPI
+
+# Pure carbon pricing/GHG target scenarios
+- DIAG-C80-gr5
+- DIAG-C0to80-gr5
+- DIAG-C400-lin
+- DIAG-NZero
+
+# Technology Constraint scenarios
+- DIAG-C400-lin-LimBio
+- DIAG-C400-lin-LimCCS
+- DIAG-C400-lin-LimNuclear
+
+# Paradigm Shift scenarios
+- DIAG-C400-lin-HighVRE
+- DIAG-C400-lin-HighElectrification
+- DIAG-C400-lin-HighElec-Supply
+- DIAG-C400-lin-HighH2
+- DIAG-C400-lin-ResidualFossil
+- DIAG-C400-lin-HighEff
+
+# Work package 1 Net-zero scenarios
+- WP1 NPI
+- WP1 NetZero
+- WP1 NetZero-LimBio
+- WP1 NetZero-LimCCS
+- WP1 NetZero-LimNuc
+- WP1 NetZero-ElecPush
+- WP1 NetZero-H2Push
+- WP1 NetZero-SynfPush
+- WP1 NetZero-HighEfficiency
+
+# ECEMF - Work package 2
+- WP2 Boundary Condition|Initial
+- WP2 Sensitivity|High Electricity Price
+- WP2 Sensitivity|Low Electricity Price
+- WP2 Sensitivity|High Gas and Liquids Price
+- WP2 Sensitivity|High Price
+- WP2 Sensitivity|Low Price
+
+# ECEMF - Work package 2 main transport scenarios 
+- WP2 Transport|High Electrification|Efficiency Moderate
+- WP2 Transport|High Electrification|Efficiency High
+- WP2 Transport|High Electrification|Lifestyle and Behavioral Change
+- WP2 Transport|High H2/e-fuels|Efficiency Moderate
+- WP2 Transport|High H2/e-fuels|Efficiency High
+- WP2 Transport|High H2/e-fuels|Lifestyle and Behavioral Change
+
+# ECEMF - Work package 2 main industry scenarios 
+- WP2 Industry|High Electrification|Efficiency Moderate
+- WP2 Industry|High Electrification|Efficiency High
+- WP2 Industry|High Electrification|Lifestyle and Behavioral Change
+- WP2 Industry|High H2/e-fuels|Efficiency Moderate
+- WP2 Industry|High H2/e-fuels|Efficiency High
+- WP2 Industry|High H2/e-fuels|Lifestyle and Behavioral Change
+
+# ECEMF - Work package 2 main buildings scenarios
+- WP2 Building|High Electrification|Efficiency Moderate
+- WP2 Building|High Electrification|Efficiency High
+- WP2 Building|High Electrification|Lifestyle and Behavioral Change
+- WP2 Building|High H2/e-fuels|Efficiency Moderate
+- WP2 Building|High H2/e-fuels|Efficiency High
+- WP2 Building|High District Heating|Efficiency Moderate
+- WP2 Building|High District Heating|Efficiency High
+
+# EMF-ECEMF collaboration scenarios
+- EMFECEMF_NZero
+- EMFECEMF_NPI
+
+# ECEMF - Work package 3 task 3.2 scenarios
+- WP3_Task3.2|Infrastructures|Medium EV flexibility
+- WP3_Task3.2|Infrastructures|High EV flexibility
+- WP3_Task3.2|Infrastructures|Conservative EV flexibility
+
+# ECEMF - Work package 5 task 5.1 trade limitation scenarios (<= initial scenario names, deprecated)
+- WP5 Default-2C
+- WP5 Default-15C
+- WP5 Short-OECD-2C
+- WP5 Short-OECD-15C
+- WP5 Long-OECD-2C
+- WP5 Long-OECD-15C
+- WP5 Short-Groups-2C
+- WP5 Short-Groups-15C
+- WP5 Long-Groups-2C
+- WP5 Long-Groups-15C
+
+# ECEMF - Work package 5 task 5.1 trade limitation scenarios (<= new scenario names)
+- WP5 Default-650
+- WP5 Default-1150
+- WP5 Russia-650
+- WP5 Russia-1150
+- WP5 EastWest-650
+- WP5 EastWest-1150

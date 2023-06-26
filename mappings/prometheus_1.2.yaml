@@ -1,0 +1,13 @@
+model: PROMETHEUS 1.2
+native_regions:
+  - World
+  - WEU: PROMETHEUS 1.2|Western Europe
+  - CEU: PROMETHEUS 1.2|Central Europe
+  - NOAM: PROMETHEUS 1.2|North America
+common_regions:
+  - Europe:
+    - WEU
+    - CEU
+  - EU27 & UK (*): 
+    - WEU
+    - CEU

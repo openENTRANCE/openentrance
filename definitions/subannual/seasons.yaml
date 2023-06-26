@@ -1,0 +1,5 @@
+# List of seasons
+# the seasons changing dates was chosen here as to minimise the difference of length between seasons as the objective is to compare energy amounts per seasons
+- "{Season}":
+    description: "{Season}"
+    duration: "{Season}"

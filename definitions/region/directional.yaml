@@ -1,0 +1,174 @@
+# allow directional connections explicitly for validation of model-region-mappings
+- Directional Connections:
+  - Austria>Czech Republic
+  - Austria>Germany
+  - Austria>Hungary
+  - Austria>Italy
+  - Austria>Slovakia
+  - Austria>Slovenia
+  - Austria>Switzerland
+  - Belgium>France
+  - Belgium>Germany
+  - Belgium>Luxembourg
+  - Belgium>Norway|Sorland
+  - Belgium>The Netherlands
+  - Belgium>United Kingdom
+  - Bosnia and Herzegovina>Croatia
+  - Bosnia and Herzegovina>Italy
+  - Bosnia and Herzegovina>Serbia
+  - Bulgaria>Greece
+  - Bulgaria>North Macedonia
+  - Bulgaria>Romania
+  - Bulgaria>Serbia
+  - Croatia>Bosnia and Herzegovina
+  - Croatia>Hungary
+  - Croatia>Italy
+  - Croatia>Serbia
+  - Croatia>Slovenia
+  - Czech Republic>Austria
+  - Czech Republic>Germany
+  - Czech Republic>Poland
+  - Czech Republic>Slovakia
+  - Denmark>Benelux
+  - Denmark>Germany
+  - Denmark>Norway|Sorland
+  - Denmark>Poland
+  - Denmark>Scandinavia
+  - Denmark>Sweden
+  - Denmark>The Netherlands
+  - Denmark>United Kingdom
+  - Estonia>Finland
+  - Estonia>Latvia
+  - Estonia>Sweden
+  - Finland>Estonia
+  - Finland>Norway|Troms
+  - Finland>Sweden
+  - France>Belgium
+  - France>Germany
+  - France>Ireland
+  - France>Italy
+  - France>Luxembourg
+  - France>Spain
+  - France>Switzerland
+  - France>United Kingdom
+  - Germany>Austria
+  - Germany>Belgium
+  - Germany>Czech Republic
+  - Germany>Denmark
+  - Germany>France
+  - Germany>Italy
+  - Germany>Luxembourg
+  - Germany>Norway|Sorland
+  - Germany>Poland
+  - Germany>Sweden
+  - Germany>Switzerland
+  - Germany>The Netherlands
+  - Greece>Bulgaria
+  - Greece>Italy
+  - Greece>North Macedonia
+  - Hungary>Austria
+  - Hungary>Croatia
+  - Hungary>Poland
+  - Hungary>Romania
+  - Hungary>Serbia
+  - Hungary>Slovakia
+  - Hungary>Slovenia
+  - Ireland>France
+  - Ireland>Spain
+  - Ireland>United Kingdom
+  - Italy>Austria
+  - Italy>Bosnia and Herzegovina
+  - Italy>Croatia
+  - Italy>France
+  - Italy>Germany
+  - Italy>Greece
+  - Italy>Slovenia
+  - Italy>Switzerland
+  - Latvia>Estonia
+  - Latvia>Lithuania
+  - Latvia>Sweden
+  - Lithuania>Latvia
+  - Lithuania>Poland
+  - Lithuania>Sweden
+  - Luxembourg>Belgium
+  - Luxembourg>France
+  - Luxembourg>Germany
+  - North Macedonia>Bulgaria
+  - North Macedonia>Greece
+  - North Macedonia>Serbia
+  - Norway|Norgemidt>Norway|Ostland
+  - Norway|Norgemidt>Norway|Troms
+  - Norway|Norgemidt>Norway|Vestmidt
+  - Norway|Norgemidt>Sweden
+  - Norway|Ostland>Norway|Norgemidt
+  - Norway|Ostland>Norway|Sorland
+  - Norway|Ostland>Norway|Vestmidt
+  - Norway|Ostland>Sweden
+  - Norway|Sorland>Belgium
+  - Norway|Sorland>Denmark
+  - Norway|Sorland>Germany
+  - Norway|Sorland>Norway|Ostland
+  - Norway|Sorland>Norway|Vestmidt
+  - Norway|Sorland>The Netherlands
+  - Norway|Sorland>United Kingdom
+  - Norway|Troms>Finland
+  - Norway|Troms>Norway|Norgemidt
+  - Norway|Troms>Sweden
+  - Norway|Vestmidt>Norway|Norgemidt
+  - Norway|Vestmidt>Norway|Ostland
+  - Norway|Vestmidt>Norway|Sorland
+  - Norway|Vestmidt>United Kingdom
+  - Poland>Czech Republic
+  - Poland>Denmark
+  - Poland>Germany
+  - Poland>Hungary
+  - Poland>Lithuania
+  - Poland>Slovakia
+  - Poland>Sweden
+  - Portugal>Spain
+  - Romania>Bulgaria
+  - Romania>Hungary
+  - Romania>Serbia
+  - Serbia>Bosnia and Herzegovina
+  - Serbia>Bulgaria
+  - Serbia>Croatia
+  - Serbia>Hungary
+  - Serbia>North Macedonia
+  - Serbia>Romania
+  - Slovakia>Austria
+  - Slovakia>Czech Republic
+  - Slovakia>Hungary
+  - Slovakia>Poland
+  - Slovenia>Austria
+  - Slovenia>Croatia
+  - Slovenia>Hungary
+  - Slovenia>Italy
+  - Spain>France
+  - Spain>Ireland
+  - Spain>Portugal
+  - Sweden>Denmark
+  - Sweden>Estonia
+  - Sweden>Finland
+  - Sweden>Germany
+  - Sweden>Latvia
+  - Sweden>Lithuania
+  - Sweden>Norway|Norgemidt
+  - Sweden>Norway|Ostland
+  - Sweden>Norway|Troms
+  - Sweden>Poland
+  - Switzerland>Austria
+  - Switzerland>France
+  - Switzerland>Germany
+  - Switzerland>Italy
+  - The Netherlands>Belgium
+  - The Netherlands>Denmark
+  - The Netherlands>Germany
+  - The Netherlands>Norway|Sorland
+  - The Netherlands>United Kingdom
+  - United Kingdom>Belgium
+  - United Kingdom>Denmark
+  - United Kingdom>France
+  - United Kingdom>Ireland
+  - United Kingdom>Norway|Sorland
+  - United Kingdom>Norway|Vestmidt
+  - United Kingdom>The Netherlands

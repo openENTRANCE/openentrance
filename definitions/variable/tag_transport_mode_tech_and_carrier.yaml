@@ -1,0 +1,240 @@
+# This list of fuels will replace any occurrence of `{Transport mode, tech and carrier}`
+# in a variable-definition yaml file
+
+- Transport mode, tech and carrier:
+
+  - Bus|BEV:
+      description: bus transportation using battery electric 
+      note: this should not be included in emission variables
+
+  - Bus|Catenary:
+      description: bus transportation using catenary electric
+      note: this should not be included in emission variables
+
+  - Bus|FCEV:
+      description: bus transportation using fuel cell electric vehicles
+      note: this should not be included in emission variables
+
+  - Bus|Hybrid:
+      description: bus transportation using plugin hybrid vehicles
+
+  - Bus|Hybrid|Electricity:
+      description: electricity use in bus transportation using plugin hybrid vehicles
+      note: this should not be included in emission variables 
+
+  - Bus|Hybrid|Gases:
+      description: gases use in bus transportation using plugin hybrid vehicles 
+
+  - Bus|Hybrid|Liquids:
+      description: liquids use in bus transportation using plugin hybrid vehicles 
+
+  - Bus|ICE:
+      description: bus transportation using internal combustion engines
+
+  - Bus|ICE|Gases:
+      description: gases use in bus transportation using internal combustion engines
+
+  - Bus|ICE|Liquids:
+      description: liquids use in bus transportation using internal combustion engines
+
+  - Truck|BEV:
+      description: trucks transportation using battery electric 
+      note: this should not be included in emission variables
+  - Truck|Truck (0-3.5t)|BEV:
+      description: transportation with trucks up to 3.5 tonnes
+        using using battery electric
+  - Truck|Truck (3.5-12t)|BEV:
+      description: transportation with trucks from 3.5 to 12 tonnes
+        using using battery electric
+  - Truck|Truck (12-40t)|BEV:
+      description: transportation with trucks above 12 tonnes
+        using using battery electric
+
+  - Truck|Catenary:
+      description: trucks transportation using catenary electric
+      note: this should not be included in emission variables
+  - Truck|Truck (0-3.5t)|Catenary:
+      description: transportation with trucks up to 3.5 tonnes
+        using catenary electric
+  - Truck|Truck (3.5-12t)|Catenary:
+      description: transportation with trucks from 3.5 to 12 tonnes
+        using catenary electric
+  - Truck|Truck (12-40t)|Catenary:
+      description: transportation with trucks above 12 tonnes
+        using catenary electric
+
+  - Truck|FCEV:
+      description: trucks transportation using fuel cell electric vehicles
+      note: this should not be included in emission variables
+  - Truck|Truck (0-3.5t)|FCEV:
+      description: transportation with trucks up to 3.5 tonnes
+        using fuel cell electric vehicles
+  - Truck|Truck (3.5-12t)|FCEV:
+      description: transportation with trucks from 3.5 to 12 tonnes
+        using fuel cell electric vehicles
+  - Truck|Truck (12-40t)|FCEV:
+      description: transportation with trucks above 12 tonnes
+        using fuel cell electric vehicles
+
+  - Truck|Hybrid:
+      description: trucks transportation using plugin hybrid vehicles
+  - Truck|Truck (0-3.5t)|Hybrid:
+      description: transportation with trucks up to 3.5 tonnes
+        using plugin hybrid vehicles
+  - Truck|Truck (3.5-12t)|Hybrid:
+      description: transportation with trucks from 3.5 to 12 tonnes
+        using plugin hybrid vehicles
+  - Truck|Truck (12-40t)|Hybrid:
+      description: transportation with trucks above 12 tonnes
+        using plugin hybrid vehicles
+
+  - Truck|Hybrid|Electricity:
+      description: electricity use in trucks transportation using plugin hybrid vehicles
+      note: this should not be included in emission variables 
+
+  - Truck|Hybrid|Gases:
+      description: gases use in trucks transportation using plugin hybrid vehicles 
+
+  - Truck|Hybrid|Liquids:
+      description: liquids use in trucks transportation using plugin hybrid vehicles 
+
+  - Truck|ICE:
+      description: trucks transportation using internal combustion engines
+
+  - Truck|Truck (0-3.5t)|ICE:
+      description: transportation with trucks up to 3.5 tonnes
+        using internal combustion engines
+  - Truck|Truck (3.5-12t)|ICE:
+      description: transportation with trucks from 3.5 to 12 tonnes
+        using internal combustion engines
+  - Truck|Truck (12-40t)|ICE:
+      description: transportation with trucks above 12 tonnes
+         using internal combustion engines
+
+  - Truck|ICE|Gases:
+      description: gases use in trucks transportation using internal comTrucktion engines
+
+  - Truck|ICE|Liquids:
+      description: liquids use in trucks transportation using internal comTrucktion engines
+
+  - 2W and 3W|BEV:
+      description: 2W and 3W transportation using battery electric 
+      note: this should not be included in emission variables
+
+  - 2W and 3W|FCEV:
+      description: 2W and 3W transportation using fuel cell electric vehicles
+      note: this should not be included in emission variables
+
+  - 2W and 3W|Hybrid:
+      description: 2W and 3W transportation using plugin hybrid vehicles
+
+  - 2W and 3W|Hybrid|Electricity:
+      description: electricity use in 2W and 3W transportation using plugin hybrid vehicles
+      note: this should not be included in emission variables 
+
+  - 2W and 3W|Hybrid|Gases:
+      description: gases use in 2W and 3W transportation using plugin hybrid vehicles 
+
+  - 2W and 3W|Hybrid|Liquids:
+      description: liquids use in 2W and 3W transportation using plugin hybrid vehicles 
+
+  - 2W and 3W|ICE:
+      description: 2W and 3W transportation using internal comLDVtion engines
+
+  - 2W and 3W|ICE|Gases:
+      description: gases use in 2W and 3W transportation using internal comLDVtion engines
+
+  - 2W and 3W|ICE|Liquids:
+      description: liquids use in 2W and 3W transportation using internal comLDVtion engines
+
+  - LDV|BEV:
+      description: light duty vehicles transportation using battery electric 
+      note: this should not be included in emission variables
+
+  - LDV|FCEV:
+      description: light duty vehicles transportation using fuel cell electric vehicles
+      note: this should not be included in emission variables
+
+  - LDV|Hybrid:
+      description: light duty vehicles transportation using plugin hybrid vehicles
+
+  - LDV|Hybrid|Electricity:
+      description: electricity use in LDVtransportation using plugin hybrid vehicles
+      note: this should not be included in emission variables 
+
+  - LDV|Hybrid|Gases:
+      description: gases use in LDV transportation using plugin hybrid vehicles 
+
+  - LDV|Hybrid|Liquids:
+      description: liquids use in LDV transportation using plugin hybrid vehicles 
+
+  - LDV|ICE:
+      description: light duty vehicles transportation using internal comLDVtion engines
+
+  - LDV|ICE|Gases:
+      description: gases use in light duty vehicles transportation using internal comLDVtion engines
+
+  - LDV|ICE|Liquids:
+      description: liquids use in light duty vehicles transportation using internal comLDVtion engines
+
+  - LDV|Passenger|BEV:
+      description: light duty vehicles passenger transportation using battery electric 
+      note: this should not be included in emission variables
+
+  - LDV|Passenger|FCEV:
+      description: light duty vehicles passenger transportation using fuel cell electric vehicles
+      note: this should not be included in emission variables
+
+  - LDV|Passenger|Hybrid:
+      description: light duty vehicles passenger transportation using plugin hybrid vehicles
+
+  - LDV|Passenger|Hybrid|Electricity:
+      description: electricity use in LDV passenger transportation using plugin hybrid vehicles
+      note: this should not be included in emission variables 
+
+  - LDV|Passenger|Hybrid|Gases:
+      description: gases use in LDV passenger transportation using plugin hybrid vehicles 
+
+  - LDV|Passenger|Hybrid|Liquids:
+      description: liquids use in LDV passenger transportation using plugin hybrid vehicles 
+
+  - LDV|Passenger|ICE:
+      description: light duty vehicles passenger transportation using internal comLDVtion engines
+
+  - LDV|Passenger|ICE|Gases:
+      description: gases use in light duty vehicles passenger transportation using internal comLDVtion engines
+
+  - LDV|Passenger|ICE|Liquids:
+      description: liquids use in light duty vehicles passenger transportation using internal comLDVtion engines
+
+  - LDV|Freight|BEV:
+      description: light duty vehicles freight transportation using battery electric 
+      note: this should not be included in emission variables
+
+  - LDV|Freight|FCEV:
+      description: light duty vehicles freight transportation using fuel cell electric vehicles
+      note: this should not be included in emission variables
+
+  - LDV|Freight|Hybrid:
+      description: light duty vehicles freight transportation using plugin hybrid vehicles
+
+  - LDV|Freight|Hybrid|Electricity:
+      description: electricity use in LDV freight transportation using plugin hybrid vehicles
+      note: this should not be included in emission variables 
+
+  - LDV|Freight|Hybrid|Gases:
+      description: gases use in LDV freight transportation using plugin hybrid vehicles 
+
+  - LDV|Freight|Hybrid|Liquids:
+      description: liquids use in LDV freight transportation using plugin hybrid vehicles 
+
+  - LDV|Freight|ICE:
+      description: light duty vehicles freight transportation using internal comLDVtion engines
+
+  - LDV|Freight|ICE|Gases:
+      description: gases use in light duty vehicles freight transportation using internal comLDVtion engines
+
+  - LDV|Freight|ICE|Liquids:
+      description: liquids use in light duty vehicles freight transportation using internal comLDVtion engines
+
+

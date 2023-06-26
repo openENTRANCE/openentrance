@@ -1,0 +1,152 @@
+# This list of inputs will replace any occurrence of `{Fuel}`
+# in a variable-definition yaml file
+
+# This list is intended for use as fuels except for the power sector
+
+- Fuel:
+  - Biomass:
+      description: purpose-grown biomass, crop residues, forest industry waste,
+        solid waste from domestic, agricultural or municipal sources
+  - Biomass|w/ CCS:
+      description: purpose-grown biomass, crop residues, forest industry waste,
+        solid waste from domestic, agricultural or municipal sources
+        with a CO2 capture component
+  - Biomass|w/o CCS:
+      description: purpose-grown biomass, crop residues, forest industry waste,
+        solid waste from domestic, agricultural or municipal sources
+        with freely vented CO2 emissions
+
+  - Biomass|Traditional:
+      description: traditional biomass (domestic and agricultural waste,
+        forest residues)
+  - Biomass|Traditional|w/ CCS:
+      description: traditional biomass (domestic and agricultural waste,
+        forest residues) with a CO2 capture component
+  - Biomass|Traditional|w/o CCS:
+      description: traditional biomass (domestic and agricultural waste,
+        forest residues) with freely vented CO2 emissions
+
+  - Biomass|New and Imported:
+      description: biomass from dedicated energy crops and biomass imports
+  - Biomass|New and Imported|w/ CCS:
+      description: biomass from dedicated energy crops and biomass imports
+        with a CO2 capture component
+  - Biomass|New and Imported|w/o CCS:
+      description: biomass from dedicated energy crops and biomass imports
+        with freely vented CO2 emissions
+
+  - Fossil:
+      description: all fossil fuels (crude oil, coal, natural gas)
+  - Fossil|w/ CCS:
+      description: all fossil fuels (crude oil, coal, natural gas)
+        with a CO2 capture component
+  - Fossil|w/o CCS:
+      description: all fossil fuels (crude oil, coal, natural gas)
+        with freely vented CO2 emissions
+
+  - Coal:
+      description: coal (including hard coal and lignite)
+  - Coal|w/ CCS:
+      description: coal (including hard coal and lignite) with a CO2 capture component
+  - Coal|w/o CCS:
+      description: coal (including hard coal and lignite)
+        with freely vented CO2 emissions
+
+  - Coal|Lignite:
+      description: lignite coal and sub-bituminous coal
+  - Coal|Lignite|w/ CCS:
+      description: lignite coal and sub-bituminous coal with a CO2 capture component
+  - Coal|Lignite|w/o CCS:
+      description: lignite coal and sub-bituminous coal with freely vented CO2 emissions
+
+  - Coal|Hard coal:
+      description: anthracite and bituminous coal
+  - Coal|Hard coal|w/ CCS:
+      description: anthracite and bituminous coal with a CO2 capture component
+  - Coal|Hard coal|w/o CCS:
+      description: anthracite and bituminous coal with freely vented CO2 emissions
+
+  - Gas:
+      description: natural gas (including methane from biomass or hydrogenation)
+  - Gas|w/ CCS:
+      description: natural gas (including methane from biomass or hydrogenation)
+        with a CO2 capture component
+  - Gas|w/o CCS:
+      description: natural gas (including methane from biomass or hydrogenation)
+        with freely vented CO2 emissions
+
+  - Gas|OCGT:
+      description: natural gas (including methane from biomass or hydrogenation)
+        in an open-cycle gas turbine (OCGT) power plant
+  - Gas|OCGT|w/ CCS:
+      description: natural gas (including methane from biomass or hydrogenation)
+        in an open-cycle gas turbine (OCGT) power plant with a CO2 capture component
+  - Gas|OCGT|w/o CCS:
+      description: natural gas (including methane from biomass or hydrogenation)
+        in an open-cycle gas turbine (OCGT) power plant with freely vented CO2 emissions
+
+  - Gas|CCGT:
+      description: natural gas (including methane from biomass or hydrogenation)
+        in a combined-cycle gas turbine (CCGT) power plant
+  - Gas|CCGT|w/ CCS:
+      description: natural gas (including methane from biomass or hydrogenation)
+        in a combined-cycle gas turbine (CCGT) power plant with a CO2 capture component
+  - Gas|CCGT|w/o CCS:
+      description: natural gas (including methane from biomass or hydrogenation)
+        in a combined-cycle gas turbine (CCGT) power plant with freely vented CO2 emissions
+
+  - Gas|Fossil:
+      description: fossil natural gas (excluding methane from biomass or hydrogenation)
+  - Gas|Fossil|w/ CCS:
+      description: fossil natural gas (excluding methane from biomass or hydrogenation)
+        with a CO2 capture component
+  - Gas|Fossil|w/o CCS:
+      description: fossil natural gas (excluding methane from biomass or hydrogenation)
+        with freely vented CO2 emissions
+
+  - Gas|Biomethane:
+      description: biomethane (upgraded biogas)
+  - Gas|Biomethane|w/ CCS:
+      description: biomethane (upgraded biogas) with a CO2 capture component
+  - Gas|Biomethane|w/o CCS:
+      description: biomethane (upgraded biogas) with freely vented CO2 emissions
+
+  - Gas|Synthetic Methane:
+      description: synthetic methane (methanation of hydrogen)
+  - Gas|Synthetic Methane|w/ CCS:
+      description: synthetic methane (methanation of hydrogen)
+        with a CO2 capture component
+  - Gas|Synthetic Methane|w/o CCS:
+      description: synthetic methane (methanation of hydrogen)
+        with freely vented CO2 emissions
+
+  - Oil:
+      description: refined liquid oil products
+  - Oil|w/ CCS:
+      description: refined liquid oil products with a CO2 capture component
+  - Oil|w/o CCS:
+      description: refined liquid oil products with freely vented CO2 emissions
+
+  - Hydrogen:
+      description: hydrogen
+
+  - Hydrogen|Fuel Cell:
+      description: hydrogen via fuel cells
+
+  - Hydrogen|OCGT:
+      description: hydrogen used in OCGT power plants
+
+  - Solar:
+      description: direct use of solar energy (heat)
+
+  - Geothermal:
+      description: geothermal energy (including hydrothermal systems)
+
+  - Ocean:
+      description: ocean energy
+
+  - Electricity:
+      description: electricity
+
+  - Other:
+      description: other energy sources and fuels not explicitely listed

@@ -1,0 +1,67 @@
+# This list of industries will replace any occurrence of `{Industry}`
+# in a variable-definition yaml file
+
+#   i.e., The following standard generic structure in economic variables:
+#   Capital Price Index|{Industry}:
+#   Labor Price Index|{Industry}:
+
+- Industry:
+  - iAGRI:
+      description: agriculture
+
+  - iCOAL:
+      description: coal extraction
+
+  - iCOIL:
+      description: crude oil and natural gas extraction
+
+  - iINDU:
+      description: manufacturing industry
+
+  - iALUM:
+      description: aluminium production
+
+  - iTRDI:
+      description: trade and distribution services of electricity
+
+  - iNGAS:
+      description: natural gas
+
+  - iSERV:
+      description: services
+
+  - iTRAN:
+      description: transport services
+
+  - iELCC:
+      description: production of electricity by coal
+
+  - iELCG:
+      description: production of electricity by gas
+
+  - iELCN:
+      description: production of electricity by nuclear
+
+  - iELCH:
+      description: production of electricity by hydro
+
+  - iELCW:
+      description: production of electricity by wind
+
+  - iELCO:
+      description: production of electricity by petroleum and other oil derivatives
+
+  - iELCB:
+      description: production of electricity by biomass and waste
+
+  - iELCS:
+      description: production of electricity by solar photovoltaic
+
+  - iELCE:
+      description: production of electricity
+
+  - iELCT:
+      description: production of electricity by geothermal
+
+  - iH2:
+      description: hydrogen

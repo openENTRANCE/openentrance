@@ -1,0 +1,95 @@
+# This list of inputs will replace any occurrence of `{Final Energy carrier}`
+# in a variable-definition yaml file
+
+- Final Energy carrier:
+  - Electricity:
+      description: electricity (including on-site solar PV), excluding transmission/distribution losses
+      weight: Electricity
+      
+  - Gases:
+      description: gases (natural gas, biogas, coal-gas), excluding transmission/distribution losses
+      weight: Gases
+      
+  - Gases|Biomass:
+      description: biogas
+      weight: Gases|Biomass
+
+  - Gases|Electricity:
+      description: synthetic gaseous efuels ("power-to-gas")
+      weight: Gases|Electricity
+
+  - Gases|Fossil:
+      description: synthetic or derived gases of fossil origin
+      weight: Gases|Fossil
+
+  - Geothermal:
+      description: geothermal energy (e.g., from decentralized or small-scale geothermal heating systems) EXCLUDING geothermal heat pumps
+      weight: Geothermal
+
+  - Heat:
+      description: heat (e.g., district heat, process heat, warm water), excluding transmission/distribution losses, excluding direct geothermal and solar heating
+      weight: Heat
+
+  - Hydrogen:
+      description: hydrogen, excluding transmission/distribution losses
+      weight: Hydrogen
+
+  - Hydrogen|Biomass:
+      description: hydrogen from biomass
+      weight: Hydrogen|Biomass
+
+  - Hydrogen|Electricity:
+      description: green hydrogen
+      weight: Hydrogen|Electricity
+
+  - Hydrogen|Fossil:
+      description: fossil hydrogen
+      weight: Hydrogen|Fossil
+
+  - Liquids:
+      description: refined liquids (conventional & unconventional oil, biofuels, coal-to-liquids, gas-to-liquids)
+      weight: Liquids
+
+  - Liquids|Biomass:
+      description: liquid biofuels
+      weight: Liquids|Biomass
+
+  - Liquids|Electricity:
+      description: synthetic liquid efuels ("power-to-liquid")
+      weight: Liquids|Electricity
+
+  - Liquids|Fossil:
+      description: liquids from fossil origin (conventional & unconventional petroleum, coal-to-liquids, gas-to-liquids)
+      weight: Liquids|Fossil
+
+  - Solids:
+      description: solid fuel consumption (including coal and solid biomass)
+      weight: Solids
+
+  - Solids|Biomass:
+      description: solid biomass (modern and traditional), excluding final energy consumption of bioliquids which are reported in the liquids category
+      weight: Solids|Biomass
+
+  - Solids|Biomass|Traditional:
+      description: solid fuel consumption of traditional biomass
+      weight: Solids|Biomass|Traditional
+
+  - Solids|Fossil:
+      description: fossil solids
+      weight: Solids|Fossil
+
+  - Solar:
+      description: solar energy (e.g., from roof-top solar hot water collector systems)
+      note: only for industry and residential and commercial sectors
+      weight: Solar
+
+  - Waste:
+      description: non-renewable waste
+      note: only for industry and non-energy use sectors
+      weight: Waste
+      
+  - Other:
+      description: other sources that do not fit to any other category
+      weight: Other
+
+

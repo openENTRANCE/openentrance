@@ -1,0 +1,13 @@
+# This list of inputs will replace any occurrence of `{Residential/Commercial}`
+# in a variable-definition yaml file
+
+# This list is intended as short-hand for variables that should be reported
+# for residential and commercial combined as well as separate
+
+- Residential/Commercial:
+  - Residential and Commercial:
+      description: residential and commercial
+  - Residential:
+      description: residential
+  - Commercial:
+      description: commercial

@@ -1,0 +1,41 @@
+model: MEESA v1.1
+native_regions:
+  - BEN: MEESA v1.1|BEN
+  - CEU: MEESA v1.1|CEU
+  - IBI: MEESA v1.1|IBI
+  - NTH: MEESA v1.1|NTH
+  - STH: MEESA v1.1|STH
+  - UKI: MEESA v1.1|UKI
+  - DEU: MEESA v1.1|DEU
+  - FRA: MEESA v1.1|FRA
+  - POL: MEESA v1.1|POL
+common_regions:
+  - EU27 & UK:
+      - BEN
+      - CEU
+      - IBI
+      - NTH
+      - STH
+      - UKI
+      - DEU
+      - FRA
+      - POL
+  - EU27 & UK (*):
+      - BEN
+      - CEU
+      - IBI
+      - NTH
+      - STH
+      - UKI
+      - DEU
+      - FRA
+      - POL
+  - EU27 (*):
+      - BEN
+      - CEU
+      - IBI
+      - NTH
+      - STH
+      - DEU
+      - FRA
+      - POL
