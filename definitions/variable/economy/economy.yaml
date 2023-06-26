@@ -212,4 +212,38 @@
     unit: [EUR_2020/t CO2, USD_2010/t CO2]
     skip-region-aggregation: true
 
-
+- Extraction Limit
+    description: Level of allowed extractions for fossil resources, relative to year 2011
+    note: The index equals 1 in 2011, the reference year
+    unit: index
+   
+- Servitization Factor
+    description: Weight for industrial products consumption in the utility function of households relative to year 2011
+    note: The index equals 1 in 2011, the reference year
+    unit: index
+   
+- Energy Intensity
+    description: Multiplier of energy input in the energy nest of the production function relative to year 2011
+    note: The index equals 1 in 2011, the reference year
+    unit: index   
+    
+- Carbon Intensity Factor|{Industry}
+    description: Multiplier of emissions parameter in the energy nest of the production function of {Industry} relative to year 2011
+    note: The index equals 1 in 2011, the reference year
+    unit: index  
+    
+- Labour Productivity Growth Factor
+    description: Rate of change of labour input per unit of output in the production function relative to year 2011
+    note: The index equals 1 in 2011, the reference year
+    unit: index   
+        
+- Carbon Cap
+    description: Level of allowed yearly emissions relative to year 2011
+    note: The index equals 1 in 2011, the reference year
+    unit: index          
+    
+- Climate Productivity Growth Factor
+    description: Rate of change of labour input per unit of output in the production function due to effects of climate change relative to year 2011
+    note: The index equals 1 in 2011, the reference year
+    unit: index      
+ 
