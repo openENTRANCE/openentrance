@@ -212,8 +212,13 @@
     unit: [EUR_2020/t CO2, USD_2010/t CO2]
     skip-region-aggregation: true
 
-- Extraction Limit:
-    description: Level of allowed extractions for fossil resources, relative to year 2011
+- Extraction Limit for Natural Gas:
+    description: Level of allowed extractions for natural gas, relative to year 2011
+    note: The index equals 1 in 2011, the reference year
+    unit: index
+
+- Extraction Limit for Crude Oil:
+    description: Level of allowed extractions for crude oil, relative to year 2011
     note: The index equals 1 in 2011, the reference year
     unit: index
    
