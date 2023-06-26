@@ -212,7 +212,7 @@
     unit: [EUR_2020/t CO2, USD_2010/t CO2]
     skip-region-aggregation: true
 
-- Extraction Limit for Natural Gas:
+- Extraction Limit|Natural Gas:
     description: Level of allowed extractions for natural gas, relative to year 2011
     note: The index equals 1 in 2011, the reference year
     unit: index
