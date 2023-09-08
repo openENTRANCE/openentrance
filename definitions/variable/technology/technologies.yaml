@@ -15,24 +15,6 @@
     description: Reservoir size of electricity storage technologies (e.g. pumped hydro, batteries, compressed air storage) 
           in terms of stored electric energy
     unit: GWh
-- Capacity|Heat|Residential and Commercial:
-    description: Total installed heat generation capacity for the residential and
-      commercial sectors
-    unit: GW
-- Capacity|Heat|Residential and Commercial|{Fuel}:
-    description: Total installed heat generation capacity for the residential and
-      commercial sectors from {Fuel}
-    unit: GW
-- Capacity|Heat|{Residential/Commercial}|Heat Pumps:
-    description: Total installed capacity of heat pumps for {Residential/Commercial} buildings
-    unit: GW
-- Capacity|Heat|Industrial:
-    description: Total installed heat generation capacity for the industrial sector
-    unit: GW
-- Capacity|Heat|Industrial|{Fuel}:
-    description: Total installed heat generation capacity for the industrial sector
-      from {Fuel}
-    unit: GW
 - Capacity|Gases:
     description: Total installed (available) capacity of gas plants
     unit: GW
@@ -120,6 +102,31 @@
 - Capacity|Liquids|Oil:
     description: Total installed (available) capacity of oil refining plants
     unit: GW
+
+- Capacity|Heat|Residential and Commercial:
+    description: Total installed heat generation capacity for the residential and
+      commercial sectors
+    unit: GW
+- Capacity|Heat|Residential and Commercial|{Fuel}:
+    description: Total installed heat generation capacity for the residential and
+      commercial sectors from {Fuel}
+    unit: GW
+- Capacity|Heat|{Residential/Commercial}|Heat Pumps:
+    description: Total installed capacity of heat pumps for {Residential/Commercial} buildings
+    unit: GW
+- Capacity|Heat|Industrial:
+    description: Total installed heat generation capacity for the industrial sector
+    unit: GW
+- Capacity|Heat|Industrial|{Fuel}:
+    description: Total installed heat generation capacity for the industrial sector
+      from {Fuel}
+    unit: GW
+- Capacity|Transportation|{Transport mode}:
+    description: Maximum amount of pkms or tkms that can be transported per year by {Transport mode}
+    unit: [billion pkm/yr, billion tkm/yr]
+- Capacity|Transportation|{Bunkers mode}:
+    description: Maximum amount of pkms or tkms that can be transported per year by {Transport mode}
+    unit: [billion pkm/yr, billion tkm/yr]
 
 - Capital Cost|Electricity|{Electricity Input}:
     description: Capital cost for {Electricity Input}
