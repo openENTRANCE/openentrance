@@ -90,4 +90,4 @@ def test_validate_time_entry(rename_mapping, status):
 
 
 def test_validate_unit_entry():
-    assert not (validate(df.rename(unit={"EJ/yr": "MWh"})))
+    assert not (validate(TEST_DF.rename(unit={"EJ/yr": "MWh"})))
