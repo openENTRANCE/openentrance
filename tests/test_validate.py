@@ -19,42 +19,37 @@ TEST_DATA = pd.DataFrame(
 TEST_DF = IamDataFrame(TEST_DATA)
 
 
-def validate(df):
-    try:
-        workflow(df)
-        return True
-    except ValueError as e:
-        print(e)
-        return False
-
-
 def test_validate():
     # test simple validation
-    assert validate(TEST_DF)
+    workflow(TEST_DF)
 
 
 def test_validate_fail():
     # test that simple validation fails on variable and region dimension
-    print(validate(TEST_DF.rename(variable={"Primary Energy": "foo"})))
 
-    assert not validate(TEST_DF.rename(variable={"Primary Energy": "foo"}))
-    assert not validate(TEST_DF.rename(region={"Europe": "foo"}))
+    with pytest.raises(ValueError):
+        workflow(TEST_DF.rename(variable={"Primary Energy": "foo"}))
+    with pytest.raises(ValueError):
+        workflow(TEST_DF.rename(region={"Europe": "foo"}))
 
 
 def test_validate_directional():
     # test that validation works as expected with directional data
-    assert validate(TEST_DF.rename(region={"Europe": "Austria>Germany"}))
-    assert not validate(TEST_DF.rename(region={"Europe": "Austria>foo"}))
+    workflow(TEST_DF.rename(region={"Europe": "Austria>Germany"}))
+    with pytest.raises(ValueError):
+        workflow(TEST_DF.rename(region={"Europe": "Austria>foo"}))
 
     # test that directional data with more than one `>` fails
-    assert not validate(TEST_DF.rename(region={"Europe": "Austria>Italy>France"}))
+    with pytest.raises(ValueError):
+        workflow(TEST_DF.rename(region={"Europe": "Austria>Italy>France"}))
 
 
 def test_validate_subannual_months():
     # test that validation works as expected with months
     # (and representative timeslices generally)
-    assert validate(IamDataFrame(TEST_DATA, subannual="January"))
-    assert not validate(IamDataFrame(TEST_DATA, subannual="foo"))
+    workflow(IamDataFrame(TEST_DATA, subannual="January"))
+    with pytest.raises(ValueError):
+        workflow(IamDataFrame(TEST_DATA, subannual="foo"))
 
 
 @pytest.mark.parametrize(
@@ -68,7 +63,11 @@ def test_validate_subannual_months():
 )
 def test_validate_subannual_datetime(subannual, status):
     # test that validation works as expected with continuous time as subannual
-    assert validate(IamDataFrame(TEST_DATA, subannual=subannual)) == status
+    if status:
+        workflow(IamDataFrame(TEST_DATA, subannual=subannual))
+    else:
+        with pytest.raises(ValueError):
+            workflow(IamDataFrame(TEST_DATA, subannual=subannual))
 
 
 @pytest.mark.parametrize(
@@ -86,8 +85,13 @@ def test_validate_time_entry(rename_mapping, status):
         .data.rename(columns={"year": "time"})
         .replace(rename_mapping)
     )
-    assert validate(_df) == status
+    if status:
+        workflow(_df)
+    else:
+        with pytest.raises(ValueError):
+            workflow(_df)
 
 
 def test_validate_unit_entry():
-    assert not (validate(TEST_DF.rename(unit={"EJ/yr": "MWh"})))
+    with pytest.raises(ValueError):
+        workflow(TEST_DF.rename(unit={"EJ/yr": "MWh"}))
