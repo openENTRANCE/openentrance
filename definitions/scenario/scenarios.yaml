@@ -1,6 +1,6 @@
-# Valid scenario names
+# Valid scenario names for the ECEMF project
 
-# ECEMF - Work package 1
+# ECEMF - Diagnostic scenarios
 
 # Baseline scenario and current policy
 - DIAG-Base
@@ -25,7 +25,7 @@
 - DIAG-C400-lin-ResidualFossil
 - DIAG-C400-lin-HighEff
 
-# Work package 1 Net-zero scenarios
+# ECEMF - Work package 1 Net-zero scenarios
 - WP1 NPI
 - WP1 NetZero
 - WP1 NetZero-LimBio
@@ -38,6 +38,11 @@
 
 # ECEMF - Work package 2
 - WP2 Boundary Condition|Initial
+- WP2 Boundary Condition|Updated|1
+- WP2 Boundary Condition|Updated|2
+- WP2 Boundary Condition|Updated|3
+- WP2 Boundary Condition|Updated|4
+- WP2 Boundary Condition|Updated|5
 - WP2 Sensitivity|High Electricity Price
 - WP2 Sensitivity|Low Electricity Price
 - WP2 Sensitivity|High Gas and Liquids Price
