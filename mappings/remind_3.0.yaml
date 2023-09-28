@@ -16,7 +16,7 @@ native_regions:
   - SSA: REMIND 3.0|SSA
   - USA: REMIND 3.0|USA
   # 12-region version of REMIND
-  - EUR: EU27 & UK
+  - EUR: REMIND 3.0|EUR
   - NEU: REMIND 3.0|NEU
   # 21-region version of REMIND
   - DEU: REMIND 3.0|DEU
@@ -59,6 +59,19 @@ common_regions:
     - EWN
     - NEN
     - NES
+  - EU27 & UK: 
+    # 12-region version of REMIND
+    - EUR
+    # 21-region version of REMIND
+    - DEU
+    - FRA
+    - UKI
+    - ECE
+    - ECS
+    - ENC
+    - ESC
+    - ESW
+    - EWN
   - EU27 & UK (*): 
     # 12-region version of REMIND
     - EUR
