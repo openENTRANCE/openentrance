@@ -197,6 +197,12 @@
 - Primary Energy|Wind:
     description: Primary energy consumption from wind energy
     unit: EJ/yr
+- Primary Energy|Wind|Onshore:
+    description: Primary energy consumption from onshore wind energy
+    unit: EJ/yr
+- Primary Energy|Wind|Offshore:
+    description: Primary energy consumption from offshore wind energy
+    unit: EJ/yr
 - Primary Energy|Other:
     description: Total primary energy consumption
     unit: EJ/yr

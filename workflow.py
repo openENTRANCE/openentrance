@@ -51,6 +51,10 @@ def main(df: pyam.IamDataFrame, dimensions=["region", "variable"]) -> pyam.IamDa
     # validate the region and variable dimensions, apply region processing
     df = process(df, definition, dimensions=dimensions, processor=processor)
 
+    # this is a quick-fix for https://github.com/IAMconsortium/nomenclature/issues/283
+    if invalid_regions := definition.region.validate_items(df.region):
+        raise ValueError(f"Invalid regions: {invalid_regions}")
+
     # convert to subannual format if data provided in datetime format
     if df.time_col == "time":
         logger.info('Re-casting from "time" column to categorical "subannual" format')

@@ -1,11 +1,24 @@
 model:
   - REMIND 3.0.0
+  - REMIND 3.2
   - REMIND-Buildings 3.0.0
   - REMIND-Industry 3.0.0
   - EDGE-T 0.15.0
 native_regions:
   - CAZ: REMIND 3.0|CAZ
   - CHA: REMIND 3.0|CHA
+  - IND: REMIND 3.0|IND
+  - JPN: REMIND 3.0|JPN
+  - LAM: REMIND 3.0|LAM
+  - MEA: REMIND 3.0|MEA
+  - OAS: REMIND 3.0|OAS
+  - REF: REMIND 3.0|REF
+  - SSA: REMIND 3.0|SSA
+  - USA: REMIND 3.0|USA
+  # 12-region version of REMIND
+  - EUR: REMIND 3.0|EUR
+  - NEU: REMIND 3.0|NEU
+  # 21-region version of REMIND
   - DEU: REMIND 3.0|DEU
   - ECE: REMIND 3.0|ECE
   - ECS: REMIND 3.0|ECS
@@ -14,74 +27,119 @@ native_regions:
   - ESW: REMIND 3.0|ESW
   - EWN: REMIND 3.0|EWN
   - FRA: REMIND 3.0|FRA
-  - IND: REMIND 3.0|IND
-  - JPN: REMIND 3.0|JPN
-  - LAM: REMIND 3.0|LAM
-  - MEA: REMIND 3.0|MEA
+  - UKI: REMIND 3.0|UKI
   - NEN: REMIND 3.0|NEN
   - NES: REMIND 3.0|NES
-  - OAS: REMIND 3.0|OAS
-  - REF: REMIND 3.0|REF
-  - SSA: REMIND 3.0|SSA
-  - UKI: REMIND 3.0|UKI
-  - USA: REMIND 3.0|USA
-  - EUR: EU27 & UK
+# exogenously aggregated regions that should appear with the same name as uploaded in the IIASA database
   - EU27
-  - World
 common_regions:
+  - World:
+    - CAZ
+    - CHA
+    - IND
+    - JPN
+    - OAS
+    - LAM
+    - MEA
+    - REF
+    - SSA
+    - USA
+    # 12-region version of REMIND
+    - EUR
+    - NEU
+    # 21-region version of REMIND
+    - DEU
+    - FRA
+    - UKI
+    - ECE
+    - ECS
+    - ENC
+    - ESC
+    - ESW
+    - EWN
+    - NEN
+    - NES
+  - EU27 & UK: 
+    # 12-region version of REMIND
+    - EUR
+    # 21-region version of REMIND
+    - DEU
+    - FRA
+    - UKI
+    - ECE
+    - ECS
+    - ENC
+    - ESC
+    - ESW
+    - EWN
   - EU27 & UK (*): 
-      - EUR
+    # 12-region version of REMIND
+    - EUR
+    # 21-region version of REMIND
+    - DEU
+    - FRA
+    - UKI
+    - ECE
+    - ECS
+    - ENC
+    - ESC
+    - ESW
+    - EWN
   - EU27 (*): 
-      - EU27
+    - EU27
   - Germany:
-      - DEU
+    - DEU
   - France:
-      - FRA
+    - FRA
   - Asia (R5):
-      - CHA
-      - IND
-      - OAS
+    - CHA
+    - IND
+    - OAS
   - Latin America (R5):
-      - LAM
+    - LAM
   - Middle East & Africa (R5):
-      - SSA
-      - MEA
+    - SSA
+    - MEA
   - OECD & EU (R5):
-      - DEU
-      - ECE
-      - ENC
-      - ECS
-      - ESC
-      - ESW
-      - EWN
-      - FRA
-      - UKI
-      - JPN
-      - USA
-      - CAZ
-      - NEN
-      - NES
+    - JPN
+    - USA
+    - CAZ
+    # 12-region version of REMIND
+    - EUR
+    - NEU
+    # 21-region version of REMIND
+    - DEU
+    - FRA
+    - UKI
+    - ECE
+    - ECS
+    - ENC
+    - ESC
+    - ESW
+    - EWN
+    - NEN
+    - NES
   - Reforming Economies (R5):
-      - REF
+    - REF
   - Germany (IP):
-      - DEU  
+    - DEU  
   - Eastern Europe (IP):
-      - ECE
+    - ECE
   - Scandinavia (IP):
-      - ENC
+    - ENC
   - South-East Europe (IP):
-      - ECS
+    - ECS
   - Southern Europe (IP):
-      - ESC
+    - ESC
   - Iberian Peninsula (IP):
-      - ESW
+    - ESW
   - Central Europe (IP):
-      - EWN
+    - EWN
   - France (IP):
-      - FRA
+    - FRA
   - United Kingdom & Ireland (IP):
-      - UKI
+    - UKI
   - Northern non-EU Europe (IP):
-      - NEN
+    - NEN
   - Southern non-EU Europe (IP):
-      - NES
+    - NES

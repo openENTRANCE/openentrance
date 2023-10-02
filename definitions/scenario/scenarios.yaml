@@ -1,6 +1,6 @@
-# Valid scenario names
+# Valid scenario names for the ECEMF project
 
-# ECEMF - Work package 1
+# ECEMF - Diagnostic scenarios
 
 # Baseline scenario and current policy
 - DIAG-Base
@@ -25,7 +25,7 @@
 - DIAG-C400-lin-ResidualFossil
 - DIAG-C400-lin-HighEff
 
-# Work package 1 Net-zero scenarios
+# ECEMF - Work package 1 Net-zero scenarios
 - WP1 NPI
 - WP1 NetZero
 - WP1 NetZero-LimBio
@@ -38,6 +38,11 @@
 
 # ECEMF - Work package 2
 - WP2 Boundary Condition|Initial
+- WP2 Boundary Condition|Updated|1
+- WP2 Boundary Condition|Updated|2
+- WP2 Boundary Condition|Updated|3
+- WP2 Boundary Condition|Updated|4
+- WP2 Boundary Condition|Updated|5
 - WP2 Sensitivity|High Electricity Price
 - WP2 Sensitivity|Low Electricity Price
 - WP2 Sensitivity|High Gas and Liquids Price
@@ -99,3 +104,36 @@
 - WP5 EastWest-1150
 - WP5 EastWestTech-650
 - WP5 EastWestTech-1150
+
+# ECEMF - Work package 5 task 5.3
+- WP5 Base
+- WP5 OPT-MIX
+- WP5 RAP-MIX
+- WP5 OPT-CP
+- WP5 RAP-CP
+- WP5 OPT-REG
+- WP5 RAP-REG
+- WP5 OPT-MIX-LimBio
+- WP5 RAP-MIX-LimBio
+- WP5 OPT-CP-LimBio
+- WP5 RAP-CP-LimBio
+- WP5 OPT-REG-LimBio
+- WP5 RAP-REG-LimBio
+- WP5 OPT-MIX-LimCCS
+- WP5 RAP-MIX-LimCCS
+- WP5 OPT-CP-LimCCS
+- WP5 RAP-CP-LimCCS
+- WP5 OPT-REG-LimCCS
+- WP5 RAP-REG-LimCCS
+- WP5 OPT-MIX-LimNuc
+- WP5 RAP-MIX-LimNuc
+- WP5 OPT-CP-LimNuc
+- WP5 RAP-CP-LimNuc
+- WP5 OPT-REG-LimNuc
+- WP5 RAP-REG-LimNuc
+- WP5 OPT-MIX-LimRES
+- WP5 RAP-MIX-LimRES
+- WP5 OPT-CP-LimRES
+- WP5 RAP-CP-LimRES
+- WP5 OPT-REG-LimRES
+- WP5 RAP-REG-LimRES
