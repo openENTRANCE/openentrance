@@ -25,12 +25,24 @@
     description: Total installed heat generation capacity for the industrial sector
       from {Fuel}
     unit: GW
+- Efficiency|Hydrogen|Electricity:
+    description: Efficiency of producing hydrogen from electricity
+    unit: "%"
+    skip-region-aggregation: true
+- Lifetime|Electricity|Nuclear:
+    description: Planned technical lifetime of operation for a nuclear power plant
+    unit: years
+    skip-region-aggregation: true
 - Capital Cost|Electricity|{Electricity Input}:
     description: Capital cost for {Electricity Input}
     unit: [EUR_2020/kW, USD_2010/kW]
     skip-region-aggregation: true
 - Capital Cost|Electricity|{Storage Type}:
     description: Capital cost for {Storage Type}
+    unit: [EUR_2020/kW, USD_2010/kW]
+    skip-region-aggregation: true
+- Capital Cost|Hydrogen|Electricity:
+    description: Capital cost for hydrogen production from electricity
     unit: [EUR_2020/kW, USD_2010/kW]
     skip-region-aggregation: true
 - Capital Cost|Heat|Residential and Commercial|{Fuel}:
