@@ -329,3 +329,5 @@
 
   - Other:
       description: other energy sources and fuels not explicitely listed
+  - Other|Fossil:
+      description: other fossil energy sources and fuels not explicitely listed (e.g. non-bio waste and fossil industrial gases)
