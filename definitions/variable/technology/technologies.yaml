@@ -11,8 +11,16 @@
     description: Total installed capacity of operating electricity storage (e.g. pumped hydro, batteries, compressed air storage)
           in terms of electricity output capacity
     unit: GW
+- Capacity|Electricity|Storage|Power|{Storage Type}:
+    description: Total installed capacity of operating electricity storage from {Storage Type}
+          in terms of electricity output capacity
+    unit: GW
 - Capacity|Electricity|Storage|Reservoir:
     description: Reservoir size of electricity storage technologies (e.g. pumped hydro, batteries, compressed air storage) 
+          in terms of stored electric energy
+    unit: GWh
+- Capacity|Electricity|Storage|Reservoir|{Storage Type}:
+    description: Reservoir size of electricity storage technologies from {Storage Type}
           in terms of stored electric energy
     unit: GWh
 - Capacity|Gases:
