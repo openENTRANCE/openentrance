@@ -45,37 +45,40 @@
     description: Total installed (available) capacity of coal to gas plants without CCS
     unit: GW
 - Capacity|Hydrogen:
-    description: Total installed (available) capacity of hydrogen plants
+    description: Total installed (available) capacity of hydrogen plants (in hydrogen output)
     unit: GW
 - Capacity|Hydrogen|Biomass:
-    description: Total installed (available) capacity of biomass to hydrogen plants
+    description: Total installed (available) capacity of biomass to hydrogen plants (in hydrogen output)
     unit: GW
 - Capacity|Hydrogen|Biomass|w/ CCS:
-    description: Total installed (available) capacity of biomass to hydrogen plants with CCS
+    description: Total installed (available) capacity of biomass to hydrogen plants with CCS (in hydrogen output)
     unit: GW
 - Capacity|Hydrogen|Biomass|w/o CCS:
-    description: Total installed (available) capacity of biomass to hydrogen plants without CCS
+    description: Total installed (available) capacity of biomass to hydrogen plants without CCS (in hydrogen output)
     unit: GW
 - Capacity|Hydrogen|Coal:
-    description: Total installed (available) capacity of coal to hydrogen plants.
+    description: Total installed (available) capacity of coal to hydrogen plants (in hydrogen output)
     unit: GW
 - Capacity|Hydrogen|Coal|w/ CCS:
-    description: Total installed (available) capacity of coal to hydrogen plants with CCS
+    description: Total installed (available) capacity of coal to hydrogen plants with CCS (in hydrogen output)
     unit: GW
 - Capacity|Hydrogen|Coal|w/o CCS:
-    description: Total installed (available) capacity of coal to hydrogen plants without CCS
+    description: Total installed (available) capacity of coal to hydrogen plants without CCS (in hydrogen output)
     unit: GW
 - Capacity|Hydrogen|Electricity:
-    description: Total installed (available) capacity of hydrogen-by-electrolysis plants
+    description: Total installed (available) capacity of hydrogen-by-electrolysis plants (in hydrogen output)
+    unit: GW
+- Capacity|Hydrogen|Input|Electricity:
+    description: Total installed (available) capacity of hydrogen-by-electrolysis plants (in electricity input)
     unit: GW
 - Capacity|Hydrogen|Gas:
-    description: Total installed (available) capacity of gas to hydrogen plants
+    description: Total installed (available) capacity of gas to hydrogen plants (in hydrogen output)
     unit: GW
 - Capacity|Hydrogen|Gas|w/ CCS:
-    description: Total installed (available) capacity of gas to hydrogen plants with CCS
+    description: Total installed (available) capacity of gas to hydrogen plants with CCS (in hydrogen output)
     unit: GW
 - Capacity|Hydrogen|Gas|w/o CCS:
-    description: Total installed (available) capacity of gas to hydrogen plants without CCS
+    description: Total installed (available) capacity of gas to hydrogen plants without CCS (in hydrogen output)
     unit: GW
 - Capacity|Liquids:
     description: Total installed (available) capacity of biomass to liquids plants
