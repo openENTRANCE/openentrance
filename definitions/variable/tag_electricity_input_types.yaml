@@ -39,7 +39,6 @@
 
   - Fossil:
       description: all fossil fuels (crude oil, coal, natural gas, non-bio waste and fossil industrial gases)
-)
   - Fossil|w/ CCS:
       description: all fossil fuels (crude oil, coal, natural gas, non-bio waste and fossil industrial gases)
         with a CO2 capture component
