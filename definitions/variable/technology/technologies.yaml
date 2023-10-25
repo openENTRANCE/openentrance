@@ -205,6 +205,13 @@
     description: Number of sold (new) vehicles with {Transport mode, tech and carrier}
     unit: million
 
+- Stock|Transportation|Charging station:
+    description: Number of charging stations for electric vehicles
+    unit: million
+- Stock|Transportation|Charging station|Public:
+    description: Number of charging stations for electric vehicles installed in public areas
+    unit: million
+
 - Renovation Rate|{Residential/Commercial}|Envelope:
     description: Rate of renovation of the envelope of {Residential/Commercial} buildings
     unit: '%'
