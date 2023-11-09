@@ -328,6 +328,8 @@
       description: ocean energy
 
   - Other:
-      description: other energy sources and fuels not explicitely listed
+      description: other energy sources and fuels not explicitly listed
   - Other|Fossil:
-      description: other fossil energy sources and fuels not explicitely listed (e.g. fossil waste and fossil industrial gases)
+      description: other fossil energy sources and fuels not explicitly listed (e.g. fossil waste and fossil industrial gases)
+  - Other|Non-Fossil:
+      description: other non-fossil energy sources and fuels not explicitly listed (e.g. biomass waste)
