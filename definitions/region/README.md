@@ -143,16 +143,20 @@ Example:
 > Norway>Germany
 
 To represent data that refers to a flow or cost contribution of a region
-to a connection between two regions, the third contributing region name 
+to a connection between two regions, the contributing region name 
 can be combined with the bi-directional data using a `:` character before
 the bi-directional data (without spaces before/after that character).
-
-The third contributing region can be of **a different level of spatial detail**
-from the bi-directional data.
 
 Example:
 
 > Germany:France>Spain
+
+The contributing region can be of **a different level of spatial detail**
+from the two regions specified in the bi-directional data.
+
+Example:
+
+> Berlin:France>Spain
 
 ## Parallel connections of directional data
 
