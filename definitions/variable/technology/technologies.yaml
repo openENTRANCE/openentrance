@@ -322,7 +322,13 @@
     description: Number of charging stations for electric vehicles
     unit: million
 - Stock|Transportation|Charging Station|Public:
-    description: Number of charging stations for electric vehicles installed in public areas
+    description: Number of public charging stations for electric vehicles, i.e. accessible to everybody without restriction (e.g. public parking spot)
+    unit: million
+- Stock|Transportation|Charging Station|Semi-Public:
+    description: Number of semi-public charging stations for electric vehicles, i.e. located in shared spaces accessible to a restricted group of people (e.g. charging stations at workplaces, shopping centers, hotels) 
+    unit: million
+- Stock|Transportation|Charging Station|Private:
+    description: Number of private charging stations for electric vehicles, i.e. accessible to a single person or household (e.g. charging stations in private garages)
     unit: million
 
 - Renovation Rate|{Residential/Commercial}|Envelope:
