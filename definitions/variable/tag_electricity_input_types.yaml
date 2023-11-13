@@ -38,12 +38,12 @@
         with freely vented CO2 emissions
 
   - Fossil:
-      description: all fossil fuels (crude oil, coal, natural gas)
+      description: all fossil fuels (crude oil, coal, natural gas, fossil waste and fossil industrial gases)
   - Fossil|w/ CCS:
-      description: all fossil fuels (crude oil, coal, natural gas)
+      description: all fossil fuels (crude oil, coal, natural gas, fossil waste and fossil industrial gases)
         with a CO2 capture component
   - Fossil|w/o CCS:
-      description: all fossil fuels (crude oil, coal, natural gas)
+      description: all fossil fuels (crude oil, coal, natural gas, fossil waste and fossil industrial gases)
         with freely vented CO2 emissions
 
   - Coal:
@@ -328,4 +328,8 @@
       description: ocean energy
 
   - Other:
-      description: other energy sources and fuels not explicitely listed
+      description: other energy sources and fuels not explicitly listed
+  - Other|Fossil:
+      description: other fossil energy sources and fuels not explicitly listed (e.g. fossil waste and fossil industrial gases)
+  - Other|Non-Fossil:
+      description: other non-fossil energy sources and fuels not explicitly listed (e.g. biomass waste)
