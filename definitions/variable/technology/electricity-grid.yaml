@@ -28,11 +28,11 @@
 - Network|Electricity|Active Power Flow:
     description: Active power flow through a line
     unit: MW
-- Network|Electricity|Active Power Flow Generation Contribution:
-    description: The active power flow that a generator is causing on a line
+- Network|Electricity|Active Power Flow|Generation Contribution:
+    description: The active power flow that a generator(s) is causing on a line
     unit: MW
-- Network|Electricity|Active Power Flow Demand Contribution:
-    description: The active power flow that a demand is causing on a line
+- Network|Electricity|Active Power Flow|Demand Contribution:
+    description: The active power flow that demand is causing on a line
     unit: MW
 - Network|Electricity|Impedance:
     description: Impedance of an interconnection between 2 regions
@@ -41,13 +41,13 @@
     description: Overnight investment (capital) cost in transmission lines of the
       power network
     unit: [million EUR_2020/yr, billion USD_2010/yr]
-- Network|Electricity|Generation Allocated Investment:
+- Network|Electricity|Allocated Investment|Generation:
     description: Overnight investment (capital) cost in a transmission line of the
-      power network allocated to a generator based on its electrical usage
+      power network allocated to a generator(s) based on its electrical usage
     unit: [thousand EUR_2020/yr, thousand USD_2010/yr]
-- Network|Electricity|Demand Allocated Investment:
+- Network|Electricity|Allocated Investment|Demand:
     description: Overnight investment (capital) cost in a transmission line of the
-      power network allocated to a demand based on its electrical usage
+      power network allocated to demand based on its electrical usage
     unit: [thousand EUR_2020/yr, thousand USD_2010/yr]
 - Network|Electricity|Fixed Charge Rate:
     description: Fixed charge rate to annualize the overnight investment cost. The

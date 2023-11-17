@@ -142,21 +142,17 @@ Example:
 
 > Norway>Germany
 
-To represent data that refers to a flow or cost contribution of a region
-to a connection between two regions, the contributing region name 
-can be combined with the bi-directional data using a `:` character before
-the bi-directional data (without spaces before/after that character).
+To represent data that refers to a flow or cost contribution of a generator
+or a demand in a region to a connection between two regions, the name of the region
+of the contributing agent (generator or demand) can be combined with the bi-directional data using 
+a `:` character before the bi-directional data (without spaces before/after that character).
 
-Example:
-
-> Germany:France>Spain
-
-The contributing region can be of **a different level of spatial detail**
+The region of the contributing agent can be of **a different level of spatial detail**
 from the two regions specified in the bi-directional data.
 
 Example:
 
-> Berlin:France>Spain
+> DE30:France>Spain
 
 ## Parallel connections of directional data
 
