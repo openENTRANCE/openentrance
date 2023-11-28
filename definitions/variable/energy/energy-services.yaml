@@ -42,3 +42,12 @@
 - Energy Service|Transportation|Passenger|{Transport}:
     description: Provision of energy services related to passenger {Transport}
     unit: Gpkm/yr
+
+- Energy Service|Night Lights|Intensity|Minimum:
+    description:  The value ranges from 0 to 63 with higher value representing higher light intensity over 
+        the night. The input parameter sets the minimum light intensity value under which the model will consider a settlement as electrified.
+    unit: -
+
+- Energy Service|Residential|End Year|Average:
+    description:  Annual electricity consumption per household that is expected to be achieved at the end pf the study.
+    unit: kWh

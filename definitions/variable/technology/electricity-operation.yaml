@@ -180,3 +180,7 @@
      if Discharged Energy > Charged Energy, 0 if not
     unit: [MWh, GWh]
 
+- Marginal cost|Network|Electricity|Expansion:
+    description: Incremental cost increase for extension of the grid from an electrified settlement to an un-electrified one. Default value set at 10%.
+    unit: %
+    skip-region-aggregation: true

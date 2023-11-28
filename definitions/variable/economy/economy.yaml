@@ -165,7 +165,7 @@
 
 - Population|Risk of Hunger:
     description: Population at risk of hunger
-    notes: Calculated by multipling total population and prevalence of undernourishment
+    notes: Calculated by multiplying total population and prevalence of undernourishment
       computed from a probability distribution of daily dietary energy consumption
       and minimum dietary energy requirement.
     unit: million
@@ -182,6 +182,88 @@
     description: Share of population living in urban areas
     unit: '%'
     skip-region-aggregation: true
+
+#ONSSET NEW VARIABLES
+- Population|End Year:
+    description: Predicted population at the end of the study
+    unit: million
+
+- Population|Urban|Share|End Year:
+    description: Share of population living in urban areas at the end of the study
+    unit: '%'
+    skip-region-aggregation: true
+
+- Population|Rural|Household|Average:
+    description: Average household size in rural populations
+    unit: people
+    skip-region-aggregation: true
+
+- Population|Urban|Household|Average:
+    description: Average household size in urban populations
+    unit: people
+    skip-region-aggregation: true
+
+- Population|Electricity access|Share:
+    description: Percentage of electrified people in the country
+    unit: '%'
+    skip-region-aggregation: true
+
+- Population|Settlement|Electricity access|Minimum|1:
+    description: Round 1 Minimum population value under which the OnSSET model will consider a settlement as electrified
+    unit: people
+    skip-region-aggregation: true
+
+- Population|Settlement|Electricity access|Minimum|2:
+    description: Round 2 Minimum population value under which the OnSSET model will consider a settlement as electrified
+    unit: people
+    skip-region-aggregation: true
+
+- Population|Settlement|Urban|Minimum:
+    description: Minimum population value under which the OnSSET model will consider a settlement as urban
+    unit: people
+    skip-region-aggregation: true
+
+- Population|Network|Electricity|End Year:
+    description: Predicted electrified population with electric grid at the end of the study
+    unit: people
+
+- Population|Solar PV|Standalone|End Year:
+    description: Predicted electrified population with standalone solar PV at the end of the study
+    unit: people
+
+- Population|Solar PV|Mini Grid|End Year:
+    description: Predicted electrified population with mini grid solar PV at the end of the study
+    unit: people
+
+- Population|Hydro|Mini Grid|End Year:
+    description: Predicted electrified population with hydropower mini grid at the end of the study
+    unit: people
+
+- Population|Wind|Mini Grid|End Year:
+    description: Predicted electrified population with wind power mini grid at the end of the study
+    unit: people
+
+- Population|Electricity|Grid|Expansion|End Year:
+    description: Predicted additional electrified population with electric grid at the end of the study
+    unit: people
+
+- Population|Solar PV|Standalone|Expansion|End Year:
+    description: Predicted additional electrified population with standalone solar PV at the end of the study
+    unit: people
+
+- Population|Solar PV|Mini Grid|Expansion|End Year:
+    description: Predicted additional electrified population with mini grid solar PV at the end of the study
+    unit: people
+
+- Population|Hydro|Mini Grid|Expansion|End Year:
+    description: Predicted additional electrified population with hydropower mini grid at the end of the study
+    unit: people
+
+- Population|Wind|Mini Grid|Expansion|End Year:
+    description: Predicted additional electrified population with wind power mini grid at the end of the study
+    unit: people
+# END ONSSET
+
 
 - Price|Carbon:
     definition: Price of carbon

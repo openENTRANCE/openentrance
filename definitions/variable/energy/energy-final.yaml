@@ -509,3 +509,11 @@
       energy.
     sector: all
     unit: '-'
+
+- Final Energy|Peak load|Share:
+    description: Ratio between the base and peak load in the selected country
+    energy_source: electricity
+    energy_use: all
+    note: It is used for sizing the necessary capacity to be installed per settlement in order to cover the respective demand
+    sector: all
+    unit: '%'

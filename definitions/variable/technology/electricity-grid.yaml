@@ -108,3 +108,8 @@
     description: Voltage angle at a node
     unit: Rad
     skip-region-aggregation: true
+
+- Network|Electricity|Expansion|Distance|Maximum:
+    description: Maximum distance for which the grid can be extended in order to electrify a settlement due to techno-economic considerations. The default value in the model is 50km.
+    unit: km
+    skip-region-aggregation: true
