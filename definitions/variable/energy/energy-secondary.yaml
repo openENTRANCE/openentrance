@@ -34,6 +34,18 @@
     description: electricity losses from long-range high-voltage transmission
     unit: [EJ/yr, GWh]
 
+#ONSSET START
+- Secondary Energy|Electricity|Transmission Losses|Share:
+    description: This value represents the country’s average technical losses on transmission and distribution
+    unit: %
+- Secondary Energy|Electricity|Distance|Maximum:
+    description: Maximum distance from the existing or planned grid network under which OnSSET will consider a settlement as electrified
+    unit: km
+- Secondary Energy|Electricity|Road|Distance|Maximum:
+    description: Maximum distance from the existing or planned road network under which OnSSET will consider a settlement as electrified.
+    unit: km
+#ONSSET END
+
 - Secondary Energy|Gases:
     description: Total production of gaseous fuels, including natural gas
     unit: EJ/yr

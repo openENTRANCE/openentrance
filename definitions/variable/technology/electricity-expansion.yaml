@@ -25,3 +25,54 @@
     description: Removed capacity for the electricity network,
       this capacity is substracted from the existing capacity
     unit: MW
+
+- Network|Electricity|Capacity|Expansion|End Year:
+    description: The additional Capacity required by the expansion of the existing grid
+        to fully cover the demand at the end of the study.
+    unit: kW
+
+- Solar PV|Standalone|Capacity|Expansion|End Year:
+    description: The additional Capacity required by the expansion of the standalone Solar PV 
+        to fully cover the demand at the end of the study.
+    unit: kW
+
+- Solar PV|Mini Grid|Capacity|Expansion|End Year:
+    description: The additional Capacity required by the expansion of the PV minigrid
+        to fully cover the demand at the end of the study.
+    unit: kW
+
+- Hydro|Mini Grid|Capacity|Expansion|End Year:
+    description: The additional Capacity required by the expansion of the hydropower mini grid
+        to fully cover the demand at the end of the study.
+    unit: kW
+
+- Wind|Mini Grid|Capacity|Expansion|End Year:
+    description: The additional Capacity required by the expansion of the existing wind power mini
+        to fully cover the demand at the end of the study.
+    unit: kW
+
+- Network|Electricity|Expansion Cost:
+    description: The investment required by expanding the electric grid to reach the electrification target
+      at the end of the study.
+    unit: million us$
+
+- Solar PV|Standalone|Expansion Cost:
+    description: The investment required by expanding standalone solar PV to reach the electrification target
+      at the end of the study.
+    unit: million us$
+
+- Solar PV|Mini Grid|Expansion Cost:
+    description: The investment required by expanding mini grid solar PV to reach the electrification target
+      at the end of the study.
+    unit: million us$
+
+- Hydro|Mini Grid|Expansion Cost:
+    description: The investment required by expanding the hydro power mini grid to reach the electrification target
+      at the end of the study.
+    unit: million us$
+
+- Wind|Mini Grid|Expansion Cost:
+    description: The investment required by expanding the wind power mini grid to reach the electrification target
+      at the end of the study.
+    unit: million us$
+

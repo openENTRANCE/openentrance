@@ -171,3 +171,32 @@
     notes: Prices should include the effect of carbon prices.
     unit: [EUR_2020/GJ, USD_2010/GJ]
     weight: Secondary Energy|Heat
+
+#Price|Final Energy|Diesel|Low
+#Price|Final Energy|Diesel|High
+#Price|Primary Energy|Electricity
+#Price|Primary Energy|Electricity|Expansion
+
+- Price|Final Energy|Diesel|Low:
+    description: The low price of diesel
+    notes: Used in the calculation of the operational costs for diesel generators (in both mini grid and stand-alone systems).
+    unit: us$/l
+    weight: Final Energy|Diesel
+
+- Price|Final Energy|Diesel|High:
+    description: The high price of diesel
+    notes: Used in the calculation of the operational costs for diesel generators (in both mini grid and stand-alone systems).
+    unit: us$/l
+    weight: Final Energy|Diesel
+
+- Price|Primary Energy|Electricity:
+    description: The cost of which the national grid generates electricity
+    notes: This value is based on the mix of technologies used in the country
+    unit: us$/kWh
+    weight: Primary Energy|Electricity
+
+- Price|Primary Energy|Electricity|Expansion:
+    description: The investment required per unit of additional capacity for the national grid
+    notes: This is an average value based on,the mix of technologies used in the country
+    unit: us$/kWh
+    weight: Primary Energy|Electricity

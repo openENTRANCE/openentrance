@@ -161,3 +161,15 @@
 - WP5 RAP-CP-LimRES
 - WP5 OPT-REG-LimRES
 - WP5 RAP-REG-LimRES
+
+# Valid scenario names for OnSSET
+- TIER 1|Low Diesel Price
+- TIER 2|Low Diesel Price
+- TIER 3|Low Diesel Price
+- TIER 4|Low Diesel Price
+- TIER 5|Low Diesel Price
+- TIER 1|High Diesel Price
+- TIER 2|High Diesel Price
+- TIER 3|High Diesel Price
+- TIER 4|High Diesel Price
+- TIER 5|High Diesel Price
