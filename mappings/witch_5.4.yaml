@@ -20,7 +20,6 @@ native_regions:
   - SSA: WITCH 5.4|Sub-Saharan Africa (except South Africa)
   - TE: WITCH 5.4|Transition Economies (including Russia)
   - USA: WITCH 5.4|United States of America
-  - EU27
   - World
 common_regions:
   - EU27 & UK (*): 
