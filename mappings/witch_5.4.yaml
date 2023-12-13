@@ -1,0 +1,53 @@
+model: WITCH 5.4
+native_regions:
+  - BRAZIL: WITCH 5.4|Brazil
+  - CANADA: WITCH 5.4|Canada
+  - CHINA: WITCH 5.4|China
+  - OTHEREUROPE: WITCH 5.4|Other European countries 
+  - EU27: WITCH 5.4|European Union
+  - INDIA: WITCH 5.4|India
+  - INDONESIA: WITCH 5.4|Indonesia
+  - JAPAN: WITCH 5.4|Japan
+  - KOREA: WItCH 5.4|Korea
+  - LACA: WITCH 5.4|Latin America and the Caribbean (except Brazil and Mexico)
+  - MENA: WITCH 5.4|Middle East and North Africa
+  - MEXICO: WITCH 5.4|Mexico
+  - OCEANIA: WITCH 5.4|Oceania
+  - SASIA: WITCH 5.4|South Asia
+  - SEASIA: WITCH 5.4|South-East Asia
+  - CCASIA: WITCH 5.4|Caucasus and Central Asia
+  - SOUTHAFRICA: WITCH 5.4|South Africa
+  - SSA: WITCH 5.4|Sub-Saharan Africa (except South Africa)
+  - TE: WITCH 5.4|Transition Economies (including Russia)
+  - USA: WITCH 5.4|United States of America
+  - World
+common_regions:
+  - EU27 & UK (*): 
+      - EU27
+  - EU27 (*): 
+      - EU27
+  - Asia (R5):
+    - CHINA
+    - INDIA
+    - INDONESIA
+    - SASIA
+    - SEASIA
+    - CCASIA
+  - Latin America (R5):
+    - BRAZIL
+    - LACA
+    - MEXICO
+  - Middle East & Africa (R5):
+    - MENA
+    - SOUTHAFRICA
+    - SSA
+  - OECD & EU (R5):
+    - CANADA
+    - EU27
+    - OTHEREUROPE
+    - JAPAN
+    - KOREA
+    - OCEANIA
+    - USA
+  - Reforming Economies (R5):
+    - TE
