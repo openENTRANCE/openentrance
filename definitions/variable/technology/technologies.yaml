@@ -1,3 +1,7 @@
+- Capacity|Grid|Electricity:
+    description: Grid generation capacity cap per year
+    unit: MW
+
 - Capacity|Electricity:
     description: Total installed electricity generation capacity
     unit: GW
@@ -455,3 +459,47 @@
       description: The capital cost (per Capacity unit) of a mini Grid hydropower system.
       unit: us$/kW
       skip-region-aggregation: true
+
+- Capital Cost|Batteries:
+    description: Expected hybrid mini‐grid component costs batteries.
+    unit: us$/kWp
+
+- Capital Cost|Inverter:
+    description: Expected hybrid mini‐grid component costs inverter.
+    unit: us$/kWp
+
+- Capital Cost|Charge Controller:
+    description: Expected hybrid mini‐grid component costs charge controller.
+    unit: us$/kW
+
+- Capital Cost|PV Stand-alone|Minimum:
+    description: Expected PV stand‐alone costs min.
+    unit: us$/kWp
+
+- Capital Cost|PV Stand-alone|Maximum:
+    description: Expected PV stand‐alone costs max.
+    unit: us$/kWp
+
+- Capital Cost|HV line:
+    description: Expected cost HV line.
+    unit: us$/km
+
+- Capital Cost|MV line:
+    description: Expected cost MV line.
+    unit: us$/km
+
+- Capital Cost|LV line:
+    description: Expected cost LV line.
+    unit: us$/km
+
+- Capital Cost|Substation|HV to MV:
+    description: Expected cost substations HV to MV.
+    unit: us$
+
+- Capital Cost|Substation|MV to V:
+    description: Expected cost substations MV to V.
+    unit: us$
+
+- Capital Cost|Transformer:
+    description: Expected cost transformer
+    unit: us$

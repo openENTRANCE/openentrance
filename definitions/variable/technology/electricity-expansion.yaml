@@ -54,25 +54,96 @@
 - Network|Electricity|Expansion Cost:
     description: The investment required by expanding the electric grid to reach the electrification target
       at the end of the study.
-    unit: million us$
+    unit: us$
+
+- Network|Electricity|New Grid Cost:
+    description: The investment required by new grid to reach the electrification target
+      at the end of the study.
+    unit: us$
 
 - Solar PV|Standalone|Expansion Cost:
     description: The investment required by expanding standalone solar PV to reach the electrification target
       at the end of the study.
-    unit: million us$
+    unit: us$
 
 - Solar PV|Mini Grid|Expansion Cost:
     description: The investment required by expanding mini grid solar PV to reach the electrification target
       at the end of the study.
-    unit: million us$
+    unit: us$
 
 - Hydro|Mini Grid|Expansion Cost:
     description: The investment required by expanding the hydro power mini grid to reach the electrification target
       at the end of the study.
-    unit: million us$
+    unit: us$
 
 - Wind|Mini Grid|Expansion Cost:
     description: The investment required by expanding the wind power mini grid to reach the electrification target
       at the end of the study.
-    unit: million us$
+    unit: us$
+
+- Expansion Cost|Total:
+    description: The total investment required by expanding to reach the electrification target
+      at the end of the study.
+    unit: us$
+
+- Population|Connected|Total:
+    description: Total predicted populations with electricity
+    unit: people
+
+- Population|Connected|Grid|Existing:
+    description: Total predicted populations with electricity from existing grid
+    unit: people
+
+- Population|Connected|Grid|New:
+    description: Total predicted populations with electricity from new grid
+    unit: people
+
+- Population|Connected|PV:
+    description: Total predicted populations with electricity from stand alone PV
+    unit: people
+
+- Population|Connected|Hybrid|PV:
+    description: Total predicted populations with electricity from PV mini grid
+    unit: people
+
+- Population|Connected|Hybrid|Wind:
+    description: Total predicted populations with electricity from wind power mini grid
+    unit: people
+
+- Population|Connected|Hydro:
+    description: Total predicted populations with electricity from hydro power mini grid
+    unit: people
+
+- Capacity|Added|Total:
+    description: Total predicted capacity added
+    unit: kW
+
+- Capacity|Added|Grid|Existing:
+    description: Total predicted capacity added
+    unit: kW
+
+- Capacity|Added|Grid|New:
+    description: Total predicted capacity added
+    unit: kW
+
+- Capacity|Added|PV:
+    description: Total predicted capacity added
+    unit: kW
+
+- Capacity|Added|Hybrid|PV:
+    description: Total predicted capacity added
+    unit: kW
+
+- Capacity|Added|Hybrid|Wind:
+    description: Total predicted capacity added
+    unit: kW
+
+- Capacity|Added|Hydro:
+    description: Total predicted capacity added
+    unit: kW
+
+
+
+
+
 
