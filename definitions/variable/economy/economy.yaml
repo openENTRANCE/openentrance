@@ -184,6 +184,30 @@
     skip-region-aggregation: true
 
 #ONSSET NEW VARIABLES
+- Household|Electricity Consumption|Average:
+    description: Average electricity consumption per Household
+    unit: kWh/year
+
+- Population|Baseline:
+    description: Total population at the start of the study
+    unit: million
+
+- Population|Growth:
+    description: Medium population growth
+    unit: %
+
+- Population|Electricity access|Share:
+    description: National Electrification Rate
+    unit: %
+
+- Population|Electricity access|Urban|Share:
+    description: National Electrification Rate Urban
+    unit: %
+
+- Population|Electricity access|Rural|Share:
+    description: National Electrification Rate Rural
+    unit: %
+
 - Population|End Year:
     description: Predicted population at the end of the study
     unit: million
@@ -262,6 +286,41 @@
 - Population|Wind|Mini Grid|Expansion|End Year:
     description: Predicted additional electrified population with wind power mini grid at the end of the study
     unit: people
+
+- Population|Connected|Total:
+    description: Predicted total population with electricity access
+    unit: people
+
+- Population|Connected|Grid|Existing:
+    description: Predicted population connected to the existing grid
+    unit: people
+
+- Population|Connected|Grid|New:
+    description: Predicted population connected to a new grid
+    unit: people
+
+- Population|Connected|PV:
+    description: Predicted population connected to standalone solar PV
+    unit: people
+
+- Population|Connected|Hybrid|PV:
+    description: Predicted population connected to minigrid solar PV
+    unit: people
+
+- Population|Connected|Hybrid|Wind:
+    description: Predicted population connected to wind power minigrid
+    unit: people
+
+- Population|Connected|Hydro:
+    description: Predicted population connected to hydro power minigrid
+    unit: people
+
+
+
+
+
+
+
 # END ONSSET
 
 
