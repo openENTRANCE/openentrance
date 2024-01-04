@@ -5,7 +5,7 @@
     unit: km
 - Network|Electricity|Expansion Cost:
     description: Cost for increasing the line capacity
-    unit: million EUR/GW/km
+    unit: [million EUR/GW/km, us$]
 - Network|Electricity|Capacity:
     description: Capacity of the line
     unit: MW
