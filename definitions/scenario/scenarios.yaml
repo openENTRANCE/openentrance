@@ -57,6 +57,13 @@
 - WP2 Transport|High H2/e-fuels|Efficiency High
 - WP2 Transport|High H2/e-fuels|Lifestyle and Behavioral Change
 
+- WP2 Transport|High Electrification|Efficiency Moderate|v02
+- WP2 Transport|High Electrification|Efficiency High|v02
+- WP2 Transport|High Electrification|Lifestyle and Behavioral Change|v02
+- WP2 Transport|High H2/e-fuels|Efficiency Moderate|v02
+- WP2 Transport|High H2/e-fuels|Efficiency High|v02
+- WP2 Transport|High H2/e-fuels|Lifestyle and Behavioral Change|v02
+
 # ECEMF - Work package 2 main industry scenarios 
 - WP2 Industry|High Electrification|Efficiency Moderate
 - WP2 Industry|High Electrification|Efficiency High
@@ -64,6 +71,13 @@
 - WP2 Industry|High H2/e-fuels|Efficiency Moderate
 - WP2 Industry|High H2/e-fuels|Efficiency High
 - WP2 Industry|High H2/e-fuels|Lifestyle and Behavioral Change
+
+- WP2 Industry|High Electrification|Efficiency Moderate|v02
+- WP2 Industry|High Electrification|Efficiency High|v02
+- WP2 Industry|High Electrification|Lifestyle and Behavioral Change|v02
+- WP2 Industry|High H2/e-fuels|Efficiency Moderate|v02
+- WP2 Industry|High H2/e-fuels|Efficiency High|v02
+- WP2 Industry|High H2/e-fuels|Lifestyle and Behavioral Change|v02
 
 # ECEMF - Work package 2 main buildings scenarios
 - WP2 Building|High Electrification|Efficiency Moderate
@@ -74,6 +88,15 @@
 - WP2 Building|High District Heating|Efficiency Moderate
 - WP2 Building|High District Heating|Efficiency High
 
+- WP2 Building|High Electrification|Efficiency Moderate|v02
+- WP2 Building|High Electrification|Efficiency High|v02
+- WP2 Building|High Electrification|Lifestyle and Behavioral Change|v02
+- WP2 Building|High H2/e-fuels|Efficiency Moderate|v02
+- WP2 Building|High H2/e-fuels|Efficiency High|v02
+- WP2 Building|High District Heating|Efficiency Moderate|v02
+- WP2 Building|High District Heating|Efficiency High|v02
+
+# ECEMF - Work package 2 main transport scenarios with updated prices
 - WP2 Transport|High Electrification|Efficiency Moderate|Prices 2023_10
 - WP2 Transport|High Electrification|Efficiency High|Prices 2023_10
 - WP2 Transport|High Electrification|Lifestyle and Behavioral Change|Prices 2023_10
