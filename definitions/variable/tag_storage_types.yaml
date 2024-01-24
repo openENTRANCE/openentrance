@@ -8,7 +8,7 @@
 - Storage Type:
   - Pumped Hydro:
       description: pumped hydro storage
-   - Battery:
+  - Battery:
       description: all batteries
   - Battery|Lithium-Ion:
       description: lithium-ion batteries
