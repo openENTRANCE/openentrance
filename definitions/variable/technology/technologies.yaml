@@ -44,6 +44,9 @@
 - Capacity|Gases|Coal|w/o CCS:
     description: Total installed (available) capacity of coal to gas plants without CCS
     unit: GW
+- Capacity|Gases|Hydrogen:
+    description: Total installed (available) capacity of hydrogen to methane (syngas) plants
+    unit: GW
 - Capacity|Hydrogen:
     description: Total installed (available) capacity of hydrogen plants (in hydrogen output)
     unit: GW
@@ -112,6 +115,9 @@
     unit: GW
 - Capacity|Liquids|Oil:
     description: Total installed (available) capacity of oil refining plants
+    unit: GW
+- Capacity|Liquids|Hydrogen:
+    description: Total installed (available) capacity of hydrogen to liquids (synguel) plants
     unit: GW
 
 - Capacity|Heat|Residential and Commercial:
