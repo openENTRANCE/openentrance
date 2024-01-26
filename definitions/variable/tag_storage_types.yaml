@@ -6,6 +6,10 @@
 # does not include hydro 
 
 - Storage Type:
+  - Pumped Hydro:
+      description: pumped hydro storage
+  - Battery:
+      description: all batteries
   - Battery|Lithium-Ion:
       description: lithium-ion batteries
   - Battery|Redox Flow:
