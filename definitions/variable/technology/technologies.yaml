@@ -45,7 +45,7 @@
     description: Total installed (available) capacity of coal to gas plants without CCS
     unit: GW
 - Capacity|Gases|Hydrogen:
-    description: Total installed (available) capacity of hydrogen to methane (syngas) plants
+    description: Total installed (available) capacity of hydrogen-to-methane (syngas) plants
     unit: GW
 - Capacity|Hydrogen:
     description: Total installed (available) capacity of hydrogen plants (in hydrogen output)
