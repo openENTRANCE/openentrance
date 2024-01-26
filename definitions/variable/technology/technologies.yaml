@@ -117,7 +117,7 @@
     description: Total installed (available) capacity of oil refining plants
     unit: GW
 - Capacity|Liquids|Hydrogen:
-    description: Total installed (available) capacity of hydrogen to liquids (synguel) plants
+    description: Total installed (available) capacity of hydrogen-to-liquids (synfuel) plants
     unit: GW
 
 - Capacity|Heat|Residential and Commercial:
