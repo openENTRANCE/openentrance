@@ -357,14 +357,14 @@
 - Running Costs|Transportation|Operation and Maintenance:
     description: Operation and Maintenance costs for Transportation.
     unit: [billion EUR_2020/yr, billion USD_2010/yr]
-- Running Costs|Transportation|{Transport Mode}|Operation and Maintenance:
-    description: Operation and Maintenance costs for {Transport Mode} in Transportation.
+- Running Costs|Transportation|{Transport mode}|Operation and Maintenance:
+    description: Operation and Maintenance costs for {Transport mode} in Transportation.
     unit: [billion EUR_2020/yr, billion USD_2010/yr]
 - Running Costs|Transportation|Fuel:
     description: Fuel costs for Transportation.
     unit: [billion EUR_2020/yr, billion USD_2010/yr]
-- Running Costs|Transportation|{Transport Mode}|Fuel:
-    description: Fuel costs for {Transport Mode} in Transportation.
+- Running Costs|Transportation|{Transport mode}|Fuel:
+    description: Fuel costs for {Transport mode} in Transportation.
     unit: [billion EUR_2020/yr, billion USD_2010/yr]
 
 - Stock|Transportation|{Transport mode, tech and carrier}:
