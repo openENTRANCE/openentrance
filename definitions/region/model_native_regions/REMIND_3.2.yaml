@@ -1,0 +1,47 @@
+- REMIND 3.2:
+  - REMIND 3.2|Canada, Australia, New Zealand:
+      iso3_codes: [AUS, CAN, HMD, NZL, SPM]
+  - REMIND 3.2|China and Taiwan:
+      iso3_codes: [CHN, HKG, MAC, TWN]
+  - REMIND 3.2|India:
+      iso3_codes: IND
+  - REMIND 3.2|Japan:
+      iso3_codes: JPN
+  - REMIND 3.2|Other Asia:
+      iso3_codes: [AFG, ASM, ATF, BGD, BRN, BTN, CCK, COK, CXR, FJI, FSM, GUM, IDN,
+        IOT, KHM, KIR, KOR, LAO, LKA, MDV, MHL, MMR, MNG, MNP, MYS, NCL, NFK, NIU,
+        NPL, NRU, PAK, PCN, PHL, PLW, PNG, PRK, PYF, SGP, SLB, TKL, TLS, TON, THA,
+        TUV, UMI, VNM, VUT, WLF, WSM]
+  - REMIND 3.2|Latin America and the Caribbean:
+      iso3_codes: [ABW, AIA, ARG, ATA, ATG, BES, BHS, BLM, BLZ, BMU, BOL, BRA, BRB,
+        BVT, CHL, COL, CRI, CUB, CYM, DMA, DOM, ECU, FLK, GLP, GRD, GTM, GUF, GUY,
+        HND, HTI, JAM, KNA, LCA, MAF, MEX, MSR, MTQ, NIC, PAN, PER, PRI, PRY, SGS,
+        SLV, SUR, TTO, URY, VCT, VEN, VGB, VIR, BES, CUW, SXM, TCA]
+  - REMIND 3.2|Middle East and North Africa:
+      iso3_codes: [ARE, BHR, DZA, EGY, ESH, IRN, IRQ, ISR, JOR, KWT, LBN, LBY, MAR,
+        OMN, PSE, QAT, SAU, SDN, TUN, YEM, SYR]
+  - REMIND 3.2|Russia and Reforming Economies:
+      iso3_codes: [ARM, AZE, BLR, GEO, KAZ, KGZ, MDA, RUS, TKM, UKR, UZB, TJK]
+  - REMIND 3.2|Sub-Saharan Africa:
+      iso3_codes: [AGO, BDI, BEN, BFA, BWA, CAF, CIV, CMR, COD, COG, COM, CPV, DJI,
+        ERI, ETH, GAB, GHA, GIN, GMB, GNB, GNQ, KEN, LBR, LSO, MDG, MLI, MOZ, MRT,
+        MUS, MWI, MYT, NAM, NER, NGA, REU, RWA, SEN, SHN, SLE, SOM, SSD, STP, SWZ,
+        SYC, TGO, TZA, UGA, ZAF, ZMB, ZWE, TCD]
+  - REMIND 3.2|United States:
+      iso3_codes: USA
+  - REMIND 3.2|Germany:
+      iso3_codes: DEU
+  - REMIND 3.2|France:
+      iso3_codes: FRA
+  - REMIND 3.2|United Kingdom and Ireland:
+      iso3_codes: [GBR, IRL]
+  - REMIND 3.2|EU Center-East Europe
+  - REMIND 3.2|EU Center-South Europe
+  - REMIND 3.2|EU North-Center Europe
+  - REMIND 3.2|EU South-Center Europe
+  - REMIND 3.2|EU South-West Europe
+  - REMIND 3.2|EU North-West Europe
+  - REMIND 3.2|Non-EU Northern Europe:
+      iso3_codes: [CHE, ISL, LIE, NOR]
+  - REMIND 3.2|Non-EU Southern Europe:
+      iso3_codes: [ALB, AND, BIH, GRL, MCO, MKD, MNE,SJM, SMR, SRB, TUR, VAT]
