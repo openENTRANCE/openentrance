@@ -29,6 +29,15 @@
         SYC, TGO, TZA, UGA, ZAF, ZMB, ZWE, TCD]
   - REMIND 3.2|United States:
       iso3_codes: USA
+# 12-region version of REMIND
+  - REMIND 3.2|EU 28:
+      iso3_codes: [ALA, AUT, BEL, BGR, CYP, CZE, DNK, ESP, EST, FIN, FRO, GGY, GIB,
+        GRC, HRV, HUN, IMN, IRL, ITA, JEY, LTU, LUX, LVA, MLT, NLD, POL, PRT, ROU,
+        SVK, SVN, SWE, FRA, DEU, ITA, GIB, GGY, GBR]
+  - REMIND 3.2|Non-EU28 Europe:
+      iso3_codes: [ALB, AND, BIH, CHE, GRL, ISL, LIE, MCO, MKD, MNE, NOR, SJM, SMR,
+        SRB, TUR, VAT]
+# 21-region version of REMIND
   - REMIND 3.2|Germany:
       iso3_codes: DEU
   - REMIND 3.2|France:
