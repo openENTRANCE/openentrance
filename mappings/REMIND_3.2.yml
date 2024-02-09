@@ -12,6 +12,10 @@ native_regions:
   - REF: REMIND 3.2|Russia and Reforming Economies
   - SSA: REMIND 3.2|Sub-Saharan Africa
   - USA: REMIND 3.2|United States
+    # 12-region version of REMIND
+  - EUR: REMIND 3.2|EU 28
+  - NEU: REMIND 3.2|Non-EU28 Europe
+  # 21-region version of REMIND
   - DEU: REMIND 3.2|Germany
   - FRA: REMIND 3.2|France
   - UKI: REMIND 3.2|United Kingdom and Ireland
@@ -38,6 +42,10 @@ common_regions:
     - REF
     - SSA
     - USA
+    # 12-region version of REMIND
+    - EUR
+    - NEU
+    # 21-region version of REMIND
     - DEU
     - FRA
     - UKI
@@ -52,6 +60,9 @@ common_regions:
 
 # aggregations used in the ECEMF project
   - EU27 & UK:
+    # 12-region version of REMIND
+    - EUR
+    # 21-region version of REMIND
     - DEU
     - FRA
     - UKI
@@ -62,6 +73,9 @@ common_regions:
     - ESW
     - EWN
   - EU27 & UK (*):
+    # 12-region version of REMIND
+    - EUR
+    # 21-region version of REMIND
     - DEU
     - FRA
     - UKI
@@ -92,6 +106,10 @@ common_regions:
     - JPN
     - USA
     - CAZ
+    # 12-region version of REMIND
+    - EUR
+    - NEU
+    # 21-region version of REMIND
     - DEU
     - FRA
     - UKI
