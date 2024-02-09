@@ -1,36 +1,35 @@
+# this mapping only works for the 21-region version of REMIND 3.2
 model:
-  - REMIND 3.0.0
-  - REMIND-Buildings 3.0.0
-  - REMIND-Industry 3.0.0
-  - EDGE-T 0.15.0
+  - REMIND 3.2
 native_regions:
-  - CAZ: REMIND 3.0|CAZ
-  - CHA: REMIND 3.0|CHA
-  - IND: REMIND 3.0|IND
-  - JPN: REMIND 3.0|JPN
-  - LAM: REMIND 3.0|LAM
-  - MEA: REMIND 3.0|MEA
-  - OAS: REMIND 3.0|OAS
-  - REF: REMIND 3.0|REF
-  - SSA: REMIND 3.0|SSA
-  - USA: REMIND 3.0|USA
-  # 12-region version of REMIND
-  - EUR: REMIND 3.0|EUR
-  - NEU: REMIND 3.0|NEU
+  - CAZ: REMIND 3.2|Canada, Australia, New Zealand
+  - CHA: REMIND 3.2|China and Taiwan
+  - IND: REMIND 3.2|India
+  - JPN: REMIND 3.2|Japan
+  - OAS: REMIND 3.2|Other Asia
+  - LAM: REMIND 3.2|Latin America and the Caribbean
+  - MEA: REMIND 3.2|Middle East and North Africa
+  - REF: REMIND 3.2|Russia and Reforming Economies
+  - SSA: REMIND 3.2|Sub-Saharan Africa
+  - USA: REMIND 3.2|United States
+    # 12-region version of REMIND
+  - EUR: REMIND 3.2|EU 28
+  - NEU: REMIND 3.2|Non-EU28 Europe
   # 21-region version of REMIND
-  - DEU: REMIND 3.0|DEU
-  - ECE: REMIND 3.0|ECE
-  - ECS: REMIND 3.0|ECS
-  - ENC: REMIND 3.0|ENC
-  - ESC: REMIND 3.0|ESC
-  - ESW: REMIND 3.0|ESW
-  - EWN: REMIND 3.0|EWN
-  - FRA: REMIND 3.0|FRA
-  - UKI: REMIND 3.0|UKI
-  - NEN: REMIND 3.0|NEN
-  - NES: REMIND 3.0|NES
+  - DEU: REMIND 3.2|Germany
+  - FRA: REMIND 3.2|France
+  - UKI: REMIND 3.2|United Kingdom and Ireland
+  - ECE: REMIND 3.2|EU Center-East Europe
+  - ECS: REMIND 3.2|EU Center-South Europe
+  - ENC: REMIND 3.2|EU North-Center Europe
+  - ESC: REMIND 3.2|EU South-Center Europe
+  - ESW: REMIND 3.2|EU South-West Europe
+  - EWN: REMIND 3.2|EU North-West Europe
+  - NEN: REMIND 3.2|Non-EU Northern Europe
+  - NES: REMIND 3.2|Non-EU Southern Europe
 # exogenously aggregated regions that should appear with the same name as uploaded in the IIASA database
   - EU27
+
 common_regions:
   - World:
     - CAZ
@@ -58,7 +57,9 @@ common_regions:
     - EWN
     - NEN
     - NES
-  - EU27 & UK: 
+
+# aggregations used in the ECEMF project
+  - EU27 & UK:
     # 12-region version of REMIND
     - EUR
     # 21-region version of REMIND
@@ -71,7 +72,7 @@ common_regions:
     - ESC
     - ESW
     - EWN
-  - EU27 & UK (*): 
+  - EU27 & UK (*):
     # 12-region version of REMIND
     - EUR
     # 21-region version of REMIND
@@ -84,12 +85,14 @@ common_regions:
     - ESC
     - ESW
     - EWN
-  - EU27 (*): 
+  - EU27 (*):
     - EU27
   - Germany:
     - DEU
   - France:
     - FRA
+
+# R5 regions
   - Asia (R5):
     - CHA
     - IND
@@ -111,8 +114,8 @@ common_regions:
     - FRA
     - UKI
     - ECE
-    - ECS
     - ENC
+    - ECS
     - ESC
     - ESW
     - EWN
@@ -120,8 +123,10 @@ common_regions:
     - NES
   - Reforming Economies (R5):
     - REF
+
+# Innopaths regions
   - Germany (IP):
-    - DEU  
+    - DEU
   - Eastern Europe (IP):
     - ECE
   - Scandinavia (IP):
