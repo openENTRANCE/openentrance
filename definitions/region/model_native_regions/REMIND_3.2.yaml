@@ -34,14 +34,20 @@
   - REMIND 3.2|France:
       iso3_codes: FRA
   - REMIND 3.2|United Kingdom and Ireland:
-      iso3_codes: [GBR, IRL]
-  - REMIND 3.2|EU Center-East Europe
-  - REMIND 3.2|EU Center-South Europe
-  - REMIND 3.2|EU North-Center Europe
-  - REMIND 3.2|EU South-Center Europe
-  - REMIND 3.2|EU South-West Europe
-  - REMIND 3.2|EU North-West Europe
+      iso3_codes: [GIB, GGY, IRL, IMN, JEY, GBR]
+  - REMIND 3.2|EU Center-East Europe:
+      iso3_codes: [CZE, EST, LVA, LTU, POL, SVK]
+  - REMIND 3.2|EU Center-South Europe:
+      iso3_codes: [BGR, HRV, HUN, ROU, SVN]
+  - REMIND 3.2|EU North-Center Europe:
+      iso3_codes: [ALA, DNK, FRO, FIN, SWE]
+  - REMIND 3.2|EU South-Center Europe:
+      iso3_codes: [CYP, GRC, ITA, MLT]
+  - REMIND 3.2|EU South-West Europe:
+      iso3_codes: [PRT, ESP]
+  - REMIND 3.2|EU North-West Europe:
+      iso3_codes: [AUT, BEL, LUX, NLD]
   - REMIND 3.2|Non-EU Northern Europe:
-      iso3_codes: [CHE, ISL, LIE, NOR]
+      iso3_codes: [ISL, LIE, NOR, SJM, CHE, GRL]
   - REMIND 3.2|Non-EU Southern Europe:
-      iso3_codes: [ALB, AND, BIH, GRL, MCO, MKD, MNE,SJM, SMR, SRB, TUR, VAT]
+      iso3_codes: [ALB, AND, BIH, VAT, MKD, MCO, MNE, SMR, SRB, TUR]
