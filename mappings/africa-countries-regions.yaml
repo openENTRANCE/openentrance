@@ -3,6 +3,7 @@ model:
   - EV-PV 0.1.0
   - GENeSYS-MOD 3.2
   - InfraFair 1.0.0
+  - openTEPES 4.15.7
 native_regions:
   - Algeria
   - Angola
