@@ -99,7 +99,7 @@ common_regions:
     - Morocco
     - Tunisia
     - Western Sahara
- - Central Africa:
+  - Central Africa:
     - Burundi
     - Cameroon
     - Central African Republic
@@ -109,7 +109,7 @@ common_regions:
     - Equatorial Guinea
     - Gabon
     - Sao Tome and Principe
- - Southern Africa:
+  - Southern Africa:
     - Angola
     - Botswana
     - Eswatini
