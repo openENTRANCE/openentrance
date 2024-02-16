@@ -434,72 +434,60 @@
     description: Levelized cost of storage for {Storage Type}
     unit: [MEUR_2020/MWh, MUSD_2010/MWh, MEUR_2020/PJ, MUSD_2010/PJ]
     skip-region-aggregation: true
-
 - Capital Cost|Electricity|Diesel|Stand-alone:
     description: The capital cost (per Capacity unit) of a stand- alone diesel generator.
-    unit: us$/kW
+    unit: US$2020/kW
     skip-region-aggregation: true
 - Capital Cost|Electricity|Solar PV|Stand-alone:
     description: The capital cost (per Capacity unit) of a stand- alone PV module.
-    unit: us$/kW
+    unit: US$2020/kW
     skip-region-aggregation: true
 - Capital Cost|Electricity|Diesel|Mini Grid:
     description: The capital cost (per Capacity unit) of a mini Grid diesel generator.
-    unit: us$/kW
+    unit: US$2020/kW
     skip-region-aggregation: true
 - Capital Cost|Electricity|Solar PV|Mini Grid:
     description: The capital cost (per Capacity unit) of a mini Grid PV system.
-    unit: us$/kW
+    unit: US$2020/kW
     skip-region-aggregation: true
 - Capital Cost|Electricity|Wind|Mini Grid:
     description: The capital cost (per Capacity unit) of a mini Grid wind powered system.
-    unit: us$/kW
+    unit: US$2020/kW
     skip-region-aggregation: true
 - Capital Cost|Electricity|Hydro|Mini Grid:
       description: The capital cost (per Capacity unit) of a mini Grid hydropower system.
-      unit: us$/kW
+      unit: US$2020/kW
       skip-region-aggregation: true
-
 - Capital Cost|Batteries:
     description: Expected hybrid mini‐grid component costs batteries.
-    unit: us$/kWp
-
+    unit: US$2020/kWp
 - Capital Cost|Inverter:
     description: Expected hybrid mini‐grid component costs inverter.
-    unit: us$/kWp
-
+    unit: US$2020/kWp
 - Capital Cost|Charge Controller:
     description: Expected hybrid mini‐grid component costs charge controller.
-    unit: us$/kW
-
+    unit: US$2020/kW
 - Capital Cost|PV Stand-alone|Minimum:
     description: Expected PV stand‐alone costs min.
-    unit: us$/kWp
-
+    unit: US$2020/kWp
 - Capital Cost|PV Stand-alone|Maximum:
     description: Expected PV stand‐alone costs max.
-    unit: us$/kWp
-
+    unit: US$2020/kWp
 - Capital Cost|HV line:
     description: Expected cost HV line.
-    unit: us$/km
-
+    unit: US$2020/km
 - Capital Cost|MV line:
     description: Expected cost MV line.
-    unit: us$/km
-
+    unit: US$2020/km
 - Capital Cost|LV line:
     description: Expected cost LV line.
-    unit: us$/km
-
+    unit: US$2020/km
 - Capital Cost|Substation|HV to MV:
     description: Expected cost substations HV to MV.
-    unit: us$
-
+    unit: US$2020
 - Capital Cost|Substation|MV to V:
     description: Expected cost substations MV to V.
-    unit: us$
-
+    unit: US$2020
 - Capital Cost|Transformer:
     description: Expected cost transformer
-    unit: us$
+    unit: US$2020
