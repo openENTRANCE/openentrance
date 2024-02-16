@@ -1,0 +1,131 @@
+model:
+  - plan4res 1.0
+  - EV-PV 0.1.0
+  - GENeSYS-MOD 3.2
+  - InfraFair 1.0.0
+native_regions:
+  - Algeria
+  - Angola
+  - Benin
+  - Botswana
+  - Burkina Faso
+  - Burundi
+  - Cabo Verde
+  - Cameroon
+  - Central African Republic
+  - Chad
+  - Comoros
+  - Congo
+  - Côte d'Ivoire
+  - Democratic Republic of the Congo
+  - Djibouti
+  - Egypt
+  - Equatorial Guinea
+  - Eritrea
+  - Eswatini
+  - Ethiopia
+  - Gabon
+  - Gambia
+  - Ghana
+  - Guinea
+  - Guinea-Bissau
+  - Kenya
+  - Lesotho
+  - Liberia
+  - Libya
+  - Madagascar
+  - Malawi
+  - Mali
+  - Mauritania
+  - Mauritius
+  - Morocco
+  - Mozambique
+  - Namibia
+  - Niger
+  - Nigeria
+  - Rwanda
+  - Sao Tome and Principe
+  - Senegal
+  - Seychelles
+  - Sierra Leone
+  - Somalia
+  - South Africa
+  - South Sudan
+  - Sudan
+  - Tanzania
+  - Togo
+  - Tunisia
+  - Uganda
+  - Western Sahara
+  - Zambia
+  - Zimbabwe
+common_regions:
+  - Western Africa:
+    - Benin
+    - Burkina Faso
+    - Cabo Verde
+    - Côte d'Ivoire
+    - Gambia
+    - Ghana
+    - Guinea
+    - Guinea-Bissau
+    - Liberia
+    - Mali
+    - Niger
+    - Nigeria
+    - Senegal
+    - Sierra Leone
+    - Togo
+  - Eastern Africa:
+    - Comoros
+    - Djibouti
+    - Eritrea
+    - Ethiopia
+    - Kenya
+    - Madagascar
+    - Mauritius
+    - Rwanda
+    - Seychelles
+    - Somalia
+    - South Sudan
+    - Sudan
+    - Tanzania
+    - Uganda
+ - Northern Africa:
+    - Algeria
+    - Egypt
+    - Libya
+    - Mauritania
+    - Morocco
+    - Tunisia
+    - Western Sahara
+ - Central Africa:
+    - Burundi
+    - Cameroon
+    - Central African Republic
+    - Chad
+    - Congo
+    - Democratic Republic of the Congo
+    - Equatorial Guinea
+    - Gabon
+    - Sao Tome and Principe
+ - Southern Africa:
+    - Angola
+    - Botswana
+    - Eswatini
+    - Lesotho
+    - Malawi
+    - Mozambique
+    - Namibia
+    - South Africa
+    - Zambia
+    - Zimbabwe
+ - Africa:
+    - Western Africa
+    - Eastern Africa
+    - Central Africa
+    - Northern Africa
+    - Southern Africa
+
+
+
