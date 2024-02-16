@@ -25,125 +25,93 @@
     description: Removed capacity for the electricity network,
       this capacity is substracted from the existing capacity
     unit: MW
-
 - Network|Electricity|Capacity|Expansion|End Year:
     description: The additional Capacity required by the expansion of the existing grid
         to fully cover the demand at the end of the study.
     unit: kW
-
 - Solar PV|Standalone|Capacity|Expansion|End Year:
     description: The additional Capacity required by the expansion of the standalone Solar PV 
         to fully cover the demand at the end of the study.
     unit: kW
-
 - Solar PV|Mini Grid|Capacity|Expansion|End Year:
     description: The additional Capacity required by the expansion of the PV minigrid
         to fully cover the demand at the end of the study.
     unit: kW
-
 - Hydro|Mini Grid|Capacity|Expansion|End Year:
     description: The additional Capacity required by the expansion of the hydropower mini grid
         to fully cover the demand at the end of the study.
     unit: kW
-
 - Wind|Mini Grid|Capacity|Expansion|End Year:
     description: The additional Capacity required by the expansion of the existing wind power mini
         to fully cover the demand at the end of the study.
     unit: kW
-
 - Network|Electricity|Expansion Cost:
     description: The investment required by expanding the electric grid to reach the electrification target
       at the end of the study.
-    unit: us$
-
+    unit: US$2020
 - Network|Electricity|New Grid Cost:
     description: The investment required by new grid to reach the electrification target
       at the end of the study.
-    unit: us$
-
+    unit: US$2020
 - Solar PV|Standalone|Expansion Cost:
     description: The investment required by expanding standalone solar PV to reach the electrification target
       at the end of the study.
-    unit: us$
-
+    unit: US$2020
 - Solar PV|Mini Grid|Expansion Cost:
     description: The investment required by expanding mini grid solar PV to reach the electrification target
       at the end of the study.
-    unit: us$
-
+    unit: US$2020
 - Hydro|Mini Grid|Expansion Cost:
     description: The investment required by expanding the hydro power mini grid to reach the electrification target
       at the end of the study.
-    unit: us$
-
+    unit: US$2020
 - Wind|Mini Grid|Expansion Cost:
     description: The investment required by expanding the wind power mini grid to reach the electrification target
       at the end of the study.
-    unit: us$
-
+    unit: US$2020
 - Expansion Cost|Total:
     description: The total investment required by expanding to reach the electrification target
       at the end of the study.
-    unit: us$
-
+    unit: US$2020
 - Population|Connected|Total:
     description: Total predicted populations with electricity
-    unit: people
-
+    unit:
 - Population|Connected|Grid|Existing:
     description: Total predicted populations with electricity from existing grid
-    unit: people
-
+    unit:
 - Population|Connected|Grid|New:
     description: Total predicted populations with electricity from new grid
-    unit: people
-
+    unit:
 - Population|Connected|PV:
     description: Total predicted populations with electricity from stand alone PV
-    unit: people
-
+    unit:
 - Population|Connected|Hybrid|PV:
     description: Total predicted populations with electricity from PV mini grid
-    unit: people
-
+    unit:
 - Population|Connected|Hybrid|Wind:
     description: Total predicted populations with electricity from wind power mini grid
     unit: people
-
 - Population|Connected|Hydro:
     description: Total predicted populations with electricity from hydro power mini grid
-    unit: people
-
+    unit:
 - Capacity|Added|Total:
     description: Total predicted capacity added
     unit: kW
-
 - Capacity|Added|Grid|Existing:
     description: Total predicted capacity added
     unit: kW
-
 - Capacity|Added|Grid|New:
     description: Total predicted capacity added
     unit: kW
-
 - Capacity|Added|PV:
     description: Total predicted capacity added
     unit: kW
-
 - Capacity|Added|Hybrid|PV:
     description: Total predicted capacity added
     unit: kW
-
 - Capacity|Added|Hybrid|Wind:
     description: Total predicted capacity added
     unit: kW
-
 - Capacity|Added|Hydro:
     description: Total predicted capacity added
     unit: kW
-
-
-
-
-
-
