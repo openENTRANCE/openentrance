@@ -1,309 +1,240 @@
 # List of variables related to economic activity and societal drivers
-
 - Consumption:
     description: Total consumption of all goods, by all consumers in a region
     unit: [billion USD_2010/yr, billion EUR_2020/yr]
-
 - Consumption|Households:
     description: Total consumption of all goods, by households in a region
     unit: [billion USD_2010/yr, billion EUR_2020/yr]
-
 - Consumption|Government:
     description: Total consumption of all goods, by the government in a region
     unit: [billion USD_2010/yr, billion EUR_2020/yr]
-
 - Consumption|Industry:
     description: Total consumption of all goods, by industries in a region
     unit: [billion USD_2010/yr, billion EUR_2020/yr]
-
 - Consumption|Households|{Product}|Imported:
     description: Consumption of imported {Product} by households
     unit: [billion USD_2010/yr, billion EUR_2020/yr]
-
 - Consumption|Households|{Product}|Domestic:
     description: Consumption of domestic {Product} by households
     unit: [billion USD_2010/yr, billion EUR_2020/yr]
-
 - Consumption|Government|{Product}|Imported:
     description: Consumption of imported {Product} by government
     unit: [billion USD_2010/yr, billion EUR_2020/yr]
-
 - Consumption|Government|{Product}|Domestic:
     description: Consumption of domestic {Product} by government
     unit: [billion USD_2010/yr, billion EUR_2020/yr]
-
 - Consumption|Gross Capital Formation|{Product}|Imported:
     description: Consumption of imported {Product} by gross capital formation
     unit: [billion USD_2010/yr, billion EUR_2020/yr]
-
 - Consumption|Gross Capital Formation|{Product}|Domestic:
     description: Consumption of domestic {Product} by gross capital formation
     unit: [billion USD_2010/yr, billion EUR_2020/yr]
-
 - Consumption|Industry|{Product}|Imported:
     description: Consumption of imported {Product} by industries
     unit: [billion USD_2010/yr, billion EUR_2020/yr]
-
 - Consumption|Industry|{Product}|Domestic:
     description: Consumption of domestic {Product} by industries
     unit: [billion USD_2010/yr, billion EUR_2020/yr]
-
 - Output|Industry|{Industry}:
     description: Total monetary value of production (output) by {Industry}.
       The value includes cost of production, capital costs, labor costs and taxes.
     unit: [billion USD_2010/yr, billion EUR_2020/yr]
-
 - Output|Product|{Product}:
     description: Total monetary value of {Product} produced (output) and sold
       to industry, households and government
     unit: [billion USD_2010/yr, billion EUR_2020/yr]
-
 - Capital|{Industry}:
     description: Total capital costs spend by {Industry}
     unit: [billion USD_2010/yr, billion EUR_2020/yr]
-
 - Labor|{Industry}:
     description: Total wages spent by {Industry}
     unit: [billion USD_2010/yr, billion EUR_2020/yr]
-
 - Product Price Index|{Product}:
     description: Price index on {Product} level, relative to base year 2011
     note: The index equals 1 in 2011, the reference year
     unit: index
     skip-region-aggregation: true
-
 - Capital Price Index:
     description: Price index of capital, relative to base year 2011
     note: The index equals 1 in 2011, the reference year
     unit: index
     skip-region-aggregation: true
-
 - Labor Price Index:
     description: Price index of wages, relative to base year 2011
     note: The index equals 1 in 2011, the reference year
     unit: index
     skip-region-aggregation: true
-
 - Discount rate|Buildings:
     description: Discount rate for investments into residential and commercial buildings
     unit: '%'
     skip-region-aggregation: true
-
 - Discount rate|Economy:
     description: Economy-wide discount rate (real interest rate of capital)
     unit: '%'
     skip-region-aggregation: true
-
 - Discount rate|Electricity:
     description: Discount rate for investments in the electricity sector
     unit: '%'
     skip-region-aggregation: true
-
 - Discount rate|Energy Supply:
     description: Discount rate for investments in energy supply sector
     unit: '%'
     skip-region-aggregation: true
-
 - Discount rate|Industry:
     description: Discount rate for investments in installations in the industrial sector
     unit: '%'
     skip-region-aggregation: true
-
 - Discount rate|Mobility:
     description: Discount rate for investments into mobility (e.g. vehicles),
       not including transport infrastructure)
     unit: '%'
     skip-region-aggregation: true
-
 - Discount rate|Social:
     description: Social discount rate (should be reported if different from capital
       interest rate and used in the model to discount future costs and revenues)
     unit: '%'
     skip-region-aggregation: true
-
 - Discount rate|Transport Infrastructure:
     description: Discount rate for investments into transport infrastructure
       (roads, railways, ports, airports, waterways etc.)
     unit: '%'
     skip-region-aggregation: true
-
 - GDP|MER:
     description: GDP at market exchange rate
     unit: [billion USD_2010/yr, billion EUR_2020/yr]
-
 - GDP|PPP:
     description: GDP at purchasing power parity
     unit: [billion USD_2010/yr, billion EUR_2020/yr]
-
 - Policy Cost|Additional Total Energy System Cost:
     description: Additional energy system cost associated with the policy
     unit: [billion USD_2010/yr, billion EUR_2020/yr]
-
 - Policy Cost|Area under MAC Curve:
     description: Total costs of the policy,
       i.e. the area under the Marginal Abatement Cost (MAC) curve
     unit: [billion USD_2010/yr, billion EUR_2020/yr]
-
 - Policy Cost|Consumption Loss:
     description: Consumption loss in a policy scenario compared to the corresponding
       baseline
     notes: Losses should be reported as negative numbers)
     unit: [billion USD_2010/yr, billion EUR_2020/yr]
-
 - Policy Cost|GDP Loss:
     description: GDP loss in a policy scenario compared to the corresponding baseline
     notes: Losses should be reported as negative numbers
     unit: [billion USD_2010/yr, billion EUR_2020/yr]
-
 - Policy Cost|Other:
     description: Any other indicator of policy cost (e.g., compensated variation)
     unit: [billion USD_2010/yr, billion EUR_2020/yr]
-
 - Population:
     description: Total population
     unit: million
-
 - Population|Risk of Hunger:
     description: Population at risk of hunger
     notes: Calculated by multiplying total population and prevalence of undernourishment
       computed from a probability distribution of daily dietary energy consumption
       and minimum dietary energy requirement.
     unit: million
-
 - Population|Rural:
     description: Total population living in rural areas
     unit: million
-
 - Population|Urban:
     description: Total population living in urban areas
     unit: million
-
 - Population|Urban|Share:
     description: Share of population living in urban areas
     unit: '%'
     skip-region-aggregation: true
-
 #ONSSET NEW VARIABLES
 - Household|Electricity Consumption|Average:
     description: Average electricity consumption per Household
     unit: kWh/year
-
 - Population|Growth:
     description: Medium population growth
     unit: '%'
-
 - Population|Electricity access|Share:
     description: National Electrification Rate
     unit: '%'
-
 - Population|Electricity access|Urban|Share:
     description: National Electrification Rate Urban
     unit: '%'
-
 - Population|Electricity access|Rural|Share:
     description: National Electrification Rate Rural
     unit: '%'
-
 - Population|Rural|Household|Average:
     description: Average household size in rural populations
     unit:
     skip-region-aggregation: true
-
 - Population|Urban|Household|Average:
     description: Average household size in urban populations
     unit:
     skip-region-aggregation: true
-
 - Population|Electricity access|Share:
     description: Percentage of electrified people in the country
     unit: '%'
     skip-region-aggregation: true
-
 - Population|Settlement|Electricity access|Minimum|1:
     description: Round 1 Minimum population value under which the OnSSET model will consider a settlement as electrified
     unit:
     skip-region-aggregation: true
-
 - Population|Settlement|Electricity access|Minimum|2:
     description: Round 2 Minimum population value under which the OnSSET model will consider a settlement as electrified
     unit:
     skip-region-aggregation: true
-
 - Population|Settlement|Urban|Minimum:
     description: Minimum population value under which the OnSSET model will consider a settlement as urban
     unit:
     skip-region-aggregation: true
-
 - Population|Network|Electricity:
     description: Predicted electrified population with electric grid at the end of the study
     unit:
-
 - Population|Solar PV|Standalone:
     description: Predicted electrified population with standalone solar PV at the end of the study
     unit:
-
 - Population|Solar PV|Mini Grid:
     description: Predicted electrified population with mini grid solar PV at the end of the study
     unit:
-
 - Population|Hydro|Mini Grid:
     description: Predicted electrified population with hydropower mini grid at the end of the study
     unit:
-
 - Population|Wind|Mini Grid:
     description: Predicted electrified population with wind power mini grid at the end of the study
     unit:
-
 - Population|Electricity|Grid|Expansion:
     description: Predicted additional electrified population with electric grid at the end of the study
     unit:
-
 - Population|Solar PV|Standalone|Expansion:
     description: Predicted additional electrified population with standalone solar PV at the end of the study
     unit:
-
 - Population|Solar PV|Mini Grid|Expansion:
     description: Predicted additional electrified population with mini grid solar PV at the end of the study
     unit:
-
 - Population|Hydro|Mini Grid|Expansion:
     description: Predicted additional electrified population with hydropower mini grid at the end of the study
     unit:
-
 - Population|Wind|Mini Grid|Expansion:
     description: Predicted additional electrified population with wind power mini grid at the end of the study
     unit:
-
 - Population|Connected:
     description: Predicted total population with electricity access
     unit:
-
 - Population|Connected|Grid|Existing:
     description: Predicted population connected to the existing grid
     unit:
-
 - Population|Connected|Grid|New:
     description: Predicted population connected to a new grid
     unit:
-
 - Population|Connected|PV:
     description: Predicted population connected to standalone solar PV
     unit:
-
 - Population|Connected|Hybrid|PV:
     description: Predicted population connected to minigrid solar PV
     unit:
-
 - Population|Connected|Hybrid|Wind:
     description: Predicted population connected to wind power minigrid
     unit:
-
 - Population|Connected|Hydro:
     description: Predicted population connected to hydro power minigrid
     unit:
-
 # END ONSSET
-
 - Price|Carbon:
     definition: Price of carbon
     unit: [EUR_2020/t CO2, USD_2010/t CO2]
@@ -315,7 +246,6 @@
             weight: Final Energy
         - Price|Carbon (weighted by Electricity Demand):
             weight: Final Energy|Electricity
-
 - Price|Carbon (weighted by Final Energy):
     definition: Price of carbon weighted across regions by final energy consumption
     notes: Using CO2 emissions as weights for average prices can cause spurious results
@@ -324,7 +254,6 @@
       This variable is computed as part of the region-processing from `Price|Carbon`.
     unit: [EUR_2020/t CO2, USD_2010/t CO2]
     skip-region-aggregation: true
-
 - Price|Carbon (weighted by Electricity Demand):
     definition: Price of carbon weighted across regions by electricity demand
     notes: This variable can be used as an alternative indicator for carbon prices to
@@ -332,44 +261,42 @@
      This variable is computed as part of the region-processing from `Price|Carbon`.
     unit: [EUR_2020/t CO2, USD_2010/t CO2]
     skip-region-aggregation: true
-
 - Extraction Limit|Natural Gas:
     description: Level of allowed extractions for natural gas, relative to year 2011
     note: The index equals 1 in 2011, the reference year
     unit: index
-
 - Extraction Limit|Crude Oil:
     description: Level of allowed extractions for crude oil, relative to year 2011
     note: The index equals 1 in 2011, the reference year
     unit: index
-   
+
 - Servitization Factor:
     description: Weight for industrial products consumption in the utility function of households relative to year 2011
     note: The index equals 1 in 2011, the reference year
     unit: index
-   
+
 - Energy Intensity:
     description: Multiplier of energy input in the energy nest of the production function relative to year 2011
     note: The index equals 1 in 2011, the reference year
-    unit: index   
-    
+    unit: index
+
 - Carbon Intensity Factor|{Industry}:
     description: Multiplier of emissions parameter in the energy nest of the production function of {Industry} relative to year 2011
     note: The index equals 1 in 2011, the reference year
-    unit: index  
-    
+    unit: index
+
 - Labour Productivity Growth Factor:
     description: Rate of change of labour input per unit of output in the production function relative to year 2011
     note: The index equals 1 in 2011, the reference year
-    unit: index   
-        
+    unit: index
+
 - Carbon Cap:
     description: Level of allowed yearly emissions relative to year 2011
     note: The index equals 1 in 2011, the reference year
-    unit: index          
-    
+    unit: index
+
 - Climate Productivity Growth Factor:
     description: Rate of change of labour input per unit of output in the production function due to effects of climate change relative to year 2011
     note: The index equals 1 in 2011, the reference year
-    unit: index      
- 
+    unit: index
+
