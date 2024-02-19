@@ -184,3 +184,27 @@
 - WP5 RAP-CP-LimRES
 - WP5 OPT-REG-LimRES
 - WP5 RAP-REG-LimRES
+
+# Valid scenario names for OnSSET
+# The top-down TD scenarios introduce consistent Tier based demand targets across all settlements based on their urban (U) and rural (R) status.
+# In the low demand scenario, the urban demand target is informed by the average consumption observed in currently electrified areas in the country, translated into the nearest access Tier (e.g. U4 – Urban Tier 4). Low rural demand target is always set to Tier 1 (e.g. R1 – Rural Tier 1). The high demand target scenario reflects more aggressive goals. Urban demand target is increased by 1 Tier, unless already Tier 5 while rural demand target is increased, while rural demand target is increased by 2 Tiers.
+# The bottom-up BU scenario assigns a unique demand target (kWh/cap/year) in each settlement, based on local poverty rate and GDP level.
+# LC Low Electricity grid generation cost by default 0.033 us$/kWh
+# HC High Electricity grid generation cost by default 0.06 us$/kWh
+
+- BU|LC
+- BU|HC
+- TDL|LC
+- TDL|HC
+- TDH|LC
+- TDH|HC
+- TIER 1|Low Diesel Price
+- TIER 2|Low Diesel Price
+- TIER 3|Low Diesel Price
+- TIER 4|Low Diesel Price
+- TIER 5|Low Diesel Price
+- TIER 1|High Diesel Price
+- TIER 2|High Diesel Price
+- TIER 3|High Diesel Price
+- TIER 4|High Diesel Price
+- TIER 5|High Diesel Price
