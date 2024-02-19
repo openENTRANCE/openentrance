@@ -10,7 +10,7 @@
       this capacity is added to the existing capacity
     unit: MWh
 - Commissioned Capacity|Network|Electricity:
-    description: New capacity for the electricity network, 
+    description: New capacity for the electricity network,
       this capacity is added to the existing capacity
     unit: MW
 - Decommissioned Capacity|Electricity|{Electricity Input}:
@@ -30,7 +30,7 @@
         to fully cover the demand at the end of the study.
     unit: kW
 - Solar PV|Standalone|Capacity|Expansion|End Year:
-    description: The additional Capacity required by the expansion of the standalone Solar PV 
+    description: The additional Capacity required by the expansion of the standalone Solar PV
         to fully cover the demand at the end of the study.
     unit: kW
 - Solar PV|Mini Grid|Capacity|Expansion|End Year:
@@ -90,7 +90,7 @@
     unit:
 - Population|Connected|Hybrid|Wind:
     description: Total predicted populations with electricity from wind power mini grid
-    unit: people
+    unit:
 - Population|Connected|Hydro:
     description: Total predicted populations with electricity from hydro power mini grid
     unit:
