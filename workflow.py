@@ -15,11 +15,6 @@ EXP_TIME_OFFSET = timedelta(seconds=3600)
 OE_SUBANNUAL_FORMAT = lambda x: x.strftime("%m-%d %H:%M%z").replace("+0100", "+01:00")
 
 
-def ecemf(df: pyam.IamDataFrame) -> pyam.IamDataFrame:
-    """Entrypoint for ECEMF scenario validation"""
-    return main(df, dimensions=["scenario", "region", "variable"])
-
-
 def main(df: pyam.IamDataFrame, dimensions=["region", "variable"]) -> pyam.IamDataFrame:
     """Main function for validation and processing"""
     if "subannual" in df.dimensions or df.time_col == "time":
