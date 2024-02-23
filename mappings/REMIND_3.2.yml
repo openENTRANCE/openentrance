@@ -1,6 +1,7 @@
 # this mapping only works for the 21-region version of REMIND 3.2
 model:
   - REMIND 3.2
+  - REMIND-Buildings 3.2
 native_regions:
   - CAZ: REMIND 3.2|Canada, Australia, New Zealand
   - CHA: REMIND 3.2|China and Taiwan
