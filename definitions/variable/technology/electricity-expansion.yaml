@@ -25,27 +25,27 @@
     description: Removed capacity for the electricity network,
       this capacity is substracted from the existing capacity
     unit: MW
-- Network|Electricity|Capacity|Expansion|End Year:
+- Network|Electricity|Capacity|Expansion:
     description: The additional Capacity required by the expansion of the existing grid
         to fully cover the demand at the end of the study.
     unit: kW
-- Solar PV|Standalone|Capacity|Expansion|End Year:
+- Solar PV|Standalone|Capacity|Expansion:
     description: The additional Capacity required by the expansion of the standalone Solar PV
         to fully cover the demand at the end of the study.
     unit: kW
-- Solar PV|Mini Grid|Capacity|Expansion|End Year:
+- Solar PV|Mini Grid|Capacity|Expansion:
     description: The additional Capacity required by the expansion of the PV minigrid
         to fully cover the demand at the end of the study.
     unit: kW
-- Hydro|Mini Grid|Capacity|Expansion|End Year:
+- Hydro|Mini Grid|Capacity|Expansion:
     description: The additional Capacity required by the expansion of the hydropower mini grid
         to fully cover the demand at the end of the study.
     unit: kW
-- Wind|Mini Grid|Capacity|Expansion|End Year:
+- Wind|Mini Grid|Capacity|Expansion:
     description: The additional Capacity required by the expansion of the existing wind power mini
         to fully cover the demand at the end of the study.
     unit: kW
-- Network|Electricity|Expansion Cost:
+- Network|Electricity|Total Expansion Cost:
     description: The investment required by expanding the electric grid to reach the electrification target
       at the end of the study.
     unit: US$2020
