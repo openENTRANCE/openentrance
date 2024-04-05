@@ -38,12 +38,15 @@
 - Secondary Energy|Electricity|Transmission Losses|Share:
     description: This value represents the country's average technical losses on transmission and distribution
     unit: "%"
+    skip-region-aggregation: true
 - Secondary Energy|Electricity|Distance|Maximum:
     description: Maximum distance from the existing or planned grid network under which OnSSET will consider a settlement as electrified
     unit: km
+    skip-region-aggregation: true
 - Secondary Energy|Electricity|Road|Distance|Maximum:
     description: Maximum distance from the existing or planned road network under which OnSSET will consider a settlement as electrified.
     unit: km
+    skip-region-aggregation: true
 #ONSSET END
 
 - Secondary Energy|Gases:
