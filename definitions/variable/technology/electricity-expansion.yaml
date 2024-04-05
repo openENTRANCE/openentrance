@@ -79,20 +79,8 @@
 - Population|Connected|Grid|Existing:
     description: Total predicted populations with electricity from existing grid
     unit:
-- Population|Connected|Grid|New:
-    description: Total predicted populations with electricity from new grid
-    unit:
-- Population|Connected|PV:
-    description: Total predicted populations with electricity from stand alone PV
-    unit:
 - Population|Connected|Hybrid|PV:
     description: Total predicted populations with electricity from PV mini grid
-    unit:
-- Population|Connected|Hybrid|Wind:
-    description: Total predicted populations with electricity from wind power mini grid
-    unit:
-- Population|Connected|Hydro:
-    description: Total predicted populations with electricity from hydro power mini grid
     unit:
 - Capacity|Added|Total:
     description: Total predicted capacity added

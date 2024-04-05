@@ -150,9 +150,6 @@
 - Population|Growth:
     description: Medium population growth
     unit: '%'
-- Population|Electricity access|Share:
-    description: National Electrification Rate
-    unit: '%'
 - Population|Electricity access|Urban|Share:
     description: National Electrification Rate Urban
     unit: '%'
@@ -216,17 +213,11 @@
 - Population|Connected:
     description: Predicted total population with electricity access
     unit:
-- Population|Connected|Grid|Existing:
-    description: Predicted population connected to the existing grid
-    unit:
 - Population|Connected|Grid|New:
     description: Predicted population connected to a new grid
     unit:
 - Population|Connected|PV:
     description: Predicted population connected to standalone solar PV
-    unit:
-- Population|Connected|Hybrid|PV:
-    description: Predicted population connected to minigrid solar PV
     unit:
 - Population|Connected|Hybrid|Wind:
     description: Predicted population connected to wind power minigrid
