@@ -1,9 +1,9 @@
 # List of variables related to the secondary energy sectors
 - Secondary Energy:
-    description: Total secondary energy, the sum of all secondary energy carrier 
+    description: Total secondary energy, the sum of all secondary energy carrier
       production (for consistency checks).
     unit: EJ/yr
-    
+
 - Secondary Energy|Electricity:
     description: Total net electricity production
     unit: [EJ/yr, GWh]
@@ -17,7 +17,7 @@
     unit: [EJ/yr, GWh]
 - Available Secondary Energy|Electricity|{Electricity Input}:
     description: Net electricity potential production from {Electricity Input}
-      this is equivalent to the total {Electricity Input} capacity multiplied by the number of hours in the period multiplied by the maximum achievable load factor for 
+      this is equivalent to the total {Electricity Input} capacity multiplied by the number of hours in the period multiplied by the maximum achievable load factor for
       this is also equivalent to the Secondary Energy of {Electricity Input} if all the generation assets would produce at maximum capacity during the period
     unit: [EJ/yr, GWh]
 - Secondary Energy|Electricity|Curtailment:
@@ -98,7 +98,7 @@
     description: Hydrogen production from {Fuel}
     unit: EJ/yr
 - Secondary Energy|Hydrogen|Nuclear:
-    description: total hydrogen production from nuclear energy (e.g. 
+    description: total hydrogen production from nuclear energy (e.g.
      thermochemical water splitting with nucelar heat)
     unit: EJ/yr
 - Secondary Energy|Liquids:
@@ -115,8 +115,8 @@
     description: Total liquid biofuels production without ccs
     unit: EJ/yr
 - Secondary Energy|Liquids|Biomass|1st Generation:
-    description: liquid biofuels production from 1st generation technologies, 
-     relying on e.g. corn, sugar, oil 
+    description: liquid biofuels production from 1st generation technologies,
+     relying on e.g. corn, sugar, oil
     unit: EJ/yr
 - Secondary Energy|Liquids|Biomass|Energy Crops:
     description: liquid biofuels production from energy crops
@@ -197,7 +197,7 @@
 - Secondary Energy|Other:
     description: generation of other secondary energy carriers that do not fit any other category
     unit: EJ/yr
- 
+
 - Conversion Input|Liquids|Electricity:
     description: secondary energy consumption of efuels for the production of electricity
     unit: EJ/yr
@@ -258,7 +258,7 @@
     unit: EJ/yr
 
 - Trade|Secondary Energy|Electricity|Value:
-    description: value of net exports of electricity, at the global level these should 
+    description: value of net exports of electricity, at the global level these should
      add up to the trade losses only
     unit: [ billion USD_2010/yr,  billion EUR_2020/yr]
 - Trade|Secondary Energy|Hydrogen|Value:
@@ -285,4 +285,4 @@
     description: value of net exports of liquid fuels from petroleum including both conventional and
      unconventional sources, at the global level these should add up to the trade losses only
     unit: [ billion USD_2010/yr,  billion EUR_2020/yr]
-   
+
