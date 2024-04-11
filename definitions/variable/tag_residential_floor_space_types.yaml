@@ -1,0 +1,9 @@
+- Residential Floor Space Type:
+    - Apartment:
+        description: apartment buildings
+    - Detached:
+        description: detached houses
+    - High-Rise:
+        description: high-rise buildings
+    - Semi-Detached:
+        description: semi-detached houses
