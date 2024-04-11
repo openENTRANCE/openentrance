@@ -1,5 +1,21 @@
 # List of variables related to economic activity and societal drivers
 
+- Production|Cement [Volume]:
+    description: Production of cement in physical units
+    unit: Mt/yr
+- Production|Pulp and Paper [Volume]:
+    description: Production of pulp and paper measured in physical units
+    unit: Mt/yr
+- Production|Steel [Volume]:
+    description: Production of steel in physical units
+    unit: Mt/yr
+- Production|Steel|Primary [Volume]:
+    description: Production of primary steel in physical units
+    unit: Mt/yr
+- Production|Steel|Secondary [Volume]:
+    description: Production of secondary steel in physical units
+    unit: Mt/yr
+
 - Consumption:
     description: Total consumption of all goods, by all consumers in a region
     unit: [billion USD_2010/yr, billion EUR_2020/yr]
