@@ -4,6 +4,9 @@
 # linear   term cost   [EUR/GWh] = Linear Var Cost [Mcal/MWh] * Price|Primary Energy [EUR/Mcal] + Operation and Maintenance Variable Cost [EUR/MWh] * 1e-3
 # constant term cost   [EUR/h]   = Constant Var Cost [Mcal/h] * Price|Primary Energy [EUR/Mcal]
 
+- Emission Rate|CO2|Electricity|{Electricity Input}:
+    description: quantity of CO2 emitted when producing 1 unit from {Electricity Input}
+    unit: Mt CO2/GWh
 - Operational Cost|Constant Term|Electricity Generation|{Electricity Input}:
     description: Constant term (intercept) to compute operational cost for generating electricity from {Electricity Input}
     unit: Mcal/hour
