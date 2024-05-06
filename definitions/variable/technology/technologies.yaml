@@ -148,8 +148,8 @@
     description: Efficiency of producing hydrogen from electricity
     unit: "%"
     skip-region-aggregation: true
-- Lifetime|Electricity|Nuclear:
-    description: Planned technical lifetime of operation for a nuclear power plant
+- Lifetime|Electricity|{Electricity Input}:
+    description: Planned technical lifetime of operation for {Electricity Input}
     unit: years
     skip-region-aggregation: true
 - Capital Cost|Electricity|{Electricity Input}:
