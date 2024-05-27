@@ -2,6 +2,7 @@ from pathlib import Path
 import logging
 import pyam
 from nomenclature import DataStructureDefinition, RegionProcessor, process
+from nomenclature.codelist import RegionCode
 
 here = Path(__file__).absolute().parent
 logger = logging.getLogger(__name__)
@@ -41,7 +42,7 @@ def main(df: pyam.IamDataFrame, dimensions=["region", "variable"]) -> pyam.IamDa
             elif len(r_split) == 2:
                 if all([_r in definition.region for _r in r_split]):
                     # add the directional-region to the codelist (without attributes)
-                    definition.region[r] = None
+                    definition.region[r] = RegionCode(name=r, hierarchy="directional")
 
     # validate the region and variable dimensions, apply region processing
     df = process(df, definition, dimensions=dimensions, processor=processor)
