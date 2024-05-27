@@ -242,7 +242,7 @@
     description: Weight for industrial products consumption in the utility function of households relative to year 2011
     note: The index equals 1 in 2011, the reference year
     unit: index
-   
+
 - Energy Intensity:
     description: Multiplier of energy input in the energy nest of the production function relative to year 2011
     note: The index equals 1 in 2011, the reference year
