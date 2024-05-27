@@ -408,6 +408,97 @@
     sector: Residential and Commercial
     unit: [EJ/yr, GWh]
 
+- Final Energy|Residential|Appliances:
+    description: Final energy consumption for appliances by the residential sector
+    energy_source: all
+    energy_use: appliances
+    sector: Residential
+    unit: [EJ/yr, GWh]
+- Final Energy|Residential|Appliances|Electricity:
+    description: Final energy consumption of electricity for appliances by the
+      residential sector
+    energy_source: electricity
+    energy_use: appliances
+    sector: Residential
+    unit: [EJ/yr, GWh]
+- Final Energy|Residential|Space and Water Heating:
+    description: Final energy consumption by the residential sector of electricity
+       for space and water heating
+    energy_source: all
+    energy_use: space and water heating
+    sector: Residential
+    unit: [EJ/yr, GWh]
+- Final Energy|Residential|Space and Water Heating|Electricity:
+    description: Final energy consumption by the residential sector of electricity
+       for space and water heating
+    energy_source: electricity
+    energy_use: space and water heating
+    sector: Residential
+    unit: [EJ/yr, GWh]
+- Final Energy|Residential|Space and Water Heating|Solids:
+    description: Final energy consumption by the residential sector of solid fuels
+       for space and water heating
+    energy_source: solid fuels
+    energy_use: space and water heating
+    sector: Residential
+    unit: [EJ/yr, GWh]
+- Final Energy|Residential|Space and Water Heating|Solids|Biomass:
+    description: Final energy consumption by the residential sector of solid biomass
+       for space and water heating
+    energy_source: solid biomass
+    energy_use: space and water heating
+    sector: Residential
+    unit: [EJ/yr, GWh]
+- Final Energy|Residential|Space and Water Heating|Solids|Fossil:
+    description: Final energy consumption by the residential sector of solid fossil fuels
+       for space and water heating
+    energy_source: solid fossil fuels
+    energy_use: space and water heating
+    sector: Residential
+    unit: [EJ/yr, GWh]
+- Final Energy|Residential|Space and Water Heating|Heat:
+    description: Final energy consumption by the residential sector of heat
+       for space and water heating
+    energy_source: heat
+    energy_use: space and water heating
+    sector: Residential
+    unit: [EJ/yr, GWh]
+- Final Energy|Residential|Space and Water Heating|Gases:
+    description: Final energy consumption by the residential sector of gases
+       for space and water heating
+    energy_source: gases
+    energy_use: space and water heating
+    sector: Residential
+    unit: [EJ/yr, GWh]
+- Final Energy|Residential|Space and Water Heating|Gases|Fossil:
+    description: Final energy consumption by the residential sector of fossil gases
+       for space and water heating
+    energy_source: fossil gases
+    energy_use: space and water heating
+    sector: Residential
+    unit: [EJ/yr, GWh]
+- Final Energy|Residential|Space and Water Heating|Liquids:
+    description: Final energy consumption by the residential sector of liquids
+       for space and water heating
+    energy_source: liquids
+    energy_use: space and water heating
+    sector: Residential
+    unit: [EJ/yr, GWh]
+- Final Energy|Residential|Space and Water Heating|Liquids|Fossil:
+    description: Final energy consumption by the residential sector of fossil liquids
+       for space and water heating
+    energy_source: fossil liquids
+    energy_use: space and water heating
+    sector: Residential
+    unit: [EJ/yr, GWh]
+- Final Energy|Residential|Space and Water Heating|Solar:
+    description: Final energy consumption by the residential sector of solar-thermal energy
+       for space and water heating
+    energy_source: solar
+    energy_use: space and water heating
+    sector: Residential
+    unit: [EJ/yr, GWh]
+
 - Final Energy|Transportation|Fossil:
     description: Final energy consumption by the transportation sector of fossil fuels
     energy_source: fossil
