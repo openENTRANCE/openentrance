@@ -259,6 +259,10 @@
 - Investment|Energy Demand|Transportation|{Transport mode}:
     description: Investments into the various transport modes
     unit: [billion EUR_2020/yr, billion USD_2010/yr]
+    
+- Investment|Energy Demand|Industry:
+    description: Total investments in Industry
+    unit: [billion EUR_2020/yr, billion USD_2010/yr]
 
 - Investment|Energy Supply:
     description: Investments into the energy supply system
@@ -379,6 +383,18 @@
     description: Fuel costs for the specific fuel type {Fuel} in {Transport mode}.
     unit: [billion EUR_2020/yr, billion USD_2010/yr]
 
+- Running Costs|Energy Demand|Industry:
+    description: Operation and Maintenance as well as fuel costs in Industry.
+    unit: [billion EUR_2020/yr, billion USD_2010/yr]
+- Running Costs|Energy Demand|Industry|Fuel:
+    description: Fuel costs in Industry.
+    unit: [billion EUR_2020/yr, billion USD_2010/yr]
+- Running Costs|Energy Demand|Industry|Fuel|{Fuel}:
+    description: Fuel costs for the specific fuel type {Fuel} in Industry.
+    unit: [billion EUR_2020/yr, billion USD_2010/yr]
+- Running Costs|Energy Demand|Industry|Operation and Maintenance:
+    description: Operation and Maintenance costs in Industry.
+    unit: [billion EUR_2020/yr, billion USD_2010/yr]
 
 - Annualized Investment|Energy Demand|Transportation:
     description: Annualized investments for the standing stock in Transportation.
@@ -403,6 +419,9 @@
     description: Annualized investments for the standing stock of heat pumps in {Residential/Commercial}
     unit: [billion EUR_2020/yr, billion USD_2010/yr]
 
+- Annualized Investment|Energy Demand|Industry:
+    description: Annualized investments for the standing stock in Industry
+    unit: [billion EUR_2020/yr, billion USD_2010/yr]
 
 - Stock|Transportation|{Transport mode, tech and carrier}:
     description: Number of registered vehicles with {Transport mode, tech and carrier}

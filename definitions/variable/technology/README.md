@@ -47,7 +47,7 @@ or tranmission lines should follow the structure below.
 
 ## Investment expenditures - Energy supply/demand sectors
 
-Variables for the investment expenditure in an energy (sub-)sectors (currently {Residential/Commercial}, Transportation, Electricity, Extraction, Heat, Hydrogen, and Liquids). Examples are 
+Variables for the investment expenditure in an energy (sub-)sectors (currently {Residential/Commercial}, Transportation, Industry, Electricity, Extraction, Heat, Hydrogen, and Liquids). Examples are 
 
 - `Investment|Energy Demand|Transportation`
 - `Investment|Energy Demand|{Residential/Commercial}`
@@ -59,18 +59,19 @@ Variables for the investment expenditure in an energy (sub-)sectors (currently {
 
 ## Annualized Investments - Energy supply/demand sectors
 
-Annualized investments of the standing stock. This includes the annualized investments for all the currently standing stock that is not yet financially depreciated (which can happen earlier than the technical lifetime). The sum over the annualized investment should - over long periods that are longer than the depreciation periods - come close to the sum over investments; but it will be different on short periods if large investments are undertaken to change the system, which will strongly increase the “Investment” variable but have less impact on the “Annualized Investment” variable, which also includes the contribution for the standing stock. Towards the end of the modeling period, the annualized investment approach can give a better impression of the costs for the remaining years until end of the modelling period; the “Investment” variable also contains the investments whose lifetime lies mostly after the end of the modelling period. Example
+Annualized investments of the standing stock. This includes the annualized investments for all the currently standing stock that is not yet financially depreciated (which can happen earlier than the technical lifetime). The sum over the annualized investment should - over long periods that are longer than the depreciation periods - come close to the sum over investments; but it will be different on short periods if large investments are undertaken to change the system, which will strongly increase the "Investment" variable but have less impact on the "Annualized Investment" variable, which also includes the contribution for the standing stock. Towards the end of the modeling period, the annualized investment approach can give a better impression of the costs for the remaining years until end of the modelling period; the "Investment" variable also contains the investments whose lifetime lies mostly after the end of the modelling period. Example
 
 - `Annualized Investment|Energy Demand|{Residential/Commercial}`
 - `Annualized Investment|Energy Demand|Transportation|{Transport mode}`
 
 ## Running Costs - Energy supply/demand sectors
 
-Variables for the running costs of a sector, eg {Residential/Commercial} or Transportation. Currently implemented subtypes are Operation and Maintenance, as well as Fuel
+Variables for the running costs of a sector, eg {Residential/Commercial}, Transportation, Industry, Electricity, Hydrogen. Currently implemented subtypes are "Operation and Maintenance", as well as "Fuel"
 
 - `Running Costs|Energy Demand|{Residential/Commercial}` 
 - `Running Costs|Energy Demand|Transportation|{Transport mode}|Fuel` 
-- `Running Costs|Energy Demand|Transportation|{Transport mode}|Fuel|{Fuel}` 
+- `Running Costs|Energy Demand|Transportation|{Transport mode}|Fuel|{Fuel}`
+- `Running Costs|Energy Demand|Industry|Operation and Maintenance`
 
 ## Stock and Sales of technologies within a sector
 
