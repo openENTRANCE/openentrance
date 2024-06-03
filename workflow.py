@@ -2,6 +2,7 @@ from pathlib import Path
 import logging
 import pyam
 from nomenclature import DataStructureDefinition, RegionProcessor, process
+from nomenclature.codelist import RegionCode
 
 here = Path(__file__).absolute().parent
 logger = logging.getLogger(__name__)
@@ -13,11 +14,6 @@ from datetime import datetime, timedelta
 EXP_TZ = "UTC+01:00"
 EXP_TIME_OFFSET = timedelta(seconds=3600)
 OE_SUBANNUAL_FORMAT = lambda x: x.strftime("%m-%d %H:%M%z").replace("+0100", "+01:00")
-
-
-def ecemf(df: pyam.IamDataFrame) -> pyam.IamDataFrame:
-    """Entrypoint for ECEMF scenario validation"""
-    return main(df, dimensions=["scenario", "region", "variable"])
 
 
 def main(df: pyam.IamDataFrame, dimensions=["region", "variable"]) -> pyam.IamDataFrame:
@@ -46,7 +42,7 @@ def main(df: pyam.IamDataFrame, dimensions=["region", "variable"]) -> pyam.IamDa
             elif len(r_split) == 2:
                 if all([_r in definition.region for _r in r_split]):
                     # add the directional-region to the codelist (without attributes)
-                    definition.region[r] = None
+                    definition.region[r] = RegionCode(name=r, hierarchy="directional")
 
     # validate the region and variable dimensions, apply region processing
     df = process(df, definition, dimensions=dimensions, processor=processor)
