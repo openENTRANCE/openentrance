@@ -380,9 +380,6 @@
     unit: [billion EUR_2020/yr, billion USD_2010/yr]
 
 
-- Annualized Investment|Energy Demand|{Residential/Commercial}:
-    description: Annualized investments for the standing stock in {Residential/Commercial} (for a longer description, check the README).
-    unit: [billion EUR_2020/yr, billion USD_2010/yr]
 - Annualized Investment|Energy Demand|Transportation:
     description: Annualized investments for the standing stock in Transportation.
     unit: [billion EUR_2020/yr, billion USD_2010/yr]
@@ -391,7 +388,7 @@
     unit: [billion EUR_2020/yr, billion USD_2010/yr]
 
 - Annualized Investment|Energy Demand|{Residential/Commercial}:
-    description: Annualized investments for the standing stock in in {Residential/Commercial}
+    description: Annualized investments for the standing stock in {Residential/Commercial}
     unit: [billion EUR_2020/yr, billion USD_2010/yr]
 - Annualized Investment|Energy Demand|{Residential/Commercial}|Appliances:
     description: Annualized investments for the standing stock of non-heating/cooling appliances in {Residential/Commercial}
@@ -411,13 +408,13 @@
     description: Number of registered vehicles with {Transport mode, tech and carrier}
     unit: million
 - Sales|Transportation|{Transport mode, tech and carrier}:
-    description: Number of sold (new) vehicles with {Transport mode, tech and carrier}
+    description: Number of yearly sold (new) vehicles with {Transport mode, tech and carrier}
     unit: million/yr
 - Stock|{Residential/Commercial}|Heat Pumps:
     description: Number of the standing stock of heat pumps in {Residential/Commercial}
     unit: million
 - Sales|{Residential/Commercial}|Heat Pumps:
-    description: Number of heat pumps sold in {Residential/Commercial}
+    description: Number of yearly sold (new) heat pumps in {Residential/Commercial}
     unit: million/yr
 
 - Infrastructure|Transportation|Charging Station:
