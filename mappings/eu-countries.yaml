@@ -1,6 +1,8 @@
 model:
   - OSeMBE v1.0.0
   - Euro-Calliope 2.0
+  - Enertile 6.50.0
+  - FLEX v1.0.0
 native_regions:
   - Austria
   - Belgium
