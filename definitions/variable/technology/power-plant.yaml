@@ -124,6 +124,11 @@
       from {Electricity Input}
     unit: MW/h
     skip-region-aggregation: true
+- Lifetime|Electricity|{Electricity Input}:
+    description: Life duration of a unit since built
+      from {Electricity Input}
+    unit: years
+    skip-region-aggregation: true
 - Maximum Storage|Heat:
     description: Maximum volume of heat storage unit expressed in energy
     unit: [MWh, GWh]
