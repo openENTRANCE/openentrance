@@ -8,7 +8,7 @@
     unit: million EUR/GW/km
 - Network|Electricity|Capacity:
     description: Capacity of the line
-    unit: MW
+    unit: GW
 - Network|Electricity|Value of Lost Load:
     description: Cost of demand-not-served. Cost of load curtailment. Value of Lost
       Load (VoLL)
