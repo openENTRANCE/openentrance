@@ -488,7 +488,7 @@
     description: Levelized cost for investment in {Electricity Input}
     unit: [MEUR_2020/MWh, MUSD_2010/MWh, MEUR_2020/PJ, MUSD_2010/PJ]
     skip-region-aggregation: true
-- Levelized Cost|Electricity|Energy Storage System|{Storage Type}:
+- Levelized Cost|Electricity|{Storage Type}:
     description: Levelized cost of storage for {Storage Type}
     unit: [MEUR_2020/MWh, MUSD_2010/MWh, MEUR_2020/PJ, MUSD_2010/PJ]
     skip-region-aggregation: true
