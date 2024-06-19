@@ -538,6 +538,12 @@
     energy_use: electrolisis
     sector: all
     unit: [EJ/yr, GWh]
+- Final Energy|Electricity|Cooking:
+    description: Final electricity consumption for cooking,
+    energy_source: electricity
+    energy_use: cooling
+    sector: all
+    unit: [EJ/yr, GWh]
 - Final Energy|Electricity|Other (excl. Heat, Cooling, Transport):
     description: Final electricity consumption for non heating, non cooling, non e-transport
       uses,
@@ -545,8 +551,22 @@
     energy_use: all excl.heating, cooling, transportation
     sector: all
     unit: [EJ/yr, GWh]
+- Final Energy|Electricity|Other (excl. Heat, Cooling, Transport, Cooking):
+    description: Final electricity consumption for non heating, non cooling, non e-transport, non e-cooking
+      uses,
+    energy_source: electricity
+    energy_use: all excl.heating, cooling, transportation
+    sector: all
+    unit: [EJ/yr, GWh]
 - Final Energy|Electricity|Other (excl. Heat, Transport):
     description: Final electricity consumption for non heating, non e-transport
+      uses,
+    energy_source: electricity
+    energy_use: all excl.heating, transportation
+    sector: all
+    unit: [EJ/yr, GWh]
+- Final Energy|Electricity|Other (excl. Heat, Transport, Cooking):
+    description: Final electricity consumption for non heating, non e-transport, non e-cooking
       uses,
     energy_source: electricity
     energy_use: all excl.heating, transportation
