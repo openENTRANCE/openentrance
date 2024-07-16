@@ -161,7 +161,7 @@
       iso3_codes: MKD
   - Norway:
       eu_member: false
-      iso2: NO
+      iso2: 'NO'
       iso3: NOR
       iso3_codes: NOR
   - Poland:
