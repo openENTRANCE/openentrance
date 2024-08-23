@@ -28,6 +28,9 @@
 - Energy Service|Residential|Floor Space:
     description: Provision of energy services for conditioned floor space in residential buildings
     unit: bn m2/yr
+- Energy Service|Residential|Floor Space|{Residential Floor Space Type}:
+    description: Provision of energy services for conditioned floor space in {Residential Floor Space Type}
+    unit: bn m2/yr
 - Energy Service|Commercial|Floor Space:
     description: Provision of energy services for conditioned floor space in commercial buildings
     unit: bn m2/yr

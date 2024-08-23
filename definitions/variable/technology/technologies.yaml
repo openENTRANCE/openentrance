@@ -152,8 +152,8 @@
     description: Efficiency of producing hydrogen from electricity
     unit: "%"
     skip-region-aggregation: true
-- Lifetime|Electricity|Nuclear:
-    description: Planned technical lifetime of operation for a nuclear power plant
+- Lifetime|Electricity|{Electricity Input}:
+    description: Planned technical lifetime of operation for {Electricity Input}
     unit: years
     skip-region-aggregation: true
 - Capital Cost|Electricity|{Electricity Input}:
@@ -241,13 +241,6 @@
     unit: [million EUR_2020/yr, billion USD_2010/yr]
 
 
-- Investment|Energy Demand|Transportation:
-    description: Total investments in Transportation
-    unit: [billion EUR_2020/yr, billion USD_2010/yr]
-- Investment|Energy Demand|Transportation|{Transport mode}:
-    description: Investments into the various transport modes
-    unit: [billion EUR_2020/yr, billion USD_2010/yr]
-
 - Investment|Energy Demand|{Residential/Commercial}:
     description: Total investments in {Residential/Commercial}
     unit: [billion EUR_2020/yr, billion USD_2010/yr]
@@ -259,6 +252,20 @@
     unit: [billion EUR_2020/yr, billion USD_2010/yr]
 - Investment|Energy Demand|{Residential/Commercial}|Heating and Cooling:
     description: Investments into heating & cooling technologies in {Residential/Commercial}
+    unit: [billion EUR_2020/yr, billion USD_2010/yr]
+- Investment|Energy Demand|{Residential/Commercial}|Heating and Cooling|Heat Pumps:
+    description: Investments into heating & cooling technologies in {Residential/Commercial}
+    unit: [billion EUR_2020/yr, billion USD_2010/yr]
+
+- Investment|Energy Demand|Transportation:
+    description: Total investments in Transportation
+    unit: [billion EUR_2020/yr, billion USD_2010/yr]
+- Investment|Energy Demand|Transportation|{Transport mode}:
+    description: Investments into the various transport modes
+    unit: [billion EUR_2020/yr, billion USD_2010/yr]
+    
+- Investment|Energy Demand|Industry:
+    description: Total investments in Industry
     unit: [billion EUR_2020/yr, billion USD_2010/yr]
 
 - Investment|Energy Supply:
@@ -342,41 +349,96 @@
       be included but not the one on transport and storage.
     unit: [million EUR_2020/yr, billion USD_2010/yr]
 
-- Running Costs|{Residential/Commercial}:
+- Running Costs|Energy Demand|{Residential/Commercial}:
     description: Operation and Maintenance as well as fuel costs in {Residential/Commercial}.
     unit: [billion EUR_2020/yr, billion USD_2010/yr]
-- Running Costs|{Residential/Commercial}|Operation and Maintenance:
+- Running Costs|Energy Demand|{Residential/Commercial}|Operation and Maintenance:
     description: Operation and Maintenance costs in {Residential/Commercial}.
     unit: [billion EUR_2020/yr, billion USD_2010/yr]
-- Running Costs|{Residential/Commercial}|Heating and Cooling|Fuel:
+- Running Costs|Energy Demand|{Residential/Commercial}|Heating and Cooling|Fuel:
     description: Fuel costs for heating and cooling in {Residential/Commercial}.
     unit: [billion EUR_2020/yr, billion USD_2010/yr]
-- Running Costs|{Residential/Commercial}|Appliances|Fuel:
+- Running Costs|Energy Demand|{Residential/Commercial}|Heating and Cooling|Fuel|{Fuel}:
+    description: Fuel costs for specific fuel types in heating and cooling in {Residential/Commercial}.
+    unit: [billion EUR_2020/yr, billion USD_2010/yr]
+- Running Costs|Energy Demand|{Residential/Commercial}|Appliances|Fuel:
     description: Fuel costs for non-heating/cooling appliances in {Residential/Commercial}.
     unit: [billion EUR_2020/yr, billion USD_2010/yr]
 
-- Running Costs|Transportation:
+- Running Costs|Energy Demand|Transportation:
     description: Operation and Maintenance as well as fuel costs in Transportation.
     unit: [billion EUR_2020/yr, billion USD_2010/yr]
-- Running Costs|Transportation|Operation and Maintenance:
+- Running Costs|Energy Demand|Transportation|Operation and Maintenance:
     description: Operation and Maintenance costs for Transportation.
     unit: [billion EUR_2020/yr, billion USD_2010/yr]
-- Running Costs|Transportation|{Transport mode}|Operation and Maintenance:
+- Running Costs|Energy Demand|Transportation|{Transport mode}|Operation and Maintenance:
     description: Operation and Maintenance costs for {Transport mode} in Transportation.
     unit: [billion EUR_2020/yr, billion USD_2010/yr]
-- Running Costs|Transportation|Fuel:
+- Running Costs|Energy Demand|Transportation|Fuel:
     description: Fuel costs for Transportation.
     unit: [billion EUR_2020/yr, billion USD_2010/yr]
-- Running Costs|Transportation|{Transport mode}|Fuel:
-    description: Fuel costs for {Transport mode} in Transportation.
+- Running Costs|Energy Demand|Transportation|Fuel|{Fuel}:
+    description: Fuel costs for the specific fuel type {Fuel} in Transportation.
+    unit: [billion EUR_2020/yr, billion USD_2010/yr]
+- Running Costs|Energy Demand|Transportation|{Transport mode}|Fuel:
+    description: Fuel costs for {Transport mode}.
+    unit: [billion EUR_2020/yr, billion USD_2010/yr]
+- Running Costs|Energy Demand|Transportation|{Transport mode}|Fuel|{Fuel}:
+    description: Fuel costs for the specific fuel type {Fuel} in {Transport mode}.
+    unit: [billion EUR_2020/yr, billion USD_2010/yr]
+
+- Running Costs|Energy Demand|Industry:
+    description: Operation and Maintenance as well as fuel costs in Industry.
+    unit: [billion EUR_2020/yr, billion USD_2010/yr]
+- Running Costs|Energy Demand|Industry|Fuel:
+    description: Fuel costs in Industry.
+    unit: [billion EUR_2020/yr, billion USD_2010/yr]
+- Running Costs|Energy Demand|Industry|Fuel|{Fuel}:
+    description: Fuel costs for the specific fuel type {Fuel} in Industry.
+    unit: [billion EUR_2020/yr, billion USD_2010/yr]
+- Running Costs|Energy Demand|Industry|Operation and Maintenance:
+    description: Operation and Maintenance costs in Industry.
+    unit: [billion EUR_2020/yr, billion USD_2010/yr]
+
+- Annualized Investment|Energy Demand|Transportation:
+    description: Annualized investments for the standing stock in Transportation.
+    unit: [billion EUR_2020/yr, billion USD_2010/yr]
+- Annualized Investment|Energy Demand|Transportation|{Transport mode}:
+    description: Annualized investments for the standing stock of the various transport modes
+    unit: [billion EUR_2020/yr, billion USD_2010/yr]
+
+- Annualized Investment|Energy Demand|{Residential/Commercial}:
+    description: Annualized investments for the standing stock in {Residential/Commercial}
+    unit: [billion EUR_2020/yr, billion USD_2010/yr]
+- Annualized Investment|Energy Demand|{Residential/Commercial}|Appliances:
+    description: Annualized investments for the standing stock of non-heating/cooling appliances in {Residential/Commercial}
+    unit: [billion EUR_2020/yr, billion USD_2010/yr]
+- Annualized Investment|Energy Demand|{Residential/Commercial}|Building Envelope:
+    description: Annualized investments for the standing stock of the building envelope in {Residential/Commercial}
+    unit: [billion EUR_2020/yr, billion USD_2010/yr]
+- Annualized Investment|Energy Demand|{Residential/Commercial}|Heating and Cooling:
+    description: Annualized investments for the standing stock of heating & cooling technologies in {Residential/Commercial}
+    unit: [billion EUR_2020/yr, billion USD_2010/yr]
+- Annualized Investment|Energy Demand|{Residential/Commercial}|Heating and Cooling|Heat Pumps:
+    description: Annualized investments for the standing stock of heat pumps in {Residential/Commercial}
+    unit: [billion EUR_2020/yr, billion USD_2010/yr]
+
+- Annualized Investment|Energy Demand|Industry:
+    description: Annualized investments for the standing stock in Industry
     unit: [billion EUR_2020/yr, billion USD_2010/yr]
 
 - Stock|Transportation|{Transport mode, tech and carrier}:
     description: Number of registered vehicles with {Transport mode, tech and carrier}
     unit: million
 - Sales|Transportation|{Transport mode, tech and carrier}:
-    description: Number of sold (new) vehicles with {Transport mode, tech and carrier}
+    description: Number of yearly sold (new) vehicles with {Transport mode, tech and carrier}
+    unit: million/yr
+- Stock|{Residential/Commercial}|Heat Pumps:
+    description: Number of the standing stock of heat pumps in {Residential/Commercial}
     unit: million
+- Sales|{Residential/Commercial}|Heat Pumps:
+    description: Number of yearly sold (new) heat pumps in {Residential/Commercial}
+    unit: million/yr
 
 - Infrastructure|Transportation|Charging Station:
     description: Number of charging stations for electric vehicles
@@ -430,7 +492,7 @@
     description: Levelized cost for investment in {Electricity Input}
     unit: [MEUR_2020/MWh, MUSD_2010/MWh, MEUR_2020/PJ, MUSD_2010/PJ]
     skip-region-aggregation: true
-- Levelized Cost|Electricity|Energy Storage System|{Storage Type}:
+- Levelized Cost|Electricity|{Storage Type}:
     description: Levelized cost of storage for {Storage Type}
     unit: [MEUR_2020/MWh, MUSD_2010/MWh, MEUR_2020/PJ, MUSD_2010/PJ]
     skip-region-aggregation: true
