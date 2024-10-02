@@ -520,7 +520,13 @@
     sector: all
     unit: [EJ/yr, GWh]
 - Final Energy|Electricity|Heat:
-    description: Final electricity consumption for heating,
+    description: Final electricity consumption for production of heat (including industrial heat and electric heating),
+    energy_source: electricity
+    energy_use: industry and heating
+    sector: all
+    unit: [EJ/yr, GWh]
+- Final Energy|Electricity|Heating:
+    description: Final electricity consumption forelectric heating),
     energy_source: electricity
     energy_use: heating
     sector: all
