@@ -1,62 +1,62 @@
 - REMIND 3.3:
   - REMIND 3.3|Canada, Australia, New Zealand:
-      iso3_codes: [AUS, CAN, HMD, NZL, SPM]
+      countries: [Australia, Canada, Heard Island and McDonald Islands, New Zealand, Saint Pierre and Miquelon]
   - REMIND 3.3|China and Taiwan:
-      iso3_codes: [CHN, HKG, MAC, TWN]
+      countries: [China, Hong Kong, Macao, Taiwan]
   - REMIND 3.3|India:
-      iso3_codes: IND
+      countries: [India]
   - REMIND 3.3|Japan:
-      iso3_codes: JPN
+      countries: [Japan]
   - REMIND 3.3|Other Asia:
-      iso3_codes: [AFG, ASM, ATF, BGD, BRN, BTN, CCK, COK, CXR, FJI, FSM, GUM, IDN,
-        IOT, KHM, KIR, KOR, LAO, LKA, MDV, MHL, MMR, MNG, MNP, MYS, NCL, NFK, NIU,
-        NPL, NRU, PAK, PCN, PHL, PLW, PNG, PRK, PYF, SGP, SLB, TKL, TLS, TON, THA,
-        TUV, UMI, VNM, VUT, WLF, WSM]
+      countries: [Afghanistan, American Samoa, French Southern Territories, Bangladesh, Brunei Darussalam, Bhutan, Cocos (Keeling) Islands, Cook Islands, Christmas Island, Fiji, Micronesia, Guam, Indonesia,
+        British Indian Ocean Territory, Cambodia, Kiribati, South Korea, Laos, Sri Lanka, Maldives, Marshall Islands, Myanmar, Mongolia, Northern Mariana Islands, Malaysia, New Caledonia, Norfolk Island, Niue,
+        Nepal, Nauru, Pakistan, Pitcairn, Philippines, Palau, Papua New Guinea, North Korea, French Polynesia, Singapore, Solomon Islands, Tokelau, Timor-Leste, Tonga, Thailand,
+        Tuvalu, United States Minor Outlying Islands, Viet Nam, Vanuatu, Wallis and Futuna, Samoa]
   - REMIND 3.3|Latin America and the Caribbean:
-      iso3_codes: [ABW, AIA, ARG, ATA, ATG, BES, BHS, BLM, BLZ, BMU, BOL, BRA, BRB,
-        BVT, CHL, COL, CRI, CUB, CYM, DMA, DOM, ECU, FLK, GLP, GRD, GTM, GUF, GUY,
-        HND, HTI, JAM, KNA, LCA, MAF, MEX, MSR, MTQ, NIC, PAN, PER, PRI, PRY, SGS,
-        SLV, SUR, TTO, URY, VCT, VEN, VGB, VIR, BES, CUW, SXM, TCA]
+      countries: [Aruba, Anguilla, Argentina, Antarctica, Antigua and Barbuda, Bahamas, Saint Barthélemy, Belize, Bermuda, Bolivia, Brazil, Barbados,
+        Bouvet Island, Chile, Colombia, Costa Rica, Cuba, Cayman Islands, Dominica, Dominican Republic, Ecuador, Falkland Islands (Malvinas), Guadeloupe, Grenada, Guatemala, French Guiana, Guyana,
+        Honduras, Haiti, Jamaica, Saint Kitts and Nevis, Saint Lucia, Saint Martin (French part), Mexico, Montserrat, Martinique, Nicaragua, Panama, Peru, Puerto Rico, Paraguay, South Georgia and the South Sandwich Islands,
+        El Salvador, Suriname, Trinidad and Tobago, Uruguay, Saint Vincent and the Grenadines, Venezuela, British Virgin Islands, United States Virgin Islands, "Bonaire, Sint Eustatius and Saba", Curaçao, Sint Maarten (Dutch part), Turks and Caicos Islands]
   - REMIND 3.3|Middle East and North Africa:
-      iso3_codes: [ARE, BHR, DZA, EGY, ESH, IRN, IRQ, ISR, JOR, KWT, LBN, LBY, MAR,
-        OMN, PSE, QAT, SAU, SDN, TUN, YEM, SYR]
+      countries: [United Arab Emirates, Bahrain, Algeria, Egypt, Western Sahara, Iran, Iraq, Israel, Jordan, Kuwait, Lebanon, Libya, Morocco,
+        Oman, Palestine, Qatar, Saudi Arabia, Sudan, Tunisia, Yemen, Syria]
   - REMIND 3.3|Russia and Reforming Economies:
-      iso3_codes: [ARM, AZE, BLR, GEO, KAZ, KGZ, MDA, RUS, TKM, UKR, UZB, TJK]
+      countries: [Armenia, Azerbaijan, Belarus, Georgia, Kazakhstan, Kyrgyzstan, Moldova, Russian Federation, Turkmenistan, Ukraine, Uzbekistan, Tajikistan]
   - REMIND 3.3|Sub-Saharan Africa:
-      iso3_codes: [AGO, BDI, BEN, BFA, BWA, CAF, CIV, CMR, COD, COG, COM, CPV, DJI,
-        ERI, ETH, GAB, GHA, GIN, GMB, GNB, GNQ, KEN, LBR, LSO, MDG, MLI, MOZ, MRT,
-        MUS, MWI, MYT, NAM, NER, NGA, REU, RWA, SEN, SHN, SLE, SOM, SSD, STP, SWZ,
-        SYC, TGO, TZA, UGA, ZAF, ZMB, ZWE, TCD]
+      countries: [Angola, Burundi, Benin, Burkina Faso, Botswana, Central African Republic, Côte d'Ivoire, Cameroon, Democratic Republic of the Congo, Congo, Comoros, Cabo Verde, Djibouti,
+        Eritrea, Ethiopia, Gabon, Ghana, Guinea, Gambia, Guinea-Bissau, Equatorial Guinea, Kenya, Liberia, Lesotho, Madagascar, Mali, Mozambique, Mauritania,
+        Mauritius, Malawi, Mayotte, Namibia, Niger, Nigeria, Réunion, Rwanda, Senegal, "Saint Helena, Ascension and Tristan da Cunha", Sierra Leone, Somalia, South Sudan, Sao Tome and Principe, Eswatini,
+        Seychelles, Togo, Tanzania, Uganda, South Africa, Zambia, Zimbabwe, Chad]
   - REMIND 3.3|United States:
-      iso3_codes: USA
+      countries: [United States]
 # 12-region version of REMIND
   - REMIND 3.3|EU 28:
-      iso3_codes: [ALA, AUT, BEL, BGR, CYP, CZE, DNK, ESP, EST, FIN, FRO, GGY, GIB,
-        GRC, HRV, HUN, IMN, IRL, ITA, JEY, LTU, LUX, LVA, MLT, NLD, POL, PRT, ROU,
-        SVK, SVN, SWE, FRA, DEU, ITA, GIB, GGY, GBR]
+      countries: [Åland Islands, Austria, Belgium, Bulgaria, Cyprus, Czechia, Denmark, Spain, Estonia, Finland, Faroe Islands, Guernsey, Gibraltar,
+        Greece, Croatia, Hungary, Isle of Man, Ireland, Italy, Jersey, Lithuania, Luxembourg, Latvia, Malta, Netherlands, Poland, Portugal, Romania,
+        Slovakia, Slovenia, Sweden, France, Germany, Italy, Gibraltar, Guernsey, United Kingdom]
   - REMIND 3.3|Non-EU28 Europe:
-      iso3_codes: [ALB, AND, BIH, CHE, GRL, ISL, LIE, MCO, MKD, MNE, NOR, SJM, SMR,
-        SRB, TUR, VAT]
+      countries: [Albania, Andorra, Bosnia and Herzegovina, Switzerland, Greenland, Iceland, Liechtenstein, Monaco, North Macedonia, Montenegro, Norway, Svalbard and Jan Mayen, San Marino,
+        Serbia, Turkey, Vatican]
 # 21-region version of REMIND
   - REMIND 3.3|Germany:
-      iso3_codes: DEU
+      countries: [Germany]
   - REMIND 3.3|France:
-      iso3_codes: FRA
+      countries: [France]
   - REMIND 3.3|United Kingdom and Ireland:
-      iso3_codes: [GIB, GGY, IRL, IMN, JEY, GBR]
+      countries: [Gibraltar, Guernsey, Ireland, Isle of Man, Jersey, United Kingdom]
   - REMIND 3.3|EU Center-East Europe:
-      iso3_codes: [CZE, EST, LVA, LTU, POL, SVK]
+      countries: [Czechia, Estonia, Latvia, Lithuania, Poland, Slovakia]
   - REMIND 3.3|EU Center-South Europe:
-      iso3_codes: [BGR, HRV, HUN, ROU, SVN]
+      countries: [Bulgaria, Croatia, Hungary, Romania, Slovenia]
   - REMIND 3.3|EU North-Center Europe:
-      iso3_codes: [ALA, DNK, FRO, FIN, SWE]
+      countries: [Åland Islands, Denmark, Faroe Islands, Finland, Sweden]
   - REMIND 3.3|EU South-Center Europe:
-      iso3_codes: [CYP, GRC, ITA, MLT]
+      countries: [Cyprus, Greece, Italy, Malta]
   - REMIND 3.3|EU South-West Europe:
-      iso3_codes: [PRT, ESP]
+      countries: [Portugal, Spain]
   - REMIND 3.3|EU North-West Europe:
-      iso3_codes: [AUT, BEL, LUX, NLD]
+      countries: [Austria, Belgium, Luxembourg, Netherlands]
   - REMIND 3.3|Non-EU Northern Europe:
-      iso3_codes: [ISL, LIE, NOR, SJM, CHE, GRL]
+      countries: [Iceland, Liechtenstein, Norway, Svalbard and Jan Mayen, Switzerland, Greenland]
   - REMIND 3.3|Non-EU Southern Europe:
-      iso3_codes: [ALB, AND, BIH, VAT, MKD, MCO, MNE, SMR, SRB, TUR]
+      countries: [Albania, Andorra, Bosnia and Herzegovina, Vatican, North Macedonia, Monaco, Montenegro, San Marino, Serbia, Turkey]
