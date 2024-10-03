@@ -3,17 +3,20 @@ import logging
 import pyam
 from nomenclature import DataStructureDefinition, RegionProcessor, process
 from nomenclature.codelist import RegionCode
+from datetime import datetime, timedelta
 
 here = Path(__file__).absolute().parent
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
-from datetime import datetime, timedelta
 
 
 # datetime must be in Central European Time (CET)
 EXP_TZ = "UTC+01:00"
 EXP_TIME_OFFSET = timedelta(seconds=3600)
-OE_SUBANNUAL_FORMAT = lambda x: x.strftime("%m-%d %H:%M%z").replace("+0100", "+01:00")
+
+
+def oe_subannual_format(x):
+    return x.strftime("%m-%d %H:%M%z").replace("+0100", "+01:00")
 
 
 def main(df: pyam.IamDataFrame, dimensions=["region", "variable"]) -> pyam.IamDataFrame:
@@ -54,7 +57,7 @@ def main(df: pyam.IamDataFrame, dimensions=["region", "variable"]) -> pyam.IamDa
     # convert to subannual format if data provided in datetime format
     if df.time_col == "time":
         logger.info('Re-casting from "time" column to categorical "subannual" format')
-        df = df.swap_time_for_year(subannual=OE_SUBANNUAL_FORMAT)
+        df = df.swap_time_for_year(subannual=oe_subannual_format)
 
     # check that any datetime-like items in "subannual" are valid datetime and UTC+01:00
     if "subannual" in df.dimensions:

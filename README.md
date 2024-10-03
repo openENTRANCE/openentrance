@@ -1,14 +1,13 @@
 #  Project definitions for the openENTRANCE project
 
-Copyright 2020-2023 openENTRANCE consortium
+Copyright 2020-2024 openENTRANCE consortium
 
 This repository is licensed under the Apache License, Version 2.0 (the "License"); see
 the [LICENSE](LICENSE) for details.
 
 [![license](https://img.shields.io/badge/License-Apache%202.0-black)](https://github.com/openENTRANCE/openentrance/blob/main/LICENSE)
 [![python](https://img.shields.io/badge/python-3.7_|_3.8_|_3.9-blue?logo=python&logoColor=white)](https://github.com/openENTRANCE/openentrance)
-[![Code style:
-black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
 
 ## Aim and scope of this repository
 
