@@ -15,8 +15,14 @@
       weight: Gases|Biomass
 
   - Gases|Electricity:
-      description: synthetic gaseous efuels ("power-to-gas")
+      description: synthetic gaseous efuels ("power-to-gas") (if hydrogen
+          is not explicitly modeled as an intermediate product)
       weight: Gases|Electricity
+
+  - Gases|Hydrogen:
+      description: synthetic gaseous efuels from hydrogen (if hydrogen is explicitly modeled as a
+          commodity and not an implicit intermediate product of the transformation technologies)
+      weight: Gases|Hydrogen
 
   - Gases|Fossil:
       description: synthetic or derived gases of fossil origin
@@ -55,8 +61,14 @@
       weight: Liquids|Biomass
 
   - Liquids|Electricity:
-      description: synthetic liquid efuels ("power-to-liquid")
+      description: synthetic liquid efuels ("power-to-liquid") (if hydrogen
+          is not explicitly modeled as an intermediate product)
       weight: Liquids|Electricity
+
+  - Liquids|Hydrogen:
+      description: liquid fuels from hydrogen (if hydrogen is explicitly modeled as a
+          commodity and not an implicit intermediate product of the transformation technologies)
+      weight: Liquids|Hydrogen
 
   - Liquids|Fossil:
       description: liquids from fossil origin (conventional & unconventional petroleum, coal-to-liquids, gas-to-liquids)
