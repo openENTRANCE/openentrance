@@ -678,6 +678,23 @@
     description: Kyoto GHG emissions from other sources, including CO2, CH4, N2O and F-gases 
       (preferably use 100-year GWPs from AR4 for aggregation of different gases)
     unit: Mt CO2e/yr
+- Emissions|Kyoto Gases|non-CO2:
+    description: Non-CO2 GHG emissions from all sources, counted in CO2e (preferably use 100-year 
+      GWPs from AR4 for aggregation of different gases)
+    unit: Mt CO2e/yr
+- Emissions|Kyoto Gases|CH4:
+    description: CH4 GHG emissions from all sources, counted in CO2e (preferably use 100-year 
+      GWPs from AR4 for aggregation of different gases)
+    unit: Mt CO2e/yr
+- Emissions|Kyoto Gases|N2O:
+    description: N2O GHG emissions from all sources, counted in CO2e (preferably use 100-year 
+      GWPs from AR4 for aggregation of different gases)
+    unit: Mt CO2e/yr
+- Emissions|Kyoto Gases|F-Gases:
+    description: Total F-gas emissions, including sulfur hexafluoride (SF6), hydrofluorocarbons
+      (HFCs), perfluorocarbons (PFCs) (preferably use 100-year GWPs from AR4 for aggregation
+      of different F-gases), counted in CO2e
+    unit: Mt CO2e/yr
 
 - Emissions|N2O:
     description: Total nitrous oxide (N2O) emissions
