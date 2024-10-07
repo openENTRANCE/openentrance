@@ -280,13 +280,7 @@
       description: hydrogen used in combined cycle gas turbine (CCGT) power plants not generating heat
 
   - Hydro:
-      description: hydropower
-  - Hydro|Pumped Storage:
-      description: hydropower systems with short-term storage capacity
-        (including pumping turbines)
-      notes: This hydropower system has two water reservoirs at different elevations.
-        The definition follows the convention established
-        by the ENTSO-E transparency platform (https://transparency.entsoe.eu).
+      description: hydropower - includes reservoir and run-of-river, but NOT pumped hydro
   - Hydro|Reservoir:
       description: hydropower systems with seasonal storage capacity
         (possibly including pumping turbines)
