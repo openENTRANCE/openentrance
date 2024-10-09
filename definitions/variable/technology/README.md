@@ -21,9 +21,18 @@ See [technologies.yaml](technologies.yaml) for the full codelist.
 Variables for the installed capacity of (energy) production/generation
 or transmission should follow the structure below.
 
-- `Capacity|{Fuel}`
-- `Capacity|{Fuel}|{Specification}`
-- `Capacity|{Fuel}|{Specification}|{Identifier Of A Specific Power Plant}`
+- `Capacity|{Output}`
+- `Capacity|{Output}|{Specification}`
+- `Capacity|{Output}|{Input}`
+
+## Capacity Additions
+
+Variables for capacity additions of (energy) production/generation
+or transmission should follow the structure below.
+
+- `Capacity Additions|{Output}`
+- `Capacity Additions|{Output}|{Specification}`
+- `Capacity Additions|{Output}|{Input}`
 
 ## Capital Cost
 

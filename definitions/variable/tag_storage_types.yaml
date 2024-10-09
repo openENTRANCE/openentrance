@@ -14,6 +14,14 @@
       description: redox flow batteries
   - Compressed Air:
       description: compressed air storage systems
+  - Pumped Hydro:
+      description: pumped hydro storage systems     
+  - Pumped Hydro|Closed-Loop:
+      description: pumped hydro storage systems with no natural inflow
+      notes: The definition follows the convention established by the ENTSO-E transparency platform
+         (https://eepublicdownloads.entsoe.eu/clean-documents/sdc-documents/MAF/2020/Hydropower_Modelling_New_database_and_methodology_V1_0.pdf).
+  - Pumped Hydro|Open-Loop:
+      description: pumped hydro storage systems with natural inflow
   - Heat:
       description: all types of heat storage systems
   - Electric Vehicle:
