@@ -155,7 +155,7 @@
     description: Maximum amount of pkms or tkms that can be transported per year by {Transport mode}
     unit: [billion pkm/yr, billion tkm/yr]
 - Capacity|Transportation|{Bunkers mode}:
-    description: Maximum amount of pkms or tkms that can be transported per year by {Transport mode}
+    description: Maximum amount of pkms or tkms that can be transported per year by {Bunkers mode}
     unit: [billion pkm/yr, billion tkm/yr]
 
 
@@ -315,12 +315,9 @@
     description: Additions to maximum amount of pkms or tkms that can be transported per year by {Transport mode}
     unit: [billion pkm/yr/yr, billion tkm/yr/yr]
 - Capacity Additions|Transportation|{Bunkers mode}:
-    description: Additions to maximum amount of pkms or tkms that can be transported per year by {Transport mode}
+    description: Additions to maximum amount of pkms or tkms that can be transported per year by {Bunkers mode}
     unit: [billion pkm/yr/yr, billion tkm/yr/yr]
 
-
-
-    
 - Efficiency|Hydrogen|Electricity:
     description: Efficiency of producing hydrogen from electricity
     unit: "%"

@@ -57,12 +57,12 @@
 - Spillage|Electricity|Hydro|Reservoir:
     description: Energy spillage that could not be stored by  Hydro Reservoir . Several energy models include spillage variables related to renewable
       energy production; however, another way is to include a spillage variable to
-      the {Storage Type} unit since it is the last sink of the power network
+      the hydro reservoir unit since it is the last sink of the power network
     unit: [MWh, GWh]
 - Spillage|Electricity|Hydro|Pumped Storage:
     description: Energy spillage that could not be stored by  pumped storage . Several energy models include spillage variables related to renewable
       energy production; however, another way is to include a spillage variable to
-      the {Storage Type} unit since it is the last sink of the power network
+      the pumped-storage unit since it is the last sink of the power network
     unit: [MWh, GWh]
 
 - Operation Cost|Electricity|{Electricity Input}:
