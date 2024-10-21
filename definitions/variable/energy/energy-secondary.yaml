@@ -84,7 +84,7 @@
     description: Total centralized heat generation from {Fuel}
     unit: EJ/yr
 - Secondary Energy|Heat|Electricity|Heat Pumps:
-    description: Total centralized heat generation from heat pumps ("Electricity" is already covered in {Fuel})
+    description: Total centralized heat generation from heat pumps
     unit: EJ/yr
 - Secondary Energy|Heat|Nuclear:
     description: centralized heat generation from nuclear energy
