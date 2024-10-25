@@ -120,30 +120,204 @@
     description: Total installed (available) capacity of hydrogen-to-liquids (synfuel) plants
     unit: GW
 
+- Capacity|Heat:
+    description: Total installed centralized heat generation capacity
+    unit: GW
+- Capacity|Heat|{Fuel}:
+    description: Total installed centralized heat generation capacity from {Fuel}
+    unit: GW
+- Capacity|Heat|Heat Pumps:
+    description: Total installed centralized heat generation capacity by heat pumps 
+    unit: GW
+
 - Capacity|Heat|Residential and Commercial:
-    description: Total installed heat generation capacity for the residential and
+    description: Total installed centralized heat generation capacity for the residential and
       commercial sectors
     unit: GW
 - Capacity|Heat|Residential and Commercial|{Fuel}:
-    description: Total installed heat generation capacity for the residential and
+    description: Total installed centralized heat generation capacity for the residential and
       commercial sectors from {Fuel}
     unit: GW
 - Capacity|Heat|{Residential/Commercial}|Heat Pumps:
-    description: Total installed capacity of heat pumps for {Residential/Commercial} buildings
+    description: Total installed centralized heat generation capacity by heat pumps for {Residential/Commercial} buildings
     unit: GW
 - Capacity|Heat|Industrial:
-    description: Total installed heat generation capacity for the industrial sector
+    description: Total installed centralized heat generation capacity for the industrial sector
     unit: GW
 - Capacity|Heat|Industrial|{Fuel}:
-    description: Total installed heat generation capacity for the industrial sector
+    description: Total installed centralized heat generation capacity for the industrial sector
       from {Fuel}
+    unit: GW
+- Capacity|Heat|Industrial||Heat Pumps:
+    description: Total installed centralized heat generation capacity by heat pumps for the industrial sector
     unit: GW
 - Capacity|Transportation|{Transport mode}:
     description: Maximum amount of pkms or tkms that can be transported per year by {Transport mode}
     unit: [billion pkm/yr, billion tkm/yr]
 - Capacity|Transportation|{Bunkers mode}:
-    description: Maximum amount of pkms or tkms that can be transported per year by {Transport mode}
+    description: Maximum amount of pkms or tkms that can be transported per year by {Bunkers mode}
     unit: [billion pkm/yr, billion tkm/yr]
+
+
+- Capacity Additions|Electricity:
+    description: Total added electricity generation capacity
+    unit: GW/yr
+- Capacity Additions|Electricity|{Electricity Input}:
+    description: Total added electricity generation capacity from {Electricity Input}
+    unit: GW/yr
+- Capacity Additions|Electricity|{Storage Type}:
+    description: Total added electricity generation capacity from {Storage Type}
+    unit: GW/yr
+- Capacity Additions|Electricity|Storage|Power:
+    description: Total added capacity of operating electricity storage (e.g. pumped hydro, batteries, compressed air storage)
+          in terms of electricity output capacity
+    unit: GW/yr
+- Capacity Additions|Electricity|Storage|Power|{Storage Type}:
+    description: Total added capacity of operating electricity storage from {Storage Type}
+          in terms of electricity output capacity
+    unit: GW/yr
+- Capacity Additions|Electricity|Storage|Reservoir:
+    description: Added reservoir size of electricity storage technologies (e.g. pumped hydro, batteries, compressed air storage) 
+          in terms of stored electric energy
+    unit: GWh/yr
+- Capacity Additions|Electricity|Storage|Reservoir|{Storage Type}:
+    description: Added reservoir size of electricity storage technologies from {Storage Type}
+          in terms of stored electric energy
+    unit: GWh/yr
+- Capacity Additions|Gases:
+    description: Total capacity additions of gas plants
+    unit: GW/yr
+- Capacity Additions|Gases|Biomass:
+    description: Total capacity additions of biomass to gas plants
+    unit: GW/yr
+- Capacity Additions|Gases|Biomass|w/ CCS:
+    description: Total capacity additions of biomass to gas plants with CCS
+    unit: GW/yr
+- Capacity Additions|Gases|Biomass|w/o CCS:
+    description: Total capacity additions of biomass to gas plants without CCS
+    unit: GW/yr
+- Capacity Additions|Gases|Coal:
+    description: Total capacity additions of coal to gas plants
+    unit: GW/yr
+- Capacity Additions|Gases|Coal|w/ CCS:
+    description: Total capacity additions of coal to gas plants with CCS
+    unit: GW/yr
+- Capacity Additions|Gases|Coal|w/o CCS:
+    description: Total capacity additions of coal to gas plants without CCS
+    unit: GW/yr
+- Capacity Additions|Gases|Hydrogen:
+    description: Total capacity additions of hydrogen-to-methane (syngas) plants
+    unit: GW/yr
+- Capacity Additions|Hydrogen:
+    description: Total capacity additions of hydrogen plants (in hydrogen output)
+    unit: GW/yr
+- Capacity Additions|Hydrogen|Biomass:
+    description: Total capacity additions of biomass to hydrogen plants (in hydrogen output)
+    unit: GW/yr
+- Capacity Additions|Hydrogen|Biomass|w/ CCS:
+    description: Total capacity additions of biomass to hydrogen plants with CCS (in hydrogen output)
+    unit: GW/yr
+- Capacity Additions|Hydrogen|Biomass|w/o CCS:
+    description: Total capacity additions of biomass to hydrogen plants without CCS (in hydrogen output)
+    unit: GW/yr
+- Capacity Additions|Hydrogen|Coal:
+    description: Total capacity additions of coal to hydrogen plants (in hydrogen output)
+    unit: GW/yr
+- Capacity Additions|Hydrogen|Coal|w/ CCS:
+    description: Total capacity additions of coal to hydrogen plants with CCS (in hydrogen output)
+    unit: GW/yr
+- Capacity Additions|Hydrogen|Coal|w/o CCS:
+    description: Total capacity additions of coal to hydrogen plants without CCS (in hydrogen output)
+    unit: GW/yr
+- Capacity Additions|Hydrogen|Electricity:
+    description: Total capacity additions of hydrogen-by-electrolysis plants (in hydrogen output)
+    unit: GW/yr
+- Capacity Additions|Hydrogen|Input|Electricity:
+    description: Total capacity additions of hydrogen-by-electrolysis plants (in electricity input)
+    unit: GW/yr
+- Capacity Additions|Hydrogen|Gas:
+    description: Total capacity additions of gas to hydrogen plants (in hydrogen output)
+    unit: GW/yr
+- Capacity Additions|Hydrogen|Gas|w/ CCS:
+    description: Total capacity additions of gas to hydrogen plants with CCS (in hydrogen output)
+    unit: GW/yr
+- Capacity Additions|Hydrogen|Gas|w/o CCS:
+    description: Total capacity additions of gas to hydrogen plants without CCS (in hydrogen output)
+    unit: GW/yr
+- Capacity Additions|Liquids:
+    description: Total capacity additions of biomass to liquids plants
+    unit: GW/yr
+- Capacity Additions|Liquids|Biomass:
+    description: Total capacity additions of biomass to liquids plants
+    unit: GW/yr
+- Capacity Additions|Liquids|Biomass|w/ CCS:
+    description: Total capacity additions of biomass to liquids plants with CCS
+    unit: GW/yr
+- Capacity Additions|Liquids|Biomass|w/o CCS:
+    description: Total capacity additions of biomass to liquids plants without CCS
+    unit: GW/yr
+- Capacity Additions|Liquids|Coal:
+    description: Total capacity additions of coal to liquids plants
+    unit: GW/yr
+- Capacity Additions|Liquids|Coal|w/ CCS:
+    description: Total capacity additions of coal to liquids plants with CCS
+    unit: GW/yr
+- Capacity Additions|Liquids|Coal|w/o CCS:
+    description: Total capacity additions of coal to liquids plants without CCS
+    unit: GW/yr
+- Capacity Additions|Liquids|Gas:
+    description: Total capacity additions of gas to liquids plants
+    unit: GW/yr
+- Capacity Additions|Liquids|Gas|w/ CCS:
+    description: Total capacity additions of gas to liquids plants with CCS
+    unit: GW/yr
+- Capacity Additions|Liquids|Gas|w/o CCS:
+    description: Total capacity additions of gas to liquids plants without CCS
+    unit: GW/yr
+- Capacity Additions|Liquids|Oil:
+    description: Total capacity additions of oil refining plants
+    unit: GW/yr
+- Capacity Additions|Liquids|Hydrogen:
+    description: Total capacity additions of hydrogen-to-liquids (synfuel) plants
+    unit: GW/yr
+
+- Capacity Additions|Heat:
+    description: Additions to total installed centralized heat generation capacity 
+    unit: GW/yr
+- Capacity Additions|Heat|{Fuel}:
+    description: Additions to total installed centralized heat generation capacity from {Fuel}
+    unit: GW/yr
+- Capacity Additions|Heat|Heat Pumps:
+    description: Additions to total installed centralized heat generation capacity by heat pumps
+    unit: GW/yr
+- Capacity Additions|Heat|Residential and Commercial:
+    description: Additions to total installed centralized heat generation capacity for the residential and
+      commercial sectors
+    unit: GW/yr
+- Capacity Additions|Heat|Residential and Commercial|{Fuel}:
+    description: Additions to total installed centralized heat generation capacity for the residential and
+      commercial sectors from {Fuel}
+    unit: GW/yr
+- Capacity Additions|Heat|{Residential/Commercial}|Heat Pumps:
+    description: Additions to total installed capacity of centralized heat generation capacity  from heat pumps for {Residential/Commercial} buildings
+    unit: GW/yr
+- Capacity Additions|Heat|Industrial:
+    description: Additions to total installed centralized heat generation capacity for the industrial sector
+    unit: GW/yr
+- Capacity Additions|Heat|Industrial|{Fuel}:
+    description: Additions to total installed centralized heat generation capacity for the industrial sector
+      from {Fuel}
+    unit: GW/yr
+- Capacity Additions|Heat|Industrial|Heat Pumps:
+    description: Additions to total installed capacity of centralized heat generation capacity from heat pumps for the industrial sector
+    unit: GW/yr
+- Capacity Additions|Transportation|{Transport mode}:
+    description: Additions to maximum amount of pkms or tkms that can be transported per year by {Transport mode}
+    unit: [billion pkm/yr/yr, billion tkm/yr/yr]
+- Capacity Additions|Transportation|{Bunkers mode}:
+    description: Additions to maximum amount of pkms or tkms that can be transported per year by {Bunkers mode}
+    unit: [billion pkm/yr/yr, billion tkm/yr/yr]
+
 - Efficiency|Hydrogen|Electricity:
     description: Efficiency of producing hydrogen from electricity
     unit: "%"
