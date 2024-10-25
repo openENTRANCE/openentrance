@@ -164,6 +164,10 @@
     description: Planned technical lifetime of operation for {Electricity Input}
     unit: years
     skip-region-aggregation: true
+- Lifetime|Hydrogen|Electricity:
+    description: Planned technical lifetime of operation for hydrogen electrolyzers
+    unit: years
+    skip-region-aggregation: true
 - Capital Cost|Electricity|{Electricity Input}:
     description: Capital cost for {Electricity Input}
     unit: [EUR_2020/kW, USD_2010/kW]
@@ -248,6 +252,10 @@
     skip-region-aggregation: true
 - Fixed Cost|Electricity|Storage|{Storage Type}:
     description: Fixed O&M cost for {Storage Type}
+    unit: [EUR_2020/kW/yr, USD_2010/kW/yr]
+    skip-region-aggregation: true
+- Fixed Cost|Hydrogen|Electricity:
+    description: Fixed O&M cost for hydrogen electrolyzers
     unit: [EUR_2020/kW/yr, USD_2010/kW/yr]
     skip-region-aggregation: true
 - Fixed Cost|Heat|Residential and Commercial|{Fuel}:
