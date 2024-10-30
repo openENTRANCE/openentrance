@@ -363,8 +363,8 @@
     description: Capital cost for the reservoir of {Storage Type}
     unit: [EUR_2020/kWh, USD_2010/kWh]
     skip-region-aggregation: true    
-- Capacity|Electricity|Storage|Ratio Reservoir to Power|{Storage Type}:
-    description: Ratio of reservoir to power of {Storage Type}
+- Energy to Power Ratio|Electricity|Storage|{Storage Type}:
+    description: Ratio of reservoir size to power of {Storage Type}
     unit: [h]
     skip-region-aggregation: true  
 - Capital Cost|Electricity|Storage|Aggregate|Generic:
@@ -383,8 +383,8 @@
       the generic storage technology doesn't fit into any of the specific storage types)
     unit: [EUR_2020/kWh, USD_2010/kWh]
     skip-region-aggregation: true    
-- Capacity|Electricity|Storage|Ratio Reservoir to Power|Generic:
-    description: Ratio of reservoir to power of the generic storage technology (please only report if 
+- Energy to Power Ratio|Electricity|Storage|Generic:
+    description: Ratio of reservoir size to power of the generic storage technology (please only report if 
       the generic storage technology doesn't fit into any of the specific storage types)
     unit: [h]
     skip-region-aggregation: true  
