@@ -322,8 +322,24 @@
     description: Efficiency of producing hydrogen from electricity
     unit: "%"
     skip-region-aggregation: true
+- Efficiency|Electricity|{Electricity Input}:
+    description: Efficiency of producing electricity from {Electricity Input}
+    unit: "%"
+    skip-region-aggregation: true
+- Efficiency|Electricity|Storage|Generic:
+    description: Round-trip efficiency of charging and discharging the generic storage technology
+    unit: "%"
+    skip-region-aggregation: true
+- Efficiency|Electricity|Storage|{Storage Type}:
+    description: Round-trip efficiency of charging and discharging {Storage Type}
+    unit: "%"
+    skip-region-aggregation: true
 - Lifetime|Electricity|{Electricity Input}:
     description: Planned technical lifetime of operation for {Electricity Input}
+    unit: years
+    skip-region-aggregation: true
+- Lifetime|Hydrogen|Electricity:
+    description: Planned technical lifetime of operation for hydrogen electrolyzers
     unit: years
     skip-region-aggregation: true
 - Capital Cost|Electricity|{Electricity Input}:
@@ -334,6 +350,44 @@
     description: Capital cost for {Storage Type}
     unit: [EUR_2020/kW, USD_2010/kW]
     skip-region-aggregation: true
+- Capital Cost|Electricity|Storage|Aggregate|{Storage Type}:
+    description: Aggregate capital cost for {Storage Type} - including both power and reservoir 
+      costs at the ratio given in Capacity|Electricity|Storage|Ratio Reservoir to Power
+    unit: [EUR_2020/kW, USD_2010/kW]
+    skip-region-aggregation: true
+- Capital Cost|Electricity|Storage|Power|{Storage Type}:
+    description: Capital cost for the conversion capacity of {Storage Type}
+    unit: [EUR_2020/kW, USD_2010/kW]
+    skip-region-aggregation: true
+- Capital Cost|Electricity|Storage|Reservoir|{Storage Type}:
+    description: Capital cost for the reservoir of {Storage Type}
+    unit: [EUR_2020/kWh, USD_2010/kWh]
+    skip-region-aggregation: true    
+- Energy to Power Ratio|Electricity|Storage|{Storage Type}:
+    description: Ratio of reservoir size to power of {Storage Type}
+    unit: [h]
+    skip-region-aggregation: true  
+- Capital Cost|Electricity|Storage|Aggregate|Generic:
+    description: Aggregate capital cost for the generic storage technology (please only report if 
+      the generic storage technology doesn't fit into any of the specific storage types) - including both power and reservoir 
+      costs at the ratio given in Capacity|Electricity|Storage|Ratio Reservoir to Power
+    unit: [EUR_2020/kW, USD_2010/kW]
+    skip-region-aggregation: true
+- Capital Cost|Electricity|Storage|Power|Generic:
+    description: Capital cost for the conversion capacity of the generic storage technology (please only report if 
+      the generic storage technology doesn't fit into any of the specific storage types)
+    unit: [EUR_2020/kW, USD_2010/kW]
+    skip-region-aggregation: true
+- Capital Cost|Electricity|Storage|Reservoir|Generic:
+    description: Capital cost for the reservoir of the generic storage technology (please only report if 
+      the generic storage technology doesn't fit into any of the specific storage types)
+    unit: [EUR_2020/kWh, USD_2010/kWh]
+    skip-region-aggregation: true    
+- Energy to Power Ratio|Electricity|Storage|Generic:
+    description: Ratio of reservoir size to power of the generic storage technology (please only report if 
+      the generic storage technology doesn't fit into any of the specific storage types)
+    unit: [h]
+    skip-region-aggregation: true  
 - Capital Cost|Hydrogen|Electricity:
     description: Capital cost for hydrogen production from electricity
     unit: [EUR_2020/kW, USD_2010/kW]
@@ -364,6 +418,18 @@
     skip-region-aggregation: true
 - Fixed Cost|Electricity|{Electricity Input}:
     description: Fixed O&M cost for {Electricity Input}
+    unit: [EUR_2020/kW/yr, USD_2010/kW/yr]
+    skip-region-aggregation: true
+- Fixed Cost|Electricity|Storage|Generic:
+    description: Fixed O&M cost for generic storage type
+    unit: [EUR_2020/kW/yr, USD_2010/kW/yr]
+    skip-region-aggregation: true
+- Fixed Cost|Electricity|Storage|{Storage Type}:
+    description: Fixed O&M cost for {Storage Type}
+    unit: [EUR_2020/kW/yr, USD_2010/kW/yr]
+    skip-region-aggregation: true
+- Fixed Cost|Hydrogen|Electricity:
+    description: Fixed O&M cost for hydrogen electrolyzers
     unit: [EUR_2020/kW/yr, USD_2010/kW/yr]
     skip-region-aggregation: true
 - Fixed Cost|Heat|Residential and Commercial|{Fuel}:

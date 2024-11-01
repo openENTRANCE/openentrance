@@ -10,6 +10,18 @@
 - Secondary Energy|Electricity|{Electricity Input}:
     description: Net electricity production from {Electricity Input}
     unit: [EJ/yr, GWh]
+- Secondary Energy|Electricity|Storage|Discharge:
+    description: Total electricity output from storage
+    unit: [EJ/yr, GWh]
+- Secondary Energy|Electricity|Storage|Charge:
+    description: Total electricity input into storage
+    unit: [EJ/yr, GWh]
+- Secondary Energy|Electricity|Storage|Discharge|{Storage Type}:
+    description: Electricity output from {Storage Type}
+    unit: [EJ/yr, GWh]
+- Secondary Energy|Electricity|Storage|Charge|{Storage Type}:
+    description: Electricity input into {Storage Type}
+    unit: [EJ/yr, GWh]
 - Available Secondary Energy|Electricity:
     description: Total net potential electricity production
       this is equivalent to the total electricity mix capacity multiplied by the number of hours in the period multiplied by the maximum achievable load factor
