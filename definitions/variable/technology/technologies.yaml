@@ -83,6 +83,9 @@
 - Capacity|Hydrogen|Gas|w/o CCS:
     description: Total installed (available) capacity of gas to hydrogen plants without CCS (in hydrogen output)
     unit: GW
+- Capacity|Hydrogen|Storage|Reservoir:
+    description: Reservoir size of hydrogen storage (e.g. caverns, containers, ...) in terms of stored hydrogen energy
+    unit: GWh
 - Capacity|Liquids:
     description: Total installed (available) capacity of biomass to liquids plants
     unit: GW
