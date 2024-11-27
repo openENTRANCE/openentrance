@@ -164,7 +164,7 @@
     unit: '-'
     skip-region-aggregation: true
 - Discharging Efficiency|Electricity|{Storage Type}:
-    description: Efficiency of discharging for a {Electricity Storage Type}
+    description: Efficiency of discharging for a {Storage Type}
     unit: '-'
     skip-region-aggregation: true
 - Discharging Efficiency|Electricity|Hydro|Pumped Storage:
@@ -176,7 +176,7 @@
     unit: '-'
     skip-region-aggregation: true
 - Inflows|Electricity|{Storage Type}:
-    description: Inflows into a storage of a {Electricity Storage Type}, expressed in energy
+    description: Inflows into a storage of a {Storage Type}, expressed in energy
     unit: GWh
 - Inflows|Electricity|Hydro|Reservoir:
     description: Inflows into a hydro reservoir, expressed in energy
@@ -202,7 +202,7 @@
     unit: '-'
     skip-region-aggregation: true
 - Seasonality|Electricity|{Storage Type}:
-    description: seasonality (daily, weekly, monthly, etc.) of {Electricity Storage Type}
+    description: seasonality (daily, weekly, monthly, etc.) of {Storage Type}
     unit: [daily,weekly,monthly]
 - Roundtrip Efficiency|Electricity|{Storage Type}:
     description: Efficiency when charging energy from the grid to the system

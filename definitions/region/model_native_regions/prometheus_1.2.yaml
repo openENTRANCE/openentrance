@@ -1,11 +1,11 @@
 - PROMETHEUS 1.2:
   - PROMETHEUS 1.2|Western Europe:
-      countries: Austria, Belgium, Denmark, Faeroe Islands, Finland, France, Germany,
+      countries: [ Austria, Belgium, Denmark, Faroe Islands, Finland, France, Germany,
         Gibraltar, Greece, Iceland, Ireland, Italy, Liechtenstein, Luxembourg, Monaco,
         Netherlands, Norway, Portugal, San Marino, Spain, Sweden, Switzerland,
-        United Kingdom,
+        United Kingdom ]
   - PROMETHEUS 1.2|Central Europe:
-      countries: Bulgaria, Croatia, Cyprus, Czech Republic, Estonia, Hungary, Latvia,
-        Lithuania, Malta, Poland, Romania, Slovak Republic, Slovenia
+      countries: [ Bulgaria, Croatia, Cyprus, Czechia, Estonia, Hungary, Latvia,
+        Lithuania, Malta, Poland, Romania, Slovakia, Slovenia ]
   - PROMETHEUS 1.2|North America:
-      countries: Canada, USA
+      countries: [ Canada, United States ]
