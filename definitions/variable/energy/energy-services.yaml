@@ -45,3 +45,6 @@
 - Energy Service|Transportation|Passenger|{Transport}:
     description: Provision of energy services related to passenger {Transport}
     unit: Gpkm/yr
+- Energy Service|Residential|Average:
+    description:  Annual electricity consumption per household that is expected to be achieved at the end pf the study.
+    unit: kWh
