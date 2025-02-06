@@ -10,12 +10,11 @@
 #   - Demand in reserves
 #   - Demand in inertia
 #   - Flows in transmission lines
-# 
+#
 
 - Active Power|Electricity|{Electricity Input}:
     description: Active power of {Electricity Input} power plants
     unit: [MWh, GWh]
-
 - Active Power|Electricity|Load Curtailment:
     description: Energy curtailed - from the system point of view is equivalent to
       generation of Active Power
@@ -48,7 +47,6 @@
 - Storage|Electricity|Load Curtailment:
     description: remaining amount of curtailement
     unit: [MWh, GWh]
-
 - Spillage|Electricity|{Storage Type}:
     description: Energy spillage that could not be stored by a {Storage Type} unit. Several energy models include spillage variables related to renewable
       energy production; however, another way is to include a spillage variable to
@@ -64,43 +62,36 @@
       energy production; however, another way is to include a spillage variable to
       the pumped-storage unit since it is the last sink of the power network
     unit: [MWh, GWh]
-
 - Operation Cost|Electricity|{Electricity Input}:
     description: Operation Cost of {Electricity Input} power plants
     unit: EUR_2020
     skip-region-aggregation: true
-
 - Operation Cost|Electricity|{Storage Type}:
     description: Operation Cost of {Storage Type} units
     unit: EUR_2020
     skip-region-aggregation: true
-    
 - Operation Cost|Electricity:
     description: Operation Cost of all electricity assets
     unit: EUR_2020
     skip-region-aggregation: true
-
 - Reserve|Electricity|Automatic Frequency Restoration|{Electricity Input}:
     description: Automatic Frequency Restoration Reserve available for {Electricity Input}
      power plants; this amount is the maximum available for the grid operator considering
      the commitment decisions taken by the model
     unit: [MWh, GWh]
     skip-region-aggregation: false
-
 - Reserve|Electricity|Frequency Containment|{Electricity Input}:
     description: Frequency Containment Reserve available for {Electricity Input}
      power plants; this amount is the maximum available for the grid operator considering
      the commitment decisions taken by the model
     unit: [MWh, GWh]
     skip-region-aggregation: false
-
 - Reserve|Electricity|Frequency Containment|{Storage Type}:
     description: Frequency Containment Reserve available for {Storage Type}
      units; this amount is the maximum available for the grid operator considering
      the commitment decisions taken by the model
     unit: [MWh, GWh]
     skip-region-aggregation: false
-
 - Marginal Cost|CO2 Emissions|Electricity:
     description: Marginal Cost associated to the constraint in terms of CO2 emissions
       by the electricity power sector
@@ -130,7 +121,6 @@
     description: Marginal Cost associated to the Frequency Containment requirement
     unit: EUR_2020/MWh
     skip-region-aggregation: true
-    
 - Export|Electricity:
     description: Exported electricity from a given region
     unit: [MWh, GWh]
@@ -146,37 +136,57 @@
     unit: [MWh, GWh]
 - Injected Energy|Electricity|{Storage Type}:
     description: Amount of energy charged from the grid to the storage during the period
-    notes: this represents the total energy which is charged into the storage during the period, the energy which is discharged during 
+    notes: this represents the total energy which is charged into the storage during the period, the energy which is discharged during
      that same period is not substracted from this total. This means that the Net Charged Energy can be computed as Charged Energy - Discharged Energy
      if Charged Energy > Discharged Energy, 0 if not
     unit: [MWh, GWh]
 - Injected Energy|Electricity|Hydro|Pumped Storage:
-    description: Amount of energy charged from the grid to the pumped storage during the period
+    description: >
+      Amount of energy charged from the grid to the pumped storage during the period
     unit: [MWh, GWh]
 - Discharged Energy|Electricity|{Storage Type}:
-    description: Amount of energy discharged from the storage to the grid during the period
-    notes: this represents the total energy which is discharged from the storage to the grid during the period, the energy which is charged into the storage during 
-     that same period is not substracted from this total. This means that the Net Discharged Energy can be computed as Discharged Energy - Charged Energy,
-     if Discharged Energy > Charged Energy, 0 if not
+    description: >
+      Amount of energy discharged from the storage to the grid during the period
+    notes: >
+      this represents the total energy which is discharged from the storage to the
+      grid during the period, the energy which is charged into the storage during that
+      same period is not substracted from this total. This means that the Net Discharged
+      Energy can be computed as Discharged Energy - Charged Energy, if Discharged Energy
+      > Charged Energy, 0 if not
     unit: [MWh, GWh]
 - Injected Energy|Electricity|Load Shifting|{Residential Load Shifting Asset}:
-    description: Surplus of energy consumed by the {Residential Load Shifting Asset} during the period,
-        compared to nominal consumption profile. This means that the <Residential Load Shifting Asset> is advancing some consumption
-        i.e. consuming earlier than in the nominal profile, or that the consumption had been lowered in an earlier period and is
-        consumed later (delayed)
-    notes: this is equivalent to modelling the <Residential Load Shifting Asset> as a virtual storage 
-      this represents the total energy which is charged into the storage during the period, the energy which is discharged during 
-     that same period is not substracted from this total. This means that the Net Charged Energy can be computed as Charged Energy - Discharged Energy
-     if Charged Energy > Discharged Energy, 0 if not
+    description: >
+      Surplus of energy consumed by the {Residential Load Shifting Asset} during the
+      period, compared to nominal consumption profile. This means that the <Residential
+      Load Shifting Asset> is advancing some consumption i.e. consuming earlier than in
+      the nominal profile, or that the consumption had been lowered in an earlier period
+      and is consumed later (delayed)
+    notes: >
+      this is equivalent to modelling the <Residential Load Shifting Asset> as a virtual
+      storage this represents the total energy which is charged into the storage during
+      the period, the energy which is discharged during that same period is not
+      substracted from this total. This means that the Net Charged Energy can be
+      computed as Charged Energy - Discharged Energy if Charged Energy > Discharged
+      Energy, 0 if not
     unit: [MWh, GWh]
 - Discharged Energy|Electricity|Load Shifting|{Residential Load Shifting Asset}:
-    description: Amount of energy not consumed by the {Residential Load Shifting Asset} during the period,
-        compared to nominal consumption profile. This means that the <Residential Load Shifting Asset> is delaying some consumption
-        i.e. consuming later than in the nominal profile, or that the consumption had been increased in an earlier period and is
-        not consumed later (delayed)
-    notes: this is equivalent to modelling the <Residential Load Shifting Asset> as a virtual storage
-     this represents the total energy which is discharged from the storage during the period, the energy which is charged into the storage during 
-     that same period is not substracted from this total. This means that the Net Discharged Energy can be computed as Discharged Energy - Charged Energy,
-     if Discharged Energy > Charged Energy, 0 if not
+    description: >
+      Amount of energy not consumed by the {Residential Load Shifting Asset} during the
+      period, compared to nominal consumption profile. This means that the <Residential
+      Load Shifting Asset> is delaying some consumption i.e. consuming later than in the
+      nominal profile, or that the consumption had been increased in an earlier period
+      and is not consumed later (delayed)
+    notes: >
+      this is equivalent to modelling the <Residential Load Shifting Asset> as a virtual
+      storage this represents the total energy which is discharged from the storage
+      during the period, the energy which is charged into the storage during that same
+      period is not substracted from this total. This means that the Net Discharged
+      Energy can be computed as Discharged Energy - Charged Energy, if Discharged Energy
+      > Charged Energy, 0 if not
     unit: [MWh, GWh]
-
+- Marginal cost|Network|Electricity|Expansion:
+    description: >
+      Incremental cost increase for extension of the grid from an electrified settlement
+      to an un-electrified one. Default value set at 10%.
+    unit: "%"
+    skip-region-aggregation: true

@@ -1003,3 +1003,4 @@
 - Emissions|PM2.5|Energy|Supply|Electricity:
     description: Particulate matter 2.5 emissions originating from electricity generation.
     unit: Mt PM2.5
+

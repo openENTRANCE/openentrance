@@ -1,3 +1,7 @@
+- Capacity|Grid|Electricity:
+    description: Grid generation capacity cap per year
+    unit: MW
+
 - Capacity|Electricity:
     description: Total installed electricity generation capacity
     unit: GW
@@ -16,7 +20,7 @@
           in terms of electricity output capacity
     unit: GW
 - Capacity|Electricity|Storage|Reservoir:
-    description: Reservoir size of electricity storage technologies (e.g. pumped hydro, batteries, compressed air storage) 
+    description: Reservoir size of electricity storage technologies (e.g. pumped hydro, batteries, compressed air storage)
           in terms of stored electric energy
     unit: GWh
 - Capacity|Electricity|Storage|Reservoir|{Storage Type}:
@@ -686,7 +690,7 @@
     description: Number of public charging stations for electric vehicles, i.e. accessible to everybody without restriction (e.g. public parking spot)
     unit: million
 - Infrastructure|Transportation|Charging Station|Semi-Public:
-    description: Number of semi-public charging stations for electric vehicles, i.e. located in shared spaces accessible to a restricted group of people (e.g. charging stations at workplaces, shopping centers, hotels) 
+    description: Number of semi-public charging stations for electric vehicles, i.e. located in shared spaces accessible to a restricted group of people (e.g. charging stations at workplaces, shopping centers, hotels)
     unit: million
 - Infrastructure|Transportation|Charging Station|Private:
     description: Number of private charging stations for electric vehicles, i.e. accessible to a single person or household (e.g. charging stations in private garages)
@@ -735,3 +739,60 @@
     description: Levelized cost of storage for {Storage Type}
     unit: [MEUR_2020/MWh, MUSD_2010/MWh, MEUR_2020/PJ, MUSD_2010/PJ]
     skip-region-aggregation: true
+- Capital Cost|Electricity|Diesel|Stand-alone:
+    description: The capital cost (per Capacity unit) of a stand- alone diesel generator.
+    unit: US$2020/kW
+    skip-region-aggregation: true
+- Capital Cost|Electricity|Solar PV|Stand-alone:
+    description: The capital cost (per Capacity unit) of a stand- alone PV module.
+    unit: US$2020/kW
+    skip-region-aggregation: true
+- Capital Cost|Electricity|Diesel|Mini Grid:
+    description: The capital cost (per Capacity unit) of a mini Grid diesel generator.
+    unit: US$2020/kW
+    skip-region-aggregation: true
+- Capital Cost|Electricity|Solar PV|Mini Grid:
+    description: The capital cost (per Capacity unit) of a mini Grid PV system.
+    unit: US$2020/kW
+    skip-region-aggregation: true
+- Capital Cost|Electricity|Wind|Mini Grid:
+    description: The capital cost (per Capacity unit) of a mini Grid wind powered system.
+    unit: US$2020/kW
+    skip-region-aggregation: true
+- Capital Cost|Electricity|Hydro|Mini Grid:
+    description: The capital cost (per Capacity unit) of a mini Grid hydropower system.
+    unit: US$2020/kW
+    skip-region-aggregation: true
+- Capital Cost|Batteries:
+    description: Expected hybrid mini-grid component costs batteries.
+    unit: US$2020/kWp
+- Capital Cost|Inverter:
+    description: Expected hybrid mini-grid component costs inverter.
+    unit: US$2020/kWp
+- Capital Cost|Charge Controller:
+    description: Expected hybrid mini-grid component costs charge controller.
+    unit: US$2020/kW
+- Capital Cost|PV Stand-alone|Minimum:
+    description: Expected PV stand-alone costs min.
+    unit: US$2020/kWp
+- Capital Cost|PV Stand-alone|Maximum:
+    description: Expected PV stand-alone costs max.
+    unit: US$2020/kWp
+- Capital Cost|HV line:
+    description: Expected cost HV line.
+    unit: US$2020/km
+- Capital Cost|MV line:
+    description: Expected cost MV line.
+    unit: US$2020/km
+- Capital Cost|LV line:
+    description: Expected cost LV line.
+    unit: US$2020/km
+- Capital Cost|Substation|HV to MV:
+    description: Expected cost substations HV to MV.
+    unit: US$2020
+- Capital Cost|Substation|MV to V:
+    description: Expected cost substations MV to V.
+    unit: US$2020
+- Capital Cost|Transformer:
+    description: Expected cost transformer
+    unit: US$2020
