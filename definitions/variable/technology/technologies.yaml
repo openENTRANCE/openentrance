@@ -666,9 +666,15 @@
     description: Annualized investments for the standing stock in Industry
     unit: [billion EUR_2020/yr, billion USD_2010/yr]
 
+- Stock|Transportation|{Transport mode}:
+    description: Number of registered vehicles in {Transport mode}
+    unit: million
 - Stock|Transportation|{Transport mode, tech and carrier}:
     description: Number of registered vehicles with {Transport mode, tech and carrier}
     unit: million
+- Sales|Transportation|{Transport mode}:
+    description: Number of yearly sold (new) vehicles in {Transport mode}
+    unit: million/yr
 - Sales|Transportation|{Transport mode, tech and carrier}:
     description: Number of yearly sold (new) vehicles with {Transport mode, tech and carrier}
     unit: million/yr
