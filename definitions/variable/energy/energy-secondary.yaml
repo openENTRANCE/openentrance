@@ -289,6 +289,10 @@
     description: net exports of fossil liquid synfuels from coal-to-liquids (CTL) technologies.
     notes: at the global level these should add up to the trade losses only. Amounts reported here should not additionally be reported under "Trade|Primary Energy" 
     unit: EJ/yr
+- Trade|Secondary Energy|Liquids|Fossil|Volume:
+    description: net exports of fossil liquids - the sum of liquids from oil, coal and gas.
+    notes: at the global level these should add up to the trade losses only. Amounts reported here should not additionally be reported under "Trade|Primary Energy" 
+    unit: EJ/yr
 - Trade|Secondary Energy|Liquids|Gas|Volume:
     description: net exports of fossil liquid synfuels from gas-to-liquids (GTL) technologies.
     notes: at the global level these should add up to the trade losses only. Amounts reported here should not additionally be reported under "Trade|Primary Energy" 
