@@ -271,27 +271,68 @@
     unit: EJ/yr
 - Trade|Secondary Energy|Liquids|Volume:
     description: Net exports of liquids
-    notes: at the global level these should add up to the trade losses only
+    notes: at the global level these should add up to the trade losses only. Amounts reported here should not additionally be reported under "Trade|Primary Energy" 
     unit: EJ/yr
 - Trade|Secondary Energy|Liquids|Biomass|Volume:
-    description: net exports of liquid biofuels, at the global level these should
-     add up to the trade losses only (for those models that are able to split solid and liquid bioenergy)
+    description: net exports of liquid biofuels.
+    notes: at the global level these should add up to the trade losses only. Amounts reported here should not additionally be reported under "Trade|Primary Energy" 
+    unit: EJ/yr
+- Trade|Secondary Energy|Liquids|Hydrogen|Volume:
+    description: net exports of liquid from hydrogen (if hydrogen is explicitly modeled as a commodity and not an implicit intermediate product of the transformation technologies).
+    notes: at the global level these should add up to the trade losses only. Amounts reported here should not additionally be reported under "Trade|Primary Energy" 
     unit: EJ/yr
 - Trade|Secondary Energy|Liquids|Electricity|Volume:
-    description: net exports of liquid from electricity (efuels), at the global level these should
-     add up to the trade losses only
+    description: net exports of liquid synthetic fuels from electricity, i.e., e-fuels (if hydrogen is not explicitly modeled as an intermediate product).
+    notes: at the global level these should add up to the trade losses only. Amounts reported here should not additionally be reported under "Trade|Primary Energy" 
     unit: EJ/yr
 - Trade|Secondary Energy|Liquids|Coal|Volume:
-    description: net exports of fossil liquid synfuels from coal-to-liquids (CTL) technologies,
-     at the global level these should add up to the trade losses only
+    description: net exports of fossil liquid synfuels from coal-to-liquids (CTL) technologies.
+    notes: at the global level these should add up to the trade losses only. Amounts reported here should not additionally be reported under "Trade|Primary Energy" 
     unit: EJ/yr
 - Trade|Secondary Energy|Liquids|Gas|Volume:
-    description: net exports of fossil liquid synfuels from gas-to-liquids (GTL) technologies,
-     at the global level these should add up to the trade losses only
+    description: net exports of fossil liquid synfuels from gas-to-liquids (GTL) technologies.
+    notes: at the global level these should add up to the trade losses only. Amounts reported here should not additionally be reported under "Trade|Primary Energy" 
     unit: EJ/yr
 - Trade|Secondary Energy|Liquids|Oil|Volume:
     description: net exports of liquid fuels from petroleum including both conventional and
-     unconventional sources, at the global level these should add up to the trade losses only
+     unconventional sources.
+    notes: at the global level these should add up to the trade losses only. Amounts reported here should not additionally be reported under "Trade|Primary Energy" 
+    unit: EJ/yr
+- Trade|Secondary Energy|Solids|Volume:
+    description: net exports of processed solids.
+    notes: at the global level these should add up to the trade losses only. Amounts reported here should not additionally be reported under "Trade|Primary Energy" 
+    unit: EJ/yr
+- Trade|Secondary Energy|Solids|Biomass|Volume:
+    description: net exports of biomass-based processed solids.
+    notes: at the global level these should add up to the trade losses only. Amounts reported here should not additionally be reported under "Trade|Primary Energy" 
+    unit: EJ/yr
+- Trade|Secondary Energy|Solids|Coal|Volume:
+    description: net exports of coal-based processed solids.
+    notes: at the global level these should add up to the trade losses only. Amounts reported here should not additionally be reported under "Trade|Primary Energy" 
+    unit: EJ/yr
+- Trade|Secondary Energy|Gases|Volume:
+    description: net exports of processed gases.
+    notes: at the global level these should add up to the trade losses only. Amounts reported here should not additionally be reported under "Trade|Primary Energy" 
+    unit: EJ/yr
+- Trade|Secondary Energy|Gases|Fossil|Volume:
+    description: net exports of fossil-based processed gases.
+    notes: at the global level these should add up to the trade losses only. Amounts reported here should not additionally be reported under "Trade|Primary Energy" 
+    unit: EJ/yr
+- Trade|Secondary Energy|Gases|Biomass|Volume:
+    description: net exports of biomass-based processed gases.
+    notes: at the global level these should add up to the trade losses only. Amounts reported here should not additionally be reported under "Trade|Primary Energy" 
+    unit: EJ/yr
+- Trade|Secondary Energy|Gases|Coal|Volume:
+    description: net exports of coal-based processed gases.
+    notes: at the global level these should add up to the trade losses only. Amounts reported here should not additionally be reported under "Trade|Primary Energy" 
+    unit: EJ/yr
+- Trade|Secondary Energy|Gases|Electricity|Volume:
+    description: net exports of electricity-based processed gases, i.e., gaseous e-fuels (if hydrogen is not explicitly modeled as an intermediate product).
+    notes: at the global level these should add up to the trade losses only. Amounts reported here should not additionally be reported under "Trade|Primary Energy" 
+    unit: EJ/yr
+- Trade|Secondary Energy|Gases|Hydrogen|Volume:
+    description: net exports of processed gases from hydrogen (if hydrogen is explicitly modeled as a commodity and not an implicit intermediate product of the transformation technologies).
+    notes: at the global level these should add up to the trade losses only. Amounts reported here should not additionally be reported under "Trade|Primary Energy" 
     unit: EJ/yr
 
 - Trade|Secondary Energy|Electricity|Value:
