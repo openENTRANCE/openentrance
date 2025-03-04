@@ -144,7 +144,7 @@
     skip-region-aggregation: true
 
 - Energy System Cost:
-    description: Total energy system cost
+    description: Total energy system cost - including investments, O&M, and fuel costs
     unit: [billion USD_2010/yr, billion EUR_2020/yr]
 
 - GDP|MER:
