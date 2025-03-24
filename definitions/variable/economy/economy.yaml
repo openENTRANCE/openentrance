@@ -146,8 +146,8 @@
 - Energy System Cost:
     description: Total energy system cost - including investments, O&M, and fuel costs
     unit: [billion USD_2010/yr, billion EUR_2020/yr]
-- Energy System Cost|Power Sector:
-    description: Total energy system cost of the power sector, including investment, O&M and fuel costs for power plants, grids, batteries
+- Energy System Cost|Electricity:
+    description: Total energy system cost for electricity generation, including investment, O&M and fuel costs for power plants, grids, batteries
     unit: [billion USD_2010/yr, billion EUR_2020/yr]
 
 - GDP|MER:
