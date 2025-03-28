@@ -262,7 +262,7 @@
 - Trade|Gross Export|Secondary Energy|Electricity|Volume:
     description: Gross exports of electricity
     unit: EJ/yr
-- Trade|Gross Imports|Secondary Energy|Electricity|Volume:
+- Trade|Gross Import|Secondary Energy|Electricity|Volume:
     description: Gross imports of electricity
     unit: EJ/yr
 - Trade|Secondary Energy|Hydrogen|Volume:
