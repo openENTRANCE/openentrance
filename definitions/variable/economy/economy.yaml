@@ -15,6 +15,48 @@
 - Production|Steel|Secondary [Volume]:
     description: Production of secondary steel in physical units
     unit: Mt/yr
+- Production|Chemicals|Ammonia [Volume]:
+    description: Production of ammonia in physical units
+    unit: Mt/yr
+- Production|Chemicals|High-Value Chemicals|Ethylene [Volume]:
+    description: Production of ethylene in physical units
+    unit: Mt/yr
+- Production|Chemicals|Methanol [Volume]:
+    description: Production of methanol in physical units
+    unit: Mt/yr
+- Production|Iron and Steel|Steel|Primary [Volume]:
+    description: Production of primary steel in physical units
+    unit: Mt/yr
+- Production|Iron and Steel|Steel|Secondary [Volume]:
+    description: Production of secondary steel in physical units
+    unit: Mt/yr
+- Production|Non-Ferrous Metals|Aluminum|Primary [Volume]:
+    description: Production of primary aluminum in physical units
+    unit: Mt/yr
+- Production|Non-Ferrous Metals|Aluminum|Secondary [Volume]:
+    description: Production of secondary aluminum in physical units
+    unit: Mt/yr
+- Production|Non-Ferrous Metals|Copper|Primary [Volume]:
+    description: Production of primary copper in physical units
+    unit: Mt/yr
+- Production|Non-Ferrous Metals|Copper|Secondary [Volume]:
+    description: Production of secondary copper in physical units
+    unit: Mt/yr
+- Production|Non-Metallic Minerals|Cement Clinker [Volume]:
+    description: Production of cement clinker in physical units
+    unit: Mt/yr
+- Production|Non-Metallic Minerals|Glass [Volume]:
+    description: Production of glass in physical units
+    unit: Mt/yr
+- Production|Non-Metallic Minerals|Limestone [Volume]:
+    description: Production of limestone in physical units
+    unit: Mt/yr
+- Production|Pulp and Paper|Paper [Volume]:
+    description: Production of paper in physical units
+    unit: Mt/yr
+- Production|Pulp and Paper|Pulp [Volume]:
+    description: Production of pulp in physical units
+    unit: Mt/yr
 
 - Consumption:
     description: Total consumption of all goods, by all consumers in a region
