@@ -15,6 +15,15 @@
 - Production|Chemicals|Methanol [Volume]:
     description: Production of methanol in physical units
     unit: Mt/yr
+- Production|Steel [Volume]:
+    description: Production of steel in physical units
+    unit: Mt/yr
+- Production|Steel|Primary [Volume]:
+    description: Production of primary steel in physical units
+    unit: Mt/yr
+- Production|Steel|Secondary [Volume]:
+    description: Production of secondary steel in physical units
+    unit: Mt/yr
 - Production|Iron and Steel|Steel [Volume]:
     description: Production of steel in physical units
     unit: Mt/yr
