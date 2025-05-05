@@ -311,3 +311,9 @@
     note: The index equals 1 in 2011, the reference year
     unit: index      
  
+- Value Added|Industry|Manufacturing|Chemicals:
+    description: Value added in the manufacturing sector of the chemicals industry
+    unit: [billion USD_2010/yr, billion EUR_2020/yr]
+- Value Added|Industry|Manufacturing|Other Sector:
+    description: Value added in the manufacturing sector of other industries
+    unit: [billion USD_2010/yr, billion EUR_2020/yr]
