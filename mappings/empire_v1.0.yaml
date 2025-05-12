@@ -251,7 +251,7 @@ common_regions:
       - Bulgaria
       - Croatia
 #      - Cyprus - missing in the model
-      - CzechR
+      - Czech Republic
       - Denmark
       - Estonia
       - Finland
@@ -263,9 +263,9 @@ common_regions:
       - Italy
       - Latvia
       - Lithuania
-      - Luxemb.
+      - Luxembourg
 #       - Malta - missing in the model
-      - Netherlands
+      - The Netherlands
       - Poland
       - Portugal
       - Romania
@@ -273,14 +273,14 @@ common_regions:
       - Slovenia
       - Spain
       - Sweden
-      - GreatBrit.
+      - United Kingdom
   - EU27:
       - Austria
       - Belgium
       - Bulgaria
       - Croatia
 #      - Cyprus - missing in the model
-      - CzechR
+      - Czech Republic
       - Denmark
       - Estonia
       - Finland
@@ -292,9 +292,9 @@ common_regions:
       - Italy
       - Latvia
       - Lithuania
-      - Luxemb.
+      - Luxembourg
 #       - Malta - missing in the model
-      - Netherlands
+      - The Netherlands
       - Poland
       - Portugal
       - Romania

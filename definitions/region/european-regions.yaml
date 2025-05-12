@@ -90,35 +90,35 @@
 - INNOPATHS regions:
   - Germany (IP):
       innopaths: DEU
-      countries: Germany
+      countries: [Germany]
   - Eastern Europe (IP):
       innopaths: ECE
-      countries: Czech Republic, Estonia, Latvia, Lithuania, Poland, Slovakia
+      countries: [Czechia, Estonia, Latvia, Lithuania, Poland, Slovakia]
   - Scandinavia (IP):
       innopaths: ENC
-      countries: Denmark, Finland, Sweden
+      countries: [Denmark, Finland, Sweden]
   - South-East Europe (IP):
       innopaths: ECS
-      countries: Bulgaria, Croatia, Hungary, Romania, Slovenia
+      countries: [Bulgaria, Croatia, Hungary, Romania, Slovenia]
   - Southern Europe (IP):
       innopaths: ESC
-      countries: Cyprus, Greece, Italy, Malta
+      countries: [Cyprus, Greece, Italy, Malta]
   - Iberian Peninsula (IP):
       innopaths: ESW
-      countries: Portugal, Spain
+      countries: [Portugal, Spain]
   - Central Europe (IP):
       innopaths: EWN
-      countries: Austria, Belgium, Luxembourg, Netherlands
+      countries: [Austria, Belgium, Luxembourg, Netherlands]
   - France (IP):
       innopaths: FRA
-      countries: France
+      countries: [France]
   - United Kingdom & Ireland (IP):
       innopaths: UKI
-      countries: UK, Ireland
+      countries: [United Kingdom, Ireland]
   - Northern non-EU Europe (IP):
       innopaths: NEN
-      countries: Iceland, Liechtenstein, Norway, Switzerland
+      countries: [Iceland, Liechtenstein, Norway, Switzerland]
   - Southern non-EU Europe (IP):
       innopaths: NES
-      countries: Albania, Andorra, Bosnia and Herzegovina, North Macedonia, Monaco,
-        Montenegro, Serbia, Turkey
+      countries: [Albania, Andorra, Bosnia and Herzegovina, North Macedonia, Monaco,
+        Montenegro, Serbia, Turkey]

@@ -1,5 +1,21 @@
 # List of variables related to economic activity and societal drivers
 
+- Production|Cement [Volume]:
+    description: Production of cement in physical units
+    unit: Mt/yr
+- Production|Pulp and Paper [Volume]:
+    description: Production of pulp and paper measured in physical units
+    unit: Mt/yr
+- Production|Steel [Volume]:
+    description: Production of steel in physical units
+    unit: Mt/yr
+- Production|Steel|Primary [Volume]:
+    description: Production of primary steel in physical units
+    unit: Mt/yr
+- Production|Steel|Secondary [Volume]:
+    description: Production of secondary steel in physical units
+    unit: Mt/yr
+
 - Consumption:
     description: Total consumption of all goods, by all consumers in a region
     unit: [billion USD_2010/yr, billion EUR_2020/yr]
@@ -127,6 +143,13 @@
     unit: '%'
     skip-region-aggregation: true
 
+- Energy System Cost:
+    description: Total energy system cost - including investments, O&M, and fuel costs
+    unit: [billion USD_2010/yr, billion EUR_2020/yr]
+- Energy System Cost|Electricity:
+    description: Total energy system cost for electricity generation, including investment, O&M and fuel costs for power plants, grids, batteries
+    unit: [billion USD_2010/yr, billion EUR_2020/yr]
+
 - GDP|MER:
     description: GDP at market exchange rate
     unit: [billion USD_2010/yr, billion EUR_2020/yr]
@@ -226,7 +249,7 @@
     description: Weight for industrial products consumption in the utility function of households relative to year 2011
     note: The index equals 1 in 2011, the reference year
     unit: index
-   
+
 - Energy Intensity:
     description: Multiplier of energy input in the energy nest of the production function relative to year 2011
     note: The index equals 1 in 2011, the reference year

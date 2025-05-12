@@ -282,16 +282,17 @@
   - Hydro:
       description: hydropower
   - Hydro|Pumped Storage:
-      description: hydropower systems with short-term storage capacity
-        (including pumping turbines)
+      description: hydropower systems with pumping turbines
       notes: This hydropower system has two water reservoirs at different elevations.
-        The definition follows the convention established
-        by the ENTSO-E transparency platform (https://transparency.entsoe.eu).
+        The definition follows the convention established by the ENTSO-E transparency platform
+         (https://eepublicdownloads.entsoe.eu/clean-documents/sdc-documents/MAF/2020/Hydropower_Modelling_New_database_and_methodology_V1_0.pdf).
+  - Hydro|Pumped Storage|Closed-Loop:
+      description: hydropower systems with pumping but NO natural inflows
+  - Hydro|Pumped Storage|Open-Loop:
+      description: hydropower systems with pumping and natural inflows
   - Hydro|Reservoir:
-      description: hydropower systems with seasonal storage capacity
-        (possibly including pumping turbines)
+      description: hydropower systems with >24h storage capacity
       notes: This definition follows the convention established
-        by the ENTSO-E transparency platform (https://transparency.entsoe.eu).
   - Hydro|Run of River:
       description: run-of-river hydro power plants (i.e. without storage capacity)
 

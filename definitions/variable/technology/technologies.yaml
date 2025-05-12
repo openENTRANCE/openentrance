@@ -44,6 +44,9 @@
 - Capacity|Gases|Coal|w/o CCS:
     description: Total installed (available) capacity of coal to gas plants without CCS
     unit: GW
+- Capacity|Gases|Hydrogen:
+    description: Total installed (available) capacity of hydrogen-to-methane (syngas) plants
+    unit: GW
 - Capacity|Hydrogen:
     description: Total installed (available) capacity of hydrogen plants (in hydrogen output)
     unit: GW
@@ -80,6 +83,9 @@
 - Capacity|Hydrogen|Gas|w/o CCS:
     description: Total installed (available) capacity of gas to hydrogen plants without CCS (in hydrogen output)
     unit: GW
+- Capacity|Hydrogen|Storage|Reservoir:
+    description: Reservoir size of hydrogen storage (e.g. caverns, containers, ...) in terms of stored hydrogen energy
+    unit: GWh
 - Capacity|Liquids:
     description: Total installed (available) capacity of biomass to liquids plants
     unit: GW
@@ -113,37 +119,238 @@
 - Capacity|Liquids|Oil:
     description: Total installed (available) capacity of oil refining plants
     unit: GW
+- Capacity|Liquids|Hydrogen:
+    description: Total installed (available) capacity of hydrogen-to-liquids (synfuel) plants
+    unit: GW
+
+- Capacity|Heat:
+    description: Total installed centralized heat generation capacity
+    unit: GW
+- Capacity|Heat|{Fuel}:
+    description: Total installed centralized heat generation capacity from {Fuel}
+    unit: GW
+- Capacity|Heat|Heat Pumps:
+    description: Total installed centralized heat generation capacity by heat pumps 
+    unit: GW
 
 - Capacity|Heat|Residential and Commercial:
-    description: Total installed heat generation capacity for the residential and
+    description: Total installed centralized heat generation capacity for the residential and
       commercial sectors
     unit: GW
 - Capacity|Heat|Residential and Commercial|{Fuel}:
-    description: Total installed heat generation capacity for the residential and
+    description: Total installed centralized heat generation capacity for the residential and
       commercial sectors from {Fuel}
     unit: GW
 - Capacity|Heat|{Residential/Commercial}|Heat Pumps:
-    description: Total installed capacity of heat pumps for {Residential/Commercial} buildings
+    description: Total installed centralized heat generation capacity by heat pumps for {Residential/Commercial} buildings
     unit: GW
 - Capacity|Heat|Industrial:
-    description: Total installed heat generation capacity for the industrial sector
+    description: Total installed centralized heat generation capacity for the industrial sector
     unit: GW
 - Capacity|Heat|Industrial|{Fuel}:
-    description: Total installed heat generation capacity for the industrial sector
+    description: Total installed centralized heat generation capacity for the industrial sector
       from {Fuel}
+    unit: GW
+- Capacity|Heat|Industrial||Heat Pumps:
+    description: Total installed centralized heat generation capacity by heat pumps for the industrial sector
     unit: GW
 - Capacity|Transportation|{Transport mode}:
     description: Maximum amount of pkms or tkms that can be transported per year by {Transport mode}
     unit: [billion pkm/yr, billion tkm/yr]
 - Capacity|Transportation|{Bunkers mode}:
-    description: Maximum amount of pkms or tkms that can be transported per year by {Transport mode}
+    description: Maximum amount of pkms or tkms that can be transported per year by {Bunkers mode}
     unit: [billion pkm/yr, billion tkm/yr]
+
+
+- Capacity Additions|Electricity:
+    description: Total added electricity generation capacity
+    unit: GW/yr
+- Capacity Additions|Electricity|{Electricity Input}:
+    description: Total added electricity generation capacity from {Electricity Input}
+    unit: GW/yr
+- Capacity Additions|Electricity|{Storage Type}:
+    description: Total added electricity generation capacity from {Storage Type}
+    unit: GW/yr
+- Capacity Additions|Electricity|Storage|Power:
+    description: Total added capacity of operating electricity storage (e.g. pumped hydro, batteries, compressed air storage)
+          in terms of electricity output capacity
+    unit: GW/yr
+- Capacity Additions|Electricity|Storage|Power|{Storage Type}:
+    description: Total added capacity of operating electricity storage from {Storage Type}
+          in terms of electricity output capacity
+    unit: GW/yr
+- Capacity Additions|Electricity|Storage|Reservoir:
+    description: Added reservoir size of electricity storage technologies (e.g. pumped hydro, batteries, compressed air storage) 
+          in terms of stored electric energy
+    unit: GWh/yr
+- Capacity Additions|Electricity|Storage|Reservoir|{Storage Type}:
+    description: Added reservoir size of electricity storage technologies from {Storage Type}
+          in terms of stored electric energy
+    unit: GWh/yr
+- Capacity Additions|Gases:
+    description: Total capacity additions of gas plants
+    unit: GW/yr
+- Capacity Additions|Gases|Biomass:
+    description: Total capacity additions of biomass to gas plants
+    unit: GW/yr
+- Capacity Additions|Gases|Biomass|w/ CCS:
+    description: Total capacity additions of biomass to gas plants with CCS
+    unit: GW/yr
+- Capacity Additions|Gases|Biomass|w/o CCS:
+    description: Total capacity additions of biomass to gas plants without CCS
+    unit: GW/yr
+- Capacity Additions|Gases|Coal:
+    description: Total capacity additions of coal to gas plants
+    unit: GW/yr
+- Capacity Additions|Gases|Coal|w/ CCS:
+    description: Total capacity additions of coal to gas plants with CCS
+    unit: GW/yr
+- Capacity Additions|Gases|Coal|w/o CCS:
+    description: Total capacity additions of coal to gas plants without CCS
+    unit: GW/yr
+- Capacity Additions|Gases|Hydrogen:
+    description: Total capacity additions of hydrogen-to-methane (syngas) plants
+    unit: GW/yr
+- Capacity Additions|Hydrogen:
+    description: Total capacity additions of hydrogen plants (in hydrogen output)
+    unit: GW/yr
+- Capacity Additions|Hydrogen|Biomass:
+    description: Total capacity additions of biomass to hydrogen plants (in hydrogen output)
+    unit: GW/yr
+- Capacity Additions|Hydrogen|Biomass|w/ CCS:
+    description: Total capacity additions of biomass to hydrogen plants with CCS (in hydrogen output)
+    unit: GW/yr
+- Capacity Additions|Hydrogen|Biomass|w/o CCS:
+    description: Total capacity additions of biomass to hydrogen plants without CCS (in hydrogen output)
+    unit: GW/yr
+- Capacity Additions|Hydrogen|Coal:
+    description: Total capacity additions of coal to hydrogen plants (in hydrogen output)
+    unit: GW/yr
+- Capacity Additions|Hydrogen|Coal|w/ CCS:
+    description: Total capacity additions of coal to hydrogen plants with CCS (in hydrogen output)
+    unit: GW/yr
+- Capacity Additions|Hydrogen|Coal|w/o CCS:
+    description: Total capacity additions of coal to hydrogen plants without CCS (in hydrogen output)
+    unit: GW/yr
+- Capacity Additions|Hydrogen|Electricity:
+    description: Total capacity additions of hydrogen-by-electrolysis plants (in hydrogen output)
+    unit: GW/yr
+- Capacity Additions|Hydrogen|Input|Electricity:
+    description: Total capacity additions of hydrogen-by-electrolysis plants (in electricity input)
+    unit: GW/yr
+- Capacity Additions|Hydrogen|Gas:
+    description: Total capacity additions of gas to hydrogen plants (in hydrogen output)
+    unit: GW/yr
+- Capacity Additions|Hydrogen|Gas|w/ CCS:
+    description: Total capacity additions of gas to hydrogen plants with CCS (in hydrogen output)
+    unit: GW/yr
+- Capacity Additions|Hydrogen|Gas|w/o CCS:
+    description: Total capacity additions of gas to hydrogen plants without CCS (in hydrogen output)
+    unit: GW/yr
+- Capacity Additions|Liquids:
+    description: Total capacity additions of biomass to liquids plants
+    unit: GW/yr
+- Capacity Additions|Liquids|Biomass:
+    description: Total capacity additions of biomass to liquids plants
+    unit: GW/yr
+- Capacity Additions|Liquids|Biomass|w/ CCS:
+    description: Total capacity additions of biomass to liquids plants with CCS
+    unit: GW/yr
+- Capacity Additions|Liquids|Biomass|w/o CCS:
+    description: Total capacity additions of biomass to liquids plants without CCS
+    unit: GW/yr
+- Capacity Additions|Liquids|Coal:
+    description: Total capacity additions of coal to liquids plants
+    unit: GW/yr
+- Capacity Additions|Liquids|Coal|w/ CCS:
+    description: Total capacity additions of coal to liquids plants with CCS
+    unit: GW/yr
+- Capacity Additions|Liquids|Coal|w/o CCS:
+    description: Total capacity additions of coal to liquids plants without CCS
+    unit: GW/yr
+- Capacity Additions|Liquids|Gas:
+    description: Total capacity additions of gas to liquids plants
+    unit: GW/yr
+- Capacity Additions|Liquids|Gas|w/ CCS:
+    description: Total capacity additions of gas to liquids plants with CCS
+    unit: GW/yr
+- Capacity Additions|Liquids|Gas|w/o CCS:
+    description: Total capacity additions of gas to liquids plants without CCS
+    unit: GW/yr
+- Capacity Additions|Liquids|Oil:
+    description: Total capacity additions of oil refining plants
+    unit: GW/yr
+- Capacity Additions|Liquids|Hydrogen:
+    description: Total capacity additions of hydrogen-to-liquids (synfuel) plants
+    unit: GW/yr
+
+- Capacity Additions|Heat:
+    description: Additions to total installed centralized heat generation capacity 
+    unit: GW/yr
+- Capacity Additions|Heat|{Fuel}:
+    description: Additions to total installed centralized heat generation capacity from {Fuel}
+    unit: GW/yr
+- Capacity Additions|Heat|Heat Pumps:
+    description: Additions to total installed centralized heat generation capacity by heat pumps
+    unit: GW/yr
+- Capacity Additions|Heat|Residential and Commercial:
+    description: Additions to total installed centralized heat generation capacity for the residential and
+      commercial sectors
+    unit: GW/yr
+- Capacity Additions|Heat|Residential and Commercial|{Fuel}:
+    description: Additions to total installed centralized heat generation capacity for the residential and
+      commercial sectors from {Fuel}
+    unit: GW/yr
+- Capacity Additions|Heat|{Residential/Commercial}|Heat Pumps:
+    description: Additions to total installed capacity of centralized heat generation capacity  from heat pumps for {Residential/Commercial} buildings
+    unit: GW/yr
+- Capacity Additions|Heat|Industrial:
+    description: Additions to total installed centralized heat generation capacity for the industrial sector
+    unit: GW/yr
+- Capacity Additions|Heat|Industrial|{Fuel}:
+    description: Additions to total installed centralized heat generation capacity for the industrial sector
+      from {Fuel}
+    unit: GW/yr
+- Capacity Additions|Heat|Industrial|Heat Pumps:
+    description: Additions to total installed capacity of centralized heat generation capacity from heat pumps for the industrial sector
+    unit: GW/yr
+- Capacity Additions|Transportation|{Transport mode}:
+    description: Additions to maximum amount of pkms or tkms that can be transported per year by {Transport mode}
+    unit: [billion pkm/yr/yr, billion tkm/yr/yr]
+- Capacity Additions|Transportation|{Bunkers mode}:
+    description: Additions to maximum amount of pkms or tkms that can be transported per year by {Bunkers mode}
+    unit: [billion pkm/yr/yr, billion tkm/yr/yr]
+
 - Efficiency|Hydrogen|Electricity:
     description: Efficiency of producing hydrogen from electricity
     unit: "%"
     skip-region-aggregation: true
-- Lifetime|Electricity|Nuclear:
-    description: Planned technical lifetime of operation for a nuclear power plant
+- Efficiency|Electricity|{Electricity Input}:
+    description: Efficiency of producing electricity from {Electricity Input}
+    unit: "%"
+    skip-region-aggregation: true
+- Efficiency|Electricity|Storage|Generic:
+    description: Round-trip efficiency of charging and discharging the generic storage technology
+    unit: "%"
+    skip-region-aggregation: true
+- Efficiency|Electricity|Storage|{Storage Type}:
+    description: Round-trip efficiency of charging and discharging {Storage Type}
+    unit: "%"
+    skip-region-aggregation: true
+- Lifetime|Electricity|{Electricity Input}:
+    description: Planned technical lifetime of operation for {Electricity Input}
+    unit: years
+    skip-region-aggregation: true
+- Lifetime|Electricity|Storage|Generic:
+    description: Planned technical lifetime of operation for the generic storage technology
+    unit: years
+    skip-region-aggregation: true
+- Lifetime|Electricity|Storage|{Storage Type}:
+    description: Planned technical lifetime of operation for {Storage Type}
+    unit: years
+    skip-region-aggregation: true
+- Lifetime|Hydrogen|Electricity:
+    description: Planned technical lifetime of operation for hydrogen electrolyzers
     unit: years
     skip-region-aggregation: true
 - Capital Cost|Electricity|{Electricity Input}:
@@ -154,6 +361,44 @@
     description: Capital cost for {Storage Type}
     unit: [EUR_2020/kW, USD_2010/kW]
     skip-region-aggregation: true
+- Capital Cost|Electricity|Storage|Aggregate|{Storage Type}:
+    description: Aggregate capital cost for {Storage Type} - including both power and reservoir 
+      costs at the ratio given in Capacity|Electricity|Storage|Ratio Reservoir to Power
+    unit: [EUR_2020/kW, USD_2010/kW]
+    skip-region-aggregation: true
+- Capital Cost|Electricity|Storage|Power|{Storage Type}:
+    description: Capital cost for the conversion capacity of {Storage Type}
+    unit: [EUR_2020/kW, USD_2010/kW]
+    skip-region-aggregation: true
+- Capital Cost|Electricity|Storage|Reservoir|{Storage Type}:
+    description: Capital cost for the reservoir of {Storage Type}
+    unit: [EUR_2020/kWh, USD_2010/kWh]
+    skip-region-aggregation: true    
+- Energy to Power Ratio|Electricity|Storage|{Storage Type}:
+    description: Ratio of reservoir size to power of {Storage Type}
+    unit: [h]
+    skip-region-aggregation: true  
+- Capital Cost|Electricity|Storage|Aggregate|Generic:
+    description: Aggregate capital cost for the generic storage technology (please only report if 
+      the generic storage technology doesn't fit into any of the specific storage types) - including both power and reservoir 
+      costs at the ratio given in Capacity|Electricity|Storage|Ratio Reservoir to Power
+    unit: [EUR_2020/kW, USD_2010/kW]
+    skip-region-aggregation: true
+- Capital Cost|Electricity|Storage|Power|Generic:
+    description: Capital cost for the conversion capacity of the generic storage technology (please only report if 
+      the generic storage technology doesn't fit into any of the specific storage types)
+    unit: [EUR_2020/kW, USD_2010/kW]
+    skip-region-aggregation: true
+- Capital Cost|Electricity|Storage|Reservoir|Generic:
+    description: Capital cost for the reservoir of the generic storage technology (please only report if 
+      the generic storage technology doesn't fit into any of the specific storage types)
+    unit: [EUR_2020/kWh, USD_2010/kWh]
+    skip-region-aggregation: true    
+- Energy to Power Ratio|Electricity|Storage|Generic:
+    description: Ratio of reservoir size to power of the generic storage technology (please only report if 
+      the generic storage technology doesn't fit into any of the specific storage types)
+    unit: [h]
+    skip-region-aggregation: true  
 - Capital Cost|Hydrogen|Electricity:
     description: Capital cost for hydrogen production from electricity
     unit: [EUR_2020/kW, USD_2010/kW]
@@ -184,6 +429,18 @@
     skip-region-aggregation: true
 - Fixed Cost|Electricity|{Electricity Input}:
     description: Fixed O&M cost for {Electricity Input}
+    unit: [EUR_2020/kW/yr, USD_2010/kW/yr]
+    skip-region-aggregation: true
+- Fixed Cost|Electricity|Storage|Generic:
+    description: Fixed O&M cost for generic storage type
+    unit: [EUR_2020/kW/yr, USD_2010/kW/yr]
+    skip-region-aggregation: true
+- Fixed Cost|Electricity|Storage|{Storage Type}:
+    description: Fixed O&M cost for {Storage Type}
+    unit: [EUR_2020/kW/yr, USD_2010/kW/yr]
+    skip-region-aggregation: true
+- Fixed Cost|Hydrogen|Electricity:
+    description: Fixed O&M cost for hydrogen electrolyzers
     unit: [EUR_2020/kW/yr, USD_2010/kW/yr]
     skip-region-aggregation: true
 - Fixed Cost|Heat|Residential and Commercial|{Fuel}:
@@ -229,6 +486,34 @@
 - Investment|{Residential/Commercial}|Heat Pumps:
     description: Investments into heat pumps for use in {Residential/Commercial} buildings
     unit: [million EUR_2020/yr, billion USD_2010/yr]
+
+
+- Investment|Energy Demand|{Residential/Commercial}:
+    description: Total investments in {Residential/Commercial}
+    unit: [billion EUR_2020/yr, billion USD_2010/yr]
+- Investment|Energy Demand|{Residential/Commercial}|Appliances:
+    description: Investments into non-heating/cooling appliances in {Residential/Commercial}
+    unit: [billion EUR_2020/yr, billion USD_2010/yr]
+- Investment|Energy Demand|{Residential/Commercial}|Building Envelope:
+    description: Investments into the building envelope in {Residential/Commercial}
+    unit: [billion EUR_2020/yr, billion USD_2010/yr]
+- Investment|Energy Demand|{Residential/Commercial}|Heating and Cooling:
+    description: Investments into heating & cooling technologies in {Residential/Commercial}
+    unit: [billion EUR_2020/yr, billion USD_2010/yr]
+- Investment|Energy Demand|{Residential/Commercial}|Heating and Cooling|Heat Pumps:
+    description: Investments into heating & cooling technologies in {Residential/Commercial}
+    unit: [billion EUR_2020/yr, billion USD_2010/yr]
+
+- Investment|Energy Demand|Transportation:
+    description: Total investments in Transportation
+    unit: [billion EUR_2020/yr, billion USD_2010/yr]
+- Investment|Energy Demand|Transportation|{Transport mode}:
+    description: Investments into the various transport modes
+    unit: [billion EUR_2020/yr, billion USD_2010/yr]
+    
+- Investment|Energy Demand|Industry:
+    description: Total investments in Industry
+    unit: [billion EUR_2020/yr, billion USD_2010/yr]
 
 - Investment|Energy Supply:
     description: Investments into the energy supply system
@@ -311,11 +596,114 @@
       be included but not the one on transport and storage.
     unit: [million EUR_2020/yr, billion USD_2010/yr]
 
+- Running Costs|Energy Demand|{Residential/Commercial}:
+    description: Operation and Maintenance as well as fuel costs in {Residential/Commercial}.
+    unit: [billion EUR_2020/yr, billion USD_2010/yr]
+- Running Costs|Energy Demand|{Residential/Commercial}|Operation and Maintenance:
+    description: Operation and Maintenance costs in {Residential/Commercial}.
+    unit: [billion EUR_2020/yr, billion USD_2010/yr]
+- Running Costs|Energy Demand|{Residential/Commercial}|Heating and Cooling|Fuel:
+    description: Fuel costs for heating and cooling in {Residential/Commercial}.
+    unit: [billion EUR_2020/yr, billion USD_2010/yr]
+- Running Costs|Energy Demand|{Residential/Commercial}|Heating and Cooling|Fuel|{Fuel}:
+    description: Fuel costs for specific fuel types in heating and cooling in {Residential/Commercial}.
+    unit: [billion EUR_2020/yr, billion USD_2010/yr]
+- Running Costs|Energy Demand|{Residential/Commercial}|Appliances|Fuel:
+    description: Fuel costs for non-heating/cooling appliances in {Residential/Commercial}.
+    unit: [billion EUR_2020/yr, billion USD_2010/yr]
+
+- Running Costs|Energy Demand|Transportation:
+    description: Operation and Maintenance as well as fuel costs in Transportation.
+    unit: [billion EUR_2020/yr, billion USD_2010/yr]
+- Running Costs|Energy Demand|Transportation|Operation and Maintenance:
+    description: Operation and Maintenance costs for Transportation.
+    unit: [billion EUR_2020/yr, billion USD_2010/yr]
+- Running Costs|Energy Demand|Transportation|{Transport mode}|Operation and Maintenance:
+    description: Operation and Maintenance costs for {Transport mode} in Transportation.
+    unit: [billion EUR_2020/yr, billion USD_2010/yr]
+- Running Costs|Energy Demand|Transportation|Fuel:
+    description: Fuel costs for Transportation.
+    unit: [billion EUR_2020/yr, billion USD_2010/yr]
+- Running Costs|Energy Demand|Transportation|Fuel|{Fuel}:
+    description: Fuel costs for the specific fuel type {Fuel} in Transportation.
+    unit: [billion EUR_2020/yr, billion USD_2010/yr]
+- Running Costs|Energy Demand|Transportation|{Transport mode}|Fuel:
+    description: Fuel costs for {Transport mode}.
+    unit: [billion EUR_2020/yr, billion USD_2010/yr]
+- Running Costs|Energy Demand|Transportation|{Transport mode}|Fuel|{Fuel}:
+    description: Fuel costs for the specific fuel type {Fuel} in {Transport mode}.
+    unit: [billion EUR_2020/yr, billion USD_2010/yr]
+
+- Running Costs|Energy Demand|Industry:
+    description: Operation and Maintenance as well as fuel costs in Industry.
+    unit: [billion EUR_2020/yr, billion USD_2010/yr]
+- Running Costs|Energy Demand|Industry|Fuel:
+    description: Fuel costs in Industry.
+    unit: [billion EUR_2020/yr, billion USD_2010/yr]
+- Running Costs|Energy Demand|Industry|Fuel|{Fuel}:
+    description: Fuel costs for the specific fuel type {Fuel} in Industry.
+    unit: [billion EUR_2020/yr, billion USD_2010/yr]
+- Running Costs|Energy Demand|Industry|Operation and Maintenance:
+    description: Operation and Maintenance costs in Industry.
+    unit: [billion EUR_2020/yr, billion USD_2010/yr]
+
+- Annualized Investment|Energy Demand|Transportation:
+    description: Annualized investments for the standing stock in Transportation.
+    unit: [billion EUR_2020/yr, billion USD_2010/yr]
+- Annualized Investment|Energy Demand|Transportation|{Transport mode}:
+    description: Annualized investments for the standing stock of the various transport modes
+    unit: [billion EUR_2020/yr, billion USD_2010/yr]
+
+- Annualized Investment|Energy Demand|{Residential/Commercial}:
+    description: Annualized investments for the standing stock in {Residential/Commercial}
+    unit: [billion EUR_2020/yr, billion USD_2010/yr]
+- Annualized Investment|Energy Demand|{Residential/Commercial}|Appliances:
+    description: Annualized investments for the standing stock of non-heating/cooling appliances in {Residential/Commercial}
+    unit: [billion EUR_2020/yr, billion USD_2010/yr]
+- Annualized Investment|Energy Demand|{Residential/Commercial}|Building Envelope:
+    description: Annualized investments for the standing stock of the building envelope in {Residential/Commercial}
+    unit: [billion EUR_2020/yr, billion USD_2010/yr]
+- Annualized Investment|Energy Demand|{Residential/Commercial}|Heating and Cooling:
+    description: Annualized investments for the standing stock of heating & cooling technologies in {Residential/Commercial}
+    unit: [billion EUR_2020/yr, billion USD_2010/yr]
+- Annualized Investment|Energy Demand|{Residential/Commercial}|Heating and Cooling|Heat Pumps:
+    description: Annualized investments for the standing stock of heat pumps in {Residential/Commercial}
+    unit: [billion EUR_2020/yr, billion USD_2010/yr]
+
+- Annualized Investment|Energy Demand|Industry:
+    description: Annualized investments for the standing stock in Industry
+    unit: [billion EUR_2020/yr, billion USD_2010/yr]
+
+- Stock|Transportation|{Transport mode}:
+    description: Number of registered vehicles in {Transport mode}
+    unit: million
 - Stock|Transportation|{Transport mode, tech and carrier}:
     description: Number of registered vehicles with {Transport mode, tech and carrier}
     unit: million
+- Sales|Transportation|{Transport mode}:
+    description: Number of yearly sold (new) vehicles in {Transport mode}
+    unit: million/yr
 - Sales|Transportation|{Transport mode, tech and carrier}:
-    description: Number of sold (new) vehicles with {Transport mode, tech and carrier}
+    description: Number of yearly sold (new) vehicles with {Transport mode, tech and carrier}
+    unit: million/yr
+- Stock|{Residential/Commercial}|Heat Pumps:
+    description: Number of the standing stock of heat pumps in {Residential/Commercial}
+    unit: million
+- Sales|{Residential/Commercial}|Heat Pumps:
+    description: Number of yearly sold (new) heat pumps in {Residential/Commercial}
+    unit: million/yr
+
+- Infrastructure|Transportation|Charging Station:
+    description: Number of charging stations for electric vehicles
+    unit: million
+- Infrastructure|Transportation|Charging Station|Public:
+    description: Number of public charging stations for electric vehicles, i.e. accessible to everybody without restriction (e.g. public parking spot)
+    unit: million
+- Infrastructure|Transportation|Charging Station|Semi-Public:
+    description: Number of semi-public charging stations for electric vehicles, i.e. located in shared spaces accessible to a restricted group of people (e.g. charging stations at workplaces, shopping centers, hotels) 
+    unit: million
+- Infrastructure|Transportation|Charging Station|Private:
+    description: Number of private charging stations for electric vehicles, i.e. accessible to a single person or household (e.g. charging stations in private garages)
     unit: million
 
 - Renovation Rate|{Residential/Commercial}|Envelope:
@@ -357,7 +745,7 @@
     description: Levelized cost for investment in {Electricity Input}
     unit: [MEUR_2020/MWh, MUSD_2010/MWh, MEUR_2020/PJ, MUSD_2010/PJ]
     skip-region-aggregation: true
-- Levelized Cost|Electricity|Energy Storage System|{Storage Type}:
+- Levelized Cost|Electricity|{Storage Type}:
     description: Levelized cost of storage for {Storage Type}
     unit: [MEUR_2020/MWh, MUSD_2010/MWh, MEUR_2020/PJ, MUSD_2010/PJ]
     skip-region-aggregation: true

@@ -29,7 +29,7 @@ df = pd.read_excel("NUTS2016-NUTS2021.xlsx", sheet_name="NUTS & SR 2021")
 
 # open the three files and write headers
 files = []
-for (n, text) in descriptions:
+for n, text in descriptions:
     file = open(f"../nuts{n}.yaml", "w")
     file.write(f"# This file was created using the script `data/{this}`\n")
     file.write("# DO NOT ALTER THIS FILE MANUALLY!\n\n")
@@ -40,7 +40,6 @@ for (n, text) in descriptions:
 # iterate over dataframe and parse codes and names
 country, _n1, _n2 = None, None, None
 for i, row in df.iterrows():
-
     if str(row["Code 2021"]) == "nan":
         continue
 

@@ -20,59 +20,73 @@
 # to the AR6 WG3 scenario ensemble
 # https://data.ene.iiasa.ac.at/ar6-scenario-submission/#/about
 - R5:
-  - OECD & EU (R5):
-      definition: OECD 90 and EU member states and candidates
-      ar6: R5OECD90+EU
-      ssp: R5.2OECD
-      countries: Albania, Australia, Austria, Belgium, Bosnia and Herzegovina, Bulgaria,
-        Canada, Croatia, Cyprus, Czech Republic, Denmark, Estonia, Finland, France,
-        Germany, Greece, Guam, Hungary, Iceland, Ireland, Italy, Japan, Latvia, Lithuania,
-        Luxembourg, Malta, Montenegro, Netherlands, New Zealand, North Macedonia,
-        Norway, Poland, Portugal, Puerto Rico, Romania, Serbia, Slovakia, Slovenia,
-        Spain, Sweden, Switzerland, Turkey, United Kingdom, United States of America
-  - Reforming Economies (R5):
-      definition: Countries from the Reforming Ecomonies of the Former Soviet Union
-      ar6: R5REF
-      ssp: R5.2REF
-      countries: Armenia, Azerbaijan, Belarus, Georgia, Kazakhstan, Kyrgyzstan, Moldova,
-        Russia, Tajikistan, Turkmenistan, Ukraine, Uzbekistan
-  - Asia (R5):
-      definition: The region includes Asian countries with the exception of the Middle
-        East, Japan and Former Soviet Union states.
-      ar6: R5ASIA
-      ssp: R5.2ASIA
-      countries: Afghanistan, Bangladesh, Bhutan, Brunei Darussalam, Cambodia, China
-        (incl. Hong Kong and Macao, excl. Taiwan), Republic of Korea, Fiji, French
-        Polynesia, India, Indonesia, Lao People's Democratic Republic, Malaysia, Maldives,
-        Micronesia (Fed. States of), Mongolia, Myanmar, Nepal, New Caledonia, Pakistan,
-        Papua New Guinea, Philippines, Republic of Korea, Samoa, Singapore, Solomon
-        Islands, Sri Lanka, Taiwan, Thailand, Timor-Leste, Vanuatu, Vietnam
-  - Middle East & Africa (R5):
-      definition: Countries of the Middle East and Africa.
-      ar6: R5MAF
-      ssp: R5.2MAF
-      countries: Algeria, Angola, Bahrain, Benin, Botswana, Burkina Faso, Burundi,
-        Cameroon, Cape Verde, Central African Republic, Chad, Comoros, Congo, Côte
-        d`Ivoire, Democratic Republic of the Congo, Djibouti, Egypt, Equatorial Guinea,
-        Eritrea, Ethiopia, Gabon, Gambia, Ghana, Guinea, Guinea-Bissau, Iran, Iraq,
-        Israel, Jordan, Kenya, Kuwait, Lebanon, Lesotho, Liberia, Libyan Arab Jamahiriya,
-        Madagascar, Malawi, Mali, Mauritania, Mauritius, Mayotte, Morocco, Mozambique,
-        Namibia, Niger, Nigeria, Occupied Palestinian Territory, Oman, Qatar, Rwanda,
-        Réunion, Saudi Arabia, Senegal, Sierra Leone, Somalia, South Africa, South
-        Sudan, Sudan, Swaziland, Syrian Arab Republic, Togo, Tunisia, Uganda, United
-        Arab Emirates, United Republic of Tanzania, Western Sahara, Yemen, Zambia,
-        Zimbabwe
-  - Latin America (R5):
-      definition: Latin and South American countries.
-      ar6: R5LAM
-      ssp: R5.2LAM
-      countries: Argentina, Aruba, Bahamas, Barbados, Belize, Bolivia, Brazil, Chile,
-        Colombia, Costa Rica, Cuba, Dominican Republic, Ecuador, El Salvador, French
-        Guiana, Grenada, Guadeloupe, Guatemala, Guyana, Haiti, Honduras, Jamaica,
-        Martinique, Mexico, Nicaragua, Panama, Paraguay, Peru, Suriname, Trinidad
-        and Tobago, United States Virgin Islands, Uruguay, Venezuela
-  - Other (R5):
-      definition: Rest of the World, to be used only if a match with the 5 AR6 regions
-        can otherwise not be achieved.
-      ar6: R5ROWO
-      ssp:
+    - OECD & EU (R5):
+        description: OECD (membership status 1990) and EU member states and candidates
+        ar6: R5OECD90+EU
+        ssp: R5.2OECD
+        countries: [
+          Albania, Australia, Austria, Belgium, Bosnia and Herzegovina, Bulgaria,
+          Canada, Croatia, Cyprus, Czechia, Denmark, Estonia, Finland, France, Germany,
+          Greece, Guam, Hungary, Iceland, Ireland, Italy, Japan, Kosovo, Latvia,
+          Lithuania, Luxembourg, Malta, Montenegro, Netherlands, New Zealand,
+          North Macedonia, Norway, Poland, Portugal, Puerto Rico, Romania, Serbia,
+          Slovakia, Slovenia, Spain, Sweden, Switzerland, Turkey, United Kingdom,
+          United States
+        ]
+    - Reforming Economies (R5):
+        description: Countries from the Reforming Economies of the Former Soviet Union
+        ar6: R5REF
+        ssp: R5.2REF
+        countries: [
+          Armenia, Azerbaijan, Belarus, Georgia, Kazakhstan, Kyrgyzstan, Moldova,
+          Russian Federation, Tajikistan, Turkmenistan, Ukraine, Uzbekistan
+        ]
+    - Asia (R5):
+        description: The region includes Asian countries with the exception of
+          the Middle East, Japan and Former Soviet Union states
+        ar6: R5ASIA
+        ssp: R5.2ASIA
+        countries: [
+          Afghanistan, Bangladesh, Bhutan, Brunei Darussalam, Cambodia, China,
+          Cook Islands, Fiji, French Polynesia, Hong Kong, India, Indonesia, Kiribati,
+          Laos, Macao, Malaysia, Maldives, Marshall Islands, Micronesia, Mongolia,
+          Myanmar, Nauru, Nepal, Niue, New Caledonia, North Korea, Pakistan,
+          Papua New Guinea, Palau, Philippines, South Korea, Samoa, Singapore,
+          Solomon Islands, Sri Lanka, Taiwan, Thailand, Timor-Leste, Tonga, Tuvalu,
+          Vanuatu, Viet Nam
+        ]
+    - Middle East & Africa (R5):
+        description: Countries of the Middle East and Africa
+        ar6: R5MAF
+        ssp: R5.2MAF
+        countries: [
+          Algeria, Angola, Bahrain, Benin, Botswana, Burkina Faso, Burundi,
+          Cameroon, Cabo Verde, Central African Republic, Chad, Comoros, Congo,
+          Côte d'Ivoire, Democratic Republic of the Congo, Djibouti, Egypt,
+          Equatorial Guinea, Eritrea, Ethiopia, Gabon, Gambia, Ghana, Guinea,
+          Guinea-Bissau, Iran, Iraq, Israel, Jordan, Kenya, Kuwait, Lebanon, Lesotho,
+          Liberia, Libya, Madagascar, Malawi, Mali, Mauritania, Mauritius, Mayotte,
+          Morocco, Mozambique, Namibia, Niger, Nigeria, Palestine, Oman, Qatar, Rwanda,
+          Réunion, Sao Tome and Principe, Saudi Arabia, Senegal, Seychelles,
+          Sierra Leone, Somalia, South Africa, South Sudan, Sudan, Eswatini,
+          Syria, Togo, Tunisia, Uganda, United Arab Emirates, Tanzania,
+          Western Sahara, Yemen, Zambia, Zimbabwe
+        ]
+    - Latin America (R5):
+        description: Latin and South American countries
+        ar6: R5LAM
+        ssp: R5.2LAM
+        countries: [
+          Antigua and Barbuda, Argentina, Aruba, Bahamas, Barbados, Belize,
+          Bolivia, Brazil, Chile, Colombia, Costa Rica, Cuba, Dominican Republic,
+          Ecuador, El Salvador, French Guiana, Grenada, Guadeloupe, Guatemala,
+          Guyana, Haiti, Honduras, Jamaica, Martinique, Mexico, Nicaragua, Panama,
+          Paraguay, Peru, Saint Kitts and Nevis, Saint Lucia,
+          Saint Vincent and the Grenadines, Suriname, Trinidad and Tobago,
+          United States Virgin Islands, Uruguay, Venezuela
+        ]
+    - Other (R5):
+        description: Rest of the World, to be used only if a match with the R5 regions
+          can otherwise not be achieved.
+        ar6: R5ROWO
+        ssp:

@@ -5,10 +5,10 @@
     unit: km
 - Network|Electricity|Expansion Cost:
     description: Cost for increasing the line capacity
-    unit: million EUR/GW/km
+    unit: [million EUR/GW/km, EUR_2020/MW]
 - Network|Electricity|Capacity:
     description: Capacity of the line
-    unit: MW
+    unit: GW
 - Network|Electricity|Value of Lost Load:
     description: Cost of demand-not-served. Cost of load curtailment. Value of Lost
       Load (VoLL)
