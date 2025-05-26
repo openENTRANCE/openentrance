@@ -85,7 +85,7 @@
 - Network|Electricity|Line Ownership:
     description: The percentage of ownership of a transmission line corresponding to the 
       first (sending) (sub)region. 
-    unit: '-'
+    unit: '%'
 - Network|Electricity|Loss Factor:
     description: Transmission losses equal to the line flow times this factor
     unit: '-'
