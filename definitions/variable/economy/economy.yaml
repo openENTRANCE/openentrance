@@ -193,7 +193,7 @@
     unit: [billion USD_2010/yr, billion EUR_2020/yr]
 
 - Energy System Cost|Supply:
-    description: Supply-side energy system costs: investments and O&M costs for all energy supply sectors
+    description: Supply-side energy system costs. Include investments and O&M costs for all energy supply sectors
       (electricity, centralized heat, refineries, grids), import & extraction costs for all primary 
       energy, import costs for secondary energy. Should not include taxes & carbon prices.  
     unit: [billion USD_2010/yr, billion EUR_2020/yr]
@@ -204,7 +204,7 @@
     unit: [billion USD_2010/yr, billion EUR_2020/yr]
 
 - Energy System Cost|Supply|Fuel Cost:
-    description: Total supply-side fuel costs: Sum of import & extraction costs for all primary 
+    description: Total supply-side fuel costs. The sum of import & extraction costs for all primary 
       energy carriers and import costs for secondary energy. Should not include taxes & carbon prices.  
     unit: [billion USD_2010/yr, billion EUR_2020/yr]
 
@@ -214,7 +214,7 @@
     unit: [billion USD_2010/yr, billion EUR_2020/yr]
 
 - Energy System Cost|Supply|Operation and Maintenance Cost:
-    description: Total supply-side fuel costs: Sum of import & extraction costs for all primary 
+    description: Total supply-side fuel costs. Sum of import & extraction costs for all primary 
       energy carriers and import costs for secondary energy. Should not include taxes & carbon prices. 
 
 - GDP|MER:
