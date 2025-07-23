@@ -199,7 +199,7 @@
     unit: [billion USD_2010/yr, billion EUR_2020/yr]
 
 - Energy System Cost|Supply|Electricity:
-    description: Energy system costs for electricity generation and distribution: investments,
+    description: Energy system costs for electricity generation and distribution. Include investments,
       O&M costs and fuel costs for power plants, grids, batteries. Should not include taxes & carbon prices.  
     unit: [billion USD_2010/yr, billion EUR_2020/yr]
 
