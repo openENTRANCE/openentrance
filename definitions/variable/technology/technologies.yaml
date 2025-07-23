@@ -341,6 +341,14 @@
     description: Planned technical lifetime of operation for {Electricity Input}
     unit: years
     skip-region-aggregation: true
+- Lifetime|Electricity|Storage|Generic:
+    description: Planned technical lifetime of operation for the generic storage technology
+    unit: years
+    skip-region-aggregation: true
+- Lifetime|Electricity|Storage|{Storage Type}:
+    description: Planned technical lifetime of operation for {Storage Type}
+    unit: years
+    skip-region-aggregation: true
 - Lifetime|Hydrogen|Electricity:
     description: Planned technical lifetime of operation for hydrogen electrolyzers
     unit: years

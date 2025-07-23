@@ -58,6 +58,21 @@
     description: Overnight investment (capital) cost in a transmission line of the
       power network allocated to demand based on its electrical usage
     unit: [thousand EUR_2020/yr, thousand USD_2010/yr]
+- Network|Electricity|Investment|Network Usage Payment:
+    description: Annualized overnight investment (capital) cost paid by a (sub)region to 
+      another (sub)region due to the usage that agents (generators and demand) in the first 
+      (sub)region are making of the network of the second (sub)region.
+    unit: [thousand USD_2010/yr]
+- Network|Electricity|Investment|Network Usage Payment|Generation:
+    description: Annualized overnight investment (capital) cost paid by a (sub)region to 
+      another (sub)region due to the usage that generators in the first (sub)region are 
+      making of the network of the second (sub)region.
+    unit: [thousand USD_2010/yr]
+- Network|Electricity|Investment|Network Usage Payment|Demand:
+    description: Annualized overnight investment (capital) cost paid by a (sub)region to 
+      another (sub)region due to the usage that demand in the first (sub)region are 
+      making of the network of the second (sub)region.
+    unit: [thousand USD_2010/yr]
 - Network|Electricity|Fixed Charge Rate:
     description: Fixed charge rate to annualize the overnight investment cost. The
       Fixed Charge Rate (FCR) is the percentage of the total investment cost that
@@ -67,6 +82,10 @@
 - Network|Electricity|Line Losses:
     description: Total ohmic losses of a transmission line.
     unit: MW
+- Network|Electricity|Line Ownership:
+    description: The percentage of ownership of a transmission line corresponding to the 
+      first (sending) (sub)region. 
+    unit: '%'
 - Network|Electricity|Loss Factor:
     description: Transmission losses equal to the line flow times this factor
     unit: '-'

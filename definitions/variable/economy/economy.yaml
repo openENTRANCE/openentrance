@@ -6,6 +6,15 @@
 - Production|Pulp and Paper [Volume]:
     description: Production of pulp and paper measured in physical units
     unit: Mt/yr
+- Production|Chemicals|Ammonia [Volume]:
+    description: Production of ammonia in physical units
+    unit: Mt/yr
+- Production|Chemicals|High-Value Chemicals|Ethylene [Volume]:
+    description: Production of ethylene in physical units
+    unit: Mt/yr
+- Production|Chemicals|Methanol [Volume]:
+    description: Production of methanol in physical units
+    unit: Mt/yr
 - Production|Steel [Volume]:
     description: Production of steel in physical units
     unit: Mt/yr
@@ -14,6 +23,42 @@
     unit: Mt/yr
 - Production|Steel|Secondary [Volume]:
     description: Production of secondary steel in physical units
+    unit: Mt/yr
+- Production|Iron and Steel|Steel [Volume]:
+    description: Production of steel in physical units
+    unit: Mt/yr
+- Production|Iron and Steel|Steel|Primary [Volume]:
+    description: Production of primary steel in physical units
+    unit: Mt/yr
+- Production|Iron and Steel|Steel|Secondary [Volume]:
+    description: Production of secondary steel in physical units
+    unit: Mt/yr
+- Production|Non-Ferrous Metals|Aluminum|Primary [Volume]:
+    description: Production of primary aluminum in physical units
+    unit: Mt/yr
+- Production|Non-Ferrous Metals|Aluminum|Secondary [Volume]:
+    description: Production of secondary aluminum in physical units
+    unit: Mt/yr
+- Production|Non-Ferrous Metals|Copper|Primary [Volume]:
+    description: Production of primary copper in physical units
+    unit: Mt/yr
+- Production|Non-Ferrous Metals|Copper|Secondary [Volume]:
+    description: Production of secondary copper in physical units
+    unit: Mt/yr
+- Production|Non-Metallic Minerals|Cement Clinker [Volume]:
+    description: Production of cement clinker in physical units
+    unit: Mt/yr
+- Production|Non-Metallic Minerals|Glass [Volume]:
+    description: Production of glass in physical units
+    unit: Mt/yr
+- Production|Non-Metallic Minerals|Limestone [Volume]:
+    description: Production of limestone in physical units
+    unit: Mt/yr
+- Production|Pulp and Paper|Paper [Volume]:
+    description: Production of paper in physical units
+    unit: Mt/yr
+- Production|Pulp and Paper|Pulp [Volume]:
+    description: Production of pulp in physical units
     unit: Mt/yr
 
 - Consumption:
@@ -146,6 +191,9 @@
 - Energy System Cost:
     description: Total energy system cost - including investments, O&M, and fuel costs
     unit: [billion USD_2010/yr, billion EUR_2020/yr]
+- Energy System Cost|Electricity:
+    description: Total energy system cost for electricity generation, including investment, O&M and fuel costs for power plants, grids, batteries
+    unit: [billion USD_2010/yr, billion EUR_2020/yr]
 
 - GDP|MER:
     description: GDP at market exchange rate
@@ -272,3 +320,9 @@
     note: The index equals 1 in 2011, the reference year
     unit: index      
  
+- Value Added|Industry|Manufacturing|Chemicals:
+    description: Value added in the manufacturing sector of the chemicals industry
+    unit: [billion USD_2010/yr, billion EUR_2020/yr]
+- Value Added|Industry|Manufacturing|Other Sector:
+    description: Value added in the manufacturing sector of other industries
+    unit: [billion USD_2010/yr, billion EUR_2020/yr]

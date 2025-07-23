@@ -513,6 +513,7 @@
     sector: all
     unit: [EJ/yr, GWh]
 
+# the variables Final Energy|Electricity|* define the different shares of the electricity consumption
 - Final Energy|Electricity|Cooling:
     description: Final electricity consumption for cooling,
     energy_source: electricity
@@ -525,8 +526,14 @@
     energy_use: industry and heating
     sector: all
     unit: [EJ/yr, GWh]
+- Final Energy|Electricity|Industry:
+    description: Final electricity consumption for industrial processes,
+    energy_source: electricity
+    energy_use: industry and heating
+    sector: all
+    unit: [EJ/yr, GWh]
 - Final Energy|Electricity|Heating:
-    description: Final electricity consumption forelectric heating),
+    description: Final electricity consumption for electric heating),
     energy_source: electricity
     energy_use: heating
     sector: all
@@ -559,6 +566,34 @@
     unit: [EJ/yr, GWh]
 - Final Energy|Electricity|Other (excl. Heat, Cooling, Transport, Cooking):
     description: Final electricity consumption for non heating, non cooling, non e-transport, non e-cooking
+      uses,
+    energy_source: electricity
+    energy_use: all excl.heating, cooling, transportation
+    sector: all
+    unit: [EJ/yr, GWh]
+- Final Energy|Electricity|Other (excl. Heating, Industry, Cooling, Transport):
+    description: Final electricity consumption for non heating, non cooling, non e-transport, non industrial heat
+      uses,
+    energy_source: electricity
+    energy_use: all excl.heating, cooling, transportation
+    sector: all
+    unit: [EJ/yr, GWh]
+- Final Energy|Electricity|Other (excl. Heating, Industry, Cooling, Transport, Cooking):
+    description: Final electricity consumption for non heating, non cooling, non e-transport, non e-cooking, non industrial heat
+      uses,
+    energy_source: electricity
+    energy_use: all excl.heating, cooling, transportation
+    sector: all
+    unit: [EJ/yr, GWh]
+- Final Energy|Electricity|Other (excl. Heating, Industry, Transport):
+    description: Final electricity consumption for non heating, non e-transport, non industrial heat
+      uses,
+    energy_source: electricity
+    energy_use: all excl.heating, cooling, transportation
+    sector: all
+    unit: [EJ/yr, GWh]
+- Final Energy|Electricity|Other (excl. Heating, Industry, Transport, Cooking):
+    description: Final electricity consumption for non heating, non e-transport, non e-cooking, non industrial heat
       uses,
     energy_source: electricity
     energy_use: all excl.heating, cooling, transportation
@@ -601,6 +636,14 @@
     sector: all
     unit: '-'
 - Final Energy|Electricity|Heat|Profile:
+    description: Time series of Final electricity consumption profiles for heating.
+    energy_source: electricity
+    energy_use: heating
+    note: Those coefficients, if hourly, when multiplied by a yearly energy give hourly
+      energy.
+    sector: all
+    unit: '-'
+- Final Energy|Electricity|Heating|Profile:
     description: Time series of Final electricity consumption profiles for heating.
     energy_source: electricity
     energy_use: heating
