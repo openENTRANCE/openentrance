@@ -2,4 +2,4 @@ dimensions:
   - region
   - variable
   - subannual
-illegal_characters: [ ]
+illegal-characters: [ ]
