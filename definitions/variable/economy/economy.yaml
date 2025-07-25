@@ -215,6 +215,7 @@
 
 - Energy System Cost|Supply|Operation and Maintenance Cost:
     description: Total supply-side fuel costs. Sum of import & extraction costs for all primary 
+    unit: [billion USD_2010/yr, billion EUR_2020/yr]
       energy carriers and import costs for secondary energy. Should not include taxes & carbon prices. 
 
 - GDP|MER:
