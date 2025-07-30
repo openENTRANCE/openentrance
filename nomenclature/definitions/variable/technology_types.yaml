@@ -1,0 +1,85 @@
+# This list of technologies will replace any occurence of `<Specification>``
+# in a variable-definition yaml file
+
+# All fuels that have the attribute "ccs: True" have two sub-categories
+# "w/ CCS": with a CO2 capture component
+# "w/o CCS": with freely vented CO2 emissions (example "Coal|w/o CCS")
+#
+#   e.g., the power plant capacity "Coal|Supercritical" installed
+#   is described by three variables:
+#   - Capacity|Coal|Supercritical
+#   - Capacity|Coal|Supercritical|w/ CCS
+#   - Capacity|Coal|Supercritical|w/o CCS
+
+<Specification>:
+  CHP: 
+    description: Combined Heat and Power plant
+    ccs: True
+
+  Steam turbine:
+    description: Power plant using a steam cycle for power generation, running on e.g. biomass or coal.
+    ccs: True
+
+  IGCC:
+    description: Integrated Gasification Combined Cycle (IGCC) commonly using coal, petcoke or residual oil to produce syngas which is then used to run a combined cycle
+    ccs: True
+
+  Supercritical:
+    description: Modern Coal/lignite power plants
+    ccs: True
+
+  Flash power plants: 
+    description: Geothermal flash steam power plants
+
+  Organic Ranking Cycle: 
+    description: Geothermal power plants applying an Organic Ranking Cylce (ORC)
+
+  Reservoir: 
+    description: Hydro power reservoir
+
+  Pumped Storage: 
+    description: Hydro power pumped storage
+
+  Run of River: 
+    description: Hydro power Run of River
+
+  CCGT: 
+    description: Combined Cycle Gas Turbine
+    ccs: True
+
+  Fuel cell:
+    description: Fuel cells
+
+  OCGT: 
+    description: Open-Cycle Gas Turbine
+    ccs: True
+
+  Generation II: 
+    description: Nuclear power plant of the second generation
+
+  Generation III: 
+    description: Nuclear power plant of the third generation
+
+  Generation IV: 
+    description: Nuclear power plant of the fourth generation
+
+  SMR reactor: 
+    description: Small and medium sized reactors, with electrical power up to 700MW, or generally less than 300MW per reactor module.
+
+  Wave: 
+    description: Power generation from waves
+
+  Tidal: 
+    description: Power generation using tidal currents
+
+  PV: 
+    description: Solar Photovoltaics
+
+  CSP: 
+    description: Concentrating Solar Power
+
+  Onshore: 
+    description: Wind power onshore
+
+  Offshore: 
+    description: Wind power offshore
