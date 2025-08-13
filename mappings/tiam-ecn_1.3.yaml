@@ -1,0 +1,82 @@
+model: TIAM-ECN 1.3
+native_regions:
+  - ACE: TIAM-ECN 1.3|ACE
+  - AEA: TIAM-ECN 1.3|AEA
+  - AGO: TIAM-ECN 1.3|AGO
+  - ARG: TIAM-ECN 1.3|ARG
+  - ASE: TIAM-ECN 1.3|ASE
+  - ASO: TIAM-ECN 1.3|ASO
+  - AUS: TIAM-ECN 1.3|AUS
+  - AWE: TIAM-ECN 1.3|AWE
+  - BRA: TIAM-ECN 1.3|BRA
+  - CAN: TIAM-ECN 1.3|CAN
+  - CHI: TIAM-ECN 1.3|CHI
+  - CHL: TIAM-ECN 1.3|CHL
+  - COD: TIAM-ECN 1.3|COD
+  - COL: TIAM-ECN 1.3|COL
+  - DZA: TIAM-ECN 1.3|DZA
+  - EEU: TIAM-ECN 1.3|EEU
+  - EGY: TIAM-ECN 1.3|EGY
+  - ETH: TIAM-ECN 1.3|ETH
+  - FSU: TIAM-ECN 1.3|FSU
+  - IND: TIAM-ECN 1.3|IND
+  - JPN: TIAM-ECN 1.3|JPN
+  - KEN: TIAM-ECN 1.3|KEN
+  - LBY: TIAM-ECN 1.3|LBY
+  - MAR: TIAM-ECN 1.3|MAR
+  - MDG: TIAM-ECN 1.3|MDG
+  - MEA: TIAM-ECN 1.3|MEA
+  - MEX: TIAM-ECN 1.3|MEX
+  - NGA: TIAM-ECN 1.3|NGA
+  - ODA: TIAM-ECN 1.3|ODA
+  - OLA: TIAM-ECN 1.3|OLA
+  - SKO: TIAM-ECN 1.3|SKO
+  - TUN: TIAM-ECN 1.3|TUN
+  - USA: TIAM-ECN 1.3|USA
+  - VEN: TIAM-ECN 1.3|VEN
+  - WEU: TIAM-ECN 1.3|WEU
+  - ZAF: TIAM-ECN 1.3|ZAF
+common_regions:
+  - EU27 & UK (*):
+    - EEU
+    - WEU
+  - Europe (excl. Turkey):
+    - EEU
+    - WEU
+  - World:
+    - ACE
+    - AEA
+    - AGO
+    - ARG
+    - ASO
+    - ASE
+    - AUS
+    - AWE
+    - BRA
+    - CAN
+    - CHI
+    - CHL
+    - COD
+    - COL
+    - DZA
+    - EEU
+    - EGY
+    - ETH
+    - FSU
+    - IND
+    - JPN
+    - KEN
+    - LBY
+    - MAR
+    - MDG
+    - MEA
+    - MEX
+    - NGA
+    - ODA
+    - OLA
+    - SKO
+    - TUN
+    - USA
+    - VEN
+    - WEU
+    - ZAF
